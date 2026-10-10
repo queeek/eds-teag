@@ -1,0 +1,938 @@
+{
+  "url": "https://www.thueringerenergie.de/default",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 3600,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 4800,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 6000,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 6024,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 4524,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 25
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#MainContent_liste16185 > li:nth-child(2) > a.shadow",
+      "frames": [
+        {
+          "t": 20236.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20440.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20643.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20846.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".slider-section .controls a.arrow-right",
+      "frames": [
+        {
+          "t": 21859.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22063.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22266,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22468.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#MainContent_Aktuelles23058_ulPosts li.list-entry .commands a",
+      "frames": [
+        {
+          "t": 23477,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23679.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23882.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24085.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".contrast-modus-switch a.icon",
+      "frames": [
+        {
+          "t": 25123,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25339.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25542.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 25746.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#DesktopMenu > ul.level-1 > li.level-1-1 > a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.3s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.3s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "color",
+        "el": "ul.clear-fix.use-entire-width-for-buttons.tabs-3 > li.complex-content.type-card.active > a.shadow > span.label.text-link > span.icon",
+        "y": 269,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.center > div.tab-control.icon-text-align-horizontal.icon-text-align-vertical-at-tablet-view > ul.clear-fix.use-entire-width-for-buttons.tabs-3 > li.complex-content.type-card > a.shadow",
+        "y": 269,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.center > div.tab-control.icon-text-align-horizontal.icon-text-align-vertical-at-tablet-view > ul.clear-fix.use-entire-width-for-buttons.tabs-3 > li.complex-content.type-card.active > a.shadow",
+        "y": 269,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.clear-fix.use-entire-width-for-buttons.tabs-3 > li.complex-content.type-card > a.shadow > span.label.text-link > span.icon",
+        "y": 269,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.controls.slider-pager.auto-switch > div.group > ul > li > a.bullet",
+        "y": 191,
+        "dur": "0.23s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.controls.slider-pager.auto-switch > div.group > ul > li.active > a.bullet",
+        "y": 6421,
+        "dur": "0.23s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.clear-fix.use-entire-width-for-buttons.tabs-3 > li.complex-content.type-card.active > a.shadow > span.label.text-link > span.icon",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.clear-fix > li.entry > span > span.entries > a.hilite",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.clear-fix > li.entry > span > span.entries > a.hilite",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.site.home.platform-other > div > ul > li.widget-1 > a.shadow",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.container > div.icon-list > ul.clear-fix > li.entry.with-oversized-link > a.hilite",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.container > div.icon-list > ul.clear-fix > li.entry > a.hilite",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.site.home.platform-other > div > ul > li.widget-2 > a.shadow",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "ul.clear-fix > li.entry > span > span.entries > a.hilite",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-image",
+        "el": "div.float-right.columns-2-3.consumption-fields-container > div.clear-fix > div.float-right > div.clear.form-commands-container.active > a.link-button.blue.full-size",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-image",
+        "el": "div.container > div.update-panel > div.call-back.form > section.clear-fix > a.link-button.blue.hover-dark-blue",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-image",
+        "el": "div.center > section > div.container > div.commands > a.link-button.blue.dynamic-size",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-image",
+        "el": "div.center > div.newsletter > div > div.clear-fix > a.link-button.blue.hover-dark-blue",
+        "y": 0,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-1.nav-is-fixed > form > div.site.home.platform-other > header > div.section-2.clear-fix.combined-header",
+        "y": 400
+      },
+      {
+        "added": [
+          "nav-is-fixed"
+        ],
+        "el": "html > body.page-1.nav-is-fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "div > section.page-content-section.product-teasers-modul > div.center > ul.clear-fix.list.list-style-1 > li.box.product-teaser.uses-startUp-animations",
+        "y": 1200
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "div > section.page-content-section.product-teasers-modul > div.center > ul.clear-fix.list.list-style-1 > li.box.product-teaser.uses-startUp-animations",
+        "y": 1200
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-1.nav-is-fixed > form > div.site.home.platform-other > header > div.section-2.clear-fix.seperated-header",
+        "y": 1200
+      },
+      {
+        "added": [
+          "video-container-cutted"
+        ],
+        "el": "div.dynamic-list > ul.boxes-unsized.posts.clear-fix > li.column > ul > li.Instagram-post-teaser.fbpost-post.video-post",
+        "y": 3200
+      },
+      {
+        "added": [
+          "collapsed"
+        ],
+        "el": "li.column > ul > li.Instagram-post-teaser.fbpost-post.video-post > div.container > div.video.clear-fix.collapsed",
+        "y": 3200
+      },
+      {
+        "added": [
+          "video-container-cutted"
+        ],
+        "el": "div.dynamic-list > ul.boxes-unsized.posts.clear-fix > li.column > ul > li.Instagram-post-teaser.fbpost-post.video-post",
+        "y": 3200
+      },
+      {
+        "added": [
+          "collapsed"
+        ],
+        "el": "li.column > ul > li.Instagram-post-teaser.fbpost-post.video-post > div.container > div.video.clear-fix.collapsed",
+        "y": 3200
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div > section.page-content-section.product-teasers-modul > div.center > ul.clear-fix.list.list-style-1 > li.box.product-teaser.uses-startUp-animations",
+        "y": 6024
+      },
+      {
+        "added": [
+          "animated"
+        ],
+        "el": "div > section.page-content-section.product-teasers-modul > div.center > ul.clear-fix.list.list-style-1 > li.box.product-teaser.uses-startUp-animations",
+        "y": 6024
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-1.nav-is-fixed > form > div.site.home.platform-other > header > div.section-2.clear-fix.combined-header",
+        "y": 269
+      },
+      {
+        "added": [
+          "nav-is-fixed"
+        ],
+        "el": "html > body.page-1.nav-is-fixed",
+        "y": 269
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-1.nav-is-fixed > form > div.site.home.platform-other > header > div.section-2.clear-fix.seperated-header",
+        "y": 269
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "section.slider-section.extra-wide.alternative-background-color > div.center > div.tab-control.icon-text-align-horizontal.icon-text-align-vertical-at-tablet-view > ul.clear-fix.use-entire-width-for-buttons.tabs-3 > li.complex-content.type-card.active",
+        "y": 269
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "section.slider-section.extra-wide.alternative-background-color > div.center > div.tab-control.icon-text-align-horizontal.icon-text-align-vertical-at-tablet-view > ul.clear-fix.use-entire-width-for-buttons.tabs-3 > li.complex-content.type-card.active",
+        "y": 269
+      },
+      {
+        "added": [
+          "previous-is-active"
+        ],
+        "el": "section.slider-section.extra-wide.alternative-background-color > div.center > div.tab-control.icon-text-align-horizontal.icon-text-align-vertical-at-tablet-view > ul.clear-fix.use-entire-width-for-buttons.tabs-3 > li.type-card.previous-is-active",
+        "y": 269
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.update-panel > div.clear-fix.left-content > div.float-left.columns-1-3.relative-content > div.clear-fix.plz-city-container > div.clear-fix.form-field.auto-complete-field",
+        "y": 191
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.slider > div.controls.slider-pager.auto-switch > div.group > ul > li.active",
+        "y": 6421
+      },
+      {
+        "added": [
+          "expanded"
+        ],
+        "el": "li.column > ul > li.Instagram-post-teaser.fbpost-post.carousel-post > div.container > div.post-content.expanded",
+        "y": 6421
+      },
+      {
+        "added": [
+          "icon-arrow-up-pos"
+        ],
+        "el": "ul > li.Instagram-post-teaser.fbpost-post.carousel-post > div.container > div.commands > a.icon.icon-arrow-up-pos",
+        "y": 6421
+      },
+      {
+        "added": [
+          "icon-arrow-up-pos"
+        ],
+        "el": "ul > li.Instagram-post-teaser.fbpost-post.carousel-post > div.container > div.commands > a.icon.icon-arrow-up-pos",
+        "y": 6421
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div > div.contrast-modus-switch > div > div.clear-fix.top > p.float-left.check-box-extra.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "user-prefers-more-contrast",
+          "setting-userPrefersMoreContrast-by-user"
+        ],
+        "el": "html.user-prefers-more-contrast.setting-userPrefersMoreContrast-by-user",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163784-70"
+        ],
+        "el": "div.float-left.columns-1-3.relative-content > div.clear > ul.linklist > li > a.bold.filter-settings-open-button.i1791452139798-66",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163784-71"
+        ],
+        "el": "div.float-right > div.clear.settings-link-container > ul.linklist > li > a.bold.filter-settings-open-button.i1791452139799-67",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163787-72"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-1 > ul > li.active > a.day-link.single.i1791452163787-72",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163788-73"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-1 > ul > li > a.day-link.single.i1791452163788-73",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163788-74"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-1 > ul > li > a.day-link.single.i1791452163788-74",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163789-75"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-2 > ul > li > a.day-link.single.i1791452163789-75",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163789-76"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-2 > ul > li > a.day-link.single.i1791452163789-76",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163789-77"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-2 > ul > li > a.day-link.more.i1791452163789-77",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163790-78"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-2 > ul > li > a.day-link.single.i1791452163790-78",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163790-79"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-2 > ul > li > a.day-link.single.i1791452163790-79",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163790-80"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-2 > ul > li > a.day-link.single.i1791452163790-80",
+        "y": 0
+      },
+      {
+        "added": [
+          "i1791452163791-81"
+        ],
+        "el": "ul.list-quartals.clear-fix.months_1-2 > li.month.month-index-2 > ul > li > a.day-link.more.i1791452163791-81",
+        "y": 0
+      },
+      {
+        "added": [
+          "no-more-months"
+        ],
+        "el": "div.panel.shadow > div.update-panel-for-timeline > ul.list-quartals.clear-fix.months_1-2 > li.navigation-button.button-back > a.aspNetDisabled.no-more-months",
+        "y": 0
+      },
+      {
+        "added": [
+          "no-more-months"
+        ],
+        "el": "div.panel.shadow > div.update-panel-for-timeline > ul.list-quartals.clear-fix.months_1-2 > li.navigation-button.button-next > a.aspNetDisabled.no-more-months",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.center > div.container.clear-fix.items-4 > div.update-panel > div.search.not-smartphone-mode > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "ul.level-1.clear-fix > li.search-container > div.update-panel > div.search.collapsed > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "section > div.update-panel > div > div.form-fields.clear-fix > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "section > div.update-panel > div > div.form-fields.clear-fix > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "section > div.update-panel > div > div.form-fields.clear-fix > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "section > div.update-panel > div > div.form-fields.clear-fix > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "section > div.update-panel > div > div.form-fields.clear-fix > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "section > div.update-panel > div > div.form-fields.clear-fix > textarea.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.update-panel > div > div.form-fields.clear-fix > div.captcha-box.teag > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.clear-fix.left-content > div.float-left.columns-1-3.relative-content > div.clear-fix.plz-city-container > div.clear-fix.form-field.auto-complete-field > input.plz-city-field.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.clear-fix > div.float-right > div.form-field.required-field.unity-field > span.flex-box > input.consumption-field.consumption-ht.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.clear-fix > div.float-right > div.form-field.required-field.unity-field > span.flex-box > input.consumption-field.consumption-ht.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.update-panel > div.call-back.form > section.clear-fix > div.name-wrapper.clear-fix > input.float-left.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.update-panel > div.call-back.form > section.clear-fix > div.name-wrapper.clear-fix > input.float-right.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.update-panel > div.call-back.form > section.clear-fix > span.flex-box.with-extender > input.calendar-extender-input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.container > div.update-panel > div.call-back.form > section.clear-fix > input.watermarked.watermarked",
+        "y": 0
+      },
+      {
+        "added": [
+          "watermarked",
+          "watermarked"
+        ],
+        "el": "div.center > div.newsletter > div > div.clear-fix > input.watermarked.watermarked",
+        "y": 0
+      }
+    ]
+  }
+}

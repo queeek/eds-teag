@@ -1,0 +1,791 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-08T07:56:10Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.29.1"
+  },
+  "name": "TEAG Thüringer Energie — current state",
+  "extensions": {
+    "componentStyle": {
+      "buttons": "flat cyan #0ba2e3 primary, white-outline on purple bands, purple text links",
+      "cards": "white on light, radius 4–12px, shadow rgba(0,0,0,.2) 0 0 10px",
+      "header": "two-tier: utility bar + purple mega-menu",
+      "footer": "purple contact band + light legal row"
+    },
+    "motifs": {
+      "radius": {
+        "mode": "12px",
+        "areaMode": "4px",
+        "pill": "50%"
+      },
+      "shadows": [
+        "rgba(0,0,0,0.2) 0 0 10px 0",
+        "rgba(0,0,0,0.2) 0 0 15px 0",
+        "rgba(0,0,0,0.65) 0 20px 70px -35px"
+      ],
+      "gradients": [
+        "linear-gradient(to right, #0c669e, #0ba2e3)"
+      ],
+      "patterns": [
+        "purple CTA band with mascot",
+        "boxed shadow cards",
+        "icon cards",
+        "numbered steps with dotted connectors",
+        "photo hero with purple title box",
+        "fixed contact side tab"
+      ]
+    },
+    "voice": {
+      "language": "de-DE",
+      "register": "brand",
+      "heroHeadline": "TEAG-Strom plus Smartwatch",
+      "ctaSamples": [
+        "Preisvorteil berechnen",
+        "Mehr erfahren",
+        "Jetzt wechseln"
+      ]
+    },
+    "fonts": {
+      "stack": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, Sans-Serif",
+      "selfHosted": [
+        "Noto Sans 400/700 normal+italic (OFL)",
+        "teag-2017 icon font",
+        "FontAwesome 4.7"
+      ],
+      "dir": "stardust/current/assets/fonts/"
+    },
+    "modules": [
+      {
+        "id": "candidate-site-header",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "image"
+          },
+          {
+            "name": "utility-links",
+            "type": "link[]"
+          },
+          {
+            "name": "main-nav",
+            "type": "nav"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "*",
+            "selector": "#PageHeader"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "headings",
+          "ctas",
+          "backgrounds"
+        ]
+      },
+      {
+        "id": "candidate-site-footer",
+        "slots": [
+          {
+            "name": "contact",
+            "type": "text"
+          },
+          {
+            "name": "social",
+            "type": "link[]"
+          },
+          {
+            "name": "newsletter",
+            "type": "form"
+          },
+          {
+            "name": "legal-links",
+            "type": "link[]"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "*",
+            "selector": "#PageFooter"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "ctas"
+        ]
+      },
+      {
+        "id": "candidate-tariff-calculator",
+        "slots": [
+          {
+            "name": "tabs",
+            "type": "text[]"
+          },
+          {
+            "name": "plz",
+            "type": "field"
+          },
+          {
+            "name": "usage",
+            "type": "field"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife-teag-strom-easie"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "forms",
+          "ctas"
+        ]
+      },
+      {
+        "id": "candidate-cta-band-mascot",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text"
+          },
+          {
+            "name": "cta",
+            "type": "link"
+          },
+          {
+            "name": "mascot",
+            "type": "image"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife-teag-strom-easie"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "headings",
+          "ctas",
+          "backgrounds"
+        ]
+      },
+      {
+        "id": "candidate-three-steps",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text"
+          },
+          {
+            "name": "steps",
+            "type": "text[3]"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife-teag-strom-easie"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "headings"
+        ]
+      },
+      {
+        "id": "candidate-service-cards",
+        "slots": [
+          {
+            "name": "cards",
+            "type": "card[3]"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "headings",
+          "ctas"
+        ]
+      },
+      {
+        "id": "candidate-icon-cards",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text"
+          },
+          {
+            "name": "cards",
+            "type": "card[3]"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "headings"
+        ]
+      },
+      {
+        "id": "candidate-photo-hero-titlebox",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "title",
+            "type": "text"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "privatkunden-strom-stromtarife"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife-teag-strom-easie"
+          },
+          {
+            "slug": "privatkunden-strom-ersatzversorgung"
+          },
+          {
+            "slug": "privatkunden-strom-haus-baustromanschluss"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "backgrounds",
+          "headings"
+        ]
+      },
+      {
+        "id": "candidate-legal-downloads",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text"
+          },
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "pdfs",
+            "type": "link[]"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "privatkunden-strom-stromtarife-teag-strom-easie"
+          },
+          {
+            "slug": "privatkunden-strom-ersatzversorgung"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "headings",
+          "ctas"
+        ]
+      },
+      {
+        "id": "candidate-faq-accordion",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text"
+          },
+          {
+            "name": "items",
+            "type": "qa[]"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "privatkunden-strom-stromtarife"
+          },
+          {
+            "slug": "privatkunden-strom-ersatzversorgung"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "headings"
+        ]
+      },
+      {
+        "id": "candidate-photo-teasers",
+        "slots": [
+          {
+            "name": "cards",
+            "type": "card[]"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index"
+          },
+          {
+            "slug": "privatkunden-strom-stromtarife"
+          },
+          {
+            "slug": "privatkunden-strom-ersatzversorgung"
+          },
+          {
+            "slug": "ueber-uns-unternehmen"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "medium",
+        "signals": [
+          "ctas",
+          "headings"
+        ]
+      },
+      {
+        "id": "candidate-breadcrumb",
+        "slots": [
+          {
+            "name": "trail",
+            "type": "link[]"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "impressum"
+          },
+          {
+            "slug": "datenschutz"
+          },
+          {
+            "slug": "privatkunden-strom-haus-baustromanschluss"
+          },
+          {
+            "slug": "privatkunden-strom-ersatzversorgung"
+          },
+          {
+            "slug": "ueber-uns-unternehmen"
+          }
+        ],
+        "status": "candidate",
+        "confidence": "high",
+        "signals": [
+          "ctas"
+        ]
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1420px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "max-width",
+          "selector": "#Content > section.slider-section.extra-wide > div.center.full-size",
+          "pages": [
+            "https://www.thueringerenergie.de/default",
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+            "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+            "https://www.thueringerenergie.de/ueber_uns/unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1520,
+          "via": "max-width",
+          "selector": "section.page-content-section.product-teasers-modul > div.center > ul.clear-fix.list > li.box.product-teaser",
+          "pages": [
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+            "https://www.thueringerenergie.de/ueber_uns/unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1420,
+          "via": "other",
+          "selector": "#Content > section.slider-section.extra-wide > div.center",
+          "pages": [
+            "https://www.thueringerenergie.de/default",
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+            "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+            "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+            "https://www.thueringerenergie.de/impressum"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 665,
+          "via": "fixed",
+          "selector": "div.columns-1 > section.text-modul.default > section.image-remove-margin > figure.modul-image",
+          "pages": [
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 642,
+          "via": "fixed",
+          "selector": "div.columns-1 > section.text-modul.default > div > table",
+          "pages": [
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 501,
+          "via": "fixed",
+          "selector": "div.center.clear-fix > div.columns-1 > section.text-modul.default > figure.modul-image",
+          "pages": [
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+            "https://www.thueringerenergie.de/ueber_uns/unternehmen"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 395,
+          "via": "fixed",
+          "selector": "table > thead > tr > th.head",
+          "pages": [
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+            "https://www.thueringerenergie.de/impressum"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 339,
+          "via": "other",
+          "selector": "div.carousel.clear-fix > div.slider > ul.clear-fix.slides-8 > li",
+          "pages": [
+            "https://www.thueringerenergie.de/default"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 300,
+          "via": "other",
+          "selector": "li.Instagram-post-teaser.fbpost-post > div.container > div.post-content > p",
+          "pages": [
+            "https://www.thueringerenergie.de/default",
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 264,
+          "via": "fixed",
+          "selector": "figcaption > div.container > div.link > a.link-button",
+          "pages": [
+            "https://www.thueringerenergie.de/privatkunden/strom/stromtarife"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 0,
+          "selector": "#MainContent_h1Alternative",
+          "px": null
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 1,
+          "selector": "#Content > section.slider-section.extra-wide",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 2,
+          "selector": "#Content > section.page-content-section.alternative-background-color",
+          "px": null
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 3,
+          "selector": "#Content > section.page-content-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 4,
+          "selector": "#Content > section.page-content-section.product-teasers-modul",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 5,
+          "selector": "#Content > section.page-content-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 6,
+          "selector": "#Content > section.page-content-section.alternative-background-color",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 7,
+          "selector": "#Content > section.page-content-section.teaser-modul",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 8,
+          "selector": "#Content > section.themen-section.extra-wide",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 9,
+          "selector": "#Content > section.page-foot-section.aktuelles",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 10,
+          "selector": "#Content > section.page-foot-section.aktuelles",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/default",
+          "section": 11,
+          "selector": "#Content > section.veranstaltungen.extra-wide",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 0,
+          "selector": "#MainContent_contentheadertop",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 1,
+          "selector": "#Content > section.page-content-section.modul-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 2,
+          "selector": "#Content > section.page-content-section.product-teasers-modul",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 3,
+          "selector": "#Content > section.page-content-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 4,
+          "selector": "#Content > section.page-content-section.channel-products-modul",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 5,
+          "selector": "#Content > section.page-content-section.teaser-modul",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 6,
+          "selector": "#Content > section.page-content-section.channel-products-modul",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 7,
+          "selector": "#Content > section.page-content-section.product-teasers-modul",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 8,
+          "selector": "#Content > section.page-content-section.product-teasers-modul",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 9,
+          "selector": "#Content > section.page-content-section.product-teasers-modul",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 10,
+          "selector": "#Content > section.page-content-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 11,
+          "selector": "#Content > section.page-content-section.teaser-modul",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 12,
+          "selector": "#Content > section.page-content-section.product-teasers-modul",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 13,
+          "selector": "#Content > section.page-content-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 14,
+          "selector": "#Content > section.page-content-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 15,
+          "selector": "#Content > section.page-content-section",
+          "px": null
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "section": 16,
+          "selector": "#Content > section.page-content-section.alternative-background-color",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+          "section": 0,
+          "selector": "#MainContent_contentheadertop",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+          "section": 1,
+          "selector": "#Content > article > section.page-meta-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+          "section": 2,
+          "selector": "#Content > article > section.page-content-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+          "section": 0,
+          "selector": "#MainContent_h1Alternative",
+          "px": null
+        },
+        {
+          "url": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+          "section": 1,
+          "selector": "#Content > section.page-content-section.product-teasers-modul",
+          "px": 1920
+        },
+        {
+          "url": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+          "section": 2,
+          "selector": "#Content > section.page-meta-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+          "section": 3,
+          "selector": "#Content > section.page-content-section.channel-modul",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/impressum",
+          "section": 0,
+          "selector": "#MainContent_h1Alternative",
+          "px": null
+        },
+        {
+          "url": "https://www.thueringerenergie.de/impressum",
+          "section": 1,
+          "selector": "#Content > article > section.page-meta-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/impressum",
+          "section": 2,
+          "selector": "#Content > article > section.page-content-section",
+          "px": 1420
+        },
+        {
+          "url": "https://www.thueringerenergie.de/impressum",
+          "section": 3,
+          "selector": "#Content > article > section.page-content-section.with-section-seperator",
+          "px": 1420
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-08T07:57:01.266Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.thueringerenergie.de/default",
+          "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+          "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+          "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+          "https://www.thueringerenergie.de/impressum"
+        ]
+      }
+    }
+  }
+}

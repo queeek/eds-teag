@@ -1,0 +1,641 @@
+{
+  "url": "http://localhost:8791/privatkunden-strom-stromtarife-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 3600,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 4800,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 6000,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 7200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 8400,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 9600,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 9685,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 8185,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 31
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#MainContent_Faqs1_ListContainer li.entry:first-child p.topic",
+      "frames": [
+        {
+          "t": 13110,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13313.799999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13517.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13720.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#MainContent_Faqs1_pnlFilter .category-label a",
+      "frames": [
+        {
+          "t": 14731.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14933.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15136.799999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15340.299999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#MainContent_CPMList15997 > li:first-child a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h4.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.icon.icon-teag-arrow-right-pos",
+            "transform": "none",
+            "color": "rgb(135, 13, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h4.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.icon.icon-teag-arrow-right-pos",
+            "transform": "none",
+            "color": "rgb(135, 13, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#PCS26439",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.link-button.blue",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.link-button.blue",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div > div.filter.drop-down-list.categories > div.category-label > a > span.fa.fa-chevron-down.rotate180",
+        "y": 9188,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "nav-is-fixed"
+        ],
+        "el": "html > body.site.nav-is-fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "html > body.site.nav-is-fixed > header > div.section-2.combined-header.fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "html > body.site.nav-is-fixed > main > div.scroll-up.visible",
+        "y": 1200
+      },
+      {
+        "added": [
+          "nav-is-fixed"
+        ],
+        "el": "html > body.site.nav-is-fixed",
+        "y": 9337
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "html > body.site.nav-is-fixed > header > div.section-2.combined-header.fixed",
+        "y": 9337
+      },
+      {
+        "added": [
+          "visible"
+        ],
+        "el": "html > body.site.nav-is-fixed > main > div.scroll-up.visible",
+        "y": 9337
+      },
+      {
+        "added": [
+          "opened",
+          "read"
+        ],
+        "el": "section.default > div.module-faq.filter_drop-down-list_modul > div > ul.list.akkordeon-list.auto-close-opened-entries > li.entry.opened.read",
+        "y": 9337
+      },
+      {
+        "added": [
+          "read"
+        ],
+        "el": "section.default > div.module-faq.filter_drop-down-list_modul > div > ul.list.akkordeon-list.auto-close-opened-entries > li.entry.opened.read",
+        "y": 9337
+      },
+      {
+        "added": [
+          "icon-teag-arrow-up-pos"
+        ],
+        "el": "div > ul.list.akkordeon-list.auto-close-opened-entries > li.entry.opened.read > p.topic > span.icon.icon-teag-arrow-up-pos",
+        "y": 9337
+      },
+      {
+        "added": [
+          "icon-teag-arrow-up-pos"
+        ],
+        "el": "div > ul.list.akkordeon-list.auto-close-opened-entries > li.entry.opened.read > p.topic > span.icon.icon-teag-arrow-up-pos",
+        "y": 9337
+      },
+      {
+        "added": [
+          "opened"
+        ],
+        "el": "div.module-faq.filter_drop-down-list_modul > div.service-row.clear-fix.filters-3 > div.float-left.filter-1 > div > div.filter.drop-down-list.categories",
+        "y": 9188
+      },
+      {
+        "added": [
+          "rotate180",
+          "fa-chevron-up"
+        ],
+        "el": "div > div.filter.drop-down-list.categories > div.category-label > a > span.fa.fa-chevron-down.rotate180",
+        "y": 9188
+      },
+      {
+        "added": [
+          "fa-chevron-up"
+        ],
+        "el": "div > div.filter.drop-down-list.categories > div.category-label > a > span.fa.fa-chevron-down.rotate180",
+        "y": 9188
+      }
+    ]
+  }
+}

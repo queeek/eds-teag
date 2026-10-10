@@ -1,0 +1,186 @@
+/* channel-cards — values from stardust/prototypes/css/ueber-uns-unternehmen.css + canon.css
+   (lift: stardust/replica/lift/ueber-uns-unternehmen.md § Channel modul). Source:
+   section.channel-modul { padding: 20px 4vw } + .center { margin: 20px auto } + an empty
+   header.extra-margin-bottom { margin-bottom: 64px } (collapses with the .center margin) +
+   ul.boxes.columns-3 { display: flex; gap: 80px } of li.box.image-teaser cards (links as text).
+   Mobile first (<= 768: one column, gap 60px, ul padding 15px 10px 15px 5px). */
+
+/* main > .section > div { margin: 20px auto } — the empty module header adds 44px */
+main .section.channel-cards-container > .channel-cards-wrapper {
+  margin-top: 64px;
+}
+
+/* ul.boxes */
+.channel-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: 0;
+  padding: 15px 10px 15px 5px;
+  font-size: 16px;
+  box-sizing: content-box;
+}
+
+/* source ul.clear-fix::after is a 0-high flex item = one trailing row gap inside the list */
+.channel-cards::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* li.box.image-teaser (no shadow, white) */
+.channel-cards-card {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  color: #000;
+  background-color: #fff;
+  box-sizing: content-box;
+}
+
+.channel-cards-figure {
+  display: block;
+  position: relative;
+  margin: 0;
+}
+
+.channel-cards-figure picture {
+  display: block;
+}
+
+/* img: block 100%, cover-fitted 1.64 (identical on live), card shadow */
+.channel-cards-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.64;
+  object-fit: cover;
+  margin: 0;
+  box-shadow: 0 20px 70px -35px rgb(0 0 0 / 65%), 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+/* figcaption { padding: 20px 20px 0 (<= 768) / 30px 30px 0 } */
+.channel-cards-figure figcaption {
+  display: block;
+  position: relative;
+  padding: 20px 20px 0;
+  color: #000;
+}
+
+/* .picture-credits { top: -22px; right: 0 } */
+.channel-cards-credits {
+  position: absolute;
+  top: -22px;
+  right: 0;
+  padding: 0;
+  font-size: 0.8em;
+  line-height: 1.6;
+  white-space: nowrap;
+  color: #000;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+/* source: <span class="fa fa-copyright"></span> (FontAwesome glyph box 21px + padding-right 5px)
+   before the text span (padding-right 5px) — the text box measures as on live (unit-geometry) */
+.channel-cards-credits::before {
+  content: '\00a9';
+  display: inline-block;
+  width: 21px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.channel-cards-credits p {
+  display: inline;
+  margin: 0;
+  padding-right: 5px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* h3 { font-size: 1.3em; line-height: 1.2; margin-bottom: 30px } */
+.channel-cards-body h3 {
+  margin: 0 0 30px;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* .description { margin-bottom: 20px } > p { margin-bottom: 16px } */
+.channel-cards-body {
+  margin-bottom: 20px;
+}
+
+.channel-cards-body p {
+  margin: 0 0 16px;
+}
+
+/* li.box.image-teaser > a: the whole card is the link, plain black text */
+.channel-cards-card a.channel-cards-card-link:any-link {
+  display: block;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* .footer .link { font-weight: 700 } — links as text, the link button is not rendered */
+.channel-cards-link {
+  font-weight: 700;
+}
+
+/* span.link-text is inline: the label box hugs glyph + text (unit-geometry) */
+.channel-cards-link p {
+  display: inline;
+  margin: 0;
+}
+
+/* teag-2017 glyph "c" = icon-teag-arrow-right-pos, purple, 6px before the text */
+.channel-cards-link > *::before {
+  content: 'c';
+  display: inline-block;
+  margin-right: 6px;
+  font-family: "teag-2017", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--c-primary);
+}
+
+.channel-cards-card a.channel-cards-card-link:hover .channel-cards-link {
+  color: var(--c-primary);
+}
+
+@media (width >= 415px) {
+  .channel-cards {
+    gap: 65px;
+  }
+}
+
+/* 769-1023: two columns, gap 70px, no list padding */
+@media (width >= 769px) {
+  .channel-cards {
+    gap: 70px;
+    padding: 0;
+  }
+
+  .channel-cards-card {
+    width: calc(100% / 2 - 70px / 2);
+  }
+
+  .channel-cards-figure figcaption {
+    padding: 30px 30px 0;
+  }
+}
+
+/* >= 1024: three columns, gap 80px (li 388.27px @1440) */
+@media (width >= 1024px) {
+  .channel-cards {
+    gap: 80px;
+  }
+
+  .channel-cards-card {
+    width: calc(100% / 3 - 2 * 80px / 3);
+  }
+}

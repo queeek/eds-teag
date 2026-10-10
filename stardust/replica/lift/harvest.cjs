@@ -1,0 +1,9 @@
+// harvest.cjs — download every image rendition the captured index page references (srcset candidates of <img>/<source>) into stardust/prototypes/assets/index/, keeping file names; writes a url→local map
+const fs=require('fs'); const path=require('path'); const {execFileSync}=require('child_process'); const cheerio=require('/app/node_modules/cheerio');
+const $=cheerio.load(fs.readFileSync('stardust/current/pages/index.html','utf8')); const host='https://www.thueringerenergie.de';
+const out='stardust/prototypes/assets/index'; fs.mkdirSync(out,{recursive:true}); const map={}; const urls=new Set();
+const add=u=>{ if(!u||/^data:/.test(u)) return; u=u.trim(); if(u.startsWith('/')) u=host+u; if(!u.startsWith(host)) return; urls.add(u); };
+$('img, source').each((i,el)=>{ const a=el.attribs; add(a.src); add(a['data-src']); (a.srcset||a['data-srcset']||'').split(',').forEach(c=>add(c.trim().split(/\s+/)[0])); });
+const only1x=process.argv.includes('--1x');
+for(const u of urls){ if(only1x && /@[23]\.(png|jpg)$/.test(u)) continue; let name=decodeURIComponent(u.split('/').pop()); if(!/\.[a-z0-9]{3,4}$/i.test(name)) name+= u.includes('/Instagram/')?'.jpg':'.jpg'; const dir=u.includes('/SocialMediaFramework/')?(u.includes('/Instagram/')?'ig':'li'):(u.includes('/Site/')?'site':'img'); fs.mkdirSync(path.join(out,dir),{recursive:true}); const local=path.join(out,dir,name); if(!fs.existsSync(local)||fs.statSync(local).size===0){ try{ execFileSync('curl',['-sL','--max-time','60','-A','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36','-o',local,u]); }catch(e){ console.error('fail',u); } } map[u.replace(host,'')]='assets/index/'+dir+'/'+name; }
+fs.writeFileSync('stardust/replica/lift/index-asset-map.json', JSON.stringify(map,null,1)); console.log('files', Object.keys(map).length);

@@ -1,0 +1,334 @@
+{
+  "source": "http://localhost:8791/impressum-proposed.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "page-meta-section",
+      "items": [
+        {
+          "role": "cta",
+          "order": 0,
+          "text": "Startseite",
+          "href": "/Default.aspx"
+        },
+        {
+          "role": "cta",
+          "order": 1,
+          "text": "Impressum",
+          "href": "#"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 1,
+      "repeats": []
+    },
+    {
+      "section": "page-content-section",
+      "items": [
+        {
+          "role": "body",
+          "order": 0,
+          "text": "TEAG Thüringer Energie AG Schwerborner Straße 30 99087 Erfurt Telefon 0361 652-0 Fax 0361 652-3490"
+        },
+        {
+          "role": "cta",
+          "order": 1,
+          "text": "info@teag.de",
+          "href": "mailto:info@teag.de"
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Bitte schicken Sie über unsere Funktionspostfächer info@teag.de und presse@teag.de an uns! Aus Datenschutzgründen können persönliche Unterlagen über diesen Weg nicht berücksichtigt werden bzw. werden gelöscht. Für Online-Bewerbungen nutzen Sie ganz einfach unsere Karriere-Seiten oder direkt unseren Stellenmarkt."
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "keine Initiativbewerbungen"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Ihre Bewerbung - Werden Sie Teil unseres Teams!"
+        },
+        {
+          "role": "cta",
+          "order": 5,
+          "text": "Unsere Stellenangebote",
+          "href": "https://www.thueringerenergie.de/Ueber_uns/Karriere/Stellenangebote/TEAG"
+        },
+        {
+          "role": "cta",
+          "order": 6,
+          "text": "Formular für Ihre Initiativbewerbungen",
+          "href": "https://recruitingapp-5272.de.umantis.com/Vacancies/InitiativeApplication/1"
+        },
+        {
+          "role": "body",
+          "order": 7,
+          "text": "können Sie mehr über die Karriere-Möglichkeiten bei TEAG und unseren Tochtergesellschaften erfahren."
+        },
+        {
+          "role": "cta",
+          "order": 8,
+          "text": "Hier",
+          "href": "https://www.thueringerenergie.de/Ueber_uns/Karriere"
+        },
+        {
+          "role": "body",
+          "order": 9,
+          "text": "Kontakt Kundenservice"
+        },
+        {
+          "role": "body",
+          "order": 10,
+          "text": "Telefonnummer: 03641-8171111 Mail:"
+        },
+        {
+          "role": "cta",
+          "order": 11,
+          "text": "Kundenservice@teag.de",
+          "href": "mailto:Kundenservice@teag.de"
+        },
+        {
+          "role": "body",
+          "order": 12,
+          "text": "Redaktion TEAG-Website"
+        },
+        {
+          "role": "cta",
+          "order": 13,
+          "text": "kommunikation@teag.de",
+          "href": "mailto:kommunikation@teag.de?subject=von%20Impressum-Seite"
+        },
+        {
+          "role": "heading",
+          "order": 14,
+          "text": "Verantwortlich im presserechtlichen Sinne gemäß § 18 Abs. 2 Medienstaatsvertrag (MStV)"
+        },
+        {
+          "role": "body",
+          "order": 15,
+          "text": "TEAG Thüringer Energie AG Schwerborner Straße 30 99087 Erfurt Geschäftsbereich Unternehmensentwicklung/Kommunikation Dr. Matthias Sturm"
+        },
+        {
+          "role": "cta",
+          "order": 16,
+          "text": "kommunikation@teag.de",
+          "href": "mailto:kommunikation@teag.de"
+        },
+        {
+          "role": "heading",
+          "order": 17,
+          "text": "Beratung, Konzeption und Realisierung"
+        },
+        {
+          "role": "body",
+          "order": 18,
+          "text": "trurnit Digital GmbH Balanstraße 73/Haus 31A 81541 München"
+        },
+        {
+          "role": "cta",
+          "order": 19,
+          "text": "info@trurnit.de",
+          "href": "mailto:info@trurnit.de"
+        },
+        {
+          "role": "cta",
+          "order": 20,
+          "text": "www.trurnit.de",
+          "href": "http://www.trurnit.de"
+        },
+        {
+          "role": "heading",
+          "order": 21,
+          "text": "Bildnachweise"
+        },
+        {
+          "role": "body",
+          "order": 22,
+          "text": "Die auf verwendeten Bilder stammen aus folgenden Quellen:"
+        },
+        {
+          "role": "cta",
+          "order": 23,
+          "text": "www.thueringerenergie.de",
+          "href": "http://www.thueringerenergie.de"
+        },
+        {
+          "role": "cta",
+          "order": 24,
+          "text": "Zu den Bildnachweisen",
+          "href": "/Impressum_Bildnachweise.aspx"
+        },
+        {
+          "role": "body",
+          "order": 25,
+          "text": "Vorsitzender des Aufsichtsrats"
+        },
+        {
+          "role": "body",
+          "order": 26,
+          "text": "Dr. Andreas Cerbe"
+        },
+        {
+          "role": "heading",
+          "order": 27,
+          "text": "Vorstand"
+        },
+        {
+          "role": "body",
+          "order": 28,
+          "text": "Stefan Reindl (Vorstandsvorsitzender) Dr. Andreas Roß Dr. Christian Thewißen"
+        },
+        {
+          "role": "heading",
+          "order": 29,
+          "text": "Handelsregister"
+        },
+        {
+          "role": "body",
+          "order": 30,
+          "text": "Handelsregister Erfurt HRB 502 044"
+        },
+        {
+          "role": "body",
+          "order": 31,
+          "text": "Registergericht Jena"
+        },
+        {
+          "role": "heading",
+          "order": 32,
+          "text": "Umsatzsteuer-Identifikationsnummer"
+        },
+        {
+          "role": "body",
+          "order": 33,
+          "text": "DE 258057295"
+        },
+        {
+          "role": "heading",
+          "order": 34,
+          "text": "Zuständige Energieaufsichtsbehörde"
+        },
+        {
+          "role": "body",
+          "order": 35,
+          "text": "Thüringer Ministerium für Umwelt, Energie und Naturschutz Beethovenstraße 3 99096 Erfurt"
+        },
+        {
+          "role": "heading",
+          "order": 36,
+          "text": "Haftungsbeschränkung"
+        },
+        {
+          "role": "body",
+          "order": 37,
+          "text": "Die Inhalte wurden von der TEAG Thüringer Energie AG sorgfältig recherchiert. Dennoch wird keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der Daten übernommen. Schadensersatzansprüche gegen die TEAG Thüringer Energie AG, die aus der Nutzung des Informationsangebotes der Webseite entstehen, gleich aus welchem Rechtsgrund, etwa wegen Verletzung von Pflichten aus dem Schuldverhältnis und aus unerlaubter Handlung, sind ausgeschlossen. Dies gilt nicht, soweit zwingend gehaftet wird, z.B. nach dem Produkthaftungsgesetz, in Fällen des Vorsatzes, der groben Fahrlässigkeit, wegen der Verletzung des Lebens, des Körpers oder der Gesundheit, wegen der Verletzung wesentlicher vertraglicher Pflichten. Der Schadensersatzanspruch für die Verletzung wesentlicher Vertragspflichten ist jedoch auf den vertragstypischen vorhersehbaren Schaden begrenzt, soweit nicht Vorsatz oder grobe Fahrlässigkeit vorliegt, oder wegen der Verletzung des Lebens, des Körpers oder der Gesundheit gehaftet wird. Eine Änderung der Beweislast zu Ihrem Nachteil ist mit den vorstehenden Regelungen nicht verbunden. Die TEAG Thüringer Energie AG ist nicht für die Inhalte von fremden Websites verantwortlich, auf die direkt oder indirekt per Link verwiesen wird. Die straf- und zivilrechtliche Verantwortung liegt beim jeweiligen Anbieter."
+        },
+        {
+          "role": "heading",
+          "order": 38,
+          "text": "Inhalte und Urheberrechte"
+        },
+        {
+          "role": "body",
+          "order": 39,
+          "text": "Die TEAG Thüringer Energie AG bemüht sich im Rahmen des Zumutbaren, auf dieser Website richtige und vollständige Informationen zur Verfügung zu stellen. Die TEAG Thüringer Energie AG behält sich das Recht vor, ohne vorherige Ankündigung Änderungen oder Ergänzungen der bereitgestellten Informationen vorzunehmen. Der Inhalt dieser Website ist urheberrechtlich geschützt. Wollen Sie Inhalte (einschließlich Bildmaterial) nutzen, so wenden Sie sich für eine erforderliche Erlaubnis unbedingt VOR Nutzung per E-Mail an ."
+        },
+        {
+          "role": "cta",
+          "order": 40,
+          "text": "info@teag.de",
+          "href": "mailto:info@teag.de"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 32,
+      "repeats": [
+        {
+          "unitSelector": "SECTION.addition",
+          "count": 5,
+          "unit": {
+            "headings": 1,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 3
+          },
+          "uniform": false
+        }
+      ]
+    },
+    {
+      "section": "page-content-section",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Verhaltenskodex der TEAG Thüringer Energie AG"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Der Verhaltenskodex, dem sich die TEAG Thüringer Energie AG unterworfen hat, ist hier in der deutschen Sprache abrufbar."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Zum Verhaltenskodex",
+          "href": "/Impressum_826.aspx"
+        },
+        {
+          "role": "heading",
+          "order": 3,
+          "text": "Streitbeilegungsverfahren"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Näheres zu den Möglichkeiten für Verbraucher zur Einlegung einer Verbraucherbeschwerde und zur Teilnahme an einem Schlichtungsverfahren erfahren Sie hier."
+        },
+        {
+          "role": "cta",
+          "order": 5,
+          "text": "Zum Schlichtungsverfahren",
+          "href": "/Privatkunden/Service/Streitbeilegungsverfahren.aspx"
+        },
+        {
+          "role": "heading",
+          "order": 6,
+          "text": "Abweichung"
+        },
+        {
+          "role": "body",
+          "order": 7,
+          "text": "Die TEAG Thüringer Energie AG ist im Rahmen ihrer Tätigkeit als Verkäuferin von für sie entbehrlichen Gütern weder verpflichtet, noch dazu bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 8,
+      "repeats": [
+        {
+          "unitSelector": "UL.linklist",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 1
+          },
+          "uniform": false
+        }
+      ]
+    }
+  ],
+  "pruned": {
+    "note": "P. repeats are paragraph runs inside text modules (prose), not authoring units; the SECTION.addition rows and UL.linklist lists are the units",
+    "items": [
+      "page-content-section:P.x11",
+      "page-content-section:P.x2",
+      "page-content-section:P.x8"
+    ]
+  }
+}

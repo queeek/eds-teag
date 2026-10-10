@@ -1,0 +1,492 @@
+/* stylelint-disable no-descending-specificity */
+
+/* social-wall — frozen LinkedIn / Instagram posts (live .aktuelles .posts.columns-4).
+   Values from stardust/prototypes/css/index.css (.aktuelles) + canon.css. */
+main .section.social-wall-container > .default-content-wrapper h2 {
+  font-size: 1.9em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+main .section.social-wall-container > .default-content-wrapper p {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+main .section.social-wall-container > .default-content-wrapper:last-child {
+  padding: 45px 0; /* fix wave 10 (measure.mjs r1): live .commands pt45 pb45, 54 px button = 144 at both widths */
+}
+
+main .section.social-wall-container > .default-content-wrapper:last-child p {
+  margin: 0;
+}
+
+/* live .commands a.link-button.enlarge "Mehr anzeigen" (measure.mjs 1440 / 360: 211 x 54, 0 30px, 19 / 54 bold white,
+   the source's cut-corner purple face as computed background-image, 9px ::before / ::after spacers) */
+main .section.social-wall-container > .default-content-wrapper .button {
+  display: inline-block;
+  height: 54px;
+  margin: 0;
+  padding: 0 30px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #fff;
+  background-color: transparent;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAA2CAYAAABdjqzoAAACZUlEQVR4AezZsW7bMBCA4VP2vmg7dbSXAl3SsVu3PqW7lqXYuojtIIhkBicxn2BKEOAj7v67H4qVh8cPj8XCwAzcPwMPUY9SSkT9WDMMyxwsm4HmTw1pMk0xxfyxIjCIwCBiCYOpfTmiyRQOBBC4mwCZ7kZog40QSE+DTOktkMAoBMg0SifVkU6ATOktkMAoBMg0SifVkU6ATOktGCUBdZDJDCDQiQCZOoG0DQJkMgMIdCJApk4gbYMAmUaZAXWkEyBTegskMAoBMo3SSXWkEyBTegskMAoBMo3SSXWkEyBTpxbYBgEymQEEOhEgUyeQtkGATGYAgU4EyNQJpG0QGEUmnUQgnQCZ0lsggVEIkGmUTqojnQCZ0lsggVEIkGmUTqojnUAnmdLrkAAC6QTIlN4CCYxCgEyjdFId6QTIlN4CCYxCgEyjdFIdnQis34ZM69mJROCCAJkucLhBYD0BMq1nJxKBCwJkusDhBoH1BMi0np3ItyCw4z3JtOPmSX1bBMi0rX7IZscEyLTj5kl9WwTItK1+yGbHBMi04+a9Rer2XE6gRGlBZGoYnBBYSaB6NE1TCyZTw+CEwAoCVaT461ELJlPD4ITAQgJXIpVSvpJpIUNfR6D9RHryRCq/y7fj6fiFTNuaDdlsncDtE+n78dfxMKdNppmChcBrCDwn0un4+RxKpjMJVwReInAr0o/6p91/keZQMs0ULAReIvC8SB+vQ5pM7Z9Oc4AV7cclDjj8m4H6li6evv6u9/MT6UakqEeTaZrqq4n6aUHv+lqJqD/MQcSZwTTNAxHn4+fhdPh0vrm+/gEAAP//BBQ3DwAAAAZJREFUAwBY8I/vgbFEngAAAABJRU5ErkJggg==");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 0;
+  border-radius: 0;
+  white-space: nowrap;
+}
+
+main .section.social-wall-container > .default-content-wrapper .button::before,
+main .section.social-wall-container > .default-content-wrapper .button::after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+}
+
+.social-wall {
+  font-size: var(--fs-body);
+  line-height: 1.6;
+
+  /* fix wave 10 (measure.mjs, both widths): served block end → events h2 = 207 px, live Modul end → h2 = 80 + the
+     live in-Modul load-more row (64) = 144; the section's trailing "mehr anzeigen" p carries the rest — absorbed here */
+  margin-bottom: -25px; /* collapses 20 + (-25) = -5 → the load-more row starts as the live Modul's .commands (139 px after the posts) */
+}
+
+.social-wall ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-wall-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-wall-column,
+.social-wall-column > ul {
+  display: contents;
+}
+
+.social-wall-post {
+  display: block;
+  width: 100%;
+
+  /* fix wave 11 (measure.mjs 1440 / 360, per post): live li heights are natural — 554 / 568 (carousel), 493 / 490
+     (video), 339 / 336 (LinkedIn, "mehr anzeigen" hidden when the text fits) and 396 / 393 (LinkedIn with the row);
+     the former min-height 574 / 481 pinned every served post → columns 1208 vs live 1168 @1440, 4234 vs 3984 @360 */
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: var(--shadow-box);
+}
+
+.social-wall-column:nth-child(1) > ul > li:nth-child(1) { order: 1; }
+.social-wall-column:nth-child(2) > ul > li:nth-child(1) { order: 2; }
+.social-wall-column:nth-child(3) > ul > li:nth-child(1) { order: 3; }
+.social-wall-column:nth-child(4) > ul > li:nth-child(1) { order: 4; }
+.social-wall-column:nth-child(1) > ul > li:nth-child(2) { order: 5; }
+.social-wall-column:nth-child(2) > ul > li:nth-child(2) { order: 6; }
+.social-wall-column:nth-child(3) > ul > li:nth-child(2) { order: 7; }
+.social-wall-column:nth-child(4) > ul > li:nth-child(2) { order: 8; }
+.social-wall-column:nth-child(1) > ul > li:nth-child(3) { order: 9; }
+.social-wall-column:nth-child(2) > ul > li:nth-child(3) { order: 10; }
+.social-wall-column:nth-child(3) > ul > li:nth-child(3) { order: 11; }
+.social-wall-column:nth-child(4) > ul > li:nth-child(3) { order: 12; }
+
+.social-wall p {
+  margin: 0;
+}
+
+.social-wall-date {
+  display: block;
+  padding: 15px 20px 0;
+  color: #000;
+}
+
+.social-wall-day {
+  display: inline;
+}
+
+.social-wall-net {
+  display: inline-block;
+  padding-right: 4px;
+  font-size: 0;
+  font-family: FontAwesome, sans-serif;
+  color: var(--c-linkedin);
+}
+
+.social-wall-net::before {
+  content: "\f08c";
+  font-size: var(--fs-body);
+}
+
+.social-wall-instagram .social-wall-net {
+  color: #262626;
+}
+
+.social-wall-instagram .social-wall-net::before {
+  content: "\f16d";
+}
+
+.social-wall-facebook .social-wall-net {
+  color: #3b5998;
+}
+
+.social-wall-facebook .social-wall-net::before {
+  content: "\f082";
+}
+
+.social-wall p.social-wall-account {
+  /* fix wave 11 (measure.mjs @1440 served parts): `.social-wall p { margin: 0 }` (0,1,1) beat the 8 px margin → every post 7–8 px short of live */
+  padding: 0 20px;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.social-wall-content {
+  padding: 0 20px 12px;
+  max-height: 250px;
+  overflow-y: hidden;
+}
+
+.social-wall-content.expanded {
+  max-height: none;
+}
+
+.social-wall-content > p {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+/* fix-wave-15 (measure.mjs 360, live .post-content a): #870d87, weight 400 — the served link read blue
+   bold through the foundation link rule; scoped to outrank it */
+main .social-wall .social-wall-content a {
+  color: var(--c-primary);
+  font-weight: 400;
+}
+
+/* live .aktuelles .posts li .carousel: relative; .slider overflow hidden; ul.slides-N flex, N x 100 % wide,
+   each li 100 / N % (decorate sets both); LinkedIn: inside .post-content > div (margin 12 0 8, left -20, +40 wide); class renamed in wave 11: "social-wall-wrapper" is the EDS block wrapper, so the rule shifted the whole block -20 px / +40 wide at both widths (measure.mjs 10:21Z: .social-wall x 38 vs live 58 @1440, -6 vs 14 @360) */
+.social-wall-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.social-wall-slider-wrap {
+  position: relative;
+  left: -20px;
+  width: calc(100% + 40px);
+  margin: 12px 0 8px;
+}
+
+.social-wall-slides {
+  display: flex;
+  align-items: center;
+}
+
+.social-wall-slides > li {
+  flex: 0 0 auto;
+}
+
+.social-wall-carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #666;
+}
+
+/* live .slider > .controls: absolute full-size layer; arrows at 50 % - 10px, 20px FontAwesome discs on white;
+   bullets ul bottom 10px centred, 12px fa-circle, active #0ba2e3 (measured 1440: a 15 x 17, btn-right 20 x 27) */
+.social-wall-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.social-wall-controls a {
+  pointer-events: auto;
+  color: #870d87;
+  text-decoration: none;
+}
+
+.social-wall-prev,
+.social-wall-next {
+  position: absolute;
+  top: calc(50% - 10px);
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-family: FontAwesome, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.social-wall-prev {
+  left: 10px;
+}
+
+.social-wall-next {
+  right: 10px;
+}
+
+.social-wall-prev::before {
+  content: "\f0a8";
+}
+
+.social-wall-next::before {
+  content: "\f0a9";
+}
+
+.social-wall-prev.social-wall-hidden {
+  display: none;
+}
+
+.social-wall ul.social-wall-bullets {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.social-wall-bullets li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.social-wall-bullet {
+  display: inline-block;
+  font-family: FontAwesome, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.social-wall-bullet::before {
+  content: "\f111";
+}
+
+.social-wall-bullet.active {
+  color: #0ba2e3;
+}
+
+/* live .posts li.fbpost-post.video-post div.video: max-height 342px, overflow hidden; span.fa-play-circle 30 x 30,
+   #fff on #870d87, radius 17, 2px border, centred, font-size 35 */
+.social-wall-video {
+  max-height: 342px;
+}
+
+.social-wall-play {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  color: #fff;
+  background-color: #870d87;
+  border: 2px solid #870d87;
+  border-radius: 17px;
+  font-family: FontAwesome, sans-serif;
+  font-size: 35px;
+  line-height: 31px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.social-wall-play::before {
+  content: "\f144";
+}
+
+/* fix wave 11 (measure.mjs 1440 / 360): the live carousel-post .slider is 403 / 422 tall for a 395 / 414 image
+   (8 px under the slides, bullets 10 px above its bottom); the video poster box (342) has none */
+.social-wall-instagram .social-wall-media:not(.social-wall-video) {
+  padding-bottom: 8px;
+}
+
+/* live `li > .container > .carousel > span.fa-instagram` and `div.video span.fa-instagram`: absolute 30 x 30 at
+   top 5 / left 5, white, 1.5em (24.4px) FontAwesome glyph over the media */
+.social-wall-instagram .social-wall-media::before {
+  content: "\f16d";
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-family: FontAwesome, sans-serif;
+  font-size: 24.432px;
+  line-height: 24.432px;
+  pointer-events: none;
+}
+
+/* live hides the post's .commands ("mehr anzeigen") when the .post-content does not overflow its 250 px cap (decorate
+   measures it once laid out — the section is display:none while loading) */
+.social-wall-more[hidden] {
+  display: none;
+}
+
+/* live Instagram-post-teaser: the media block leads, .post-content collapsed to 5px until "mehr anzeigen"
+   (measured 1440 / 360: .post-content h 5 + padding 0 20 12) */
+.social-wall-instagram .social-wall-content {
+  max-height: 5px;
+}
+
+.social-wall-instagram .social-wall-content.expanded {
+  max-height: none;
+}
+
+/* intro row: live .text-editor-container p (centred) + a.toolTip-opener 18 x 18, 2px #6c757d ring, radius 12,
+   margin-left 3px, .fa 4.5 x 12 centred; div.toolTip: fixed-position panel, 2px solid #0ba2e3, padding 10 */
+.social-wall-intro {
+  position: relative;
+  text-align: center;
+
+  /* fix wave 10 (measure.mjs, both widths): live feed columns start 160 px (1440) / 185 px (360) below the h2
+     (.text-modul + its 48 px margin-bottom); served 92 / 117 — the intro row carries the 68 px (styles/ frozen) */
+  margin-bottom: 76px;
+}
+
+.social-wall-intro-text {
+  text-align: center;
+}
+
+.social-wall-tooltip-opener {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 3px;
+  vertical-align: middle;
+  color: #6c757d;
+  background-color: #fff;
+  border: 2px solid #6c757d;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.social-wall-tooltip-opener:hover {
+  border-color: #0ba2e3;
+  color: #0ba2e3;
+}
+
+.social-wall-tooltip-icon {
+  position: absolute;
+  inset: 0;
+  width: 4.5px;
+  height: 12px;
+  margin: auto;
+  font-family: FontAwesome, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.social-wall-tooltip-icon::before {
+  content: "\f129";
+}
+
+.social-wall-tooltip {
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  left: 0;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 8px auto 0;
+  padding: 10px 30px 10px 10px;
+  background: #fff;
+  border: 2px solid #0ba2e3;
+  color: #000;
+  text-align: left;
+}
+
+.social-wall-tooltip[hidden] {
+  display: none;
+}
+
+.social-wall-tooltip p {
+  margin: 0;
+}
+
+.social-wall-tooltip-close {
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  color: #8e8e8e;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.social-wall-more {
+  padding: 15px 20px;
+  text-align: right;
+}
+
+.social-wall-more a {
+  font-size: .9em;
+  color: var(--c-linkedin);
+  text-decoration: none;
+}
+
+.social-wall-more a::before {
+  content: "N";
+  display: inline-block;
+  margin-right: 4px;
+  font-family: "teag-2017", sans-serif;
+  vertical-align: middle;
+}
+
+.social-wall-more a.open::before {
+  content: "K";
+}
+
+/* fix-wave-15 (measure.mjs 360, live .commands a per network): Instagram posts #3b5998, LinkedIn #0a66c2 */
+.social-wall-instagram .social-wall-more a {
+  color: #3b5998;
+}
+
+@media (width >= 1025px) {
+  .social-wall-columns {
+    display: block;
+  }
+
+  .social-wall-columns::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .social-wall-column {
+    display: block;
+    float: left;
+    width: calc(25% - 15px);
+    margin: 0 20px 20px 0;
+  }
+
+  .social-wall-column:last-child {
+    margin-right: 0;
+  }
+
+  .social-wall-column > ul {
+    display: block;
+  }
+
+  .social-wall-post {
+    display: inline-block;
+  }
+}
+

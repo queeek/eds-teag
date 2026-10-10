@@ -1,0 +1,166 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-08T20:35:22.440Z",
+  "origin": "https://main--dc15da58--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "menu-template-xhr — desktop mega-menu",
+   "id": "D-01",
+   "class": "A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "465 × header .page-header a[href] (min 200)",
+   "thirdParty": "",
+   "ms": 2174,
+   "environmentLimit": null
+  },
+  {
+   "feature": "menu-template-xhr — desktop mega-menu",
+   "id": "D-01",
+   "class": "A",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 3 page(s)",
+   "thirdParty": "",
+   "ms": 5924,
+   "environmentLimit": null
+  },
+  {
+   "feature": "site-search — header search → /search results from /query-index.json",
+   "id": "D-02",
+   "class": "S",
+   "status": "done",
+   "type": "fetch-json",
+   "pass": true,
+   "detail": "200 · 8 rows · keys columns,data,offset,limit,total,:type",
+   "thirdParty": "",
+   "ms": 1991,
+   "environmentLimit": null
+  },
+  {
+   "feature": "site-search — header search → /search results from /query-index.json",
+   "id": "D-02",
+   "class": "S",
+   "status": "done",
+   "type": "search-query",
+   "pass": true,
+   "detail": "1 results · first: impressum · matches the source",
+   "thirdParty": "",
+   "ms": 1957,
+   "environmentLimit": null
+  },
+  {
+   "feature": "site-search — header search → /search results from /query-index.json",
+   "id": "D-02",
+   "class": "S",
+   "status": "done",
+   "type": "search-query",
+   "pass": true,
+   "detail": "3 results · first: strompreise und tarife · matches the source",
+   "thirdParty": "",
+   "ms": 1933,
+   "environmentLimit": null
+  },
+  {
+   "feature": "site-search — header search → /search results from /query-index.json",
+   "id": "D-02",
+   "class": "S",
+   "status": "done",
+   "type": "search-query",
+   "pass": true,
+   "detail": "2 results · first: ersatzversorgung strom · matches the source",
+   "thirdParty": "",
+   "ms": 1935,
+   "environmentLimit": null
+  },
+  {
+   "feature": "contrast-mode-switch — high-contrast toggle",
+   "id": "D-03",
+   "class": "A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header .contrast-switch [role=\"switch\"] (min 1)",
+   "thirdParty": "",
+   "ms": 1967,
+   "environmentLimit": null
+  },
+  {
+   "feature": "tariff-calculator-bridge — itcProduktrechner",
+   "id": "D-05",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "9 × .tariff-calculator [aria-disabled=\"true\"] (min 1)",
+   "thirdParty": "",
+   "ms": 2088,
+   "environmentLimit": null
+  },
+  {
+   "feature": "consent-cmp-usercentrics",
+   "id": "D-06",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 3 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 6044,
+   "environmentLimit": null
+  },
+  {
+   "feature": "tags-gtm-sgtm — Google Tag Manager, sGTM, Google Ads, Facebook pixel",
+   "id": "D-07",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 6 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 6027,
+   "environmentLimit": null
+  },
+  {
+   "feature": "analytics-etracker",
+   "id": "D-08",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 2 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 5969,
+   "environmentLimit": null
+  },
+  {
+   "feature": "chat-widget-moin-ai",
+   "id": "D-09",
+   "class": "T/V",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 2 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 6017,
+   "environmentLimit": null
+  },
+  {
+   "feature": "external-portal-links — Kundenportal, Mein Zuhause, Störungsauskunft",
+   "id": "D-10",
+   "class": "X",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × a[href^=\"https://kundenportal.teag.de\"] (min 1)",
+   "thirdParty": "",
+   "ms": 1937,
+   "environmentLimit": null
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "frozenAt": "2026-10-08T20:33:14.762Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "6086b346b983f218783a820957070c625b22a525279ac25d404b577163d617bd",
+    "blocks/footer/footer.js": "f54a93e68fe2c09a7d4fe927e20bd84a322a19a22613871d59e6647fa11c72c5",
+    "blocks/header/header.css": "e4416d1d3f772f81d2a068ffe5bceab3a31bf6bac19dc613f1bfbdc1466dad5c",
+    "blocks/header/header.js": "89bd060949995a0c2d1e261daf23debdb662a938ad8b3b254f63085889d3476f",
+    "fonts/NotoSans-Bold-webfont.woff": "088e7789422ff19c5ba6153c763a7af42b1ddff3fcfa224868e720e72869a60c",
+    "fonts/NotoSans-BoldItalic-webfont.woff": "4c5172725cf962a8ca7b9cbe5fe5374064b85a86fa42fc008a0938a6bc89743a",
+    "fonts/NotoSans-Italic-webfont.woff": "620305edd86afd9d599102b42869038238e2d2c233ec53b2f355f3c2ccadc8b4",
+    "fonts/NotoSans-Regular-webfont.woff": "c4d21a3f29f2c7fac317dacf9cf6674787bea45fee7b90a710d714f554ff7fbf",
+    "fonts/fontawesome-webfont.woff2": "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe",
+    "fonts/teag-2017.woff": "9204b7df424ce7c0137e3d0fc4b355f7d3c5c9907e6ad245d07e7d37213fbb65",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac9159ef633a129e48503beccab0d3e5ef4b5e1d989c42c9ff0af95fcdec1592",
+    "scripts/consented.js": "d8904bc1d7e363b088a232c931257bd1c1ed1738a1c1959830fdf00687bfc9e0",
+    "scripts/scripts.js": "4f8cec7cde8ec98bc036e183af76642efadbdb6cfb8c302b89fc93230974321a",
+    "scripts/site-config.js": "63c303d63fd87eb7df2898650a7fadf147d3de55d879c73414c73ed7e1ff497b",
+    "styles/fonts.css": "803de94fe0397fbeacaeed9605b94183969bca85152b685509e0282a222f4d24",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "2e8efcefcae39976628a983bb0b4b2fad0c3f5aca43e0ed4bf187212d9e6e4ce"
+  }
+}

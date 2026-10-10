@@ -1,0 +1,292 @@
+{
+  "url": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 810,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 810,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 6
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#Widgets .widget-1 > a",
+      "frames": [
+        {
+          "t": 16801.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17004.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17210,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17414.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#PageHeader ul.level-1 > li.level-1-1 > a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(198, 0, 134)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.3s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(198, 0, 134)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.3s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "background-color",
+        "el": "div.site.platform-other > div > ul > li.widget-1 > a.shadow.hover",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.site.platform-other > div > ul > li.widget-1.active > a.shadow",
+        "y": 0,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.site.platform-other > div > ul > li.widget-1.active > div.container.shadow",
+        "y": 0,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-8654.nav-is-fixed > form > div.site.platform-other > header > div.section-2.clear-fix.combined-header",
+        "y": 400
+      },
+      {
+        "added": [
+          "nav-is-fixed"
+        ],
+        "el": "html > body.page-8654.nav-is-fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-8654.nav-is-fixed > form > div.site.platform-other > header > div.section-2.clear-fix.seperated-header",
+        "y": 800
+      },
+      {
+        "added": [
+          "hover"
+        ],
+        "el": "div.site.platform-other > div > ul > li.widget-1 > a.shadow.hover",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "form > div.site.platform-other > div > ul > li.widget-1.active",
+        "y": 0
+      }
+    ]
+  }
+}

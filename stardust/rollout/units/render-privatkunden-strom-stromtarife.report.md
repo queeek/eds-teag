@@ -1,0 +1,30 @@
+# render:privatkunden-strom-stromtarife — unit report (stardust Phase 5, migrate render unit, template `program`)
+
+rendered 2, unchanged 0, refused 0, passthrough 0
+
+- `privatkunden-strom-stromtarife-teag-strom-easie` → `stardust/migrated/privatkunden/strom/stromtarife/teag-strom-easie/index.html` (program, archetype privatkunden-strom-stromtarife; 41 assets, 8 sections); modules: page-header-hero, tariff-calculator, product-teasers, cta-band, three-steps; variants: `page-header-hero with-page-label`, `tariff-calculator previous-section-has-page-label`, `product-teasers list-style-2 with-header`, `cta-band eye-catcher`; content-count: Findings 57 (41 structural 🔴 — all ICON DIFF font-less-capture artifact, 4 in #Content; icon-node multiset 13→12, 0 text/role 🔴; words 699→700, img 4→4, h1–h4 20→20); gates variance-probe, content-count, content-fidelity; 4 deviations (runtime spinner, WebForms script text, archetype input placeholders, scroll-up aria-label).
+- `privatkunden-strom-ersatzversorgung` → `stardust/migrated/privatkunden/strom/ersatzversorgung/index.html` (program, archetype privatkunden-strom-stromtarife; 29 assets, 8 sections); modules: page-header-hero, product-teasers, faq; variants: `page-header-hero plain`, `page-meta-section breadcrumb`, `product-teasers list-style-1 columns-2`, `text-module center-content`, `faq columns-2-3 plain-header`; content-count: Findings 86 (72 structural 🔴 — all ICON DIFF font-less-capture artifact, 35 in #Content; icon-node multiset 41→41 identical, 0 text/role 🔴; words 1314→1315, img 4→4, h1–h4 12→12); gates variance-probe, content-count, content-fidelity; 3 deviations (FAQ filter UpdatePanel aria-label, WebForms script text, scroll-up aria-label).
+
+## Variance probe (`variance-program`, sibling-variance.mjs @1440, tolerance 2, exit 2 → `stardust/.work/migrate/render-stromtarife/variance.json`)
+- Probes: hero `.page-header-section`, teaser `.product-teasers-modul .box`, text `.text-modul`, steps `.step-by-step-123-modul`, teasermod `.teaser-modul`, faq `.module-faq`, avail `.verfuegbarkeitscheck-modul`.
+- `SECTIONS 17 vs 0` on both siblings is a probe artifact: the sibling pages wrap their sections in `#Content > article` (the archetype has none); the clone emits them flat under `<main id="Content">` like the archetype prototype.
+- teag-strom-easie: hero gains `p.page-label` (`with-page-label`); avail 173→166 under the page-label dock; one product teaser, `list-style-2`, card heading h3 30px with a section header h2 (415→476); teaser-modul with eye-catcher image (archetype variant `eye-catcher`); text 391→1236 = content length only; faq MISSING = module census.
+- ersatzversorgung: hero 665→617 with bar padding-bottom 54 (plain `extra-wide`, no subline/dock); breadcrumb `page-meta-section` present; teasers two-up `list-style-1 columns-2` (642×418, padding 20, image 572×292); text 391→1004 content length + one `center-content`; faq 1325→874 in `columns-2-3` with a plain header (no widget-header/divider) and an empty marginal column; steps/teaser-modul/avail MISSING = module census.
+- Every style delta is a variant class on the sibling (9 recorded via `migrate.mjs variant`); no per-page block fork.
+
+## Content-count reading
+All structural 🔴 on both pages are `ICON DIFF: source empty icon box (0×17) vs build icon-font glyph` — the file:// capture ships no icon web font, the build loads the canon CSS fonts; the `<span class="icon" data-icon>` / `fa-*` nodes are carried verbatim (programmatic icon-node multiset: easie 13→12 with the runtime fa-spinner the only delta, ersatz 41→41). No MISSING HEADING/BODY/CTA/EYEBROW, ROLE SWAP or EDITABLE COUNT 🔴. Header/footer ICON DIFFs (30 + 7) are the shared chrome, identical to the gated archetype.
+
+## Files created
+- `stardust/replica/lift/build-program.cjs` (parametrised sibling builder: `node build-program.cjs <slug>`), `stardust/replica/lift/<slug>-asset-map.json` ×2
+- `stardust/prototypes/<slug>-proposed.html` ×2 (same `<head>`: css/canon.css + css/privatkunden-strom-stromtarife.css, js/privatkunden-strom-stromtarife.js), `stardust/prototypes/assets/<slug>/` ×2 (8 renditions + 3 link-button PNGs each)
+- `stardust/migrated/privatkunden/strom/stromtarife/teag-strom-easie/`, `stardust/migrated/privatkunden/strom/ersatzversorgung/`, `stardust/migrated/assets/<slug>/` ×2 (+ `_meta.json` sidecars written by migrate.mjs; `stardust/state.json` updated by migrate.mjs)
+- `stardust/.work/migrate/render-stromtarife/variance.json`; run-bg jobs `variance-program`, `cd-easie-render`, `cd-ersatz-render`
+- Render needed `--canon-css stardust/prototypes/css/canon.css` (the driver looks for `*canon*.css` directly under stardust/prototypes).
+
+## Notes for the cluster author
+- Both pages are the archetype's module markup verbatim: `page-header-hero` (easie adds `p.page-label` before h1 → row [picture][credits][label p + h1 + h2]; ersatz has no h2 and keeps the bar `style` width like baustrom), `product-teasers` rows [picture][credits][heading + p + ul][p>strong>a] — easie's single card uses h3 and has a section header h2 (`extra-margin-bottom`) above the list; ersatz's two cards are `columns-2`.
+- `tariff-calculator` on easie = the archetype's availability-check markup (same `availabilityCheck()` builder, no filter-settings link on this page, 3 empty siegel `<li>`); apply the archetype's STATIC form tier (inert controls) unchanged.
+- `cta-band` on easie carries the `eye-catcher` gif figure (archetype variant); `three-steps` rows [h3] / [h4 + p] identical to the archetype.
+- ersatz: `page-meta-section` breadcrumb (not on the archetype — static/baustrom precedent), `text-module` ×3 (one `center-content`), `faq` in `columns-2-3` with plain `<header><h2>` (no divider) and the YouTube activator + filter row + list as on the archetype; the FAQ filter wrapper's aria-label "Suchformular für FAQs" was not carried (deviation).
+- The captures flattened: icon fonts (all ICON DIFF 🔴 are font-less-capture artifacts), the runtime UpdatePanel spinner, WebForms inline scripts; nav-teasers live in the shared chrome, moin-ai loader script dropped as on the archetype.

@@ -1,0 +1,376 @@
+/* service-cards — values from stardust/prototypes/css/canon.css (§ service-boxes, § call-back,
+   § icon-list, § link-list, § widget-header) + privatkunden-strom-stromtarife.css. Source:
+   section.service-boxes > header.center-content.widget-header (h2 calc(1em + .98vw), inline 25 %
+   divider, margin-bottom 48) + ul.boxes { display: flex; gap: 20px } > li.box { flex: 1; shadow;
+   margin-bottom 20 } > section { padding: 20px }. Mobile first (<= 1024: one column). */
+.service-cards {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.service-cards-header {
+  margin-bottom: 48px;
+  line-height: normal;
+  text-align: center;
+}
+
+.service-cards-header h2 {
+  margin: 0;
+  font-size: calc(1em + 0.98vw);
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* span.divider: inline-block 25 % x 1px purple, margin-bottom 7, in its own line box */
+.service-cards-divider {
+  display: inline-block;
+  width: 25%;
+  height: 1px;
+  margin-bottom: 7px;
+  vertical-align: baseline;
+  background-color: var(--c-primary);
+}
+
+.service-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-cards-card {
+  flex: 1 1 0;
+  margin-bottom: 20px;
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+
+.service-cards-inner {
+  padding: 20px;
+}
+
+/* header.widget-header in a box: h3 1.3056em / 1.2 + 13em grey divider, margin-bottom 26 */
+.service-cards-card-header {
+  margin-bottom: 26px;
+}
+
+.service-cards-card-header h3 {
+  margin: 0;
+  font-size: 1.3056em;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.service-cards-card-divider {
+  display: block;
+  width: 13em;
+  height: 1px;
+  margin: 0.5em 0 0;
+  background-color: var(--c-grey-600);
+}
+
+.service-cards-figure {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.service-cards-figure picture,
+.service-cards-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.service-cards-credits {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  font-size: calc(0.825 * var(--fs-body));
+  line-height: 1.6;
+  white-space: nowrap;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+.service-cards-credits::before {
+  content: '\00a9';
+  display: inline-block;
+  padding: 0 5px;
+  font-family: FontAwesome, sans-serif;
+  text-align: center;
+}
+
+.service-cards-credits p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.service-cards-content p {
+  margin: 0 0 16px;
+}
+
+/* .icon-list li.entry: teag-2017 glyph (v = mail, p = phone), bold label, blue link */
+.service-cards-icon-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-cards-icon-list li {
+  position: relative;
+  margin-bottom: 1em;
+  padding-left: calc(1.1em + 0.55 * (16px + 0.08vw));
+}
+
+.service-cards-icon-list li::before {
+  content: 'v';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000;
+  font-family: "teag-2017", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.service-cards-icon-list li:nth-child(2)::before {
+  content: 'p';
+}
+
+/* li.with-oversized-link (first entry): b.label / a.hilite are 30px flex items on the source */
+.service-cards-icon-list strong {
+  padding-right: 0.25em;
+}
+
+
+/* span.annotation inside .entries: a block under the label row */
+.service-cards-icon-list em {
+  display: block;
+  font-style: normal;
+}
+
+.service-cards-icon-list a:any-link {
+  color: var(--c-info);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* .link-list li: bold black links, purple arrow glyph "c" */
+.service-cards-link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-cards-link-list li {
+  margin-bottom: 0.75em;
+}
+
+.service-cards-link-list a:any-link {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.service-cards-link-list a::before {
+  content: 'c';
+  display: inline-block;
+  margin-right: 6px;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* ---------- call-back form (static) ---------- */
+.service-cards-form::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.service-cards-fields {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-cards-fields::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* input[type=text]: 43px, #ededed, margin-bottom 15, width calc(100% - 18px) + padding 9 */
+.service-cards-field {
+  box-sizing: content-box;
+  width: calc(100% - 18px);
+  height: 43px;
+  margin-bottom: 15px;
+  padding: 0 9px;
+  color: #6b6b6b;
+  font-size: 16px;
+  line-height: 43px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: var(--c-grey-200);
+}
+
+/* .name-wrapper: first / last name side by side (calc(50% - 22px), float left / right) */
+.service-cards-field-1 {
+  float: left;
+  width: calc(50% - 22px);
+}
+
+.service-cards-field-2 {
+  float: right;
+  width: calc(50% - 22px);
+}
+
+.service-cards-field-3 {
+  clear: both;
+  position: relative;
+  width: calc(100% - 58px);
+  margin-right: 40px;
+  overflow: visible;
+}
+
+/* a.extender.icon-calendar (teag-2017 \e931) right of the date field — inert button */
+.service-cards-calendar {
+  position: absolute;
+  top: 0;
+  right: -40px;
+  width: 35px;
+  height: 43px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: default;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-size: 1em;
+  line-height: 43px;
+  text-align: center;
+}
+
+.service-cards-calendar::before {
+  content: '\e931';
+  font-family: "teag-2017", sans-serif;
+}
+
+/* select.watermarked: 14px #6b6b6b, padding-left 8, border-box 100 % */
+.service-cards-select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 0 0 8px;
+  font-size: 14px;
+}
+
+.service-cards-select::after {
+  content: '';
+  float: right;
+  width: 0;
+  height: 0;
+  margin: 19px 8px 0 0;
+  border-top: 5px solid #000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+/* .checkBox.block.opt-in: 13px box + label .85em / 1.4, margin 20px 0 */
+.service-cards-checkbox {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0;
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+.service-cards-checkbox::before {
+  content: '';
+  flex: 0 0 auto;
+  width: 13px;
+  height: 13px;
+  margin: 3px 0 0 3px;
+  border: 1px solid var(--c-grey-700);
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.service-cards-checkbox a:any-link {
+  color: var(--c-primary);
+}
+
+.service-cards-checkbox em {
+  display: block;
+  padding-left: 6px;
+  font-style: normal;
+}
+
+/* fix wave 2: the 57px label offset must out-rank `.service-cards-content p { margin }` */
+main .service-cards-content p.service-cards-checkbox {
+  margin: 19px 0 22px;
+}
+
+/* a.link-button.blue.hover-dark-blue.float-right (141px) — disabled button, no backend */
+.service-cards-content p.service-cards-submit {
+  float: right;
+  margin: 0;
+}
+
+/* a.link-button.blue.hover-dark-blue.float-right (141px) — inert button, no backend */
+.service-cards-submit button {
+  box-sizing: border-box;
+  height: 40px;
+  margin: 0;
+  padding: 0 10px;
+  border: 0 none;
+  border-radius: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  background-color: var(--c-info);
+  cursor: default;
+}
+
+/* li.with-oversized-link (first entry): b.label / a.hilite are 30px flex items on the source */
+.service-cards-icon-list li:first-child strong,
+.service-cards-icon-list li:first-child a {
+  display: inline-block;
+  line-height: 30px;
+}
+
+@media (width >= 1025px) {
+  .service-cards-list {
+    flex-direction: row;
+  }
+}
+
+/* <= 1024: the box widget headers render at .79em (h3 20px high, 13em divider = 167px) */
+@media (width <= 1024px) {
+  .service-cards-card-header {
+    font-size: 0.79em;
+  }
+}
+
+/* fix wave 3 (measure.mjs @360): the live boxes stack 20 px apart (15567 → 16021 → 16678 for
+   434 / 636 / 388); the block's card margin-bottom 20 added to the list gap 20 read 40. */
+@media (width <= 1024px) {
+  .service-cards-card:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

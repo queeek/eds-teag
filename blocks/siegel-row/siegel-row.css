@@ -1,0 +1,88 @@
+/* siegel-row — the live `.columns-1.siegel-row` (3 certification badges, centred flex row in the grey
+   section under the tariff form; the source fills it after load — empty in the 2026-10-08 capture,
+   rendered on 2026-10-09 from 13:59Z). Lift: ScreenCssAlt.css @234346–234984 + measure.mjs 1440 / 360
+   (fix-wave-15): `.siegel-row ul` flex centred (wraps <= 1420), `li` margin 0 30px 30px (<= 768:
+   0 20px 20px), inline `img` on the li baseline (font 17.152 / line-height 27.44 → li 138 / 67),
+   max-height 130 (<= 1420: height 9vw; <= 768: 70px; <= 430: 60px). The row sits 60 px below the
+   live section top and 70 (1440) / 40 (<= 1024) above its end; the tariff-calculator `siegel-gap`
+   margin (80) carries the top part, this block's margin-bottom (50 / 20) + the section padding the
+   rest. Measured live: section 1047–1315 @1440 (row 1107, h 168), 1150–1424 @360 (row 1210, h 174). */
+main > .section > .siegel-row-wrapper {
+  /* outranks the foundation wrapper rhythm (main > .section > div: 20px auto) */
+  margin: 0 auto;
+}
+
+main .siegel-row {
+  /* live: 40 px from the row list to the next section (center 20 + padding 20); the served next
+     section opens 35 px more above its h2 than the live one (wrapper 20 + h2 rhythm, every page,
+     frozen foundation) — the former whitespace variant absorbed that; carried here: 20 - 35 */
+  margin: 0 0 20px; /* fix-wave-15 r4: the three-steps keyfacts top margin now carries no compensation (55 → 20), so the plain 20 holds */
+}
+
+.siegel-row ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.siegel-row li {
+  margin: 0 30px 30px;
+  font-size: 17.152px;
+  line-height: 1.6;
+}
+
+.siegel-row li a,
+.siegel-row picture {
+  display: inline;
+}
+
+.siegel-row li img {
+  display: inline;
+  width: auto;
+  height: 9vw;
+  max-width: 100%;
+  max-height: 130px;
+  vertical-align: baseline;
+}
+
+@media (width >= 1421px) {
+  .siegel-row ul {
+    flex-wrap: nowrap;
+  }
+
+  .siegel-row li img {
+    height: auto;
+  }
+}
+
+@media (width <= 1024px) {
+  main .siegel-row {
+    margin-bottom: 20px;
+  }
+}
+
+@media (width <= 768px) {
+  .siegel-row li {
+    margin: 0 20px 20px;
+  }
+
+  .siegel-row li img {
+    height: 70px;
+  }
+}
+
+@media (width <= 430px) {
+  .siegel-row li img {
+    height: 60px;
+  }
+}
+
+/* program pages (variant `program`, fix-wave-15): the row closes its grey section 40 px below the
+   list on the live page (center 20 + padding 20) and the next section matches the served boundary
+   without the landing page's h2 compensation */
+main .siegel-row.program {
+  margin-bottom: 20px;
+}

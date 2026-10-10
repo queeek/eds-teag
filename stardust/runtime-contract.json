@@ -1,0 +1,12 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "probedFrom": ["scripts/scripts.js decorateButtons (strong→primary, em→secondary, strong+em→accent)", "scripts/aem.js decorateBlock (.block + data-block-name, div.<name>-wrapper, section .<name>-container)"],
+  "chrome": { "nav": "/nav", "footer": "/footer", "navHeightDesktop": 170, "navHeightMobile": 140, "mobileBreakpoint": 1024 },
+  "writtenBy": "stardust:replica C0 foundation",
+  "writtenAt": "2026-10-08"
+}

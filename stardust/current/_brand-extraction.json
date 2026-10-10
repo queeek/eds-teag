@@ -1,0 +1,73 @@
+{
+  "_provenance": { "writtenBy": "stardust:extract", "writtenAt": "2026-10-08T07:55:00Z", "readArtifacts": ["https://www.thueringerenergie.de/", "stardust/current/_computed-styles.json", "stardust/current/assets/css/ScreenLess.css", "stardust/current/pages/index.json"], "synthesizedInputs": [], "stardustVersion": "0.29.1" },
+  "site": { "name": "TEAG Thüringer Energie", "tagline": "Die TEAG versorgt Sie mit Strom, Erdgas und Fernwärme - Ihr führender Energiedienstleister in Thüringen.", "originUrl": "https://www.thueringerenergie.de/" },
+  "origins": [{ "url": "https://www.thueringerenergie.de/", "role": "primary", "pages": 8 }],
+  "logo": { "source": "img", "src": "https://www.thueringerenergie.de/Content/Images/Site/teag_logo_bigger@2.png", "file": "assets/logo.png", "negative": "assets/logo-neg.png", "alt": "Zur Startseite", "rect": { "x": 58, "y": 19, "w": 147, "h": 53 }, "selector": "#PageHeader .section-1 .logo img" },
+  "favicon": "assets/favicon.png",
+  "palette": [
+    { "hex": "#870d87", "role": "primary", "name": "TEAG purple", "source": "_computed-styles.json#aggregate.colors[2]; 507 rule hits in ScreenLess.css" },
+    { "hex": "#5f175f", "role": "primary-deep", "name": "purple deep", "source": "ScreenLess.css (121 hits; footer/hover)" },
+    { "hex": "#c60086", "role": "accent", "name": "magenta", "source": "aggregate.colors[6]" },
+    { "hex": "#0ba2e3", "role": "secondary", "name": "cyan blue (buttons)", "source": "aggregate.colors[7]" },
+    { "hex": "#0c669e", "role": "secondary-deep", "name": "blue deep (gradient end)", "source": "aggregate.motifs.gradients[0]" },
+    { "hex": "#000000", "role": "text", "source": "body { color:#000 }" },
+    { "hex": "#666666", "role": "text-muted", "source": "aggregate.colors[8]" },
+    { "hex": "#767676", "role": "text-subtle", "source": "aggregate.colors[3]" },
+    { "hex": "#ffffff", "role": "background", "source": "body { background-color:#fff }" },
+    { "hex": "#f2f2f2", "role": "surface", "source": "ScreenLess.css (27 hits)" },
+    { "hex": "#ededed", "role": "surface-alt", "source": "aggregate.colors[4]" },
+    { "hex": "#d9d9d9", "role": "border", "source": "aggregate.colors[11]" },
+    { "hex": "#a0a0a0", "role": "border-strong", "source": "aggregate.colors[5]" },
+    { "hex": "#8c8c8c", "role": "icon-muted", "source": "aggregate.colors[10]" },
+    { "hex": "#e62a30", "role": "error", "source": "ScreenLess.css (10 hits)" }
+  ],
+  "type": {
+    "stack": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, Sans-Serif",
+    "headingFamily": "Segoe UI (declared) → Noto Sans webfont renders where Segoe UI is absent",
+    "bodyFamily": "same stack",
+    "files": [
+      { "family": "Noto Sans", "weight": 400, "style": "normal", "file": "assets/fonts/NotoSans-Regular-webfont.woff", "license": "OFL (self-hostable)" },
+      { "family": "Noto Sans", "weight": 700, "style": "normal", "file": "assets/fonts/NotoSans-Bold-webfont.woff", "license": "OFL (self-hostable)" },
+      { "family": "Noto Sans", "weight": 400, "style": "italic", "file": "assets/fonts/NotoSans-Italic-webfont.woff", "license": "OFL (self-hostable)" },
+      { "family": "Noto Sans", "weight": 700, "style": "italic", "file": "assets/fonts/NotoSans-BoldItalic-webfont.woff", "license": "OFL (self-hostable)" },
+      { "family": "teag-2017", "weight": 400, "file": "assets/fonts/teag-2017.woff", "license": "brand icon font (owner's asset)" },
+      { "family": "FontAwesome", "weight": 400, "file": "assets/fonts/fontawesome-webfont.woff2", "license": "OFL 1.1 (FA 4.7)" }
+    ],
+    "levels": { "h1": { "fontSize": "28.96px", "fontWeight": 700 }, "h2": { "fontSize": "28.96px", "fontWeight": 700 }, "h3": { "fontSize": "18.72px", "fontWeight": 700 }, "h4": { "fontSize": "20.8px", "fontWeight": 700 } },
+    "weights": [700, 400, 500],
+    "sizesPx": [51.46, 32.58, 30.4, 28.96, 25.73, 24.43, 22.39, 20.8, 18.72, 16, 14, 13],
+    "scaleAudit": { "kind": "ad-hoc", "basis": "27 distinct computed sizes, several em-derived (28.96 = 1.81em, 18.72 = 1.17em); no single ratio" },
+    "source": "_computed-styles.json#aggregate.type"
+  },
+  "spacing": { "containerMaxWidth": "measured by cap-probe → DESIGN.json extensions.breakpoints", "centerRule": ".center { margin: 20px auto; position: relative }", "customProps": "pages/index.json#customProps (--box-padding-large/medium/small …)" },
+  "motifs": {
+    "radius": { "mode": "12px", "areaMode": "4px", "pill": "50%", "values": ["50%", "12px", "22.25px", "10px", "18px", "4px", "5px", "17px"] },
+    "shadows": ["rgba(0,0,0,0.2) 0 0 10px 0", "rgba(0,0,0,0.2) 0 0 15px 0", "rgba(0,0,0,0.65) 0 20px 70px -35px"],
+    "gradients": ["linear-gradient(to right, rgb(12,102,158), rgb(11,162,227))"],
+    "patterns": ["purple full-bleed CTA band with mascot bear", "boxed white cards with soft 10px shadow", "icon cards (teag-2017 glyphs)", "numbered steps with dotted connectors", "hero photo with purple title box", "purple side tab 'Kontakt' + round chat bubble (fixed)"],
+    "source": "_computed-styles.json#aggregate.motifs"
+  },
+  "componentStyle": { "buttons": "flat, cyan #0ba2e3 primary on light, white outline on purple bands; purple #870d87 text links", "cards": "white, 10px blur shadow, radius 4–12px", "header": "two-tier: light utility bar + purple mega-menu bar, logo left" },
+  "systemComponents": [
+    { "id": "site-header", "pages": 8, "evidence": "#PageHeader on every page; same nav labels" },
+    { "id": "site-footer", "pages": 8, "evidence": "#PageFooter: purple Kontakt/social/newsletter band + legal link row" },
+    { "id": "tariff-calculator", "pages": 3, "evidence": "Strom/Erdgas tabs + PLZ form on index, stromtarife, teag-strom-easie" },
+    { "id": "cta-band-mascot", "pages": 3, "evidence": "purple full-bleed band with bear on index, stromtarife, teag-strom-easie" },
+    { "id": "three-steps", "pages": 3, "evidence": "'Ihr Wechsel' numbered steps on index, stromtarife, teag-strom-easie" },
+    { "id": "service-cards", "pages": 2, "evidence": "'Sie haben Fragen? / Rückruf / Auf einen Blick' on index, stromtarife" },
+    { "id": "contact-side-tab", "pages": 8, "evidence": "fixed purple 'Kontakt' tab left + chat bubble right" }
+  ],
+  "iconFont": { "families": ["teag-2017", "FontAwesome"], "files": ["assets/fonts/teag-2017.woff", "assets/fonts/fontawesome-webfont.woff2"], "classPrefix": "icon icon-*", "note": "glyph table lifted per module in Phase 3 from ScreenLess.css ::before content" },
+  "voice": {
+    "heroHeadline": "TEAG-Strom plus Smartwatch",
+    "firstParagraph": "Die TEAG versorgt Sie mit Strom, Erdgas und Fernwärme - Ihr führender Energiedienstleister in Thüringen.",
+    "ctaSamples": ["Preisvorteil berechnen", "Mehr erfahren", "Jetzt wechseln"],
+    "heroImage": "pages/index.json#media (campaign banner)",
+    "heroMedium": null,
+    "language": "de-DE",
+    "tone": "Sie-form, service-oriented, regional pride (Thüringen)"
+  },
+  "voiceTable": { "note": "German-only site; register and samples above" },
+  "crossPromo": { "detected": ["cta-band-mascot", "Thüringer Energie. Für Sie. teaser row"] },
+  "register": "brand"
+}

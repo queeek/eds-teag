@@ -1,0 +1,372 @@
+/* channel-products — values from stardust/prototypes/css/privatkunden-strom-stromtarife.css
+   (lift: stardust/replica/lift/privatkunden-strom-stromtarife.md § Channel products).
+   Source: section.channel-products-modul.mobile-slider { padding: 20px 4vw } > .center > .modul-content:
+   header.extra-margin-bottom (h2 centred, margin-bottom 64 / 32), .overflow-container { padding: 15 }
+   > ul (flex) > li.box { width: calc(25% - 15px); margin: 0 20px 20px 0; shadow .2 }, .controls
+   (42px, opacity 0 >= 1025), .footnote-container. Mobile first (<= 1024: slider track
+   calc(n * 88% + (n - 1) * 30px), cards calc((100% - (n - 1) * 30px) / n), section padding-right 0). */
+main .section.channel-products-container {
+  padding-right: 0;
+}
+
+.channel-products {
+  font-size: 16px;
+
+  --channel-products-n: 4;
+}
+
+/* header.extra-margin-bottom.center-content */
+.channel-products-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.channel-products-header h2 {
+  margin: 0;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+}
+
+/* .overflow-container */
+.channel-products-overflow {
+  padding: 15px;
+  overflow: hidden auto;
+  touch-action: pan-y;
+}
+
+/* ul.boxes */
+.channel-products-list {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: calc(var(--channel-products-n) * 88% + (var(--channel-products-n) - 1) * 30px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* li.box */
+.channel-products-card {
+  display: flex;
+  width: calc((100% - (var(--channel-products-n) - 1) * 30px) / var(--channel-products-n));
+  margin: 0 30px 0 0;
+  color: #000;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+
+.channel-products-card:last-child {
+  margin-right: 0;
+}
+
+.channel-products .channel-products-card-link:any-link,
+.channel-products .channel-products-card-link:hover,
+.channel-products .channel-products-card-link:focus-visible {
+  display: flex;
+  width: 100%;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.channel-products-figure {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.channel-products-figure picture {
+  display: none;
+  min-height: 10px;
+}
+
+.channel-products-figure picture.channel-products-all,
+.channel-products-figure picture.channel-products-mobile {
+  display: block;
+}
+
+.channel-products-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* figcaption: flex column, padding 20; image-less cards keep the same inner box */
+.channel-products-figure figcaption {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* .picture-credits: abs top -22 right 0 */
+.channel-products-credits {
+  position: absolute;
+  top: -22px;
+  right: 0;
+  padding: 0;
+  font-size: calc(0.825 * var(--fs-body));
+  line-height: 1.6;
+  white-space: nowrap;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+.channel-products-credits::before {
+  content: '\00a9';
+  display: inline-block;
+  padding: 0 6px 0 5px;
+  font-family: FontAwesome, sans-serif;
+  text-align: center;
+}
+
+.channel-products-credits p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* .content: grows; header (kicker + h3) margin-bottom 2em */
+.channel-products-body {
+  flex-grow: 1;
+  margin-bottom: 1.6em;
+}
+
+.channel-products-card:not(.has-image) .channel-products-body {
+  margin-bottom: 0;
+}
+
+/* header: kicker span (inline) + h3, margin-bottom 2em (of the card's body size) */
+.channel-products-head {
+  margin-bottom: 2em;
+}
+
+.channel-products-body h3 {
+  margin: 0;
+  font-size: 1.3em;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.channel-products-body p {
+  margin: 0 0 16px;
+}
+
+/* header > span: the kicker, #767676, inline above the h3 */
+.channel-products-body p.channel-products-kicker {
+  display: inline;
+  margin: 0;
+  color: var(--c-grey-700);
+}
+
+.channel-products-body h4 {
+  margin: 0 0 8px;
+  font-size: 1em;
+  line-height: var(--lh-body);
+  text-align: left;
+}
+
+.channel-products-body ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ul.benefit li: checkmark-pos.svg 18px at 0 .45em, padding-left 28 */
+.channel-products-body li {
+  padding-left: 28px;
+  background: url('./checkmark-pos.svg') no-repeat 0 0.45em / 18px auto;
+}
+
+.channel-products-body sup {
+  color: #000;
+  font-size: 0.83em;
+  line-height: normal;
+  vertical-align: super;
+}
+
+/* .footer: #ededed, padding 15 20, margin 30 -20 -20 (10 -20 -20 without image) */
+.channel-products-footer {
+  display: flex;
+  min-height: calc(3em - 30px);
+  margin: 30px -20px -20px;
+  padding: 15px 20px;
+  background-color: var(--c-grey-200);
+}
+
+.channel-products-card:not(.has-image) .channel-products-footer {
+  margin-top: 10px;
+}
+
+.channel-products-footer p {
+  display: flex;
+  align-items: baseline;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* teag-2017 glyph "c" = icon-teag-arrow-right-pos, purple, 6px before the label */
+.channel-products-footer p::before {
+  content: 'c';
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-weight: 400;
+}
+
+/* .controls.slider-pager: visible <= 1024 */
+.channel-products-controls {
+  display: block;
+  height: 42px;
+  margin-top: 15px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.channel-products-arrow {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  cursor: default;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: top;
+  background-color: var(--c-grey-500);
+}
+
+.channel-products-arrow-left::before {
+  content: 'b';
+}
+
+.channel-products-arrow-right::before {
+  content: 'c';
+}
+
+.channel-products-bullets {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  vertical-align: top;
+}
+
+.channel-products-bullet {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 11.5px 8px;
+  border: 1px solid var(--c-grey-500);
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.channel-products-bullet.active {
+  border-color: var(--c-primary);
+  background-color: var(--c-primary);
+}
+
+/* .footnote-container: p flex .8em / 1.4, margin 2px 0 .25em */
+.channel-products-footnotes {
+  margin-bottom: 20px;
+  padding-right: var(--gutter);
+}
+
+.channel-products-footnotes p {
+  display: flex;
+  gap: 3px;
+  margin: 2px 0 0.25em;
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+
+.channel-products-footnotes sup {
+  line-height: 1.4;
+  vertical-align: baseline;
+}
+
+@media (width >= 415px) {
+  .channel-products-figure:has(.channel-products-tablet) picture.channel-products-mobile {
+    display: none;
+  }
+
+  .channel-products-figure picture.channel-products-tablet {
+    display: block;
+  }
+}
+
+@media (width >= 1025px) {
+  main .section.channel-products-container {
+    padding-right: var(--gutter);
+  }
+
+  .channel-products-header {
+    margin-bottom: 64px;
+  }
+
+  .channel-products-list {
+    width: auto;
+  }
+
+  .channel-products-card {
+    width: calc(25% - 15px);
+    margin: 0 20px 20px 0;
+  }
+
+  .channel-products-card:last-child {
+    margin-right: 0;
+  }
+
+  .channel-products-figure picture.channel-products-tablet,
+  .channel-products-figure picture.channel-products-mobile {
+    display: none;
+  }
+
+  .channel-products-figure picture.channel-products-desktop {
+    display: block;
+  }
+
+  .channel-products-body {
+    margin-bottom: 0;
+  }
+
+  .channel-products-controls {
+    opacity: 0;
+  }
+
+  .channel-products-footnotes {
+    padding-right: 0;
+  }
+}
+
+/* fix wave 2: a block that ends with the pager (no footnotes) reads 21px taller than the live
+   panel at both widths (measure.mjs: 484/505 @1440, 409/430 @360) */
+.channel-products-controls:last-child {
+  margin-bottom: -21px;
+}
+
+/* fix wave 3 (anchor.mjs + measure.mjs @360): the live section closes 14 px under the footnote
+   container (section padding-bottom 14.39); the block's last-child footnotes collapsed to the
+   section's 40 px — section 1801 vs live 1763. -32 collapses with the wrapper's 20 to -12 + 20. */
+@media (width <= 1024px) {
+  .channel-products-footnotes:last-child {
+    margin-bottom: -38px;
+  }
+}

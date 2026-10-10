@@ -1,0 +1,6 @@
+// serve.cjs <dir> <port> — minimal static server for the prototypes (python http.server fails on this host's IDNA hostname)
+const http=require('http'),fs=require('fs'),path=require('path');
+const [dir,port]=process.argv.slice(2); const root=path.resolve(dir);
+const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.gif':'image/gif','.svg':'image/svg+xml','.webp':'image/webp','.woff':'font/woff','.woff2':'font/woff2','.ttf':'font/ttf','.ico':'image/x-icon','.mp4':'video/mp4'};
+http.createServer((req,res)=>{ let p=decodeURIComponent(req.url.split('?')[0]); if(p.endsWith('/')) p+='index.html'; const f=path.join(root,p); if(!f.startsWith(root)){res.writeHead(403);return res.end();}
+ fs.stat(f,(e,st)=>{ if(e||!st.isFile()){res.writeHead(404);return res.end('404');} res.writeHead(200,{'Content-Type':mime[path.extname(f).toLowerCase()]||'application/octet-stream','Content-Length':st.size,'Cache-Control':'no-store'}); if(req.method==='HEAD') return res.end(); fs.createReadStream(f).pipe(res); }); }).listen(parseInt(port,10),'0.0.0.0',()=>console.log('serving',root,'on',port));

@@ -1,0 +1,286 @@
+/* stylelint-disable no-descending-specificity */
+
+/* hero-slider — landing slider (one slide) + the Strom / Erdgas / Energielösungen tabs row.
+   Values from stardust/prototypes/css/index.css (.slider-section, .tab-control) + canon.css. */
+main .section.hero-slider-container {
+  padding: 0;
+  background-color: var(--c-grey-100);
+}
+
+main .section.hero-slider-container > .hero-slider-wrapper {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-slider {
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+.hero-slider .hero-slider-slider {
+  position: relative;
+}
+
+.hero-slider figure {
+  position: relative;
+  margin: 0;
+}
+
+.hero-slider figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-slider figcaption {
+  position: relative;
+}
+
+.hero-slider-credits p {
+  margin: 0;
+}
+
+.hero-slider-credits p::before {
+  content: "© ";
+}
+
+.hero-slider-credits {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  padding: 0 5px;
+  background-color: rgb(255 255 255 / 45%);
+  font-size: .8em;
+  line-height: 1.6;
+}
+
+.hero-slider-bar {
+  position: static;
+  max-width: 100%;
+  padding: 25px 25px calc(2em + 25px);
+  background-color: var(--c-primary);
+  color: #fff;
+  font-weight: 400;
+}
+
+.hero-slider-bar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-slider-bar p {
+  margin: 0;
+}
+
+.hero-slider-title {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-slider-description {
+  font-size: 1.05em;
+  line-height: 1.4;
+}
+
+.hero-slider-icon {
+  display: inline-block;
+  margin-left: 4px;
+  font-family: "teag-2017", sans-serif;
+  font-size: .8em;
+}
+
+.hero-slider-icon::before {
+  content: "c";
+}
+
+.hero-slider-controls {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0;
+  width: 174px;
+  margin: 0 auto;
+}
+
+.hero-slider-slider:hover .hero-slider-controls,
+.hero-slider-controls:focus-within {
+  opacity: 1;
+}
+
+.hero-slider-controls .group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 2px;
+  background-color: rgb(255 255 255 / 50%);
+  border-radius: 9999px;
+}
+
+.hero-slider-controls a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.hero-slider-controls a.arrow-left::before {
+  content: "b";
+}
+
+.hero-slider-controls a.arrow-right::before {
+  content: "c";
+}
+
+.hero-slider-controls a.play {
+  width: 30px;
+  font-size: 32px;
+}
+
+.hero-slider-controls a.play::before {
+  content: "\25B6";
+  font-family: var(--font-stack);
+}
+
+.hero-slider-controls ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-slider-controls ul li {
+  display: inline-flex;
+  align-items: center;
+  height: 35px;
+  padding: 0 2px;
+  line-height: 35px;
+}
+
+.hero-slider-controls ul li .bullet {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--c-primary);
+  border-radius: 50%;
+}
+
+.hero-slider-controls ul li.active .bullet {
+  background-color: #fff;
+}
+
+/* tabs row (Strom / Erdgas / Energielösungen) */
+.hero-slider-tabs {
+  margin: -32px 0 0;
+  padding: 0 25px 50px;
+}
+
+/* fix-wave-8 @360 (measure.mjs, live vs build): the live tab row is 88 px (517–605) and the tariff
+   card starts flush under it (605); the build's 50 px tab padding + the -20 px dock left a 30 px gap
+   and a 138 px row. <= 1024 the tabs carry no bottom padding (>= 1025 keeps the 50 px under the dock). */
+@media (width <= 1024px) {
+  .hero-slider-tabs {
+    padding-bottom: 0;
+  }
+}
+
+.hero-slider-tabs ul {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.hero-slider-tabs li {
+  display: contents;
+}
+
+.hero-slider-tabs li a {
+  position: relative;
+  display: block;
+  grid-row: 1;
+  padding-top: 40px;
+  height: 88px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  font-size: 11.744px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: var(--shadow-tab);
+}
+
+.hero-slider-tabs li.active a {
+  z-index: 2;
+}
+
+.hero-slider-tab-icon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: block;
+  color: var(--c-info);
+  font-family: "teag-2017", sans-serif;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.hero-slider-tab-icon::before {
+  content: "s";
+}
+
+@media (width >= 1025px) {
+  .hero-slider-bar {
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    max-width: 30%;
+    padding: 25px;
+  }
+
+  .hero-slider-tabs li a {
+    height: 81px;
+    padding-top: 0;
+    font-size: 1.2em;
+    line-height: 80px;
+  }
+
+  .hero-slider-tab-icon {
+    position: static;
+    display: inline-block;
+    margin-right: 4px;
+    font-size: 1em;
+    line-height: 80px;
+    vertical-align: top;
+  }
+}
+
+/* the page's screen-reader h1 (live `#Content > h1.screen-reader`) shares the slider section */
+main .section.hero-slider-container > .default-content-wrapper {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+}

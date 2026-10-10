@@ -1,0 +1,340 @@
+## 360  root scrollW 360 scrollH 16841
+html | 0 0 360 16819 of1 | fontFamily:STACK; fontSize:16px; fontWeight:400
+body | 0 0 360 16819 of1 | backgroundColor:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader | 0 0 360 140 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader .section-1 | 0 0 360 90 of1 | display:flex; position:relative; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader .section-1 .center | 14 0 327 90 of1 | display:flex; position:relative; margin:0px 14.3906px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader .logo | 14 0 163 90 of2 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader .logo img | 14 19 147 53 of2 img 147x53 teag_logo_bigger@1.png | maxWidth:100%; color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400
+#divMenuContainer | 177 0 164 90 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#divMenuContainer .menu ul | 185 32 99 26 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#divMenuContainer .menu li | 185 32 37 26 of3 | display:list-item; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:16.288px
+#divMenuContainer .menu li a | 185 32 24 26 of3 | display:inline-block; margin:0px 13px 0px 0px; color:#767676; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:16.288px
+#divMenuContainer .menu .title | 0 0 0 0 HIDDEN of2 | display:none; color:#767676; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:16.288px
+#divMenuContainer .menu .icon | 185 32 24 26 of3 | display:inline-block; color:#870d87; fontFamily:STACK; fontSize:24.432px; fontWeight:400; lineHeight:24.432px
+#pnlSearch | 0 0 0 0 HIDDEN of1 | position:absolute; padding:0px 10px 0px 15px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:45px; borderRadius:22.25px
+#tbSearch | 0 0 0 0 HIDDEN of1 | display:inline-block; margin:0px 4px 0px 0px; padding:0px 3px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:40px; textAlign:right
+#lbSearch | 0 0 0 0 HIDDEN of1 | display:inline-block; margin:-2px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:23.2px; fontWeight:400; lineHeight:45px
+#HeaderButtonsContainer | 288 0 49 90 of1 | display:flex; padding:0px 0px 0px 13px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.contrast-modus-switch | 301 33 36 24 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.contrast-modus-switch label | 0 0 0 0 HIDDEN of1 | display:none; color:#767676; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:16.288px; textAlign:left
+.contrast-modus-switch .visualization | 301 33 36 24 of1 | display:flex; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; borderRadius:18px; border:1px solid #8c8c8c
+.contrast-modus-switch a.icon | 302 34 22 22 of1 | margin:0px 12.216px 0px 0px; padding:1px; backgroundColor:#767676; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center; borderRadius:50%
+.seperated-header | 0 90 360 50 of1 | position:relative; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 15px 0px
+.seperated-header nav | 0 90 360 50 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#DesktopMenu | 0 90 360 50 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#DesktopMenu > ul.level-1 | 0 90 360 50 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#DesktopMenu > ul.level-1 > li.level-1-1 | 0 0 0 0 HIDDEN of1 | display:none; position:absolute; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:50px; opacity:0
+#DesktopMenu > ul.level-1 > li.level-1-1 > a | 0 0 0 0 HIDDEN of1 | position:relative; padding:0px 30px; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:50px; textTransform:uppercase; textAlign:center
+#DesktopMenu > ul.level-1 > li.level-1-7 > a | 0 90 60 100 of1 | position:relative; padding:0px 30px; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:50px; textTransform:uppercase; textAlign:center
+#DesktopMenu li.nav-button | 0 90 68 50 of1 | position:absolute; color:#000000; fontFamily:STACK; fontSize:32px; fontWeight:400; lineHeight:50px
+#DesktopMenu li.nav-button > a | 0 90 68 50 of1 | position:relative; padding:0px 20px; color:#ffffff; fontFamily:STACK; fontSize:44.8px; fontWeight:700; lineHeight:50px; textTransform:uppercase; textAlign:center
+#DesktopMenu li.nav-button .mobile-nav-container | 0 0 0 0 HIDDEN of1 | display:none; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:32px; fontWeight:400; lineHeight:50px
+#DesktopMenu li.level-1-1 > div | 0 0 0 0 HIDDEN of2 | display:none; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.combined-header | 0 0 0 0 HIDDEN of1 | display:none; position:relative; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 15px 0px
+.combined-header nav ul | 0 0 0 0 HIDDEN of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.combined-header li.logo | 0 0 0 0 HIDDEN of1 | display:list-item; position:absolute; color:#000000; fontFamily:STACK; fontSize:14.4px; fontWeight:400; lineHeight:14.4px; opacity:0
+.combined-header li.nav-link a | 0 0 0 0 HIDDEN of7 | position:relative; padding:0px 10px; color:#ffffff; fontFamily:STACK; fontSize:14.4px; fontWeight:700; lineHeight:50px; textTransform:uppercase; textAlign:center
+.combined-header li.search-container | 0 0 0 0 HIDDEN of1 | display:list-item; position:relative; color:#000000; fontFamily:STACK; fontSize:14.4px; fontWeight:400; lineHeight:50px; opacity:0
+#Content | 0 140 360 15712 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_h1Alternative | -1 139 1 1 of1 | position:absolute; margin:-1px; color:#000000; fontFamily:STACK; fontSize:32px; fontWeight:700; lineHeight:38.4px
+section.slider-section | 0 140 360 1010 of1 | backgroundColor:#f2f2f2; fontFamily:STACK; fontSize:16px; fontWeight:400
+.slider-section .center.full-size | 0 140 360 409 of1 | position:relative; maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.slider-section .slider | 0 140 360 409 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.slider-section .slider > ul | 0 140 360 409 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left
+.slider-section .slider > ul > li | 0 140 360 409 of1 | display:list-item; position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+.slider-section figure | 0 140 360 409 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+.slider-section figure picture | 0 140 360 220 of1 img 360x220 A759FACAF7194001B4A43C6B01B005DE_S_S_rdax_1080x660_100s@1.jp | display:inline; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+.slider-section figure img | 0 140 360 220 of1 img 360x220 A759FACAF7194001B4A43C6B01B005DE_S_S_rdax_1080x660_100s@1.jp | maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+.slider-section .bar | 0 360 360 189 of1 | maxWidth:100%; padding:25px 25px 57.576px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+.slider-section .bar a | 25 385 310 107 of1 | color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#slideHeadline26857 | 25 385 310 59 of1 | color:#ffffff; fontFamily:STACK; fontSize:24.432px; fontWeight:700; lineHeight:29.3184px; textAlign:left
+.slider-section .bar .description | 25 444 310 48 of1 | color:#ffffff; fontFamily:STACK; fontSize:17.1024px; fontWeight:400; lineHeight:23.9434px; textAlign:left
+.slider-section .bar .description .icon | 199 472 14 18 of1 | display:inline; margin:0px 0px 0px 4px; color:#ffffff; fontFamily:STACK; fontSize:13.6819px; fontWeight:400; lineHeight:19.1547px; textAlign:left
+.slider-section .controls | 93 286 174 44 of1 | display:flex; position:absolute; margin:0px 93px; gap:10px; color:#000000; fontFamily:STACK; fontSize:40px; fontWeight:400; lineHeight:0px
+.slider-section .controls .group | 93 286 128 44 of2 | display:flex; padding:2px; gap:16px; backgroundColor:rgba(255, 255, 255, 0.5); color:#000000; fontFamily:STACK; fontSize:40px; fontWeight:400; lineHeight:0px; borderRadius:9999px
+.slider-section .controls a.arrow-left | 95 288 40 40 of1 | color:#870d87; fontFamily:STACK; fontSize:40px; fontWeight:400; lineHeight:0px
+.slider-section .controls ul li | 151 290 12 35 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:35px
+.slider-section .controls a.icon-pause | 0 0 0 0 HIDDEN of1 | display:none; color:#870d87; fontFamily:STACK; fontSize:40px; fontWeight:400; lineHeight:0px
+.slider-section figcaption | 0 360 360 0 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+.slider-section .picture-credits | 298 338 62 21 of1 | position:absolute; margin:-22px 0px 0px; backgroundColor:rgba(255, 255, 255, 0.45); color:#000000; fontFamily:STACK; fontSize:13.0304px; fontWeight:400; lineHeight:20.8486px; textAlign:left
+.slider-section > .center:not(.full-size) | 0 517 360 633 of1 | position:relative; maxWidth:100%; margin:-32px 0px 0px; padding:0px 25px 50px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_PCS16185 | 25 517 310 583 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_liste16185 | 25 517 310 88 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left
+#MainContent_liste16185 > li | 25 517 103 88 of3 | display:list-item; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_liste16185 > li.active | 25 517 103 88 of1 | display:list-item; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_liste16185 > li > a.shadow | 25 517 103 88 of3 | position:relative; padding:40px 0px 0px; color:#000000; fontFamily:STACK; fontSize:11.744px; fontWeight:700; lineHeight:19px; textTransform:uppercase; textAlign:center; boxShadow:rgba(0, 0, 0, 0.3) 0px 0px 15px 0px
+#MainContent_liste16185 > li > a.shadow .label | 40 557 73 29 of3 | display:inline-flex; maxWidth:calc(100% - 15px); padding:0px 0px 10px; color:#000000; fontFamily:STACK; fontSize:11.744px; fontWeight:700; lineHeight:19px; textTransform:uppercase; textAlign:center
+#MainContent_liste16185 > li > a.shadow .icon | 25 527 99 25 of3 | position:absolute; margin:0px 4px 0px 0px; color:#0ba2e3; fontFamily:STACK; fontSize:24px; fontWeight:700; lineHeight:24px; textTransform:uppercase; textAlign:center
+#MainContent_liste16185 > li.active > .container | 25 605 310 495 of1 | position:absolute; padding:20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center; boxShadow:rgba(0, 0, 0, 0.3) 0px 0px 15px 0px
+#MainContent_Verfuegbarkeitscheck16076_VerfuegbarkeitscheckModul | 45 625 270 365 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#MainContent_Verfuegbarkeitscheck16076_Form | 45 625 270 365 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_AddressFieldsContainer | 45 625 270 106 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_AddressFieldsContainer label | 45 625 270 26 of2 | margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_PlzUndOrt | 45 653 271 43 of1 | display:inline-block; margin:0px 10px 15px 0px; padding:0px 25px 0px 9px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_Verfuegbarkeitscheck16076_FilterSettingsOpen | 0 0 0 0 HIDDEN of1 | display:none; padding:0px 0px 0px 25px; backgroundImage:url(…/arrow-right.svg); color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:26.0608px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsuptionFieldsContainer | 45 731 270 260 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_lblConsumptionSelection | 45 731 270 26 of1 | margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection | 52 758 255 28 of1 | display:flex; position:relative; margin:0px 7.45312px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection .line | 62 772 230 1 of1 | position:absolute; backgroundColor:#a0a0a0; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_aConsumptionMinus | 0 0 0 0 HIDDEN of1 | display:none; margin:0px 20px 0px 0px; backgroundColor:#870d87; color:#ffffff; fontFamily:FontAwesome; fontSize:17.9168px; fontWeight:400; lineHeight:17.9168px; textAlign:left; borderRadius:5px
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection ul | 52 758 255 28 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection li | 52 758 35 28 of5 | display:list-item; margin:0px 20px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection a.active | 162 760 26 26 of1 | display:inline-flex; margin:1.6288px 0px 0px; backgroundColor:#870d87; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:26.0608px; textAlign:left; borderRadius:50%
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection a.inactive | 62 766 13 13 of4 | display:inline-flex; position:relative; margin:8.144px 0px 0px 9.7728px; backgroundColor:#a0a0a0; color:#a0a0a0; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left; borderRadius:50%
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection a span | 57 757 24 50 of5 | position:absolute; padding:26.0608px 0px 0px; color:#a0a0a0; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#MainContent_Verfuegbarkeitscheck16076_lbl_Verbrauch | 45 818 270 26 of1 | margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_VerbrauchHT | 45 845 232 43 of1 | margin:0px 5px 0px 0px; padding:0px 9px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+.unity-field .flex-box label | 282 853 33 26 of2 | margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_Calculate | 45 950 270 40 of1 | display:inline-block; position:relative; padding:0px 10px; backgroundImage:url(…/6dgwOsAAAAGSURBVAMACtrwESfN+qMAAAAASUVORK5CYII=); color:#ffffff; fontFamily:STACK; fontSize:17px; fontWeight:700; lineHeight:40px; textAlign:center
+.form-commands-container | 45 950 270 40 of2 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+.info-message-for-availability-check | 45 990 270 89 of2 | padding:20px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:22.8032px; textAlign:left
+.info-message-for-availability-check a | 45 1034 173 22 of2 | display:inline; color:#870d87; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:22.8032px; textAlign:left
+#PCS16444 | 0 1150 360 120 of1 | padding:20px 14.3906px; backgroundColor:#f2f2f2; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS16444 .siegel-row | 14 1210 331 20 of1 | margin:40px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS16444 ul | 14 1210 331 20 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_GSM16450 | 138 1210 0 0 of1 | margin:0px 20px 20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#MainContent_GSM11210 | 178 1210 0 0 of1 | margin:0px 20px 20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#MainContent_GSM9661 | 218 1210 0 0 of1 | margin:0px 20px 20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#PCS15732 | 0 1270 360 783 of1 | padding:20px 14.3906px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS15732 .columns-1 | 14 1310 331 703 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS15732 header | 14 1310 331 23 of4 | margin:0px 0px 48px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#PCS15732 h2 | 14 1310 331 23 of1 | color:#000000; fontFamily:STACK; fontSize:19.24px; fontWeight:700; lineHeight:23.088px; textAlign:center
+.keyFacts-modul | 14 1381 331 632 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#List15732 | 14 1381 331 632 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#List15732 > li | 14 1381 331 191 of3 | display:list-item; margin:0px 0px 30px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#List15732 .icon-rounded-border | 14 1381 331 191 of3 | display:flex; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#List15732 .icon-rounded-border > .icon | 14 1381 65 65 of3 | margin:0px 20.36px 20.36px 0px; padding:10.18px; backgroundColor:#870d87; color:#ffffff; fontFamily:STACK; fontSize:40.72px; fontWeight:400; lineHeight:40.72px; textAlign:center; borderRadius:50%; border:2px solid #870d87
+#List15732 .icon-rounded-border .container | 100 1381 246 191 of3 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#List15732 h3 | 100 1381 246 22 of3 | color:#870d87; fontFamily:STACK; fontSize:18.088px; fontWeight:700; lineHeight:21.7056px; textAlign:left
+#List15732 p | 100 1451 246 104 of3 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+#MainContent_PCS15736 | 0 2053 360 1065 of1 | padding:20px 14.3906px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#List15736 | 14 2093 331 985 of1 | position:relative; padding:150px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS15737 | 14 2243 331 418 of1 | padding:20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#PCS15737 > div | 34 2263 291 396 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#PCS15737 figure | 34 2263 277 396 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#PCS15737 picture | 34 2143 277 161 of1 img 667x388 AFE8B35C39C2497BA8D85047D05AC66D_PT_S@1.jpg | position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#PCS15737 img | 34 2143 277 161 of1 img 667x388 AFE8B35C39C2497BA8D85047D05AC66D_PT_S@1.jpg | maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#PCS15737 figcaption | 34 2314 277 235 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#PCS15737 .picture-credits | 159 2284 152 21 of1 | position:absolute; backgroundColor:rgba(255, 255, 255, 0.45); color:#000000; fontFamily:STACK; fontSize:13.0304px; fontWeight:400; lineHeight:20.8486px
+#PCS15737 figcaption .container | 34 2314 277 235 of1 | position:relative; padding:20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#Heading15737 | 54 2334 237 59 of1 | margin:0px 0px 5px; color:#000000; fontFamily:STACK; fontSize:24.432px; fontWeight:700; lineHeight:29.3184px; textAlign:center
+#PCS15737 .divider | 153 2409 59 1 of1 | display:inline-block; margin:0px 0px 7px 20px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#PCS15737 .description | 54 2424 237 156 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#PCS15737 .description p | 54 2424 237 156 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#PCS15737 .link | 54 2580 237 49 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:26.0608px; textAlign:center
+#PCS15737 .link-button | 57 2589 231 40 of1 | display:inline-block; position:relative; margin:9.3656px 0px 0px; padding:0px 10px; backgroundImage:url(…/Hj4hdAAAAAZJREFUAwCkqeHb9KZKIgAAAABJRU5ErkJggg==); color:#ffffff; fontFamily:STACK; fontSize:18.7312px; fontWeight:700; lineHeight:40px; textAlign:center
+.step-by-step-123-modul | 14 3158 331 769 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step-by-step-123-modul > header | 14 3158 331 46 of1 | margin:0px 0px 64px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step-by-step-123-modul h3 | 14 3158 331 46 of1 | color:#000000; fontFamily:STACK; fontSize:19.24px; fontWeight:700; lineHeight:23.088px; textAlign:center
+.step-by-step-123-modul > .container | 14 3268 331 659 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step-by-step-123-modul .step | 14 3268 331 203 of3 | display:flex; position:relative; padding:0px 0px 48px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left
+.step .symbol | 14 3268 72 72 of3 | position:relative; margin:0px 16px 32px 0px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center; borderRadius:50%
+.step .symbol span | 14 3282 72 44 of3 | position:absolute; margin:14px 0px; color:#ffffff; fontFamily:STACK; fontSize:40px; fontWeight:700; lineHeight:40px; textAlign:center
+.step .content | 102 3288 243 135 of3 | margin:20px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left
+.step .content header | 102 3288 243 25 of3 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left
+.step .content h4 | 102 3288 243 25 of3 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:20.8px; fontWeight:700; lineHeight:24.96px; textAlign:left
+.step .content p | 102 3329 243 78 of3 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:left
+.connector-horizontal | 0 0 0 0 HIDDEN of2 | display:none; position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.connector-horizontal .bow | 0 0 0 0 HIDDEN of2 | position:absolute; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center; borderRadius:50%; border:
+.connector-horizontal .cover | 0 0 0 0 HIDDEN of2 | position:absolute; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.connector-vertical | 50 3345 3 121 of2 | position:absolute; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left; border:
+#PCS16424 | 0 3968 360 1949 of1 | padding:20px 14.3906px; backgroundColor:#f2f2f2; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS16441 | 14 4008 331 1869 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Boxes16441 | 14 4008 331 1869 of1 | display:flex; gap:20px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Boxes16441 > li | 14 4008 331 650 of3 | backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#MainContent_Boxes16441 > li.multiple-sections > section | 14 4008 331 284 of2 | padding:20px 20px 0px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#MainContent_Boxes16441 .netzstoerung | 14 4292 331 366 of1 | padding:20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.widget-header | 0 0 0 0 HIDDEN of5 | margin:0px 0px 48.864px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+.widget-header h3 | 34 4028 291 20 of4 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:19.5456px; textAlign:left
+.widget-header .divider | 0 0 0 0 HIDDEN of5 | display:inline-block; margin:8.144px 0px 0px; backgroundColor:#8c8c8c; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#MainContent_Boxes16441 .container | 34 4081 291 211 of4 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.icon-list | 34 4081 291 211 of2 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.icon-list ul | 34 4081 291 211 of2 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.icon-list li.entry | 34 4081 291 29 of4 | display:flex; margin:0px 0px 16.288px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.icon-list li.entry > span | 34 4081 68 29 of4 | display:flex; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.icon-list li.entry .icon | 34 4081 18 29 of4 | margin:0px 8.9584px 0px 0px; color:#000000; fontFamily:STACK; fontSize:17.9168px; fontWeight:400; lineHeight:28.6669px
+.icon-list b.label | 61 4081 41 29 of5 | padding:0px 4.072px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:26.0608px
+.icon-list a.hilite | 103 4081 187 29 of5 | color:#0ba2e3; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:26.0608px
+.icon-list .annotation | 61 4200 239 74 of1 | display:inline; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.icon-list .suffix | 173 4517 48 22 of2 | display:inline; padding:0px 0px 0px 8.144px; color:#767676; fontFamily:STACK; fontSize:16.288px; fontWeight:600; lineHeight:26.0608px
+.service-text | 34 4341 291 131 of2 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.service-text b | 107 4448 154 22 of1 | display:inline; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:26.0608px
+.link-list | 0 0 0 0 HIDDEN of3 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.link-list li | 0 0 0 0 HIDDEN of12 | display:list-item; margin:0px 0px 12.216px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.link-list li a | 0 0 0 0 HIDDEN of11 | display:inline; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:26.0608px
+.link-list li a .icon | 0 0 0 0 HIDDEN of12 | display:inline-block; margin:0px 6px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:26.0608px
+.call-back | 34 4751 291 543 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.call-back p.no-margin | 34 4751 291 54 of1 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.call-back p.spc | 34 4821 291 104 of1 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.call-back section | 34 4941 291 353 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.call-back .name-wrapper | 34 4941 291 58 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.call-back label | 0 0 0 0 HIDDEN of6 | display:none; margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px
+#MainContent_CallBack2_c_firstname | 34 4941 143 43 of1 | margin:0px 0px 15px; padding:0px 9px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_CallBack2_c_lastname | 183 4941 143 43 of1 | margin:0px 0px 15px; padding:0px 9px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_CallBack2_c_date | 34 4999 270 43 of1 | margin:0px 5px 0px 0px; padding:0px 9px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_CallBack2_ceo_c_date | 309 5007 16 26 of1 | color:#870d87; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.with-extender | 34 4999 291 43 of1 | display:flex; position:relative; margin:0px 0px 15px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#MainContent_CallBack2_c_phone | 34 5057 291 43 of1 | display:inline-block; margin:0px 0px 15px; padding:0px 9px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_CallBack2_c_ddlThema | 34 5115 291 43 of1 | display:inline-block; boxSizing:border-box; margin:0px 0px 15px; padding:0px 0px 0px 8px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400
+.check-box-agb | 0 0 0 0 HIDDEN of2 | display:flex; margin:0px 0px 20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.check-box-agb input | 0 0 0 0 HIDDEN of4 | boxSizing:border-box; margin:3px 0px 0px 3px; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400
+.check-box-agb label | 0 0 0 0 HIDDEN of2 | padding:0px 0px 0px 6px; color:#000000; fontFamily:STACK; fontSize:13.8448px; fontWeight:400; lineHeight:19.3827px
+#MainContent_CallBack2_c_send | 165 5254 161 40 of1 | position:relative; padding:0px 10px; backgroundImage:url(…/xAuAycwAAAAAElFTkSuQmCC); color:#ffffff; fontFamily:STACK; fontSize:17px; fontWeight:700; lineHeight:40px; textAlign:center
+#MainContent_Boxes16441 figure | 34 5407 291 148 of1 | display:inline-block; position:relative; margin:0px 0px 20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#MainContent_Boxes16441 figure img | 34 5407 291 148 of1 img 493x250 EC2B411706834871A1151BFDED2AEBA1_PLT_W_rdax_1479x750_100s@1. | maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#MainContent_PCS15318 | 0 5781 360 358 of1 | margin:-136px 0px 0px; padding:0px 14.3906px 20px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_PCS15318 > .center | 14 5781 331 318 of1 | position:relative; maxWidth:1420px; margin:0px 0px 20px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_PCS15318 section | 14 5781 331 318 of1 | position:relative; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_PCS15318 header | 14 5781 331 23 of1 | margin:0px 0px 48px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_PCS15318 h3 | 14 5781 331 23 of1 | color:#ffffff; fontFamily:STACK; fontSize:19.24px; fontWeight:700; lineHeight:23.088px; textAlign:center
+#TeaserModulContainer15318 | 14 5852 331 247 of1 | display:flex; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_PCS15318 .spacer | 0 0 0 0 HIDDEN of1 | display:none; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_PCS15318 .description | 14 5852 331 182 of1 | margin:0px 0px 24.432px; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#MainContent_PCS15318 .commands | 14 6059 331 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_PCS15318 .link-button | 77 6059 207 40 of1 | display:inline-block; position:relative; padding:0px 10px; backgroundImage:url(…/npTzngAAAAZJREFUAwAUl9DR4akijgAAAABJRU5ErkJggg==); color:#ffffff; fontFamily:STACK; fontSize:17px; fontWeight:700; lineHeight:40px; textAlign:center
+section.themen-section | 0 6139 360 1660 of1 | backgroundColor:#f2f2f2; fontFamily:STACK; fontSize:16px; fontWeight:400
+.themen-section > .center | 0 6139 360 1660 of1 | position:relative; maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.themen-section header | 0 6139 360 123 of1 | margin:0px 0px 48px; padding:100px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.themen-section h2 | 0 6239 360 23 of1 | color:#000000; fontFamily:STACK; fontSize:19.24px; fontWeight:700; lineHeight:23.088px; textAlign:center
+.themen-section .dynamic-list | 0 6310 360 1489 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.themen-section ul.teaser-list | 0 6310 360 1345 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.themen-section li.list-entry | 0 6310 360 442 of3 | display:list-item; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.themen-section li.list-entry a | 0 6310 360 442 of3 | position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; boxShadow:rgba(0, 0, 0, 0.5) 0px 0px 10px 0px
+.themen-section li.list-entry figure | 0 6310 360 442 of3 | position:relative; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.themen-section li.list-entry img | 0 6310 360 187 of3 img 768x399 044CBA91BE684BDFADCA5F13D3249E22_TLT_S_rdax_100s@1.jpg | maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+.themen-section .picture-credits | 0 6475 360 21 of3 | position:relative; backgroundColor:rgba(255, 255, 255, 0.45); color:#000000; fontFamily:STACK; fontSize:13.0304px; fontWeight:400; lineHeight:20.8486px; textAlign:right
+.themen-section figcaption .container | 0 6518 360 234 of3 | display:inline-block; padding:30px 7.1875px; color:#000000; fontFamily:STACK; fontSize:13.7504px; fontWeight:400; lineHeight:22.0006px; textAlign:center
+.themen-section h3.title | 7 6548 346 53 of3 | color:#000000; fontFamily:STACK; fontSize:22.0006px; fontWeight:700; lineHeight:26.4008px; textAlign:center
+.themen-section .title + .divider | 137 6607 86 1 of3 | display:inline-block; margin:0px 0px 7px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:13.7504px; fontWeight:400; lineHeight:22.0006px; textAlign:center
+.themen-section .description | 7 6622 346 99 of3 | position:relative; padding:0px 0px 45px; color:#000000; fontFamily:STACK; fontSize:15.1254px; fontWeight:400; lineHeight:18.1505px; textAlign:center
+.themen-section .description .icon | 7 6694 346 27 of3 | position:absolute; margin:2px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:26.4695px; fontWeight:400; lineHeight:26.4695px; textAlign:center
+.themen-section .commands | 0 7655 360 144 of1 | padding:45px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_Themen1_lbThemenTeaserLoadMore | 70 7700 220 54 of1 | display:inline-block; position:relative; padding:0px 30px; backgroundImage:url(…/+6qrRaAAAABklEQVQDAKU0tNmQE87ZAAAAAElFTkSuQmCC); color:#ffffff; fontFamily:STACK; fontSize:19px; fontWeight:700; lineHeight:54px; textAlign:center
+section.aktuelles | 0 7799 360 2843 of2 | padding:20px 14.3906px; fontFamily:STACK; fontSize:16px; fontWeight:400
+.aktuelles > .center | 14 7839 331 2763 of2 | position:relative; maxWidth:1420px; margin:20px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.aktuelles .text-modul | 14 7839 331 36 of2 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.aktuelles header | 14 7839 331 36 of2 | margin:0px 0px 48px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.aktuelles h2 | 14 7839 331 36 of2 | color:#000000; fontFamily:STACK; fontSize:30.4px; fontWeight:700; lineHeight:36.48px; textAlign:center
+.aktuelles .toolTip | 0 0 0 0 HIDDEN of2 | display:none; position:fixed; maxWidth:300px; padding:10px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left; border:2px solid #0ba2e3
+#MainContent_Aktuelles9383_Modul | 14 7923 331 2679 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Aktuelles9383_ulPosts | 14 7923 331 2540 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Aktuelles9383_ulPosts > li.column | 14 7923 331 2520 of1 | margin:0px 0px 20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#MainContent_Aktuelles9383_ulPosts > li.column > ul | 14 7923 331 2520 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#TEAG_32349 | 14 7923 331 330 of1 | display:inline-block; margin:0px 0px 20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#TEAG_32349 a | 14 7923 331 322 of1 | padding:15px 20px 0px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#TEAG_32349 .container | 34 7938 291 307 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#TEAG_32349 .date | 34 7938 291 26 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#TEAG_32349 .post-label | 34 7964 291 26 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#TEAG_32349 p.text | 34 7990 291 125 of1 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:17.9168px; fontWeight:700; lineHeight:25.0835px
+#TEAG_32349 p.description | 34 8124 291 91 of1 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:22.8032px
+#TEAG_32349 p.link | 34 8223 291 23 of1 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:700; lineHeight:22.8032px
+#TEAG_32349 p.link .icon | 34 8225 13 18 of1 | display:inline-block; margin:0px 4px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:13.0304px; fontWeight:700; lineHeight:18.2426px
+#TEAG_31262 | 14 9210 331 305 of1 | display:inline-block; margin:0px 0px 20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#MainContent_Aktuelles9383_upAktuelles .commands | 14 10483 331 119 of1 | padding:0px 0px 45px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_Aktuelles9383_lbLoadNextPosts | 70 10483 220 54 of1 | display:inline-block; position:relative; padding:0px 30px; backgroundImage:url(…/+6qrRaAAAABklEQVQDAKU0tNmQE87ZAAAAAElFTkSuQmCC); color:#ffffff; fontFamily:STACK; fontSize:19px; fontWeight:700; lineHeight:54px; textAlign:center
+.aktuelles .text-editor-container | 14 10766 331 52 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.aktuelles .text-editor-container p | 14 10766 331 52 of1 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+.toolTip-opener | 0 0 0 0 HIDDEN of4 | display:inline-block; position:relative; margin:0px 0px 0px 3px; backgroundColor:#ffffff; color:#6c757d; fontFamily:STACK; fontSize:12px; fontWeight:400; lineHeight:19.2px; textAlign:center; borderRadius:12px; border:2px solid #6c757d
+.toolTip-opener .fa | 0 0 0 0 HIDDEN of4 | position:absolute; margin:auto; color:#6c757d; fontFamily:FontAwesome; fontSize:12px; fontWeight:400; lineHeight:12px; textAlign:center
+#MainContent_Aktuelles23058_ulPosts | 14 10866 331 3984 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Aktuelles23058_ulPosts > li.column | 14 10866 331 3964 of1 | margin:0px 0px 20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 | 14 10866 331 393 of1 | display:inline-block; margin:0px 0px 20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#IG7513253691315920897 .container | 14 10866 331 393 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .date | 14 10866 331 41 of1 | padding:15px 20px 0px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .date .fa | 34 10886 18 16 of1 | display:inline-block; padding:0px 4px 0px 0px; color:#0a66c2; fontFamily:FontAwesome; fontSize:16.288px; fontWeight:400; lineHeight:16.288px
+#IG7513253691315920897 p.text | 14 10907 331 25 of1 | margin:0px 0px 8px; padding:0px 20px; color:#000000; fontFamily:STACK; fontSize:17.9168px; fontWeight:700; lineHeight:25.0835px
+#IG7513253691315920897 .post-content | 14 10940 331 262 of1 | padding:0px 20px 12px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .post-content > a | 88 10942 141 22 of1 | display:inline; color:#870d87; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .post-content p | 34 11123 291 251 of3 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:22.8032px
+#IG7513253691315920897 .wrapper | 34 11811 291 227 of1 | margin:12px 0px 8px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .carousel | 14 11811 331 227 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .slider | 14 11811 331 227 of1 | color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .slider > ul | 14 11811 1987 227 of1 | display:flex; position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .slider > ul > li | 14 11811 331 227 of6 | display:list-item; position:relative; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .slider li img | 14 11811 331 220 of6 img 1200x800 5386ce6f-3ff8-4eaf-b7da-5bed0e4099c0 | display:inline; backgroundColor:#666666; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .controls | 14 11811 331 227 of1 | position:absolute; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .controls a.btn-left | 0 0 0 0 HIDDEN of1 | display:none; position:absolute; color:#870d87; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px
+#IG7513253691315920897 .controls ul | 14 12003 331 26 of1 | position:absolute; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:center
+#IG7513253691315920897 .controls ul li a | 118 12008 14 16 of6 | display:inline-block; color:#0ba2e3; fontFamily:FontAwesome; fontSize:16.288px; fontWeight:400; lineHeight:16.288px; textAlign:center
+#IG7513253691315920897 .commands | 14 11202 331 56 of1 | padding:15px 20px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:26.0608px; textAlign:right
+#IG7513253691315920897 .commands a | 208 11222 118 19 of1 | display:inline; color:#0a66c2; fontFamily:STACK; fontSize:14.6592px; fontWeight:400; lineHeight:23.4547px; textAlign:right
+#IG17942006100094046 | MISSING
+#IG17942006100094046 .video | MISSING
+#IG17942006100094046 .video img | MISSING
+#IG17942006100094046 .video .fa-instagram | MISSING
+#IG17942006100094046 .video .fa-play-circle | MISSING
+#IG17942006100094046 .post-content | MISSING
+#IG18635647471010099 | MISSING
+#IG18635647471010099 .carousel | MISSING
+#IG18635647471010099 .slider li img | MISSING
+section.veranstaltungen | 0 15029 360 823 of1 | padding:20px 0px; fontFamily:STACK; fontSize:16px; fontWeight:400
+.veranstaltungen > .center | 0 15069 360 743 of1 | position:relative; maxWidth:100%; margin:20px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.veranstaltungen header | 0 15069 360 36 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.veranstaltungen h2 | 0 15069 360 36 of1 | margin:0px 0px 40px; color:#000000; fontFamily:STACK; fontSize:30.4px; fontWeight:700; lineHeight:36.48px; textAlign:center
+.veranstaltungen .panel | 0 15146 360 547 of1 | backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#MainContent_Veranstaltungen1_pnlAppointment | 0 15146 360 547 of1 | position:relative; margin:10px 0px 20px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Veranstaltungen1_upDetailView | 0 15146 360 547 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#22021 | MISSING
+#22021 a.teaser | MISSING
+#22021 figure | MISSING
+#22021 picture | MISSING
+#22021 img | MISSING
+#22021 figcaption | MISSING
+#22021 .picture-credits | MISSING
+#22021 .bar | MISSING
+#22021 .bar .title | MISSING
+#22021 .meta-data | MISSING
+#22021 .meta-data .icon | MISSING
+#MainContent_Veranstaltungen1_lbAppointmentBack | 0 0 0 0 HIDDEN of1 | display:none; position:absolute; color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Veranstaltungen1_lbAppointmentBack .arrow | 0 0 0 0 HIDDEN of1 | display:inline-block; backgroundColor:#870d87; backgroundImage:url(…/arrow-only-left.svg); color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400; borderRadius:17.5px
+#MainContent_Veranstaltungen1_lbAppointmentNext | 308 15334 35 35 of1 | position:absolute; color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Veranstaltungen1_lbAppointmentNext .arrow | 308 15334 35 35 of1 | display:inline-block; backgroundColor:#870d87; backgroundImage:url(…/arrow-only-right.svg); color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400; borderRadius:17.5px
+#MainContent_Veranstaltungen1_upPager | 0 15713 360 0 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Veranstaltungen1_ulQuartals | 0 0 0 0 HIDDEN of1 | display:none; position:relative; maxWidth:100%; margin:10px auto 30px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.list-quartals > li.navigation-button | 0 0 0 0 HIDDEN of2 | margin:0px 12px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals > li.navigation-button a | 0 0 0 0 HIDDEN of2 | display:inline; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals > li.navigation-button .icon | 0 0 0 0 HIDDEN of2 | display:inline-block; color:#808080; fontFamily:STACK; fontSize:31.68px; fontWeight:400; lineHeight:50.688px
+.list-quartals li.month-index-1 | 0 0 0 0 HIDDEN of1 | position:relative; margin:4px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals li.month-index-2 | 0 0 0 0 HIDDEN of1 | position:relative; margin:4px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals li.month-index-3 | 0 0 0 0 HIDDEN of1 | position:relative; margin:4px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals .month-name | 0 0 0 0 HIDDEN of3 | display:none; color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:600; lineHeight:30.976px
+.list-quartals li.month-index-1 > ul | 0 0 0 0 HIDDEN of1 | display:inline-block; position:relative; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals li.month-index-1 > ul > li | 0 0 0 0 HIDDEN of3 | position:absolute; color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:400; lineHeight:30.976px
+.list-quartals li.month-index-1 > ul > li.active | 0 0 0 0 HIDDEN of1 | position:absolute; color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:400; lineHeight:30.976px
+.list-quartals a.day-link | 0 0 0 0 HIDDEN of10 | display:inline-block; position:relative; margin:0px 0px 0px -6px; backgroundImage:url(…/4AO8970nyfRHkAAAAASUVORK5CYII=); color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:400; lineHeight:30.976px
+.list-quartals li.active a.day-link | 0 0 0 0 HIDDEN of1 | display:inline-block; position:relative; margin:0px 0px 0px -6px; backgroundImage:url(…/4AO8970nyfRHkAAAAASUVORK5CYII=); color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:400; lineHeight:30.976px
+.list-quartals a.day-link span | 0 0 0 0 HIDDEN of10 | position:absolute; color:#000000; fontFamily:STACK; fontSize:12.584px; fontWeight:600; lineHeight:20.1344px; textAlign:center
+.list-quartals .timeline | MISSING
+.veranstaltungen .commands | 0 15713 360 99 of1 | padding:45px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.veranstaltungen .commands a.link-button | 75 15758 211 54 of1 | display:inline-block; position:relative; padding:0px 30px; backgroundImage:url(…/vgbFEngAAAABJRU5ErkJggg==); color:#ffffff; fontFamily:STACK; fontSize:19px; fontWeight:700; lineHeight:54px; textAlign:center
+#PageFooter | 0 15852 360 968 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-1 | 0 15852 360 602 of1 | padding:20px 14.3906px 40px; backgroundColor:#870d87; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-1 .center | 14 15872 331 542 of1 | display:flex; position:relative; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .contact | 14 15872 288 178 of1 | margin:0px 25px 20px 0px; padding:0px 0px 15px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .contact h3 | 14 15872 288 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:18.72px; fontWeight:700; lineHeight:40px; textTransform:uppercase
+#PageFooter .contact ul | 14 15912 288 123 of1 | color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .contact li | 14 15912 288 41 of3 | display:list-item; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:600; lineHeight:40px
+#PageFooter .contact .label | 31 15912 76 40 of3 | display:inline-block; padding:0px 0px 0px 16px; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:40px
+#PageFooter .contact a | 107 15922 117 22 of3 | display:inline; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:600; lineHeight:40px
+#PageFooter .social | 14 16070 274 86 of1 | margin:0px 25px 0px 0px; padding:0px 0px 15px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .social h3 | 14 16070 274 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:18.72px; fontWeight:700; lineHeight:40px; textTransform:uppercase
+#PageFooter .social h3 a | 214 16078 22 22 of1 | display:inline-block; position:relative; margin:-5px 0px 0px 5px; backgroundColor:#870d87; color:#ffffff; fontFamily:STACK; fontSize:12px; fontWeight:700; lineHeight:40px; textTransform:uppercase; textAlign:center; borderRadius:12px; border:2px solid #ffffff
+#PageFooter .social ul | 14 16110 274 31 of1 | display:flex; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .social li | 14 16110 45 31 of6 | color:#ffffff; fontFamily:STACK; fontSize:19.24px; fontWeight:400; lineHeight:30.784px
+#PageFooter .social li a | 14 16116 16 19 of6 | display:inline-block; color:#ffffff; fontFamily:FontAwesome; fontSize:19.24px; fontWeight:400; lineHeight:19.24px
+#PageFooter .social li a.icon-X | 239 16115 16 22 of1 | display:inline; color:#ffffff; fontFamily:STACK; fontSize:16.354px; fontWeight:400; lineHeight:26.1664px
+#PageFooter .newsletter | 14 16171 331 243 of1 | margin:15px 0px 0px; padding:0px 0px 15px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .newsletter h3 | 14 16171 331 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:18.72px; fontWeight:700; lineHeight:40px; textTransform:uppercase
+#PageFooter .newsletter p | 14 16211 331 78 of1 | margin:0px 0px 15px; color:#ffffff; fontFamily:STACK; fontSize:16.288px; fontWeight:500; lineHeight:26.0608px
+#PageFooter .newsletter .clear-fix | 14 16304 331 95 of1 | color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#nl_email | 14 16304 331 40 of1 | display:inline-block; padding:0px 4.95312px 0px 8.26562px; backgroundColor:#ffffff; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:40px
+#lbNewsletter | 191 16359 155 40 of1 | position:relative; margin:15px 0px 0px; padding:0px 10px; backgroundImage:url(…/5y1dPIAAAAGSURBVAMAZQrjtuBcXx8AAAAASUVORK5CYII=); color:#ffffff; fontFamily:STACK; fontSize:17px; fontWeight:700; lineHeight:40px; textAlign:center
+#PageFooter .section-2 | 0 16454 360 366 of1 | padding:0px 14.3906px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-2 .center | 14 16454 331 366 of1 | display:flex; position:relative; padding:25px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-2 nav | 14 16479 331 300 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-2 nav ul | 14 16479 331 280 of1 | display:flex; margin:0px 0px 20px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-2 nav li | 14 16479 301 40 of8 | margin:0px 30px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:40px
+#PageFooter .section-2 nav li a | 14 16488 87 22 of7 | display:inline; color:#000000; fontFamily:STACK; fontSize:16.288px; fontWeight:400; lineHeight:40px
+#PageFooter .copyright | 14 16779 331 26 of1 | margin:0px 0px 15px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px
+#PageFooter .copyright span | 14 16780 264 22 of1 | display:inline; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px

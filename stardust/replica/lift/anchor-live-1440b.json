@@ -1,0 +1,96 @@
+{
+  "key": {
+    "url": "https://www.thueringerenergie.de/default",
+    "width": 1440,
+    "main": "#Content"
+  },
+  "probedAt": "2026-10-08T09:08:37.155Z",
+  "data": {
+    "doc": 8390,
+    "rootMissing": false,
+    "rootWrapsChrome": true,
+    "sections": [
+      {
+        "label": "slider-section.extra-wide",
+        "box": [
+          170,
+          877
+        ]
+      },
+      {
+        "label": "page-content-section.alternative-background-color",
+        "box": [
+          1047,
+          130
+        ]
+      },
+      {
+        "label": "page-content-section",
+        "box": [
+          1177,
+          471
+        ]
+      },
+      {
+        "label": "page-content-section.product-teasers-modul",
+        "box": [
+          1648,
+          648
+        ]
+      },
+      {
+        "label": "page-content-section",
+        "box": [
+          2296,
+          482
+        ]
+      },
+      {
+        "label": "page-content-section.alternative-background-color",
+        "box": [
+          2778,
+          726
+        ]
+      },
+      {
+        "label": "page-content-section.teaser-modul",
+        "box": [
+          3368,
+          367
+        ]
+      },
+      {
+        "label": "themen-section.extra-wide",
+        "box": [
+          3736,
+          1338
+        ]
+      },
+      {
+        "label": "page-foot-section.aktuelles",
+        "box": [
+          5073,
+          1080
+        ]
+      },
+      {
+        "label": "page-foot-section.aktuelles",
+        "box": [
+          6153,
+          1117
+        ]
+      },
+      {
+        "label": "veranstaltungen.extra-wide",
+        "box": [
+          7270,
+          763
+        ]
+      }
+    ],
+    "footer": [
+      8033,
+      335
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+// probe-mobilenav.cjs — one live navigation at 360: what the mobile nav (ul.mobile-nav) contains after the page's JS has built it
+const { chromium } = require('/app/node_modules/playwright');
+(async () => { const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 360, height: 900 }, userAgent: 'Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Mobile Safari/537.36', locale: 'de-DE' });
+  await p.goto('https://www.thueringerenergie.de/default', { waitUntil: 'domcontentloaded' }); await p.waitForTimeout(8000);
+  const out = await p.evaluate(() => { const nav = document.querySelector('#DesktopMenu ul.mobile-nav'); const as = nav ? [...nav.querySelectorAll('a')] : []; const depth = a => { let d = 0, e = a; while (e && e !== nav) { if (e.tagName === 'UL') d++; e = e.parentElement; } return d; }; return { total: document.querySelectorAll('#PageHeader a').length, mobileNavLinks: as.length, sample: as.slice(0, 40).map(a => depth(a) + ':' + (a.className || '') + ':' + a.textContent.trim().slice(0, 25)), structure: nav ? nav.children.length + ' top li; first li html: ' + nav.children[0].outerHTML.slice(0, 600) : 'no mobile-nav' }; });
+  console.log(JSON.stringify(out, null, 1)); await b.close(); })().catch(e => { console.error(e); process.exit(1); });

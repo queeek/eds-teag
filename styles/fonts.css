@@ -1,0 +1,49 @@
+/* Self-hosted web fonts (lifted from the source: Noto Sans ×4, teag-2017 icon font,
+   FontAwesome 4.7). Loaded by loadFonts() in scripts.js — never from head.html. */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/NotoSans-Regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/NotoSans-Bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/NotoSans-Italic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/NotoSans-BoldItalic-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'teag-2017';
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: url('../fonts/teag-2017.woff') format('woff');
+}
+
+@font-face {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: url('../fonts/fontawesome-webfont.woff2') format('woff2');
+}

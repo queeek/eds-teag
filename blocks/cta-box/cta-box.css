@@ -1,0 +1,169 @@
+/* cta-box — values from stardust/prototypes/css/privatkunden-strom-haus-baustromanschluss.css
+   + canon.css (lift: stardust/replica/lift/privatkunden-strom-haus-baustromanschluss.md
+   § Article section). Section tier (padding 20px 4vw + wrapper margin 20px) is the
+   foundation's; this block renders the source's 2/3 text column + 1/3 marginal float with
+   the purple call-to-action box. */
+
+.cta-box {
+  font-size: 16px;
+}
+
+/* source .center.clear-fix */
+.cta-box::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.cta-box-column,
+.cta-box-marginal {
+  width: 100%;
+}
+
+/* the source column is a float: its last margin (ul 20 / section 30 → 30) never collapses
+   into the marginal column's margin-top 30 (<= 768) — contain it the same way */
+.cta-box-column {
+  display: flow-root;
+}
+
+/* <= 768: .marginal-column { margin-top: 30px } */
+.cta-box-marginal {
+  margin-top: 30px;
+}
+
+/* .text-modul > header { margin-bottom: 48px; text-align: left } */
+.cta-box-text h2 {
+  margin: 0 0 48px;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.cta-box-text p {
+  margin: 0 0 16px;
+}
+
+/* .text-modul p a: purple body links (datenschutz probe: 400 / underline) */
+.cta-box-text p a:any-link {
+  color: var(--c-primary);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.cta-box-text p a:hover {
+  color: var(--c-info);
+}
+
+/* .text-modul > section > h3 { font-size: 1.17em; line-height: 1.2; margin-bottom: 16px } */
+.cta-box-text h3 {
+  margin: 0 0 16px;
+  font-size: 1.17em;
+  line-height: 1.2;
+}
+
+/* ul.linklist { margin-bottom: 20px } inside `> section { margin-bottom: 30px }` */
+.cta-box-text ul {
+  margin: 0 0 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.cta-box-text ul:last-child {
+  margin-bottom: 30px;
+}
+
+.cta-box-text ul li a:any-link {
+  display: inline-block;
+  padding-left: 25px;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+  background: url('./arrow-right.svg') left 5px / 17px no-repeat;
+}
+
+.cta-box-text ul li a:hover {
+  text-decoration: underline;
+}
+
+/* external links carry the teag-2017 "I" glyph (source .icon-icons-link-external) */
+.cta-box a[href^='http']:not([href*='thueringerenergie.de'])::after {
+  content: 'I';
+  font-family: "teag-2017", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -3px 0 0 6px;
+  color: var(--c-primary);
+}
+
+.cta-box a.button::after {
+  color: #fff;
+}
+
+/* section.box.call-to-action: margin 0 0 30px (30px left >= 769), padding 20, purple */
+.cta-box-box {
+  margin: 0 0 30px;
+  padding: 20px;
+  color: #fff;
+  background-color: var(--c-primary);
+  box-shadow: var(--shadow-box);
+}
+
+/* header > h3: 1.5em / 1.6, padding-bottom 5, 1px primary rule; <= 768 font = h2 size */
+.cta-box-box h3 {
+  margin: 0;
+  padding: 0 0 5px;
+  border-bottom: 1px solid var(--c-primary);
+  font-size: var(--fs-h2);
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* empty .service-container min-height 88 (66 >= 1025) + .link-container margin-top 30 */
+.cta-box-box p.button-wrapper {
+  margin: 118px 0 0;
+  text-align: left;
+}
+
+.cta-box-box p a.button:any-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cta-box-box p a.button:hover {
+  color: #fff;
+}
+
+/* source #Content { overflow: hidden } */
+main .section.cta-box-container {
+  overflow: hidden;
+}
+
+@media (width >= 769px) {
+  .cta-box-column {
+    float: left;
+    width: 66%;
+    margin-right: 2%;
+  }
+
+  .cta-box-marginal {
+    float: right;
+    width: 32%;
+    margin-top: 0;
+  }
+
+  .cta-box-box {
+    margin-left: 30px;
+  }
+
+  .cta-box-box h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media (width >= 1025px) {
+  .cta-box-box p.button-wrapper {
+    margin-top: 96px;
+  }
+}

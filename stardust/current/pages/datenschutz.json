@@ -1,0 +1,1586 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-08T07:49:12.143Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "datenschutz",
+  "url": "https://www.thueringerenergie.de/datenschutz",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-08T07:49:12.143Z",
+  "finalUrl": "https://www.thueringerenergie.de/datenschutz",
+  "title": "Datenschutz | TEAG Thüringer Energie",
+  "description": "Da uns der Schutz Ihrer persönlichen Daten wichtig ist, informieren wir Sie hier über unsere Online-Datenschutzprinzipien.",
+  "og": {
+    "title": "Datenschutz | TEAG Thüringer Energie",
+    "description": "Da uns der Schutz Ihrer persönlichen Daten wichtig ist, informieren wir Sie hier über unsere Online-Datenschutzprinzipien.",
+    "image": "https://www.thueringerenergie.de/Content/Images/Altes_Format/teag_og-image_1200x1200.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Datenschutz"
+    },
+    {
+      "tag": "h3",
+      "text": "1. Anwendungsbereich"
+    },
+    {
+      "tag": "h3",
+      "text": "2. So können Sie uns erreichen"
+    },
+    {
+      "tag": "h3",
+      "text": "3. Ihre Datenschutzrechte"
+    },
+    {
+      "tag": "h3",
+      "text": "4. Löschung Ihrer Daten"
+    },
+    {
+      "tag": "h3",
+      "text": "5. Kinder"
+    },
+    {
+      "tag": "h3",
+      "text": "6. Sicherheit"
+    },
+    {
+      "tag": "h3",
+      "text": "7. Schutz des E-Mail-Verkehrs"
+    },
+    {
+      "tag": "h3",
+      "text": "8. Funktion: Bereitstellung unserer Webseite"
+    },
+    {
+      "tag": "h3",
+      "text": "9. Funktion: Online-Kontaktformulare"
+    },
+    {
+      "tag": "h3",
+      "text": "10. Funktion: Cookies und Tracking auf der TEAG-Website"
+    },
+    {
+      "tag": "h3",
+      "text": "11. Funktion: Einbindung und Verlinkung von Videos über YouTube"
+    },
+    {
+      "tag": "h3",
+      "text": "12. Funktion: Weiterverlinkung zu anderen externen Angeboten"
+    },
+    {
+      "tag": "h3",
+      "text": "13. Funktion: Google Maps"
+    },
+    {
+      "tag": "h3",
+      "text": "14. Funktion: Newsletter-Abonnement"
+    },
+    {
+      "tag": "h3",
+      "text": "15. Funktion: Online-Bewerbung"
+    },
+    {
+      "tag": "h3",
+      "text": "16. Funktion: Onlineabschluss Strom/Erdgas"
+    },
+    {
+      "tag": "h3",
+      "text": "17. Funktion: Zählerstandsmeldung für Strom und Erdgas"
+    },
+    {
+      "tag": "h3",
+      "text": "18. Funktion: Registrierung und Nutzung des TEAG-Kundenportals"
+    },
+    {
+      "tag": "h3",
+      "text": "19. Funktion: Onlinekündigung Strom/Erdgas („Kündigungsbutton“)"
+    },
+    {
+      "tag": "h3",
+      "text": "20. Funktion: Zahlscheinanforderung für Vorkassezähler"
+    },
+    {
+      "tag": "h3",
+      "text": "21. Funktion: Energieausweis"
+    },
+    {
+      "tag": "h3",
+      "text": "22. Funktion: Registrierung und Nutzung des VertriebsPartnerExtra und Energieeffizienz-Netzwerke Portals"
+    },
+    {
+      "tag": "h3",
+      "text": "23. Funktion: WebCheck"
+    },
+    {
+      "tag": "h3",
+      "text": "24. Funktion: EnergieKlick"
+    },
+    {
+      "tag": "h3",
+      "text": "25. Funktion: TEAG-EnergieCockpit"
+    },
+    {
+      "tag": "h3",
+      "text": "26. Funktion: TEAG-Mein Zuhause"
+    },
+    {
+      "tag": "h3",
+      "text": "27. Funktion: Meldeportal für Beschwerden und Hinweise"
+    },
+    {
+      "tag": "h3",
+      "text": "28. Funktion: Bildungsportal der TEAG Akademie"
+    },
+    {
+      "tag": "h3",
+      "text": "29. Funktion: IdeenMachenSchule"
+    },
+    {
+      "tag": "h3",
+      "text": "30. Funktion: Registrierung und Nutzung des TEAG-Engagement-Tools (TET) zur Beantragung einer finanziellen Unterstützung"
+    },
+    {
+      "tag": "h3",
+      "text": "31. Funktion: Live-Chat & Chat-Bot"
+    },
+    {
+      "tag": "h3",
+      "text": "32. Funktion: Gewinnspiele und Aktionen auf der Online-Präsenz der TEAG"
+    },
+    {
+      "tag": "h3",
+      "text": "33. Funktion: Abstimmungen auf der Online-Präsenz der TEAG"
+    },
+    {
+      "tag": "h3",
+      "text": "34. Aktualität und Änderung dieser Datenschutzerklärung"
+    },
+    {
+      "tag": "h4",
+      "text": "Download"
+    },
+    {
+      "tag": "h3",
+      "text": "Kontakt"
+    },
+    {
+      "tag": "h3",
+      "text": "Folgen Sie uns auf"
+    },
+    {
+      "tag": "h3",
+      "text": "TEAG-Newsletter"
+    }
+  ],
+  "body": [
+    "Kundenportal",
+    "Karriere",
+    "Kontrast",
+    "Privatkunden Strom Stromtarife TEAG.Strom extra TEAG.Strom easy TEAG.Strom TEAG.Heizstrom ThüringenStrom.vorkasse ThüringenStrom.sozial Grundversorgung Strom AzubiBonus Dynamische Stromtarife TEAG.Strom dynamic plus TEAG.Strom dynamic base Ersatzversorgung Haus- & Baustromanschluss Strom & Internet Strom & Smartwatch Erdgas Gastarife TEAG.Gas easy TEAG.Gas extra TEAG.Gas ThüringenGas.vorkasse Grundversorgung Erdgas Ersatzversorgung Hausanschluss Elektromobilität DSL & Internet Energielösungen Mein Zuhause Sanierungsfahrplan Thermografie BlowerDoor EnergieAusweis Smart Meter Service TEAG-Kundenportal Zählerstandsmeldung 24h-Lieferantenwechsel Tipps zum Energiesparen Umzug und Kündigung Widerruf Umzug Kündigung Todesfall SEPA-Lastschriftmandat FAQ Kontakt Coloures-Pic/stock.adobe.com Hinweis zur Systemumstellung​ Aktuell arbeiten wir an unseren Systemen. Während der Umstellungsphase kommt es zu Unterbrechungen und Verzögerungen bei der Bearbeitung von Kundenanliegen. Antworten auf die wichtigsten Fragen ×",
+    "Geschäftskunden Energielieferung Gewerbekunden TEAG.Strom extra TEAG.Strom TEAG.Heizstrom ThüringenStrom.vorkasse Grundversorgung Strom TEAG.Gas TEAG.Gas natur ThüringenGas.vorkasse Grundversorgung Erdgas Großkunden TEAG.Strom/Gas profi TEAG.Strom/Gas vario TEAG.Strom/Gas spot business TEAG.Strom/Gas trend TEAG.Strom/Gas quattro TEAG.Strom pool TEAG.Strom/Gas spot expert Verbände Vermittler Landwirtschaft Wohnungswirtschaft Filialkunden Wärme Photovoltaik DSL & Internet Elektromobilität Erneuerbare Energielösungen EnergieAudit EnergieEffizienzAnalyse EnergieEffizienzFörderung Energie- und Lastmanagement Direktvermarktung Geförderte Direktvermarktung Sonstige Direktvermarktung Power Purchase Agreements Service Ansprechpartnersuche Kundenportale Für Individual- und Geschäftskunden WebCheck EnergieKlick EnergieKlick.Strom EnergieKlick.Gas Preisrechner Zielpreisverfahren Ersatzversorgung Haus- & Baustromanschluss Tipps zum Energiesparen Rechnungen FAQ stock.adobe.com/ipopba EnergieEffizienzFörderung Einsparpotenziale in Ihrem Unternehmen identifizieren, clever investieren und CO2-Kosten senken - wir begleiten Sie gerne auf Ihrem Weg. Weiterlesen ×",
+    "Kommunen Kommunale Lösungen Strom & Gas Netzausbau Glasfaser Wasser Elektromobilität Erneuerbare Energien Straßenbeleuchtung Kommunale Wärmeplanung Akademie-Angebote TEAG auf einen Blick Aktuelles & Veranstaltungen TEAG KOMMUNAL Ansprechpartner KommunalPartnerExtra Förderprogramme FAQs TEAG KOMMUNAL+ Digitale Angebote Adrian Sonnberger/trurnit GmbH Kommunale Wärmeplanung – Zukunftssichere Lösungen für Ihre Kommune Auf dem Weg zu mehr Energieeffizienz im Gebäudesektor begleiten wir Sie strategisch zu einer sicheren Wärmeversorgung Ihrer Kommune. Weiterlesen ×",
+    "Stadtwerke Energielieferung VertriebsPartnerExtra Service Stromkennzeichnung Marktpreise & -berichte REMIT-Infos Materialwirtschaft Gruppenrahmenverträge Dokumente Mengenkontrakte Strom Mengenkontrakte Erdgas Materialangebot TEN Lead Buyer Aktuelles Veranstaltungen Wissenswertes Unsere Dienstleistungen für Stadtwerke Risikomanagement Produkte aus erneuerbaren Energien Emissionshandel Für Netzbetreiber Ansprechpartner EnergieKlick EnergieKlick.Strom EnergieKlick.Gas ×",
+    "Akademie Seminare Allgemeine technische Seminare Beauftragtenschulung Elektrotechnik & Erneuerbare Energien Energiewirtschaft Fernwärme Freileitungsbau Gastechnik Höhentraining Kommunikationstechnik Ortungstechnik Wasser Organisation Anmeldeprozess Ansprechpartner Anreise Übernachtungsmöglichkeiten Akademie Das zeichnet uns aus Ausbildung & Ausbildungsgemeinschaft Trainingszentrum Erfurt Zertifikate & Mitgliedschaften /TEAG Weiterlesen ×",
+    "Einblicke Strom & Gas Sonderausstellung: Vom Umspannwerk Jena-Nord zur Imaginata Energieberatung bei der TEAG: Matthias Pfütsch im Gespräch Moderne Datensicherung für die IT-Infrastruktur der TEAG Wissenschaftsshow voll Energie: Andreas Schmidt zeigt Experimente zur Elektrizität Energiezukunft gestalten: Forschung und Energieversorger gehen gemeinsame Wege So stillt die TEAG großen Energiehunger Tierschutz an Windkraftanlagen Zusammen am Tisch sitzen Wir verkaufen Sonnenstrom Zukunftsenergie Wasserstoff: Thüringens Wegweiser in die alternative Energieversorgung Weihnachten im Hochwassereinsatz 100 Jahre landesweite Stromversorgung in Thüringen Entschleunigung im Pelto Bad Sohnstedt Power für Jena Mehr Flexibilität bei weniger Kosten Wärme Zweite Thüringer Wärmetagung: Chancen der Wärmewende Neues Fernwärmenetz in Gera-Langenberg eröffnet Wärmelösungen für das energieeffiziente Thüringen von Morgen Wärmeversorgung in Thüringen: Fernwärme-Projekt startet in Triptis Zukunftsweisende Power-to-Heat-Anlage in Bad Salzungen Minimalinvasiv zum Nahwärmenetz Ein echt dickes Ding Alles im Fluss Neue Ideen auf altem Fundament Moderne Heizkonzepte für alte Siedlung Kühle Köpfe mit heißen Ideen Internet Glasfaseranschluss im Alltag Bahnfrei für schnelles Internet Hier laufen alle Daten zusammen: Die Netzleitstelle der Thüringer Netkom Lernen mit schnellem Netz – Lichtfest in Zeulenroda Weg mit den weißen Flecken Schneller Sport, schnelles Netz Zu Glasfaser ins Gespräch kommen PV & Speicher Vom Energieverbraucher zum Energiegestalter Ressourcenschonende Abfallentsorgung TEAG Solar nimmt 1,5-MW-Batteriespeicher erfolgreich in Betrieb Spektakulärer Reparatureinsatz an der Windenergieanlage Immenrode Für den Solarpark in Ohrdruf: Aktiv-Schule Erfurt baut Nistkästen in Handarbeit Neues Geschäftsfeld Batteriespeicher TEAG Solar plant naturverträglichen Solarpark Ressourcenschonende Energieversorgung Made in Thüringen Spende an die Kita in Langenwolschendorf Solarpark auf ehemaliger Deponie im Kreis Hildburghausen Sonnenstrom für Ostthüringen Räumung von Kampfmitteln Nachhaltigkeit für die Werkstatt-Beschäftigten Sonne als Partner Abkühlung im Sommer - Stromerzeugung das ganze Jahr Grüner Stahl durch die Kraft der Sonne Minischafe am Großprojekt Ein langer Atem für die Energiewende Fliegende Helfer für die Wartung von Photovoltaikanlagen Elektromobilität TEAG Mobil erreicht mit dem 1.000. Ladepunkt einen Meilenstein TEAG Mobil auf der Automobilmesse E-Mobilität wächst und Schleiz wächst mit Vollgas für die E-Mobilität Elektromobilitätstag im ADAC-Fahrsicherheitszentrum Nohra TEAG Mobil GmbH errichtet neue Ladepunkte im Erfurter Norden Zukunftstechnologie erfahren Die TEAG Mobil bringt die Elektromobilität im Freistaat voran Energieeffizienz Die größten Mythen der Energiewende Digitale Wasserzähler der TEAG Wasser Wasser sparen im Alltag Bekenntnis zur Energiewende: Wie die TEAG die EU-Nachhaltigkeitsrichtlinie umsetzt Wärmelecks im Visier Modernes Wohnen Individueller Sanierungsfahrplan (iSFP) Energieverlusten auf den Zahn gefühlt BlowerDoor-Analyse: Luftdichtheit des eigenen Zuhauses testen Karriere Ausbildung an der TEAG Akademie Wie Maja Seifert ihrem Berufsleben eine neue Richtung gab Kabelfehlerortung im Stromnetz: Kabelmesswagen als Schlüsselwerkzeug Kleines Fahrrad, große Leidenschaft: Die Balance zwischen Leistungssport und Arbeitsleben Zukunftsmacher Robert Meiselbach treibt den Glasfaserausbau in Thüringen voran Ziel erreicht: Starkes Starterfeld beim RUN Thüringer Unternehmenslauf Geplant, Gebaut, Gebraucht: Sekundärtechnik in der Netzleitstelle der TEN Gasnetz-Monteur, Familienmensch und Macher bei der TEN Pendeln zwischen Eichsfeld und Erfurt Etwas Neues wagen: Eine eigene Prüfstelle aufbauen Windkraft in Thüringen Länger fit bleiben: Der Betriebsmedizinische Dienst der TEAG-Gruppe Systemadministrator bei der TEAG Vom Balkan in den Hörsaal Elektromobilität ausbauen: Überall und jederzeit laden Elektroanlagenmonteur in Hildburghausen Zurück in die Heimat: Die Wärmewende mitgestalten Fahrradfreundlichkeit als Mitarbeiter-Benefit Tag der offenen Tür 2026 bei der TEAG-Gruppe HS2E-Tag der TEAG-Gruppe: Sommer, Sonne, Arbeitsschutz Schweiß, Tore und Teamgeist Wenzel Drews hat seine Ausbildung als Jahrgangsbester abgeschlossen Sophie Reifhardt: Hüterin des Lichts Wir sind alle Zukunftsmacher Energie aus Sonne und Wind Wie der Vater so der Sohn Perfekter Karrierestart nach dem Studium Lernen mit Aussicht: Austausch mit einer Berufsschule aus Norwegen Energiewende statt Schwarzer Löcher Stressfaktoren erkennen und richtig damit umgehen Neue Karriere bei der TEAG – aller guten Dinge sind drei Beste Industriekauffrau in Thüringen kommt von der TES Am Puls der Energieerzeugung Ein Studium für die Zukunft der Energie Spannung, Studienkurse, Stromstärken Mission: Datensicherheit Einsatzplan für ein Kraftwerk Aus dem Irak an die Programmierkonsole Die junge Stimme Auf Empfehlung zur TEAG-Gruppe Modernes Messwesen statt Marderpanzer Zum Meister seines Fachs Der Energie verschrieben Eine macht den Anfang Das Azubi-Sommerfest 2023 Die Zukunft trainieren Engagement Barrierefreiheit bei der TEAG Malwettbewerb der TEAG: Halbes Bild, ganze Idee Besser gemacht: Optimierte Insektenhotels geben Bienen wieder ein Zuhause Volle Ladung Hilfsbereitschaft für Berlin Sieger bei IdeenMachenSchule Mit TEAG summt's! Der Große Preis von Nordthüringen in Immenrode TEAG-Team sammelt für Kinderhospiz Mitteldeutschland TEAG Legend of Cross Mit hoher Energie über den Stausee Braveheart Battle in Steinach Nationale Winterspiele der Special Olympics in Thüringen Die TEAG unterstützt den Traum vom Fliegen Mit Energie über den Kyffhäuser TEAG-Laufcamp: Trainingswochenende für Laufbegeisterte TEAG als Premium-Sponsor beim ThSV Eisenach aktiv 10 Jahre TEAG Wandern gegen Kinderdemenz Ein Ortsteil unter Strom Sommer, Sonne, Spendenmarsch Themen, die uns bewegen Paul-Philipp Braun/TEAG Tag der offenen Tür 2026 bei der TEAG-Gruppe Zum Tag der offenen Tür 2026 gibt die TEAG-Gruppe einen Einblick in ihre Arbeit und in die Energieversorgung in Thüringen. Weiterlesen Paul-Philipp Braun/TEAG Sonderausstellung: Vom Umspannwerk Jena-Nord zur Imaginata Der TEAG-Arbeitskreis “Stromgeschichte Thüringens“ begleitet die Sonderausstellung zum 100. Geburtstag des Umspannwerks Jena-Nord. Weiterlesen Guido Werner/TEAG Barrierefreiheit bei der TEAG Wie nutzt ein blinder Mensch eine Website? Die TEAG zeigt, warum Barrierefreiheit mehr ist als Kontraste und Screenreader. Weiterlesen Guido Werner/TEAG Sieger bei IdeenMachenSchule Mit IdeenMachenSchule fördert die TEAG kreative Upcycling-Projekte wie den Erdbeerturm aus Blankenhain. Weiterlesen × Alle Einblicke×",
+    "Über uns Unternehmen Porträt & Geschäftszahlen Management & Beiräte Struktur & Beteiligungen Veranstaltungen Tag der offenen Tür Zertifikate Veröffentlichungspflichten Lieferkettensorgfaltspflichten Wärme Stromkennzeichnung Grundversorgung Gleichbehandlung Veröffentlichungen nach REMIT Umwelt- & Arbeitsschutz News TEAG Magazin Presse Karriere Schüler Auszubildende Ausbildungsberufe Ausbildung mit dem „Plus“ Bewerbungstipps Studierende Praktikum Werkstudierende Berufserfahrene & Berufseinsteiger Alle Stellenangebote TEAG als Arbeitgeber TEAG Solar als Arbeitgeber Thüringer Netkom als Arbeitgeber Thüringer Energienetze als Arbeitgeber Thüringer Wärme Service als Arbeitgeber Thüringer Mess- und Zählerwesen als Arbeitgeber Thüringer Energie Service als Arbeitgeber TEAG Mobil als Arbeitgeber TEAG Wasser als Arbeitgeber Arbeiten bei unseren Töchtern Engagement Sponsoring Initiativen IdeenMachenSchule Mit TEAG summt's TEAG-Laufuniversum Arbeitskreis Stromgeschichte Spenden Energieversorgung Energieerzeugung Netzausbau Speicherlösungen E-Mobilität Wärmewende Produkte & Kundenservice /TEAG Über uns – die TEAG: Energie mit Verantwortung Wir übernehmen Verantwortung für Thüringen und die Region. Diese Verantwortung begrünet sich seit über 100 Jahren in einer sicheren Energieversorgung im Freistaat und geht doch weit darüber hinaus. Mehr über die TEAG ×",
+    "Service Unser Online-Service Zählerstand melden Abschlag anpassen SEPA nutzen Todesfall mitteilen Weitere Servicethemen Allgemeines Kontaktformular Sie möchten mit uns zu den folgenden Themen Kontakt aufnehmen, dann füllen Sie bitte unser Kontaktformular aus. Sie sind* Kunde Neukunde Kundennummer* Thema Ihrer Anfrage* Thema Ihrer Anfrage Abschlag Bankverbindung TEAG-Kundenportal Energieberatung Netzanschluss Produkte Rechnung Verträge Zählerstand Sonstiges Art Ihrer Anfrage* ------ Ihr Vorname* Ihr Nachname* Ihre Telefonnummer Ihre E-Mail Adresse* Ihre Nachricht an uns Bitte stellen Sie Sie bei Verwendung des Freitextfeldes sicher, dass Sie nur Daten an uns übergeben, die zur Beantwortung Ihres Anliegens erforderlich sind. Verzichten Sie auf die Angabe personenbezogener sowie sensibler Daten.× Um uns eine Änderung Ihrer Bankdaten mitzuteilen, füllen Sie bitte unser SEPA-Lastschriftmandat aus und laden dieses unterschrieben in das Formular hoch. SEPA-Lastschriftmandat (Folgende Dateiformate sind erlaubt: *.jpg, *.pdf. Die Dateigröße darf 5 Megabyte nicht überschreiten.)* Bitte stellen Sie beim Hochladen von Dateien sicher, dass Sie nur Daten an uns übergeben, die zur Beantwortung Ihres Anliegens erforderlich sind. Verzichten Sie auf die Angabe personenbezogener sowie sensibler Daten oder machen Sie diese unkenntlich (z.B. Schwärzen).× Die Datei ist entweder zu groß oder hatte das falsche Dateiformat und wurde daher nicht gespeichert. Ich habe die Datenschutzerklärung gelesen und verstanden.* Bitte senden Sie mir eine Kopie der übermittelten Daten an meine angegebene E-Mail-Adresse. Ich habe sichergestellt, dass mein E-Mail-Provider den TLS-Standard in der aktuellen Version unterstützt. Bitte tragen Sie den im Bild dargestellten Sicherheitscode in das Eingabefeld ein:* Alle mit * gekennzeichneten Felder sind Pflichtfelder. Absenden function sc_AsyncFileUpload1_ClientUploadError(sender, args) { document.getElementById(\"WidgetKontakt1_fileUploadErg1\").className = \"fileUploadErg withError\"; document.getElementById(\"WidgetKontakt1_AsyncFileUpload1_FileName\").value = \"\"; } function sc_AsyncFileUpload1_ClientUploadComplete(sender, args) { var contentType = args.get_contentType(); if (args.get_length() <= 1024 * 1024 * 5 && (contentType === \"image/jpeg\" || contentType === \"application/pdf\")) { document.getElementById(\"WidgetKontakt1_fileUploadErg1\").className = \"fileUploadErg withFile\"; document.getElementById(\"WidgetKontakt1_sFileName1\").innerHTML = args.get_fileName(); document.getElementById(\"WidgetKontakt1_AsyncFileUpload1_FileName\").value = args.get_fileName(); } else { document.getElementById(\"WidgetKontakt1_fileUploadErg1\").className = \"fileUploadErg withError\"; document.getElementById(\"WidgetKontakt1_AsyncFileUpload1_FileName\").value = \"\"; } TEAG.Common.reloadCaptchaImage(\"WidgetKontakt1_AsyncFileUpload1_FileName\"); } ×",
+    "Login TEAG-Kundenportal Im Online-Kundenportal bieten wir Ihnen umfangreiche Funktionalitäten und Services rund um Ihren TEAG-Vertrag. Einloggen KommunalPartnerExtra VertriebsPartnerExtra ×",
+    "Startseite",
+    "Datenschutz",
+    "Wir freuen uns über Ihren Besuch auf der Online-Präsenz der TEAG Thüringer Energie AG sowie über Ihr Interesse an unserem Unternehmen und unseren Produkten. Mittels dieser Datenschutzinformation klären wir Sie über die mit Ihrem Besuch einhergehende Verarbeitung personenbezogener Daten entsprechend den Vorgaben des Art. 13 EU-Datenschutzgrundverordnung (DSGVO) auf.",
+    "Diese Datenschutzinformation gilt für die Online-Präsenz der TEAG Thüringer Energie AG unter www.thueringerenergie.de. Bitte informieren Sie sich gesondert über die Datenschutzinformationen für die weiteren Online-Präsenzen der TEAG-Gesellschaften. Diese Online-Präsenz enthält Links zu Online-Präsenzen anderer Anbieter innerhalb und außerhalb des TEAG-Konzerns, auf die sich diese Datenschutzinformation nicht erstreckt. Wenn Sie unsere Online-Präsenz verlassen, empfehlen wir Ihnen, die Datenschutzinformation jeder Online-Präsenz, die personenbezogene Daten sammelt, sorgfältig zu lesen.",
+    "Der für die Datenverarbeitung Verantwortliche im Sinne der DSGVO ist die:",
+    "TEAG Thüringer Energie AG Schwerborner Straße 30 99087 Erfurt",
+    "Telefon: 03641 8171111",
+    "E-Mail: info@teag.de Webseite: www.thueringerenergie.de",
+    "Den Datenschutzbeauftragten des für die Verarbeitung Verantwortlichen erreichen Sie wie folgt:",
+    "Postadresse: TEAG Thüringer Energie AG Datenschutzbeauftragter Schwerborner Straße 30 99087 Erfurt",
+    "E-Mail: datenschutz@teag.de",
+    "Sie können sich selbstverständlich jederzeit bei allen Fragen und Anregungen zum Datenschutz direkt an unseren Datenschutzbeauftragten wenden.",
+    "Im Zusammenhang mit der Verarbeitung Ihrer personenbezogenen Daten stehen Ihnen, nach Vorliegen der entsprechenden Voraussetzungen, folgende Rechte zu:",
+    "gemäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen,",
+    "gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen,",
+    "gemäß Art. 17 DSGVO die Löschung Ihrer bei uns gespeicherten personenbezogenen Daten zu verlangen,",
+    "gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen,",
+    "gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen (Portabilität),",
+    "gemäß Art. 21 Abs. 1 DSGVO Widerspruch gegen die auf Art. 6 Abs. 1 Buchstabe e) und f) DSGVO gestützte Verarbeitung Ihrer personenbezogenen Daten einzulegen, soweit dafür Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben. Die Gründe sind nachzuweisen. Sie können zudem ohne Angabe von Gründen der Verarbeitung Ihrer Daten zu Zwecken der Direktwerbung gem. Art. 21 Abs. 2 DSGVO widersprechen,",
+    "gemäß Art. 7 Abs. 3 DSGVO Ihre datenschutzrechtliche Einwilligungserklärung jederzeit zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt,",
+    "gemäß Art. 22 DSGVO, nicht einer ausschließlich auf einer automatisierten Verarbeitung (einschließlich Profiling) beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt.",
+    "gemäß Art. 77 DSGVO sich bei einer Datenschutzaufsichtsbehörde zu beschweren. Dies ist: Thüringer Landesbeauftragter für den Datenschutz und die Informationsfreiheit, Häßlerstraße 8, 99096 Erfurt",
+    "Alle hier aufgeführten Rechte können Sie unter den in Ziffer 2 aufgeführten Kontaktdaten geltend machen.",
+    "Wir verarbeiten Ihre personenbezogenen Daten für die untenstehend beschriebenen Zwecke. Ihre Daten werden erstmals ab dem Zeitpunkt der Erhebung, soweit Sie oder ein Dritter uns diese mitteilen, verarbeitet. Wir löschen Ihre personenbezogenen Daten, wenn das Vertragsverhältnis mit Ihnen beendet ist, sämtliche gegenseitigen Ansprüche erfüllt sind und keine anderweitigen gesetzlichen Aufbewahrungspflichten oder gesetzlichen Rechtfertigungsgründe für die Speicherung bestehen. Dabei handelt es sich unter anderem um Aufbewahrungspflichten aus dem Handelsgesetzbuch (HGB) und der Abgabenordnung (AO). Das bedeutet, dass wir spätestens nach Ablauf der gesetzlichen Aufbewahrungspflichten, in der Regel sind das 10 Jahre nach Vertragsende, Ihre personenbezogenen Daten löschen. Im Einzelfall kann sich die Frist verlängern (z. B. bei laufenden steuerlichen Prüfungen oder im Rahmen der Erhaltung von Beweismitteln). Eine weitergehende Verarbeitung der Daten ist auch zulässig, wenn Sie in diese Speicherung eingewilligt haben (z. B. werbliche Ansprache) und Sie diese Einwilligung nicht widerrufen haben. Konkretisierende Erläuterungen zur Löschung finden sich bedarfsweise in den einzelnen Funktions- und Zweckbeschreibungen (ab Ziffer 8.).",
+    "Kinder sollten von ihren Erziehungsberechtigten und Aufsichtspersonen in den sicheren und verantwortungsvollen Umgang mit personenbezogenen Daten im Internet eingewiesen werden. Ohne Zustimmung eines Erziehungsberechtigten oder der Aufsichtsperson sollten Kinder keine personenbezogenen Daten an unsere Online-Präsenz übermitteln. Wir versichern, nicht wissentlich personenbezogene Daten von Kindern zu erheben, in irgendeiner Weise zu verwenden oder Dritten gegenüber unberechtigt offen zu legen.",
+    "TEAG Thüringer Energie AG setzt technische und organisatorische Sicherheitsmaßnahmen ein, um die Daten, die Sie uns zur Verfügung stellen, insbesondere vor zufälligen oder vorsätzlichen Manipulationen, Verlust, Zerstörung oder dem Zugriff unberechtigter Personen zu schützen. Unsere Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung fortlaufend verbessert. Dennoch können im Einzelfall internetbasierte Datenübertragungen Sicherheitslücken aufweisen, sodass ein lückenloser Schutz nicht gewährleistet werden kann. Aus diesem Grund steht es Ihnen frei, personenbezogene Daten auch auf alternativen Wegen, beispielsweise telefonisch, an uns zu übermitteln.",
+    "Auf dieser Website werden an verschiedener Stelle E-Mail-Adressen von Ansprechpartnern sowie von Funktionspostfächern unserer Unternehmensgruppe verlinkt. Es kann auch sein, dass Sie uns Ihre E-Mail-Adresse zur Kontaktaufnahme zur Verfügung gestellt oder dass Sie unsere E-Mail-Adressen von einem Dritten (z.B. Dienstleister) erhalten haben. Für ein Mindestmaß an Sicherheit bei der Übermittlung von Informationen per E-Mail unterstützen wir den aktuellen TLS-Standard. Bitte stellen Sie sicher, dass auch Ihr E-Mail-Provider diesen Standard in der aktuellen Version unterstützt. Für einen Austausch besonders schützenswerter Informationen per E-Mail besteht die Möglichkeit der Verschlüsselung der E-Mail mittels Austausch entsprechender Schlüssel (per PKI) sowie die Möglichkeit einer Passwortverschlüsselung angehängter Dokumente – sprechen Sie uns hierzu einfach vor der Versendung Ihrer E-Mail an.",
+    "Bei jedem Aufruf der Webseite www.thueringerenergie.de erfassen wir automatisiert Daten und Informationen Ihres Endgeräts. Technischer Dienstleister ist die trurnit GmbH, Putzbrunner Straße 38, 85521 Ottobrunn, Deutschland.",
+    "Folgende Daten werden hierbei erhoben:",
+    "Informationen über Ihren Browsertyp und die verwendete Version,",
+    "Ihr Betriebssystem,",
+    "Ihren Internet-Service-Provider,",
+    "Ihre IP-Adresse,",
+    "Datum und Uhrzeit Ihres Zugriffs.",
+    "Diese Daten werden ebenfalls in den Logfiles unseres Systems gespeichert. Eine Speicherung dieser Daten zusammen mit anderen Ihrer personenbezogenen Daten findet nicht statt.",
+    "Die vorübergehende Speicherung Ihrer IP-Adresse durch das System ist notwendig, um eine Auslieferung unserer Webseite an Ihr Endgerät zu ermöglichen. Hierfür muss Ihre IP-Adresse für die Dauer der Sitzung gespeichert bleiben. Die übrigen auf diese Weise erhobenen Daten werden durch technische Vorkehrungen pseudonymisiert. Daher ist eine Zuordnung der Daten zu Ihrer Person nicht mehr möglich.",
+    "Die Speicherung der Daten in Logfiles erfolgt, um die Funktionsfähigkeit unserer Webseite sicherzustellen. Zudem dienen uns die Daten zur Optimierung der Webseite und zur Sicherstellung der Sicherheit unserer informationstechnischen Systeme.",
+    "Rechtsgrundlage für die Verarbeitung und vorübergehende Speicherung Ihrer Daten und der Logfiles ist Art. 6 Abs. 1 Buchstabe f) DSGVO.",
+    "Ihre Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Im Falle der Erfassung der Daten zur Nutzung unserer Webseite ist dies der Fall, wenn die jeweilige Sitzung beendet ist. Im Falle der Speicherung der Daten in Logfiles ist dies nach spätestens sieben Tagen der Fall. Eine darüberhinausgehende Speicherung ist möglich. In diesem Fall werden die IP-Adressen gelöscht.",
+    "Die Erfassung der Daten zur Bereitstellung unserer Webseite und die Speicherung der Daten in Logfiles ist für den Betrieb dieser erforderlich.",
+    "Hinweis: Unabhängig von der Datenverarbeitung unseres Systems, können die Programme auf Ihrem Endgerät, zum Beispiel Browser oder Add-ons, selbstständig eine Datenverarbeitung auf Ihrem Endgerät oder anderen Systemen anstoßen. Darunter fallen zum Beispiel der Browserverlauf oder die automatische Vervollständigung von Formularen. Hierauf haben wir keinen Einfluss.",
+    "Bei Anfragen jeglicher Art bieten wir Ihnen die Möglichkeit, auf unserer Webseite mittels bereitgestellter Formulare, mit uns Kontakt aufzunehmen. Für die Nutzung des jeweiligen Kontaktformulars, ist die Angabe verschiedener personenbezogener Daten erforderlich. Dies können im Einzelfall beispielsweise sein:",
+    "Kunde oder Neukunde,",
+    "Kundennummer,",
+    "Vor- und Nachname,",
+    "Thema und Art bzw. Grund der Anfrage,",
+    "E-Mail-Adresse,",
+    "Die konkrete Nachricht.",
+    "Abweichend hiervon können auch weitere personenbezogene, formularspezifische Daten abgefragt werden. Diese Erhebungen sind erforderlich,",
+    "um Sie identifizieren zu können und",
+    "um Ihr Anliegen bearbeiten zu können.",
+    "Im Einzelfall bieten wir Ihnen auf freiwilliger Basis an, uns zusätzliche Kontaktdaten (z.B. Telefonnummer, Postanschrift) zur Verfügung zu stellen. Ausnahme ist das Rückruf-Formular – hier ist die Telefonnummer eine Pflichtangabe. Zudem können Sie bei bestimmten Formularen Freitextfelder befüllen sowie Dateien (z.B. Vertragsdokumente) hochladen. Bitte stellen Sie bei Verwendung dieser Formularfelder sicher, dass Sie nur solche Daten an uns übergeben, die für die Anfrage bzw. zur Beantwortung Ihres Anliegens erforderlich sind. Verzichten Sie nach Möglichkeit auf die Angabe personenbezogener sowie sensiblen Daten oder machen Sie diese unkenntlich (z.B. durch Schwärzen). Wir behalten uns nach Erhalt vor, etwaige Daten zu löschen bzw. unkenntlich zu machen.",
+    "Sie können über unsere bereitgestellte E-Mail-Adresse kundenservice@teag.de ebenfalls Kontakt zu uns aufnehmen. In diesem Fall werden Ihre mit der E-Mail übermittelten personenbezogenen Daten verarbeitet.",
+    "Die Datenverarbeitung erfolgt auf Grundlage Ihrer Einwilligung nach Art. 6 Abs. 1 S. 1 Buchstabe a) DSGVO zu den vorgenannten Zwecken. Zudem wird die Datenverarbeitung im Rahmen der Kontaktanfrage auf unsere berechtigten Interessen gem. Art. 6 Abs. 1 S. 1 Buchstabe f) DSGVO gestützt.",
+    "Zielt Ihre Kontaktaufnahme auf den Abschluss eines Vertrages ab oder steht die Kontaktaufnahme in Zusammenhang mit der Erfüllung eines Vertrags, so stützt sich die damit einhergehende Verarbeitung Ihrer Daten, z.B. für die Zusendung von angeforderten Vertragsunterlagen oder Nachfragen zu erstellten Rechnungen, auf Art. 6 Abs. 1 Buchstabe b) DSGVO.",
+    "Darüber hinaus bieten wir Ihnen bedarfsweise die Möglichkeit an, dass Sie eine Kopie des Inhaltes des an uns versendeten Kontaktformulars per E-Mail erhalten können. Diese Möglichkeit müssen Sie aktiv auswählen, sofern Sie dies wünschen. In diesem Zusammenhang weisen wir auf die notwendigen Standards im E-Mail-Verkehr gem. Punkt 7. dieser Datenschutzinformation hin.",
+    "Die von uns mittels der Kontaktformulare erhobenen personenbezogenen Daten werden nach vollständiger Erledigung der von Ihnen gestellten Anfrage gelöscht, sofern keine andere Rechtsgrundlage eine weitergehendere Verarbeitung rechtfertigt (z.B. Aufbewahrungspflichten nach dem Handels- und Steuerrecht).",
+    "Bedarfsweise nutzen wir bei der Bereitstellung unserer Online-Formulare eine sog. CAPTCHA-Funktion, um das automatisierte Ausfüllen und Absenden des Formulars durch (Schad-)Programme zu unterbinden (Bot-Abwehr / Spam-Abwehr). Als integrierte Website-Funktion werden zur korrekten Darstellung sowie Auslieferung des CAPTCHAS an den Browser des Nutzers die in Ziffer 8 aufgeführten Daten entsprechend verarbeitet. Ihre Daten werden nicht anderweitig weitergegeben. Die Nutzereingabe sowie der Wert des CAPTCHAS werden nach Verlassen der einzelnen Seite automatisch gelöscht. Rechtsgrundlage für die Datenverarbeitung ist unser berechtigtes Interesse an einer sicheren und funktionsfähigen Bereitstellung von Online-Kontaktformularen gemäß Art. 6 Abs. 1 lit. f) DSGVO.",
+    "Alle Informationen darüber, was Cookies sind und welche wir (u.a. auch für Tracking, gem. Ihrer Einwilligung) innerhalb der hier aufgeführten Funktionen einsetzen, finden Sie ausführlich in unserer Cookieerklärung. Dort finden Sie auch den Status Ihrer Einwilligung sowie die jederzeitige Widerrufsmöglichkeit.",
+    "Für das Einbinden und Verlinken von Videos verwenden wir das soziale Netzwerk YouTube des Anbieters YouTube LLC, 901 Cherry Ave., San Bruno CA 94066 (USA), einer Tochtergesellschaft von Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043 (USA).",
+    "YouTube-Video-Einbindung Unsere Videos betten wir mittels der API Services von YouTube ein. Sofern Sie diesem zugestimmt haben, wird beim Anklicken bzw. Abspielen eines Videos eine Verbindung zu YouTube- Servern (auch in den USA) aufgebaut, wodurch YouTube Nutzer- und Nutzungsdaten verarbeitet, wie Sitzungsdauer, Absprungrate, ungefährer Standort, technische Informationen wie Browsertyp, Bildschirmauflösung. Wie die meisten Online-Präsenzen verwendet auch YouTube Cookies, um Informationen über die Besucher ihrer Online-Präsenz zu sammeln. YouTube verwendet diese unter anderem zur Erfassung von Videostatistiken, zur Vermeidung von Betrug und zur Verbesserung der Benutzerfreundlichkeit. Dies führt auch zu einer Verbindungsaufnahme mit Google-Servern (auch in den USA) zum Laden weiterer Google-Dienste (Google-DoubleClick-Netzwerk). Wenn Sie also Videos auf unserer Internetseite abspielen, könnte dies weitere Datenverarbeitungsvorgänge auslösen. Darauf haben wir leider keinen Einfluss. Wenn Sie nicht wünschen, dass YouTube den Besuch unserer Online-Präsenz beim Abspielen eines Videos Ihrem YouTube-Nutzerkonto zuordnen kann, loggen Sie sich bitte vor dem Klick auf den Abspielen-„Button“ aus Ihrem YouTube-Benutzerkonto aus.",
+    "Zur einheitlichen Darstellung von Schriftarten werden bei der Nutzung von YouTube sogenannte Web-Fonts, die von Google bereitgestellt werden, beim Aufruf der Seite geladen. Ihr Browser lädt dann die benötigten Web-Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse unsere Webseite aufgerufen wurde. Weitere Informationen zu Google Web Fonts finden Sie hier.",
+    "YouTube-Verlinkung Auf unserer Online-Präsenz sind Links zum sozialen Netzwerk YouTube integriert. Die YouTube-Links erkennen Sie an dem YouTube-Logo auf unserer Online-Präsenz. Wenn Sie einen der YouTube-„Buttons“ anklicken während Sie in Ihrem YouTube-Account mit demselben Browser eingeloggt sind, kann YouTube den Besuch unserer Online-Präsenz Ihrem Benutzerkonto zuordnen. Wir weisen darauf hin, dass wir als Anbieter der Online-Präsenz keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch YouTube erhalten. Wenn Sie nicht wünschen, dass YouTube den Besuch unserer Online-Präsenz nach Klick auf einen der YouTube-„Buttons“ Ihrem YouTube-Nutzerkonto zuordnen kann, loggen Sie sich bitte vor dem Klick auf den YouTube-„Button“ aus Ihrem YouTube-Benutzerkonto aus.",
+    "Rechtsgrundlage für die Verarbeitung Ihrer Daten im Rahmen der Verwendung von YouTube mit der Funktion Google Fonts ist Art. 6 Abs. 1 Buchstabe a) DSGVO. Dies umfasst auch Ihre Einwilligung in die Übermittlung bestimmter personenbezogener Daten in Drittländer wie die USA nach Art. 49 Abs. 1 lit. a) DSGVO. Die betreffenden Drittländer weisen im Zweifel nicht das Datenschutzniveau auf, das Sie unter der DSGVO genießen. Das kann Nachteile wie eine erschwerte Durchsetzung von Betroffenenrechten, eine fehlende Kontrolle der Weiterverarbeitung und Übermittlung der Daten oder Zugriffe auf durch staatliche Stellen, insbes. Behörden der USA, zu Kontroll- und Überwachungszwecken bedeuten, ohne dass Ihnen Rechtsbehelfe dagegen zustehen. Ein angemessenes Datenschutzniveau wird durch einen Angemessenheitsbeschluss der EU-Kommission sichergestellt, der für die USA hier abrufbar ist. Eingesetzte Dienstleister aus den USA sind in der Regel unter dem EU-U.S. Data Privacy Framework (DPF) zertifiziert. Weitere Informationen erhalten Sie hier.",
+    "Über Ihre Browser- und Systemsteinstellungen (u.a. Deaktivierung von Cookies) können Sie eine Übertragung von Daten an YouTube bzw. Google verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall die Videoabspielfunktionen auf unserer Online-Präsenz nicht oder nur eingeschränkt nutzen können. In der Cookieerklärung finden Sie den aktuellen Status Ihrer Einwilligung sowie die jederzeitige Widerrufsmöglichkeit. Zudem können Sie Ihre Einwilligung jederzeit nachträglich durch Betätigung des Schiebereglers am YouTube-Videoelement geben und auch widerrufen. Andernfalls bleibt diese bis zur Beendigung der Session aktiv.",
+    "Weitere Information zum Umgang mit Ihren personenbezogenen Daten beim Besuch der YouTube-Webseite und beim Abspielen von YouTube-Videos inklusive der Rechtsgrundlagen, Übermittlung außerhalb der EU bzw. des EWR sowie Wahrnehmung von Betroffenenrechten finden Sie in der Datenschutzerklärung von Google.",
+    "Vereinzelt finden sich auf unserer Online-Präsenz auch externe Links zu anderen Online-Präsenzen. Diese Links erkennen Sie am entsprechenden Icon. Mit dem Klick auf einen solchen Link gelangen Sie auf das Angebot eines Dritten, für dessen Inhalte wir keine Verantwortung tragen. Bitte informieren Sie sich daher über die jeweiligen Datenschutzerklärungen dieser Online-Präsenzen Dritter. Selbstverständlich prüfen wir regelmäßig die Links auf unserer Online-Präsenz – technisch wie inhaltlich. Für das Aufrufen tragen Sie allerdings selbst die Verantwortung.",
+    "Um geografische Informationen ansprechend visuell darzustellen, binden wir auf unserer Online-Präsenz die Anwendung „Google Maps“ der Firma Google Cloud EMEA Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Ireland, mittels sogenannter Google Maps API ein.",
+    "Sofern Sie diesem zugestimmt haben, wird bei der Nutzung von Google Maps eine Verbindung zu Servern von Google (auch in den USA) aufgebaut, wodurch Google auch Nutzungs- und Nutzerdaten verarbeitet. In Abhängigkeit Ihrer Browser- und Systemeinstellungen erfasst Google hierbei neben Informationen über den Besuch unserer Seite ggf. auch Ihre IP-Adresse oder Standortdaten.",
+    "Wenn Sie also Google-Maps-Inhalte auf unserer Internetseite abrufen, könnte dies weitere Datenverarbeitungsvorgänge auslösen. Darauf haben wir leider keinen Einfluss.",
+    "Zur einheitlichen Darstellung von Schriftarten werden bei der Nutzung von Google Maps sogenannte Web-Fonts, die von Google bereitgestellt werden, beim Aufruf der Seite geladen. Ihr Browser lädt dann die benötigten Web-Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen. Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse unsere Webseite aufgerufen wurde. Weitere Informationen zu Google Web Fonts finden Sie hier.",
+    "Rechtsgrundlage für die Nutzung von Google Maps mit der Funktion Google Fonts ist Art. 6 Abs. 1 lit. a DSGVO (Einwilligung). Dies umfasst auch Ihre Einwilligung in die Übermittlung bestimmter personenbezogener Daten in Drittländer wie die USA nach Art. 49 Abs. 1 lit. a) DSGVO. Die betreffenden Drittländer weisen im Zweifel nicht das Datenschutzniveau auf, das Sie unter der DSGVO genießen. Das kann Nachteile wie eine erschwerte Durchsetzung von Betroffenenrechten, eine fehlende Kontrolle der Weiterverarbeitung und Übermittlung der Daten oder Zugriffe auf durch staatliche Stellen, insbes. Behörden der USA, zu Kontroll- und Überwachungszwecken bedeuten, ohne dass Ihnen Rechtsbehelfe dagegen zustehen. Ein angemessenes Datenschutzniveau wird durch einen Angemessenheitsbeschluss der EU-Kommission sichergestellt, der für die USA hier abrufbar ist. Eingesetzte Dienstleister aus den USA sind in der Regel unter dem EU-U.S. Data Privacy Framework (DPF) zertifiziert. Weitere Informationen erhalten Sie hier.",
+    "Über Ihre Browser- und Systemeinstellungen (u.a. Deaktivierung von JavaScript) können Sie eine Übertragung von Daten an Google verhindern. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall die Kartenfunktionen auf unserer Online-Präsenz nicht oder nur eingeschränkt nutzen können. Zudem können Sie Ihre Einwilligung jederzeit durch Betätigung des Schiebereglers am Google-Maps-Kartenelement widerrufen. Andernfalls bleibt diese bis zur Beendigung der Session aktiv. Da Google im Rahmen der vorstehenden Datenverarbeitungen ein eigener Verantwortlicher ist, wurden mit Google innerhalb der „Controller Terms“ Regelungen getroffen, um die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß DSGVO hinsichtlich der Datenverarbeitung festzulegen.",
+    "Hinsichtlich weiterer Information zur Nutzung von „Google Maps“ und der über „Google Maps“ erlangten Informationen inklusive der Rechtsgrundlagen, Übermittlung außerhalb der EU bzw. des EWR sowie Wahrnehmung von Betroffenenrechten verweisen wir auf die Google-Nutzungsbedingungen, insbesondere auf die zusätzlichen Nutzungsbedingungen für Google Maps/Google Earth sowie auf die Datenschutzerklärung von Google.",
+    "Wir informieren unsere Kunden und Geschäftspartner sowie Interessenten in regelmäßigen Abständen und anlassbezogen in Form von E-Mail-Newslettern über aktuelle Informationen und interessante Angebote unseres Unternehmens. Mit Ihrer Einwilligung können Sie sich jederzeit für unsere E-Mail-News anmelden. Die dafür notwendige Erhebung und Verarbeitung Ihrer Daten sowie der Versand erfolgt in unserem Auftrag durch die mailingwork GmbH, Birkenweg 7, 09569 Oederan, Deutschland in Form einer Auftragsverarbeitung. Die mailingwork GmbH wurde sorgfältig ausgewählt und auf die Einhaltung der Datenschutzbestimmung verpflichtet.",
+    "Möchten Sie unsere Newsletter empfangen, so benötigen wir von Ihnen zumindest eine gültige E-Mail Adresse. Um Sie persönlich ansprechen zu können, bitten wir Sie des Weiteren um freiwillige Angaben wie z.B. Ihre Anrede, Ihren Namen, Ihre Postadresse und gegebenenfalls spezifische Interessen. Darüber hinaus werden bei der Anmeldung zu unseren E-Mail-News Daten erhoben, die es uns gestatten, die Anmeldevorgänge nachweisbar zu gestalten. Folgende Daten werden gespeichert:",
+    "E-Mail-Adresse,",
+    "IP-Adresse von der das Anmeldeformular abgesendet wurde,",
+    "IP-Adresse von der der Bestätigungslink geklickt wurde,",
+    "Zeitpunkt der Anmeldung,",
+    "Zeitpunkt der Bestätigung,",
+    "Im Formular abgefragte Abonnentenfelder und Listen,",
+    "Abonnenten-ID sobald die Anmeldung bestätigt wurde.",
+    "Die Erhebung und Speicherung dieser Daten ist erforderlich, um einen möglichen Missbrauch der E-Mail-Adresse einer betroffenen Person zu einem späteren Zeitpunkt nachvollziehen zu können. Diese Verarbeitung dient unserem berechtigten Interesse.",
+    "Für die Anmeldung zu unseren Newslettern verwenden wir das Double-Opt-In-Verfahren. Das bedeutet, dass wir Ihnen nach Ihrer Anmeldung eine E-Mail an die angegebene E-Mail-Adresse senden, in welcher wir Sie über einen Link um Bestätigung bitten, dass Sie den Empfang wünschen.",
+    "Die Gültigkeitsdauer des Bestätigungslinks beträgt 14 Tage. Nicht bestätigte Anmeldungen halten wir nur für genau diesen Zeitraum vor. Erst nach Ihrer Bestätigung werden Sie als Empfänger angelegt. Wir speichern und verwenden Ihre Daten ausschließlich für die Zusendung unseres Newsletters. Auch speichern wir Ihre Daten nur solange, wie Ihre Newsletter-Anmeldung aktiv ist, damit wir im Bedarfsfall eine gültige Einwilligung nachweisen können.",
+    "Die Anmeldung zum Empfang unserer Newsletters kann jederzeit beendet werden. Das bedeutet, Sie können Ihre Einwilligung zur Verarbeitung Ihrer Daten jederzeit mit Wirkung für die Zukunft widerrufen. Dafür enthält jeder Newsletter einen Abmeldelink. Darüber hinaus können Sie den Widerruf auch per E-Mail an newsletter@teag.de richten.",
+    "Rechtsgrundlage für die Verarbeitung Ihrer Daten ist Art. 6 Abs. 1 Buchstabe a) DSGVO.",
+    "Newsletter-Tracking Unsere Newsletter enthalten sogenannte Zählpixel, das sind kleine Grafiken in HTML-E-Mails, die eine Logdateiaufzeichnung und eine Logdateianalyse ermöglichen, die wir für statistische Auswertungen verwenden. So können wir nachvollziehen, ob und wann eine E-Mail geöffnet wurde und welche in der E-Mail befindlichen Links aufgerufen wurden. Konkret verwenden wir ein Zählpixel, anhand dessen die Newsletter-Öffnung beim Laden des Pixels/der Bilder erkannt wird. Wenn jemand den Newsletter liest ohne die Bilder herunterzuladen oder ohne einen Link zu klicken, können wir das nicht als Öffnung wahrnehmen. Durch den Einsatz dieser Pixel können wir den Newsletter-Versand und die Inhalte zukünftiger Newsletter optimieren.",
+    "Wir erheben und verarbeiten Ihre personenbezogenen Daten zum Zwecke der Abwicklung des Bewerbungsverfahrens. Die Verarbeitung erfolgt auf elektronischem Weg. Unsere Online-Präsenz nutzt dazu Funktionen der Software umantis. Anbieter ist die Umantis Deutschland GmbH, ein Unternehmen der Abacus Research AG, Munzinger Straße 9, 79111 Freiburg, Deutschland.",
+    "Rechtsgrundlage für die Verarbeitung Ihrer Daten ist Art. 6 Abs. 1 Buchstabe a) und b), 88 DSGVO, § 26 BDSG.",
+    "Weitere Information zum Umgang mit Ihren personenbezogenen Daten im Bewerbungsverfahren finden Sie in der Datenschutzerklärung.",
+    "Auf unserer Online-Präsenz bieten wir Ihnen die Möglichkeit, unter Angabe personenbezogener Daten Verträge für Strom und Erdgas abzuschließen. Die Daten werden dabei in eine Eingabemaske eingegeben, an uns übermittelt und gespeichert. Technischer Dienstleister ist die ITC AG, Ostra-Allee 9, 01067 Dresden, Deutschland.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe b) DSGVO.",
+    "Weitere Informationen zur Nutzung sowie zum Umgang mit Ihren personenbezogenen Daten finden Sie in der Datenschutzerklärung.",
+    "Auf unserer Online-Präsenz erheben und verarbeiten wir Ihre personenbezogenen Daten zum Zwecke der Einarbeitung Ihres Zählerstands ohne Registrierung zur Einarbeitung in unsere Abrechnungssysteme. Die Verarbeitung erfolgt auf elektronischem Weg. Technischer Dienstleister ist die ITC AG, Ostra-Allee 9, 01067 Dresden, Deutschland.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe b) DSGVO.",
+    "Weitere Information zur Nutzung sowie Umgang mit Ihren personenbezogenen Daten finden Sie in der Datenschutzerklärung.",
+    "Das TEAG-Kundenportal ist ein kosten- und entgeltfreier Service der TEAG, welcher den TEAG-Kunden exklusiv zur Online-Verwaltung Ihrer Energielieferverträge angeboten wird. Die Nutzer des TEAG-Kundenportals können z.B. Ihre Rechnungen online einsehen, Zahlungsmodalitäten anpassen sowie Ihre Kontaktdaten selbstständig ändern. Darüber hinaus kann der Nutzer Preise zu Strom- und Erdgasprodukten basierend auf dem aktuellen Stand sowie Vertragsinformationen abfragen.",
+    "In unserem TEAG-Kundenportal bieten wir Ihnen die Möglichkeit, sich unter Angabe personenbezogener Daten zu registrieren. Die Daten werden dabei in eine Eingabemaske eingegeben, an uns übermittelt und gespeichert. Weitere Details zu den Möglichkeiten einer Registrierung im TEAG-Kundenportal finden Sie in den entsprechenden Nutzungsbedingungen. Technischer Dienstleister ist die best practice consulting AG, Am Mittelhafen 32, 48155 Münster, Deutschland. Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe b) DSGVO.",
+    "Weitere Informationen zur Nutzung sowie zum Umgang mit Ihren personenbezogenen Daten finden Sie in der Datenschutzerklärung.",
+    "Auf unserer Online-Präsenz haben Sie die Möglichkeit, über den Kündigungsbutton und die dort hinterlegte Eingabemaske unter Angabe personenbezogener Daten Ihre bestehenden Energielieferverträge zu kündigen. Die Verarbeitung erfolgt auf elektronischem Weg. Technischer Dienstleister ist die ITC AG, Ostra-Allee 9, 01067 Dresden, Deutschland.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe b), c) DSGVO i. V. m. § 312k BGB.",
+    "Weitere Information zur Nutzung sowie Umgang mit Ihren personenbezogenen Daten finden Sie in der Datenschutzerklärung.",
+    "Auf unserer Online-Präsenz bieten wir Ihnen die Möglichkeit, unter Angabe personenbezogener Daten einen Zahlschein für einen Vorkassezähler anzufordern. Die Daten werden dabei in eine Eingabemaske eingegeben, an uns übermittelt und zum Zweck der vertraglichen Abwicklung gespeichert, wie z.B. für die Übersendung des Zahlscheines und der Verarbeitung der späteren Zahlung in unserem Abrechnungssystem. Technischer Dienstleister ist die ITC AG, Ostra-Allee 9, 01067 Dresden, Deutschland.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe b) DSGVO.",
+    "Auf unserer Online-Präsenz bieten wir Ihnen die Möglichkeit, unter Angabe personenbezogener Daten einen Energieausweis über ein Online-Bestellformular zu beantragen. Die hierfür erforderlichen Daten werden dabei in eine Eingabemaske eingegeben, an uns übermittelt und gespeichert.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe b) DSGVO. Die Verarbeitung freiwilliger Dateneingaben erfolgt gemäß Art. 6 Abs. 1 Buchstabe a) DSGVO.",
+    "Darüber hinaus bieten wir Ihnen innerhalb des Online-Bestellformulars die Möglichkeit, dass Sie Ihre eingegebenen Daten zwischenspeichern, um das Formular zu einem späteren Zeitpunkt weiter ausfüllen zu können. Diese Möglichkeit müssen Sie aktiv auswählen, sofern Sie dies wünschen, indem Sie Ihre E-Mail-Adresse eingeben und die Anfrage zur Zwischenspeicherung absenden. In diesem Zusammenhang weisen wir auf die notwendigen Standards im E-Mail-Verkehr gem. Punkt 7. dieser Datenschutzinformation hin. Nach Absendung Ihrer E-Mail-Adresse erhalten Sie von uns einen Link per E-Mail. Die Vorhaltedauer Ihrer Daten beträgt eine Woche. Innerhalb dieser Woche können Sie den ausgefüllten Stand des Formulars über den Link in Ihrer E-Mail wieder aufrufen. Mit Öffnung des Links erhalten Sie gesondert einen Überprüfungscode an Ihre E-Mail-Adresse gesendet, mit dem Sie Ihre gespeicherten Formulardaten öffnen können.",
+    "Rechtsgrundlage für die Verarbeitung Ihrer Daten im Rahmen der Zwischenspeicherung ist Ihre Einwilligung gemäß Art. 6 Abs. 1 Buchstabe a) DSGVO.",
+    "Auf unserer Online-Präsenz bieten wir Ihnen die Möglichkeit, sich unter Angabe personenbezogener Daten für geschützte Bereiche zu registrieren. Die Daten werden dabei in eine Eingabemaske eingegeben, an uns übermittelt und gespeichert. Als Dienstleister setzen wir die trurnit GmbH, Putzbrunner Straße 38, 85521 Ottobrunn, Deutschland ein.",
+    "Folgende Daten werden im Rahmen des Registrierungsprozesses erhoben und gespeichert:",
+    "Anrede,",
+    "Vor- und Nachname,",
+    "Firma,",
+    "Abteilung/Position,",
+    "E-Mail Adresse,",
+    "Telefonnummer.",
+    "Zum Zeitpunkt der Bestätigung und der Nutzung werden zudem folgende Daten gespeichert:",
+    "Datum und Uhrzeit der Bestätigung,",
+    "Zeitpunkt des letzten Logins,",
+    "Anzahl der Anmeldeversuche,",
+    "Konto gesperrt (ja/nein),",
+    "Zeitpunkt bis zu dem das Passwort geändert werden kann („Passwort vergessen“),",
+    "Zeitpunkt der letzten Änderung (z.B. Passwortänderung oder Freischaltung).",
+    "Die Speicherung dieser Daten erfolgt vor dem Hintergrund, dass nur so der Missbrauch unserer Dienste verhindert werden kann. Insofern dient die Speicherung dieser Daten unserem berechtigten Interesse. Das Passwort selbst wird nicht gespeichert, aber eine Art Hashwert, über den sich die Eingabe validieren lässt. Im Rahmen des Registrierungsprozesses wird eine Einwilligung des Nutzers zur Verarbeitung dieser Daten eingeholt.",
+    "Eine Registrierung ist für das Bereithalten individueller Inhalte und Leistungen im VertriebsPartnerExtra- und Energieeffizienz-Netzwerke-Portal erforderlich. So können Sie durch Ihre Registrierung in einem geschützten Bereich exklusiv aktuelle Informationen und individuelle Services abrufen.",
+    "Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Dies ist für die während des Registrierungsvorgangs erhobenen Daten der Fall, wenn die Registrierung aufgehoben oder abgeändert wird. Eine weitergehende Speicherung erfolgt nur, sofern und soweit anderweitige gesetzliche Aufbewahrungsfristen oder Rechtfertigungsgründe hierfür bestehen. Eine weitergehendere Verarbeitung der Daten ist auch zulässig, wenn Sie in diese Speicherung eingewilligt haben.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe a) und f) DSGVO.",
+    "Als Nutzer haben Sie jederzeit die Möglichkeit, die Registrierung abzuändern. Sie können darüber hinaus Ihre Einwilligung zur Verarbeitung Ihrer Daten jederzeit mit Wirkung für die Zukunft widerrufen. Dazu genügt es, wenn Sie uns dies in Textform mitteilen. Diese Mitteilung richten Sie für das VertriebsPartnerExtra-Portal bitte an: TEAG Thüringer Energie AG, Schwerborner Straße 30, 99087 Erfurt, Telefon 0361 652-2981 oder per E-Mail an: VPP-Thueringen@teag.de. Für das Energieeffizienz-Netzwerke-Portal richten Sie diese Mitteilung bitte an: TEAG Thüringer Energie AG, Schwerborner Straße 30, 99087 Erfurt, Telefon 0361 652-2955 oder per E-Mail an: effizienznetzwerke@teag.de.",
+    "In unserem WebCheck-Portal bieten wir Ihnen die Möglichkeit, unter Angabe personenbezogener Daten Ihre Lastgangdaten für Strom und Erdgas auszuwerten. Wir erheben personenbezogene Daten zum Zwecke der Anmeldung und Authentifizierung. Technischer Dienstleister ist EBSnet eEnergy Software GmbH, Friedenstraße 18, 93053 Regensburg.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe a), b) und f) DSGVO.",
+    "Weitere Information zur Nutzung sowie zum Umgang mit Ihren personenbezogenen Daten finden Sie finden Sie im WebCheck-Portal unter „Datenschutz“.",
+    "Auf unserer Online-Präsenz bieten wir Ihnen in einem durch ein Passwort geschützten Bereich die Möglichkeit, unter Angabe personenbezogener Daten Energielieferverträge abzuschließen. Sie können Ihre Lastgänge managen, Prognosen erstellen und zeitlich unabhängig Ihren Energiepreis kalkulieren sowie Energiemengen online bestellen. Die Daten werden dabei in eine Eingabemaske eingegeben, an uns übermittelt und gespeichert. Unser technischer Dienstleister ist hierbei die ProCom GmbH, Luisenstraße 41, 52072 Aachen.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe a) und b) DSGVO.",
+    "Weitere Information finden Sie hier.",
+    "Auf unserer Online-Präsenz haben Sie die Möglichkeit über einen Link auf das TEAG-EnergieCockpit Web-Portal und App zuzugreifen. Dort können Sie Ihren aktuellen Stromverbrauch und die damit verbundenen Energiekosten einsehen. Der mit dem Betrieb, der Wartung und Weiterentwicklung des Web-Portals und der App beauftragte Dienstleister ist die Discovergy GmbH, Am Berg 12, 52076 Aachen, Deutschland.",
+    "Rechtsgrundlagen für die dort stattfindenden Verarbeitungen personenbezogener Daten sind, abhängig vom jeweils verfolgten Zweck, Art. 6 Abs. 1 Buchstabe b) oder f) DSGVO.",
+    "Weitere Information zur Nutzung dieses Angebots finden Sie hier.",
+    "Auf unserer Online-Präsenz „TEAG-Mein Zuhause“ bieten wir Ihnen die Möglichkeit, sich einen Überblick über die verschiedenen Angebote aus der TEAG-Unternehmensgruppe zu verschaffen und sich zu informieren. Zu diesem Zweck befinden sich dort ausgehende Links zu verschiedenen Online-Präsenzen der TEAG-Unternehmensgruppe. Mit dem Klick auf einen solchen Link gelangen Sie auf die entsprechende Website. Bitte informieren Sie sich daher auch über die jeweiligen Datenschutzerklärungen dieser Online-Präsenzen. Technischer Dienstleister ist das Unternehmen pinx.design, Dipl.-Ing. Martin Winterwerb, Quellbornstr. 80e, 65201 Wiesbaden, Deutschland.",
+    "Rechtsgrundlage für die dort stattfindende Verarbeitung personenbezogener Daten ist Art. 6 Abs. 1 Buchstabe f) DSGVO.",
+    "Weitere Informationen finden Sie hier.",
+    "Über unser Meldeportal bieten wir Ihnen die Möglichkeit, Beschwerden gemäß Lieferkettensorgfaltspflichtengesetz (LkSG) sowie Hinweise gemäß Hinweisgeberschutzgesetz (HinSchG) mitzuteilen. Technischer Dienstleister ist die osapiens Services GmbH, Julius-Hatry-Straße 1, 68163 Mannheim.",
+    "Rechtsgrundlage für die Verarbeitung personenbezogener Daten im Rahmen der Nutzung des Meldeportals sowie der Bearbeitung von Beschwerden und Hinweisen ist Art. 6 Abs. 1 Buchstabe a) und f) sowie Buchstabe c) DSGVO in Verbindung mit § 8 LkSG bzw. §§ 10, 12, 13 HinSchG.",
+    "Weitere Informationen zur Nutzung sowie zum Umgang mit Ihren personenbezogenen Daten finden Sie in der Datenschutzerklärung in unserem Meldeportal.",
+    "In unserem Bildungsportal der TEAG Akademie bieten wir Ihnen die Möglichkeit, sich online für Veranstaltungen und Seminare unter Angabe personenbezogener Daten anzumelden. Die Daten werden dabei in eine Eingabemaske eingegeben, an uns übermittelt und gespeichert. Als Dienstleister setzen wir die ecadia GmbH, Stammheimer Str. 10, 70806 Kornwestheim ein.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe a), b) und f) DSGVO.",
+    "Weitere Informationen zur Nutzung sowie zum Umgang mit Ihren personenbezogenen Daten finden Sie in der Datenschutzerklärung.",
+    "Auf unserer Online-Präsenz haben Schulen die Möglichkeit, sich für den Wettbewerb „IdeenMachenSchule“ anzumelden. Wenn Sie an diesem teilnehmen möchten, ist die Erhebung und Verarbeitung bestimmter personenbezogener Daten durch die TEAG erforderlich:",
+    "Wir verarbeiten die personenbezogenen Daten der jeweiligen Ansprechperson der Schule im Rahmen der Durchführung des Wettbewerbs zur diesbezüglichen Kommunikation (z. B. Klärung von Rückfragen, Benachrichtigung über den Gewinn und Einladung zur Abschlussveranstaltung). Bei den erforderlichen Daten handelt es sich gemäß den Teilnahmebedingungen um den Namen, E-Mail-Adresse und, optional, Telefonnummer der Ansprechperson der Schule. Stellen Sie uns die zur Durchführung erforderlichen Daten nicht zur Verfügung, ist eine Teilnahme am Wettbewerb nicht möglich. Die Erhebung dieser Daten erfolgt über ein webbasiertes Eingabeformular auf der Online-Präsenz der TEAG. Weiterführende Informationen zum Datenschutz bei der Nutzung von Kontaktformularen erhalten Sie in dieser Datenschutzinformation.",
+    "Wenn Ihre Schule als Gewinner ausgewählt wurde, benötigen wir zudem eine Bankverbindung sowie den Namen und die Adresse des Kontoinhabers. Wir verwenden diese Daten ausschließlich für die Überweisung der Fördersumme. Die Erhebung dieser Daten erfolgt über ein Formblatt, welches postalisch übersendet wird. Ohne diese Daten können wir Ihnen den Gewinn nicht ordnungsgemäß zur Verfügung stellen.",
+    "Rechtsgrundlage für die Verarbeitung Ihrer Daten ist Art. 6 Abs. 1 Buchstabe b) DSGVO. Für die Verarbeitung von freiwilligen Angaben ist Rechtsgrundlage Ihre Einwilligung gemäß Art. 6 Abs. 1 lit. a) DSGVO.",
+    "Wir weisen bereits an dieser Stelle darauf hin, dass im Rahmen der Abschlussveranstaltung, bei welcher die Gewinnerschulen ausgezeichnet werden, personenbezogene Daten von den jeweiligen Teilnehmern im Rahmen einer Teilnehmerliste zum Zweck der steuerlichen Dokumentation gemäß § 147 AO verarbeitet werden. Zudem werden auf der Veranstaltung Foto- und Videoaufnahmen gemacht. Weitere Datenschutzhinweise dazu erhalten Sie hier.",
+    "Innerhalb unseres Unternehmens erhalten diejenigen Stellen Zugriff auf Ihre Daten, die diese zur Erfüllung der oben genannten Zwecke brauchen. Das gilt auch für von uns sorgfältig ausgewählte, qualifizierte und eingesetzte Dienstleister sowie Erfüllungsgehilfen. Personenbezogene Daten werden von uns an Dritte und sonstige Empfänger nur übermittelt, wenn dies für die vorgenannten Zwecke erforderlich ist, Sie zuvor darin eingewilligt haben oder wenn dies rechtlich verpflichtend ist.",
+    "Ihre personenbezogenen Daten werden nach Beendigung des Wettbewerbs inklusive der Abschlussveranstaltung gelöscht, sofern keine andere Rechtsgrundlage eine weitergehende Verarbeitung rechtfertigt (z. B. Aufbewahrungspflichten nach dem Handels- und Steuerrecht).",
+    "Auf unserer Online-Präsenz bieten wir Ihnen in einem durch ein Passwort geschützten Bereich die Möglichkeit, unter Angabe personenbezogener Daten, sich für eine finanzielle Unterstützung (Sponsoring, Geld- oder Sachspenden) durch die TEAG Thüringer Energie AG (TEAG) zu bewerben. Die Daten werden dabei in eine Eingabemaske eingegeben, an uns übermittelt und gespeichert. Ohne die im Rahmen der Registrierung des TET verarbeiteten Daten ist es nicht möglich, die von Ihnen in Anspruch genommenen Leistungen (Beantragung einer finanziellen Unterstützung) zu nutzen. Unser technischer Dienstleister ist hierbei die OptimySA, Boulevard du Souverain 36, 1170 Boitsfort (Brüssel), Belgien.",
+    "Rechtsgrundlage für die Verarbeitung der Daten ist Art. 6 Abs. 1 Buchstabe b) und f) DSGVO.",
+    "Weitere Informationen zur Nutzung sowie Umgang zum mit Ihren personenbezogenen Daten finden Sie in der Datenschutzinformation und den Nutzungsbedingungen zum TET.",
+    "Mit unseren Services TEAG-Chat-Bot und TEAG-Live-Chat (nachfolgend gemeinsam „Service“ genannt) bietet die TEAG Ihnen als Nutzer die Möglichkeit eines Kundensupportes an. Sie können sich mit diesem Service umfassend informieren, insbesondere zu Produkten der TEAG beraten lassen, Fragen stellen und bestimmte Serviceanliegen zu Ihrem Vertrag vornehmen.",
+    "Unser technischer Dienstleister für diesen Service ist die knowhere GmbH, Karolinenstraße 9, 20357 Hamburg.",
+    "Das Chat-Widget stellt technisch den Quellcode dar, der auf dem Endgerät des Nutzers ausgeführt wird und den Chat ermöglicht. Unser Chat-Widget nutzt zwei technische localStorage Keys für die folgenden Verwendungszwecke: Das Element “knowhere_jwt_[Live ID des Chatbots]” dient der Fortführung des Nutzerdialogs über mehrere Seitenbesuche und das Element “knowhere_widget_open” wiederum ist für die korrekte Darstellung des Chatbots notwendig. Die Speicherfrist dieser Cookies auf Ihrem Gerät beträgt 4 Stunden und erfolgt auf der Rechtsgrundlage Ihrer Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a) DSGVO. Ohne Ihre Einwilligung kann unser Service nicht genutzt werden.",
+    "Für die Nutzung unseres Service sind zunächst keine weiteren Angaben von Ihnen erforderlich. Wir weisen insbesondere darauf hin, dass für allgemeine Anfragen keine personenbezogenen Daten durch Sie genannt werden müssen. Dies ist nur für die Nutzung bestimmter Funktionen erforderlich, z. B. zur Authentifizierung bei bestimmten und/oder vertragsrelevanten Anfragen. In diesem Fall werden Sie aufgefordert, bestimmte Daten anzugeben, wie z. B. Kundennummer, Vertragskontonummer, Zählernummer, Geburtsdatum, Anschrift. Diese werden sodann an unser Kundensystem übertragen und abgeglichen. Verwenden Sie unseren Service im eingeloggten Zustand im Kundenportal ist keine weitere Angabe von Daten zur Authentifizierung erforderlich. Die Verarbeitung dieser Daten zum Zweck der Bearbeitung Ihres Anliegens erfolgt auf der Rechtsgrundlage Ihrer Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a) DSGVO.",
+    "Ferner verarbeiten wir Daten zur Optimierung des Algorithmus, welcher dem TEAG-Chat-Bot eine eigenständige Zuordnung der Anfragen mittels der enthaltenen Schlagworte zu den Themenfeldern ermöglicht. Es werden jedoch keine Chatverläufe zum KI-Training genutzt, sondern es erfolgt vielmehr eine Analyse der nicht verstandenen Anfragen, um Wissenslücken im TEAG-Chat-Bot zu identifizieren. Nach Analyse werden Vorschläge für eine zukünftige Beantwortung erstellt, die zunächst geprüft und sodann ggf. durch uns freigegeben werden. Diese Datenverarbeitung erfolgt auf der Rechtsgrundlage unserer berechtigten Interessen gem. Art. 6 Abs. 1 S. 1 lit. f) DSGVO.",
+    "Sofern der TEAG-Chat-Bot bei einer Anfrage nicht weiterhelfen kann und im TEAG-Live-Chat kein Kundenberater verfügbar ist, können Sie eine E-Mail-Adresse und Ihr Anliegen angeben. In diesem Fall wird eine E-Mail erzeugt und zwecks Bearbeitung an den Kundenservice der TEAG übermittelt. Die Verarbeitung dieser Daten erfolgt auf der Rechtsgrundlage Ihrer Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a) DSGVO.",
+    "Bitte sehen Sie davon ab, sensible Daten gemäß Art. 9 DSGVO über unseren Service einzugeben.",
+    "Für die vorgenannten Zwecke erfolgt die Speicherung von Logdateien und Chatverläufen. Die Speicherfrist hierfür beträgt innerhalb unseres Service 30 Tage.",
+    "Weitere Informationen können Sie auch unseren Nutzungsbedingungen für den TEAG-Chat-Bot und den TEAG-Live-Chat entnehmen.",
+    "Wir führen auf unserer Online-Präsenz Gewinnspiele und Aktionen durch. Wenn Sie an unseren Gewinnspielen und Aktionen teilnehmen möchten, ist die Erhebung und Verarbeitung bestimmter personenbezogener Daten durch die TEAG erforderlich:",
+    "Wir verarbeiten die personenbezogenen Daten der Teilnehmer zur Durchführung des Gewinnspiels bzw. der Aktion, u. a. zur Bildung eines Teilnehmerpools und zur Ermittlung und Benachrichtigung der Gewinner. Bei den erforderlichen Daten kann es sich je nach Teilnahmebedingungen z.B. um Name und E-Mail-Adresse handeln. Stellen Sie uns die zur Durchführung erforderlichen Daten nicht zur Verfügung, ist eine Teilnahme am Gewinnspiel oder der Aktion nicht möglich.",
+    "Wenn Sie als Gewinner ausgewählt wurden bzw. an dem Gewinnspiel oder der Aktion auf der Online-Präsenz der TEAG teilnehmen möchten, benötigen wir Ihren Vor- und Nachnamen, eine E-Mail-Adresse und die postalische Anschrift. Wir verwenden diese Daten ausschließlich für die Durchführung des Gewinnspiels bzw. der Aktion entsprechend der Teilnahmebedingungen und der diesbezüglichen Kommunikation mit Ihnen (z.B. Benachrichtigung über den Versand). Ohne diese Daten können wir Ihnen die Gewinne/Aktionsgeschenke nicht ordnungsgemäß zur Verfügung stellen. Die Erhebung dieser Daten erfolgt über ein webbasiertes Kontaktformular auf der Online-Präsenz der TEAG. Weiterführende Informationen zum Datenschutz bei der Nutzung von Kontaktformularen erhalten Sie in dieser Datenschutzinformation.",
+    "Rechtsgrundlage für die Verarbeitung Ihrer Daten ist Art. 6 Abs. 1 Buchstabe b) DSGVO.",
+    "Innerhalb unseres Unternehmens erhalten diejenigen Stellen Zugriff auf Ihre Daten, die diese zur Erfüllung der oben genannten Zwecke brauchen. Das gilt auch für von uns sorgfältig ausgewählte, qualifizierte und eingesetzte Dienstleister sowie Erfüllungsgehilfen. Personenbezogene Daten werden von uns an Dritte und sonstige Empfänger nur übermittelt, wenn dies für die vorgenannten Zwecke erforderlich ist, Sie zuvor darin eingewilligt haben oder wenn dies rechtlich verpflichtend ist.",
+    "Ihre personenbezogenen Daten werden nach Beendigung des Gewinnspiels bzw. der Aktion gelöscht, sofern keine andere Rechtsgrundlage eine weitergehende Verarbeitung rechtfertigt (z.B. Aufbewahrungspflichten nach dem Handels- und Steuerrecht).",
+    "Wir führen auf unserer Online-Präsenz Abstimmungen durch. Wenn Sie an unseren Abstimmungen teilnehmen möchten, ist die Verarbeitung Ihre Stimmabgabe durch die TEAG erforderlich. Dabei wird Ihre Stimmabgabe, die zugehörige Webnutzer-ID sowie Ihre IP-Adresse in gekürzter Form verarbeitet. Diese Daten werden nach spätestens 27 Stunden gelöscht.",
+    "Rechtsgrundlage ist gemäß Art. 6 Abs. 1lit. f DSGVO unser berechtigtes Interesse an einer ordnungsgemäßen Durchführung des Votings.",
+    "Im Falle von inhaltlichen oder veränderten gesetzlichen Anforderungen behält sich die TEAG Thüringer Energie AG vor, die Datenschutzerklärung nach Bedarf anzupassen.",
+    "Stand: Juni 2026",
+    "Datenschutzinformationen gem. Art. 12 ff. DSGVO für:",
+    "Energielieferungen, Energiedienstleistungen und wettbewerblicher Messstellenbetrieb der TEAG - z.B. Stromliefervertrag (PDF, 138 KB)",
+    "Geschäftspartner der TEAG - z. B. Fortbildungsveranstalter (PDF, 204 KB)",
+    "An Schadensfällen Beteiligte (PDF, 253 KB)",
+    "Sonstige Personen - z. B. Besucher, allgemeine Anfragen, Ansprechpartner von Verbänden und staatlichen Stellen (PDF, 222 KB)",
+    "Für die Nutzung von Microsoft 365 (PDF, 125 KB)",
+    "Videoüberwachung der TEAG (PDF, 122 KB)",
+    "Foto- und Videoaufnahmen (PDF, 129 KB)",
+    "Tel03641-8171111",
+    "Fax03641-8171118",
+    "E-Mailkundenservice@teag.de",
+    "Bleiben Sie auf dem Laufenden:Spannende Themen aus der Welt Ihrer Thüringer Energieexperten.",
+    "Impressum",
+    "Datenschutz",
+    "AGB",
+    "Vertrag kündigen",
+    "Vertrag widerrufen",
+    "Cookies",
+    "Barrierefreiheit"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Weiter zum Inhalt",
+      "href": "#Content"
+    },
+    {
+      "label": "Kundenportal",
+      "href": "https://kundenportal.teag.de/portal/"
+    },
+    {
+      "label": "Karriere",
+      "href": "/ueber_uns/karriere/stellenangebote"
+    },
+    {
+      "label": "Privatkunden",
+      "href": "/privatkunden"
+    },
+    {
+      "label": "Geschäftskunden",
+      "href": "/geschaeftskunden"
+    },
+    {
+      "label": "Kommunen",
+      "href": "/kommunen"
+    },
+    {
+      "label": "Stadtwerke",
+      "href": "/stadtwerke"
+    },
+    {
+      "label": "Akademie",
+      "href": "/akademie"
+    },
+    {
+      "label": "Einblicke",
+      "href": "/einblicke"
+    },
+    {
+      "label": "Über uns",
+      "href": "/ueber_uns"
+    },
+    {
+      "label": "Service",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "Login",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "Startseite",
+      "href": "/default"
+    },
+    {
+      "label": "www.thueringerenergie.de",
+      "href": "http://www.thueringerenergie.de"
+    },
+    {
+      "label": "info@teag.de",
+      "href": "mailto:info@teag.de"
+    },
+    {
+      "label": "www.thueringerenergie.de",
+      "href": "https://www.thueringerenergie.de"
+    },
+    {
+      "label": "datenschutz@teag.de",
+      "href": "mailto:datenschutz@teag.de"
+    },
+    {
+      "label": "www.thueringerenergie.de",
+      "href": "http://www.thueringerenergie.de"
+    },
+    {
+      "label": "kundenservice@teag.de",
+      "href": "mailto:kundenservice@teag.de"
+    },
+    {
+      "label": "Cookieerklärung",
+      "href": "/cookieerklaerung"
+    },
+    {
+      "label": "Cookies",
+      "href": "/cookieerklaerung"
+    },
+    {
+      "label": "hier",
+      "href": "https://developers.google.com/fonts/faq"
+    },
+    {
+      "label": "hier",
+      "href": "https://commission.europa.eu/system/files/2023-07/Adequacy%20decision%20EU-US%20Data%20Privacy%20Framework_en.pdf"
+    },
+    {
+      "label": "hier",
+      "href": "https://www.dataprivacyframework.gov/s/"
+    },
+    {
+      "label": "Cookieerklärung",
+      "href": "https://www.thueringerenergie.de/cookieerklaerung"
+    },
+    {
+      "label": "Datenschutzerklärung von Google",
+      "href": "https://policies.google.com/privacy?hl=de&gl=de"
+    },
+    {
+      "label": "hier",
+      "href": "https://developers.google.com/fonts/faq"
+    },
+    {
+      "label": "hier",
+      "href": "https://commission.europa.eu/system/files/2023-07/Adequacy%20decision%20EU-US%20Data%20Privacy%20Framework_en.pdf"
+    },
+    {
+      "label": "hier.",
+      "href": "https://www.dataprivacyframework.gov/s/"
+    },
+    {
+      "label": "Controller Terms",
+      "href": "https://business.safety.google/gdprcontrollerterms/"
+    },
+    {
+      "label": "zusätzlichen Nutzungsbedingungen für Google Maps/Google Earth",
+      "href": "https://www.google.com/intl/de_US/help/terms_maps/"
+    },
+    {
+      "label": "Datenschutzerklärung von Google",
+      "href": "https://policies.google.com/privacy"
+    },
+    {
+      "label": "newsletter@teag.de",
+      "href": "mailto:newsletter@teag.de"
+    },
+    {
+      "label": "Datenschutzerklärung",
+      "href": "https://recruitingapp-5272.de.umantis.com/PublicDocuments/101/ShowDocument/Datenschutzerklärung.pdf"
+    },
+    {
+      "label": "Datenschutzerklärung",
+      "href": "https://energiebanking.thueringerenergie.de/powercommerce/teag/fo/portal/datenschutzEB"
+    },
+    {
+      "label": "Datenschutzerklärung",
+      "href": "https://energiebanking.thueringerenergie.de/powercommerce/teag/fo/portal/datenschutzEB"
+    },
+    {
+      "label": "Nutzungsbedingungen",
+      "href": "https://kundenportal.teag.de/portal/terms"
+    },
+    {
+      "label": "Datenschutzerklärung",
+      "href": "https://energiebanking.thueringerenergie.de/powercommerce/teag/fo/portal/datenschutzEB"
+    },
+    {
+      "label": "Datenschutzerklärung",
+      "href": "https://energiebanking.thueringerenergie.de/powercommerce/teag/fo/portal/datenschutzEB"
+    },
+    {
+      "label": "VPP-Thueringen@teag.de",
+      "href": "mailto:VPP-Thueringen@teag.de"
+    },
+    {
+      "label": "effizienznetzwerke@teag.de",
+      "href": "mailto:effizienznetzwerke@teag.de"
+    },
+    {
+      "label": "WebCheck-Portal",
+      "href": "https://webcheck.thueringerenergie.de/"
+    },
+    {
+      "label": "hier",
+      "href": "/kommunen_und_stadtwerke/stadtwerke/energieklick"
+    },
+    {
+      "label": "hier",
+      "href": "https://teag-energiecockpit.de/privacyPolicy?2"
+    },
+    {
+      "label": "hier",
+      "href": "https://mein-zuhause.teag.de/datenschutz"
+    },
+    {
+      "label": "Meldeportal",
+      "href": "https://prod.osapiens.cloud/portal/portal/webbundle/supplier-os-hub/supplier-os-hub/public-access-app/complaint.html#/public/hub/thueringer-energie-ag/DEFAULT/complaint/new"
+    },
+    {
+      "label": "Datenschutzerklärung",
+      "href": "https://akademie.teag.de/pub/Datenschutzerklaerung/id/TP-0005"
+    },
+    {
+      "label": "hier",
+      "href": "/Content/Documents/teag_dsi_foto_und_videoaufnahmen.pdf"
+    },
+    {
+      "label": "Datenschutzinformation und den Nutzungsbedingungen zum TET",
+      "href": "https://engagement.thueringerenergie.de/de/privacy/"
+    },
+    {
+      "label": "Nutzungsbedingungen",
+      "href": "https://energiebanking.thueringerenergie.de/powercommerce/teag/fo/portal/resources/pdf/i18n/teag_nutzungsbedingungen_nbmessenger.pdf"
+    },
+    {
+      "label": "Energielieferungen, Energiedienstleistungen und wettbewerblicher Messstellenbetrieb der TEAG - z.B. Stromliefervertrag (PDF, 138 KB)",
+      "href": "/Content/Documents/Nice/teag_datenschutzinformation.pdf"
+    },
+    {
+      "label": "Geschäftspartner der TEAG - z. B. Fortbildungsveranstalter (PDF, 204 KB)",
+      "href": "/Content/Documents/teag_datenschutzinformation_geschaeftspartner.pdf"
+    },
+    {
+      "label": "An Schadensfällen Beteiligte (PDF, 253 KB)",
+      "href": "/Content/Documents/teag_datenschutzinformation_schadensabwicklung.pdf"
+    },
+    {
+      "label": "Sonstige Personen - z. B. Besucher, allgemeine Anfragen, Ansprechpartner von Verbänden und staatlichen Stellen (PDF, 222 KB)",
+      "href": "/Content/Documents/teag_datenschutzinformation_dritte.pdf"
+    },
+    {
+      "label": "Für die Nutzung von Microsoft 365 (PDF, 125 KB)",
+      "href": "/Content/Documents/teag_datenschutzinformation_m365.pdf"
+    },
+    {
+      "label": "Videoüberwachung der TEAG (PDF, 122 KB)",
+      "href": "/Content/Documents/teag_datenschutzinformation_videoueberwachung.pdf"
+    },
+    {
+      "label": "Foto- und Videoaufnahmen (PDF, 129 KB)",
+      "href": "/Content/Documents/teag_dsi_foto_und_videoaufnahmen.pdf"
+    },
+    {
+      "label": "03641-8171111",
+      "href": "tel:+4936418171111"
+    },
+    {
+      "label": "03641-8171118",
+      "href": "fax:+4936418171118"
+    },
+    {
+      "label": "kundenservice@teag.de",
+      "href": "mailto:kundenservice@teag.de"
+    },
+    {
+      "label": "Jetzt anmelden",
+      "href": "javascript:var options=new WebForm_PostBackOptions(\"ctl00$lbNewsletter\", \"\", true, \"NewsletterMaster\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);"
+    },
+    {
+      "label": "Impressum",
+      "href": "/impressum"
+    },
+    {
+      "label": "Datenschutz",
+      "href": "/datenschutz"
+    },
+    {
+      "label": "AGB",
+      "href": "/agbs"
+    },
+    {
+      "label": "Vertrag kündigen",
+      "href": "/privatkunden/service/umzug_kuendigung/kuendigung"
+    },
+    {
+      "label": "Vertrag widerrufen",
+      "href": "/privatkunden/service/umzug_kuendigung/widerruf"
+    },
+    {
+      "label": "Cookies",
+      "href": "javascript:UC_UI.showFirstLayer();"
+    },
+    {
+      "label": "Barrierefreiheit",
+      "href": "/barrierefreiheit"
+    }
+  ],
+  "links": [
+    "https://www.thueringerenergie.de/datenschutz#Content",
+    "https://www.thueringerenergie.de/default",
+    "https://kundenportal.teag.de/portal/",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote",
+    "https://www.thueringerenergie.de/suche",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$lbSearch\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "javascript:void(0)",
+    "https://www.thueringerenergie.de/privatkunden",
+    "https://www.thueringerenergie.de/privatkunden/strom",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-strom-extra",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-strom-easie",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-strom",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-heizstrom",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/thueringenstrom-vorkasse",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/thueringenstrom-sozial",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/grundversorgung",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/azubibonus",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/dynamisch",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/dynamisch/teag-strom-dynamic-plus",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/dynamisch/teag-strom-dynamic-base",
+    "https://www.thueringerenergie.de/privatkunden/strom/ersatzversorgung",
+    "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+    "https://www.thueringerenergie.de/privatkunden/strom_und_internet",
+    "https://www.thueringerenergie.de/privatkunden/strom_und_smartwatch",
+    "https://www.thueringerenergie.de/privatkunden/erdgas",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/teag-gas-easie",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/teag-gas-extra",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/teag-gas",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/thueringengas-vorkasse",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/grundversorgung",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/ersatzversorgung",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/hausanschluss",
+    "https://www.thueringerenergie.de/privatkunden/elektromobilitaet",
+    "https://www.thueringerenergie.de/privatkunden/thueringendsl",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/mein_zuhause",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/sanierungsfahrplan",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/thermografie",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/blower_door",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/energieausweis",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/energiecockpit",
+    "https://www.thueringerenergie.de/privatkunden/service",
+    "https://www.thueringerenergie.de/privatkunden/service/teag-kundenportal",
+    "https://www.thueringerenergie.de/privatkunden/service/zaehlerstandsmeldung",
+    "https://www.thueringerenergie.de/privatkunden/service/24h-lieferantenwechsel",
+    "https://www.thueringerenergie.de/privatkunden/service/energiesparen",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung/widerruf",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung/umzug",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung/kuendigung",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung/todesfall",
+    "https://www.thueringerenergie.de/privatkunden/service/sepa-lastschriftmandat",
+    "https://www.thueringerenergie.de/privatkunden/service/faq",
+    "https://www.thueringerenergie.de/privatkunden/service/kontakt",
+    "https://www.thueringerenergie.de/systemumstellung",
+    "javascript:void(0);",
+    "https://www.thueringerenergie.de/geschaeftskunden",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-strom-extra",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-strom",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-heizstrom",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/thueringenstrom-vorkasse",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/grundversorgung_strom",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-gas",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-gas-natur",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/thueringengas-vorkasse",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/grundversorgung_erdgas",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-profi",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-vario",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-spot-business",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-trend",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-quattro",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-pool",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-spot-expert",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/verbaende",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/vermittler",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/landwirtschaft",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/wohnungswirtschaft",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/filialkunden",
+    "https://www.thueringerenergie.de/geschaeftskunden/waerme",
+    "https://www.thueringerenergie.de/geschaeftskunden/photovoltaik",
+    "https://www.thueringerenergie.de/geschaeftskunden/thueringendsl",
+    "https://www.thueringerenergie.de/geschaeftskunden/elektromobilitaet",
+    "https://www.thueringerenergie.de/geschaeftskunden/erneuerbare_energieloesungen",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/energieaudit",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/energieeffizienzanalyse",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/energieeffizienzfoerderung",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/energie_und_lastmanagement",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/direktvermarktung",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/direktvermarktung/gefoerderte_dv",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/direktvermarktung/sonstige_dv",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/direktvermarktung/ppa",
+    "https://www.thueringerenergie.de/geschaeftskunden/service",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/ansprechpartnersuche",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/teag-kundenportal",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/webcheck",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/energieklick",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/energieklick/strom",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/energieklick/erdgas",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/preisrechner",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/zielpreisverfahren",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/ersatzversorgung",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/haus-_und_baustromanschluss",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/energiesparen",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/rechnung",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/faq",
+    "https://www.thueringerenergie.de/kommunen",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/strom-und-erdgas",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/netzausbau",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/glasfaserausbau",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/wasser",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/elektromobilitaet",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/erneuerbare-energien",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/strassenbeleuchtung",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/kommunale-waermeplanung",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/akademie",
+    "https://www.thueringerenergie.de/kommunen/teag-gruppe",
+    "https://www.thueringerenergie.de/kommunen/aktuelles-veranstaltungen",
+    "https://www.thueringerenergie.de/kommunen/teag-kommunal",
+    "https://www.thueringerenergie.de/kommunen/ansprechpartner",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra/foerderprogramme",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra/faqs",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra/teag-kommunal-plus",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra/digitale-angebote",
+    "https://www.thueringerenergie.de/stadtwerke",
+    "https://www.thueringerenergie.de/stadtwerke/energielieferung",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/service",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/service/stromkennzeichnung",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/service/marktpreise_und_-berichte",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/service/remit",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/gruppenrahmenvertraege",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/dokumente",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/mengenkontrakte_strom",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/mengenkontrakte_erdgas",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/materialangebot_ten",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/lead_buyer",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/aktuelles",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/aktuelles/veranstaltungen",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/aktuelles/wissenswertes",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen/risikomanagement",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen/gruene_produkte",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen/emissionshandel",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen/netzbetreiber",
+    "https://www.thueringerenergie.de/stadtwerke/ansprechpartner",
+    "https://www.thueringerenergie.de/stadtwerke/energieklick",
+    "https://www.thueringerenergie.de/stadtwerke/energieklick/strom",
+    "https://www.thueringerenergie.de/stadtwerke/energieklick/gas",
+    "https://www.thueringerenergie.de/akademie",
+    "https://www.thueringerenergie.de/akademie/seminare",
+    "https://www.thueringerenergie.de/akademie/seminare/allgemeine_technische_seminare",
+    "https://www.thueringerenergie.de/akademie/seminare/beauftragtenschulung",
+    "https://www.thueringerenergie.de/akademie/seminare/elektrotechnik_und_erneuerbare_energien",
+    "https://www.thueringerenergie.de/akademie/seminare/energiewirtschaft",
+    "https://www.thueringerenergie.de/akademie/seminare/fernwaerme",
+    "https://www.thueringerenergie.de/akademie/seminare/freileitungsbau",
+    "https://www.thueringerenergie.de/akademie/seminare/gastechnik",
+    "https://www.thueringerenergie.de/akademie/seminare/hoehentraining",
+    "https://www.thueringerenergie.de/akademie/seminare/kommunikationstechnik",
+    "https://www.thueringerenergie.de/akademie/seminare/ortungstechnik",
+    "https://www.thueringerenergie.de/akademie/seminare/wasser",
+    "https://www.thueringerenergie.de/akademie/organisation",
+    "https://www.thueringerenergie.de/akademie/organisation/anmeldeprozess",
+    "https://www.thueringerenergie.de/akademie/organisation/ansprechpartner",
+    "https://www.thueringerenergie.de/akademie/organisation/anreise",
+    "https://www.thueringerenergie.de/akademie/organisation/uebernachtungsmoeglichkeiten",
+    "https://www.thueringerenergie.de/akademie/akademie",
+    "https://www.thueringerenergie.de/akademie/akademie/das_zeichnet_uns_aus",
+    "https://www.thueringerenergie.de/akademie/akademie/ausbildung_und_ausbildungsgemeinschaft",
+    "https://www.thueringerenergie.de/akademie/akademie/trainingszentrum_erfurt",
+    "https://www.thueringerenergie.de/akademie/akademie/zertifikate_und_mitgliedschaften",
+    "https://www.thueringerenergie.de/einblicke",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/arbeitskreis-stromgeschichte-umspannwerk-jena",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/energieberatung-teag-stromfresser-erkennen",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/datensicherung-resilienz-plattform",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/wissenschaftsshow-thueringen-ausstellung",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/wasserstoff-hyson-sonneberg",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/zement-kalk",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/windkraft-tierschutz",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/waermeplanungskonferenz_badsalzungen",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/sonnenstrom",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/wasserstoffkonferenz",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/hochwassereinsatz-windehausen",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/100jahre",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/pelto_bad_sohnstedt",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/grosstransformatoren_jena",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/dynamische-stromtarife",
+    "https://www.thueringerenergie.de/einblicke/waerme",
+    "https://www.thueringerenergie.de/einblicke/waerme/thueringer_waermetagung",
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg",
+    "https://www.thueringerenergie.de/einblicke/waerme/energieeffiziente-waermeloesungen",
+    "https://www.thueringerenergie.de/einblicke/waerme/zukunftsfaehiges-fernwaerme-projekt-triptis",
+    "https://www.thueringerenergie.de/einblicke/waerme/power-to-heat-anlage-bad-salzungen",
+    "https://www.thueringerenergie.de/einblicke/waerme/minimalinvasiv_werther",
+    "https://www.thueringerenergie.de/einblicke/waerme/ein_echt_dickes_ding",
+    "https://www.thueringerenergie.de/einblicke/waerme/alles_im_fluss",
+    "https://www.thueringerenergie.de/einblicke/waerme/heisswasserspeicher-heizkraftwerk-jena",
+    "https://www.thueringerenergie.de/einblicke/waerme/waerme_weida",
+    "https://www.thueringerenergie.de/einblicke/waerme/waermetagung",
+    "https://www.thueringerenergie.de/einblicke/internet",
+    "https://www.thueringerenergie.de/einblicke/internet/glasfaseranschluss-wandersleben",
+    "https://www.thueringerenergie.de/einblicke/internet/bahnquerung_schmoelln",
+    "https://www.thueringerenergie.de/einblicke/internet/noc",
+    "https://www.thueringerenergie.de/einblicke/internet/lichtfestzeulenroda",
+    "https://www.thueringerenergie.de/einblicke/internet/netkom-beseitigt-weisse-flecken",
+    "https://www.thueringerenergie.de/einblicke/internet/blackdragons",
+    "https://www.thueringerenergie.de/einblicke/internet/glasfaser_eichfeld",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/energieerzeugung-sedlmayer-industriekunde",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/deponie-grosspoesna",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/batteriespeicher-pilotanlage-bad-salzungen",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/windenergieanlage-instandhaltung",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/aktiv-schule-erfurt",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/pilotprojekt_batteriespeicher",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/solarparks-naturschutz",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/solarpark-ohrdruf",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/kita_spatzennest_solaranlage_komsolar_stiftung",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/solarpark_kreis_hildburghausen_deponie",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/pv-anlage-birkigt-biodiversitaet-sonnenstrom-ostthueringen",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/bombensicher",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/lebenshilfewerk-ilmenau",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/carpenter",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/freibad_triptis",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/gruenerstahl",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/breitenworbis",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/interview_freiflaeche",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/wartung-bleicherode",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/ausbau-oeffentliche-ladeinfrastruktur",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/automobilmesse",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/laden-schleiz",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/fachtagung-fahrsicherheitszentrum-thueringen",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/elektromobilitaetstag",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/ladenamladen",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/zukunftstechnologie_automesse",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/interview2023",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/groesste-mythen-energiewende-faktencheck",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/digitale-wasserzaehler",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/wasserspartipps",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/energiewende-umsetzung-eu-nachhaltigkeitsrichtlinie",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/waermelecks_im_visier",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/modernes_wohnen",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/sanierungsfahrplan",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/thermografie-check",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/blowerdoor_erfurt",
+    "https://www.thueringerenergie.de/einblicke/karriere",
+    "https://www.thueringerenergie.de/einblicke/karriere/quereinstieg-ausbildung",
+    "https://www.thueringerenergie.de/einblicke/karriere/weiterbildung_berufliches_wachstum",
+    "https://www.thueringerenergie.de/einblicke/karriere/kabelmesswagen",
+    "https://www.thueringerenergie.de/einblicke/karriere/zukunftsmacher-duenkel",
+    "https://www.thueringerenergie.de/einblicke/karriere/zukunftsmacher-meiselbach",
+    "https://www.thueringerenergie.de/einblicke/karriere/unternehmenslauf",
+    "https://www.thueringerenergie.de/einblicke/karriere/netzleitstelle-ten",
+    "https://www.thueringerenergie.de/einblicke/karriere/gasnetz-monteur",
+    "https://www.thueringerenergie.de/einblicke/karriere/homeoffice-eichsfeld",
+    "https://www.thueringerenergie.de/einblicke/karriere/pruefstelle-wasser",
+    "https://www.thueringerenergie.de/einblicke/karriere/windkraft-thueringen",
+    "https://www.thueringerenergie.de/einblicke/karriere/gesundheitsmanagement",
+    "https://www.thueringerenergie.de/einblicke/karriere/systemadministrator",
+    "https://www.thueringerenergie.de/einblicke/karriere/dualesstudium_goleshi",
+    "https://www.thueringerenergie.de/einblicke/karriere/zukunftsmacher_siegel",
+    "https://www.thueringerenergie.de/einblicke/karriere/elektroanlagenmonteur-hildburghausen",
+    "https://www.thueringerenergie.de/einblicke/karriere/waermewende-gestalten-energieeffizienz-",
+    "https://www.thueringerenergie.de/einblicke/karriere/fahrradfreundlichkeit",
+    "https://www.thueringerenergie.de/einblicke/karriere/tag-der-offenen-tuer-moderne-technik-begeistert",
+    "https://www.thueringerenergie.de/einblicke/karriere/hse-tag-teag-gruppe",
+    "https://www.thueringerenergie.de/einblicke/karriere/fussballturnier",
+    "https://www.thueringerenergie.de/einblicke/karriere/drews",
+    "https://www.thueringerenergie.de/einblicke/karriere/reifhardt",
+    "https://www.thueringerenergie.de/einblicke/karriere/zukunftsmacher",
+    "https://www.thueringerenergie.de/einblicke/karriere/elektrotechnik",
+    "https://www.thueringerenergie.de/einblicke/karriere/elektroniker_kahla",
+    "https://www.thueringerenergie.de/einblicke/karriere/trainee-finance",
+    "https://www.thueringerenergie.de/einblicke/karriere/austausch_norwegen",
+    "https://www.thueringerenergie.de/einblicke/karriere/schwarzeloecher",
+    "https://www.thueringerenergie.de/einblicke/karriere/mentalhealth",
+    "https://www.thueringerenergie.de/einblicke/karriere/quereinstieg-industrieelektriker",
+    "https://www.thueringerenergie.de/einblicke/karriere/industriekauffrau",
+    "https://www.thueringerenergie.de/einblicke/karriere/puls_der_energieerzeugung",
+    "https://www.thueringerenergie.de/einblicke/karriere/studium_fernwaerme",
+    "https://www.thueringerenergie.de/einblicke/karriere/kurs_energieverteilung",
+    "https://www.thueringerenergie.de/einblicke/karriere/datensicherheit",
+    "https://www.thueringerenergie.de/einblicke/karriere/einsatzplankraftwerk",
+    "https://www.thueringerenergie.de/einblicke/karriere/programmierkonsole",
+    "https://www.thueringerenergie.de/einblicke/karriere/auszubildendenvertretung",
+    "https://www.thueringerenergie.de/einblicke/karriere/aufempfehlung",
+    "https://www.thueringerenergie.de/einblicke/karriere/ausbildung_tmz",
+    "https://www.thueringerenergie.de/einblicke/karriere/industriemeisterelektrotechnik",
+    "https://www.thueringerenergie.de/einblicke/karriere/energieverschrieben",
+    "https://www.thueringerenergie.de/einblicke/karriere/erste_auszubildende_tmz",
+    "https://www.thueringerenergie.de/einblicke/karriere/azubi-sommerfest2023",
+    "https://www.thueringerenergie.de/einblicke/karriere/wasserstoff-akademie",
+    "https://www.thueringerenergie.de/einblicke/engagement",
+    "https://www.thueringerenergie.de/einblicke/engagement/barrierefreiheit-teag-digitale-teilhabe",
+    "https://www.thueringerenergie.de/einblicke/engagement/malwettbewerb-sommerferien",
+    "https://www.thueringerenergie.de/einblicke/engagement/insektenhotels-fuchsfarm",
+    "https://www.thueringerenergie.de/einblicke/engagement/stromausfall-berlin",
+    "https://www.thueringerenergie.de/einblicke/engagement/ideenmachenschule",
+    "https://www.thueringerenergie.de/einblicke/engagement/insektenhotel-mitteagsummts",
+    "https://www.thueringerenergie.de/einblicke/engagement/reitturnier-immenrode",
+    "https://www.thueringerenergie.de/einblicke/engagement/spende-kinderhospiz",
+    "https://www.thueringerenergie.de/einblicke/engagement/legend-of-cross",
+    "https://www.thueringerenergie.de/einblicke/engagement/wsc-saale",
+    "https://www.thueringerenergie.de/einblicke/engagement/braveheart",
+    "https://www.thueringerenergie.de/einblicke/engagement/special-olympics",
+    "https://www.thueringerenergie.de/einblicke/engagement/wsv-lauscha",
+    "https://www.thueringerenergie.de/einblicke/engagement/kyffhaeuserberglauf",
+    "https://www.thueringerenergie.de/einblicke/engagement/teag-laufcamp",
+    "https://www.thueringerenergie.de/einblicke/engagement/thsv-eisenach",
+    "https://www.thueringerenergie.de/einblicke/engagement/10jahreteag",
+    "https://www.thueringerenergie.de/einblicke/engagement/herosspendenmarsch",
+    "https://www.thueringerenergie.de/einblicke/engagement/energiebattgendorf",
+    "https://www.thueringerenergie.de/einblicke/engagement/spendenmarsch",
+    "https://www.thueringerenergie.de/ueber_uns",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/portraet_und_geschaeftszahlen",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/management_und_beiraete",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/struktur_und_beteiligungen",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veranstaltungen",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veranstaltungen/tag_der_offenen_tuer",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/zertifikate",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/lksg",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/waerme",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/stromkennzeichnung",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/grundversorgung",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/gleichbehandlung",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/remit",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/umwelt-und-arbeitsschutz",
+    "https://www.thueringerenergie.de/ueber_uns/news",
+    "https://www.thueringerenergie.de/ueber_uns/news/teag-magazin",
+    "https://www.thueringerenergie.de/ueber_uns/presse",
+    "https://www.thueringerenergie.de/ueber_uns/karriere",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/schueler",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/auszubildende",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/auszubildende/ausbildungsberufe",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/auszubildende/ausbildung-mit-dem-plus",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/auszubildende/bewerbungstipps",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/studierende",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/studierende/praktikum",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/studierende/werkstudierende",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/berufserfahrene-und-berufseinsteiger",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/teag",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tso",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tnk",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/ten",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tws",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tmz",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tes",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tmo",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/twa",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/arbeiten-bei-unseren-toechtern",
+    "https://www.thueringerenergie.de/ueber_uns/engagement",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/sponsoring",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen/ideenmachenschule",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen/insektenhotels",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen/laufuniversum",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen/arbeitskreis-stromgeschichte",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/spenden",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/energieerzeugung",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/netzausbau",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/speicherloesungen",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/elektromobilitaet",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/waermewende",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/produkte-kundenservice",
+    "https://www.thueringerenergie.de/",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$lbSearch2\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "https://www.thueringerenergie.de/privatkunden/service/energiebanking",
+    "https://www.thueringerenergie.de/Content/Documents/teag_vp128_sepalastschriftmandat.pdf",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$WidgetKontakt1$lbDeleteFile1\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "https://www.thueringerenergie.de/datenschutz",
+    "https://www.thueringerenergie.de/datenschutz#",
+    "https://www.thueringerenergie.de/botdetectcaptcha.ashx?get=sound&c=c_datenschutz_widgetkontakt1_captchakontaktw&t=6751155798694be68d6a93c721ccf9d8&s=CVR9BDZc7Dok38sTr1YMsoUbp2LZ3D22crTGiO%2ftE1MzYcLKwXQCSNSOcTVSav7h%2f0FKgP4UMv7GVG7W0quBcg%3d%3d",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$WidgetKontakt1$send\", \"\", true, \"sc_contact\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "javascript:__doPostBack('ctl00$lbAkkordeon2_1','')",
+    "javascript:__doPostBack('ctl00$lbAkkordeon2_2','')",
+    "javascript:__doPostBack('ctl00$lbAkkordeon2_3','')",
+    "http://www.thueringerenergie.de/",
+    "mailto:info@teag.de",
+    "mailto:datenschutz@teag.de",
+    "mailto:kundenservice@teag.de",
+    "https://www.thueringerenergie.de/cookieerklaerung",
+    "https://developers.google.com/fonts/faq",
+    "https://commission.europa.eu/system/files/2023-07/Adequacy%20decision%20EU-US%20Data%20Privacy%20Framework_en.pdf",
+    "https://www.dataprivacyframework.gov/s/",
+    "https://policies.google.com/privacy?hl=de&gl=de",
+    "https://business.safety.google/gdprcontrollerterms/",
+    "https://www.google.com/intl/de_US/help/terms_maps/",
+    "https://policies.google.com/privacy",
+    "mailto:newsletter@teag.de",
+    "https://recruitingapp-5272.de.umantis.com/PublicDocuments/101/ShowDocument/Datenschutzerkl%C3%A4rung.pdf",
+    "https://energiebanking.thueringerenergie.de/powercommerce/teag/fo/portal/datenschutzEB",
+    "https://kundenportal.teag.de/portal/terms",
+    "mailto:VPP-Thueringen@teag.de",
+    "mailto:effizienznetzwerke@teag.de",
+    "https://webcheck.thueringerenergie.de/",
+    "https://www.thueringerenergie.de/kommunen_und_stadtwerke/stadtwerke/energieklick",
+    "https://teag-energiecockpit.de/privacyPolicy?2",
+    "https://mein-zuhause.teag.de/datenschutz",
+    "https://prod.osapiens.cloud/portal/portal/webbundle/supplier-os-hub/supplier-os-hub/public-access-app/complaint.html#/public/hub/thueringer-energie-ag/DEFAULT/complaint/new",
+    "https://akademie.teag.de/pub/Datenschutzerklaerung/id/TP-0005",
+    "https://www.thueringerenergie.de/Content/Documents/teag_dsi_foto_und_videoaufnahmen.pdf",
+    "https://engagement.thueringerenergie.de/de/privacy/",
+    "https://energiebanking.thueringerenergie.de/powercommerce/teag/fo/portal/resources/pdf/i18n/teag_nutzungsbedingungen_nbmessenger.pdf",
+    "https://www.thueringerenergie.de/Content/Documents/Nice/teag_datenschutzinformation.pdf",
+    "https://www.thueringerenergie.de/Content/Documents/teag_datenschutzinformation_geschaeftspartner.pdf",
+    "https://www.thueringerenergie.de/Content/Documents/teag_datenschutzinformation_schadensabwicklung.pdf",
+    "https://www.thueringerenergie.de/Content/Documents/teag_datenschutzinformation_dritte.pdf",
+    "https://www.thueringerenergie.de/Content/Documents/teag_datenschutzinformation_m365.pdf",
+    "https://www.thueringerenergie.de/Content/Documents/teag_datenschutzinformation_videoueberwachung.pdf",
+    "tel:+4936418171111",
+    "fax:+4936418171118",
+    "https://de.linkedin.com/organization-guest/company/teag/",
+    "https://www.facebook.com/ThueringerEnergie/",
+    "https://www.instagram.com/teag_gruppe/",
+    "https://www.xing.com/pages/thueringerenergie",
+    "https://www.youtube.com/channel/UCkOfcXpnEp9PWsRvx_c3uFw",
+    "https://twitter.com/TEAG_info",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$lbNewsletter\", \"\", true, \"NewsletterMaster\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "https://www.thueringerenergie.de/impressum",
+    "https://www.thueringerenergie.de/agbs",
+    "javascript:UC_UI.showFirstLayer();",
+    "https://www.thueringerenergie.de/barrierefreiheit"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Site/teag_logo_bigger@1.png",
+        "alt": "Zur Startseite",
+        "w": 147,
+        "h": 53
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/4DE0AD8E3F3E47278A493CB2E5EA84F6_PMT_W_rdax_1440x958_100s@1.jpg",
+        "alt": "Hinweis für TEAG Kunden zur Systemumstellung",
+        "w": 480,
+        "h": 319
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/72F8B07E76B446749F02D3EE0651E1BF_PMT_W_rdax_1440x816_100s@1.jpg",
+        "alt": "Einsparpotenziale in Ihrem Unternehmen identifizieren, clever investieren, CO2-Kosten senken - mit der TEAG EnergieEffizienzFoerderung",
+        "w": 480,
+        "h": 272
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/520F5924B2DE487596172A1AC80223AD_PMT_W_rdax_1440x678_100s@1.jpg",
+        "alt": "Kommune Gebäudeplanung",
+        "w": 479,
+        "h": 226
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/9B1B5C4DAB004C2D8154D4A363320BA4_PMT_W_rdax_1440x858_100s@1.jpg",
+        "alt": "Logo der TEAG-Akademie",
+        "w": 480,
+        "h": 286
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/044CBA91BE684BDFADCA5F13D3249E22_TMT_W_rdax_100s@1.jpg",
+        "alt": "Wissenschaftsshow zum Tag der offenen Tür",
+        "w": 325,
+        "h": 185
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/ADD787684EB0494A82BDF4D54912DAE3_TMT_W_rdax_100s@1.jpg",
+        "alt": "Blick in die Ausstellung im ehemaligen Umspannwerk Jena-Nord",
+        "w": 325,
+        "h": 185
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/B328519785FC4214929BBFA9644DAB67_TMT_W_rdax_100s@1.jpg",
+        "alt": "Portrait Ulrike Wilhelm",
+        "w": 325,
+        "h": 185
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/91D0A0B92F05435F827790C265E6EB54_TMT_W_rdax_100s@1.jpg",
+        "alt": "Schülerinnen und Schüler  schauen sich Blatt an",
+        "w": 325,
+        "h": 185
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/FA50C8BC05A440E2BF3FBC729D9FA58A_PMT_W_rdax_1440x960_100s@1.jpg",
+        "alt": "Die Hauptverwaltung der TEAG-Gruppe in Erfurt, Außenansicht",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Site/teag_logo_neg_outline@1.png",
+        "alt": "Zur Startseite",
+        "w": 130,
+        "h": 49
+      }
+    ],
+    "allImgCount": 16,
+    "cssBackgrounds": [
+      "https://www.thueringerenergie.de/Content/Images/Site/Svg/checkmark-pos.svg"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--box-padding-large": "30px",
+    "--box-padding-medium": "25px",
+    "--box-padding-small": "25px",
+    "--box-padding-extra-small": "20px",
+    "--box-padding": "30px",
+    "--flex-gap-desktop": "80px",
+    "--flex-gap-tablet": "70px",
+    "--flex-gap-smartphone": "65px",
+    "--flex-gap-smartphone-xs": "60px",
+    "--flex-gap": "80px",
+    "--bs-primary-rgb": "135,13,135",
+    "--bs-primary-hover-rgb": "92,5,92",
+    "--bs-secondary-rgb": "198,0,134",
+    "--bs-secondary-hover-rgb": "153,0,88",
+    "--bs-info-rgb": "11,162,227",
+    "--bs-info-hover-rgb": "10,102,194",
+    "--bs-success-rgb": "13,166,66",
+    "--bs-success-hover-rgb": "14,118,46",
+    "--bs-warning-rgb": "245,157,15",
+    "--bs-warning-hover-rgb": "220,135,0",
+    "--bs-danger-rgb": "235,0,0",
+    "--bs-danger-hover-rgb": "190,25,30",
+    "--bs-light-rgb": "242,242,242",
+    "--bs-light-hover-rgb": "237,237,237",
+    "--bs-dark-rgb": "20,20,20",
+    "--bs-dark-hover-rgb": "0,0,0",
+    "--bs-primary": "rgb(135,13,135)",
+    "--bs-primary-hover": "rgb(92,5,92)",
+    "--bs-secondary": "rgb(198,0,134)",
+    "--bs-secondary-hover": "rgb(153,0,88)",
+    "--bs-info": "rgb(11,162,227)",
+    "--bs-info-hover": "rgb(10,102,194)",
+    "--bs-success": "rgb(13,166,66)",
+    "--bs-success-hover": "rgb(14,118,46)",
+    "--bs-warning": "rgb(245,157,15)",
+    "--bs-warning-hover": "rgb(220,135,0)",
+    "--bs-danger": "rgb(235,0,0)",
+    "--bs-danger-hover": "rgb(190,25,30)",
+    "--bs-light": "rgb(242,242,242)",
+    "--bs-light-hover": "rgb(237,237,237)",
+    "--bs-dark": "rgb(20,20,20)",
+    "--bs-dark-hover": "rgb(0,0,0)",
+    "--bs-border-color": "rgba(20,20,20,.175)",
+    "--bs-border-radius": "1rem",
+    "--bs-primary-text-rgb": "255,255,255",
+    "--bs-secondary-text-rgb": "255,255,255",
+    "--bs-info-text-rgb": "0,0,0",
+    "--bs-success-text-rgb": "0,0,0",
+    "--bs-warning-text-rgb": "0,0,0",
+    "--bs-danger-text-rgb": "255,255,255",
+    "--bs-light-text-rgb": "0,0,0",
+    "--bs-dark-text-rgb": "255,255,255",
+    "--bs-primary-text": "rgb(255,255,255)",
+    "--bs-secondary-text": "rgb(255,255,255)",
+    "--bs-info-text": "rgb(0,0,0)",
+    "--bs-success-text": "rgb(0,0,0)",
+    "--bs-warning-text": "rgb(0,0,0)",
+    "--bs-danger-text": "rgb(255,255,255)",
+    "--bs-light-text": "rgb(0,0,0)",
+    "--bs-dark-text": "rgb(255,255,255)",
+    "--bs-body-color-rgb": "20,20,20",
+    "--bs-body-color": "rgb(20,20,20)",
+    "--bs-body-bg-rgb": "255,255,255",
+    "--bs-body-bg": "rgb(255,255,255)",
+    "--bs-secondary-color-rgb": "118,118,118",
+    "--bs-secondary-color": "rgb(118,118,118)",
+    "--bs-secondary-bg-rgb": "242,242,242",
+    "--bs-secondary-bg": "rgb(242,242,242)",
+    "--bs-tertiary-color-rgb": "107,107,107",
+    "--bs-tertiary-color": "rgb(107,107,107)",
+    "--bs-tertiary-bg-rgb": "237,237,237",
+    "--bs-tertiary-bg": "rgb(237,237,237)",
+    "--teag-accent": "#f533a0",
+    "--teag-info": "rgb(11,162,227)",
+    "--teag-divider": "#f533a0"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 39,
+    "mainTextLen": 99459,
+    "realImageCount": 11,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/core/qE6MEj9eWPQ8Dz",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 774,
+        "hits": 1,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+        "query": [
+          "isBot",
+          "isOutsideEu"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 8912,
+        "hits": 1,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/autoblocker/qE6MEj9eWPQ8Dz",
+        "query": [
+          "domain",
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 715,
+        "hits": 2,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sgtm.thueringerenergie.de",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_geo",
+          "_p",
+          "_rdi",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "ecid",
+          "en",
+          "frm",
+          "gap.gtb",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gtb",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.adr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sgtm.thueringerenergie.de/g/collect",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/17880186799/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.thueringerenergie.de",
+        "path": "/datenschutz",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.thueringerenergie.de/datenschutz",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.thueringerenergie.de",
+        "path": "/Scripts/Template.Menu.Desktop.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 2311,
+        "hits": 1,
+        "example": "https://www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.etracker.de",
+        "path": "/api/v6/tracking/webEvents",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.etracker.de/api/v6/tracking/webEvents",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "web.cmp.usercentrics.eu",
+        "count": 4
+      },
+      {
+        "host": "code.etracker.com",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "www.etracker.de",
+        "count": 2
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://www.thueringerenergie.de/datenschutz",
+        "hasAction": true,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 19,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 3,
+      "thirdPartyEndpoints": 6,
+      "thirdPartyScriptHosts": 6,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/datenschutz.png",
+  "renderedHtml": "pages/datenschutz.html",
+  "slots": {
+    "type": "static",
+    "plan": [
+      "breadcrumb",
+      "headline",
+      "legal-body",
+      "sidebar-downloads?"
+    ],
+    "headline": "Datenschutz",
+    "metaDescription": "Da uns der Schutz Ihrer persönlichen Daten wichtig ist, informieren wir Sie hier über unsere Online-Datenschutzprinzipien.",
+    "_note": "typed slots inferred from page type; ? = optional on this page"
+  }
+}

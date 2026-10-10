@@ -1,0 +1,681 @@
+/* Header — lifted from stardust/prototypes/css/canon.css (#PageHeader). Content-box model. */
+header .page-header {
+  color: #000;
+  position: relative;
+}
+
+header .page-header [data-icon]::before {
+  content: attr(data-icon);
+  font-family: 'teag-2017', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+header .page-header .skip-link {
+  background-color: var(--c-primary);
+  padding: 4px 10px;
+  color: #fff;
+  position: absolute;
+  transform: translateY(-100%);
+  z-index: 10;
+}
+
+header .page-header .skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+/* ---------- section 1: brand bar ---------- */
+header .page-header .section-1 {
+  height: var(--header-bar-height);
+  display: flex;
+  position: relative;
+  z-index: 4;
+  background: #fff;
+}
+
+header .page-header .section-1 > .center {
+  display: flex;
+  margin: 0 calc(var(--gutter) + 4px) 0 var(--gutter);
+  width: auto;
+  flex: 1 1 auto;
+}
+
+header .page-header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .page-header .logo p {
+  margin: 0;
+  display: flex;
+}
+
+header .page-header .logo a {
+  margin-right: 1em;
+  display: flex;
+}
+
+header .page-header .logo picture {
+  display: flex;
+}
+
+header .page-header .logo img {
+  width: 147px;
+  height: auto;
+}
+
+header .page-header .header-tools {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  position: relative;
+}
+
+header .page-header .quick-links {
+  display: flex;
+  align-items: center;
+}
+
+header .page-header .quick-links ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+header .page-header .quick-links li {
+  line-height: 1;
+  font-size: var(--fs-body);
+}
+
+header .page-header .quick-links li a {
+  color: var(--c-grey-700);
+  font-weight: 400;
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 2em;
+}
+
+header .page-header .quick-links li a::before {
+  font-family: 'teag-2017', sans-serif;
+  color: var(--c-primary);
+  display: inline-block;
+  margin-right: 6px;
+  min-width: 17.53px;
+  line-height: 1;
+}
+
+header .page-header .quick-links li.quick-1 a::before {
+  content: '\e941';
+}
+
+header .page-header .quick-links li.quick-2 a::before {
+  content: 'Y';
+}
+
+header .page-header .search-panel {
+  position: relative;
+  width: 250.2px;
+}
+
+header .page-header .search {
+  height: 45px;
+  line-height: 45px;
+  padding: 0 15px;
+  position: absolute;
+  right: 0;
+  top: 21px;
+  border-radius: 22.25px;
+  background-color: var(--c-grey-200);
+  display: flex;
+  align-items: center;
+}
+
+header .page-header .search input {
+  display: inline-block;
+  width: 191px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 4px 0 0;
+  padding: 0 3px;
+  background: var(--c-grey-200);
+  text-align: right;
+  font-size: 14px;
+}
+
+header .page-header .search button.icon {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  font-size: 1.3em;
+  margin-top: -3px;
+  color: var(--c-primary);
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+header .page-header .header-buttons {
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+}
+
+header .page-header .contrast-switch {
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-body);
+  line-height: 1;
+  margin-right: 5px;
+}
+
+header .page-header .contrast-switch .visualization {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+  box-sizing: content-box;
+  background: var(--c-grey-200);
+  border: 1px solid var(--c-grey-600);
+  border-radius: 18px;
+  width: 35px;
+  height: 23px;
+}
+
+header .page-header .contrast-switch button.icon {
+  width: 21px;
+  height: 21px;
+  padding: 1px;
+  margin: 0 0.75em 0 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--c-grey-700);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  transition: margin 0.2s ease;
+}
+
+header .page-header .contrast-switch.active button.icon {
+  margin: 0 0 0 0.75em;
+  background: var(--c-primary);
+}
+
+header .page-header .contrast-label {
+  color: var(--c-grey-700);
+  font-size: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+/* ---------- section 2: main navigation ---------- */
+header .page-header .section-2 {
+  background-color: var(--c-primary);
+  box-shadow: var(--shadow-chrome);
+  position: relative;
+  z-index: 3;
+}
+
+header .page-header .section-2 > .center {
+  height: var(--nav-bar-height);
+  margin: 0 auto;
+  max-width: var(--content-max);
+  position: relative;
+}
+
+header .page-header .menu {
+  position: relative;
+  height: 100%;
+}
+
+header .page-header .menu > ul {
+  display: table;
+  width: 100%;
+  height: 100%;
+  table-layout: auto;
+  margin: 0;
+}
+
+header .page-header .menu > ul > li {
+  display: table-cell;
+  font-size: var(--fs-body);
+  line-height: var(--nav-bar-height);
+  vertical-align: top;
+}
+
+header .page-header .menu > ul > li > a {
+  display: block;
+  position: relative;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+
+header .page-header .menu > ul > li.expanded > a,
+header .page-header .menu > ul > li > a:hover,
+header .page-header .menu > ul > li > a:focus-visible {
+  background-color: var(--c-primary-hover);
+  color: #fff;
+}
+
+/* current channel (live: li.level-1-N.active > a) */
+header .page-header .menu > ul > li.active > a {
+  background-color: var(--c-secondary);
+}
+
+header .page-header .nav-button {
+  display: none;
+}
+
+header .page-header .mobile-nav-container {
+  display: none;
+}
+
+/* mega panel */
+header .page-header .mega {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  background: #fff;
+  box-shadow: var(--shadow-chrome);
+  z-index: 5;
+  padding: 30px 40px 40px;
+  text-align: left;
+  line-height: var(--lh-body);
+}
+
+header .page-header .mega[hidden] {
+  display: none;
+}
+
+header .page-header .mega .columns > ul {
+  columns: 3;
+  column-gap: 40px;
+  margin: 0;
+}
+
+header .page-header .mega .columns li {
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  break-inside: avoid;
+}
+
+header .page-header .mega .columns > ul > li {
+  margin-bottom: 1.2em;
+}
+
+header .page-header .mega .columns ul li > a {
+  color: #000;
+  font-weight: 400;
+  display: inline-block;
+  padding: 2px 0;
+}
+
+header .page-header .mega .columns > ul > li > a {
+  font-weight: 700;
+  font-size: 1.05em;
+}
+
+header .page-header .mega .columns ul li > a:hover {
+  color: var(--c-primary);
+}
+
+header .page-header .mega .columns ul ul {
+  margin: 0.25em 0 0;
+}
+
+header .page-header .mega .columns ul ul ul {
+  padding-left: 1em;
+  font-size: 0.95em;
+}
+
+/* ---------- fixed desktop bar (scroll state) ---------- */
+header .page-header .combined-header {
+  display: none;
+}
+
+header .page-header .combined-header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+}
+
+header .page-header .combined-header ul.level-1 {
+  display: flex;
+  align-items: stretch;
+  height: var(--nav-bar-height);
+  margin: 0;
+}
+
+header .page-header .combined-header ul.level-1 > li {
+  line-height: var(--nav-bar-height);
+  font-size: var(--fs-body);
+  width: auto;
+}
+
+header .page-header .combined-header ul.level-1 > li.logo {
+  width: 15%;
+  line-height: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+header .page-header .combined-header ul.level-1 > li.logo p {
+  margin: 0;
+  display: block;
+}
+
+header .page-header .combined-header ul.level-1 > li.logo picture {
+  display: block;
+  padding: 15px 0 0;
+  margin: 0 15px;
+}
+
+header .page-header .combined-header ul.level-1 > li.logo img {
+  width: 130px;
+  height: auto;
+}
+
+header .page-header .combined-header ul.level-1 > li.nav-link > a {
+  display: block;
+  padding: 0 15px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+header .page-header .combined-header ul.level-1 > li.nav-link > a:hover,
+header .page-header .combined-header ul.level-1 > li.nav-link > a:focus-visible {
+  background-color: var(--c-primary-hover);
+}
+
+header .page-header .combined-header ul.level-1 > li.search-container {
+  margin-left: auto;
+  position: relative;
+  width: 45px;
+}
+
+header .page-header .combined-header .search {
+  top: 10px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+header .page-header .combined-header .search.collapsed {
+  padding: 0 20px 0 0;
+  background-color: var(--c-primary);
+  text-align: right;
+  white-space: nowrap;
+}
+
+header .page-header .combined-header .search.collapsed input {
+  width: 0;
+  padding: 0;
+  margin: 0;
+  background-color: var(--c-primary);
+  visibility: hidden;
+}
+
+header .page-header .combined-header .search.collapsed button.icon {
+  color: #fff;
+  font-size: 1.45em;
+  margin-top: -2px;
+}
+
+/* ---------- mobile / tablet ---------- */
+@media (width <= 1024px) {
+  header .page-header .quick-links li a {
+    margin-right: 18px;
+    font-size: 0;
+  }
+
+  header .page-header .quick-links li a::before {
+    font-size: 1.5rem;
+    min-width: 24.4px;
+    vertical-align: middle;
+    margin-right: 0;
+  }
+
+  header .page-header .quick-links li:last-child a {
+    margin-right: 0;
+  }
+
+  header .page-header .search-panel {
+    width: auto;
+    margin-left: 18px;
+  }
+
+  header .page-header .search {
+    position: static;
+    height: auto;
+    line-height: 1;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+  }
+
+  header .page-header .search input {
+    display: none;
+  }
+
+  header .page-header .search button.icon {
+    font-size: 1.5rem;
+    min-width: 24.4px;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  header .page-header .header-buttons {
+    padding-left: 13px;
+  }
+
+  header .page-header .contrast-label {
+    display: none;
+  }
+
+  header .page-header .contrast-switch .visualization {
+    margin-right: 0;
+  }
+
+  header .page-header .menu > ul {
+    display: block;
+    position: relative;
+    min-height: var(--nav-bar-height);
+    height: var(--nav-bar-height);
+  }
+
+  header .page-header .menu > ul > li {
+    display: none;
+    position: absolute;
+    line-height: var(--nav-bar-height);
+    width: auto;
+  }
+
+  header .page-header .menu > ul > li.mobile-visible {
+    display: block;
+    right: 0;
+    top: 0;
+  }
+
+  header .page-header .menu > ul > li.mobile-visible > a {
+    padding: 0 30px;
+  }
+
+  header .page-header .menu > ul > li .mega {
+    display: none;
+  }
+
+  header .page-header .nav-button {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: var(--nav-bar-height);
+    width: 67.5px;
+    padding: 0;
+    color: #fff;
+    font-size: 1.4em;
+    overflow: hidden;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  header .page-header .nav-button .icon {
+    position: absolute;
+    left: 11px;
+    top: 3px;
+    width: 45px;
+    height: auto;
+    text-align: center;
+    line-height: 1;
+    background-color: var(--c-primary);
+    color: #fff;
+  }
+
+  header .page-header .nav-button .icon-menu {
+    z-index: 1;
+    font-size: 0.8em;
+    padding-top: 2px;
+  }
+
+  header .page-header .nav-button .icon-close-menu {
+    background-color: var(--c-secondary);
+    z-index: 0;
+  }
+
+  header .page-header .menu.open .nav-button .icon-menu {
+    display: none;
+  }
+
+  header .page-header .menu:not(.open) .nav-button .icon-close-menu {
+    display: none;
+  }
+
+  header .page-header .mobile-nav-container {
+    display: block;
+    position: absolute;
+    top: var(--nav-bar-height);
+    left: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: var(--shadow-chrome);
+    z-index: 6;
+    max-height: calc(100vh - var(--nav-height));
+    overflow: hidden auto;
+  }
+
+  header .page-header .mobile-nav-container[hidden] {
+    display: none;
+  }
+
+  header .page-header .mobile-nav {
+    margin: 0;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav li {
+    position: relative;
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav li a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 30px;
+    line-height: 40px;
+    color: #000;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav > li > a {
+    margin-bottom: 1px;
+    border-bottom: 1px solid var(--c-grey-300);
+    background-color: #fff;
+    line-height: 1.4;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 700;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav li li > a {
+    background-color: var(--c-grey-300);
+    padding-left: 40px;
+    font-weight: 700;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav li li li > a {
+    background-color: #e3e3e3;
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav li li li li > a {
+    background-color: #ebebeb;
+    font-size: 0.925em;
+    font-weight: 400;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav li.closed > ul {
+    display: none;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav .nav-switch {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: var(--c-primary);
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav > li > .nav-switch {
+    top: 12px;
+    height: 56px;
+  }
+
+  header .page-header .mobile-nav-container ul.mobile-nav li:not(.closed) > .nav-switch {
+    transform: rotate(180deg);
+  }
+
+  header .page-header .seperated-header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 7;
+  }
+
+  header .page-header .combined-header.fixed {
+    display: none;
+  }
+}
+
+@media (width >= 1920px) {
+  header .page-header .section-1 > .center {
+    width: var(--content-max);
+    margin: 0 auto;
+  }
+}

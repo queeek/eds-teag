@@ -1,0 +1,230 @@
+<div#Content>
+  <h1#MainContent_h1Alternative.screen-reader.visible-only>
+    "Unternehmen"
+  <section#MainContent_PCS30987.page-content-section.product-teasers-modul.extra-wide.full-content.cover-whole-modul.alternative-page-header>
+    <div.center>
+      <ul#List30987.clear-fix.list.list-style-3.products.starts-with-image-right>
+        <li#PCS30988.product-teaser.uses-startUp-animations.initialized.animated style="height: 486.266px; margin-left: 0px; margin-right: 0px; margin-top: 0px;">
+          <div>
+            <figure style="height: 486.266px;">
+              <picture style="position: absolute; width: 860.81px; height: 483.312px; right: -57.5938px; margin-left: 0px; margin-rig>
+                "!--[if IE 9]>"
+                <video style="display: none;">
+                  "![endif]-->"
+                  <source srcset="/Content/Images/Zuschnitte/5BA51AC1AA2F4EEC88EA02314471A9C3_PT3_D@1.jpg 1x, /Content/Images/Zuschnitte>
+                  <source srcset="/Content/Images/Zuschnitte/5BA51AC1AA2F4EEC88EA02314471A9C3_PT2_T@1.jpg 1x, /Content/Images/Zuschnitte>
+                  <source srcset="/Content/Images/Zuschnitte/5BA51AC1AA2F4EEC88EA02314471A9C3_PT2_S@1.jpg 1x, /Content/Images/Zuschnitte>
+                  "!--[if IE 9]>"
+                "![endif]-->"
+                <img.wide-image src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+              <figcaption>
+                <div.picture-credits style="--oversizedHeight: 21.9375px; bottom: 23.954px; left: auto; right: -57.5938px; margin-left: 0px; margin>
+                  <span.fa.fa-copyright>
+                  <span>
+                    "TEAG"
+                <div.container style="height: 446.281px; position: absolute; width: 451.607px; margin-left: 0px; margin-right: 0px;">
+                  <p>
+                    "TEAG"
+                  <h2#Heading30988>
+                    "Energiekompetenz aus Thüringen"
+                  <span.divider>
+                  <div.description>
+                    <p>
+                      "Ob Erdgas, Strom oder Fernwärme: Über 500.000 Kunden versorgt der führ"
+  <section.page-meta-section>
+    <div.center.clear-fix>
+      <div.clear-fix>
+        <div.bread-crumb.clear-fix>
+          <ul#MainContent_BreadCrumbList.clear-fix>
+            <li>
+              <a href="/default">
+                <span.icon data-icon="i">
+                "Startseite"
+            <li>
+              <a href="/ueber_uns">
+                "Über uns"
+            <li.active>
+              <a href="/ueber_uns/unternehmen">
+                "Unternehmen"
+  <section#PCS30218.page-content-section.channel-modul>
+    <div.center>
+      <section.modul-content.items-6.columns-1>
+        <header.extra-margin-bottom.center-content>
+        <div.list-container.style-links-as-text>
+          <ul#MainContent_ulStatic30218.boxes.columns-3.do-not-priorizes.clear-fix.list.boxes-6>
+            <li#MainContent_li30495.box.image-teaser>
+              <a href="/ueber_uns/unternehmen/portraet_und_geschaeftszahlen">
+                <figure>
+                  <picture>
+                    "!--[if IE 9]>"
+                    <video style="display: none;">
+                      "![endif]-->"
+                      <source srcset="/Content/Images/Zuschnitte/A0E57704CAF34C20AA8A9B8BC59DAB5B_PLT_W_rdax_1095x750_100s@1.jpg 1x, /Conten>
+                      <source srcset="/Content/Images/Zuschnitte/A0E57704CAF34C20AA8A9B8BC59DAB5B_PLT_W_rdax_2190x1500_100s@1.jpg 1x, /Conte>
+                      "!--[if IE 9]>"
+                    "![endif]-->"
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                  <figcaption>
+                    <div.picture-credits>
+                      <span.fa.fa-copyright>
+                      <span>
+                        "TEAG"
+                    <h3>
+                      "Porträt &amp; Geschäftszahlen"
+                    <div.description>
+                      <p>
+                        "Mehr als „nur“ ein Dienstleister: Über 2.300 Mitarbeiter kümmern sich "
+                    <div.footer>
+                      <div.link>
+                        <span.link-text>
+                          <span.icon.icon-teag-arrow-right-pos>
+                          "Mehr erfahren"
+                        <span.link-button.full-size>
+                          "Mehr erfahren"
+            <li#MainContent_li30494.box.image-teaser>
+              <a href="/ueber_uns/unternehmen/management_und_beiraete">
+                <figure>
+                  <picture>
+                    "!--[if IE 9]>"
+                    <video style="display: none;">
+                      "![endif]-->"
+                      <source srcset="/Content/Images/Zuschnitte/A80274FA012F4F57AF5C8A58934DD607_PLT_W_rdax_1094x750_100s@1.jpg 1x, /Conten>
+                      <source srcset="/Content/Images/Zuschnitte/A01F50769D28474F95D47E5E20B06B17_PLT_W_rdax_2190x1500_100s@1.jpg 1x, /Conte>
+                      "!--[if IE 9]>"
+                    "![endif]-->"
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                  <figcaption>
+                    <div.picture-credits>
+                      <span.fa.fa-copyright>
+                      <span>
+                        "Carlo Bansini/TEAG"
+                    <h3>
+                      "Management &amp; Beiräte"
+                    <div.description>
+                      <p>
+                        "Wir stellen uns vor: die Gremien und Organe der TEAG Thüringer Energie"
+                    <div.footer>
+                      <div.link>
+                        <span.link-text>
+                          <span.icon.icon-teag-arrow-right-pos>
+                          "Mehr erfahren"
+                        <span.link-button.full-size>
+                          "Mehr erfahren"
+            <li#MainContent_li30493.box.image-teaser>
+              <a href="/ueber_uns/unternehmen/struktur_und_beteiligungen">
+                <figure>
+                  <picture>
+                    "!--[if IE 9]>"
+                    <video style="display: none;">
+                      "![endif]-->"
+                      <source srcset="/Content/Images/Zuschnitte/48EB682E371F4E9480D0B8A1A1232097_PLT_W_rdax_1095x750_100s@1.jpg 1x, /Conten>
+                      <source srcset="/Content/Images/Zuschnitte/48EB682E371F4E9480D0B8A1A1232097_PLT_W_rdax_2190x1500_100s@1.jpg 1x, /Conte>
+                      "!--[if IE 9]>"
+                    "![endif]-->"
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                  <figcaption>
+                    <div.picture-credits>
+                      <span.fa.fa-copyright>
+                      <span>
+                        "picsfive/stock.adobe.com"
+                    <h3>
+                      "Struktur &amp; Beteiligungen"
+                    <div.description>
+                      <p>
+                        "Stadtwerke und Unternehmen, an denen die TEAG beteiligt ist, inkl. der"
+                    <div.footer>
+                      <div.link>
+                        <span.link-text>
+                          <span.icon.icon-teag-arrow-right-pos>
+                          "Mehr erfahren"
+                        <span.link-button.full-size>
+                          "Mehr erfahren"
+            <li#MainContent_li30492.box.image-teaser>
+              <a href="/ueber_uns/unternehmen/veranstaltungen">
+                <figure>
+                  <picture>
+                    "!--[if IE 9]>"
+                    <video style="display: none;">
+                      "![endif]-->"
+                      <source srcset="/Content/Images/Zuschnitte/B540EBF8C2AF43A8B3C9E91A7F8D74E2_PLT_W_rdax_1094x750_100s@1.jpg 1x, /Conten>
+                      <source srcset="/Content/Images/Zuschnitte/B540EBF8C2AF43A8B3C9E91A7F8D74E2_PLT_W_rdax_2188x1500_100s@1.jpg 1x, /Conte>
+                      "!--[if IE 9]>"
+                    "![endif]-->"
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                  <figcaption>
+                    <div.picture-credits>
+                      <span.fa.fa-copyright>
+                      <span>
+                        "TEAG"
+                    <h3>
+                      "Veranstaltungen"
+                    <div.description>
+                      <p>
+                        "Die TEAG ist auf vielen Thüringer Veranstaltungen vertreten und bietet"
+                    <div.footer>
+                      <div.link>
+                        <span.link-text>
+                          <span.icon.icon-teag-arrow-right-pos>
+                          "Mehr erfahren"
+                        <span.link-button.full-size>
+                          "Mehr erfahren"
+            <li#MainContent_li30491.box.image-teaser>
+              <a href="/ueber_uns/unternehmen/zertifikate">
+                <figure>
+                  <picture>
+                    "!--[if IE 9]>"
+                    <video style="display: none;">
+                      "![endif]-->"
+                      <source srcset="/Content/Images/Zuschnitte/3F301FBBD12D493392622ECFD79B8F9F_PLT_W_rdax_1479x749_100s@1.jpg 1x, /Conten>
+                      <source srcset="/Content/Images/Zuschnitte/3F301FBBD12D493392622ECFD79B8F9F_PLT_W_rdax_100s@1.jpg 1x, /Content/Images/>
+                      "!--[if IE 9]>"
+                    "![endif]-->"
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                  <figcaption>
+                    <div.picture-credits>
+                      <span.fa.fa-copyright>
+                      <span>
+                        "TEAG"
+                    <h3>
+                      "Zertifikate"
+                    <div.description>
+                      <p>
+                        "Die TEAG hat Zertifikate in mehreren Bereichen erhalten."
+                    <div.footer>
+                      <div.link>
+                        <span.link-text>
+                          <span.icon.icon-teag-arrow-right-pos>
+                          "Mehr erfahren"
+                        <span.link-button.full-size>
+                          "Mehr erfahren"
+            <li#MainContent_li30490.box.image-teaser>
+              <a href="/ueber_uns/unternehmen/veroeffentlichungspflichten">
+                <figure>
+                  <picture>
+                    "!--[if IE 9]>"
+                    <video style="display: none;">
+                      "![endif]-->"
+                      <source srcset="/Content/Images/Zuschnitte/E80045C4FD2343F6A609421C45F5CF2C_PLT_W_rdax_1479x750_100s@1.jpg 1x, /Conten>
+                      <source srcset="/Content/Images/Zuschnitte/E80045C4FD2343F6A609421C45F5CF2C_PLT_W_rdax_100s@1.jpg 1x, /Content/Images/>
+                      "!--[if IE 9]>"
+                    "![endif]-->"
+                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                  <figcaption>
+                    <div.picture-credits>
+                      <span.fa.fa-copyright>
+                      <span>
+                        "trurnit"
+                    <h3>
+                      "Veröffentlichungspflichten"
+                    <div.description>
+                      <p>
+                        "Hier finden Sie alle relevanten Veröffentlichungen zum EEG, zur Stromk"
+                    <div.footer>
+                      <div.link>
+                        <span.link-text>
+                          <span.icon.icon-teag-arrow-right-pos>
+                          "Mehr erfahren"
+                        <span.link-button.full-size>
+                          "Mehr erfahren"
+<div.scroll-up style="bottom: -45px; opacity: 0;">
+"footer"

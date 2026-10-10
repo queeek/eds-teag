@@ -1,0 +1,601 @@
+/* photo-teasers — values from stardust/prototypes/css/ueber-uns-unternehmen.css + canon.css
+   (lift: stardust/replica/lift/ueber-uns-unternehmen.md § Page header = list-style-3 product
+   teaser). Source: section.product-teasers-modul.extra-wide { padding: 20px 0 } + .center
+   { margin: 20px auto; max-width: 100% } + ul.list-style-3 { margin: 0 15px; padding: 20px 4% 0 }
+   + li.product-teaser (float right, equalised 514.27px) with the picture absolute on the right
+   and the white text container at the top left. Mobile first (<= 768: stacked card). */
+
+/* the source module is `extra-wide`: no section gutter, 1920px cap */
+main .section.photo-teasers-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* fix wave 10 (gate crops 1440 3500-5000 / 360 6500-8000): the live themes section paints
+   .alternative-background-color #f2f2f2 behind the cards; the served section rendered white */
+main .section.photo-teasers-container.alternative-background-color {
+  background-color: var(--c-grey-100);
+}
+
+main .section.photo-teasers-container > div {
+  max-width: var(--content-wide-max);
+}
+
+/* ul.list-style-3 (<= 768: padding 20px 0 0, margin 0) */
+.photo-teasers {
+  position: relative;
+  margin: 0;
+  padding: 20px 0 0;
+  font-size: 16px;
+  box-sizing: content-box;
+}
+
+/* fix wave 10 (measure.mjs, both widths): live cards start h2 + 48 (no 20 px top pad at 360: +19 px unit dy);
+   the section's trailing "Mehr anzeigen" p sits 60 px (360) / 63 px (1440) lower than the live button row —
+   absorbed by the block's margin-bottom (styles/ frozen) */
+.photo-teasers.themes {
+  padding-top: 0;
+  margin-bottom: -20px; /* collapses with the trailing wrapper's 20 px → the "Mehr anzeigen" row starts at the cards' end, as live .commands */
+}
+
+/* source ul.clear-fix::after — contains the float / the last item's margin */
+.photo-teasers::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* li.product-teaser (<= 768: static, 92% + 4% padding, margin-bottom 50px) */
+.photo-teasers-item {
+  position: relative;
+  width: 92%;
+  margin: 0 0 50px;
+  padding: 0 4%;
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  box-sizing: content-box;
+}
+
+.photo-teasers-figure {
+  display: block;
+  margin: 0;
+  text-align: right;
+}
+
+/* picture inline-block, pulled up 40px (vertical-align bottom: line box = height - 40) */
+.photo-teasers-figure picture {
+  display: inline-block;
+  position: relative;
+  top: -40px;
+  width: 100%;
+  max-width: 731px;
+  margin: 0 0 -40px;
+  vertical-align: bottom;
+  box-shadow: 0 20px 92px -45px rgb(0 0 0 / 65%), 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.photo-teasers-figure picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* rendition slots: mobile <= 768, tablet 769-1023, desktop >= 1024 */
+.photo-teasers-figure picture.photo-teasers-desktop,
+.photo-teasers-figure picture.photo-teasers-tablet {
+  display: none;
+}
+
+.photo-teasers-figure figcaption {
+  display: block;
+  position: relative;
+  margin: 0;
+  text-align: left;
+}
+
+/* .picture-credits: bottom-right corner of the image (figcaption top = image bottom) */
+.photo-teasers-credits {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  margin-bottom: -1.4px;
+  padding: 0;
+  font-size: 0.8em;
+  line-height: 1.6;
+  white-space: nowrap;
+  color: #000;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+/* source: <span class="fa fa-copyright"></span> (FontAwesome glyph box 21px + padding-right 5px)
+   before the text span (padding-right 5px) — the text box measures as on live (unit-geometry) */
+.photo-teasers-credits::before {
+  content: '\00a9';
+  display: inline-block;
+  width: 21px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.photo-teasers-credits p {
+  display: inline;
+  margin: 0;
+  padding-right: 5px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* .container (<= 768: width auto, padding 10px 0, relative top 1em — no flow impact) */
+.photo-teasers-text {
+  position: relative;
+  top: 1em;
+  padding: 10px 0;
+  text-align: left;
+  background-color: #fff;
+  box-sizing: content-box;
+}
+
+.photo-teasers-text > * {
+  margin: 0;
+  padding: 0;
+}
+
+/* kicker and description paragraphs: margin-bottom 16px, the last one 0 */
+.photo-teasers-text > p {
+  margin-bottom: 16px;
+}
+
+.photo-teasers-text > p:last-child {
+  margin-bottom: 0;
+}
+
+/* h2 { font-size: 2em (<= 414) / calc(2.1em + .9vw) (<= 1024) / 3em; margin-bottom: 5px } */
+.photo-teasers-text h2 {
+  margin: 0 0 5px;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* span.divider: a transparent 1px inline-block in its own 1.6-line box (margin-bottom 7px) */
+.photo-teasers-text h2::after {
+  content: '';
+  display: block;
+  width: 25%;
+  height: calc(1.6 * var(--fs-body));
+}
+
+.photo-teasers-text .photo-teasers-link p {
+  display: inline;
+  margin: 0;
+}
+
+.photo-teasers-link a:any-link {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* teag-2017 glyph "c" = icon-teag-arrow-right-pos */
+.photo-teasers-link a::before {
+  content: 'c';
+  display: inline-block;
+  margin-right: 6px;
+  font-family: "teag-2017", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--c-primary);
+}
+
+@media (width >= 415px) {
+  .photo-teasers-text h2 {
+    font-size: calc(2.1em + 0.9vw);
+  }
+}
+
+/* 769-1023: the desktop composition (float, absolute picture) with the equalised height */
+@media (width >= 769px) {
+  .photo-teasers {
+    margin: 0 15px;
+    padding: 20px 4% 0;
+  }
+
+  .photo-teasers-item {
+    float: right;
+    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    height: 514.27px; /* live JS equaliser height (font-applied state), kept as CSS */
+    padding: 0 20px;
+  }
+
+  .photo-teasers-figure {
+    text-align: left;
+  }
+
+  /* picture: from the text container's right edge to the ul gutter (860.8px @1440) */
+  .photo-teasers-figure picture {
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: -4vw;
+    width: calc(100% + 4vw - 491.607px);
+    max-width: 1220px;
+    margin: 0;
+  }
+
+  .photo-teasers-figure picture.photo-teasers-mobile {
+    display: none;
+  }
+
+  .photo-teasers-figure picture.photo-teasers-tablet {
+    display: block;
+  }
+
+  .photo-teasers-figure figcaption {
+    position: static;
+  }
+
+  /* pinned 1.4px above the picture bottom: li 514.27 - (483.3 - 20) - 1.4 */
+  .photo-teasers-credits {
+    right: -4vw;
+    bottom: 52.4px;
+    margin-bottom: 0;
+  }
+
+  /* .container: live JS-set width 451.607px, padding 20px 40px 20px 0, children padded 20px */
+  .photo-teasers-text {
+    top: 0;
+    width: 451.607px;
+    padding: 20px 40px 20px 0;
+  }
+
+  .photo-teasers-text > * {
+    padding-left: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .photo-teasers-item {
+    margin-bottom: 0;
+  }
+
+  .photo-teasers-figure picture.photo-teasers-tablet {
+    display: none;
+  }
+
+  .photo-teasers-figure picture.photo-teasers-desktop {
+    display: block;
+  }
+
+  .photo-teasers-text h2 {
+    font-size: 3em;
+  }
+}
+
+/* ---- variant `themes` (landing page "Thüringer Energie. Für Sie.", live section.themen-section ul.teaser-list
+   li.list-entry > a.detail-page-link > figure > picture + figcaption(.picture-credits, .container(h3.title, span.divider,
+   .description + span.icon)). Values: ScreenLess.css "themen-section|teaser-list" + measure.mjs 2026-10-09 (1440 / 360). ---- */
+main .section.photo-teasers-container > .default-content-wrapper h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+main .section.photo-teasers-container > .default-content-wrapper:last-child {
+  text-align: center;
+  padding: 45px 0;
+}
+
+/* fix wave 10 (measure.mjs r1, both widths): live .commands end → news h2 = 40 px; served 80 (wrapper mb20 + section
+   paddings + next wrapper mt20, styles/ frozen) — the home-page instance only (:has keeps ueber-uns untouched) */
+main .section.photo-teasers-container:has(.photo-teasers.themes) > .default-content-wrapper:last-child {
+  margin-bottom: -20px;
+}
+
+/* fix wave 11 (measure.mjs 1440 / 360): live section.themen-section > header is 135 / 123 tall — the h2 sits 100 px
+   under the section top at both widths; served 40 (section padding + wrapper margin, styles/ frozen). Home page only.
+   >= 1025 only for now: at 360 the served section already starts +59 late (info-boxes section 2000 vs live 1949 + 8 px
+   upstream), so the h2/cards were coincidentally aligned (6369 / 6440 vs live 6370 / 6441) and the +60 pushed the whole
+   themes band off (gate 360 r2: 6500–7000 14.6 → 38.1 %). Fix wave 12: the info-boxes 360 height is fixed (box
+   heights 650 / 636 / 523 like live, measure.mjs), so the 60 px apply at every width now. */
+main .section.photo-teasers-container:has(.photo-teasers.themes) > .default-content-wrapper:first-child {
+  padding-top: 60px;
+}
+
+/* live .commands a.link-button.enlarge "Mehr anzeigen" (measure.mjs 1440 / 360: 211 x 54, 0 30px, 19 / 54 bold white,
+   the source's cut-corner purple face as computed background-image, 9px ::before / ::after spacers) */
+main .section.photo-teasers-container > .default-content-wrapper .button {
+  display: inline-block;
+  height: 54px;
+  margin: 0;
+  padding: 0 30px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #fff;
+  background-color: transparent;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAA2CAYAAABdjqzoAAACZUlEQVR4AezZsW7bMBCA4VP2vmg7dbSXAl3SsVu3PqW7lqXYuojtIIhkBicxn2BKEOAj7v67H4qVh8cPj8XCwAzcPwMPUY9SSkT9WDMMyxwsm4HmTw1pMk0xxfyxIjCIwCBiCYOpfTmiyRQOBBC4mwCZ7kZog40QSE+DTOktkMAoBMg0SifVkU6ATOktkMAoBMg0SifVkU6ATOktGCUBdZDJDCDQiQCZOoG0DQJkMgMIdCJApk4gbYMAmUaZAXWkEyBTegskMAoBMo3SSXWkEyBTegskMAoBMo3SSXWkEyBTpxbYBgEymQEEOhEgUyeQtkGATGYAgU4EyNQJpG0QGEUmnUQgnQCZ0lsggVEIkGmUTqojnQCZ0lsggVEIkGmUTqojnUAnmdLrkAAC6QTIlN4CCYxCgEyjdFId6QTIlN4CCYxCgEyjdFIdnQis34ZM69mJROCCAJkucLhBYD0BMq1nJxKBCwJkusDhBoH1BMi0np3ItyCw4z3JtOPmSX1bBMi0rX7IZscEyLTj5kl9WwTItK1+yGbHBMi04+a9Rer2XE6gRGlBZGoYnBBYSaB6NE1TCyZTw+CEwAoCVaT461ELJlPD4ITAQgJXIpVSvpJpIUNfR6D9RHryRCq/y7fj6fiFTNuaDdlsncDtE+n78dfxMKdNppmChcBrCDwn0un4+RxKpjMJVwReInAr0o/6p91/keZQMs0ULAReIvC8SB+vQ5pM7Z9Oc4AV7cclDjj8m4H6li6evv6u9/MT6UakqEeTaZrqq4n6aUHv+lqJqD/MQcSZwTTNAxHn4+fhdPh0vrm+/gEAAP//BBQ3DwAAAAZJREFUAwBY8I/vgbFEngAAAABJRU5ErkJggg==");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 0;
+  border-radius: 0;
+  white-space: nowrap;
+}
+
+main .section.photo-teasers-container > .default-content-wrapper .button::before,
+main .section.photo-teasers-container > .default-content-wrapper .button::after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+}
+
+/* li.list-entry a: block, black, shadow 0 0 10px rgba(0,0,0,.5), overflow hidden; figure white */
+.photo-teasers.themes .photo-teasers-item {
+  float: none;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.photo-teasers.themes .photo-teasers-card-link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+}
+
+.photo-teasers.themes .photo-teasers-figure {
+  position: relative;
+  margin: 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.photo-teasers.themes .photo-teasers-figure picture {
+  position: static;
+  top: 0;
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  box-shadow: none;
+}
+
+.photo-teasers.themes .photo-teasers-figure picture.photo-teasers-desktop,
+.photo-teasers.themes .photo-teasers-figure picture.photo-teasers-tablet {
+  display: none;
+}
+
+.photo-teasers.themes img {
+  opacity: .9;
+  transition: opacity .25s ease, transform .25s cubic-bezier(.25, .1, .25, 1);
+}
+
+/* <= 768 (and 360): stacked card — picture 100 %, credits in flow (relative, float right, top -22px),
+   .container inline-block 96 % + padding 30px 2 %, centred; font calc(.8em + .2vw) */
+.photo-teasers.themes .photo-teasers-figure figcaption {
+  position: static;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.photo-teasers.themes .photo-teasers-credits {
+  position: relative;
+  top: -22px;
+  font-weight: 400; /* fix wave 12 (gate units 1440 r1: credits dw 10, 700 vs live 400): the card link's main a:any-link 700 was inherited */
+  right: 0;
+  bottom: auto;
+  float: right;
+  width: 100%;
+  margin: 0;
+  text-align: right;
+}
+
+/* fix wave 12 (gate units 360 r1: even card credits box dx -180 dw 180): the live <= 768 rule sets no width, so
+   only the odd cards keep the desktop 100 % (nth-child(2n+1)); the even ones shrink to the text */
+.photo-teasers.themes .photo-teasers-item:nth-child(even) .photo-teasers-credits {
+  width: auto;
+}
+
+.photo-teasers.themes .photo-teasers-text {
+  position: static;
+  top: 0;
+  display: inline-block;
+  width: 96%;
+  padding: 30px 2%;
+  font-size: calc(.8em + .2vw);
+  line-height: 1.6;
+  text-align: center;
+  background-color: transparent;
+}
+
+.photo-teasers.themes .photo-teasers-text > * {
+  padding-left: 0;
+}
+
+.photo-teasers.themes .photo-teasers-text h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6em;
+  line-height: 1.2;
+  font-weight: 700;
+  background: none;
+}
+
+.photo-teasers.themes .photo-teasers-text h3::after {
+  content: none;
+}
+
+.photo-teasers.themes .photo-teasers-divider {
+  display: inline-block;
+  width: 25%;
+  height: 1px;
+  margin-bottom: 7px;
+  background-color: #870d87;
+  transition: width .3s cubic-bezier(.65, .05, .36, 1);
+}
+
+.photo-teasers.themes .photo-teasers-figure:hover .photo-teasers-divider {
+  width: 50%;
+}
+
+.photo-teasers.themes .photo-teasers-text > p.photo-teasers-description {
+  position: relative;
+  margin: 0;
+  padding: 0 0 45px;
+  font-size: 1.1em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+/* span.icon-teag-arrow-right-pos: teag-2017 "c", #870d87, absolute bottom 0 centred, 1.75em / line-height 1 */
+.photo-teasers.themes .photo-teasers-arrow {
+  position: absolute;
+  inset: auto 0 0;
+  display: inline-block;
+  margin: 2px 0 0;
+  color: #870d87;
+  font-family: "teag-2017", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.75em;
+  line-height: 1;
+  transition: color .25s ease;
+}
+
+.photo-teasers.themes .photo-teasers-arrow::before {
+  content: "c";
+}
+
+.photo-teasers.themes .photo-teasers-figure:hover .photo-teasers-arrow {
+  color: #0ba2e3;
+}
+
+/* > 768: live row = picture 50 % (natural height, alternating side) + figcaption 50 % absolute full height;
+   .container absolute inset 0 / margin auto, 60 % wide (80 % <= 1420), font calc(.8em + .2vw);
+   title calc(1em + .9vw) (1.8em <= 1420), divider 25 % / 7px, description 1.2em / 1.2 + padding-bottom 55 (45 <= 1420),
+   icon 1.75em (1.4em <= 1420) absolute bottom 0; credits pinned to the picture's bottom edge, 1px up */
+@media (width >= 769px) {
+  .photo-teasers.themes {
+    margin: 0 0 -20px;
+    padding: 0;
+  }
+
+  .photo-teasers.themes .photo-teasers-figure {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .photo-teasers.themes .photo-teasers-item:nth-child(even) .photo-teasers-figure {
+    flex-direction: row-reverse;
+  }
+
+  .photo-teasers.themes .photo-teasers-figure picture {
+    flex: 0 0 50%;
+    width: 50%;
+  }
+
+  .photo-teasers.themes .photo-teasers-figure figcaption {
+    position: relative;
+    flex: 0 0 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  .photo-teasers.themes .photo-teasers-credits {
+    position: absolute;
+    inset: auto 100% 1px auto;
+    float: none;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    transition: transform .25s cubic-bezier(.25, .1, .25, 1);
+  }
+
+  .photo-teasers.themes .photo-teasers-item:nth-child(even) .photo-teasers-credits {
+    right: -100%;
+    left: auto;
+    text-align: left;
+  }
+
+  .photo-teasers.themes .photo-teasers-card-link:hover .photo-teasers-credits {
+    transform: translateX(2.5%);
+  }
+
+  .photo-teasers.themes .photo-teasers-text {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .photo-teasers.themes .photo-teasers-text h3 {
+    font-size: 1.8em;
+  }
+
+  .photo-teasers.themes .photo-teasers-text > p.photo-teasers-description {
+    padding-bottom: 45px;
+    font-size: 1.2em;
+  }
+
+  .photo-teasers.themes .photo-teasers-arrow {
+    margin: 0 0 0 10px;
+    font-size: 1.4em;
+    line-height: 1.2;
+  }
+
+  .photo-teasers.themes .photo-teasers-card-link:hover img {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+/* 769-1023: only the tablet rendition; >= 1024: only the desktop one (round 2 of fix-wave-3 showed two pictures) */
+@media (width >= 769px) and (width <= 1023px) {
+  .photo-teasers.themes .photo-teasers-figure picture.photo-teasers-mobile,
+  .photo-teasers.themes .photo-teasers-figure picture.photo-teasers-desktop {
+    display: none;
+  }
+
+  .photo-teasers.themes .photo-teasers-figure picture.photo-teasers-tablet {
+    display: block;
+  }
+}
+
+@media (width >= 1024px) {
+  .photo-teasers.themes .photo-teasers-figure picture.photo-teasers-mobile,
+  .photo-teasers.themes .photo-teasers-figure picture.photo-teasers-tablet {
+    display: none;
+  }
+
+  .photo-teasers.themes .photo-teasers-figure picture.photo-teasers-desktop {
+    display: block;
+  }
+}
+
+@media (width >= 1421px) {
+  .photo-teasers.themes .photo-teasers-text {
+    width: 60%;
+  }
+
+  .photo-teasers.themes .photo-teasers-text h3 {
+    font-size: calc(1em + .9vw);
+  }
+
+  .photo-teasers.themes .photo-teasers-text > p.photo-teasers-description {
+    padding-bottom: 55px;
+  }
+
+  .photo-teasers.themes .photo-teasers-arrow {
+    font-size: 1.75em;
+  }
+}

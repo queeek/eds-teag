@@ -1,0 +1,442 @@
+/*
+ * Copyright 2020 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
+/*
+ * Shared layer lifted from stardust/prototypes/css/canon.css (thueringerenergie.de replica).
+ * Box model: the source is CONTENT-BOX everywhere (no universal border-box reset); keep it.
+ * Container model: main > .section { padding: 20px 4vw } + inner > div { max-width: 1420px }.
+ * Breakpoints: single mobile/desktop switch at 1024px (source), 1920px content cap.
+ */
+
+:root {
+  /* colors (source palette) */
+  --c-primary: #870d87;
+  --c-primary-hover: #5c055c;
+  --c-secondary: #c60086;
+  --c-info: #0ba2e3;
+  --c-linkedin: #0a66c2;
+  --c-grey-100: #f2f2f2;
+  --c-grey-200: #ededed;
+  --c-grey-300: #d9d9d9;
+  --c-grey-500: #a0a0a0;
+  --c-grey-600: #8c8c8c;
+  --c-grey-700: #767676;
+  --c-text: #000;
+
+  /* boilerplate aliases (blocks written against the stock names keep working) */
+  --background-color: #fff;
+  --light-color: var(--c-grey-100);
+  --dark-color: var(--c-grey-700);
+  --text-color: var(--c-text);
+  --link-color: var(--c-info);
+  --link-hover-color: var(--c-primary);
+
+  /* type */
+  --font-stack: 'Segoe UI', 'Noto Sans', noto-sans-fallback, 'San Francisco', roboto, helvetica,
+    arial, sans-serif;
+  --body-font-family: var(--font-stack);
+  --heading-font-family: var(--font-stack);
+  --fs-body: calc(16px + 0.08vw);
+  --lh-body: 1.6;
+  --fs-h2: calc(1em + 0.9vw);
+  --fs-h3: 1.3em;
+  --body-font-size-m: var(--fs-body);
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 14px;
+  --heading-font-size-xxl: calc(1.4em + 1.2vw);
+  --heading-font-size-xl: var(--fs-h2);
+  --heading-font-size-l: 1.3em;
+  --heading-font-size-m: 1.3em;
+  --heading-font-size-s: 1.17em;
+  --heading-font-size-xs: 1em;
+
+  /* decorations */
+  --shadow-box: 0 0 10px 0 rgb(0 0 0 / 20%);
+  --shadow-tab: 0 0 15px 0 rgb(0 0 0 / 30%);
+  --shadow-chrome: 0 0 15px 0 rgb(0 0 0 / 20%);
+
+  /* container model */
+  --content-max: 1420px;
+  --content-wide-max: 1920px;
+  --gutter: 4vw;
+  --section-pad: 20px;
+
+  /* chrome: 90px brand bar + 80px nav bar on desktop; 90 + 50 on mobile */
+  --header-bar-height: 90px;
+  --nav-bar-height: 80px;
+  --nav-height: 170px;
+}
+
+@media (width <= 1024px) {
+  :root {
+    --nav-bar-height: 50px;
+    --nav-height: 140px;
+  }
+}
+
+/* fallback font (metric-matched to Noto Sans against Arial) */
+@font-face {
+  font-family: noto-sans-fallback;
+  size-adjust: 104%;
+  ascent-override: 102%;
+  descent-override: 28%;
+  src: local('Arial');
+}
+
+/* ---------- source reset (margin/padding/font only — content-box kept) ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-stack);
+}
+
+html {
+  text-size-adjust: 100%;
+}
+
+body {
+  display: none;
+  width: 100%;
+  overflow-x: hidden;
+  text-rendering: geometricprecision;
+  color: var(--c-text);
+  background-color: var(--background-color);
+  font-size: 16px;
+  line-height: var(--lh-body);
+}
+
+body.appear {
+  display: block;
+}
+
+header {
+  height: var(--nav-height);
+}
+
+header .header,
+footer .footer {
+  visibility: hidden;
+}
+
+header .header[data-block-status='loaded'],
+footer .footer[data-block-status='loaded'] {
+  visibility: visible;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a:any-link {
+  text-decoration: none;
+  color: var(--c-primary);
+  outline: 0;
+}
+
+a:hover {
+  color: var(--c-info);
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure img,
+picture img {
+  max-width: 100%;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+p,
+li {
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+}
+
+li li,
+li p,
+p p {
+  font-size: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  scroll-margin: 40px;
+}
+
+h1 {
+  font-size: var(--heading-font-size-xxl);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3,
+h4 {
+  font-size: var(--fs-h3);
+}
+
+h5 {
+  font-size: var(--heading-font-size-s);
+}
+
+h6 {
+  font-size: var(--heading-font-size-xs);
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 2px;
+}
+
+input,
+select,
+button,
+textarea {
+  font: inherit;
+  font-size: 14px;
+  color: #000;
+  border: 0 none;
+  outline: 0;
+  box-shadow: none;
+}
+
+input {
+  padding: 0 9px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'] {
+  background-color: var(--c-grey-200);
+  width: calc(100% - 18px);
+  height: 43px;
+  line-height: 41px;
+}
+
+input[type='checkbox'] {
+  box-sizing: border-box;
+}
+
+select {
+  background-color: var(--c-grey-200);
+  height: 43px;
+  line-height: 43px;
+  padding: 0 0 0 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+/* body-text links in text modules render bold #0ba2e3 on the source (impressum lift) */
+main a:any-link {
+  color: var(--c-info);
+  font-weight: 700;
+}
+
+main a:hover {
+  color: var(--c-primary);
+}
+
+main blockquote {
+  font-style: italic;
+  margin: 3rem;
+  text-indent: -1rem;
+  hanging-punctuation: first;
+}
+
+main pre {
+  font-size: var(--body-font-size-s);
+  overflow: scroll;
+  padding: 16px;
+  background-color: var(--light-color);
+  border-radius: 8px;
+}
+
+main pre code {
+  white-space: pre;
+}
+
+/* ---------- buttons: EDS .button family mapped onto the source's .link-button ---------- */
+main p.button-wrapper {
+  margin: 0;
+  text-align: center;
+}
+
+main a.button:any-link,
+main button.button {
+  box-sizing: border-box;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 10px;
+  margin: 0;
+  min-width: 135px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 0 none;
+  border-radius: 2px;
+  text-align: center;
+  position: relative;
+  background-color: var(--c-info);
+  cursor: pointer;
+}
+
+main a.button:hover,
+main a.button:focus-visible,
+main button.button:hover,
+main button.button:focus-visible {
+  color: #fff;
+  background-color: #0885bb;
+}
+
+main a.button.secondary:any-link,
+main button.button.secondary {
+  background-color: var(--c-primary);
+}
+
+main a.button.secondary:hover,
+main button.button.secondary:hover {
+  background-color: var(--c-primary-hover);
+}
+
+main a.button.accent:any-link,
+main button.button.accent {
+  background-color: var(--c-secondary);
+}
+
+main a.button.accent:hover,
+main button.button.accent:hover {
+  background-color: #9a0068;
+}
+
+main a.button.enlarge:any-link,
+main button.button.enlarge {
+  height: 54px;
+  line-height: 54px;
+  font-size: 19px;
+  padding: 0 30px;
+}
+
+main button.button:disabled,
+main button.button:disabled:hover {
+  background-color: var(--c-grey-300);
+  cursor: unset;
+}
+
+/* ---------- shared decorations ---------- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.box {
+  box-shadow: var(--shadow-box);
+  background-color: #fff;
+  display: block;
+}
+
+.icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* ---------- sections (container model) ---------- */
+main > div {
+  margin: 0;
+}
+
+main > .section {
+  padding: var(--section-pad) var(--gutter);
+}
+
+main > .section > div {
+  max-width: var(--content-max);
+  margin: 20px auto;
+  position: relative;
+  width: 100%;
+}
+
+main > .section:first-of-type {
+  padding-top: var(--section-pad);
+}
+
+main .section:empty {
+  display: none;
+}
+
+/* section variants (section metadata "style") */
+main .section.alternative-background-color,
+main .section.highlight,
+main .section.grey {
+  background-color: var(--c-grey-100);
+}
+
+main .section.extra-wide {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main .section.extra-wide > div {
+  max-width: var(--content-wide-max);
+}
+
+main .section.flush {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+main .section.center-content {
+  text-align: center;
+}
+
+main .section.extra-margin-bottom {
+  margin-bottom: 48px;
+}

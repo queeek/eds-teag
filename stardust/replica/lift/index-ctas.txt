@@ -1,0 +1,100 @@
+0	{"label":"Weiter zum Inhalt","href":"#Content"}
+1	{"label":"Kundenportal","href":"https://kundenportal.teag.de/portal/"}
+2	{"label":"Karriere","href":"/ueber_uns/karriere/stellenangebote"}
+3	{"label":"Privatkunden","href":"/privatkunden"}
+4	{"label":"Geschäftskunden","href":"/geschaeftskunden"}
+5	{"label":"Kommunen","href":"/kommunen"}
+6	{"label":"Stadtwerke","href":"/stadtwerke"}
+7	{"label":"Akademie","href":"/akademie"}
+8	{"label":"Einblicke","href":"/einblicke"}
+9	{"label":"Über uns","href":"/ueber_uns"}
+10	{"label":"Service","href":"javascript:void(0)"}
+11	{"label":"Login","href":"javascript:void(0)"}
+12	{"label":"TEAG-Strom plus Smartwatch Jetzt Ihre Smartwatch zum Stromvertrag wählen","href":"/privatkunden/strom_und_smartwatch"}
+13	{"label":"Strom","href":"javascript:void(0)"}
+14	{"label":"Erweiterte Filter","href":"javascript:__doPostBack('ctl00$MainContent$Verfuegbarkeitscheck16076$FilterSettingsOpen','')"}
+15	{"label":"1","href":"javascript: void(0)"}
+16	{"label":"2","href":"javascript: void(0)"}
+17	{"label":"3","href":"javascript: void(0)"}
+18	{"label":"4","href":"javascript: void(0)"}
+19	{"label":"5","href":"javascript: void(0)"}
+20	{"label":"Strompreis berechnen","href":"javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Verfuegbarkeitscheck16076$Calculate\", \"\", true, \"MainContent_Verfuegbarkeitscheck16076\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);"}
+21	{"label":"TEAG-Kundenportal","href":"https://kundenportal.teag.de/"}
+22	{"label":"Erdgas","href":"javascript:void(0)"}
+23	{"label":"Energielösungen","href":"javascript:void(0)"}
+24	{"label":"Zu den Stromtarifen","href":"/privatkunden/strom/stromtarife"}
+25	{"label":"Zu den Erdgastarifen","href":"/privatkunden/erdgas/gastarife"}
+26	{"label":"Ihre häufigsten Fragen","href":"/privatkunden/service/faq"}
+27	{"label":"kundenservice@teag.de","href":"mailto:kundenservice@teag.de"}
+28	{"label":"03641-817 1111","href":"tel:+4936418171111"}
+29	{"label":"0800 686-1166","href":"tel:+498006861166"}
+30	{"label":"0800 686-1177","href":"tel:+498006861177"}
+31	{"label":"Störungsauskunft","href":"https://störungsauskunft.de/map/"}
+32	{"label":"Datenschutzerklärung","href":"/datenschutz"}
+33	{"label":"Anfrage senden","href":"javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$CallBack2$c_send\", \"\", true, \"CallBack\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);"}
+34	{"label":"TEAG-Kundenportal","href":"/geschaeftskunden/service/kundenportale/teag-kundenportal"}
+35	{"label":"Zählerstandsmeldung","href":"/privatkunden/service/zaehlerstandsmeldung"}
+36	{"label":"Kontaktformular","href":"/privatkunden/service/kontakt"}
+37	{"label":"Haus- und Baustromanschluss","href":"/privatkunden/strom/haus-_-_baustromanschluss"}
+38	{"label":"Erdgashausanschluss","href":"/privatkunden/erdgas/hausanschluss"}
+39	{"label":"Jetzt Preis berechnen","href":"?scrollTo=MainContent_PCS16185"}
+40	{"label":"Paul-Philipp Braun/TEAG Tag der offenen Tür 2026 bei der TEAG-Gruppe Zum Tag der offenen Tür 2026 gibt die TEAG-Gruppe einen Einblick in ihre Arbeit und in die Energieversorgung in Thüringen.","href":"/einblicke/karriere/tag-der-offenen-tuer-moderne-technik-begeistert"}
+41	{"label":"Paul-Philipp Braun/TEAG Sonderausstellung: Vom Umspannwerk Jena-Nord zur Imaginata Der TEAG-Arbeitskreis “Stromgeschichte Thüringens“ begleitet die Sonderausstellung zum 100. Geburtstag des Umspannwerks Jena-Nord.","href":"/einblicke/strom_und_gas/arbeitskreis-stromgeschichte-umspannwerk-jena"}
+42	{"label":"Guido Werner/TEAG Barrierefreiheit bei der TEAG Wie nutzt ein blinder Mensch eine Website? Die TEAG zeigt, warum Barrierefreiheit mehr ist als Kontraste und Screenreader.","href":"/einblicke/engagement/barrierefreiheit-teag-digitale-teilhabe"}
+43	{"label":"Mehr anzeigen","href":"javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Themen1$lbThemenTeaserLoadMore\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);"}
+44	{"label":"06.10.2026 Pressemitteilung E-Truck laden mit einer Million Watt - TEAG Mobil erreicht am LOMO-Autohof Zella-Mehlis neuen Rekordwert bei Ladeleistung Die TEAG Mobil GmbH hat einen technischen Meilenstein beim Ausbau der öffentlichen Ladeinfrastruktur für Elektro-LKW erreicht – am... Weiterlesen","href":"/ueber_uns/presse/pressemitteilungen/presse_32349?scrollTo=MainContent_SubPageTitle"}
+45	{"label":"07.08.2026 Pressemitteilung Glasfasernetz in Lipprechterode fertiggestellt - erfolgreiche Zusammenarbeit kommunaler Partner Thüringer Netkom (Netkom) und Gemeine Lipprechterode feiern den erfolgreichen Abschluss des Glasfaserausbaus. Weiterlesen","href":"/ueber_uns/presse/pressemitteilungen/presse_31262?scrollTo=MainContent_SubPageTitle"}
+46	{"label":"02.10.2026 Pressemitteilung Doppelte Ernte mit Heidelbeeren und Sonnenstrom - TEAG Solar nimmt Thüringens größte Agri-PV-Anlage in Betrieb TEAG Solar GmbH hat bei Bad Klosterlausnitz Thüringens größte Agri-Photovoltaikanlage zugeschaltet - Bauweise nach neuem Agri-Prinzip... Weiterlesen","href":"/ueber_uns/presse/pressemitteilungen/presse_32321?scrollTo=MainContent_SubPageTitle"}
+47	{"label":"30.07.2026 Neues aus dem Thüringer Museum für Elektrotechnik: ON.LINE Ausgabe 19/2026 erschienen Die Sommerausgabe 2026 von ON.LINE, dem Magazin des Thüringer Elektromuseums, ist nun als Download verfügbar. Weiterlesen","href":"/ueber_uns/news/news_30991?scrollTo=MainContent_SubPageTitle"}
+48	{"label":"15.09.2026 Pressemitteilung Größere Anbietervielfalt im Glasfasernetz - 1&1 und Thüringer Netkom schließen Kooperationsvertrag Der bundesweite Kommunikationsanbieter 1&1 wird sein Glasfasernetz mit dem Kommunikationsnetz der Thüringer Netkom verbinden. Damit... Weiterlesen","href":"/ueber_uns/presse/pressemitteilungen/presse_32123?scrollTo=MainContent_SubPageTitle"}
+49	{"label":"02.07.2026 Pressemitteilung TEAG Solar nimmt PV-Park Döblitz/Triptis in Betrieb Die TEAG Solar GmbH hat nach nur neun Monaten Bauzeit den neuen Solarpark Döblitz bei Triptis zugeschaltet. Auf einer Fläche von rund... Weiterlesen","href":"/ueber_uns/presse/pressemitteilungen/presse_30387?scrollTo=MainContent_SubPageTitle"}
+50	{"label":"20.08.2026 Ausbildungseröffnung an der TEAG Akademie Für 37 Azubis startete am 18. August, ein aufregendes neues Kapitel bei der TEAG-Gruppe. Weiterlesen","href":"/ueber_uns/news/news_31744?scrollTo=MainContent_SubPageTitle"}
+51	{"label":"23.06.2026 Pressemitteilung Neue Glasfaserdirektanschlüsse für Seebach Der Glasfaserausbau im Wartburgkreis kommt weiter voran. In Seebach / Ruhla sind jetzt erste Glasfaserdirektanschlüsse freigeschaltet... Weiterlesen","href":"/ueber_uns/presse/pressemitteilungen/presse_30186?scrollTo=MainContent_SubPageTitle"}
+52	{"label":"Mehr anzeigen","href":"javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Aktuelles9383$lbLoadNextPosts\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);"}
+53	{"label":"TEAG Mobil GmbH","href":"https://www.LinkedIn.com/company/90509993"}
+54	{"label":"Alpitronic","href":"https://www.LinkedIn.com/company/12602212"}
+55	{"label":"#Megawatt","href":"https://www.linkedin.com/feed/hashtag/?keywords=megawatt&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"}
+56	{"label":"#Ladeinfrastruktur","href":"https://www.linkedin.com/feed/hashtag/?keywords=ladeinfrastruktur&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"}
+57	{"label":"#LOMO","href":"https://www.linkedin.com/feed/hashtag/?keywords=lomo&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"}
+58	{"label":"#TEAGMobil","href":"https://www.linkedin.com/feed/hashtag/?keywords=teagmobil&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"}
+59	{"label":"#LKW","href":"https://www.linkedin.com/feed/hashtag/?keywords=lkw&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"}
+60	{"label":"#Autohof","href":"https://www.linkedin.com/feed/hashtag/?keywords=autohof&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"}
+61	{"label":"#ZellaMehlis","href":"https://www.linkedin.com/feed/hashtag/?keywords=zellamehlis&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"}
+62	{"label":"mehr anzeigen","href":"javascript:void(0)"}
+63	{"label":"TEAG Solar GmbH","href":"https://www.LinkedIn.com/company/36401942"}
+64	{"label":"#TEAGSolar","href":"https://www.linkedin.com/feed/hashtag/?keywords=teagsolar&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"}
+65	{"label":"#AgriPV","href":"https://www.linkedin.com/feed/hashtag/?keywords=agripv&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"}
+66	{"label":"#AgrarPhotovoltaik","href":"https://www.linkedin.com/feed/hashtag/?keywords=agrarphotovoltaik&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"}
+67	{"label":"#Photovoltaik","href":"https://www.linkedin.com/feed/hashtag/?keywords=photovoltaik&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"}
+68	{"label":"#TEAGGruppe","href":"https://www.linkedin.com/feed/hashtag/?keywords=teaggruppe&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"}
+69	{"label":"mehr anzeigen","href":"javascript:void(0)"}
+70	{"label":"www.ideenmachenschule.de","href":"http://www.ideenmachenschule.de"}
+71	{"label":"#IdeenMachenSchule","href":"https://www.instagram.com/explore/tags/IdeenMachenSchule/"}
+72	{"label":"#Schule","href":"https://www.instagram.com/explore/tags/Schule/"}
+73	{"label":"#Thüringen","href":"https://www.instagram.com/explore/tags/Thüringen/"}
+74	{"label":"#Grundschule","href":"https://www.instagram.com/explore/tags/Grundschule/"}
+75	{"label":"#Kreativität","href":"https://www.instagram.com/explore/tags/Kreativität/"}
+76	{"label":"#Schulprojekt","href":"https://www.instagram.com/explore/tags/Schulprojekt/"}
+77	{"label":"mehr anzeigen","href":"javascript:void(0)"}
+78	{"label":"#WelcomeDay","href":"https://www.instagram.com/explore/tags/WelcomeDay/"}
+79	{"label":"#Onboarding","href":"https://www.instagram.com/explore/tags/Onboarding/"}
+80	{"label":"#Karriere","href":"https://www.instagram.com/explore/tags/Karriere/"}
+81	{"label":"#TEAGGruppe","href":"https://www.instagram.com/explore/tags/TEAGGruppe/"}
+82	{"label":"#Energietalent","href":"https://www.instagram.com/explore/tags/Energietalent/"}
+83	{"label":"mehr anzeigen","href":"javascript:void(0)"}
+84	{"label":"#Colorchallenge","href":"https://www.instagram.com/explore/tags/Colorchallenge/"}
+85	{"label":"#Strom","href":"https://www.instagram.com/explore/tags/Strom/"}
+86	{"label":"#Fotochallenge","href":"https://www.instagram.com/explore/tags/Fotochallenge/"}
+87	{"label":"mehr anzeigen","href":"javascript:void(0)"}
+88	{"label":"#WelcomeDay","href":"https://www.linkedin.com/feed/hashtag/?keywords=welcomeday&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"}
+89	{"label":"#Onboarding","href":"https://www.linkedin.com/feed/hashtag/?keywords=onboarding&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"}
+90	{"label":"#Karriere","href":"https://www.linkedin.com/feed/hashtag/?keywords=karriere&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"}
+91	{"label":"#TEAGGruppe","href":"https://www.linkedin.com/feed/hashtag/?keywords=teaggruppe&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"}
+92	{"label":"#Energietalent","href":"https://www.linkedin.com/feed/hashtag/?keywords=energietalent&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"}
+93	{"label":"#TEAGSolar","href":"https://www.instagram.com/explore/tags/TEAGSolar/"}
+94	{"label":"#AgriPV","href":"https://www.instagram.com/explore/tags/AgriPV/"}
+95	{"label":"#AgrarPhotovoltaik","href":"https://www.instagram.com/explore/tags/AgrarPhotovoltaik/"}
+96	{"label":"#Photovoltaik","href":"https://www.instagram.com/explore/tags/Photovoltaik/"}
+97	{"label":"#TEAGGruppe","href":"https://www.instagram.com/explore/tags/TEAGGruppe/"}
+98	{"label":"mehr anzeigen","href":"javascript:void(0)"}
+99	{"label":"@legendofcross","href":"https://www.instagram.com/legendofcross/"}

@@ -1,0 +1,249 @@
+{
+  "url": "https://www.thueringerenergie.de/impressum",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 3600,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 2623,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 1123,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 2400,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 10
+    }
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [],
+    "classMutations": [
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-10080.nav-is-fixed > form > div.site.platform-other > header > div.section-2.clear-fix.combined-header",
+        "y": 400
+      },
+      {
+        "added": [
+          "nav-is-fixed"
+        ],
+        "el": "html > body.page-10080.nav-is-fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-10080.nav-is-fixed > form > div.site.platform-other > header > div.section-2.clear-fix.seperated-header",
+        "y": 1200
+      }
+    ]
+  }
+}

@@ -1,0 +1,838 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-10-08T09:24:11.303Z",
+    "urls": [
+      "https://www.thueringerenergie.de/default"
+    ],
+    "widths": [
+      360
+    ],
+    "selectors": [
+      "#List15736",
+      "#PCS15737",
+      "#PCS15737 figure",
+      "#PCS15737 picture",
+      "#PCS15737 figcaption",
+      "#PCS15794",
+      "#PCS15794 figure",
+      "#PCS15794 picture",
+      "#PCS15794 figcaption",
+      "#PCS15794 figcaption .container",
+      "#MainContent_PCS16185",
+      "#MainContent_liste16185 > li.active > .container",
+      "#MainContent_Verfuegbarkeitscheck16076_Form",
+      "#MainContent_Verfuegbarkeitscheck16076_AddressFieldsContainer",
+      "#MainContent_Verfuegbarkeitscheck16076_ConsuptionFieldsContainer",
+      "#MainContent_Verfuegbarkeitscheck16076_lbl_Verbrauch",
+      "#MainContent_Verfuegbarkeitscheck16076_Calculate",
+      ".info-message-for-availability-check",
+      "#List15732 > li",
+      "#List15732 .icon-rounded-border",
+      "#List15732 h3",
+      "#List15732 p",
+      "#PCS15732",
+      "section.slider-section",
+      ".slider-section .bar",
+      ".step-by-step-123-modul",
+      ".step-by-step-123-modul .step",
+      ".step .content",
+      ".step .content h4",
+      ".connector-vertical",
+      "#PCS16424",
+      "#MainContent_Boxes16441 > li",
+      "#PageHeader .section-2 ul.level-1 > li.level-1-6",
+      "#PageHeader .section-2 ul.level-1 > li.level-1-6 > a"
+    ],
+    "props": [
+      "margin",
+      "padding",
+      "height",
+      "display",
+      "opacity"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    360
+  ],
+  "selectors": [
+    "#List15736",
+    "#PCS15737",
+    "#PCS15737 figure",
+    "#PCS15737 picture",
+    "#PCS15737 figcaption",
+    "#PCS15794",
+    "#PCS15794 figure",
+    "#PCS15794 picture",
+    "#PCS15794 figcaption",
+    "#PCS15794 figcaption .container",
+    "#MainContent_PCS16185",
+    "#MainContent_liste16185 > li.active > .container",
+    "#MainContent_Verfuegbarkeitscheck16076_Form",
+    "#MainContent_Verfuegbarkeitscheck16076_AddressFieldsContainer",
+    "#MainContent_Verfuegbarkeitscheck16076_ConsuptionFieldsContainer",
+    "#MainContent_Verfuegbarkeitscheck16076_lbl_Verbrauch",
+    "#MainContent_Verfuegbarkeitscheck16076_Calculate",
+    ".info-message-for-availability-check",
+    "#List15732 > li",
+    "#List15732 .icon-rounded-border",
+    "#List15732 h3",
+    "#List15732 p",
+    "#PCS15732",
+    "section.slider-section",
+    ".slider-section .bar",
+    ".step-by-step-123-modul",
+    ".step-by-step-123-modul .step",
+    ".step .content",
+    ".step .content h4",
+    ".connector-vertical",
+    "#PCS16424",
+    "#MainContent_Boxes16441 > li",
+    "#PageHeader .section-2 ul.level-1 > li.level-1-6",
+    "#PageHeader .section-2 ul.level-1 > li.level-1-6 > a"
+  ],
+  "root": {
+    "https://www.thueringerenergie.de/default": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 16972,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.thueringerenergie.de/default": {
+      "360": {
+        "#List15736": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 2093,
+              "w": 331,
+              "h": 1117
+            },
+            "visible": true,
+            "text": "Guido Werner/TEAG Stromtarife im Überbl…",
+            "props": {
+              "margin": "0px",
+              "padding": "150px 0px 0px",
+              "height": "966.812px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS15737": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 2243,
+              "w": 331,
+              "h": 416
+            },
+            "visible": true,
+            "text": "Guido Werner/TEAG Stromtarife im Überbl…",
+            "props": {
+              "margin": "0px 0px 160px",
+              "padding": "20px",
+              "height": "376.219px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS15737 figure": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 34,
+              "y": 2263,
+              "w": 277,
+              "h": 376
+            },
+            "visible": true,
+            "text": "Guido Werner/TEAG Stromtarife im Überbl…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "376.219px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS15737 picture": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 34,
+              "y": 2143,
+              "w": 277,
+              "h": 161
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "160.922px",
+              "display": "block",
+              "opacity": "1"
+            },
+            "img": {
+              "naturalWidth": 667,
+              "naturalHeight": 388,
+              "currentSrc": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/AFE8B35C39C2497BA8D85047D05AC66D_PT_S@1.jpg"
+            }
+          }
+        ],
+        "#PCS15737 figcaption": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 34,
+              "y": 2314,
+              "w": 277,
+              "h": 335
+            },
+            "visible": true,
+            "text": "Guido Werner/TEAG Stromtarife im Überbl…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "335.297px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS15794": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 2819,
+              "w": 331,
+              "h": 391
+            },
+            "visible": true,
+            "text": "Guido Werner/TEAG Erdgastarife im Überb…",
+            "props": {
+              "margin": "0px",
+              "padding": "20px",
+              "height": "350.594px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS15794 figure": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 34,
+              "y": 2839,
+              "w": 277,
+              "h": 351
+            },
+            "visible": true,
+            "text": "Guido Werner/TEAG Erdgastarife im Überb…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "350.609px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS15794 picture": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 34,
+              "y": 2719,
+              "w": 277,
+              "h": 161
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "161.344px",
+              "display": "block",
+              "opacity": "1"
+            },
+            "img": {
+              "naturalWidth": 667,
+              "naturalHeight": 389,
+              "currentSrc": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/8760533D85944A1996691A9473964C2B_PT_S@1.jpg"
+            }
+          }
+        ],
+        "#PCS15794 figcaption": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 34,
+              "y": 2891,
+              "w": 277,
+              "h": 309
+            },
+            "visible": true,
+            "text": "Guido Werner/TEAG Erdgastarife im Überb…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "309.266px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS15794 figcaption .container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 34,
+              "y": 2891,
+              "w": 277,
+              "h": 309
+            },
+            "visible": true,
+            "text": "Erdgastarife im Überblick Für wohlige W…",
+            "props": {
+              "margin": "0px",
+              "padding": "20px",
+              "height": "269.266px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#MainContent_PCS16185": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 25,
+              "y": 517,
+              "w": 310,
+              "h": 583
+            },
+            "visible": true,
+            "text": "STROM Für eine leichtere Orientierung e…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "582.641px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#MainContent_liste16185 > li.active > .container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 25,
+              "y": 605,
+              "w": 310,
+              "h": 495
+            },
+            "visible": true,
+            "text": "Für eine leichtere Orientierung empfehl…",
+            "props": {
+              "margin": "0px",
+              "padding": "20px",
+              "height": "454.656px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#MainContent_Verfuegbarkeitscheck16076_Form": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 45,
+              "y": 625,
+              "w": 270,
+              "h": 365
+            },
+            "visible": true,
+            "text": "Für eine leichtere Orientierung empfehl…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "365.312px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#MainContent_Verfuegbarkeitscheck16076_AddressFieldsContainer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 45,
+              "y": 625,
+              "w": 270,
+              "h": 106
+            },
+            "visible": true,
+            "text": "Ihre Postleitzahl",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "105.594px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#MainContent_Verfuegbarkeitscheck16076_ConsuptionFieldsContainer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 45,
+              "y": 731,
+              "w": 270,
+              "h": 260
+            },
+            "visible": true,
+            "text": "Personen im Haushalt 1 2 3 4 5 Jahresve…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "259.719px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#MainContent_Verfuegbarkeitscheck16076_lbl_Verbrauch": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 45,
+              "y": 818,
+              "w": 270,
+              "h": 26
+            },
+            "visible": true,
+            "text": "Jahresverbrauch in kWh",
+            "props": {
+              "margin": "0px 0px 2px",
+              "padding": "0px",
+              "height": "25.5938px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#MainContent_Verfuegbarkeitscheck16076_Calculate": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 45,
+              "y": 950,
+              "w": 270,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Strompreis berechnen",
+            "props": {
+              "margin": "0px",
+              "padding": "0px 10px",
+              "height": "40px",
+              "display": "inline-block",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".info-message-for-availability-check": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 45,
+              "y": 990,
+              "w": 270,
+              "h": 89
+            },
+            "visible": true,
+            "text": "Bereits TEAG-Kunde? Jetzt im TEAG-Kunde…",
+            "props": {
+              "margin": "0px",
+              "padding": "20px 0px 0px",
+              "height": "69.3438px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#List15732 > li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 14,
+              "y": 1381,
+              "w": 331,
+              "h": 191
+            },
+            "visible": true,
+            "text": "Überall Profitieren Sie von unseren umf…",
+            "props": {
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "height": "190.75px",
+              "display": "list-item",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#List15732 .icon-rounded-border": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 14,
+              "y": 1381,
+              "w": 331,
+              "h": 191
+            },
+            "visible": true,
+            "text": "Überall Profitieren Sie von unseren umf…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "190.75px",
+              "display": "flex",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#List15732 h3": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 100,
+              "y": 1381,
+              "w": 246,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Überall",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "21.7031px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#List15732 p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 100,
+              "y": 1451,
+              "w": 246,
+              "h": 104
+            },
+            "visible": true,
+            "text": "Profitieren Sie von unseren umfangreich…",
+            "props": {
+              "margin": "0px 0px 16px",
+              "padding": "0px",
+              "height": "104.188px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS15732": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1270,
+              "w": 360,
+              "h": 783
+            },
+            "visible": true,
+            "text": "Darum Energie von der TEAG Überall Prof…",
+            "props": {
+              "margin": "0px",
+              "padding": "20px 14.3906px",
+              "height": "743.328px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "section.slider-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 140,
+              "w": 360,
+              "h": 1010
+            },
+            "visible": true,
+            "text": "TEAG TEAG-Strom plus Smartwatch Jetzt I…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "1009.72px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".slider-section .bar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 360,
+              "w": 360,
+              "h": 189
+            },
+            "visible": true,
+            "text": "TEAG-Strom plus Smartwatch Jetzt Ihre S…",
+            "props": {
+              "margin": "0px",
+              "padding": "25px 25px 57.576px",
+              "height": "106.516px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".step-by-step-123-modul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 3290,
+              "w": 331,
+              "h": 769
+            },
+            "visible": true,
+            "text": "Ihr Wechsel zur TEAG - einfach und schn…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "769.344px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".step-by-step-123-modul .step": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 14,
+              "y": 3400,
+              "w": 331,
+              "h": 203
+            },
+            "visible": true,
+            "text": "1 Preisvorteil berechnen Geben Sie einf…",
+            "props": {
+              "margin": "0px",
+              "padding": "0px 0px 48px",
+              "height": "155.094px",
+              "display": "flex",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".step .content": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 102,
+              "y": 3420,
+              "w": 243,
+              "h": 135
+            },
+            "visible": true,
+            "text": "Preisvorteil berechnen Geben Sie einfac…",
+            "props": {
+              "margin": "20px 0px 0px",
+              "padding": "0px",
+              "height": "135.094px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".step .content h4": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 102,
+              "y": 3420,
+              "w": 243,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Preisvorteil berechnen",
+            "props": {
+              "margin": "0px 0px 8px",
+              "padding": "0px",
+              "height": "24.9531px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        ".connector-vertical": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 50,
+              "y": 3477,
+              "w": 3,
+              "h": 121
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "121.094px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PCS16424": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4099,
+              "w": 360,
+              "h": 1949
+            },
+            "visible": true,
+            "text": "Sie haben Fragen? FAQ: Ihre häufigsten …",
+            "props": {
+              "margin": "0px",
+              "padding": "20px 14.3906px",
+              "height": "1909.16px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#MainContent_Boxes16441 > li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 14,
+              "y": 4139,
+              "w": 331,
+              "h": 650
+            },
+            "visible": true,
+            "text": "Sie haben Fragen? FAQ: Ihre häufigsten …",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "650.422px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PageHeader .section-2 ul.level-1 > li.level-1-6": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 215,
+              "y": 90,
+              "w": 145,
+              "h": 50
+            },
+            "visible": true,
+            "text": "EINBLICKE",
+            "props": {
+              "margin": "0px",
+              "padding": "0px",
+              "height": "50px",
+              "display": "list-item",
+              "opacity": "1"
+            }
+          }
+        ],
+        "#PageHeader .section-2 ul.level-1 > li.level-1-6 > a": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 215,
+              "y": 90,
+              "w": 145,
+              "h": 50
+            },
+            "visible": true,
+            "text": "EINBLICKE",
+            "props": {
+              "margin": "0px",
+              "padding": "0px 30px",
+              "height": "50px",
+              "display": "block",
+              "opacity": "1"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

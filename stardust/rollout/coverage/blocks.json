@@ -1,0 +1,369 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-08T11:56:10.189Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-08T20:55:14.695Z",
+  "blocks": [
+    {
+      "id": "breadcrumb",
+      "label": "breadcrumb",
+      "kind": "module",
+      "signature": "module:breadcrumb",
+      "source": null,
+      "usedByTemplates": [
+        "impressum",
+        "privatkunden-strom-haus-baustromanschluss",
+        "ueber-uns-unternehmen"
+      ],
+      "usedByPages": [
+        "impressum",
+        "privatkunden-strom-haus-baustromanschluss",
+        "ueber-uns-unternehmen"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "breadcrumb",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "channel-cards",
+      "label": "channel-cards",
+      "kind": "module",
+      "signature": "module:channel-cards",
+      "source": null,
+      "usedByTemplates": [
+        "ueber-uns-unternehmen"
+      ],
+      "usedByPages": [
+        "ueber-uns-unternehmen"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "channel-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "channel-products",
+      "label": "channel-products",
+      "kind": "module",
+      "signature": "module:channel-products",
+      "source": null,
+      "usedByTemplates": [
+        "privatkunden-strom-stromtarife"
+      ],
+      "usedByPages": [
+        "privatkunden-strom-stromtarife"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "channel-products",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-band",
+      "label": "cta-band",
+      "kind": "module",
+      "signature": "module:cta-band",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "privatkunden-strom-stromtarife"
+      ],
+      "usedByPages": [
+        "index",
+        "privatkunden-strom-stromtarife"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cta-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-box",
+      "label": "cta-box",
+      "kind": "module",
+      "signature": "module:cta-box",
+      "source": null,
+      "usedByTemplates": [
+        "privatkunden-strom-haus-baustromanschluss"
+      ],
+      "usedByPages": [
+        "privatkunden-strom-haus-baustromanschluss"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cta-box",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "events",
+      "label": "events",
+      "kind": "module",
+      "signature": "module:events",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "events",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-slider",
+      "label": "hero-slider",
+      "kind": "module",
+      "signature": "module:hero-slider",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero-slider",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "info-boxes",
+      "label": "info-boxes",
+      "kind": "module",
+      "signature": "module:info-boxes",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "info-boxes",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "news-posts",
+      "label": "news-posts",
+      "kind": "module",
+      "signature": "module:news-posts",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "news-posts",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "page-header-hero",
+      "label": "page-header-hero",
+      "kind": "module",
+      "signature": "module:page-header-hero",
+      "source": null,
+      "usedByTemplates": [
+        "privatkunden-strom-haus-baustromanschluss",
+        "privatkunden-strom-stromtarife"
+      ],
+      "usedByPages": [
+        "privatkunden-strom-haus-baustromanschluss",
+        "privatkunden-strom-stromtarife"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "page-header-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "photo-teasers",
+      "label": "photo-teasers",
+      "kind": "module",
+      "signature": "module:photo-teasers",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "ueber-uns-unternehmen"
+      ],
+      "usedByPages": [
+        "index",
+        "ueber-uns-unternehmen"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "photo-teasers",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-teasers",
+      "label": "product-teasers",
+      "kind": "module",
+      "signature": "module:product-teasers",
+      "source": null,
+      "usedByTemplates": [
+        "privatkunden-strom-stromtarife"
+      ],
+      "usedByPages": [
+        "privatkunden-strom-stromtarife"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-teasers",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "service-cards",
+      "label": "service-cards",
+      "kind": "module",
+      "signature": "module:service-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "privatkunden-strom-stromtarife"
+      ],
+      "usedByPages": [
+        "index",
+        "privatkunden-strom-stromtarife"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "service-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "social-wall",
+      "label": "social-wall",
+      "kind": "module",
+      "signature": "module:social-wall",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "social-wall",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tariff-calculator",
+      "label": "tariff-calculator",
+      "kind": "module",
+      "signature": "module:tariff-calculator",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "privatkunden-strom-stromtarife"
+      ],
+      "usedByPages": [
+        "index",
+        "privatkunden-strom-stromtarife"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "tariff-calculator",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "text-additions",
+      "label": "text-additions",
+      "kind": "module",
+      "signature": "module:text-additions",
+      "source": null,
+      "usedByTemplates": [
+        "impressum"
+      ],
+      "usedByPages": [
+        "impressum"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "text-additions",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "three-steps",
+      "label": "three-steps",
+      "kind": "module",
+      "signature": "module:three-steps",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "privatkunden-strom-stromtarife"
+      ],
+      "usedByPages": [
+        "index",
+        "privatkunden-strom-stromtarife"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "three-steps",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

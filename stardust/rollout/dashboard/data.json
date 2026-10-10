@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-10-09T15:35:17.833Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.thueringerenergie.de/",
+    "liveHost": "main--dc15da58--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 9,
+    "prototyped": 9,
+    "deployed": 9,
+    "optimised": 9
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 9
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "datenschutz",
+      "path": "/datenschutz",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "impressum",
+      "path": "/impressum",
+      "stage": "optimised",
+      "templateId": "impressum",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "privatkunden-strom-ersatzversorgung",
+      "path": "/privatkunden/strom/ersatzversorgung",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "privatkunden-strom-haus-baustromanschluss",
+      "path": "/privatkunden/strom/haus-baustromanschluss",
+      "stage": "optimised",
+      "templateId": "privatkunden-strom-haus-baustromanschluss",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "privatkunden-strom-stromtarife",
+      "path": "/privatkunden/strom/stromtarife",
+      "stage": "optimised",
+      "templateId": "privatkunden-strom-stromtarife",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "privatkunden-strom-stromtarife-teag-strom-easie",
+      "path": "/privatkunden/strom/stromtarife/teag-strom-easie",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "search",
+      "path": "/search",
+      "stage": "optimised",
+      "templateId": "search",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "ueber-uns-unternehmen",
+      "path": "/ueber-uns/unternehmen",
+      "stage": "optimised",
+      "templateId": "ueber-uns-unternehmen",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "impressum",
+      "archetype": "impressum",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "privatkunden-strom-haus-baustromanschluss",
+      "archetype": "privatkunden-strom-haus-baustromanschluss",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "privatkunden-strom-stromtarife",
+      "archetype": "privatkunden-strom-stromtarife",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "privatkunden-strom-ersatzversorgung",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "search",
+      "archetype": "search",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "static",
+      "archetype": "datenschutz",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "ueber-uns-unternehmen",
+      "archetype": "ueber-uns-unternehmen",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 17,
+    "converted": 17
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      10,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

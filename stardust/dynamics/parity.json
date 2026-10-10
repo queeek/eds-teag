@@ -1,0 +1,94 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-10-08T20:40:00Z", "run": "replica D2-dynamic, thueringerenergie.de" },
+  "method": "self rows rebuilt natively (nav document, index-backed search via helix-query.yaml + /search block, client-only contrast toggle, verbatim portal anchors); forms ship the interim static tier; CMP, tags and chat are scaffolded disabled in scripts/site-config.js and await the owner",
+  "features": [
+    {
+      "id": "D-01", "feature": "menu-template-xhr — desktop mega-menu", "class": "A", "pages": 8,
+      "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "nav document /nav carries the settled menu (230 anchors); header renders it without a runtime fetch; content-diff header root 0 structural, chrome-parity quiet (C-deliver)",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": "header .page-header a[href]", "min": 200 },
+        { "type": "no-page-errors", "paths": ["/", "/privatkunden/strom/stromtarife", "/impressum"] }
+      ]
+    },
+    {
+      "id": "D-02", "feature": "site-search — header search → /search results from /query-index.json", "class": "S", "pages": 8,
+      "disposition": "index-backed", "reproducibility": "self", "status": "done",
+      "verifiedBy": "helix-query.yaml indexes the 8 published pages (total polled); header form GET /search?q=; results block: title-first ranking, dedupe, paging 10; source visible count unavailable (results page out of scope) so the checks assert a known hit per term",
+      "checks": [
+        { "type": "fetch-json", "url": "/query-index.json", "minRows": 8, "expectKeys": ["data", "total"] },
+        { "type": "search-query", "path": "/search", "param": "q", "term": "Impressum", "resultSelector": ".search .search-results > li", "titleSelector": "h3", "expectIncludes": "/impressum" },
+        { "type": "search-query", "path": "/search", "param": "q", "term": "Stromtarife", "resultSelector": ".search .search-results > li", "titleSelector": "h3", "expectIncludes": "/privatkunden/strom/stromtarife" },
+        { "type": "search-query", "path": "/search", "param": "q", "term": "Ersatzversorgung", "resultSelector": ".search .search-results > li", "titleSelector": "h3", "expectIncludes": "/privatkunden/strom/ersatzversorgung" }
+      ]
+    },
+    {
+      "id": "D-03", "feature": "contrast-mode-switch — high-contrast toggle", "class": "A", "pages": 8,
+      "disposition": "client-only", "reproducibility": "self", "status": "done",
+      "verifiedBy": "header switch (role=switch) toggles body.user-prefers-more-contrast client-side; the source's UpdatePanel postback is replaced by the class toggle; not among the behaviours motion-observe saw fire (no live poke), implemented because the control is visible on every page",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": "header .contrast-switch [role=\"switch\"]", "min": 1 }
+      ]
+    },
+    {
+      "id": "D-04", "feature": "contact-widget-form — WidgetKontakt1 with BotDetect captcha", "class": "F", "pages": 2,
+      "disposition": "rebuild-native (UI) — submission blocked", "reproducibility": "needs-backend", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "the widget was a hidden postback form at capture (not part of the visible composition on any migrated page); no form is rendered, nothing submits",
+      "owner": "production form backend (endpoint + field mapping) and captcha replacement; the customer number is personal account data, so the form is never auto-wired",
+      "checks": []
+    },
+    {
+      "id": "D-05", "feature": "tariff-calculator-bridge — itcProduktrechner", "class": "F", "pages": 2,
+      "disposition": "data-fed (external calculator) — interim static", "reproducibility": "needs-backend", "status": "interim",
+      "verifiedBy": "tariff-calculator block renders the captured PLZ/consumption controls; submit is an inert face (aria-disabled, title names the missing backend); no fake submit",
+      "owner": "calculator endpoint (ITC) and parameter contract for the new host",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": ".tariff-calculator [aria-disabled=\"true\"]", "min": 1 }
+      ]
+    },
+    {
+      "id": "D-06", "feature": "consent-cmp-usercentrics", "class": "T", "pages": 8,
+      "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "scripts/site-config.js consent.usercentrics { enabled: false, settingsId recorded }; consent-check.js loads the CMP only when enabled; declined by default → no request to the CMP hosts",
+      "owner": "reuse the Usercentrics settings id on the new domain",
+      "checks": [
+        { "type": "consent-gate", "path": "/", "forbiddenHosts": ["web.cmp.usercentrics.eu", "v1.api.service.cmp.usercentrics.eu", "app.usercentrics.eu"] }
+      ]
+    },
+    {
+      "id": "D-07", "feature": "tags-gtm-sgtm — Google Tag Manager, sGTM, Google Ads, Facebook pixel", "class": "T", "pages": 8,
+      "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "site-config.js tags.gtm { enabled: false, containerId GTM-T2V7DDC, serverHost sgtm.thueringerenergie.de }; consented.js loads gtm.js only when enabled and consented; Ads + pixel run inside the container",
+      "owner": "which tags run on the new host; sGTM domain mapping (CNAME on the new host)",
+      "checks": [
+        { "type": "consent-gate", "path": "/", "forbiddenHosts": ["www.googletagmanager.com", "sgtm.thueringerenergie.de", "www.google.com", "ad.doubleclick.net", "googleads.g.doubleclick.net", "connect.facebook.net"] }
+      ]
+    },
+    {
+      "id": "D-08", "feature": "analytics-etracker", "class": "T", "pages": 8,
+      "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "site-config.js tags.etracker { enabled: false, secureCode recorded }; consented.js loads e.js only when enabled and consented",
+      "owner": "etracker account on the new host",
+      "checks": [
+        { "type": "consent-gate", "path": "/privatkunden/strom/stromtarife", "forbiddenHosts": ["code.etracker.com", "www.etracker.de"] }
+      ]
+    },
+    {
+      "id": "D-09", "feature": "chat-widget-moin-ai", "class": "T/V", "pages": 5,
+      "disposition": "embed-passthrough", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "site-config.js chat.moinAi { enabled: false, widgetId recorded }; consented.js loads moin-loader.js only when enabled and consented; pages ship without the teaser bubble (captureState: widget not loaded at capture, restore when enabled)",
+      "owner": "allow the moin.ai widget key on the new domain (the key is domain-bound)",
+      "checks": [
+        { "type": "consent-gate", "path": "/", "forbiddenHosts": ["widget.moin.ai", "cfg.moin.ai"] }
+      ]
+    },
+    {
+      "id": "D-10", "feature": "external-portal-links — Kundenportal, Mein Zuhause, Störungsauskunft", "class": "X", "pages": 8,
+      "disposition": "rebuild-native (plain anchors, verbatim hrefs)", "reproducibility": "self", "status": "done",
+      "verifiedBy": "verbatim anchors in the content; content-presence 0 MISSING links in the roster gate",
+      "checks": [
+        { "type": "dom-count", "path": "/", "selector": "a[href^=\"https://kundenportal.teag.de\"]", "min": 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+/* breadcrumb — values from stardust/prototypes/css/impressum.css + canon.css
+   (lift: stardust/replica/lift/impressum.md § container model).
+   Source: .page-meta-section { padding: 20px 4% 0 } + .center { margin: 20px 0 0 };
+   at <= 1024 the section's padding-top is 0 (the .center margin starts the article at 160). */
+
+/* main > .section:first-of-type / main > .section outrank a bare .breadcrumb-container */
+main .section.breadcrumb-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.breadcrumb-container .breadcrumb-wrapper {
+  margin-bottom: 0;
+}
+
+.breadcrumb {
+  font-size: 16px;
+}
+
+/* the page <h1> renders screen-reader only, as on the source (1x1 absolute) */
+.breadcrumb-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.breadcrumb-trail ul {
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumb-trail li {
+  display: inline;
+}
+
+.breadcrumb-trail li a:any-link {
+  color: var(--c-grey-700);
+  font-size: 0.9em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.breadcrumb-trail li a::after {
+  content: '>';
+  color: var(--c-grey-700);
+  padding: 0 6px;
+  display: inline-block;
+}
+
+.breadcrumb-trail li:last-child a::after {
+  content: '';
+  padding: 0;
+}
+
+/* home crumb: teag-2017 glyph "i" (source <span class="icon" data-icon="i">) */
+.breadcrumb-trail li:first-child a::before {
+  content: 'i';
+  font-family: "teag-2017", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.breadcrumb-trail li:last-child a:any-link {
+  color: var(--c-primary);
+}
+
+@media (width >= 1025px) {
+  main .section.breadcrumb-container {
+    padding-top: var(--section-pad);
+  }
+}
+
+/* variant "trailing-gap" (article archetype): the source keeps `a::after { padding: 0 6px }` on
+   the active crumb with empty content — 12px of invisible width that unit-geometry measures */
+.breadcrumb.trailing-gap .breadcrumb-trail li:last-child a::after {
+  padding: 0 6px;
+}

@@ -1,0 +1,497 @@
+=== #MainContent_contentheader
+header#MainContent_contentheader "DuxX/iStockphoto.comStrompreise und TarifeSpannung pur! Mit Energie de"
+  figure "DuxX/iStockphoto.com"
+    picture
+      source
+      source
+      source
+      img [AAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 x]
+    figcaption "DuxX/iStockphoto.com"
+      div#MainContent_headerPictureCredits.picture-credits "DuxX/iStockphoto.com"
+        span.fa.fa-copyright
+        span "DuxX/iStockphoto.com"
+  div.bar.clear-fix "Strompreise und TarifeSpannung pur! Mit Energie der TEAG – sicher, gün"
+    div.container "Strompreise und TarifeSpannung pur! Mit Energie der TEAG – sicher, gün"
+      h1#MainContent_h1HeaderImagePage.title "Strompreise und Tarife"
+      h2#MainContent_h3HeaderImagePage "Spannung pur! Mit Energie der TEAG – sicher, günstig, einfach gut."
+=== #PCS26439
+li#PCS26439.box.product-teaser.uses-startUp-animations.initialized {height: 414.719px; margin-left: 0px; margin-right: 0px; marg} "contrastwerkstatt/iStockphoto.com Unser neues Top-Angebot für Preisopt"
+  div "contrastwerkstatt/iStockphoto.com Unser neues Top-Angebot für Preisopt"
+    figure {height: 414.719px;} "contrastwerkstatt/iStockphoto.com Unser neues Top-Angebot für Preisopt"
+      picture {position: absolute; width: 684.998px; height: 414.719px; lef}
+        source
+        source
+        source
+        img.wide-image [AAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 x] {width: 684.984px;}
+      figcaption "contrastwerkstatt/iStockphoto.com Unser neues Top-Angebot für Preisopt"
+        div.picture-credits.oversized {--oversizedHeight: 21.9375px; right: auto; left: -57.5938px;} "contrastwerkstatt/iStockphoto.com"
+          span.fa.fa-copyright
+          span "contrastwerkstatt/iStockphoto.com"
+        div.container {height: 297.234px; position: absolute; width: 627.42px; marg} "Unser neues Top-Angebot für Preisoptimierer: Jetzt vergleichen und Ers"
+          h2#Heading26439 "Unser neues Top-Angebot für Preisoptimierer: Jetzt vergleichen und Ers"
+          span.divider
+          div.description "Günstiger Strompreis und 6-monatige Grundpreisfreiheit mit TEAG.Strom "
+            p "Günstiger Strompreis und 6-monatige Grundpreisfreiheit mit TEAG.Strom "
+            ul.benefit "Bis zu 100€ Vorteil - kein Grundpreis für die ersten 6 Monate1 Preiswe"
+              li "Bis zu 100€ Vorteil - kein Grundpreis für die ersten 6 Monate1"
+                strong "Bis zu 100€ Vorteil"
+                sup "1"
+              li "Preiswert, sicher, gut - und Strom aus erneuerbaren Energien"
+                strong "Strom aus erneuerbaren Energien"
+              li "24 Monate Erstlaufzeit inklusive Nettopreisgarantie2"
+                strong "inklusive Nettopreisgarantie"
+                sup "2"
+                  span "2"
+          div.link "Jetzt sparen"
+            a.link-button.blue →/privatkunden/strom/stromtarife/teag-strom-easie {width: 124px; height: 40px; line-height: 40px; background: u} "Jetzt sparen"
+=== #MainContent_CPMList15997 > li:first-child
+li.box.image-teaser "SolStock/iStockphoto.com TEAG.Strom easyFür energiegeladene Preisoptim"
+  section "SolStock/iStockphoto.com TEAG.Strom easyFür energiegeladene Preisoptim"
+    a.channel-products-teaser-link →/privatkunden/strom/stromtarife/teag-strom-easie "SolStock/iStockphoto.com TEAG.Strom easyFür energiegeladene Preisoptim"
+      figure "SolStock/iStockphoto.com TEAG.Strom easyFür energiegeladene Preisoptim"
+        picture
+          source
+          source
+          source
+          img [AAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 x]
+        figcaption "SolStock/iStockphoto.com TEAG.Strom easyFür energiegeladene Preisoptim"
+          div.picture-credits "SolStock/iStockphoto.com"
+            span.fa.fa-copyright
+            span "SolStock/iStockphoto.com"
+          div.content "TEAG.Strom easyFür energiegeladene Preisoptimierer. Unser zwei-Jahres-"
+            header "TEAG.Strom easyFür energiegeladene Preisoptimierer."
+              span "TEAG.Strom easy"
+              h3 "Für energiegeladene Preisoptimierer."
+            div.description "Unser zwei-Jahres-Tarif mit Strom aus erneuerbaren Energien und 6-mona"
+              p "Unser zwei-Jahres-Tarif mit Strom aus erneuerbaren Energien und 6-mona"
+              h4 "Ihre Vorteile"
+              ul#MainContent_ul26421.benefit "Bis zu 100 Euro Preisvorteil dank 6-monatiger Grundpreisfreiheit1 24 M"
+                li "Bis zu 100 Euro Preisvorteil dank 6-monatiger Grundpreisfreiheit1"
+                  sup.annotations-info-label "1"
+                li "24 Monate Erstlaufzeit inklusive Nettopreisgarantie2"
+                  sup.annotations-info-label "2"
+          div.footer "Tarifdetails"
+            div.link "Tarifdetails"
+              span.icon.icon-teag-arrow-right-pos
+=== #MainContent_FootnoteContainer15997
+div#MainContent_FootnoteContainer15997.footnote-container "1Bis zu 100 Euro Preisvorteil (brutto) dank 6-monatiger Grundpreisfrei"
+  p.footnote "1Bis zu 100 Euro Preisvorteil (brutto) dank 6-monatiger Grundpreisfrei"
+    sup "1"
+    span#Footnote29ecd9e4-2b62-4de1-9b34-704e0b1279cf "Bis zu 100 Euro Preisvorteil (brutto) dank 6-monatiger Grundpreisfreih"
+  p.footnote "2Es besteht eine Nettopreisgarantie für 24 Monate ab Lieferbeginn. Die"
+    sup "2"
+    span#Footnote0eff1a8a-4c6b-4cd0-88f7-08e5846808f2 "Es besteht eine Nettopreisgarantie für 24 Monate ab Lieferbeginn. Dies"
+  p.footnote "3Die Energiepreisgarantie ist auf die Kosten der Beschaffung und des V"
+    sup "3"
+    span#Footnote6c919baa-daa7-4a5c-bf45-7862da0d683f "Die Energiepreisgarantie ist auf die Kosten der Beschaffung und des Ve"
+  p.footnote "4Die eingeschränkte Preisgarantie ist auf die Kosten der Beschaffung u"
+    sup "4"
+    span#Footnote46cfd58b-e90d-4881-9b56-e9565c493c9e "Die eingeschränkte Preisgarantie ist auf die Kosten der Beschaffung un"
+=== #PCS16174 .text-modul
+section.text-modul.default "Durchschnittlicher Stromverbrauch: Wie viel kWh verbraucht ein Haushal"
+  header "Durchschnittlicher Stromverbrauch: Wie viel kWh verbraucht ein Haushal"
+    h2 "Durchschnittlicher Stromverbrauch: Wie viel kWh verbraucht ein Haushal"
+  figure.modul-image "pixelfit/iStockphoto.com"
+    img [AAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 x] {width:501px; height:auto;}
+    figcaption "pixelfit/iStockphoto.com"
+      div.picture-credits "pixelfit/iStockphoto.com"
+        span.fa.fa-copyright
+        span "pixelfit/iStockphoto.com"
+  p "Wie viel ist eigentlich „viel“? Häufig ist Verbrauchern nicht klar, ob"
+  p "Ihr Stromverbrauch basiert auf mehreren Aspekten. Grundlegend ist die "
+  p "Ebenso relevant für Ihren Stromverbrauch sind die Leistung und die täg"
+  p "Liegen Sie selbst über oder unter dem durchschnittlichen Stromverbrauc"
+  div.scrollable-table_mode-horizontal "Größe des Haushalts Durchschnittlicher Stromverbrauch 1 Person 1500 kW"
+    table {width:500px} "Größe des Haushalts Durchschnittlicher Stromverbrauch 1 Person 1500 kW"
+      thead "Größe des Haushalts Durchschnittlicher Stromverbrauch"
+        tr "Größe des Haushalts Durchschnittlicher Stromverbrauch"
+          th.head "Größe des Haushalts"
+            strong "Größe des Haushalts"
+          th.head "Durchschnittlicher Stromverbrauch"
+            strong "Durchschnittlicher Stromverbrauch"
+      tbody "1 Person 1500 kWh 2 Personen 2500 kWh 3 Personen 3500 kWh 4 Personen 4"
+        tr "1 Person 1500 kWh"
+          th.cellBorderBottom "1 Person"
+            p "1 Person"
+          td.cellBorderBottom "1500 kWh"
+            p "1500 kWh"
+        tr "2 Personen 2500 kWh"
+          th.cellBorderBottom "2 Personen"
+            p "2 Personen"
+          td.cellBorderBottom "2500 kWh"
+            p "2500 kWh"
+        tr "3 Personen 3500 kWh"
+          th.cellBorderBottom "3 Personen"
+            p "3 Personen"
+          td.cellBorderBottom "3500 kWh"
+            p "3500 kWh"
+        tr "4 Personen 4250 kWh"
+          th.cellBorderBottom "4 Personen"
+            p "4 Personen"
+          td.cellBorderBottom "4250 kWh"
+            p "4250 kWh"
+  p.footnote "Quelle: https://strom-report.de/stromverbrauch/"
+=== #PCS16173 .text-modul
+section.text-modul.default "Wie setzt sich der Strompreis zusammen? Die Höhe des Strompreises ist "
+  header "Wie setzt sich der Strompreis zusammen?"
+    h2 "Wie setzt sich der Strompreis zusammen?"
+  p "Die Höhe des Strompreises ist für viele Nutzer auf den ersten Blick un"
+  p "Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Grundpr"
+  p "Ihre Energierechnung begleichen Sie mittels der monatlichen Abschlagsz"
+  section "Zusammensetzung Strompreis bei der TEAG Die nachfolgende Grafik zeigt "
+    h3 "Zusammensetzung Strompreis bei der TEAG"
+    p "Die nachfolgende Grafik zeigt Ihnen die Zusammensetzung des Strompreis"
+  section.image-remove-margin "TEAG Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Gr"
+    figure.modul-image "TEAG"
+      img [AAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 x] {width:665px; height:auto;}
+      figcaption "TEAG"
+        div.picture-credits "TEAG"
+          span.fa.fa-copyright
+          span "TEAG"
+    div.overflow.clear "Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Grundpr"
+      p "Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Grundpr"
+        br
+        br
+=== #MainContent_Faqs1_FaqModul
+div#MainContent_Faqs1_FaqModul.module-faq.filter_drop-down-list_modul "Hier finden Sie externe Inhalte von YouTube, die aufgrund Ihrer gewähl"
+  div#MainContent_Faqs1_upFaqMarkAsRead
+    input#MainContent_Faqs1_tbFaqMarkAsRead.faq-mark-as-read-field.hidden
+  div#MainContent_Faqs1_YouTubeVideoActivator1_upYouTubeVideoActivator.hidden "Hier finden Sie externe Inhalte von YouTube, die aufgrund Ihrer gewähl"
+    input#MainContent_Faqs1_YouTubeVideoActivator1_DialogInitiatorID.dialog-initiator-id
+    a#MainContent_Faqs1_YouTubeVideoActivator1_ActivatorLinkProxy.youtube-video-activator-link-proxy.hidden →javascript:var options=new WebForm_PostBackOptions
+    a#MainContent_Faqs1_YouTubeVideoActivator1_DeactivatorLinkProxy.youtube-video-deactivator-link-proxy.hidden →javascript:var options=new WebForm_PostBackOptions
+    div#MainContent_Faqs1_YouTubeVideoActivator1_ActivatorContainer.youtube-video-activator-container "Hier finden Sie externe Inhalte von YouTube, die aufgrund Ihrer gewähl"
+      input#MainContent_Faqs1_YouTubeVideoActivator1_hfInitiatorID.field-for-initiator-id
+      div#MainContent_Faqs1_YouTubeVideoActivator1_Container.youtube-video-activator.box "Hier finden Sie externe Inhalte von YouTube, die aufgrund Ihrer gewähl"
+        p "Hier finden Sie externe Inhalte von YouTube, die aufgrund Ihrer gewähl"
+        div#MainContent_Faqs1_YouTubeVideoActivator1_Activator_UpdatePanel1 "YouTube-Cookies zulassen."
+          div.clear-fix.top "YouTube-Cookies zulassen."
+            p#MainContent_Faqs1_YouTubeVideoActivator1_Activator_container.float-left.check-box-extra "YouTube-Cookies zulassen."
+              span.visualization
+                a#MainContent_Faqs1_YouTubeVideoActivator1_Activator_OptionUncheckedLink.unchecked.icon.icon-checkmark-pos →javascript:void(0)
+                span#MainContent_Faqs1_YouTubeVideoActivator1_Activator_OptionCheckedSpan.checked.icon.icon-checkmark-pos
+              label#MainContent_Faqs1_YouTubeVideoActivator1_Activator_Label1 "YouTube-Cookies zulassen."
+              span.hidden.post-back-control
+                input#MainContent_Faqs1_YouTubeVideoActivator1_Activator_CheckBox1
+        p "Indem Sie „YouTube-Cookies zulassen“ auswählen, stimmen Sie diesen (je"
+          a#YouTubeVideoActivatorDsgvoHinweis.toolTip-opener →javascript:void(0)
+            span.fa.fa-info
+        div#div_YouTubeVideoActivatorDsgvoHinweis.toolTip "Die betreffenden Drittländer weisen im Zweifel nicht das Datenschutzni"
+          p "Die betreffenden Drittländer weisen im Zweifel nicht das Datenschutzni"
+        p "Alle weiteren Informationen finden Sie in unserer Datenschutzerklärung"
+          a →/datenschutz "Datenschutzerklärung"
+          a →/cookieerklaerung "Cookieerklärung"
+  div#MainContent_Faqs1_upFaqFilter.update-panel "ThemaStrom 10 TOP-Fragen Strom Erdgas Grund- und Ersatzversorgung TEAG"
+    div#MainContent_Faqs1_ServiceRow.service-row.clear-fix.filters-3 "ThemaStrom 10 TOP-Fragen Strom Erdgas Grund- und Ersatzversorgung TEAG"
+      div.float-left.filter-1 "ThemaStrom 10 TOP-Fragen Strom Erdgas Grund- und Ersatzversorgung TEAG"
+        div#MainContent_Faqs1_pnlFilter {width: 111.328px; height: 67px;} "ThemaStrom 10 TOP-Fragen Strom Erdgas Grund- und Ersatzversorgung TEAG"
+          div.filter.drop-down-list.categories "ThemaStrom 10 TOP-Fragen Strom Erdgas Grund- und Ersatzversorgung TEAG"
+            div.category-label "ThemaStrom"
+              a →javascript:void(0) "ThemaStrom"
+                span.content "ThemaStrom"
+                  span.label "Thema"
+                  span.title "Strom"
+                span.fa.fa-chevron-down
+            ul "10 TOP-Fragen Strom Erdgas Grund- und Ersatzversorgung TEAG-Kundenport"
+              li "10 TOP-Fragen"
+                a#MainContent_Faqs1_rFilter_lbCategory_0 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "10 TOP-Fragen"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "10 TOP-Fragen"
+              li.active "Strom"
+                a#MainContent_Faqs1_rFilter_lbCategory_1 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Strom"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Strom"
+              li "Erdgas"
+                a#MainContent_Faqs1_rFilter_lbCategory_2 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Erdgas"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Erdgas"
+              li "Grund- und Ersatzversorgung"
+                a#MainContent_Faqs1_rFilter_lbCategory_3 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Grund- und Ersatzversorgung"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Grund- und Ersatzversorgung"
+              li "TEAG-Kundenportal"
+                a#MainContent_Faqs1_rFilter_lbCategory_4 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "TEAG-Kundenportal"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "TEAG-Kundenportal"
+              li "Energielösungen"
+                a#MainContent_Faqs1_rFilter_lbCategory_5 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Energielösungen"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Energielösungen"
+              li "Engagement"
+                a#MainContent_Faqs1_rFilter_lbCategory_6 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Engagement"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Engagement"
+              li "Kundenservice"
+                a#MainContent_Faqs1_rFilter_lbCategory_7 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Kundenservice"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Kundenservice"
+      div.float-left.filter-2 "RubrikPreis Preis Abschlag Zähler Vertrag Grund & Ersatzversorgung Ins"
+        div#MainContent_Faqs1_pnlFilterSub {width: 101.375px; height: 67px;} "RubrikPreis Preis Abschlag Zähler Vertrag Grund & Ersatzversorgung Ins"
+          div.filter.drop-down-list.sub-categories {display: block;} "RubrikPreis Preis Abschlag Zähler Vertrag Grund & Ersatzversorgung Ins"
+            div.category-label "RubrikPreis"
+              a →javascript:void(0) "RubrikPreis"
+                span.content "RubrikPreis"
+                  span.label "Rubrik"
+                  span.title "Preis"
+                span.fa.fa-chevron-down
+            ul "Preis Abschlag Zähler Vertrag Grund & Ersatzversorgung Insolvenz Steue"
+              li.active "Preis"
+                a#MainContent_Faqs1_rFilterSub_lbSubCategory_0 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Preis"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Preis"
+              li "Abschlag"
+                a#MainContent_Faqs1_rFilterSub_lbSubCategory_1 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Abschlag"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Abschlag"
+              li "Zähler"
+                a#MainContent_Faqs1_rFilterSub_lbSubCategory_2 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Zähler"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Zähler"
+              li "Vertrag"
+                a#MainContent_Faqs1_rFilterSub_lbSubCategory_3 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Vertrag"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Vertrag"
+              li "Grund & Ersatzversorgung"
+                a#MainContent_Faqs1_rFilterSub_lbSubCategory_4 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Grund & Ersatzversorgung"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Grund & Ersatzversorgung"
+              li "Insolvenz"
+                a#MainContent_Faqs1_rFilterSub_lbSubCategory_5 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Insolvenz"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Insolvenz"
+              li "Steuerbare Verbrauchseinrichtungen"
+                a#MainContent_Faqs1_rFilterSub_lbSubCategory_6 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Steuerbare Verbrauchseinrichtungen"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Steuerbare Verbrauchseinrichtungen"
+              li "Dynamische Tarife"
+                a#MainContent_Faqs1_rFilterSub_lbSubCategory_7 →javascript:__doPostBack('ctl00$MainContent$Faqs1$r "Dynamische Tarife"
+                  span.icon.icon-teag-arrow-right-pos
+                  span.title "Dynamische Tarife"
+      div.float-right.filter-3 "In FAQs suchen nach:"
+        div#MainContent_Faqs1_pnlSearch.filter.form-field.search-field "In FAQs suchen nach:"
+          label "In FAQs suchen nach:"
+          input#MainContent_Faqs1_tbSearch
+          input#MainContent_Faqs1_tbwe_tbSearch_ClientState
+          a#MainContent_Faqs1_lbSearch.extender.icon.icon-teag-suche →javascript:__doPostBack('ctl00$MainContent$Faqs1$l
+  div#MainContent_Faqs1_ScreenReaderLiveAnnouncer.screen-reader.visible-only.update-announcment
+  div#MainContent_Faqs1_upFaqResult.update-panel "Gibt es die EEG-Umlage noch? Vom 1. Juli bis 31. Dezember 2022 wird di"
+    div#MainContent_Faqs1_ListContainer "Gibt es die EEG-Umlage noch? Vom 1. Juli bis 31. Dezember 2022 wird di"
+      input#MainContent_Faqs1_tbOpenArticle.faq-open-article-field.hidden
+      ul.list.akkordeon-list.auto-close-opened-entries.update-panel "Gibt es die EEG-Umlage noch? Vom 1. Juli bis 31. Dezember 2022 wird di"
+        li.entry "Gibt es die EEG-Umlage noch? Vom 1. Juli bis 31. Dezember 2022 wird di"
+          p.topic "Gibt es die EEG-Umlage noch?"
+            span.title "Gibt es die EEG-Umlage noch?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-20214-20214.container "Vom 1. Juli bis 31. Dezember 2022 wird die EEG-Umlage auf null herabge"
+            div#MainContent_Faqs1_rFaqs_Answer_0.content.clear-fix "Vom 1. Juli bis 31. Dezember 2022 wird die EEG-Umlage auf null herabge"
+              section.content "Vom 1. Juli bis 31. Dezember 2022 wird die EEG-Umlage auf null herabge"
+                div.clear "Vom 1. Juli bis 31. Dezember 2022 wird die EEG-Umlage auf null herabge"
+                  p "Vom 1. Juli bis 31. Dezember 2022 wird die EEG-Umlage auf null herabge"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_0.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_0.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Was bedeutet die Umlage aus dem KWK-Gesetz? Das KWK-Gesetz regelt die "
+          p.topic "Was bedeutet die Umlage aus dem KWK-Gesetz?"
+            span.title "Was bedeutet die Umlage aus dem KWK-Gesetz?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-1533-1533.container "Das KWK-Gesetz regelt die gesetzlich zwingende Vergütung für Strom, we"
+            div#MainContent_Faqs1_rFaqs_Answer_1.content.clear-fix "Das KWK-Gesetz regelt die gesetzlich zwingende Vergütung für Strom, we"
+              section.content "Das KWK-Gesetz regelt die gesetzlich zwingende Vergütung für Strom, we"
+                div.clear "Das KWK-Gesetz regelt die gesetzlich zwingende Vergütung für Strom, we"
+                  p "Das KWK-Gesetz regelt die gesetzlich zwingende Vergütung für Strom, we"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_1.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_1.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Wie viel Prozent des Strompreises entfallen auf Steuern und Abgaben? B"
+          p.topic "Wie viel Prozent des Strompreises entfallen auf Steuern und Abgaben?"
+            span.title "Wie viel Prozent des Strompreises entfallen auf Steuern und Abgaben?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-1526-1526.container "Bei TEAG Thüringer Energie setzt sich der Strompreis in Thüringen im D"
+            div#MainContent_Faqs1_rFaqs_Answer_2.content.clear-fix "Bei TEAG Thüringer Energie setzt sich der Strompreis in Thüringen im D"
+              section.content "Bei TEAG Thüringer Energie setzt sich der Strompreis in Thüringen im D"
+                div.clear "Bei TEAG Thüringer Energie setzt sich der Strompreis in Thüringen im D"
+                  p "Bei TEAG Thüringer Energie setzt sich der Strompreis in Thüringen im D"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_2.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_2.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Was ist die Stromsteuer und wer muss wie viel bezahlen? Am 1. April 19"
+          p.topic "Was ist die Stromsteuer und wer muss wie viel bezahlen?"
+            span.title "Was ist die Stromsteuer und wer muss wie viel bezahlen?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-1534-1534.container "Am 1. April 1999 trat das sogenannte "Gesetz zum Einstieg in die ökolo"
+            div#MainContent_Faqs1_rFaqs_Answer_3.content.clear-fix "Am 1. April 1999 trat das sogenannte "Gesetz zum Einstieg in die ökolo"
+              section.content "Am 1. April 1999 trat das sogenannte "Gesetz zum Einstieg in die ökolo"
+                div.clear "Am 1. April 1999 trat das sogenannte "Gesetz zum Einstieg in die ökolo"
+                  p "Am 1. April 1999 trat das sogenannte "Gesetz zum Einstieg in die ökolo"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_3.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_3.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Wie viel Cent Stromsteuer sind im Preis für eine Kilowattstunde enthal"
+          p.topic "Wie viel Cent Stromsteuer sind im Preis für eine Kilowattstunde enthal"
+            span.title "Wie viel Cent Stromsteuer sind im Preis für eine Kilowattstunde enthal"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-1535-1535.container "Seit 01.01.2003 sind 2,05 Cent Stromsteuer im Preis einer kWh enthalte"
+            div#MainContent_Faqs1_rFaqs_Answer_4.content.clear-fix "Seit 01.01.2003 sind 2,05 Cent Stromsteuer im Preis einer kWh enthalte"
+              section.content "Seit 01.01.2003 sind 2,05 Cent Stromsteuer im Preis einer kWh enthalte"
+                div.clear "Seit 01.01.2003 sind 2,05 Cent Stromsteuer im Preis einer kWh enthalte"
+                  p "Seit 01.01.2003 sind 2,05 Cent Stromsteuer im Preis einer kWh enthalte"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_4.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_4.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Der Verbrauch in meiner Stromrechnung erscheint zu hoch. Welche Möglic"
+          p.topic "Der Verbrauch in meiner Stromrechnung erscheint zu hoch. Welche Möglic"
+            span.title "Der Verbrauch in meiner Stromrechnung erscheint zu hoch. Welche Möglic"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-1528-1528.container "Als Erstes empfehlen wir Ihnen die Prüfung des Zählerstandes. Vergleic"
+            div#MainContent_Faqs1_rFaqs_Answer_5.content.clear-fix "Als Erstes empfehlen wir Ihnen die Prüfung des Zählerstandes. Vergleic"
+              section.content "Als Erstes empfehlen wir Ihnen die Prüfung des Zählerstandes. Vergleic"
+                div.clear "Als Erstes empfehlen wir Ihnen die Prüfung des Zählerstandes. Vergleic"
+                  p (1 children) "Als Erstes empfehlen wir Ihnen die Prüfung des Zählerstandes. Vergleic"
+                  p (1 children) "Können Sie ausschließen, dass ein falscher Zählerstand zur Abrechnung "
+                  p "Wurde ein Defekt ermittelt, werden selbstverständlich keine Kosten in "
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_5.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_5.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Wie setzt sich der Strompreis zusammen? Ihr Strompreis besteht aus dre"
+          p.topic "Wie setzt sich der Strompreis zusammen?"
+            span.title "Wie setzt sich der Strompreis zusammen?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-6196-6196.container "Ihr Strompreis besteht aus drei Teilen. Der Erste umfasst alle Steuern"
+            div#MainContent_Faqs1_rFaqs_Answer_6.content.clear-fix "Ihr Strompreis besteht aus drei Teilen. Der Erste umfasst alle Steuern"
+              section.content "Ihr Strompreis besteht aus drei Teilen. Der Erste umfasst alle Steuern"
+                div.clear "Ihr Strompreis besteht aus drei Teilen. Der Erste umfasst alle Steuern"
+                  p "Ihr Strompreis besteht aus drei Teilen. Der Erste umfasst alle Steuern"
+                div.clear.clear-fix "TEAG"
+                  figure.modul-image (2 children) "TEAG"
+                  div.clear
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_6.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_6.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Welche Stromtarife gibt es bei der TEAG? Wir freuen uns, dass Sie sich"
+          p.topic "Welche Stromtarife gibt es bei der TEAG?"
+            span.title "Welche Stromtarife gibt es bei der TEAG?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-3293-3293.container "Wir freuen uns, dass Sie sich für die Tarif-Vielfalt der TEAG interess"
+            div#MainContent_Faqs1_rFaqs_Answer_7.content.clear-fix "Wir freuen uns, dass Sie sich für die Tarif-Vielfalt der TEAG interess"
+              section.content "Wir freuen uns, dass Sie sich für die Tarif-Vielfalt der TEAG interess"
+                div.clear "Wir freuen uns, dass Sie sich für die Tarif-Vielfalt der TEAG interess"
+                  p (2 children) "Wir freuen uns, dass Sie sich für die Tarif-Vielfalt der TEAG interess"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_7.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_7.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Welche Kosten beinhaltet der Grundpreis? Der Grundpreis stellt den fes"
+          p.topic "Welche Kosten beinhaltet der Grundpreis?"
+            span.title "Welche Kosten beinhaltet der Grundpreis?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-1527-1527.container "Der Grundpreis stellt den festen Teil der Rechnungskomponenten dar. Er"
+            div#MainContent_Faqs1_rFaqs_Answer_8.content.clear-fix "Der Grundpreis stellt den festen Teil der Rechnungskomponenten dar. Er"
+              section.content "Der Grundpreis stellt den festen Teil der Rechnungskomponenten dar. Er"
+                div.clear "Der Grundpreis stellt den festen Teil der Rechnungskomponenten dar. Er"
+                  p "Der Grundpreis stellt den festen Teil der Rechnungskomponenten dar. Er"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_8.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_8.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Warum sind die Strompreise bei der TEAG regional unterschiedlich? Das "
+          p.topic "Warum sind die Strompreise bei der TEAG regional unterschiedlich?"
+            span.title "Warum sind die Strompreise bei der TEAG regional unterschiedlich?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-14583-14583.container "Das deutschlandweit sehr heterogene Strompreisniveau ergibt sich durch"
+            div#MainContent_Faqs1_rFaqs_Answer_9.content.clear-fix "Das deutschlandweit sehr heterogene Strompreisniveau ergibt sich durch"
+              section.content "Das deutschlandweit sehr heterogene Strompreisniveau ergibt sich durch"
+                div.clear "Das deutschlandweit sehr heterogene Strompreisniveau ergibt sich durch"
+                  p "Das deutschlandweit sehr heterogene Strompreisniveau ergibt sich durch"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_9.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_9.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+        li.entry "Was versteht man unter Spotmarktpreisen? Stromversorger kaufen den Str"
+          p.topic "Was versteht man unter Spotmarktpreisen?"
+            span.title "Was versteht man unter Spotmarktpreisen?"
+            span.icon.icon-teag-arrow-down-pos
+          div#content-e3e40ffb-03c5-4889-9757-c93f14e65283-23131-23131.container "Stromversorger kaufen den Strom für ihre Kunden an der Börse. Die Stro"
+            div#MainContent_Faqs1_rFaqs_Answer_10.content.clear-fix "Stromversorger kaufen den Strom für ihre Kunden an der Börse. Die Stro"
+              section.content "Stromversorger kaufen den Strom für ihre Kunden an der Börse. Die Stro"
+                div.clear "Stromversorger kaufen den Strom für ihre Kunden an der Börse. Die Stro"
+                  p {margin-bottom:8pt; margin-left:0cm; margin-right:0cm; margin} (1 children) "Stromversorger kaufen den Strom für ihre Kunden an der Börse. Die Stro"
+            div.voting "War diese Antwort hilfreich? Ja Nein"
+              p "War diese Antwort hilfreich? Ja Nein"
+                nobr "Ja Nein"
+                  a#MainContent_Faqs1_rFaqs_lbVoteUp_10.button-vote.button-vote-up →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Ja"
+                  a#MainContent_Faqs1_rFaqs_lbVoteDown_10.button-vote.button-vote-down →javascript:__doPostBack('ctl00$MainContent$Faqs1$r (1 children) "Nein"
+=== #PCS19344
+li#PCS19344.product-teaser.uses-startUp-animations.energieBanking-modul.content-sized {height: 599.812px; margin-left: 0px; margin-right: 0px; marg} "TEAG Sind Sie bereits im TEAG-Kundenportal registriert? Das TEAG-Kunde"
+  div "TEAG Sind Sie bereits im TEAG-Kundenportal registriert? Das TEAG-Kunde"
+    figure {height: 599.797px;} "TEAG Sind Sie bereits im TEAG-Kundenportal registriert? Das TEAG-Kunde"
+      picture {position: absolute; width: 627.404px; height: 379.859px; rig}
+        source
+        source
+        source
+        img.wide-image [AAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 x] {width: 627.391px;}
+      figcaption "TEAG Sind Sie bereits im TEAG-Kundenportal registriert? Das TEAG-Kunde"
+        div.picture-credits.oversized {--oversizedHeight: 21.9375px; bottom: 240.953px; left: auto;} "TEAG"
+          span.fa.fa-copyright
+          span "TEAG"
+        div.container {height: 559.828px; position: absolute; width: 627.419px; mar} "Sind Sie bereits im TEAG-Kundenportal registriert? Das TEAG-Kundenport"
+          h2#Heading19344 "Sind Sie bereits im TEAG-Kundenportal registriert?"
+          span.divider
+          div.description "Das TEAG-Kundenportal und die App bieten Ihnen: Verträge und Daten onl"
+            p "Das TEAG-Kundenportal und die App bieten Ihnen:"
+              strong "Das TEAG-Kundenportal und die App bieten Ihnen:"
+            ul.icon-list "Verträge und Daten online verwalten Alles auf einen Blick Schnelle Reg"
+              li "Verträge und Daten online verwalten"
+                span.icon-laptop-TEAG
+              li "Alles auf einen Blick"
+                span.icon-checkbox
+              li "Schnelle Registrierung in 3 Minuten"
+                span.icon-tastatur
+              li "Verschlüsselter Datenschutz"
+                span.icon-lock
+            p "Jetzt im TEAG-Kundenportal anmelden:"
+          div.link "Zum Login"
+            a.link-button.blue.has-external-link-icon →https://kundenportal.teag.de/ {width: 142px; height: 40px; line-height: 40px; background: u} "Zum Login"
+              span.icon.icon-icons-link-external
+          div.additional-content "TEAG-Kundenportal-App herunterladen: Google LLC Apple Inc."
+            p "TEAG-Kundenportal-App herunterladen:"
+            div.columns-3 "Google LLC Apple Inc."
+              div "Google LLC"
+                section.clear "Google LLC"
+                  a.linked-image.is-initialized-for-redirect →https://play.google.com/store/apps/details?id=de.t (1 children) "Google LLC"
+              div "Apple Inc."
+                section.clear "Apple Inc."
+                  a.linked-image.is-initialized-for-redirect →https://apps.apple.com/de/app/teag-energiebanking/ (1 children) "Apple Inc."
+=== #MainContent_PCS15963 .eye-catcher-container
+div.eye-catcher-container
+  figure
+    img [kreis_grafik_2500px_animiert_v2_lila.gif x]
+=== #MainContent_CPMList15996 > li:first-child
+li.box "TEAG.StromFür Online-Selbermacher. Mit unserem Klassiker haben Sie all"
+  section "TEAG.StromFür Online-Selbermacher. Mit unserem Klassiker haben Sie all"
+    a →/privatkunden/strom/stromtarife/teag-strom "TEAG.StromFür Online-Selbermacher. Mit unserem Klassiker haben Sie all"
+      header "TEAG.StromFür Online-Selbermacher."
+        span "TEAG.Strom"
+        h3 "Für Online-Selbermacher."
+      div.content "Mit unserem Klassiker haben Sie alles selbst im Griff. Tarifdetails"
+        div.description "Mit unserem Klassiker haben Sie alles selbst im Griff."
+          p "Mit unserem Klassiker haben Sie alles selbst im Griff."
+        div.footer "Tarifdetails"
+          div.link "Tarifdetails"
+            span.icon.icon-teag-arrow-right-pos

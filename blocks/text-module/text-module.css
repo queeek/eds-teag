@@ -1,0 +1,392 @@
+/* text-module — values from stardust/prototypes/css/privatkunden-strom-stromtarife.css
+   (lift: stardust/replica/lift/privatkunden-strom-stromtarife.md § Text modul). Source:
+   .text-modul > header { margin-bottom: 48px } (h2 28.96 / 1.2), figure.modul-image { float: left;
+   margin: 6px 40px 20px 0 } with .picture-credits abs right 0 bottom -18, p { margin-bottom: 16 },
+   > section { margin-bottom: 30px } (h3 1.17em / 1.2, margin-bottom 16), section.image-remove-margin
+   figure { margin: 0 0 20px } + .overflow.clear. Mobile first (<= 1024: figure inline-block,
+   margin 0 0 30px, 100 % wide). */
+
+/* the table block and the footnote paragraph follow the prose without wrapper gaps */
+main .section.text-module-container > .table-wrapper,
+main .section.text-module-container > .default-content-wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main .section.text-module-container > .text-module-wrapper {
+  margin-bottom: 0;
+}
+
+.text-module {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.text-module-row {
+  display: flow-root;
+}
+
+.text-module-row + .text-module-row {
+  margin-top: 30px;
+}
+
+/* figure.modul-image */
+.text-module-figure {
+  position: relative;
+  float: none;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 0 30px;
+}
+
+.text-module-figure picture,
+.text-module-figure img {
+  display: block;
+  float: none;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+/* .picture-credits: abs right 0 bottom -18, .8em / 17px, padding 0 0 0 5 */
+.text-module-credits {
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+  padding: 0 0 0 5px;
+  font-size: 0.8em;
+  line-height: 17px;
+  white-space: nowrap;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+.text-module-credits::before {
+  content: '\00a9';
+  display: inline-block;
+  width: 21px;
+  text-align: center;
+}
+
+.text-module-credits p {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.text-module-prose h2 {
+  margin: 0 0 48px;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.text-module-prose h3 {
+  margin: 0 0 16px;
+  font-size: 1.17em;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.text-module-prose h2 + h3 {
+  margin-top: 30px;
+}
+
+.text-module-prose p {
+  margin: 0 0 16px;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+}
+
+.text-module-prose p:last-child {
+  margin-bottom: 30px;
+}
+
+.text-module-row.full .text-module-prose {
+  clear: both;
+}
+
+@media (width >= 1025px) {
+  .text-module-figure {
+    float: left;
+    display: block;
+    margin: 6px 40px 20px 0;
+  }
+
+  .text-module-row.full .text-module-figure {
+    margin: 0 0 20px;
+  }
+
+  .text-module-figure img {
+    width: auto;
+  }
+}
+
+/* p.footnote (default content after the table): .8em / 1.4, margin 2px 0 15px */
+main .section.text-module-container > .default-content-wrapper p {
+  margin: 2px 0 15px;
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+
+/* ---------- program siblings teag-strom-easie / ersatzversorgung (additive variants) ----------
+   with-lists (live measure): ul.benefit li padding-left 28 + checkmark-pos.svg 18px at 0 .45em;
+   ul.downloads li (a single link) padding-left 25, margin-bottom 5, no marker; ul margin 0 0 20px;
+   h4.downloads-topic 1em / 1.6 bold, margin-bottom 8. */
+.text-module.with-lists :is(.text-module-prose, .text-module-accordion-content) ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.text-module.with-lists :is(.text-module-prose, .text-module-accordion-content) li {
+  padding-left: 28px;
+  background: url('./checkmark-pos.svg') no-repeat 0 0.45em / 18px auto;
+}
+
+.text-module.with-lists :is(.text-module-prose, .text-module-accordion-content)
+  li:has(> a:only-child) {
+  margin-bottom: 5px;
+  padding-left: 25px;
+  background: none;
+}
+
+.text-module.with-lists .text-module-prose h4 {
+  margin: 0 0 8px;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  text-align: left;
+}
+
+/* the sibling sections keep the source's 20px .center bottom margin under the module (live
+   measure: section = 40 above / 40 below the .text-modul; the archetype page is untouched) */
+main .section.text-module-container:has(.text-module.with-lists, .text-module.center-content,
+  .text-module.eye-catcher-circle) > .text-module-wrapper {
+  margin-bottom: 20px;
+}
+
+/* center-content: .text-modul.center-content > header */
+.text-module.center-content .text-module-prose h2 {
+  text-align: center;
+}
+
+/* with-accordion: canon.css .akkordeon-list (> li.entry border-bottom #a0a0a0, padding 0 0 16,
+   margin-bottom 16; p.topic flex 1.05em bold, .title calc(100% - 30px), .icon 30x30 purple;
+   .container hidden until .opened; list margin-bottom 30 → the next row keeps the 30px gap). */
+.text-module-accordion {
+  margin: 0 0 16px;
+  padding: 0 0 16px;
+  border-bottom: 1px solid #a0a0a0;
+  font-size: var(--fs-body);
+}
+
+.text-module-accordion + .text-module-row {
+  margin-top: 30px;
+}
+
+.text-module-accordion-topic {
+  position: relative;
+  display: flex;
+  margin: 0;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: var(--lh-body);
+  cursor: pointer;
+}
+
+.text-module-accordion-title {
+  width: calc(100% - 30px);
+}
+
+.text-module-accordion-icon {
+  width: 30px;
+  height: 30px;
+  color: var(--c-primary);
+  text-align: center;
+}
+
+.text-module-accordion-icon::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-top: 7px;
+  border: solid currentcolor;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.text-module-accordion.opened .text-module-accordion-icon::after {
+  margin-top: 12px;
+  transform: rotate(-135deg);
+}
+
+.text-module-accordion-content {
+  display: none;
+  padding-right: 30px;
+}
+
+.text-module-accordion.opened .text-module-accordion-content {
+  display: block;
+}
+
+/* eye-catcher-circle: .eye-catcher.circle.rotate-right.size-200.float-right (live measure @1440:
+   230x230, radius 50 %, blue gradient 12,102,158 → 11,162,227, rotate 9.5deg, margin-bottom 30,
+   centred 25px / 27.5 bold white; @360 .smartphone-scaling-90 = scale(.9)); the prose beside it
+   is the source's .overflow.overflow-hidden column (below the circle <= 1024). */
+.text-module-eye-catcher {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 230px;
+  height: 230px;
+  margin: 0 0 30px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(12 102 158), rgb(11 162 227));
+  transform: scale(0.9) rotate(9.5deg);
+}
+
+.text-module.eye-catcher-circle .text-module-row .text-module-eye-catcher p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.text-module-overflow {
+  clear: both;
+}
+
+@media (width >= 1025px) {
+  .text-module-eye-catcher {
+    transform: rotate(9.5deg);
+  }
+
+  .text-module-overflow {
+    clear: none;
+    overflow: hidden;
+  }
+}
+
+/* program-360 fix wave (measure.mjs @360): the live .eye-catcher occupies 207 px of flow at 360
+   (.smartphone-scaling-90 scales the box, margin-bottom 0) and the .overflow starts right under
+   it; the block kept the 230 px box + 30 px margin (overflow 60 px low). */
+@media (width <= 1024px) {
+  .text-module.eye-catcher-circle .text-module-eye-catcher {
+    margin-bottom: -23px;
+  }
+}
+
+/* program-360 fix wave round 2 (measure.mjs @360 `.overflow > *`): every live h3 after the first
+   in the eye-catcher column carries margin-top 30 (the block had 0 -> column 86 px short). */
+@media (width <= 1024px) {
+  .text-module.eye-catcher-circle .text-module-overflow > h3:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
+/* program-360 fix wave round 3 (measure.mjs `.overflow > *` @1440 on teag-strom-easie): every live h3
+   after the first in the eye-catcher column has margin-top 30 at 1440 as well (collapses with the
+   paragraph's 16 -> +14 px each). A with-lists wrapper rhythm rule (+30) authored in the same round
+   was withdrawn: the gate read ersatz 7.88 -> 13.39 % @1440 and 12.62 -> 15.82 % @360 with it. */
+.text-module.eye-catcher-circle .text-module-overflow > h3:not(:first-child) {
+  margin-top: 30px;
+}
+
+/* fix-wave-7 round 3: the rules below were measured at 360 only; applied at every width they moved the 1440 gate
+   (ersatz 7.6 -> 10.84 % Δh +10 -> -33, easie 11.32 -> 20.84 % Δh -1 -> -161), so they are scoped to <= 1024px. */
+@media (width <= 1024px) {
+  /* ---- fix-wave-7 (2026-10-09, measure.mjs @360 ersatzversorgung live vs build; live theme sheet rules quoted) ----
+     1. module-level h3: live `.text-modul>h3 { font-size: calc(1.3*16px + .08vw) }` = 21.088 px / h 25 @360 (the build
+        had 1.17em = 18.72 / 22); the h3 inside the live `> section` (the row after the accordion) stay 1.17em. */
+  .text-module.with-accordion > .text-module-row:first-child .text-module-prose > h3 {
+    font-size: calc(20.8px + 0.08vw);
+  }
+
+  /* 2. every live h3 after the first child of the module carries margin-top 30 ("Preisinformation" after ul.benefit,
+        "Laufzeit" after a p: m 30 0 16 measured; the build had 0 -> gaps 20 / 16 instead of 30). */
+  .text-module.with-accordion .text-module-prose > * + h3 {
+    margin-top: 30px;
+  }
+
+  /* 3. live `.downloads li a { display: inline-block; color: #000 }`, weight 400 (measured both modules): the build's
+        inline bold #0ba2e3 link let every line box grow to 27 px (li 108 / 81 / 54 vs live 104 / 78 / 52). */
+  .text-module.with-lists .text-module-prose li:has(> a:only-child) > a:any-link {
+    display: inline-block;
+    color: #000;
+    font-weight: 400;
+  }
+
+  /* 4. the second with-lists downloads variant (ersatz text-module 2 and easie "Rechtliche Grundlagen"): the live
+        li.icon-teag-file-pdf is flex, margin 0, a 28 px icon column and a block link 303 px wide (measured both pages
+        @360: li 52/52/52/78 and 78/52/52/78, the build's 306 px link wrapped one line less); the ul's 20 stays inside
+        the live `> section` and the section adds margin-bottom 30 (ul bottom -> section end 90 = 20 + 30 + 40).
+        The accordion module keeps the plain `.downloads li` variant (padding 25, margin-bottom 5). */
+  .text-module.with-lists:not(.with-accordion) .text-module-prose li:has(> a:only-child) {
+    margin-bottom: 0;
+    padding-left: 28px;
+  }
+
+  .text-module.with-lists:not(.with-accordion) .text-module-prose > ul:last-child {
+    margin-bottom: 50px;
+  }
+}
+
+/* fix-wave-8:program (2026-10-09, measure.mjs @1440 teag-strom-easie live vs build, desktop only — the <= 1024 rules above
+   stay untouched):
+   1. eye-catcher column: the live last paragraph keeps its 16 px margin (module 1236 vs build 1250: the generic
+      `p:last-child { margin-bottom: 30px }` added 14 px before the section's 40).
+   2. downloads variant of with-lists without accordion (live li.icon-teag-file-pdf @1440: li flex, margin 0, 28 px icon
+      column; `.downloads li a { display: inline-block; color: #000 }` + `li[class^=icon-teag-] a { top: -4px }`; the
+      build had li margin-bottom 5 and an inline bold #0ba2e3 link: ul 180 vs live 165, a 50 vs 55).
+   3. easie only (keyed on the page's eye-catcher module): the live "Downloads" h4 sits in `section > header`, which
+      carries the module's header margin-bottom 48 (p end -> ul 91 px vs build 51). */
+@media (width >= 1025px) {
+  .text-module.eye-catcher-circle .text-module-overflow > p:last-child {
+    margin-bottom: 16px;
+  }
+
+  /* flex (a BFC) like the live li: beside the floated figure the li shrinks to the remaining column
+     (live li 441 px @942); round 1 used an inline-block link, which dropped below the float (+129 px). */
+  .text-module.with-lists:not(.with-accordion) .text-module-prose li:has(> a:only-child) {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0;
+    padding-left: 28px;
+  }
+
+  .text-module.with-lists:not(.with-accordion) .text-module-prose li:has(> a:only-child) > a:any-link {
+    position: relative;
+    top: -4px;
+    display: block;
+    max-width: 100%;
+    color: #000;
+    font-weight: 400;
+  }
+
+  main:has(.text-module.eye-catcher-circle) .text-module.with-lists:not(.with-accordion) .text-module-prose h4 {
+    margin-bottom: 48px;
+  }
+}
+
+/* fix-wave-14 (teag-strom-easie live refresh, measure.mjs @1440 `.overflow > *`): the source's
+   default text-modul wraps its prose in `.overflow` and gives every h3 after the first margin-top 30
+   (collapses with the paragraph's 16 -> +14 px each); the block carries it as the `overflow` variant
+   so the other pages' default modules (no `.overflow` on the source) keep their rhythm. */
+.text-module.overflow .text-module-prose > h3:not(:first-child) {
+  margin-top: 30px;
+}
+
+/* fix-wave-14 (`downloads` variant = the source's nested `section.default.left-content` with
+   `header > h4.downloads-topic` + `ul.downloads`, measure.mjs @1440): header margin-bottom 48 under
+   the label (served 8 -> list 40 px high) and the nested section's margin-bottom 30 after the list. */
+.text-module.with-lists.downloads .text-module-prose h4 {
+  margin-bottom: 48px;
+}
+
+.text-module.with-lists.downloads .text-module-prose ul {
+  margin-bottom: 30px;
+}

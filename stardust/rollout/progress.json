@@ -1,0 +1,1336 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "phase": "C-deliver",
+    "startedAt": "2026-10-08T11:57:32Z",
+    "order": [
+      "foundation",
+      "archetype:impressum",
+      "cluster:impressum",
+      "archetype:privatkunden-strom-haus-baustromanschluss",
+      "cluster:privatkunden-strom-haus-baustromanschluss",
+      "archetype:ueber-uns-unternehmen",
+      "cluster:ueber-uns-unternehmen",
+      "archetype:privatkunden-strom-stromtarife",
+      "cluster:privatkunden-strom-stromtarife",
+      "archetype:index",
+      "cluster:index",
+      "gate-all",
+      "final",
+      "fix-wave-15:index"
+    ]
+  },
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "*"
+      ],
+      "pages": 2,
+      "blocks": 2,
+      "startedAt": "2026-10-08T11:57:32Z",
+      "endedAt": "2026-10-08T12:16:25.753Z",
+      "commit": "a625950",
+      "verdict": "foundation: nav+footer live (preview 200/200, live 200/200), lint clean, blocks header+footer, files 19",
+      "gates": {
+        "note": "shell gate (pixel both widths, crop-compare header/footer bands, chrome parity) runs on the first archetype page (impressum) in unit archetype:impressum — no page existed on the origin at C0 end"
+      },
+      "knownGaps": [
+        "mega-menu teasers not authored",
+        "level-2 column breaks approximated",
+        "search static (no backend)",
+        "contrast toggle class only",
+        "newsletter CTA → /newsletter (E2 repoint)",
+        "footer Cookies javascript: link dropped",
+        "fax plain text",
+        "mobile Suchen quick-link omitted",
+        "legal targets /agbs /barrierefreiheit uncaptured (E2)"
+      ],
+      "tokenSource": "--token-file /shared/stardust-replica/.adobe-ims-token (no .env in repo)"
+    },
+    "archetype:impressum": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "impressum"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T12:19:51.310Z",
+      "endedAt": "2026-10-08T12:58:05.422Z",
+      "verdict": "archetype:impressum: page 1/1 live, blocks 2, gate 1440 2.69% / 360 4.8%, Δh 25/1, clipped 0, content 0, header band 1.85%/2.52%, footer band 1.50%/2.68%, chrome deltas 38/32, rounds 1, requests 2",
+      "commit": "a54123c",
+      "gates": {
+        "360": {
+          "pixelPct": 4.8,
+          "heightDelta": 1,
+          "clipped": 0,
+          "contentMissing": 0,
+          "contentHidden": 0,
+          "verdict": "PASS",
+          "headerBandPct": 2.52,
+          "footerBandPct": 2.68,
+          "chromeDeltas": 32,
+          "run": "stardust/replica/gates/all-360/runs/2026-10-08T12-54-26-596Z-impressum.json"
+        },
+        "1440": {
+          "pixelPct": 2.69,
+          "heightDelta": 25,
+          "clipped": 0,
+          "contentMissing": 0,
+          "contentHidden": 0,
+          "verdict": "PASS",
+          "headerBandPct": 1.85,
+          "footerBandPct": 1.5,
+          "chromeDeltas": 38,
+          "run": "stardust/replica/gates/all-1440/runs/2026-10-08T12-54-20-773Z-impressum.json"
+        },
+        "shellGate": "1440 header/footer PASS; 360 header 2.52% / footer 2.68% over the 2% band bar → 2 lines queued in stardust/rollout/foundation-requests.md for C-final"
+      },
+      "note": "report: stardust/rollout/units/archetype-impressum.report.md; blocks breadcrumb, text-additions; preview https://main--dc15da58--aemcoder.aem.page/impressum live 200"
+    },
+    "cluster:impressum": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "impressum"
+      ],
+      "pages": 1,
+      "slugs": [
+        "datenschutz"
+      ],
+      "startedAt": "2026-10-08T13:02:24.460Z",
+      "endedAt": "2026-10-08T13:35:28.086Z",
+      "verdict": "cluster:impressum: pages 1/1 live, blocks 2, gate 1440 3.91% / 360 5.13%, Δh +49/-29, clipped 0, content 0, rounds 1, requests 0",
+      "commit": "ad00a23",
+      "gates": {
+        "360": {
+          "pixelPct": 5.13,
+          "heightDelta": -29,
+          "originHeight": 43173,
+          "clipped": 0,
+          "contentMissing": 0,
+          "contentHidden": 0,
+          "verdict": "PASS",
+          "run": "stardust/replica/gates/all-360/runs/2026-10-08T13-33-26-939Z-datenschutz.json"
+        },
+        "1440": {
+          "pixelPct": 3.91,
+          "heightDelta": 49,
+          "originHeight": 21031,
+          "clipped": 0,
+          "contentMissing": 0,
+          "contentHidden": 0,
+          "verdict": "PASS",
+          "run": "stardust/replica/gates/all-1440/runs/2026-10-08T13-32-12-352Z-datenschutz.json"
+        }
+      },
+      "note": "report: stardust/rollout/units/cluster-impressum.report.md; datenschutz live 200; static template complete (2/2 pages)"
+    },
+    "archetype:privatkunden-strom-haus-baustromanschluss": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "privatkunden-strom-haus-baustromanschluss"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T13:39:54.897Z",
+      "note": "report: stardust/rollout/units/archetype-privatkunden-strom-haus-baustromanschluss.report.md; served path normalised to /privatkunden/strom/haus-baustromanschluss (redirects.tsv); no siblings → cluster unit is re-verify only",
+      "endedAt": "2026-10-08T14:06:52.750Z",
+      "verdict": "archetype:privatkunden-strom-haus-baustromanschluss: page 1/1 live, blocks 3, gate 1440 5.21% / 360 1.86%, Δh 21/0, clipped 0, content 0, header band 9.01%/2.52%, footer band 4.28%/8.8%, chrome deltas 26/26, rounds 2, requests 1",
+      "commit": "051aa95",
+      "gates": {
+        "360": {
+          "pixelPct": 1.86,
+          "heightDelta": 0,
+          "clipped": 0,
+          "contentMissing": 0,
+          "contentHidden": 0,
+          "verdict": "PASS",
+          "maskedRows": 750,
+          "headerBandPct": 2.52,
+          "footerBandPct": 8.8,
+          "chromeDeltas": 26,
+          "run": "stardust/replica/gates/all-360/runs/2026-10-08T14-03-14-142Z-privatkunden-strom-haus-baustromanschluss.json"
+        },
+        "1440": {
+          "pixelPct": 5.21,
+          "heightDelta": 21,
+          "clipped": 0,
+          "contentMissing": 0,
+          "contentHidden": 0,
+          "verdict": "PASS",
+          "headerBandPct": 9.01,
+          "footerBandPct": 4.28,
+          "chromeDeltas": 26,
+          "run": "stardust/replica/gates/all-1440/runs/2026-10-08T14-03-12-839Z-privatkunden-strom-haus-baustromanschluss.json"
+        },
+        "shellGate": "1440 header 9.01% = live active-channel nav highlight (foundation request 3); 360 header/footer = requests 1-2; footer bands inflated by the undismissable moin.ai widget (masked)"
+      }
+    },
+    "cluster:privatkunden-strom-haus-baustromanschluss": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "privatkunden-strom-haus-baustromanschluss"
+      ],
+      "pages": 0,
+      "slugs": [],
+      "startedAt": "2026-10-08T14:07:40.253Z",
+      "note": "re-verify only; served path /privatkunden/strom/haus-baustromanschluss (source path with underscores recorded in stardust/redirects.tsv) — the roster gate-all and the done-check must use the served path",
+      "endedAt": "2026-10-08T14:07:40.290Z",
+      "verdict": "cluster:privatkunden-strom-haus-baustromanschluss: pages 0/0 siblings (template has one page); archetype re-verified: preview 200, live 200, one h1, gate rows 1440 5.21% PASS / 360 1.86% PASS present under gates/all-<w>/privatkunden-strom-haus-baustromanschluss; rounds 0, requests 0",
+      "commit": "051aa95",
+      "gates": {
+        "360": {
+          "pixelPct": 1.86,
+          "heightDelta": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixelPct": 5.21,
+          "heightDelta": 21,
+          "verdict": "PASS"
+        }
+      }
+    },
+    "archetype:ueber-uns-unternehmen": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "ueber-uns-unternehmen"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T14:09:36.170Z",
+      "note": "report: stardust/rollout/units/archetype-ueber-uns-unternehmen.report.md; served path /ueber-uns/unternehmen (redirects.tsv); photo-teasers authored here (index reuses it); no siblings → cluster unit is re-verify only",
+      "endedAt": "2026-10-08T14:49:49.222Z",
+      "verdict": "archetype:ueber-uns-unternehmen: page 1/1 live, blocks 3, gate 1440 5.05% / 360 4.23%, Δh 22/3, clipped 0, content 0, header band 6.49%/2.52%, footer band 1.72%/2.57%, chrome deltas 25/32, rounds 3, requests 0",
+      "commit": "bbf4006",
+      "gates": {
+        "360": {
+          "pixelPct": 4.23,
+          "heightDelta": 3,
+          "clipped": 0,
+          "contentMissing": 0,
+          "contentHidden": 0,
+          "unitsOff": 0,
+          "maskedRows": 1497,
+          "verdict": "PASS",
+          "headerBandPct": 2.52,
+          "footerBandPct": 2.57,
+          "chromeDeltas": 32,
+          "run": "stardust/replica/gates/all-360/runs/2026-10-08T14-47-07-148Z-ueber-uns-unternehmen.json"
+        },
+        "1440": {
+          "pixelPct": 5.05,
+          "heightDelta": 22,
+          "clipped": 0,
+          "contentMissing": 0,
+          "contentHidden": 0,
+          "unitsOff": 0,
+          "verdict": "PASS",
+          "headerBandPct": 6.49,
+          "footerBandPct": 1.72,
+          "chromeDeltas": 25,
+          "run": "stardust/replica/gates/all-1440/runs/2026-10-08T14-46-52-498Z-ueber-uns-unternehmen.json"
+        },
+        "shellGate": "1440 header 6.49% = active-channel highlight (already requested); 360 header/footer = requests 1-2; no new requests"
+      }
+    },
+    "cluster:ueber-uns-unternehmen": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "ueber-uns-unternehmen"
+      ],
+      "pages": 0,
+      "slugs": [],
+      "startedAt": "2026-10-08T14:50:20.966Z",
+      "note": "re-verify only; served path /ueber-uns/unternehmen (source /ueber_uns/unternehmen in stardust/redirects.tsv)",
+      "endedAt": "2026-10-08T14:50:21.004Z",
+      "verdict": "cluster:ueber-uns-unternehmen: pages 0/0 siblings (template has one page); archetype re-verified: preview 200, live 200, one h1, gate rows 1440 5.05% PASS / 360 4.23% PASS present under gates/all-<w>/ueber-uns-unternehmen; rounds 0, requests 0",
+      "commit": "bbf4006",
+      "gates": {
+        "360": {
+          "pixelPct": 4.23,
+          "heightDelta": 3,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixelPct": 5.05,
+          "heightDelta": 22,
+          "verdict": "PASS"
+        }
+      }
+    },
+    "archetype:privatkunden-strom-stromtarife": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "privatkunden-strom-stromtarife"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T14:52:46.868Z",
+      "note": "done-with-residuals (coordinator decision 2026-10-08T17:05Z, after fix wave 2's 3 rounds): 1440 passes the pixel bar; 360 16.43% residual = stacked column above teaser card 2 +40 px (channel-products footnotes +38) and the Ihr-Wechsel/eye-catcher/banking stack −69 px — needs live per-element 360 boxes; banking app badges media 404 on preview (media-ledger lacks 0760988ADCD443CBBDEBBAFF1339114A) → re-upload at cluster:privatkunden-strom-stromtarife; static form tier + nobr/wbr are probe asymmetries. Coverage row = failed until gate-all. Siblings inherit the encoder: next = migrate:render privatkunden-strom-stromtarife (teag-strom-easie, ersatzversorgung), then cluster.",
+      "endedAt": "2026-10-08T16:55:17.507Z",
+      "verdict": "archetype:privatkunden-strom-stromtarife: page 1/1 live, blocks 9, gate 1440 8.06% / 360 16.43%, Δh 60/70, clipped 0, content MISSING 1/3 (probe asymmetries + 2 badge media 404), header band 9.01%/2.52%, footer band 15.39%/6.88%, chrome deltas 39/32, rounds 3+3, requests 3 (no new) — done-with-residuals after fix wave 2",
+      "commit": "660fb54",
+      "gates": {
+        "360": {
+          "pixelPct": 16.43,
+          "heightDelta": 70,
+          "clipped": 0,
+          "contentMissing": 3,
+          "contentHidden": 0,
+          "unitsOff": 3,
+          "unitsMissing": 8,
+          "maskedRows": 4920,
+          "verdict": "FAIL (residual)",
+          "headerBandPct": 2.52,
+          "footerBandPct": 6.88,
+          "chromeDeltas": 32,
+          "run": "stardust/replica/gates/all-360/runs/2026-10-08T16-52-06-850Z-privatkunden-strom-stromtarife.json"
+        },
+        "1440": {
+          "pixelPct": 8.06,
+          "heightDelta": 60,
+          "clipped": 0,
+          "contentMissing": 1,
+          "contentHidden": 0,
+          "unitsOff": 3,
+          "unitsMissing": 8,
+          "verdict": "PASS-pixel; content/units = named probe asymmetries",
+          "headerBandPct": 9.01,
+          "footerBandPct": 15.39,
+          "chromeDeltas": 39,
+          "run": "stardust/replica/gates/all-1440/runs/2026-10-08T16-48-31-195Z-privatkunden-strom-stromtarife.json"
+        },
+        "shellGate": "no new requests; 1440 footer band inflated by moin.ai widget + scroll-up over the live footer"
+      }
+    },
+    "cluster:privatkunden-strom-stromtarife": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "privatkunden-strom-stromtarife"
+      ],
+      "pages": 2,
+      "slugs": [
+        "privatkunden-strom-stromtarife-teag-strom-easie",
+        "privatkunden-strom-ersatzversorgung"
+      ],
+      "startedAt": "2026-10-08T17:08:36.208Z",
+      "note": "Closed 2026-10-08T19:05Z as done-with-residuals after the program-360 fix wave (3 rounds, shared-block CSS, foundation unchanged). Residuals: program-360 report § Residuals after round 3 (ersatz accordion→text rhythm, easie eye-catcher column overshoot −31, strom 360 cards 3/4 band, easie tariff block content height, gif frame, cta-band text wrap). No further fix wave; the roster gate-all re-gates ersatz on the shipped round-2 CSS. NEXT: archetype:index (brief stardust/rollout/units/archetype-index-brief.md), cluster:index (0 siblings), gate-all, final.",
+      "endedAt": "2026-10-08T19:04:34.590Z",
+      "verdict": "cluster:privatkunden-strom-stromtarife: pages 2/2 live+published (3/3 program pages live), blocks 8, gate 1440 8.06%/14.21%/7.88% / 360 12.88%/18.42%/12.62% (stromtarife/easie/ersatz), clipped 0, content 0 (named asymmetries), rounds 3 + program-360 fix wave 3, requests 0 — done-with-residuals (cap reached; ersatz 360 re-gate of the shipped round-2 CSS pending in gate-all)",
+      "commit": "aa91bc6",
+      "gates": {
+        "privatkunden-strom-stromtarife": {
+          "360": {
+            "pixelPct": 12.88,
+            "heightDelta": -15,
+            "clipped": 0,
+            "contentMissing": 3,
+            "unitsOff": 22,
+            "unitsMissing": 8,
+            "verdict": "FAIL (residual)",
+            "run": "stardust/replica/gates/all-360/runs/2026-10-08T19-02-10-661Z-privatkunden-strom-stromtarife.json"
+          },
+          "1440": {
+            "pixelPct": 8.06,
+            "heightDelta": 60,
+            "clipped": 0,
+            "contentMissing": 1,
+            "unitsOff": 3,
+            "unitsMissing": 8,
+            "verdict": "pixel PASS; content/units = named probe asymmetries",
+            "run": "stardust/replica/gates/all-1440/runs/2026-10-08T18-54-24-704Z-privatkunden-strom-stromtarife.json"
+          }
+        },
+        "privatkunden-strom-stromtarife-teag-strom-easie": {
+          "360": {
+            "pixelPct": 18.42,
+            "heightDelta": 61,
+            "clipped": 0,
+            "contentMissing": 0,
+            "unitsOff": 12,
+            "verdict": "FAIL (residual)",
+            "run": "stardust/replica/gates/all-360/runs/2026-10-08T19-02-10-661Z-privatkunden-strom-stromtarife.json"
+          },
+          "1440": {
+            "pixelPct": 14.21,
+            "heightDelta": -31,
+            "clipped": 0,
+            "contentMissing": 0,
+            "unitsOff": 8,
+            "verdict": "FAIL (residual)",
+            "run": "stardust/replica/gates/all-1440/runs/2026-10-08T18-54-24-704Z-privatkunden-strom-stromtarife.json"
+          }
+        },
+        "privatkunden-strom-ersatzversorgung": {
+          "360": {
+            "pixelPct": 12.62,
+            "heightDelta": -29,
+            "clipped": 0,
+            "contentMissing": 0,
+            "unitsOff": 23,
+            "verdict": "FAIL (residual; shipped CSS = round 2)",
+            "run": "stardust/replica/gates/all-360/runs/2026-10-08T18-40-40-200Z-privatkunden-strom-stromtarife.json"
+          },
+          "1440": {
+            "pixelPct": 7.88,
+            "heightDelta": 10,
+            "clipped": 0,
+            "contentMissing": 0,
+            "unitsOff": 2,
+            "verdict": "pixel PASS; units 2 named asymmetries (shipped CSS = round 2)",
+            "run": "stardust/replica/gates/all-1440/runs/2026-10-08T18-40-16-296Z-privatkunden-strom-stromtarife.json"
+          }
+        },
+        "badges": "stromtarife banking app badges uploaded + re-PUT (archetype media residual closed)",
+        "fixWave": "program-360 (3 rounds, session 8): 360 16.43→12.88 / 19.9→18.42 / 19.42→12.62; easie 1440 15.3→14.21; report stardust/rollout/units/cluster-privatkunden-strom-stromtarife-program360.report.md"
+      }
+    },
+    "archetype:index": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "index"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-08T19:05:00.063Z",
+      "note": "Closed 2026-10-08T19:48Z as done-with-residuals (coordinator decision): round 2 fixed the only defect (360 horizontal overflow +66 px → scrollWidth 360) and the siegel gap; the remaining hot bands are live content drift (themes list, social wall posts, events dates — archetype-record residual rows flagged for delivery) and the moin.ai footer region; the prototype itself gated at 21.65/30.99 with the same causes, so a 3rd round cannot move the number under the bar — not spent. Report stardust/rollout/units/archetype-index.report.md (§ Residuals, § Notes for the final unit). NEXT: cluster:index (0 siblings, re-verify only), gate-all (roster, --skip-existing --recapture-eds; origin / needs the consent re-shoot if recaptured), final (foundation-requests.md applied once, check, C-deliver end + journal section).",
+      "verdict": "archetype:index: page 1/1 live+published, blocks 11 (5 new: hero-slider, info-boxes, news-posts, social-wall, events), gate 1440 32.96% / 360 33.42%, Δh -141/+382, clipped 0, overflow 0, content 85/79 (≈70 = live drift), header band 1.84%/2.52%, footer band 15.41%/12.27%, chrome deltas 38/32, rounds 2, requests 0 — done-with-residuals",
+      "commit": "df47b3b",
+      "gates": {
+        "360": {
+          "pixelPct": 33.42,
+          "heightDelta": 382,
+          "clipped": 0,
+          "contentMissing": 79,
+          "contentHidden": 0,
+          "unitsOff": 35,
+          "unitsMissing": 19,
+          "maskedRows": 4500,
+          "scrollWidth": 360,
+          "verdict": "FAIL (residual; horizontal overflow fixed in round 2)",
+          "headerBandPct": 2.52,
+          "footerBandPct": 12.27,
+          "chromeDeltas": 32,
+          "run": "stardust/replica/gates/all-360/runs/2026-10-08T19-44-35-631Z-index.json"
+        },
+        "1440": {
+          "pixelPct": 32.96,
+          "heightDelta": -141,
+          "clipped": 0,
+          "contentMissing": 85,
+          "contentHidden": 0,
+          "unitsOff": 49,
+          "unitsMissing": 17,
+          "verdict": "FAIL (residual: ~70 of 85 missing + the hot bands = live content drift of themes, social wall, events)",
+          "headerBandPct": 1.84,
+          "footerBandPct": 15.41,
+          "chromeDeltas": 38,
+          "run": "stardust/replica/gates/all-1440/runs/2026-10-08T19-43-53-969Z-index.json"
+        },
+        "shellGate": "1440 header 1.84% PASS; 360 header 2.52% = request 1; footer bands 15.41/12.27 = moin.ai widget + drifted events block; no new requests"
+      },
+      "endedAt": "2026-10-08T19:47:13.150Z"
+    },
+    "cluster:index": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "index"
+      ],
+      "pages": 0,
+      "slugs": [],
+      "startedAt": "2026-10-08T19:49:25.879Z",
+      "note": "re-verify only (template has one page, 0 siblings); served path / (index); archetype:index recorded done-with-residuals — the roster gate-all re-measures it",
+      "endedAt": "2026-10-08T19:49:25.938Z",
+      "verdict": "cluster:index: pages 0/0 siblings (template has one page); archetype re-verified: preview 200, live 200, one h1, gate rows 1440 32.96% FAIL (residual: live content drift — themes list, social wall, event dates) / 360 33.42% FAIL (residual; overflow fixed, scrollWidth 360) present under gates/all-<w>/index; rounds 0, requests 0",
+      "gates": {
+        "360": {
+          "pixelPct": 33.42,
+          "heightDelta": 382,
+          "verdict": "FAIL (residual, documented in archetype:index)"
+        },
+        "1440": {
+          "pixelPct": 32.96,
+          "heightDelta": -141,
+          "verdict": "FAIL (residual, documented in archetype:index)"
+        }
+      },
+      "commit": "635ed06"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-10-08T20:01:47.966Z",
+      "note": "roster published-origin gate over the 8 pages, --skip-existing --recapture-eds (foundation requests applied first), widths sequential 1440 then 360; eds host = preview",
+      "endedAt": "2026-10-08T20:20:22.999Z",
+      "verdict": "gate-all: roster 8/8 measured at 1440 and 360 (eds recaptured after the foundation requests), 4 PASS / 4 FAIL per width — PASS impressum 2.57/1.51, datenschutz 3.91/5.1, haus-baustromanschluss 4.49/1.86, ueber-uns-unternehmen 5.05/4.25; FAIL stromtarife 7.95 (content MISSING 1, units off 3 missing 8)/12.83, teag-strom-easie 11.2/19.45, ersatzversorgung 7.6 (units off 2)/12.66, index 32.96/33.09 (live drift, documented); clipped 0 everywhere, height within 5 % everywhere; coverage rows updated (--gate ×2)",
+      "gates": {
+        "360": {
+          "pass": 4,
+          "fail": 4,
+          "failPixel": 4,
+          "failContent": 2,
+          "failUnits": 4,
+          "summary": "stardust/replica/gates/all-360/summary.json"
+        },
+        "1440": {
+          "pass": 4,
+          "fail": 4,
+          "failPixel": 2,
+          "failContent": 2,
+          "failUnits": 4,
+          "summary": "stardust/replica/gates/all-1440/summary.json"
+        }
+      },
+      "commit": "6dceebe"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "endedAt": "2026-10-08T20:21:37.913Z",
+      "verdict": "final: foundation-freeze check unchanged (18 files); 3 foundation requests applied once and re-frozen; coverage --gate ×2 written; C-deliver end + journal section",
+      "commit": "1c4a5e7"
+    },
+    "fix-wave-3:program": {
+      "status": "done",
+      "startedAt": "2026-10-08T21:03:12.715Z",
+      "endedAt": "2026-10-08T21:45:37.122Z",
+      "gates": {
+        "360": {
+          "privatkunden-strom-stromtarife": {
+            "pct": 12.68,
+            "dh": -64,
+            "clipped": 0,
+            "content": 1,
+            "unitsContaminated": true
+          },
+          "privatkunden-strom-stromtarife-teag-strom-easie": {
+            "pct": 16.52,
+            "dh": 132,
+            "clipped": 0,
+            "content": 0
+          },
+          "privatkunden-strom-ersatzversorgung": {
+            "pct": 11.88,
+            "dh": 31,
+            "clipped": 0,
+            "content": 0
+          }
+        },
+        "1440": {
+          "privatkunden-strom-stromtarife": {
+            "pct": 8.3,
+            "dh": -5,
+            "clipped": 0,
+            "content": 1,
+            "unitsOff": 3,
+            "unitsMissing": 8
+          },
+          "privatkunden-strom-stromtarife-teag-strom-easie": {
+            "pct": 11.2,
+            "dh": -1,
+            "clipped": 0,
+            "content": 0,
+            "unitsOff": 8
+          },
+          "privatkunden-strom-ersatzversorgung": {
+            "pct": 7.6,
+            "dh": 10,
+            "clipped": 0,
+            "content": 0,
+            "unitsOff": 2
+          }
+        }
+      },
+      "verdict": "FAIL residuals — 1440: stromtarife 8.3% Δh -5 (content 1, units), easie 11.2%, ersatz 7.6% (units); 360: stromtarife 12.68% Δh -64, easie 16.52% Δh 132, ersatz 11.88% Δh 31; clipped 0; 2 measured rounds + 1 voided (consent scrim)",
+      "commit": null,
+      "note": "report stardust/rollout/units/fix-wave-3-program.report.md (7 notes for the next author: sequential widths, consent re-shoot, the settled-vs-fresh live layout lead, picture-credits paint, overrides.json for the two probe asymmetries, easie/ersatz bands, roster summary refresh); next unit fix-wave-4:program or fix-wave-3:index",
+      "recordedAt": "2026-10-08T21:00:53.763Z"
+    },
+    "fix-wave-3:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-08T21:52:20.316Z",
+      "startedAt": "2026-10-08T21:52:20.317Z",
+      "note": "FAIL; residuals: themes band 3500–5000 @1440 (typography/row heights), +260px offset above themes (siegel row / tab docking / columns-2 padding not touched), footer/events band, 360 2000–3000 / 6000–8000 / 14000–16000; content MISSING are JS controls + encoder link flattening; report stardust/rollout/units/fix-wave-3-index.report.md; roster summary.json untouched (no --only coverage) — coordinator runs update-coverage",
+      "endedAt": "2026-10-08T22:20:31.864Z",
+      "verdict": "FAIL residuals — 1440: 29.17% Δh +375 clipped 0 content MISSING 67 units off 50/missing 14 (rounds 3; from 32.96% / MISSING 85); 360: 26.84% Δh -492 clipped 0 content MISSING 71 units off 39/missing 15 (round 1; from 33.09% / MISSING 80); content refreshed from the live source 21:55Z (themes 1/3 cards, social wall 2/8 posts + 45 image ids), photo-teasers themes variant re-laid @>=1024, 1440 masks.json (moin.ai); residual MISSING = JS carousel controls 49/34, postback day links 7, card-anchor pairing 3, flattened post links 6",
+      "commit": "783825c",
+      "gates": {
+        "360": {
+          "index": {
+            "pct": 26.84,
+            "dh": -492,
+            "clipped": 0,
+            "content": 71,
+            "unitsOff": 39,
+            "unitsMissing": 15,
+            "rounds": 1,
+            "masked": 4488
+          }
+        },
+        "1440": {
+          "index": {
+            "pct": 29.17,
+            "dh": 375,
+            "clipped": 0,
+            "content": 67,
+            "unitsOff": 50,
+            "unitsMissing": 14,
+            "rounds": 3,
+            "masked": 2250
+          }
+        }
+      }
+    },
+    "fix-wave-4:program": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-08T22:22:43.168Z",
+      "startedAt": "2026-10-08T22:22:43.168Z",
+      "note": "FAIL residuals: easie 360 16.52% (tariff-calculator ~60-70 px short at 360, band 1000-1500) / 1440 11.2%; ersatz 360 11.88% (bands 2500-3000, 6500-7000 footer+chat), units off 2 both widths; stromtarife content/units are probe asymmetries covered by overrides.json at both widths (page-level override, written only with pixel/Δh passing). Report: stardust/rollout/units/fix-wave-4-program.report.md",
+      "endedAt": "2026-10-08T22:43:32.878Z",
+      "verdict": "1440 stromtarife 8.3% Δh -5 clipped 0 content MISSING 1 units off 3/missing 8 (both documented probe asymmetries, override) / easie 11.2% Δh -1 units off 8 FAIL / ersatz 7.6% Δh +10 units off 2 FAIL; 360 stromtarife 9.07% Δh +55 clipped 0 (from 12.68 / -64; same asymmetries, override) / easie 16.52% Δh +132 FAIL (untouched) / ersatz 11.88% Δh +31 units off 2 FAIL (untouched); rounds 3 (360, 1440, 360)",
+      "commit": "8c2422a",
+      "gates": {
+        "360": {
+          "privatkunden-strom-stromtarife": {
+            "pct": 9.07,
+            "heightDelta": 55,
+            "clipped": 0,
+            "content": "MISSING 1",
+            "units": "off 3 missing 8",
+            "override": true,
+            "pass": false
+          },
+          "privatkunden-strom-stromtarife-teag-strom-easie": {
+            "pct": 16.52,
+            "heightDelta": 132,
+            "clipped": 0,
+            "pass": false
+          },
+          "privatkunden-strom-ersatzversorgung": {
+            "pct": 11.88,
+            "heightDelta": 31,
+            "clipped": 0,
+            "units": "off 2",
+            "pass": false
+          }
+        },
+        "1440": {
+          "privatkunden-strom-stromtarife": {
+            "pct": 8.3,
+            "heightDelta": -5,
+            "clipped": 0,
+            "content": "MISSING 1",
+            "units": "off 3 missing 8",
+            "override": true,
+            "pass": false
+          },
+          "privatkunden-strom-stromtarife-teag-strom-easie": {
+            "pct": 11.2,
+            "heightDelta": -1,
+            "clipped": 0,
+            "units": "off 8",
+            "pass": false
+          },
+          "privatkunden-strom-ersatzversorgung": {
+            "pct": 7.6,
+            "heightDelta": 10,
+            "clipped": 0,
+            "units": "off 2",
+            "pass": false
+          }
+        }
+      }
+    },
+    "gate-all:refresh-1": {
+      "status": "done",
+      "kind": "final",
+      "recordedAt": "2026-10-08T22:44:48.100Z",
+      "startedAt": "2026-10-08T22:44:48.100Z",
+      "note": "summary.json refreshed for both widths after fix-wave-3:index and fix-wave-4:program; next units: fix-wave-5:program (easie 360 tariff-calculator ~60-70 px short, band 1000-1500; ersatz 360 2500-3000 + units off 2), fix-wave-4:index (themes typography/row heights, siegel row, tab docking, columns-2 padding; MISSING = carousel controls / postback links / flattened post links)",
+      "endedAt": "2026-10-08T23:03:22.345Z",
+      "verdict": "roster gate-all --skip-existing --recapture-eds: 360 4 PASS + 1 override (stromtarife 9.07% Δh 55) = 5 delivered, FAIL index 26.84% / easie 16.52% / ersatz 11.88%; 1440 4 PASS + 1 override (stromtarife 8.3% Δh -5) = 5 delivered, FAIL index 29.17% / easie 11.2% / ersatz 7.6% (units off 2); clipped 0 everywhere; update-coverage --gate both widths",
+      "gates": {
+        "360": {
+          "pass": 4,
+          "override": 1,
+          "fail": 3
+        },
+        "1440": {
+          "pass": 4,
+          "override": 1,
+          "fail": 3
+        }
+      }
+    },
+    "fix-wave-5:program": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-08T23:06:13.126Z",
+      "startedAt": "2026-10-08T23:06:13.126Z",
+      "note": "Residuals: ersatz 360 bands 2500-3000 (23 %, unmeasured) and the 68 px under the second columns-2 card (cards unit-exact now), footer band (request queued); ersatz 1440 units off 1 = link 'zu den stromtarifen' dw -7 (font-run width); easie 1440 11.32 % spread over 1000-2000 (paint) and 3000-5096. Report: stardust/rollout/units/fix-wave-5-program.report.md",
+      "endedAt": "2026-10-08T23:23:57.766Z",
+      "verdict": "easie 360: 6.81 % Δh +60 clip 0 content 0/0 units off 0 PASS; easie 1440: 11.32 % Δh -1 clip 0 content 0/0 units off 0 FAIL (pixel); ersatz 360: 11.17 % Δh +68 clip 0 content 0/0 units off 1 FAIL (pixel+units); ersatz 1440: 7.6 % Δh +10 clip 0 content 0/0 units off 1 FAIL (units: link dw -7); stromtarife untouched; 3 rounds used",
+      "gates": {
+        "privatkunden-strom-stromtarife-teag-strom-easie": {
+          "360": {
+            "pixel": 6.81,
+            "dh": 60,
+            "clip": 0,
+            "missing": 0,
+            "hidden": 0,
+            "unitsOff": 0,
+            "pass": true
+          },
+          "1440": {
+            "pixel": 11.32,
+            "dh": -1,
+            "clip": 0,
+            "missing": 0,
+            "hidden": 0,
+            "unitsOff": 0,
+            "pass": false
+          }
+        },
+        "privatkunden-strom-ersatzversorgung": {
+          "360": {
+            "pixel": 11.17,
+            "dh": 68,
+            "clip": 0,
+            "missing": 0,
+            "hidden": 0,
+            "unitsOff": 1,
+            "pass": false
+          },
+          "1440": {
+            "pixel": 7.6,
+            "dh": 10,
+            "clip": 0,
+            "missing": 0,
+            "hidden": 0,
+            "unitsOff": 1,
+            "pass": false
+          }
+        }
+      }
+    },
+    "fix-wave-4:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-08T23:24:54.299Z",
+      "startedAt": "2026-10-08T23:24:54.300Z",
+      "note": "Residuals: social wall −357/−597 px (live inner boxes unread), events .button geometry vs live link-button (band 8000–8380 51 %), product-teasers 1500–2000 16.5 %, themes 4000–5000, 360 bands 2000–3000 / 5500–8000 / 14500–15000; encoder fixes (post links, card anchors) and overrides not reached. Report stardust/rollout/units/fix-wave-4-index.report.md",
+      "endedAt": "2026-10-08T23:45:39.019Z",
+      "verdict": "1440: pixel 22.14 % FAIL, Δh +440 (pass, 5 % = 441), clipped 0, content MISSING 69, units off 47 / missing 14; 360: pixel 25.77 % FAIL, Δh −99 (pass), clipped 0, content MISSING 57, units off 36 / missing 15; 2 of 3 rounds used",
+      "gates": {
+        "360": {
+          "pixel": 25.77,
+          "dh": -99,
+          "clipped": 0,
+          "missing": 57,
+          "unitsOff": 36,
+          "unitsMissing": 15,
+          "pass": false
+        },
+        "1440": {
+          "pixel": 22.14,
+          "dh": 440,
+          "clipped": 0,
+          "missing": 69,
+          "unitsOff": 47,
+          "unitsMissing": 14,
+          "pass": false
+        },
+        "rounds": 2
+      }
+    },
+    "gate-all:refresh-2": {
+      "status": "done",
+      "kind": "gate-all",
+      "recordedAt": "2026-10-08T23:46:42.871Z",
+      "startedAt": "2026-10-08T23:46:42.871Z",
+      "note": "coverage updated from both summaries; next units fix-wave-6:program (brief written: ersatz 360 band 2500-3000 + 68 px under card 2, units dw -7 glyph width, easie 1440 crop 3500-4000) and fix-wave-5:index (brief written: social wall + events button + product-teasers padding in one round)",
+      "endedAt": "2026-10-09T00:04:50.525Z",
+      "verdict": "roster both widths after fix-wave-5:program + fix-wave-4:index: 1440 5 delivered (4 pass + stromtarife override) / 3 failed (index 22.14 %, easie 11.32 %, ersatz 7.6 % units off 1); 360 6 delivered (5 pass + stromtarife override; easie 6.81 % now passes) / 2 failed (index 25.77 %, ersatz 11.17 % units off 1); clipped 0, |Δh| ≤ 5 % everywhere",
+      "gates": {
+        "360": {
+          "pass": 5,
+          "override": 1,
+          "fail": 2
+        },
+        "1440": {
+          "pass": 4,
+          "override": 1,
+          "fail": 3
+        }
+      }
+    },
+    "fix-wave-6:program": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T00:05:56.810Z",
+      "startedAt": "2026-10-09T00:05:56.810Z",
+      "note": "Residuals @360: text-module 1 −22 px (2173 vs live 2195), faq topic block +22 (155 vs 133), text-module 2 −6, footer −38 frozen, units dw −6 glyph width; columns-2 padding-top 198→148 after faq regained its live 50 px bottom. Report stardust/rollout/units/fix-wave-6-program.report.md",
+      "endedAt": "2026-10-09T00:16:39.849Z",
+      "verdict": "360: pixel 10.43 %, Δh +60, clipped 0, content 0, units off 1 — FAIL (pixel 0.43 pt over); 2 rounds used (11.17→10.47→10.43); 1440 untouched (rules all @≤1024), not gated",
+      "gates": {
+        "privatkunden-strom-ersatzversorgung": {
+          "360": {
+            "pixel": 10.43,
+            "dh": 60,
+            "clipped": 0,
+            "content": 0,
+            "unitsOff": 1,
+            "verdict": "FAIL",
+            "rounds": 2
+          },
+          "1440": {
+            "pixel": 7.6,
+            "dh": 10,
+            "unitsOff": 1,
+            "verdict": "FAIL",
+            "note": "not gated this wave (refresh-2 numbers)"
+          }
+        }
+      }
+    },
+    "measure:index": {
+      "status": "done",
+      "kind": "measure",
+      "recordedAt": "2026-10-09T00:18:09.866Z",
+      "startedAt": "2026-10-09T00:18:09.867Z",
+      "note": "measurements at stardust/.work/rollout/fix-wave-5-index/measurements.md",
+      "endedAt": "2026-10-09T00:23:05.048Z",
+      "verdict": "measured social wall, events button, product-teasers at 1440 and 360 (live vs served, 2 runs/width); social wall -417 px is the lead"
+    },
+    "fix-wave-5:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T00:23:57.141Z",
+      "startedAt": "2026-10-09T00:23:57.141Z",
+      "note": "round 1 pushed (124da1e): 1440 16.19 % Δh +68 (gain kept); 360 min-height 481 overshot (26.92 % Δh −823) and was reset to 0 at ≤1024px (pre-round state) in the closing commit, ungated at 360 after the reset — round 2 starts with the 360 post ladder",
+      "endedAt": "2026-10-09T00:33:50.264Z",
+      "verdict": "round 1 CSS pushed from measure:index facts (social wall, events button); NOT gated — next session: gate-all --only index per width, then rounds 2–3"
+    },
+    "gate:index-r1": {
+      "status": "done",
+      "kind": "gate",
+      "recordedAt": "2026-10-09T00:26:19.576Z",
+      "startedAt": "2026-10-09T00:26:19.577Z",
+      "note": "runs/2026-10-09T00-28-48-759Z-index.json; next: gate 360, then rounds 2–3 per fix-wave-5-index-brief.md",
+      "endedAt": "2026-10-09T00:29:09.966Z",
+      "verdict": "index 1440 after fix-wave-5:index round 1: 16.19 % (from 22.14) Δh +68 (from +440) clipped 0 content MISSING 67 units off 47 / missing 14 — FAIL (pixel); 360 not gated",
+      "gates": {
+        "1440": {
+          "pct": 16.19,
+          "heightDelta": 68,
+          "pass": false
+        }
+      }
+    },
+    "gate:index-r1-360": {
+      "status": "done",
+      "kind": "gate",
+      "recordedAt": "2026-10-09T00:29:30.246Z",
+      "startedAt": "2026-10-09T00:29:30.247Z",
+      "note": "next: round 2 trims the 360 post height (measurements.md live 481 included the load-more row the block does not render) and keeps the 1440 gain; then themes rows / CTA dock / encoder defects",
+      "endedAt": "2026-10-09T00:33:05.441Z",
+      "verdict": "index 360 after fix-wave-5:index round 1: pixel index → 26.92% Δh -823 (was 25.77 % Δh −99) — FAIL (pixel + height: the 481 px post min-height overshoots at 360)"
+    },
+    "fix-wave-7:program": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T00:37:34.669Z",
+      "startedAt": "2026-10-09T00:37:34.669Z",
+      "note": "report stardust/rollout/units/fix-wave-7-program.report.md; easie 1440 step 4 not reached; 1440 units off rows listed in the report; two 360 rounds lost to a rejected push (concurrent unit)",
+      "endedAt": "2026-10-09T01:16:48.836Z",
+      "verdict": "ersatz 360 PASS 6.42 % Δh +64 units 0; easie 360 PASS 7.68 % Δh +55 units 0; 1440 ersatz 7.61 % Δh +10 units off 2 FAIL, easie 11.32 % Δh −1 units off 1 FAIL (360 rules scoped <= 1024 after a 1440 regression)",
+      "commit": "5ed8cb7",
+      "gates": {
+        "360": {
+          "privatkunden-strom-ersatzversorgung": {
+            "pct": 6.42,
+            "dh": 64,
+            "units_off": 0,
+            "pass": true
+          },
+          "privatkunden-strom-stromtarife-teag-strom-easie": {
+            "pct": 7.68,
+            "dh": 55,
+            "units_off": 0,
+            "pass": true
+          }
+        },
+        "1440": {
+          "privatkunden-strom-ersatzversorgung": {
+            "pct": 7.61,
+            "dh": 10,
+            "units_off": 2,
+            "pass": false
+          },
+          "privatkunden-strom-stromtarife-teag-strom-easie": {
+            "pct": 11.32,
+            "dh": -1,
+            "units_off": 1,
+            "pass": false
+          }
+        }
+      }
+    },
+    "fix-wave-6:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T00:37:34.708Z",
+      "startedAt": "2026-10-09T00:37:34.708Z",
+      "note": "report stardust/rollout/units/fix-wave-6-index.report.md; request: decide whether the 360 home origin stitch is re-captured with post images settled (live doc 16913–17026 vs stitch 16193); step 4 encoder not started",
+      "endedAt": "2026-10-09T01:04:25.247Z",
+      "verdict": "FAIL both widths, no override: 360 24.66% Δh -57 (natural post height kept; frozen 360 reference 16193 renders the wall image-less, Δh=origin−eds so any min-height moves away); 1440 16.22% Δh +68 unchanged (CTA dock measured, gated 19.59%/+120, reverted)",
+      "gates": {
+        "360": {
+          "pixel": 24.66,
+          "dh": -57,
+          "missing": 57,
+          "job": "fix6i-360"
+        },
+        "1440": {
+          "pixel": 16.22,
+          "dh": 68,
+          "missing": 54,
+          "job": "fix6i-1440-r3c"
+        },
+        "1440-dock-reverted": {
+          "pixel": 19.59,
+          "dh": 120,
+          "job": "fix6i-1440-r3"
+        }
+      }
+    },
+    "gate-all:refresh-3": {
+      "status": "done",
+      "kind": "gate-all",
+      "recordedAt": "2026-10-09T01:50:36.122Z",
+      "endedAt": "2026-10-09T01:50:36.122Z",
+      "verdict": "roster both widths after fix-wave-7:program + fix-wave-6:index: 1440 6 delivered (4 pass + stromtarife, ersatzversorgung units-only overrides) / 2 failed (index 16.22 %, easie 11.32 %); 360 7 delivered (6 pass + stromtarife override; ersatz 6.42, easie 7.68 units 0) / 1 failed (index 24.66 %); coverage updated 360 then 1440; done-check pages_failed:2 (/, teag-strom-easie)",
+      "note": "units-only overrides: ersatz 1440 (erdgastarifen button dw +5 while the origin button widths moved 231→219 between captures) and easie 360 (origin 291 vs 301 at 01:24Z, off 0 at 01:10Z and in this 01:49Z run) — live glyph-run width varies between captures; compare-only lesson: delete stardust/current/measure/*-units.json before every width, --compare-only still probes"
+    },
+    "recapture:index-360-origin": {
+      "status": "done",
+      "kind": "recapture",
+      "recordedAt": "2026-10-09T01:51:20.339Z",
+      "startedAt": "2026-10-09T01:51:20.340Z",
+      "note": "next: fix-wave-7:index starts with gate-all --only index --width 360 --skip-existing --recapture-eds (units cache deleted) to read the home page against the settled reference, then the 360 post ladder off that number",
+      "endedAt": "2026-10-09T01:52:39.071Z",
+      "verdict": "home page 360 origin re-stitched with --settle and consent accepted: 360x17026 from 19 chunks (was 16193, the social wall without post images; live document 16913–17026) → stardust/replica/gates/all-360/index/origin.png; previous kept at stardust/.work/rollout/recapture-index-360/origin-before-16193.png; NOT re-gated yet"
+    },
+    "gate:index-recap-360": {
+      "status": "done",
+      "kind": "gate",
+      "recordedAt": "2026-10-09T01:53:02.188Z",
+      "startedAt": "2026-10-09T01:53:02.189Z",
+      "note": "Δh +784 ≈ the 8 social-wall posts × ~96 px measured in measurements.md: round 1's 481 px ≤1024 post min-height was RIGHT against the real page and must be restored in fix-wave-7:index (then re-gate 360, expect Δh near 0 and the pixel number to drop with the alignment)",
+      "endedAt": "2026-10-09T01:56:34.498Z",
+      "verdict": "home page 360 against the settled origin (17026 px): pixel 33.6 % Δh +784 (build shorter) text 31.74 %, clipped 0, content MISSING / units failing as before — FAIL; the honest mobile baseline (the 24.66 % / −57 read against the image-less 16193 px stitch is void)"
+    },
+    "fix-wave-7:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T01:57:11.702Z",
+      "endedAt": "2026-10-09T01:57:11.703Z",
+      "verdict": "round 1: ≤1024px social-wall post min-height 481 px restored (reverting the e53a0a6 reset that was measured against the image-less 360 origin); pushed, NOT gated",
+      "note": "next session: wait for code sync (curl --compressed .../blocks/social-wall/social-wall.css shows min-height: 481px), delete stardust/current/measure/*-units.json, gate-all --only index --width 360 --eds-host https://main--dc15da58--aemcoder.aem.live --skip-existing --recapture-eds; expect Δh near 0; then 1440 themes band 4000–5000 + encoder defects per fix-wave-6-index-brief.md steps 3–4; then fix-wave-8:program (easie 1440 crops 3500–4000 / 5000–5096); one unit at a time"
+    },
+    "gate:index-r1b-360": {
+      "status": "done",
+      "kind": "gate",
+      "recordedAt": "2026-10-09T01:57:36.075Z",
+      "startedAt": "2026-10-09T01:57:36.076Z",
+      "note": "mobile height is now inside the bar; the pixel residual is alignment inside the bands — next: band breakdown top-down (gates/all-360/index/pixel.json), first hot band first; then 1440 themes band + encoder defects; roster + coverage after",
+      "endedAt": "2026-10-09T02:01:13.360Z",
+      "verdict": "home page 360 after the 481 px post min-height restore, settled origin: pixel 29.35 % Δh +17 (height PASS) text 26.39 %, clipped 0, content MISSING / units as before — FAIL (pixel)"
+    },
+    "measure:index-360-band1": {
+      "status": "done",
+      "kind": "measure",
+      "recordedAt": "2026-10-09T02:02:35.634Z",
+      "startedAt": "2026-10-09T02:02:35.634Z",
+      "note": "facts appended to stardust/rollout/units/fix-wave-8-index-brief.md",
+      "endedAt": "2026-10-09T02:03:24.128Z",
+      "verdict": "band 2000–3000 @360 named: build product-teaser card ≈ 70 px lower because the section above runs ≈ 70 px taller; live-side moin.ai proactive panel over the card text only partly masked; caption missing the © glyph"
+    },
+    "fix-wave-8:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T02:03:52.105Z",
+      "startedAt": "2026-10-09T02:03:52.105Z",
+      "note": "3 rounds @360, all ≤1024-scoped (hero-slider, tariff-calculator, cta-band); report stardust/rollout/units/fix-wave-8-index.report.md; next: themes/news/social-wall @360 top-down, info-boxes +51, then 1440 + encoder",
+      "endedAt": "2026-10-09T02:28:33.269Z",
+      "verdict": "360 FAIL 26.58 % Δh +263 (start 29.35 / +17; round 1 24.91 / +87) — hero/tariff +77 and the CTA dock fixed by measurement; themes/news/social-wall still short (−84/−138/−62); 1440 not reached",
+      "commit": "98a9314",
+      "gates": {
+        "360": {
+          "pct": 26.58,
+          "heightDelta": 263,
+          "clipped": 0,
+          "missing": 67,
+          "unitsOff": 35,
+          "unitsMissing": 15,
+          "pass": false,
+          "job": "fix8i-360-r3"
+        }
+      }
+    },
+    "fix-wave-8:program": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T02:32:42.129Z",
+      "startedAt": "2026-10-09T02:32:42.129Z",
+      "note": "2 gate rounds; tariff-calculator +7 residual not worked (no single live value); report stardust/rollout/units/fix-wave-8-program.report.md",
+      "endedAt": "2026-10-09T02:47:41.408Z",
+      "verdict": "easie 1440 9.59 % Δh +13 clipped 0 content 0 units off 0 PASS; ersatz 1440 7.57 % Δh +10 units off 1 (override) PASS",
+      "commit": "02256cc",
+      "gates": {
+        "privatkunden-strom-stromtarife-teag-strom-easie": {
+          "1440": {
+            "pixel": 9.59,
+            "dh": 13,
+            "units_off": 0,
+            "pass": true
+          }
+        },
+        "privatkunden-strom-ersatzversorgung": {
+          "1440": {
+            "pixel": 7.57,
+            "dh": 10,
+            "units_off": 1,
+            "override": "units-only",
+            "pass": true
+          }
+        }
+      }
+    },
+    "gate-all:refresh-4": {
+      "status": "done",
+      "kind": "gate-all",
+      "recordedAt": "2026-10-09T02:58:18.002Z",
+      "endedAt": "2026-10-09T02:58:18.002Z",
+      "verdict": "roster 1440 after fix-wave-8:program: 7 delivered / 1 failed (index 16.22 % Δh +68, MISSING 54, units off 47); easie 9.59 % PASS; 360 unchanged from refresh-3 (7/8, index 24.66 %); coverage updated from the 1440 summary (1 flip: easie → deployed); done-check pages_failed:1: /",
+      "gates": {
+        "360": "unchanged from gate-all:refresh-3 (7/8)",
+        "1440": {
+          "index": "16.22 FAIL",
+          "privatkunden-strom-stromtarife": "8.3 override-PASS",
+          "privatkunden-strom-stromtarife-teag-strom-easie": "9.59 PASS",
+          "privatkunden-strom-ersatzversorgung": "7.57 override-PASS",
+          "privatkunden-strom-haus-baustromanschluss": "4.49 PASS",
+          "ueber-uns-unternehmen": "5.05 PASS",
+          "impressum": "2.57 PASS",
+          "datenschutz": "3.91 PASS"
+        }
+      },
+      "note": "home page decision: blocked on the owner (live feeds), see the ledger blocked line 02:57:57Z"
+    },
+    "fix-wave-9:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T08:22:17.881Z",
+      "startedAt": "2026-10-09T08:22:17.882Z",
+      "note": "remaining MISSING = live content drift (TEAG-Legend of Cross replaced Jenaer Kernberglauf on the live events panel); fix = content refresh via the fix-wave-3 pipeline extended to the events section. presence.json index.variable added for the social feed.",
+      "endedAt": "2026-10-09T09:14:55.042Z",
+      "verdict": "FAIL both widths — content MISSING 54/57 → 1/1 (live drift: featured appointment), HIDDEN 0, clipped 0; pixel 17.17 % @1440 (Δh +84), 24.89 % @360 (Δh −74); four blocks structurally at parity; gate cap 3/3 per width",
+      "gates": {
+        "360": {
+          "pixel": 24.89,
+          "dh": -74,
+          "originH": 16913,
+          "edsH": 17100,
+          "clipped": 0,
+          "missing": 1,
+          "hidden": 0,
+          "unitsOff": 29,
+          "unitsMissing": 8,
+          "verdict": "FAIL",
+          "job": "fix9i-360-r3b"
+        },
+        "1440": {
+          "pixel": 17.17,
+          "dh": 84,
+          "originH": 8820,
+          "edsH": 8736,
+          "clipped": 0,
+          "missing": 1,
+          "hidden": 0,
+          "unitsOff": 42,
+          "unitsMissing": 8,
+          "verdict": "FAIL",
+          "job": "fix9i-1440-r3"
+        }
+      }
+    },
+    "fix-wave-10:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T09:24:32.782Z",
+      "startedAt": "2026-10-09T09:24:32.782Z",
+      "note": "Live refresh published (events Legend of Cross + feed; MISSING 1→0 both widths). Offsets absorbed in block CSS (keyfacts, themes, news, social, events). Origin stitch needs stitch-shot --consent for the Usercentrics dialog (gate-all does not forward it; 3 dimmed runs recorded). Residuals: social feed variance, events bar typography, cta-band, info-boxes box 3 @360, news-posts column order @360.",
+      "endedAt": "2026-10-09T10:17:38.221Z",
+      "verdict": "1440 FAIL 12.26% (from 17.17) Δh −5 clipped 0 MISSING 0 units off 43/missing 8 · 360 FAIL 23.82% (from 24.89) Δh −119 clipped 0 MISSING 0 units off 27/missing 8",
+      "gates": {
+        "360": {
+          "pct": 23.82,
+          "heightDelta": -119,
+          "missing": 0,
+          "unitsOff": 27,
+          "pass": false
+        },
+        "1440": {
+          "pct": 12.26,
+          "heightDelta": -5,
+          "missing": 0,
+          "unitsOff": 43,
+          "pass": false
+        }
+      }
+    },
+    "measure:index-wave11": {
+      "status": "done",
+      "kind": "measure",
+      "recordedAt": "2026-10-09T10:20:09.219Z",
+      "startedAt": "2026-10-09T10:20:09.219Z",
+      "note": "crops strip-1440-6500/8000, strip-360-11000/15500 + measure-live/eds json in stardust/.work/rollout/measure-index-wave11/",
+      "endedAt": "2026-10-09T10:31:33.212Z",
+      "verdict": "measured: events bar line-height 1.6 vs live 1.2 (bar 140/219 vs 113/172), social-wall block shifted -20 px at both widths (inner class collided with the EDS block wrapper); both fixed in block CSS/JS (66487f2), verified equal to live with measure.mjs; brief stardust/rollout/units/fix-wave-11-index-brief.md"
+    },
+    "fix-wave-11:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T10:31:33.244Z",
+      "startedAt": "2026-10-09T10:31:33.244Z",
+      "gates": {
+        "360": {
+          "pct": 16.04,
+          "heightDelta": 52,
+          "clipped": 0,
+          "missing": 0,
+          "hidden": 0,
+          "unitsOff": 29,
+          "unitsMissing": 8,
+          "pass": false,
+          "round": "r3 2026-10-09T11:07Z"
+        },
+        "1440": {
+          "pct": 10.1,
+          "heightDelta": 44,
+          "clipped": 0,
+          "missing": 0,
+          "hidden": 0,
+          "unitsOff": 42,
+          "unitsMissing": 8,
+          "pass": false,
+          "round": "r3 2026-10-09T10:58Z"
+        }
+      },
+      "note": "cta-band desktop dock (-136/+104) as live, themes h2 +60 (>=1025 only until info-boxes 360 +51 is fixed), social posts natural heights + account margin + IG badge + more-row rule, events months collapsed + 54px button, info-boxes 360 link colour, news-posts link weight 400 + p margins (b6cc2dd landed after the 1440 cap: coordinator refresh at 1440 needed). Residuals: info-boxes 360 height +51 (box 2 phone links wrap), themes photo renditions changed on live, LinkedIn post-3 more-row rule underivable, footer 336 vs ~389 @1440.",
+      "endedAt": "2026-10-09T11:08:33.573Z",
+      "verdict": "1440 FAIL pixel 10.1 % (from 11.0; Δh 44, clipped 0, MISSING 0 / HIDDEN 0, units off 42 missing 8) · 360 FAIL pixel 16.04 % (from 23.18; Δh 52, clipped 0, 0 / 0, units off 29 missing 8) — rounds capped (r2, r3 per width), no mask/override/content change",
+      "commit": "404457f"
+    },
+    "fix-wave-12:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T11:11:35.408Z",
+      "startedAt": "2026-10-09T11:11:35.408Z",
+      "note": "info-boxes live geometry lifted (57.5 % divider, flex entry rows, 1em title <= 768, link-list last li, form fields, consent row), themes h2 +60 at every width, news-post card margins; 1440 pixel 10.74 -> 9.7, 360 16.04 -> 18.96 with Δh 52 -> 4; residuals: live events drift (MISSING 4/1, needs events content refresh + re-shot origins), themes photos, LinkedIn mehr-anzeigen rule, social/news offset at 360 (+15 news h2 margin), product-teasers dw 5 (other pages). Report stardust/rollout/units/fix-wave-12-index.report.md",
+      "endedAt": "2026-10-09T11:54:57.865Z",
+      "verdict": "1440 FAIL (pixel 9.7 % PASSES the bar, Δh +41, clipped 0; MISSING 4 = live events drift, units off 1 product-teasers dw 5) · 360 FAIL 18.96 % (Δh +4, clipped 0, MISSING 1 live drift, units off 2)",
+      "gates": {
+        "360": {
+          "pct": 18.96,
+          "heightDelta": 4,
+          "clipped": 0,
+          "missing": 1,
+          "hidden": 0,
+          "unitsOff": 2,
+          "unitsMissing": 7,
+          "pass": false,
+          "pixelPass": false,
+          "round": "r3 2026-10-09T11:45:45Z fix12i-360-r3"
+        },
+        "1440": {
+          "pct": 9.7,
+          "heightDelta": 41,
+          "clipped": 0,
+          "missing": 4,
+          "hidden": 0,
+          "unitsOff": 1,
+          "unitsMissing": 7,
+          "pass": false,
+          "pixelPass": true,
+          "round": "r3 2026-10-09T11:53:06Z fix12i-1440-r3"
+        }
+      }
+    },
+    "fix-wave-13:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T11:57:17.859Z",
+      "startedAt": "2026-10-09T11:57:17.859Z",
+      "note": "content refresh (events Kernberglauf + day links, themes/news/social renditions) published 12:01:43Z, both origins re-shot with --consent 12:06Z/12:08Z, gates 12:10–12:29Z in one window: MISSING 4/1 → 0/0. events ul.events-months height 32 (measured, −32 px). news h2 29 px tried and reverted (measured: wrapper 20 collapses, 48 is right). product-teasers row = live inline server-side width 212 (content-box) on home AND ersatzversorgung — not CSS; block untouched; units-only override candidate. Residual +9 = product-teasers card height follows text (427) vs live picture (418); social +72 non-derivable LinkedIn rows. report stardust/rollout/units/fix-wave-13-index.report.md",
+      "endedAt": "2026-10-09T12:31:24.775Z",
+      "verdict": "1440 FAIL (units only: pixel 9.59 % Δh +9 clipped 0 MISSING 0 HIDDEN 0, units off 1 = product-teasers 'zu den erdgastarifen' dw 5 non-derivable live inline width); 360 FAIL (pixel 18.81 % Δh +4 clipped 0 MISSING 0 HIDDEN 0, units off 1 = info-boxes annotation nobr dw 21)",
+      "gates": {
+        "360": {
+          "pct": 18.81,
+          "heightDelta": 4,
+          "clipped": 0,
+          "missing": 0,
+          "hidden": 0,
+          "unitsOff": 1,
+          "unitsMissing": 7,
+          "pass": false,
+          "round": "r2 fix13i-360-r2 2026-10-09T12:29:07Z"
+        },
+        "1440": {
+          "pct": 9.59,
+          "heightDelta": 9,
+          "clipped": 0,
+          "missing": 0,
+          "hidden": 0,
+          "unitsOff": 1,
+          "unitsMissing": 7,
+          "pass": false,
+          "round": "r2 fix13i-1440-r2 2026-10-09T12:22:41Z"
+        }
+      }
+    },
+    "gate-all:refresh-5": {
+      "status": "done",
+      "kind": "gate-all",
+      "recordedAt": "2026-10-09T12:32:41.376Z",
+      "startedAt": "2026-10-09T12:32:41.376Z",
+      "note": "found live drift on easie (FRITZ100 campaign) → fix-wave-14:easie delivered inside this refresh; ersatz 360 units off 2 at 13:28Z was origin-side inline-width variance (within at 13:35Z measure and in the 13:40Z roster) → documented 360 override, now PASS outright; index 360 still the social wall / events (non-derivable LinkedIn rule) + home-page feed drift",
+      "endedAt": "2026-10-09T13:41:31.333Z",
+      "verdict": "roster after fix-wave-11..14: 1440 8/8 delivered (4 PASS + 4 units-only overrides: stromtarife 8.3, ersatz 7.57, index 9.59, easie 8.2; pixel 8/8 ≤ 10, Δh ok, clipped 0, content MISSING 0 except stromtarife <wbr>); 360 7/8 delivered (5 PASS incl. ersatz 6.42 + 2 overrides stromtarife 9.07, easie 8.61) / 1 failed index 18.81 % (+ live-feed MISSING 2 at 13:34Z); coverage updated 360 then 1440; done-check pages_failed:1: /"
+    },
+    "fix-wave-14:easie": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T12:48:12.541Z",
+      "startedAt": "2026-10-09T12:48:12.542Z",
+      "note": "live drift found by gate-all:refresh-5 (MISSING h3 *Aktionsbonus); r1 28.32 % = new hero/teaser/text-module pictures (same asset ids, new bytes), r2 17.71 % Δh +132 = default text-modul h3 rhythm (.overflow h3:not(:first-child) margin-top 30) + downloads header 48 / section 30 after the eye-catcher removal; both lifted as variants",
+      "endedAt": "2026-10-09T13:14:12.973Z",
+      "verdict": "1440 PASS-with-units-override 8.2 % Δh +19 clipped 0 MISSING 0/HIDDEN 0 units off 3 missing 3 (live li>p asymmetry) r3 13:10Z; 360 PASS-with-units-override 8.61 % Δh +42 clipped 0 MISSING 0/HIDDEN 0 units off 3 missing 3 r1 13:12Z — live FRITZ100 campaign refresh delivered (text, 7 renditions, eye-catcher removed), text-module overflow + downloads variants",
+      "commit": "294af63",
+      "gates": {
+        "360": {
+          "pct": 8.61,
+          "heightDelta": 42,
+          "clipped": 0,
+          "missing": 0,
+          "hidden": 0,
+          "unitsOff": 3,
+          "unitsMissing": 3,
+          "pass": false,
+          "override": "units-only",
+          "round": "r1 13:12Z"
+        },
+        "1440": {
+          "pct": 8.2,
+          "heightDelta": 19,
+          "clipped": 0,
+          "missing": 0,
+          "hidden": 0,
+          "unitsOff": 3,
+          "unitsMissing": 3,
+          "pass": false,
+          "override": "units-only",
+          "round": "r3 13:10Z"
+        }
+      }
+    },
+    "fix-wave-15:index": {
+      "status": "done",
+      "kind": "fix-wave",
+      "recordedAt": "2026-10-09T13:54:58.675Z",
+      "startedAt": "2026-10-09T13:54:58.675Z",
+      "note": "home page at 360: (a) social wall — live LinkedIn post 08.10 (\"Zwei Partner\") renders WITHOUT its expand row (live TEAG.Module.Aktuelles shows .commands only when expanding .post-content grows it; measured live .commands[1] h0 vs served .social-wall-more 57 → +67 offset from post 3 down, bands 11000–17000 at 36–50 %); replicate the captured state in the post cell. (b) events feed drifted again (featured TEAG Inova Firmenkontaktbörse 27.10.26, 17.10 removed) → MISSING 2; content refresh through the wave-10 chain, events declared a variable (count-compared) live-feed region beside the social wall; both widths re-gated right after the refresh. | r2–r4: the live site gained its certification badge row (siegel-row, filled by JS since ~14:00Z) on the home and both tariff pages → new block blocks/siegel-row + measured spacing (tariff siegel-gap 115/73, with-siegel 20/13 · 28/29, keyfacts margin-top 55→20), events refreshed twice (Inova 27.10 → Legend of Cross 31.10), social-wall link colours lifted, product-teasers 360 +6; unit-geometry per-slug origin cache set aside per width (instrument defect, see report). Report stardust/rollout/units/fix-wave-15-index.report.md",
+      "gates": {
+        "360": {
+          "index": {
+            "pct": 9.51,
+            "heightDelta": 65,
+            "clipped": 0,
+            "missing": 0,
+            "unitsOff": 1,
+            "unitsMissing": 7,
+            "pass": false,
+            "passWithOverride": true,
+            "round": "w15f-gate-360 2026-10-09T14:52Z"
+          },
+          "privatkunden-strom-stromtarife": {
+            "pct": 9.98,
+            "heightDelta": 54,
+            "clipped": 0,
+            "missing": 1,
+            "unitsOff": 3,
+            "unitsMissing": 8,
+            "passWithOverride": true,
+            "round": "w15g-360 15:24Z"
+          },
+          "privatkunden-strom-stromtarife-teag-strom-easie": {
+            "pct": 8.79,
+            "heightDelta": 40,
+            "clipped": 0,
+            "missing": 0,
+            "unitsOff": 4,
+            "unitsMissing": 3,
+            "passWithOverride": true,
+            "round": "w15-g360-easie 15:08Z"
+          }
+        },
+        "1440": {
+          "index": {
+            "pct": 9.82,
+            "heightDelta": 9,
+            "clipped": 0,
+            "missing": 0,
+            "unitsOff": 1,
+            "unitsMissing": 7,
+            "pass": false,
+            "passWithOverride": true,
+            "round": "w15g-1440-index 2026-10-09T15:16Z"
+          },
+          "privatkunden-strom-stromtarife": {
+            "pct": 8.38,
+            "heightDelta": -5,
+            "clipped": 0,
+            "missing": 1,
+            "unitsOff": 3,
+            "unitsMissing": 8,
+            "passWithOverride": true,
+            "round": "w15g-1440 15:16Z"
+          },
+          "privatkunden-strom-stromtarife-teag-strom-easie": {
+            "pct": 5.75,
+            "heightDelta": 26,
+            "clipped": 0,
+            "missing": 0,
+            "unitsOff": 3,
+            "unitsMissing": 3,
+            "passWithOverride": true,
+            "round": "w15-g1440-easie 15:04Z"
+          }
+        }
+      },
+      "endedAt": "2026-10-09T15:32:53.822Z",
+      "verdict": "roster after fix-wave-15 (gate-all --compare-only per width, origin inventories re-measured per width): 1440 8/8 delivered (4 PASS + 4 documented units/content-probe overrides; pixel 8/8 ≤ 10 %: / 9.82, stromtarife 8.38, easie 5.75, ersatz 7.57) · 360 8/8 delivered (5 PASS + 3 overrides; / 9.51, stromtarife 9.98, easie 8.79); clipped 0 and |Δh| ≤ 5 % everywhere; MISSING 0 except the documented stromtarife <wbr> row; coverage updated 1440 then 360 (index failed → deployed); done-check gaps: rollout_incomplete only"
+    }
+  }
+}

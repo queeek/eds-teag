@@ -1,0 +1,95 @@
+{
+  "source": "http://localhost:8791/ueber-uns-unternehmen-proposed.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "page-content-section",
+      "items": [
+        {
+          "role": "body",
+          "order": 0,
+          "text": "TEAG"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "TEAG"
+        },
+        {
+          "role": "heading",
+          "order": 2,
+          "text": "Energiekompetenz aus Thüringen"
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "Ob Erdgas, Strom oder Fernwärme: Über 500.000 Kunden versorgt der führende Energiedienstleister im Freistaat und deutschlandweit tagtäglich mit lebensnotwendiger Energie. Wir beliefern Privathaushalte, Geschäftskunden, Industriebetriebe sowie Stadtwerke und kommunale Versorger. Darüber hinaus bietet TEAG Thüringer Energie umfangreiche energiespezifische Dienste an. Lernen Sie uns kennen – wir freuen uns auf Ihren Besuch!"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 1,
+      "repeats": []
+    },
+    {
+      "section": "page-meta-section",
+      "items": [
+        {
+          "role": "cta",
+          "order": 0,
+          "text": "Startseite",
+          "href": "/default"
+        },
+        {
+          "role": "cta",
+          "order": 1,
+          "text": "Über uns",
+          "href": "/ueber_uns"
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Unternehmen",
+          "href": "/ueber_uns/unternehmen"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 1,
+      "repeats": [
+        {
+          "unitSelector": "LI.",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 1
+          },
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "section": "page-content-section.channel-modul",
+      "items": [],
+      "imgCount": 6,
+      "editableTexts": 1,
+      "repeats": [
+        {
+          "unitSelector": "LI.box",
+          "count": 6,
+          "unit": {
+            "headings": 1,
+            "ctas": 0,
+            "imgs": 2,
+            "textRuns": 5
+          },
+          "uniform": true
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "sections[2] renamed page-content-section.channel-modul (source class) so qa-gate order-matching does not collide with sections[0] — archetype:ueber-uns-unternehmen"
+  ]
+}

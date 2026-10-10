@@ -1,0 +1,323 @@
+/* three-steps — values from stardust/prototypes/css/canon.css (§ step-by-step-123-modul,
+   § keyFacts-modul). Source: section.step-by-step-123-modul.center-content > header
+   { margin-bottom: 64px } + .container { display: flex; margin: 0 10% } > section.step (21 %,
+   disc 5em, h4 + p) + .connector-horizontal (17 %, dashed bow 9em). Mobile first (<= 1024: rows,
+   disc 4.5em, dashed vertical connector, step padding-bottom 48). */
+.three-steps {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  counter-reset: three-steps;
+}
+
+.three-steps-header {
+  margin-bottom: 64px;
+}
+
+.three-steps-header h3 {
+  margin: 0;
+  font-size: 1.3em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.three-steps-list {
+  display: block;
+  margin: 0;
+}
+
+.three-steps-step {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: auto;
+  padding-bottom: 48px;
+  text-align: left;
+  counter-increment: three-steps;
+}
+
+/* .symbol: purple disc, the number centred (3em / 2.5em bold white) */
+.three-steps-symbol {
+  position: relative;
+  flex: 0 0 auto;
+  display: inline-block;
+  width: 4.5em;
+  height: 4.5em;
+  margin: 0 16px 32px 0;
+  border-radius: 50%;
+  background-color: var(--c-primary);
+}
+
+.three-steps-symbol::before {
+  content: counter(three-steps);
+  position: absolute;
+  inset: 0;
+  height: 1.1em;
+  margin: auto 0;
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.three-steps-content {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.three-steps-content h4 {
+  margin: 0 0 8px;
+  font-size: 1em;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.three-steps-content p {
+  margin: 0 0 16px;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+}
+
+.three-steps-content h4 + p {
+  margin-top: 1em;
+}
+
+.three-steps-connector {
+  display: none;
+}
+
+/* .connector-vertical: dashed 3px purple from below the disc to the row end (not on the last) */
+.three-steps-connector-vertical {
+  position: absolute;
+  top: 4.75em;
+  bottom: 0;
+  left: calc(2.25em - 1.5px);
+  display: block;
+  width: 0;
+  border-left: 3px dashed var(--c-primary);
+}
+
+.three-steps-step:last-child .three-steps-connector-vertical {
+  display: none;
+}
+
+/* ---------- variant keyfacts (.keyFacts-modul) ---------- */
+.three-steps.keyfacts .three-steps-header {
+  margin-bottom: 48px;
+}
+
+.three-steps.keyfacts .three-steps-header h2 {
+  margin: 0;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.three-steps.keyfacts .three-steps-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.three-steps.keyfacts .three-steps-step {
+  flex: 1 1 0;
+  margin: 0 0 30px;
+  padding: 0;
+  counter-increment: none;
+}
+
+.three-steps.keyfacts .three-steps-step:last-child {
+  margin-bottom: 0;
+}
+
+/* section.icon-rounded-border > .icon: 2.5em disc, border 2px, padding .25em */
+.three-steps.keyfacts .three-steps-symbol {
+  box-sizing: content-box;
+  width: 1em;
+  min-width: 1em;
+  height: 1em;
+  margin: 0 0.5em 0.5em 0;
+  padding: 0.25em;
+  border: 2px solid var(--c-primary);
+  font-size: calc(2.5 * var(--fs-body));
+  line-height: 1;
+}
+
+.three-steps.keyfacts .three-steps-symbol::before {
+  content: '';
+}
+
+.three-steps.keyfacts .three-steps-content {
+  margin-top: 0;
+}
+
+.three-steps.keyfacts .three-steps-content h3 {
+  margin: 0 0 calc(3 * (16px + 0.08vw));
+  color: var(--c-primary);
+  font-size: calc(1rem + 0.58vw);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.three-steps.keyfacts .three-steps-connector-vertical,
+.three-steps.keyfacts .three-steps-connector {
+  display: none;
+}
+
+@media (width >= 1025px) {
+  .three-steps-list {
+    display: flex;
+    margin: 0 10%;
+  }
+
+  .three-steps-step {
+    flex-direction: column;
+    align-items: center;
+    width: 21%;
+    padding-bottom: 0;
+    text-align: center;
+  }
+
+  .three-steps-symbol {
+    width: 5em;
+    height: 5em;
+    margin: 0 0 2em;
+  }
+
+  .three-steps-symbol::before {
+    font-size: 3em;
+  }
+
+  .three-steps-content {
+    margin-top: 0;
+  }
+
+  .three-steps-content h4 {
+    margin: 0 5% 1em;
+    text-align: center;
+  }
+
+  .three-steps-content h4 + p {
+    margin-top: 0;
+  }
+
+  /* .connector-horizontal 17 %: dashed bow 9em high, 150 % wide, white cover over its middle */
+  .three-steps-connector {
+    position: relative;
+    display: block;
+    width: 17%;
+  }
+
+  .three-steps-bow {
+    position: absolute;
+    top: 0;
+    left: -25%;
+    width: 150%;
+    height: 9em;
+    border-top: 2px dashed var(--c-primary);
+    border-radius: 50%;
+  }
+
+  .three-steps-cover {
+    position: absolute;
+    top: 2.5em;
+    right: -2px;
+    left: -2px;
+    height: 3.5em;
+    background-color: #fff;
+  }
+
+  .three-steps-connector-vertical {
+    display: none;
+  }
+
+  .three-steps.keyfacts .three-steps-list {
+    flex-direction: row;
+    margin: 0;
+    text-align: center;
+  }
+
+  .three-steps.keyfacts .three-steps-step {
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    min-width: 0;
+    margin: 0 20px 0 0; /* fix wave 2: live step has no bottom margin (+26px @1440) */
+    padding: 20px;
+    text-align: center;
+  }
+
+  .three-steps.keyfacts .three-steps-connector {
+    display: none;
+  }
+
+  .three-steps.keyfacts .three-steps-content {
+    align-self: stretch;
+    width: auto;
+  }
+
+  .three-steps.keyfacts .three-steps-step:last-child {
+    margin-right: 0;
+  }
+
+  /* inline-block icon in a line box: .5em margin (fix wave 2: .65em read +6/+7 px) */
+  .three-steps.keyfacts .three-steps-symbol {
+    margin: 0 0 0.5em;
+  }
+
+  .three-steps.keyfacts .three-steps-content h3 {
+    text-align: center;
+  }
+}
+
+/* fix wave 2 (steps variant "Ihr Wechsel zur TEAG"): the live header h3 renders at the h2 size
+   (35px @1440, 2 x 23px @360); the live step list reads 659px against 593px @360 (3 steps)
+   and 304px against 292px @1440 (measure.mjs) */
+.three-steps:not(.keyfacts) .three-steps-header h3 {
+  font-size: var(--fs-h2);
+}
+
+.three-steps:not(.keyfacts) .three-steps-list > .three-steps-step {
+  padding-bottom: 22px;
+}
+
+@media (width >= 1025px) {
+  /* fix wave 10 (measure.mjs @1440): live keyfacts h2 at y1217, served header at 1182 with identical inner
+     geometry (list 309, steps 309) — the siegel band above is 35 px taller on the live page; absorbed here */
+  .three-steps.keyfacts {
+    margin-top: 20px; /* fix-wave-15: was 55 — measured live h2 at +40 from its section top (padding 20 + 20) on the home and stromtarife; the 35 extra was the empty siegel section`s whitespace, now rendered by blocks/siegel-row */ /* collapses with the wrapper's 20 px → +35 (r1 read +15 with 35) */
+  }
+
+  .three-steps:not(.keyfacts) .three-steps-list > .three-steps-step {
+    padding-bottom: 0;
+  }
+
+  .three-steps:not(.keyfacts) .three-steps-list {
+    padding-bottom: 12px;
+  }
+}
+
+/* program-360 fix wave (measure.mjs @360): live section.step reads padding-bottom 48 at 360
+   (steps 203 / 202 / 254 vs the block's 172 / 146 / 198 at 22). */
+@media (width <= 1024px) {
+  .three-steps:not(.keyfacts) .three-steps-list > .three-steps-step {
+    padding-bottom: 48px;
+  }
+}
+
+/* program-360 fix wave round 2 (measure.mjs @360 `.content header`): the live step title reads
+   25 px per line (two lines on steps 2/3 at 243 px) with margin-bottom 16; the block's h4 was
+   16/19.2 single-line + 8. Step padding-bottom 40 settles the measured 203 / 202 / 254. */
+@media (width <= 1024px) {
+  .three-steps:not(.keyfacts) .three-steps-content h4 {
+    margin-bottom: 16px;
+    font-size: 1.3em; /* fix wave 3: live h4 reads 20.8px / 24.96 @360 (step 2 wraps to two lines) */
+    line-height: 1.2;
+  }
+
+  .three-steps:not(.keyfacts) .three-steps-list > .three-steps-step {
+    padding-bottom: 48px; /* fix wave 3: measure.mjs @360 steps 195 / 169 / 246 vs live 203 / 202 / 254 — the 48 of the first wave was right */
+  }
+}

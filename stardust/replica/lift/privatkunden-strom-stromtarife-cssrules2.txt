@@ -1,0 +1,643 @@
+######## ^\.channel-products-modul
+stardust/current/assets/css/ScreenLess.css: 57 of 7143 rules match /^\.channel-products-modul/i
+@84975 .channel-products-modul .modul-content>.list-container
+      display: flex; flex-direction: column;
+@85065 .channel-products-modul .modul-content>.controls
+      opacity: 0; display: block; text-align: center; margin-top: 15px;
+@85172 .channel-products-modul .modul-content .controls ul
+      display: inline-block; vertical-align: middle; float: left; margin: 0 20px;
+@85292 .channel-products-modul .modul-content .controls ul li
+      float: left; display: inline-block; height: 35px; line-height: 35px;
+@85408 .channel-products-modul .modul-content .controls ul li .bullet
+      height: 12px; width: 12px; display: inline-block; margin: 11.5px 8px; float: left; transition: background-color .23s ease; background-size: contain; background-color: #870d87; border-radius: 6px;
+@85649 .channel-products-modul .modul-content .controls ul li .bullet:hover
+      background-color: #0ba2e3;
+@85743 .channel-products-modul .modul-content .controls ul li.active .bullet
+      background-image: url(../Images/Site/Svg/slider-bullet-active.svg);
+@85879 .channel-products-modul .modul-content .controls ul li.active .bullet:hover
+      background-color: #0ba2e3;
+@85980 .channel-products-modul .list .box
+      display: flex;
+@86028 .channel-products-modul .list .box section
+      display: flex;
+@86084 .channel-products-modul .list .box section a:not(.toolTip-opener):not(.product-info-link):not(.close-button)
+      display: flex;
+@86206 .channel-products-modul .list .box section>a figure
+      display: flex; width: 100%; flex-direction: column;
+@86304 .channel-products-modul .list .box section>a figure picture
+      min-height: 10px;
+@86380 .channel-products-modul .list .box section>figure
+      display: flex; width: 100%; flex-direction: column;
+@86476 .channel-products-modul .list .box section>figure picture
+      min-height: 10px;
+@86550 .channel-products-modul .list .box:not(.image-teaser) section
+      padding: 20px 20px 0; width: calc(100% - 40px);
+@86656 .channel-products-modul .list .box:not(.image-teaser) section>div
+      width: 100%;
+@86733 .channel-products-modul .list .box:not(.image-teaser) section>div .footer .link a
+      flex-direction: row;
+@86834 .channel-products-modul .list .box:not(.image-teaser) section a:not(.close-button)
+      flex-direction: column; color: #000; width: 100%;
+@86961 .channel-products-modul .list .box:not(.image-teaser) section .content
+      flex-grow: 1; display: flex; flex-direction: column;
+@87079 .channel-products-modul .list .box:not(.image-teaser) section .content .description
+      flex-grow: 1;
+@87175 .channel-products-modul .list .box:not(.image-teaser) section .content .footer
+      margin: 10px -20px -20px;
+@87278 .channel-products-modul .list .box:not(.image-teaser) header h3
+      font-size: 1.3em;
+@87358 .channel-products-modul .list .box figcaption
+      flex-grow: 1; display: flex; flex-direction: column;
+@87451 .channel-products-modul .list .box figcaption .description .benefit li
+      list-style: none;
+@87538 .channel-products-modul .list .box header h4,.channel-products-modul .list .box header>span
+      color: #767676; margin-bottom: 0; font-weight: normal;
+@87679 .channel-products-modul .list .box header h3
+      margin-bottom: 16px;
+@87743 .channel-products-modul .list .box .content
+      flex-grow: 1;
+@87799 .channel-products-modul .list .box .content .description
+      padding: 0; margin: 0;
+@87875 .channel-products-modul .list .box .content .description .benefit
+      padding: 0; margin: 0;
+@87960 .channel-products-modul .list .box .footer
+      min-height: calc(3em - 30px); background-color: #ededed; width: 100%; padding: 15px 20px; display: flex; margin: 30px -20px -20px;
+@88122 .channel-products-modul .list .box .footer .link
+      line-height: 1.4; display: flex; align-items: baseline;
+@88221 .channel-products-modul .list .box .footer .link .icon
+      position: relative; top: 2px;
+@88302 .channel-products-modul .list .box.image-teaser section
+      width: 100%;
+@88369 .channel-products-modul .list .box.image-teaser section>a
+      width: 100%;
+@88438 .channel-products-modul.need-modul .list .box figcaption
+      padding-bottom: 20px;
+@88515 .channel-products-modul.need-modul .list .box figcaption .footer
+      background-color: transparent; height: 20px;
+@88621 .channel-products-modul.need-modul .list .box figcaption .footer .link-button
+      position: relative;
+@89387 .channel-products-modul.need-modul.mobile-slider .modul-content>.list-container .overflow-container   @media screen and (max-width:1024px)
+      padding-bottom: 20px;
+@89507 .channel-products-modul.need-modul .list .box   @media screen and (max-width:1024px)
+      margin-bottom: calc(2% + 30px);
+@89583 .channel-products-modul:not(.mobile-slider) .modul-content.items-1>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:1024px)
+      width: calc(100%/2 - 20px/2);
+@89730 .channel-products-modul:not(.mobile-slider) .modul-content.items-2>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:1024px)
+      width: calc(100%/2 - 20px/2);
+@89914 .channel-products-modul.need-modul .list   @media screen and (max-width:768px)
+      padding-top: 35%;
+@89971 .channel-products-modul.need-modul .list .box   @media screen and (max-width:768px)
+      margin-bottom: calc(37% + 40px);
+@90048 .channel-products-modul.need-modul .list .box:last-child   @media screen and (max-width:768px)
+      margin-bottom: 20px;
+@90124 .channel-products-modul.need-modul .list .box figure picture   @media screen and (max-width:768px)
+      width: calc(100% - 40px); margin: -35% 20px 0; box-shadow: 0 0 10px 0 rgba(0,0,0,.2); transition: box-shadow .25s ease;
+@90297 .channel-products-modul.need-modul .list .box figure figcaption .picture-credits   @media screen and (max-width:768px)
+      right: 20px;
+@90389 .channel-products-modul.need-modul .list .box:hover figure picture   @media screen and (max-width:768px)
+      box-shadow: 0 0 15px 0 rgba(0,0,0,.3);
+@90493 .channel-products-modul.need-modul .list.columns-4>li.box:nth-child(4n+4)   @media screen and (max-width:768px)
+      width: 100%;
+@90578 .channel-products-modul.need-modul.possibly-docked-teaser-should-take-active-teaser-button-in-smartphone-view .list .box   @media screen and (max-width:768px)
+      margin-bottom: calc(37% + 20px);
+@90730 .channel-products-modul.possibly-docked-teaser-should-take-active-teaser-button-in-smartphone-view .list.columns-2 .box figure figcaption .footer   @media screen and (max-width:768px)
+      display: none;
+@90889 .channel-products-modul.possibly-docked-teaser-should-take-active-teaser-button-in-smartphone-view .list.columns-3 .box figure figcaption .footer   @media screen and (max-width:768px)
+      display: none;
+@91048 .channel-products-modul:not(.mobile-slider) .modul-content.items-1>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:768px)
+      width: calc(100%*2/3);
+@91188 .channel-products-modul:not(.mobile-slider) .modul-content.items-2>.list-container .overflow-container>ul.columns-3>li:first-child   @media screen and (max-width:768px)
+      margin-right: 20px;
+@91374 .channel-products-modul.possibly-docked-teaser-should-take-active-teaser-button-in-smartphone-view .list.columns-4 .box figure figcaption .footer   @media screen and (max-width:640px)
+      display: none;
+@91533 .channel-products-modul:not(.mobile-slider) .modul-content.items-1>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:640px)
+      width: 100%; margin-right: 0!important;
+@91688 .channel-products-modul:not(.mobile-slider) .modul-content.items-2>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:640px)
+      width: 100%; margin-right: 0!important;
+######## ^\.module-faq|^\.akkordeon-list|^\.filter\.drop-down-list|^\.filter_drop-down-list_modul|^\.service-row
+stardust/current/assets/css/ScreenLess.css: 91 of 7143 rules match /^\.module-faq|^\.akkordeon-list|^\.filter\.drop-down-list|^\.filter_drop-down-list_modul|^\.service-row/i, showing 80
+@161483 .filter.drop-down-list
+      border-radius: 22.25px; background-color: #ededed; padding: 12.5px 15px; display: inline-block; min-height: 25px; position: absolute; z-index: 1;
+@161638 .filter.drop-down-list.categories,.filter.drop-down-list.containers
+      z-index: 2;
+@161716 .filter.drop-down-list .category-label
+      font-weight: 700; font-size: 1.1em; white-space: nowrap;
+@161806 .filter.drop-down-list .category-label.not-selected
+      font-weight: 400;
+@161874 .filter.drop-down-list .category-label a
+      display: flex; align-items: center; text-decoration: none!important;
+@161978 .filter.drop-down-list .category-label a .content
+      display: flex; flex-direction: column; flex-grow: 1;
+@162075 .filter.drop-down-list .category-label a .content .label
+      font-size: calc(.666667em); font-weight: bold; color: #6a6a6a; padding: 0 10px 0 0; margin-bottom: 0; display: block;
+@162238 .filter.drop-down-list .category-label a .content .title
+      color: #000; display: inline-block; margin-right: 10px;
+@162345 .filter.drop-down-list .category-label a .fa
+      transform-origin: 9.5px 10px 0; text-align: center; width: 18px; height: 18px; font-size: .7em;
+@162476 .filter.drop-down-list ul
+      margin-top: 5px; display: none;
+@162530 .filter.drop-down-list ul li
+      display: block;
+@162573 .filter.drop-down-list ul li a
+      color: #000; display: block; padding: 2px 5px; margin-bottom: 2px; text-decoration: none!important;
+@162694 .filter.drop-down-list ul li a .icon
+      color: #870d87; vertical-align: middle; margin-right: 6px; display: inline-block;
+@162805 .filter.drop-down-list ul li.active a
+      font-weight: bold;
+@162860 .filter.drop-down-list ul li:hover a
+      background-color: #dae9f0;
+@163417 .filter_drop-down-list_modul .service-row
+      margin-bottom: calc(35px - 1em);
+@163490 .filter_drop-down-list_modul .service-row:not(.without-filter-1) .filter-2
+      margin-left: 30px;
+@163582 .filter_drop-down-list_modul .service-row:not(.without-filter-1) .filter.sub-categories
+      display: none;
+@163683 .filter_drop-down-list_modul .service-row .filter-1,.filter_drop-down-list_modul .service-row .filter-2,.filter_drop-down-list_modul .service-row .filter-3
+      margin-bottom: 1em;
+@163857 .filter_drop-down-list_modul .service-row .search-field
+      float: right; height: 50px; line-height: 50px; border-radius: 22.25px; white-space: nowrap; width: auto; padding: 0 15px; background-color: #ededed; display: inline-block;
+@164067 .filter_drop-down-list_modul .service-row .search-field>label
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+@164253 .filter_drop-down-list_modul .service-row .search-field input[type=text]
+      background-color: #ededed; border: 0 none; padding: 0 3px; width: 185px; margin-bottom: 0; font-size: 1em; height: 40px; line-height: 40px; margin-right: 30px; text-align: left;
+@164484 .filter_drop-down-list_modul .service-row .search-field input[type=text].active
+      font-weight: bold;
+@164581 .filter_drop-down-list_modul .service-row .search-field a
+      font-size: 1.5em; position: absolute; right: 15px; display: inline-block; vertical-align: middle;
+@165027 .module-faq ul.list>li.entry h3
+      margin: 40px 0 20px; background-color: #870d87; color: #fff; padding: 5px 10px;
+@165131 .module-faq ul.list>li.entry div.container .content p a
+      text-decoration: underline;
+@165213 .module-faq ul.list>li.entry div.container .voting .hint-message a
+      color: #0ba2e3; font-weight: bold;
+@165311 .module-faq ul.list>li.entry div.container .voting a.button-vote
+      color: #8c8c8c; font-weight: bold; display: inline-block; margin-left: 10px; position: relative;
+@165463 .module-faq ul.list>li.entry div.container .voting a.button-vote .voting-message
+      top: -30px; left: -82.5px;
+@165567 .module-faq ul.list>li.entry div.container .voting a span
+      color: #0ba2e3; display: inline-block; margin-right: 5px; vertical-align: middle;
+@165699 .module-faq ul.list>li.entry div.container .voting .voting-message
+      display: inline-block; color: #fff; background-color: #870d87; padding: 5px 10px; border-radius: 14px; position: absolute; font-weight: 400; font-size: .8em; white-space: nowrap; display: none;
+@165940 .module-faq ul.list>li.entry div.container .voting .voted-down-message .voting-message
+      left: 0; right: 0; top: 0; bottom: 0; margin: auto; text-align: center; width: 165px; height: 20.5px;
+@166113 .module-faq ul.list>li.entry.voted div.container .voting>p a
+      cursor: default;
+@166189 .module-faq ul.list>li.entry.voted div.container .voting textarea
+      border-radius: 22.25px;
+@166277 .module-faq ul.list>li.entry.voted div.container .voting .voted-down-message
+      border-radius: 22.25px; background-color: #ededed; margin-bottom: 15px; width: 96%; padding: 2%; position: relative;
+@166459 .module-faq ul.list>li.entry.voted div.container .voting .voting-down-message-form .flex-box>div:first-child
+      flex-grow: 5; padding-right: 30px;
+@166599 .module-faq ul.list>li.entry.voted div.container .voting .voting-down-message-form .flex-box>div:last-child
+      flex-grow: 1; min-width: 85px;
+@166734 .module-faq ul.list>li.entry.voted div.container .voting .voting-down-message-form .flex-box>div:last-child>a
+      right: 0; bottom: 16px;
+@166864 .module-faq .filter-2
+      margin-left: 30px;
+@166903 .module-faq .filter.sub-categories
+      display: none;
+@166951 .module-faq .service-row
+      margin-bottom: calc(35px - 1em);
+@167007 .module-faq .service-row .filter-1
+      margin-bottom: 1em;
+@167060 .module-faq .service-row .filter-2
+      margin-bottom: 1em;
+@167113 .module-faq .service-row .filter-3
+      margin-bottom: 1em;
+@167963 .module-faq .service-row.filters-3 .filter-2.float-left   @media screen and (max-width:1450px)
+      float: right; margin-left: 0;
+@168045 .module-faq .service-row.filters-3 .filter-3   @media screen and (max-width:1450px)
+      clear: both; width: 100%;
+@168112 .module-faq .service-row.filters-3 .filter-3 .search   @media screen and (max-width:1450px)
+      width: calc(100% - 30px);
+@168227 .module-faq .service-row.filters-3 .search input[type=text]   @media screen and (max-width:1240px)
+      width: 120px;
+@168337 .module-faq .service-row.filters-3 .filter   @media screen and (max-width:1024px)
+      padding: 12.5px 20px;
+@168400 .module-faq .service-row.filters-3 .filter .category-label a .fa   @media screen and (max-width:1024px)
+      float: right;
+@168477 .module-faq .service-row.filters-3>.filter-1   @media screen and (max-width:1024px)
+      width: 100%;
+@168533 .module-faq .service-row.filters-3>.filter-2   @media screen and (max-width:1024px)
+      width: 100%;
+@168589 .module-faq .service-row.filters-3>.filter-3   @media screen and (max-width:1024px)
+      width: 100%;
+@168645 .module-faq .service-row.filters-3 .filter.categories   @media screen and (max-width:1024px)
+      padding: 12.5px 3%; width: 94%;
+@168727 .module-faq .service-row.filters-3 .float-left.filter-2 .filter.sub-categories   @media screen and (max-width:1024px)
+      padding: 12.5px 3%; width: 94%;
+@168834 .module-faq .service-row.filters-3 .search   @media screen and (max-width:1024px)
+      width: calc(100% - 30px);
+@168938 .module-faq .search input[type=text]   @media screen and (max-width:640px)
+      width: 120px;
+@169024 .module-faq .service-row .filter-1.float-left   @media screen and (max-width:540px)
+      float: none;
+@169081 .module-faq .service-row .filter-2.float-left   @media screen and (max-width:540px)
+      float: none;
+@169138 .module-faq .service-row .filter-3.float-right   @media screen and (max-width:540px)
+      float: none;
+@169196 .module-faq .service-row .filter.categories   @media screen and (max-width:540px)
+      padding: 12.5px 3%; width: 94%; margin-left: 0;
+@169282 .module-faq .service-row .float-left.filter-2 .filter.sub-categories   @media screen and (max-width:540px)
+      padding: 12.5px 3%; width: 94%; margin-left: 0;
+@169393 .module-faq .filter   @media screen and (max-width:540px)
+      padding: 12.5px 3%; width: 94%; margin-left: 0;
+@169455 .module-faq .filter .category-label   @media screen and (max-width:540px)
+      position: relative;
+@169509 .module-faq .filter .category-label a .fa   @media screen and (max-width:540px)
+      position: absolute; right: 3%;
+@169578 .module-faq .service-row.filters-3 .filter-3 .filter.search-field   @media screen and (max-width:540px)
+      width: calc(100% - 40px);
+@169668 .module-faq .search   @media screen and (max-width:540px)
+      width: 94%; padding: 0 3%;
+@169711 .module-faq .search input[type=text]   @media screen and (max-width:540px)
+      padding: 0 1%; margin-right: 1%; width: 87%;
+@536221 .service-row
+      margin: 35px 0; position: relative; min-height: 50px;
+@638728 .akkordeon-list li.remit.entry .content .inner
+      height: auto; padding: 15px 20px 20px 20px;
+@638815 .akkordeon-list li.remit.entry .content .inner .float-left
+      width: 49%;
+@638884 .akkordeon-list li.remit.entry .content .inner .float-right
+      width: 49%;
+@638954 .akkordeon-list li.remit.entry .content .inner span.lang-en
+      color: #7a7a7a; white-space: nowrap;
+@639047 .akkordeon-list li.remit.entry .content .inner span.lang-en:before
+      content: "."; clear: both; display: block; height: 0; visibility: hidden;
+@639178 .akkordeon-list li.remit.entry .content .inner table
+      width: 100%; line-height: 1.4;
+@639258 .akkordeon-list li.remit.entry .content .inner table tbody tr:first-child
+      border-top: 1px solid #fff;
+@639358 .akkordeon-list li.remit.entry .content .inner tr
+      border-bottom: 1px solid #fff;
+@639437 .akkordeon-list li.remit.entry .content .inner tr td
+      vertical-align: top; padding: 2px 0 6px 0;
+@639529 .akkordeon-list li.remit.entry .content .inner tr td:first-child
+      padding-right: 10px; font-weight: 500;
+@640366 .akkordeon-list li.remit.entry .content .inner .float-left   @media screen and (max-width:1320px)
+      width: 100%;
+… 11 more — narrow the selector regex, add --media/--decl, or raise --max
+######## ^\.text-modul|^\.modul-image|^\.scrollable-table|^table|^th|^td|cellBorderBottom|^\.image-remove-margin
+stardust/current/assets/css/ScreenLess.css: 121 of 7143 rules match /^\.text-modul|^\.modul-image|^\.scrollable-table|^table|^th|^td|cellBorderBottom|^\.image-remove-margin/i, showing 80
+@245436 .text-modul .picture-credits li
+      margin-bottom: 20px; display: block;
+@245501 .text-modul .picture-credits li>a
+      width: 100%;
+@245546 .text-modul .picture-credits li .fa::before
+      margin-right: 5px; display: inline-block;
+@245628 .text-modul .picture-credits li figure
+      display: table;
+@245681 .text-modul .picture-credits li figure img
+      margin: 3px 20px 0 0!important; width: 100px; display: table-cell; float: none; min-width: 100px;
+@245812 .text-modul .picture-credits li figure figcaption
+      display: table-cell; line-height: 1.4; vertical-align: top;
+@245916 .text-modul .picture-credits li figure figcaption span
+      color: #000; font-weight: 400; font-size: .9em;
+@246013 .text-modul .picture-credits li figure figcaption span.required
+      color: #eb0000;
+@246091 .text-modul .picture-credits li figure figcaption>span:has(.content)
+      display: table;
+@246174 .text-modul .picture-credits li figure figcaption>span:has(.content)>span
+      display: table-cell;
+@246267 .text-modul .picture-credits li figure figcaption>span:has(.content)>span.content
+      word-wrap: break-word; word-break: break-all;
+@246391 .text-modul .picture-credits li.page-state-0
+      opacity: .4;
+@246447 .text-modul .picture-credits li.page-state-2
+      opacity: .5; background-color: #e0ffff;
+@385194 table:not(.customValidatorCalloutStyle)
+      width: 100%;
+@385245 table.autoWidth
+      width: auto;
+@385272 table thead tr th.cellAlignRight,table tr td.cellAlignRight
+      text-align: right;
+@385349 table tbody tr th.cellBorderBottom,table tr td.cellBorderBottom
+      border-bottom: 1px solid #000;
+@385442 table tr th
+      text-align: left; font-weight: normal;
+@385489 table tr td.cellBorderBottomAlignRight
+      border-bottom: 1px solid #000; text-align: right;
+@385574 table tr td.headAlignRight
+      text-align: right;
+@385618 table thead tr th,table thead tr td,table tr td.head,table tbody tr th.head,table tbody tr td.headAlignRight
+      background: #870d87; min-height: 50px; line-height: 1.4; font-size: 20px; color: #fff; font-weight: 500;
+@385820 table thead tr th>p,table thead tr td>p,table tr td.head>p,table tbody tr th.head>p,table tbody tr td.headAlignRight>p
+      margin-bottom: 0;
+@428303 .text-modul.box,.text-modul~.addition.box,.text-editor-container.box,.textentry.box
+      padding: 30px;
+@428400 .text-modul>header,.text-modul~.addition>header,.text-editor-container>header,.textentry>header
+      margin-bottom: 3em;
+@428514 .text-modul>header h2,.text-modul~.addition>header h2,.text-editor-container>header h2,.textentry>header h2
+      margin-bottom: 0;
+@428638 .text-modul>header h2+h3,.text-modul~.addition>header h2+h3,.text-editor-container>header h2+h3,.textentry>header h2+h3
+      color: #000; font-weight: 400;
+@428785 .text-modul>h3,.text-modul~.addition>h3,.text-editor-container>h3,.textentry>h3
+      font-size: calc(1.3*16px + .08vw);
+@428898 .text-modul>h4,.text-modul~.addition>h4,.text-editor-container>h4,.textentry>h4
+      font-size: calc(1.2*16px + .08vw); line-height: 1.2; margin-bottom: 16px;
+@429046 .text-modul p a,.text-modul~.addition p a,.text-editor-container p a,.textentry p a,.text-modul h3 a,.text-modul~.addition h3 a,.text-editor-container h3 a,.te…
+      text-decoration: underline;
+@429332 .text-modul .video-block,.text-modul~.addition .video-block,.text-editor-container .video-block,.textentry .video-block
+      border-radius: 12px;
+@429471 .text-modul .video-block figure,.text-modul~.addition .video-block figure,.text-editor-container .video-block figure,.textentry .video-block figure
+      position: relative; margin: 1.5em 0!important;
+@429662 .text-modul .video-block figure picture,.text-modul~.addition .video-block figure picture,.text-editor-container .video-block figure picture,.textentry .video-…
+      display: flex;
+@429855 .text-modul .video-block figure picture img,.text-modul~.addition .video-block figure picture img,.text-editor-container .video-block figure picture img,.texte…
+      margin: 0; border-radius: 12px;
+@430079 .text-modul .video-block figure video,.text-modul~.addition .video-block figure video,.text-editor-container .video-block figure video,.textentry .video-block …
+      position: absolute; left: 0; top: 0; width: 100%; border-radius: 12px;
+@430312 .text-modul>.columns-2 iframe.youtube-video-player,.text-modul~.addition>.columns-2 iframe.youtube-video-player,.text-editor-container>.columns-2 iframe.youtub…
+      width: 100%;
+@430751 .text-modul.images-with-shadow figure img,.text-modul~.addition.images-with-shadow figure img,.text-editor-container.images-with-shadow figure img,.textentry.i…
+      object-fit: contain; object-position: center top; filter: drop-shadow(0 9px 17px rgba(0,0,0,.15)) drop-shadow(0 0 7px rgba(0,0,0,…;
+@431068 .text-modul.images-with-shadow figure figcaption,.text-modul~.addition.images-with-shadow figure figcaption,.text-editor-container.images-with-shadow figure fi…
+      display: flex; justify-content: center; position: relative;
+@431338 .text-modul.images-with-shadow figure figcaption .picture-credits,.text-modul~.addition.images-with-shadow figure figcaption .picture-credits,.text-editor-cont…
+      margin-top: calc(1.6*-.8em); display: inline-block; padding-right: 5px; position: static;
+@431704 .text-modul section.has-overflow-content,.text-modul~.addition section.has-overflow-content,.text-editor-container section.has-overflow-content,.textentry sect…
+      margin-top: 2em;
+@431903 .text-modul figure:not(.modul-image),.text-modul~.addition figure:not(.modul-image),.text-editor-container figure:not(.modul-image),.textentry figure:not(.modu…
+      float: left; margin: 9px 40px 20px 0; position: relative; max-width: 100%;
+@432138 .text-modul figure:not(.modul-image) img,.text-modul~.addition figure:not(.modul-image) img,.text-editor-container figure:not(.modul-image) img,.textentry figu…
+      float: none; margin: 0!important;
+@432352 .text-modul figure+h3,.text-modul~.addition figure+h3,.text-editor-container figure+h3,.textentry figure+h3
+      padding-top: 4px;
+@432476 .text-modul.set-image-column-1-4 figure,.text-modul~.addition.set-image-column-1-4 figure,.text-editor-container.set-image-column-1-4 figure,.textentry.set-ima…
+      align-items: center; display: flex; flex-direction: column; flex-shrink: 0;
+@433084 .text-modul.set-image-column-1-4 section.has-overflow-content>div.overflow:has(>h3:first-child),.text-modul~.addition.set-image-column-1-4 section.has-overflow…
+      margin-top: 4px;
+@434311 .text-modul.set-image-column-1-4 figure,.text-modul~.addition.set-image-column-1-4 figure,.text-editor-container.set-image-column-1-4 figure,.textentry.set-ima…
+      width: 25%!important;
+@434511 .text-modul.set-image-column-1-3 figure,.text-modul~.addition.set-image-column-1-3 figure,.text-editor-container.set-image-column-1-3 figure,.textentry.set-ima…
+      width: calc(100%/3)!important;
+@434720 .text-modul.set-image-column-1-2 figure,.text-modul~.addition.set-image-column-1-2 figure,.text-editor-container.set-image-column-1-2 figure,.textentry.set-ima…
+      width: 50%!important;
+@434920 .text-modul.image-remove-margin figure,.text-modul~.addition.image-remove-margin figure,.text-editor-container.image-remove-margin figure,.textentry.image-remo…
+      margin-top: 0; margin-right: 0;
+@435304 .text-modul.coloring-background,.text-modul~.addition.coloring-background,.text-editor-container.coloring-background,.textentry.coloring-background
+      border-radius: 12px; padding: var(--box-padding); width: calc(100% - 2*var(--box-padding)); color: #fff;
+@435549 .text-modul.coloring-background header,.text-modul~.addition.coloring-background header,.text-editor-container.coloring-background header,.textentry.coloring-b…
+      margin-bottom: 1em;
+@435743 .text-modul.coloring-background h3,.text-modul~.addition.coloring-background h3,.text-editor-container.coloring-background h3,.textentry.coloring-background h3
+      color: #fff;
+@435914 .text-modul.coloring-background p:last-of-type,.text-modul~.addition.coloring-background p:last-of-type,.text-editor-container.coloring-background p:last-of-ty…
+      margin-bottom: 0;
+@436362 .text-modul.coloring-background a:not(.link-button):not(.cta-button):not(.icon):not(.tnk-icon),.text-modul~.addition.coloring-background a:not(.link-button):no…
+      color: #fff; text-decoration: underline;
+@436799 .text-modul section.coloring-background,.text-modul~.addition section.coloring-background,.text-editor-container section.coloring-background,.textentry section…
+      padding: 1em;
+@437207 .text-modul section.coloring-background p:last-of-type,.text-modul~.addition section.coloring-background p:last-of-type,.text-editor-container section.coloring…
+      margin-bottom: 0;
+@437739 .text-modul section.alternative-background-color,.text-modul~.addition section.alternative-background-color,.text-editor-container section.alternative-backgrou…
+      background-color: #f2f2f2;
+@437980 .text-modul section.coloring-background,.text-modul~.addition section.coloring-background,.text-editor-container section.coloring-background,.textentry section…
+      background-color: #870d87; color: #fff;
+@439277 .text-modul.set-image-column-1-4 .overflow.overflow-hidden:not(.smartphone-mode-roam-around):not(.clear),.text-modul~.addition.set-image-column-1-4 .overflow.o…   @media screen and (max-width:1280px)
+      overflow: hidden;
+@440651 .text-modul .video-block[data-aspect-ratio-tablet],.text-modul~.addition .video-block[data-aspect-ratio-tablet],.text-editor-container .video-block[data-aspect…   @media screen and (max-width:1024px)
+      --x: attr(data-aspect-ratio-tablet);
+@440910 .text-modul .video-block[data-aspect-ratio-tablet] img,.text-modul~.addition .video-block[data-aspect-ratio-tablet] img,.text-editor-container .video-block[dat…   @media screen and (max-width:1024px)
+      aspect-ratio: var(--x);
+@441209 .text-modul.set-image-column-1-4 .overflow.overflow-hidden:not(.smartphone-mode-roam-around):not(.clear),.text-modul~.addition.set-image-column-1-4 .overflow.o…   @media screen and (max-width:768px)
+      clear: unset;
+@442578 .text-modul.set-image-column-1-4 figure,.text-modul~.addition.set-image-column-1-4 figure,.text-editor-container.set-image-column-1-4 figure,.textentry.set-ima…   @media screen and (max-width:540px)
+      width: unset!important;
+@443140 .text-modul figure:not(.modul-image),.text-modul~.addition figure:not(.modul-image),.text-editor-container figure:not(.modul-image),.textentry figure:not(.modu…   @media screen and (max-width:540px)
+      margin: 0 0 30px 0; display: inline-block; float: none;
+@443358 .text-modul section.has-overflow-content figure:not(.modul-image),.text-modul~.addition section.has-overflow-content figure:not(.modul-image),.text-editor-cont…   @media screen and (max-width:540px)
+      margin: 0 0 20px 0; display: inline-block;
+@443681 .text-modul section.has-overflow-content figure:not(.modul-image) img,.text-modul~.addition section.has-overflow-content figure:not(.modul-image) img,.text-edi…   @media screen and (max-width:540px)
+      margin-bottom: 0;
+@444034 .text-modul .video-block[data-aspect-ratio-smartphone],.text-modul~.addition .video-block[data-aspect-ratio-smartphone],.text-editor-container .video-block[dat…   @media screen and (max-width:430px)
+      --x: attr(data-aspect-ratio-smartphone);
+@444313 .text-modul .video-block[data-aspect-ratio-smartphone] img,.text-modul~.addition .video-block[data-aspect-ratio-smartphone] img,.text-editor-container .video-b…   @media screen and (max-width:430px)
+      aspect-ratio: var(--x);
+@521546 table.checkbox-list label
+      display: inline-block; margin-bottom: 0;
+@631241 table tr td.contentTableTBody
+      margin-bottom: 20px; border-bottom: 1px solid #000;
+@631319 table tr td.contentTableTBodyPaddingTop
+      margin-bottom: 20px; border-bottom: 1px solid #000;
+@631407 table tr td.contentTableTBodyPaddingTopPaddingLeft
+      margin-bottom: 20px; border-bottom: 1px solid #000; padding-bottom: 20px;
+@631526 table tr td.contentTableTBodyPaddingTopAlignRight
+      margin-bottom: 20px; border-bottom: 1px solid #000; text-align: right;
+@631641 table tr td.contentTableTBodyPaddingTopAlignRightPaddingRight
+      margin-bottom: 20px; border-bottom: 1px solid #000; text-align: right;
+@631768 table tr td.contentTableTBodyAlignRight
+      margin-bottom: 20px; border-bottom: 1px solid #000; text-align: right;
+@631873 table tr td.contentTableTBodyPaddingLeft
+      border-bottom: 1px solid #000;
+@631943 table tr td.contentTableTBodyPaddingRight
+      border-bottom: 1px solid #000; text-align: right;
+@632031 table tr td.contentTablePaddingRightAlignRight
+      text-align: right;
+@632095 table tr td.contentTableAlignRight
+      text-align: right;
+@632147 table tr td.contentTableTHead
+      background: #870d87; height: 50px; font-size: 20px; color: #fff; font-weight: 500; min-height: 50px; line-height: 1.4;
+@632282 table tr td.contentTableTHead>p
+      margin-bottom: 0;
+… 41 more — narrow the selector regex, add --media/--decl, or raise --max
+######## ^\.eye-catcher|^\.energieBanking|^\.with-eye-catcher
+css-rules: no rule of 7143 matches /^\.eye-catcher|^\.energieBanking|^\.with-eye-catcher/i in stardust/current/assets/css/ScreenLess.css
+######## ^\.wide-image|^\.oversized|picture-credits\.oversized|^\.product-teaser.*(h2|divider|description|\.link|credits)
+stardust/current/assets/css/ScreenLess.css: 17 of 7143 rules match /^\.wide-image|^\.oversized|picture-credits\.oversized|^\.product-teaser.*(h2|divider|description|\.link|credits)/i
+@131893 .columns-2.boxes-1.contact-list-modus-2>li.box.contact.columns-2-3 .service-container figure figcaption .picture-credits.oversized,.columns-3.boxes-1.contact-l…   @media screen and (max-width:499px)
+      margin-top: calc(var(--oversizedHeight)*-1 - .5em);
+@221184 .page-content-section figure.modul-image .picture-credits.oversized   @media screen and (max-width:414px)
+      white-space: normal; bottom: calc(-1em - 7px); text-align: right;
+@246916 section .center figure figcaption .picture-credits.oversized span
+      white-space: normal; word-wrap: anywhere;
+@274622 .product-teaser .description p:last-child
+      margin-bottom: 0;
+@278008 .product-teaser>a:focus-visible .link-button
+      outline-width: 3px!important; outline-style: solid!important; outline-color: #0c669e!important; outline-offset: 2px!important;
+@290844 .product-teaser figure figcaption .container h2,.product-teaser figure figcaption .container h3
+      margin-bottom: 5px;
+@290958 .product-teaser figure figcaption .container span.divider
+      display: inline-block; height: 1px; width: 25%; background-color: #870d87; margin-bottom: 7px; transition: width .3s cubic-bezier(.65,.05,.36,1);
+@291150 .product-teaser figure:hover figcaption .container span.divider
+      width: 50%;
+@291224 .product-teaser figure figcaption .container .link .link-button
+      margin-top: .5em; font-size: 1.15em;
+@291321 .product-teaser figure figcaption .container .link.additional
+      padding-top: 1em;
+@291399 .product-teaser figure figcaption .container .link.additional a:not(.link-button)
+      font-weight: normal; text-decoration: underline; color: #870d87; transition: all .25s ease;
+@291565 .product-teaser figure figcaption .container .link.additional a:hover
+      color: #0ba2e3;
+@291649 .product-teaser figure figcaption .container .link.additional a.cta-link
+      color: #0ba2e3;
+@291736 .product-teaser figure figcaption .container .link.additional a.cta-link:hover
+      color: #0c669e;
+@636501 .product-teaser.energieBanking-modul figure figcaption .container .description ul.icon-list
+      margin-bottom: 3em;
+@636611 .product-teaser.energieBanking-modul figure figcaption .container .description ul.icon-list+p
+      margin-bottom: 0;
+@637490 .product-teaser.energieBanking-modul figure picture,.product-teaser.energieBanking-modul figure figcaption .picture-credits   @media screen and (min-width:1121px)
+      right: 10%!important;
+######## ^\.teaser-modul|^\.coloring-background
+stardust/current/assets/css/ScreenLess.css: 164 of 7143 rules match /^\.teaser-modul|^\.coloring-background/i, showing 80
+@94641 .coloring-background
+      background-color: #870d87;
+@167166 .coloring-background .module-faq ul.list>li.entry div.container .voting a.button-vote
+      color: #f2f2f2;
+@411780 .teaser-modul.dock-to-previous-section
+      margin-top: -8.5em; padding-top: 6.5em;
+@411855 .teaser-modul.dock-to-previous-section.page-content-section
+      margin-top: -8.5em;
+@411933 .teaser-modul.dock-to-previous-section.previous-section-has-pager
+      margin-top: -12em;
+@412016 .teaser-modul.dock-to-previous-section.take-active-slide-button-in-smartphone-view>.center>.container .commands
+      display: none;
+@412141 .teaser-modul.with-eye-catcher-container>.center
+      margin: calc(20px + 3em) auto;
+@412219 .teaser-modul.with-eye-catcher-container>.center>section
+      width: calc(100% - 2*300px); margin: 0 auto;
+@412317 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container
+      width: 300px; position: absolute; right: 0; bottom: calc(-20px - 8em);
+@412452 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container img
+      max-width: 100%; float: none; margin: 0;
+@412563 .teaser-modul.with-eye-catcher-container+.page-content-section
+      padding-top: calc(20px + 1em);
+@412655 .teaser-modul.with-background-grafik>.center>figure .container
+      z-index: 2;
+@412728 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .spacer
+      display: block; flex-grow: 1;
+@412838 .teaser-modul.slider-section>.center>section .container.eye-catcher-included .spacer
+      display: block; flex-grow: 1;
+@412949 .teaser-modul>.center>figure
+      position: relative;
+@412996 .teaser-modul>.center>figure .container
+      color: #fff; text-align: center; position: absolute; margin: auto; width: 50%; left: 0; right: 0; top: 0; bottom: 0; height: auto; display: flex; flex-direction: column; z-index: 1;
+@413192 .teaser-modul>.center>figure .container .image-content
+      display: flex; justify-content: center;
+@413283 .teaser-modul>.center>figure .container:not(.eye-catcher-included) .spacer
+      display: none;
+@413371 .teaser-modul>.center>figure .container .title
+      font-weight: bold; font-size: 3.7em; position: relative;
+@413469 .teaser-modul>.center>figure .container .title .eye-catcher
+      position: absolute; display: inline-table; bottom: 0; margin: 0;
+@413586 .teaser-modul>.center>figure .container .divider
+      width: 50%; height: 1px; background-color: #fff; margin: 1em auto;
+@413694 .teaser-modul>.center>figure .container .description
+      font-size: 2.8em; margin-bottom: .5em;
+@413782 .teaser-modul>.center>section
+      position: relative;
+@413830 .teaser-modul>.center>section>header
+      color: #fff; text-align: center;
+@413896 .teaser-modul>.center>section>header h3
+      margin-bottom: .5em;
+@413955 .teaser-modul>.center>section .container
+      color: #fff; text-align: center; position: absolute; margin: auto; width: 50%; left: 0; right: 0; top: 0; bottom: 0; height: auto; display: flex; flex-direction: column; z-index: 1; position: static; width: auto;
+@414179 .teaser-modul>.center>section .container:not(.eye-catcher-included) .spacer
+      display: none;
+@414268 .teaser-modul>.center>section .container .description
+      margin-bottom: 1.5em;
+@414342 .teaser-modul>.center>figure.coloring-image
+      background-color: #870d87;
+@414411 .teaser-modul>.center>figure.coloring-image picture img
+      opacity: .6;
+@414478 .teaser-modul>.center>figure.fading-image>picture img
+      -webkit-mask-image: -webkit-gradient(linear,left 50%,left bottom,from(#fff),to(…; mask-image: linear-gradient(to bottom,#fff 50%,#fff);
+@414684 .teaser-modul video
+      position: absolute; left: 0; top: 0; width: 100%; opacity: .8;
+@414757 .teaser-modul .background
+      background-image: url("../Images/Site/Svg/background-filler.svg"); background-repeat: no-repeat; background-size: contain; background-position: left bottom; position: absolute; width: 424px; height: 686px; bottom: 0; z-index: 1;
+@415352 .teaser-modul .background   @media screen and (max-width:1420px)
+      width: calc(424/1420*100vw); height: calc(686/1420*100vw);
+@415433 .teaser-modul.with-eye-catcher-container>.center>section   @media screen and (max-width:1420px)
+      width: calc(100% - 2*20vw);
+@415516 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container   @media screen and (max-width:1420px)
+      width: 20vw;
+@415599 .teaser-modul>.center>figure .container   @media screen and (max-width:1420px)
+      width: 70%;
+@415649 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .title   @media screen and (max-width:1420px)
+      font-size: 3em;
+@415746 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .description   @media screen and (max-width:1420px)
+      font-size: 2em;
+@415887 .teaser-modul.dock-to-previous-section.previous-section-has-pager   @media screen and (max-width:1024px)
+      padding-top: 10em;
+@415970 .teaser-modul.with-eye-catcher-container>.center   @media screen and (max-width:1024px)
+      margin: calc(20px + 2.5em) auto;
+@416050 .teaser-modul.with-eye-catcher-container>.center>section   @media screen and (max-width:1024px)
+      width: auto;
+@416118 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container   @media screen and (max-width:1024px)
+      width: 20vw; bottom: calc(-20px - 7em);
+@416226 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-right   @media screen and (max-width:1024px)
+      transform: scale(.7) rotate(10deg);
+@416348 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-left   @media screen and (max-width:1024px)
+      transform: scale(.7) rotate(-10deg);
+@416470 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .title   @media screen and (max-width:1024px)
+      font-size: 2.5em;
+@416569 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .description   @media screen and (max-width:1024px)
+      font-size: 1.5em;
+@416674 .teaser-modul>.center>figure .container   @media screen and (max-width:1024px)
+      width: 90%;
+@416724 .teaser-modul>.center>figure .container .title   @media screen and (max-width:1024px)
+      font-size: 3em;
+@416785 .teaser-modul>.center>figure .container .title .eye-catcher.size-125   @media screen and (max-width:1024px)
+      max-height: 125px;
+@416871 .teaser-modul>.center>figure .container .title .eye-catcher.size-150   @media screen and (max-width:1024px)
+      max-height: 150px;
+@416957 .teaser-modul>.center>figure .container .title .eye-catcher.size-175   @media screen and (max-width:1024px)
+      max-height: 175px;
+@417043 .teaser-modul>.center>figure .container .title .eye-catcher.size-200   @media screen and (max-width:1024px)
+      max-height: 200px;
+@417129 .teaser-modul>.center>figure .container .title .eye-catcher.size-225   @media screen and (max-width:1024px)
+      max-height: 225px;
+@417215 .teaser-modul>.center>figure .container .description   @media screen and (max-width:1024px)
+      font-size: 2em;
+@417319 .teaser-modul.with-eye-catcher-container>.center   @media screen and (max-width:768px)
+      margin: calc(20px + 1.5em) auto;
+@417399 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container   @media screen and (max-width:768px)
+      width: 150px; bottom: calc(-20px - 5.5em);
+@417510 .teaser-modul.with-eye-catcher-container+.page-content-section   @media screen and (max-width:768px)
+      padding-top: calc(20px + 1.5em);
+@417604 .teaser-modul .background   @media screen and (max-width:768px)
+      display: none;
+@417643 .teaser-modul:not(.slider-section)>.center>figure .container .title .eye-catcher   @media screen and (max-width:768px)
+      right: 0;
+@417732 .teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-included .spacer   @media screen and (max-width:768px)
+      display: block;
+@417836 .teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-125 .spacer   @media screen and (max-width:768px)
+      height: 125px;
+@417939 .teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-150 .spacer   @media screen and (max-width:768px)
+      height: 150px;
+@418042 .teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-175 .spacer   @media screen and (max-width:768px)
+      height: 175px;
+@418145 .teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-200 .spacer   @media screen and (max-width:768px)
+      height: 200px;
+@418248 .teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-225 .spacer   @media screen and (max-width:768px)
+      height: 225px;
+@418351 .teaser-modul>.center>figure .container .title   @media screen and (max-width:768px)
+      font-size: 2.5em;
+@418414 .teaser-modul>.center>figure .container .title .eye-catcher.size-125   @media screen and (max-width:768px)
+      top: -125px;
+@418494 .teaser-modul>.center>figure .container .title .eye-catcher.size-150   @media screen and (max-width:768px)
+      top: -150px;
+@418574 .teaser-modul>.center>figure .container .title .eye-catcher.size-175   @media screen and (max-width:768px)
+      top: -175px;
+@418654 .teaser-modul>.center>figure .container .title .eye-catcher.size-200   @media screen and (max-width:768px)
+      top: -200px;
+@418734 .teaser-modul>.center>figure .container .title .eye-catcher.size-225   @media screen and (max-width:768px)
+      top: -225px;
+@418814 .teaser-modul>.center>figure .container .description   @media screen and (max-width:768px)
+      font-size: 1.5em;
+@418883 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-right   @media screen and (max-width:768px)
+      transform: scale(.8) rotate(10deg);
+@419005 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-left   @media screen and (max-width:768px)
+      transform: scale(.8) rotate(-10deg);
+@419127 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-125   @media screen and (max-width:768px)
+      top: calc(.8*-125px);
+@419231 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-150   @media screen and (max-width:768px)
+      top: calc(.8*-150px);
+@419335 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-175   @media screen and (max-width:768px)
+      top: calc(.8*-175px);
+@419439 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-200   @media screen and (max-width:768px)
+      top: calc(.8*-200px);
+@419543 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-225   @media screen and (max-width:768px)
+      top: calc(.8*-225px);
+… 84 more — narrow the selector regex, add --media/--decl, or raise --max

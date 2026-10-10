@@ -1,0 +1,55 @@
+0	{"src":"https://www.thueringerenergie.de/Content/Images/Site/teag_logo_bigger@1.png","alt":"Zur Startseite","w":147,"h":53}
+1	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/4DE0AD8E3F3E47278A493CB2E5EA84F6_PMT_W_rdax_1440x958_100s@1.jpg","alt":"Hinweis für TEAG Kunden zur Systemumstellung","w":480,"h":319}
+2	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/72F8B07E76B446749F02D3EE0651E1BF_PMT_W_rdax_1440x816_100s@1.jpg","alt":"Einsparpotenziale in Ihrem Unternehmen identifizieren, clever investieren, CO2-Kosten senken - mit der TEAG EnergieEffizienzFoerderung","w":480,"h":272}
+3	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/520F5924B2DE487596172A1AC80223AD_PMT_W_rdax_1440x678_100s@1.jpg","alt":"Kommune Gebäudeplanung","w":479,"h":226}
+4	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/9B1B5C4DAB004C2D8154D4A363320BA4_PMT_W_rdax_1440x858_100s@1.jpg","alt":"Logo der TEAG-Akademie","w":480,"h":286}
+5	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/044CBA91BE684BDFADCA5F13D3249E22_TMT_W_rdax_100s@1.jpg","alt":"Wissenschaftsshow zum Tag der offenen Tür","w":325,"h":185}
+6	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/ADD787684EB0494A82BDF4D54912DAE3_TMT_W_rdax_100s@1.jpg","alt":"Blick in die Ausstellung im ehemaligen Umspannwerk Jena-Nord","w":325,"h":185}
+7	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/B328519785FC4214929BBFA9644DAB67_TMT_W_rdax_100s@1.jpg","alt":"Portrait Ulrike Wilhelm","w":325,"h":185}
+8	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/91D0A0B92F05435F827790C265E6EB54_TMT_W_rdax_100s@1.jpg","alt":"Schülerinnen und Schüler  schauen sich Blatt an","w":325,"h":185}
+9	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/FA50C8BC05A440E2BF3FBC729D9FA58A_PMT_W_rdax_1440x960_100s@1.jpg","alt":"Die Hauptverwaltung der TEAG-Gruppe in Erfurt, Außenansicht","w":480,"h":320}
+10	{"src":"https://www.thueringerenergie.de/Content/Images/Site/teag_logo_neg_outline@1.png","alt":"Zur Startseite","w":130,"h":49}
+11	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/A759FACAF7194001B4A43C6B01B005DE_S_D_rdax_5757x2160_100s@1.jpg","alt":"Bild: TEAG Kombi-Angebot Strom plus Smartwatch – abgebildet auf einem Header-Bild","w":1919,"h":720}
+12	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/EC2B411706834871A1151BFDED2AEBA1_PLT_W_rdax_1479x750_100s@1.jpg","alt":"Bild: Unsere Mitarbeiter helfen Ihnen gerne","w":493,"h":250}
+13	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/044CBA91BE684BDFADCA5F13D3249E22_TLT_D_rdax_100s@1.jpg","alt":"Wissenschaftsshow zum Tag der offenen Tür","w":960,"h":449}
+14	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/ADD787684EB0494A82BDF4D54912DAE3_TLT_D_rdax_100s@1.jpg","alt":"Blick in die Ausstellung im ehemaligen Umspannwerk Jena-Nord","w":960,"h":449}
+15	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/B328519785FC4214929BBFA9644DAB67_TLT_D_rdax_100s@1.jpg","alt":"Portrait Ulrike Wilhelm","w":960,"h":449}
+16	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/5386ce6f-3ff8-4eaf-b7da-5bed0e4099c0","alt":"","w":1200,"h":800}
+17	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/a81dcfb6-696b-4e5d-ac73-878fb0c4ac0a","alt":"","w":1200,"h":800}
+18	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/ee6b1b72-cce9-478f-be39-97a89b0d380e","alt":"","w":1200,"h":800}
+19	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/921c2ff5-6f43-4a46-add1-290dff9448ad","alt":"","w":1200,"h":800}
+20	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/08cc89ae-f955-475d-b03c-3a0022842549","alt":"","w":1200,"h":800}
+21	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/40f4d499-522d-46f9-beec-7e545324249d","alt":"","w":1200,"h":800}
+22	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/ac0a0810-0de0-419f-a876-1400d0bd5db4","alt":"","w":1200,"h":900}
+23	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/4ac44491-c754-4aa1-bcef-d11490f9d528","alt":"","w":1200,"h":900}
+24	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/a9cf1b3b-89b0-493f-93c5-2c69a6ac8442","alt":"","w":1200,"h":900}
+25	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/98f07660-a1fc-45a7-b929-04c124bcf4fd","alt":"","w":1200,"h":900}
+26	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/e91a3a3d-6620-4e38-bbfe-83cefd922da2","alt":"","w":1200,"h":900}
+27	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/509ee96b-fdbc-4485-814e-d2e1116dbef4","alt":"","w":1200,"h":900}
+28	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/133657a1-8231-482e-8599-7e583f89e0b0","alt":"","w":1080,"h":1920}
+29	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/ae4b5711-1e77-40d6-868a-921a542113d7","alt":"","w":1080,"h":1350}
+30	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/e4a42b55-c8f5-4a00-aa1b-70c6edc8f251","alt":"","w":1080,"h":1350}
+31	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/1b09f52b-4f44-42ec-a936-631e875af108","alt":"","w":1080,"h":1350}
+32	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/fc69c1ec-441e-4136-8e84-410f1068c171","alt":"","w":1080,"h":1350}
+33	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/b3adadc1-ae1c-4fb3-93a5-0533ab596c14","alt":"","w":1080,"h":1350}
+34	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/93062968-5b20-4ee0-a001-979cfd2c2163","alt":"","w":1080,"h":1350}
+35	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/0f4b0e88-fe7a-441c-984e-2fc4f0084683","alt":"","w":1080,"h":1920}
+36	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/1de1136f-09ef-4c58-bb57-7dc36c4006d3","alt":"","w":1280,"h":853}
+37	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/c086d3b1-c430-46ac-a47a-3628e1927b75","alt":"","w":1280,"h":853}
+38	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/141a07fd-180b-4ceb-8dec-ba5ba40fea95","alt":"","w":1280,"h":853}
+39	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/f569ab19-bbcf-4d80-a66e-9151576fc2d2","alt":"","w":1280,"h":853}
+40	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/52889981-930b-4ef5-b166-3a0b37ab4716","alt":"","w":1280,"h":853}
+41	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/LinkedIn/Images/39914f74-96a2-4040-b5f5-146e3199ddf8","alt":"","w":1280,"h":853}
+42	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/fadb2ddd-9f5a-40f4-b73a-53f2e534b5f0","alt":"","w":1080,"h":1350}
+43	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/b563ab56-891b-46ad-8ad1-7a86e6ddd1e2","alt":"","w":1080,"h":1350}
+44	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/80dc9828-ad3d-46c1-93e4-716eafb9e7c1","alt":"","w":1080,"h":1350}
+45	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/771872ca-a190-498d-8640-db5948202a23","alt":"","w":1080,"h":1350}
+46	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/46aadd9f-e460-49bd-87f3-7f346f08563b","alt":"","w":1080,"h":1350}
+47	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/45615652-5658-41c0-aafc-a3918329d78a","alt":"","w":1080,"h":1350}
+48	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/06a96d55-18e4-46aa-b3d0-1cd42519af09","alt":"","w":1080,"h":1350}
+49	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/2a4727a7-5409-46a6-9dd7-da7b0418f455","alt":"","w":1080,"h":1350}
+50	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/395242ea-3931-4322-a572-22a3d1d09519","alt":"","w":1080,"h":1350}
+51	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/b40454d5-85df-404d-82fa-b64cc02ad4e2","alt":"","w":1080,"h":1350}
+52	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/3cb6ebb3-a217-4c82-af8d-2baea394b313","alt":"","w":1080,"h":1350}
+53	{"src":"https://www.thueringerenergie.de/SocialMediaFramework/Instagram/Images/aae90bfa-0bc2-42a2-9b47-011233cff2dd","alt":"","w":1080,"h":1350}
+54	{"src":"https://www.thueringerenergie.de/Content/Images/Zuschnitte/67147291BBD6496D995F7A67180A2F61_ALT_D_rdax_100s@1.jpg","alt":"Sportlerbeine mit Turnschuhen rennend auf nasser Straße","w":1920,"h":487}

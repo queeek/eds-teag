@@ -1,0 +1,1720 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-08T07:49:02.647Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "privatkunden-strom-stromtarife",
+  "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-08T07:49:02.647Z",
+  "finalUrl": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+  "title": "Strompreise und Tarife | TEAG Thüringer Energie",
+  "description": "Unsere Stromtarife: Kurze Vertragsbindung oder besser ein günstiges Paket - wählen Sie aus unseren zahlreichen Angeboten den für Sie geeigneten Stromtarif.",
+  "og": {
+    "title": "Strompreise und Tarife | TEAG Thüringer Energie",
+    "description": "Unsere Stromtarife: Kurze Vertragsbindung oder besser ein günstiges Paket - wählen Sie aus unseren zahlreichen Angeboten den für Sie geeigneten Stromtarif.",
+    "image": "https://www.thueringerenergie.de/Content/Images/Altes_Format/teag_og-image_1200x1200.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Strompreise und Tarife"
+    },
+    {
+      "tag": "h2",
+      "text": "Spannung pur! Mit Energie der TEAG – sicher, günstig, einfach gut."
+    },
+    {
+      "tag": "h2",
+      "text": "Unser neues Top-Angebot für Preisoptimierer: Jetzt vergleichen und Ersparnis sichern"
+    },
+    {
+      "tag": "h2",
+      "text": "Darum zur TEAG wechseln"
+    },
+    {
+      "tag": "h3",
+      "text": "Bundesweit"
+    },
+    {
+      "tag": "h3",
+      "text": "Einfach"
+    },
+    {
+      "tag": "h3",
+      "text": "Sicher"
+    },
+    {
+      "tag": "h2",
+      "text": "Unsere Bestseller"
+    },
+    {
+      "tag": "h3",
+      "text": "Für energiegeladene Preisoptimierer."
+    },
+    {
+      "tag": "h4",
+      "text": "Ihre Vorteile"
+    },
+    {
+      "tag": "h3",
+      "text": "Für langfristige Planer."
+    },
+    {
+      "tag": "h4",
+      "text": "Ihre Vorteile"
+    },
+    {
+      "tag": "h3",
+      "text": "Für Wärme-Liebhaber."
+    },
+    {
+      "tag": "h4",
+      "text": "Ihre Vorteile"
+    },
+    {
+      "tag": "h3",
+      "text": "Für Energie-Pioniere und Strom-Strategen."
+    },
+    {
+      "tag": "h4",
+      "text": "Ihre Vorteile"
+    },
+    {
+      "tag": "h3",
+      "text": "Überzeugt? Dann gleich wechseln."
+    },
+    {
+      "tag": "h2",
+      "text": "Weitere Angebote"
+    },
+    {
+      "tag": "h3",
+      "text": "Für Online-Selbermacher."
+    },
+    {
+      "tag": "h3",
+      "text": "Für Selbstentscheider."
+    },
+    {
+      "tag": "h3",
+      "text": "Für Sparsame."
+    },
+    {
+      "tag": "h3",
+      "text": "Für Einfach-Liebhaber."
+    },
+    {
+      "tag": "h2",
+      "text": "Mit Strom & Internet dauerhaft sparen"
+    },
+    {
+      "tag": "h2",
+      "text": "Energie des Moments: Entdecken Sie unsere dynamischen Stromtarife"
+    },
+    {
+      "tag": "h2",
+      "text": "Ihre persönliche Bestwahl!"
+    },
+    {
+      "tag": "h3",
+      "text": "Ihr Wechsel zur TEAG - einfach und schnell"
+    },
+    {
+      "tag": "h4",
+      "text": "Preisvorteil berechnen"
+    },
+    {
+      "tag": "h4",
+      "text": "Einfach online bestellen"
+    },
+    {
+      "tag": "h4",
+      "text": "Wir übernehmen den Rest"
+    },
+    {
+      "tag": "h3",
+      "text": "Jetzt deutschlandweit unser Angebot vergleichen mit dem Tarifrechner Strom!"
+    },
+    {
+      "tag": "h2",
+      "text": "Sind Sie bereits im TEAG-Kundenportal registriert?"
+    },
+    {
+      "tag": "h2",
+      "text": "Durchschnittlicher Stromverbrauch: Wie viel kWh verbraucht ein Haushalt?"
+    },
+    {
+      "tag": "h2",
+      "text": "Wie setzt sich der Strompreis zusammen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Zusammensetzung Strompreis bei der TEAG"
+    },
+    {
+      "tag": "h2",
+      "text": "Noch Fragen?"
+    },
+    {
+      "tag": "h2",
+      "text": "Immer für Sie da"
+    },
+    {
+      "tag": "h3",
+      "text": "Sie haben Fragen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Rückruf vereinbaren"
+    },
+    {
+      "tag": "h3",
+      "text": "Auf einen Blick"
+    },
+    {
+      "tag": "h3",
+      "text": "Kontakt"
+    },
+    {
+      "tag": "h3",
+      "text": "Folgen Sie uns auf"
+    },
+    {
+      "tag": "h3",
+      "text": "TEAG-Newsletter"
+    }
+  ],
+  "body": [
+    "Kundenportal",
+    "Karriere",
+    "Kontrast",
+    "Privatkunden Strom Stromtarife TEAG.Strom extra TEAG.Strom easy TEAG.Strom TEAG.Heizstrom ThüringenStrom.vorkasse ThüringenStrom.sozial Grundversorgung Strom AzubiBonus Dynamische Stromtarife TEAG.Strom dynamic plus TEAG.Strom dynamic base Ersatzversorgung Haus- & Baustromanschluss Strom & Internet Strom & Smartwatch Erdgas Gastarife TEAG.Gas easy TEAG.Gas extra TEAG.Gas ThüringenGas.vorkasse Grundversorgung Erdgas Ersatzversorgung Hausanschluss Elektromobilität DSL & Internet Energielösungen Mein Zuhause Sanierungsfahrplan Thermografie BlowerDoor EnergieAusweis Smart Meter Service TEAG-Kundenportal Zählerstandsmeldung 24h-Lieferantenwechsel Tipps zum Energiesparen Umzug und Kündigung Widerruf Umzug Kündigung Todesfall SEPA-Lastschriftmandat FAQ Kontakt Coloures-Pic/stock.adobe.com Hinweis zur Systemumstellung​ Aktuell arbeiten wir an unseren Systemen. Während der Umstellungsphase kommt es zu Unterbrechungen und Verzögerungen bei der Bearbeitung von Kundenanliegen. Antworten auf die wichtigsten Fragen ×",
+    "Geschäftskunden Energielieferung Gewerbekunden TEAG.Strom extra TEAG.Strom TEAG.Heizstrom ThüringenStrom.vorkasse Grundversorgung Strom TEAG.Gas TEAG.Gas natur ThüringenGas.vorkasse Grundversorgung Erdgas Großkunden TEAG.Strom/Gas profi TEAG.Strom/Gas vario TEAG.Strom/Gas spot business TEAG.Strom/Gas trend TEAG.Strom/Gas quattro TEAG.Strom pool TEAG.Strom/Gas spot expert Verbände Vermittler Landwirtschaft Wohnungswirtschaft Filialkunden Wärme Photovoltaik DSL & Internet Elektromobilität Erneuerbare Energielösungen EnergieAudit EnergieEffizienzAnalyse EnergieEffizienzFörderung Energie- und Lastmanagement Direktvermarktung Geförderte Direktvermarktung Sonstige Direktvermarktung Power Purchase Agreements Service Ansprechpartnersuche Kundenportale Für Individual- und Geschäftskunden WebCheck EnergieKlick EnergieKlick.Strom EnergieKlick.Gas Preisrechner Zielpreisverfahren Ersatzversorgung Haus- & Baustromanschluss Tipps zum Energiesparen Rechnungen FAQ stock.adobe.com/ipopba EnergieEffizienzFörderung Einsparpotenziale in Ihrem Unternehmen identifizieren, clever investieren und CO2-Kosten senken - wir begleiten Sie gerne auf Ihrem Weg. Weiterlesen ×",
+    "Kommunen Kommunale Lösungen Strom & Gas Netzausbau Glasfaser Wasser Elektromobilität Erneuerbare Energien Straßenbeleuchtung Kommunale Wärmeplanung Akademie-Angebote TEAG auf einen Blick Aktuelles & Veranstaltungen TEAG KOMMUNAL Ansprechpartner KommunalPartnerExtra Förderprogramme FAQs TEAG KOMMUNAL+ Digitale Angebote Adrian Sonnberger/trurnit GmbH Kommunale Wärmeplanung – Zukunftssichere Lösungen für Ihre Kommune Auf dem Weg zu mehr Energieeffizienz im Gebäudesektor begleiten wir Sie strategisch zu einer sicheren Wärmeversorgung Ihrer Kommune. Weiterlesen ×",
+    "Stadtwerke Energielieferung VertriebsPartnerExtra Service Stromkennzeichnung Marktpreise & -berichte REMIT-Infos Materialwirtschaft Gruppenrahmenverträge Dokumente Mengenkontrakte Strom Mengenkontrakte Erdgas Materialangebot TEN Lead Buyer Aktuelles Veranstaltungen Wissenswertes Unsere Dienstleistungen für Stadtwerke Risikomanagement Produkte aus erneuerbaren Energien Emissionshandel Für Netzbetreiber Ansprechpartner EnergieKlick EnergieKlick.Strom EnergieKlick.Gas ×",
+    "Akademie Seminare Allgemeine technische Seminare Beauftragtenschulung Elektrotechnik & Erneuerbare Energien Energiewirtschaft Fernwärme Freileitungsbau Gastechnik Höhentraining Kommunikationstechnik Ortungstechnik Wasser Organisation Anmeldeprozess Ansprechpartner Anreise Übernachtungsmöglichkeiten Akademie Das zeichnet uns aus Ausbildung & Ausbildungsgemeinschaft Trainingszentrum Erfurt Zertifikate & Mitgliedschaften /TEAG Weiterlesen ×",
+    "Einblicke Strom & Gas Sonderausstellung: Vom Umspannwerk Jena-Nord zur Imaginata Energieberatung bei der TEAG: Matthias Pfütsch im Gespräch Moderne Datensicherung für die IT-Infrastruktur der TEAG Wissenschaftsshow voll Energie: Andreas Schmidt zeigt Experimente zur Elektrizität Energiezukunft gestalten: Forschung und Energieversorger gehen gemeinsame Wege So stillt die TEAG großen Energiehunger Tierschutz an Windkraftanlagen Zusammen am Tisch sitzen Wir verkaufen Sonnenstrom Zukunftsenergie Wasserstoff: Thüringens Wegweiser in die alternative Energieversorgung Weihnachten im Hochwassereinsatz 100 Jahre landesweite Stromversorgung in Thüringen Entschleunigung im Pelto Bad Sohnstedt Power für Jena Mehr Flexibilität bei weniger Kosten Wärme Zweite Thüringer Wärmetagung: Chancen der Wärmewende Neues Fernwärmenetz in Gera-Langenberg eröffnet Wärmelösungen für das energieeffiziente Thüringen von Morgen Wärmeversorgung in Thüringen: Fernwärme-Projekt startet in Triptis Zukunftsweisende Power-to-Heat-Anlage in Bad Salzungen Minimalinvasiv zum Nahwärmenetz Ein echt dickes Ding Alles im Fluss Neue Ideen auf altem Fundament Moderne Heizkonzepte für alte Siedlung Kühle Köpfe mit heißen Ideen Internet Glasfaseranschluss im Alltag Bahnfrei für schnelles Internet Hier laufen alle Daten zusammen: Die Netzleitstelle der Thüringer Netkom Lernen mit schnellem Netz – Lichtfest in Zeulenroda Weg mit den weißen Flecken Schneller Sport, schnelles Netz Zu Glasfaser ins Gespräch kommen PV & Speicher Vom Energieverbraucher zum Energiegestalter Ressourcenschonende Abfallentsorgung TEAG Solar nimmt 1,5-MW-Batteriespeicher erfolgreich in Betrieb Spektakulärer Reparatureinsatz an der Windenergieanlage Immenrode Für den Solarpark in Ohrdruf: Aktiv-Schule Erfurt baut Nistkästen in Handarbeit Neues Geschäftsfeld Batteriespeicher TEAG Solar plant naturverträglichen Solarpark Ressourcenschonende Energieversorgung Made in Thüringen Spende an die Kita in Langenwolschendorf Solarpark auf ehemaliger Deponie im Kreis Hildburghausen Sonnenstrom für Ostthüringen Räumung von Kampfmitteln Nachhaltigkeit für die Werkstatt-Beschäftigten Sonne als Partner Abkühlung im Sommer - Stromerzeugung das ganze Jahr Grüner Stahl durch die Kraft der Sonne Minischafe am Großprojekt Ein langer Atem für die Energiewende Fliegende Helfer für die Wartung von Photovoltaikanlagen Elektromobilität TEAG Mobil erreicht mit dem 1.000. Ladepunkt einen Meilenstein TEAG Mobil auf der Automobilmesse E-Mobilität wächst und Schleiz wächst mit Vollgas für die E-Mobilität Elektromobilitätstag im ADAC-Fahrsicherheitszentrum Nohra TEAG Mobil GmbH errichtet neue Ladepunkte im Erfurter Norden Zukunftstechnologie erfahren Die TEAG Mobil bringt die Elektromobilität im Freistaat voran Energieeffizienz Die größten Mythen der Energiewende Digitale Wasserzähler der TEAG Wasser Wasser sparen im Alltag Bekenntnis zur Energiewende: Wie die TEAG die EU-Nachhaltigkeitsrichtlinie umsetzt Wärmelecks im Visier Modernes Wohnen Individueller Sanierungsfahrplan (iSFP) Energieverlusten auf den Zahn gefühlt BlowerDoor-Analyse: Luftdichtheit des eigenen Zuhauses testen Karriere Ausbildung an der TEAG Akademie Wie Maja Seifert ihrem Berufsleben eine neue Richtung gab Kabelfehlerortung im Stromnetz: Kabelmesswagen als Schlüsselwerkzeug Kleines Fahrrad, große Leidenschaft: Die Balance zwischen Leistungssport und Arbeitsleben Zukunftsmacher Robert Meiselbach treibt den Glasfaserausbau in Thüringen voran Ziel erreicht: Starkes Starterfeld beim RUN Thüringer Unternehmenslauf Geplant, Gebaut, Gebraucht: Sekundärtechnik in der Netzleitstelle der TEN Gasnetz-Monteur, Familienmensch und Macher bei der TEN Pendeln zwischen Eichsfeld und Erfurt Etwas Neues wagen: Eine eigene Prüfstelle aufbauen Windkraft in Thüringen Länger fit bleiben: Der Betriebsmedizinische Dienst der TEAG-Gruppe Systemadministrator bei der TEAG Vom Balkan in den Hörsaal Elektromobilität ausbauen: Überall und jederzeit laden Elektroanlagenmonteur in Hildburghausen Zurück in die Heimat: Die Wärmewende mitgestalten Fahrradfreundlichkeit als Mitarbeiter-Benefit Tag der offenen Tür 2026 bei der TEAG-Gruppe HS2E-Tag der TEAG-Gruppe: Sommer, Sonne, Arbeitsschutz Schweiß, Tore und Teamgeist Wenzel Drews hat seine Ausbildung als Jahrgangsbester abgeschlossen Sophie Reifhardt: Hüterin des Lichts Wir sind alle Zukunftsmacher Energie aus Sonne und Wind Wie der Vater so der Sohn Perfekter Karrierestart nach dem Studium Lernen mit Aussicht: Austausch mit einer Berufsschule aus Norwegen Energiewende statt Schwarzer Löcher Stressfaktoren erkennen und richtig damit umgehen Neue Karriere bei der TEAG – aller guten Dinge sind drei Beste Industriekauffrau in Thüringen kommt von der TES Am Puls der Energieerzeugung Ein Studium für die Zukunft der Energie Spannung, Studienkurse, Stromstärken Mission: Datensicherheit Einsatzplan für ein Kraftwerk Aus dem Irak an die Programmierkonsole Die junge Stimme Auf Empfehlung zur TEAG-Gruppe Modernes Messwesen statt Marderpanzer Zum Meister seines Fachs Der Energie verschrieben Eine macht den Anfang Das Azubi-Sommerfest 2023 Die Zukunft trainieren Engagement Barrierefreiheit bei der TEAG Malwettbewerb der TEAG: Halbes Bild, ganze Idee Besser gemacht: Optimierte Insektenhotels geben Bienen wieder ein Zuhause Volle Ladung Hilfsbereitschaft für Berlin Sieger bei IdeenMachenSchule Mit TEAG summt's! Der Große Preis von Nordthüringen in Immenrode TEAG-Team sammelt für Kinderhospiz Mitteldeutschland TEAG Legend of Cross Mit hoher Energie über den Stausee Braveheart Battle in Steinach Nationale Winterspiele der Special Olympics in Thüringen Die TEAG unterstützt den Traum vom Fliegen Mit Energie über den Kyffhäuser TEAG-Laufcamp: Trainingswochenende für Laufbegeisterte TEAG als Premium-Sponsor beim ThSV Eisenach aktiv 10 Jahre TEAG Wandern gegen Kinderdemenz Ein Ortsteil unter Strom Sommer, Sonne, Spendenmarsch Themen, die uns bewegen Paul-Philipp Braun/TEAG Tag der offenen Tür 2026 bei der TEAG-Gruppe Zum Tag der offenen Tür 2026 gibt die TEAG-Gruppe einen Einblick in ihre Arbeit und in die Energieversorgung in Thüringen. Weiterlesen Paul-Philipp Braun/TEAG Sonderausstellung: Vom Umspannwerk Jena-Nord zur Imaginata Der TEAG-Arbeitskreis “Stromgeschichte Thüringens“ begleitet die Sonderausstellung zum 100. Geburtstag des Umspannwerks Jena-Nord. Weiterlesen Guido Werner/TEAG Barrierefreiheit bei der TEAG Wie nutzt ein blinder Mensch eine Website? Die TEAG zeigt, warum Barrierefreiheit mehr ist als Kontraste und Screenreader. Weiterlesen Guido Werner/TEAG Sieger bei IdeenMachenSchule Mit IdeenMachenSchule fördert die TEAG kreative Upcycling-Projekte wie den Erdbeerturm aus Blankenhain. Weiterlesen × Alle Einblicke×",
+    "Über uns Unternehmen Porträt & Geschäftszahlen Management & Beiräte Struktur & Beteiligungen Veranstaltungen Tag der offenen Tür Zertifikate Veröffentlichungspflichten Lieferkettensorgfaltspflichten Wärme Stromkennzeichnung Grundversorgung Gleichbehandlung Veröffentlichungen nach REMIT Umwelt- & Arbeitsschutz News TEAG Magazin Presse Karriere Schüler Auszubildende Ausbildungsberufe Ausbildung mit dem „Plus“ Bewerbungstipps Studierende Praktikum Werkstudierende Berufserfahrene & Berufseinsteiger Alle Stellenangebote TEAG als Arbeitgeber TEAG Solar als Arbeitgeber Thüringer Netkom als Arbeitgeber Thüringer Energienetze als Arbeitgeber Thüringer Wärme Service als Arbeitgeber Thüringer Mess- und Zählerwesen als Arbeitgeber Thüringer Energie Service als Arbeitgeber TEAG Mobil als Arbeitgeber TEAG Wasser als Arbeitgeber Arbeiten bei unseren Töchtern Engagement Sponsoring Initiativen IdeenMachenSchule Mit TEAG summt's TEAG-Laufuniversum Arbeitskreis Stromgeschichte Spenden Energieversorgung Energieerzeugung Netzausbau Speicherlösungen E-Mobilität Wärmewende Produkte & Kundenservice /TEAG Über uns – die TEAG: Energie mit Verantwortung Wir übernehmen Verantwortung für Thüringen und die Region. Diese Verantwortung begrünet sich seit über 100 Jahren in einer sicheren Energieversorgung im Freistaat und geht doch weit darüber hinaus. Mehr über die TEAG ×",
+    "Service Unser Online-Service Zählerstand melden Abschlag anpassen SEPA nutzen Todesfall mitteilen Weitere Servicethemen Allgemeines Kontaktformular Sie möchten mit uns zu den folgenden Themen Kontakt aufnehmen, dann füllen Sie bitte unser Kontaktformular aus. Sie sind* Kunde Neukunde Kundennummer* Thema Ihrer Anfrage* Thema Ihrer Anfrage Abschlag Bankverbindung TEAG-Kundenportal Energieberatung Netzanschluss Produkte Rechnung Verträge Zählerstand Sonstiges Art Ihrer Anfrage* ------ Ihr Vorname* Ihr Nachname* Ihre Telefonnummer Ihre E-Mail Adresse* Ihre Nachricht an uns Bitte stellen Sie Sie bei Verwendung des Freitextfeldes sicher, dass Sie nur Daten an uns übergeben, die zur Beantwortung Ihres Anliegens erforderlich sind. Verzichten Sie auf die Angabe personenbezogener sowie sensibler Daten.× Um uns eine Änderung Ihrer Bankdaten mitzuteilen, füllen Sie bitte unser SEPA-Lastschriftmandat aus und laden dieses unterschrieben in das Formular hoch. SEPA-Lastschriftmandat (Folgende Dateiformate sind erlaubt: *.jpg, *.pdf. Die Dateigröße darf 5 Megabyte nicht überschreiten.)* Bitte stellen Sie beim Hochladen von Dateien sicher, dass Sie nur Daten an uns übergeben, die zur Beantwortung Ihres Anliegens erforderlich sind. Verzichten Sie auf die Angabe personenbezogener sowie sensibler Daten oder machen Sie diese unkenntlich (z.B. Schwärzen).× Die Datei ist entweder zu groß oder hatte das falsche Dateiformat und wurde daher nicht gespeichert. Ich habe die Datenschutzerklärung gelesen und verstanden.* Bitte senden Sie mir eine Kopie der übermittelten Daten an meine angegebene E-Mail-Adresse. Ich habe sichergestellt, dass mein E-Mail-Provider den TLS-Standard in der aktuellen Version unterstützt. Bitte tragen Sie den im Bild dargestellten Sicherheitscode in das Eingabefeld ein:* Alle mit * gekennzeichneten Felder sind Pflichtfelder. Absenden function sc_AsyncFileUpload1_ClientUploadError(sender, args) { document.getElementById(\"WidgetKontakt1_fileUploadErg1\").className = \"fileUploadErg withError\"; document.getElementById(\"WidgetKontakt1_AsyncFileUpload1_FileName\").value = \"\"; } function sc_AsyncFileUpload1_ClientUploadComplete(sender, args) { var contentType = args.get_contentType(); if (args.get_length() <= 1024 * 1024 * 5 && (contentType === \"image/jpeg\" || contentType === \"application/pdf\")) { document.getElementById(\"WidgetKontakt1_fileUploadErg1\").className = \"fileUploadErg withFile\"; document.getElementById(\"WidgetKontakt1_sFileName1\").innerHTML = args.get_fileName(); document.getElementById(\"WidgetKontakt1_AsyncFileUpload1_FileName\").value = args.get_fileName(); } else { document.getElementById(\"WidgetKontakt1_fileUploadErg1\").className = \"fileUploadErg withError\"; document.getElementById(\"WidgetKontakt1_AsyncFileUpload1_FileName\").value = \"\"; } TEAG.Common.reloadCaptchaImage(\"WidgetKontakt1_AsyncFileUpload1_FileName\"); } ×",
+    "Login TEAG-Kundenportal Im Online-Kundenportal bieten wir Ihnen umfangreiche Funktionalitäten und Services rund um Ihren TEAG-Vertrag. Einloggen KommunalPartnerExtra VertriebsPartnerExtra ×",
+    "Erweiterte Filter",
+    "Bereits TEAG-Kunde? Jetzt im TEAG-Kundenportal anmelden und Vorteile nutzen.",
+    "contrastwerkstatt/iStockphoto.com Unser neues Top-Angebot für Preisoptimierer: Jetzt vergleichen und Ersparnis sichern Günstiger Strompreis und 6-monatige Grundpreisfreiheit mit TEAG.Strom easy: Bis zu 100€ Vorteil - kein Grundpreis für die ersten 6 Monate1 Preiswert, sicher, gut - und Strom aus erneuerbaren Energien 24 Monate Erstlaufzeit inklusive Nettopreisgarantie2 Jetzt sparen",
+    "Günstiger Strompreis und 6-monatige Grundpreisfreiheit mit TEAG.Strom easy:",
+    "Bis zu 100€ Vorteil - kein Grundpreis für die ersten 6 Monate1",
+    "Preiswert, sicher, gut - und Strom aus erneuerbaren Energien",
+    "24 Monate Erstlaufzeit inklusive Nettopreisgarantie2",
+    "Bundesweit Finden Sie mit unserem Tarifrechner deutschlandweit Ihren passenden TEAG-Stromtarif.",
+    "Finden Sie mit unserem Tarifrechner deutschlandweit Ihren passenden TEAG-Stromtarif.",
+    "Einfach Nutzen Sie unsere vielfältigen Service-Angebote – vom Chat über die App bis zum Vor-Ort-Besuch.",
+    "Nutzen Sie unsere vielfältigen Service-Angebote – vom Chat über die App bis zum Vor-Ort-Besuch.",
+    "Sicher Vertrauen Sie auf unsere zuverlässige Energieversorgung zu fairen Preisen.",
+    "Vertrauen Sie auf unsere zuverlässige Energieversorgung zu fairen Preisen.",
+    "SolStock/iStockphoto.com TEAG.Strom easyFür energiegeladene Preisoptimierer. Unser zwei-Jahres-Tarif mit Strom aus erneuerbaren Energien und 6-monatiger Grundpreisfreiheit: Eine sorgenfreie Stromversorgung zum fairen Preis. Ihre VorteileBis zu 100 Euro Preisvorteil dank 6-monatiger Grundpreisfreiheit1 24 Monate Erstlaufzeit inklusive Nettopreisgarantie2 Tarifdetails",
+    "Unser zwei-Jahres-Tarif mit Strom aus erneuerbaren Energien und 6-monatiger Grundpreisfreiheit: Eine sorgenfreie Stromversorgung zum fairen Preis.",
+    "Bis zu 100 Euro Preisvorteil dank 6-monatiger Grundpreisfreiheit1",
+    "24 Monate Erstlaufzeit inklusive Nettopreisgarantie2",
+    "Halfpoint/stock.adobe.com TEAG.Strom extraFür langfristige Planer. Mit unserem Zwei-Jahres-Tarif genießen Sie eine zuverlässige Stromversorgung. Ihre Vorteile24 Monate Energiepreisgarantie3 ab Lieferbeginn 24 Monate Erstlaufzeit Strom aus erneuerbaren Energien Tarifdetails",
+    "Mit unserem Zwei-Jahres-Tarif genießen Sie eine zuverlässige Stromversorgung.",
+    "24 Monate Energiepreisgarantie3 ab Lieferbeginn",
+    "24 Monate Erstlaufzeit",
+    "Strom aus erneuerbaren Energien",
+    "Monkey Business/stock.adobe.com TEAG.HeizstromFür Wärme-Liebhaber. Mit unserem Spezial-Stromtarif heizen Sie Ihr Zuhause kostengünstig ein. Ihre VorteileNur für Heiz- und Ladezwecke Strom aus erneuerbaren Energien 12 Monate Erstlaufzeit und eingeschränkte Preisgarantie4 ab Lieferbeginn Tarifdetails",
+    "Mit unserem Spezial-Stromtarif heizen Sie Ihr Zuhause kostengünstig ein.",
+    "Nur für Heiz- und Ladezwecke",
+    "Strom aus erneuerbaren Energien",
+    "12 Monate Erstlaufzeit und eingeschränkte Preisgarantie4 ab Lieferbeginn",
+    "gstockstudio/stock.adobe.com TEAG.Strom dynamicFür Energie-Pioniere und Strom-Strategen. Mit unseren TEAG.Strom dynamic -Tarifen wird Ihr Stromverbrauch dynamisch abgerechnet. Preisänderungen an der Börse werden 1:1 an Sie weitergegeben. Ihre VorteileNur für Verbrauchsstellen mit intelligentem Messsystem (iMSys) 6 Monate Erstlaufzeit Übergangspreis für die ersten 30 Liefertage Jetzt entdecken",
+    "Mit unseren TEAG.Strom dynamic -Tarifen wird Ihr Stromverbrauch dynamisch abgerechnet. Preisänderungen an der Börse werden 1:1 an Sie weitergegeben.",
+    "Nur für Verbrauchsstellen mit intelligentem Messsystem (iMSys)",
+    "6 Monate Erstlaufzeit",
+    "Übergangspreis für die ersten 30 Liefertage",
+    "1Bis zu 100 Euro Preisvorteil (brutto) dank 6-monatiger Grundpreisfreiheit. Diese wird in Ihrer nächsten Jahresverbrauchsabrechnung berücksichtigt.",
+    "2Es besteht eine Nettopreisgarantie für 24 Monate ab Lieferbeginn. Diese umfasst alle bei Vertragsschluss berücksichtigten Preisbestandteile, mit Ausnahme der Umsatzsteuer; Änderungen bei der Umsatzsteuer sowie veränderte Kosten der TEAG infolge nach Vertragsschluss neu eingeführter Steuern, Abgaben oder sonstiger staatlich oder hoheitlich veranlasster, die Beschaffung, Erzeugung, Netznutzung (Übertragung und Verteilung) oder den Verbrauch von elektrischer Energie betreffender Kostenbelastungen oder Kostenentlastungen können durch Anpassung der Preise weitergegeben werden. Näheres ist in den Ziffern I 9.1.1 und I 9.1.2 der Allgemeinen Lieferbedingungen geregelt. Nach Ende der Laufzeit einer vereinbarten Preisgarantie erfolgen Preisanpassungen nach den vertraglichen Regelungen.",
+    "3Die Energiepreisgarantie ist auf die Kosten der Beschaffung und des Vertriebes beschränkt; Änderungen bei Kosten für Messung und den Messstellenbetrieb sowie bei Netzentgelten, Steuern, Abgaben, Umlagen und sonstige staatlich oder hoheitlich veranlassten, die Beschaffung, Erzeugung, Netznutzung (Übertragung und Verteilung) oder den Verbrauch von elektrischer Energie betreffenden Kosten können durch Anpassung der Preise weitergegeben werden. Näheres ist in den Ziffern I 9.1.1 und I 9.1.2 der Allgemeinen Lieferbedingungen geregelt.",
+    "4Die eingeschränkte Preisgarantie ist auf die Kosten der Beschaffung und des Vertriebes, auf die Netzentgelte und auf die Kosten für Messung und des Messstellenbetrieb beschränkt; Änderungen bei Steuern, Abgaben, Umlagen und sonstige staatlich oder hoheitlich veranlassten, die Beschaffung, Erzeugung, Netznutzung (Übertragung und Verteilung) oder den Verbrauch von elektrischer Energie betreffenden Kosten können durch Anpassung der Preise weitergegeben werden. Näheres ist in den Ziffern I 9.1.1 und I 9.1.2 der Allgemeinen Lieferbedingungen geregelt.",
+    "Rund 500.000 Kunden aus ganz Deutschland vertrauen auf die TEAG und sind von unserer Leistung überzeugt. Mit uns haben Sie einen sicheren Partner an Ihrer Seite. Umfassender Service und ein vielfältiges Angebot zeichnen uns aus. Werden Sie Teil unserer TEAG-Familie.",
+    "TEAG.StromFür Online-Selbermacher. Mit unserem Klassiker haben Sie alles selbst im Griff. Tarifdetails",
+    "Mit unserem Klassiker haben Sie alles selbst im Griff.",
+    "ThüringenStrom.vorkasseFür Selbstentscheider. Mit unserem Vorkasse-Tarif haben Sie Ihre Kosten immer im Blick. Tarifdetails",
+    "Mit unserem Vorkasse-Tarif haben Sie Ihre Kosten immer im Blick.",
+    "ThüringenStrom.sozialFür Sparsame. Mit diesem Strom-Tarif profitieren Sie von unserer gesellschaftlichen Verantwortung. Tarifdetails",
+    "Mit diesem Strom-Tarif profitieren Sie von unserer gesellschaftlichen Verantwortung.",
+    "Grundversorgung StromFür Einfach-Liebhaber. Mit unserem Basis-Strom-Tarif sind Sie flexibel und sicher versorgt. Tarifdetails",
+    "Mit unserem Basis-Strom-Tarif sind Sie flexibel und sicher versorgt.",
+    "gorodenkoff/iStockphoto.com Mit Strom & Internet dauerhaft sparen Zusammen mit der Thüringer Netkom (TNK) bieten wir das Kombi-Angebot ThüringenHOCHzwei an. Mit zwei Thüringer Produkten: Internet der TNK zum Strom von TEAG sparen Sie bei Ihrem Stromtarif. Strom aus erneuerbaren Energien Schnelles Internet ab 100 Mbit/s Jährlich 50 Euro Kombi-Bonus auf die Stromrechnung Jetzt abschließen und sparen",
+    "Zusammen mit der Thüringer Netkom (TNK) bieten wir das Kombi-Angebot ThüringenHOCHzwei an. Mit zwei Thüringer Produkten: Internet der TNK zum Strom von TEAG sparen Sie bei Ihrem Stromtarif.",
+    "Strom aus erneuerbaren Energien",
+    "Schnelles Internet ab 100 Mbit/s",
+    "Jährlich 50 Euro Kombi-Bonus auf die Stromrechnung",
+    "gstockstudio/stock.adobe.com Energie des Moments: Entdecken Sie unsere dynamischen Stromtarife Sind Sie Energie-Pionier oder Strom-Stratege? Mit unseren TEAG.Strom dynamic -Tarifen wird Ihr Stromverbrauch dynamisch abgerechnet. Preisänderungen an der Börse werden 1:1 an Sie weitergegeben. Nur für Verbrauchsstellen mit intelligentem Messsystem (iMSys) 6 Monate Erstlaufzeit Übergangspreis für die ersten 30 Liefertage Jetzt entdecken",
+    "Sind Sie Energie-Pionier oder Strom-Stratege? Mit unseren TEAG.Strom dynamic -Tarifen wird Ihr Stromverbrauch dynamisch abgerechnet. Preisänderungen an der Börse werden 1:1 an Sie weitergegeben.",
+    "Nur für Verbrauchsstellen mit intelligentem Messsystem (iMSys)",
+    "6 Monate Erstlaufzeit",
+    "Übergangspreis für die ersten 30 Liefertage",
+    "AleksandarNakic/iStockphoto.com Ihre persönliche Bestwahl! Unsere Stromprodukte aus erneuerbaren Energien sind ganz auf Ihre Bedürfnisse abgestimmt. Ob Sie viel oder wenig Strom verbrauchen, eine kurze Vertragsbindung wünschen oder Ihren Vertrag online verwalten möchten – vergleichen Sie jetzt und wählen Sie aus den zahlreichen Angeboten der TEAG den für Sie geeigneten Stromtarif! Mehr zu unserem Strom",
+    "Unsere Stromprodukte aus erneuerbaren Energien sind ganz auf Ihre Bedürfnisse abgestimmt. Ob Sie viel oder wenig Strom verbrauchen, eine kurze Vertragsbindung wünschen oder Ihren Vertrag online verwalten möchten – vergleichen Sie jetzt und wählen Sie aus den zahlreichen Angeboten der TEAG den für Sie geeigneten Stromtarif!",
+    "Geben Sie einfach Ihre PLZ und Ihren geschätzten Jahresverbrauch ein.",
+    "Für den Vertragsabschluss benötigen Sie nur 5 Minuten.",
+    "Sie erhalten in Kürze Ihre Vertragsunterlagen. Wir klären alles mit Ihrem bisherigen Anbieter.",
+    "Schon entdeckt? Bei der Auswahl des für dich besten Tarifs hilft dir unser Strompreisvergleich. Durch wenige Klicks erfährst du, welcher Tarif für dich am lukrativsten ist. Erhalte jetzt schnell und einfach alle Vorteile auf einen Blick!",
+    "TEAG Sind Sie bereits im TEAG-Kundenportal registriert? Das TEAG-Kundenportal und die App bieten Ihnen: Verträge und Daten online verwalten Alles auf einen Blick Schnelle Registrierung in 3 Minuten Verschlüsselter Datenschutz Jetzt im TEAG-Kundenportal anmelden: Zum Login TEAG-Kundenportal-App herunterladen: Google LLC Apple Inc.",
+    "Das TEAG-Kundenportal und die App bieten Ihnen:",
+    "Verträge und Daten online verwalten",
+    "Alles auf einen Blick",
+    "Schnelle Registrierung in 3 Minuten",
+    "Verschlüsselter Datenschutz",
+    "Jetzt im TEAG-Kundenportal anmelden:",
+    "TEAG-Kundenportal-App herunterladen:",
+    "Wie viel ist eigentlich „viel“? Häufig ist Verbrauchern nicht klar, ob sie mit ihrer eigenen Nutzung dem durchschnittlichen Stromverbrauch entsprechen. Folglich fällt es ihnen schwer einzuschätzen, ob Einsparpotenziale bestehen. Wir helfen Ihnen gern dabei, sich zu orientieren:",
+    "Ihr Stromverbrauch basiert auf mehreren Aspekten. Grundlegend ist die Personenanzahl: Je mehr Menschen in einem Haushalt leben, desto mehr Strom wird verbraucht. Allerdings sinkt gleichzeitig der Pro-Kopf-Verbrauch, da größere Gerätschaften wie ein Kühlschrank gemeinsam benutzt werden. Ähnliches gilt es bei der Wohn-Art zu berücksichtigen: Während Bewohner eines Einfamilienhauses beispielsweise die Außenbeleuchtung oder das Garagentor vollumfänglich zahlen, teilen sich Mehrparteienhäuser die entsprechenden Kosten.",
+    "Ebenso relevant für Ihren Stromverbrauch sind die Leistung und die tägliche Betriebsdauer Ihrer Haushaltsgeräte. Nicht zuletzt stellt sich die Frage nach der Warmwasserbereitung: Wird das Wasser mit Strom erhitzt, erhöht sich auch hier der Bedarf pro Kopf.",
+    "Liegen Sie selbst über oder unter dem durchschnittlichen Stromverbrauch? Anhand der nachfolgenden Tabelle können Sie Ihren eigenen Bedarf einordnen. Sollte Ihre Haushaltsgröße nicht abgebildet sein, können Sie sich an den Vergleichswerten des sogenannten Stromspiegels orientieren:",
+    "1 Person",
+    "1500 kWh",
+    "2 Personen",
+    "2500 kWh",
+    "3 Personen",
+    "3500 kWh",
+    "4 Personen",
+    "4250 kWh",
+    "Quelle: https://strom-report.de/stromverbrauch/",
+    "Die Höhe des Strompreises ist für viele Nutzer auf den ersten Blick undurchsichtig, denn dieser errechnet sich nicht nur aus dem Endpreis für den tatsächlich angefallenen Verbrauch. Oftmals ist nicht bekannt, dass mehrere Bestandteile eine Rolle spielen. Dabei können wir als Stromanbieter nur auf einen kleinen Teil Einfluss nehmen. Sobald sich ein Bestandteil ändert, kann es zu Schwankungen kommen.",
+    "Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Grundpreis des Anbieters sowie die Kosten pro Kilowattstunde an. Der Grundpreis wird monatlich berechnet und enthält feststehende Beträge wie beispielsweise die Netznutzung, den Stromzähler und dessen Wartung. Ihr tatsächlicher Verbrauch wird mittels des Verbrauchspreises abgerechnet, der auch als Arbeitspreis bezeichnet wird. Hierin enthalten sind neben den Kosten pro Kilowattstunde Aspekte wie Beschaffungskosten, staatliche Steuern und Abgaben.",
+    "Ihre Energierechnung begleichen Sie mittels der monatlichen Abschlagszahlung. Bei Neukunden wird der fällige Betrag anhand des voraussichtlichen Jahresverbrauchs errechnet. Für Bestandskunden wird der Vorjahresverbrauch herangezogen. Insgesamt wird der Jahresverbrauch auf elf Abschlagszahlungen sowie eine Jahresendrechnung aufgeteilt.",
+    "Die nachfolgende Grafik zeigt Ihnen die Zusammensetzung des Strompreises in unserem Tarif TEAG.Strom extra am Beispiel eines Durchschnittshaushaltes mit einem Jahresverbrauch von 3.000 kWh in 99326 Stadtilm (Stand: 01. Januar 2025). Steuern und Abgaben sind staatlich festgelegt. Entgelte für Netzbetreiber und Messstellenbetreiber sind regulatorische Kosten. Wir als Ihr Energielieferant können lediglich auf den Bereich Vertrieb und Energiebeschaffung Einfluss nehmen.",
+    "Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Grundpreis des Anbieters sowie die Kosten pro Kilowattstunde an. Der Grundpreis wird monatlich berechnet und enthält feststehende Beträge wie beispielsweise die Netznutzung, den Stromzähler und dessen Wartung. Ihr tatsächlicher Verbrauch wird mittels des Verbrauchspreises abgerechnet, der auch als Arbeitspreis bezeichnet wird. Hierin enthalten sind neben den Kosten pro Kilowattstunde Aspekte wie Beschaffungskosten, staatliche Steuern und Abgaben. Ihre Energierechnung begleichen Sie mittels der monatlichen Abschlagszahlung. Bei Neukunden wird der fällige Betrag anhand des voraussichtlichen Jahresverbrauchs errechnet. Für Bestandskunden wird der Vorjahresverbrauch herangezogen. Insgesamt wird der Jahresverbrauch auf elf Abschlagszahlungen sowie eine Jahresendrechnung aufgeteilt.",
+    "Gibt es die EEG-Umlage noch? Vom 1. Juli bis 31. Dezember 2022 wird die EEG-Umlage auf null herabgesetzt und Ihnen als Gutschrift auf Ihrer TEAG-Rechnung dargestellt. Zum 1. Januar 2023 wird die EEG-Umlage aufgehoben und ist damit nicht mehr Bestandteil des Strompreises. War diese Antwort hilfreich? Ja Nein",
+    "Gibt es die EEG-Umlage noch?",
+    "Was bedeutet die Umlage aus dem KWK-Gesetz? Das KWK-Gesetz regelt die gesetzlich zwingende Vergütung für Strom, welcher aus Kraft-Wärme-Kopplungs (KWK)-Anlagen in das Netz des Netzbetreibers eingespeist wird. Die Betreiber solcher Anlagen erhalten für den in das Netz eingespeisten Strom vom Netzbetreiber, an dessen Netz die Anlagen angeschlossen sind, grundsätzlich eine Vergütung in einer gesetzlich festgelegten Höhe. Diese Förderung der Stromerzeugung in (KWK)-Anlagen nach dem KWK-Gesetz führt zu Aufwendungen, welche unter anderem den Energieversorgungsunternehmen in Rechnung gestellt werden und sich damit strompreiserhöhend auswirken. Über den Strompreis tragen daher alle Verbraucher einen Anteil der Aufwendungen, welche durch die Förderung der Erzeugung von Strom mithilfe von (KWK)-Anlagen entstehen. Der sich hierbei je Kilowattstunde ergebende Betrag wird jedes Jahr als sogenannte KWK-Umlage neu ermittelt. War diese Antwort hilfreich? Ja Nein",
+    "Was bedeutet die Umlage aus dem KWK-Gesetz?",
+    "Wie viel Prozent des Strompreises entfallen auf Steuern und Abgaben? Bei TEAG Thüringer Energie setzt sich der Strompreis in Thüringen im Durchschnitt aus 29 Prozent Steuern, Abgaben und Umlagen, 24 Prozent Netzentgelte inkl. Messstellenbetrieb und 47 Prozent für Vertriebs- und Beschaffungskosten zusammen. War diese Antwort hilfreich? Ja Nein",
+    "Wie viel Prozent des Strompreises entfallen auf Steuern und Abgaben?",
+    "Was ist die Stromsteuer und wer muss wie viel bezahlen? Am 1. April 1999 trat das sogenannte \"Gesetz zum Einstieg in die ökologische Steuerreform\" in Kraft, welches die Grundlage für die so genannte \"Stromsteuer\" bildet. Das Gesetz regelt die Erhebung der Stromsteuer (Stromsteuergesetz) und Änderungen des Energiesteuergesetzes sowie die entsprechenden Erhöhungen der jeweiligen Steuersätze. Die Stromsteuer ist eine neue Verbrauchssteuer, die durch den Endabnehmer zu entrichten ist. Die Stromsteuer wird daher in der Regel durch den Stromversorger erhoben und zuzüglich Mehrwertsteuer auf der Stromabrechnung separat ausgewiesen. Durch die Einführung der Stromsteuer sollen zum einen der Energieverbrauch gesenkt und zum anderen energiesparende sowie Ressourcen schonende und regenerative Energiequellen gefördert werden. Darüber hinaus sollen die Einnahmen zur Kompensation der steigenden Sozialversicherungskosten, insbesondere der Rentenversicherung, im Bundeshaushalt dienen. Seit 2003 beträgt die Stromsteuer 2,05 Ct/kWh. Diese wird durch alle Anbieter erhoben. Für bestimmte energieintensive Prozesse oder Verfahren kann die Stromsteuer auf Antrag reduziert oder ganz erlassen werden. War diese Antwort hilfreich? Ja Nein",
+    "Was ist die Stromsteuer und wer muss wie viel bezahlen?",
+    "Wie viel Cent Stromsteuer sind im Preis für eine Kilowattstunde enthalten? Seit 01.01.2003 sind 2,05 Cent Stromsteuer im Preis einer kWh enthalten. War diese Antwort hilfreich? Ja Nein",
+    "Wie viel Cent Stromsteuer sind im Preis für eine Kilowattstunde enthalten?",
+    "Der Verbrauch in meiner Stromrechnung erscheint zu hoch. Welche Möglichkeiten der Prüfung habe ich? Ist mein Zähler defekt? Als Erstes empfehlen wir Ihnen die Prüfung des Zählerstandes. Vergleichen Sie den Zählerstand auf Ihrer Energierechnung mit dem Zählerstand auf Ihrem Zähler. Ist dieser nicht korrekt angegeben, senden Sie uns bitte ein Foto des Zählers (gern auch per E-Mail an kundenservice@teag.de), auf dem Zählernummer, Zählerstand und Aufnahmedatum zu erkennen sind. Können Sie ausschließen, dass ein falscher Zählerstand zur Abrechnung gelangte, besteht die Möglichkeit, den FI-Schalter im Sicherungskasten umzulegen. Schon nach einer kurzen „Nachlaufzeit“ sollte keine Verbrauchsmessung mehr stattfinden (Zähler steht still). Auch ein Elektroinstallationsunternehmen kann Ihnen beim Aufspüren von möglichen Ursachen helfen. Sind diese Prüfmittel erschöpft, kann eventuell nur eine Befundprüfung Klarheit bringen. Wird dabei festgestellt, dass der Zähler keine Mängel aufweist, entstehen Ihnen jedoch Kosten für die Befundprüfung. Wurde ein Defekt ermittelt, werden selbstverständlich keine Kosten in Rechnung gestellt. Sobald uns das Prüfergebnis vorliegt und eine Korrektur der Energierechnung notwendig ist, werden wir diese vornehmen und Sie darüber informieren. War diese Antwort hilfreich? Ja Nein",
+    "Der Verbrauch in meiner Stromrechnung erscheint zu hoch. Welche Möglichkeiten der Prüfung habe ich? Ist mein Zähler defekt?",
+    "Wie setzt sich der Strompreis zusammen? Ihr Strompreis besteht aus drei Teilen. Der Erste umfasst alle Steuern, Abgaben und Umlagen, die wir an den Staat abführen. Der zweite Teil beinhaltet die Kosten für die Nutzung der Energienetze, die wir an die Netz- bzw. Messstellenbetreiber weiterreichen. Die ersten beiden Teile zusammen machen ca. zwei Drittel Ihres Endpreises aus. Den dritten Teil nutzen wir für die Energiebeschaffung, den Vertrieb und zur Deckung unserer Kosten. TEAG War diese Antwort hilfreich? Ja Nein",
+    "Wie setzt sich der Strompreis zusammen?",
+    "Welche Stromtarife gibt es bei der TEAG? Wir freuen uns, dass Sie sich für die Tarif-Vielfalt der TEAG interessieren. Schauen Sie gern auf unserem Tarif-Vergleichsrechner Strom vorbei. Übrigens, wir versorgen Sie auch gern mit Erdgas. War diese Antwort hilfreich? Ja Nein",
+    "Welche Stromtarife gibt es bei der TEAG?",
+    "Welche Kosten beinhaltet der Grundpreis? Der Grundpreis stellt den festen Teil der Rechnungskomponenten dar. Er lässt sich in die beiden Kostenblöcke Netznutzungsentgelte und Vertriebskosten unterteilen. Auf die Netznutzungsentgelte, welche uns vom Netzbetreiber in Rechnung gestellt werden, entfallen Kosten für den Ausbau, die Bereithaltung und Instandhaltung des Netzes, die Messeinrichtung, das Ablesen des Zählers und die Abrechnung gegenüber TEAG Thüringer Energie. Der Teil Vertriebskosten enthält Kosten für die Erstellung der Abrechnung gegenüber dem Verbraucher und dem Kundenservice. War diese Antwort hilfreich? Ja Nein",
+    "Welche Kosten beinhaltet der Grundpreis?",
+    "Warum sind die Strompreise bei der TEAG regional unterschiedlich? Das deutschlandweit sehr heterogene Strompreisniveau ergibt sich durch regional unterschiedlich berechnete Netzentgelte, diese werden von dem örtlichen Netzbetreiber auf Basis notwendiger Ausbau- und Stabilisierungsmaßnahmen kalkuliert. Neben den Kosten für die Erzeugung, Beschaffung und Vermarktung von Strom sind der Stromtransport und der damit verbundene Betrieb der Netze sowie staatlich festgelegte Steuern, Umlagen und Abgaben die entscheidenden Bausteine für den Haushaltsstrompreis. War diese Antwort hilfreich? Ja Nein",
+    "Warum sind die Strompreise bei der TEAG regional unterschiedlich?",
+    "Was versteht man unter Spotmarktpreisen? Stromversorger kaufen den Strom für ihre Kunden an der Börse. Die Strombörse EPEX Spot bedient dabei die Nachfrage für den kurzfristigen Bedarf. Versorger kaufen hier Strom mit nur einem Tag Vorlauf ein, wobei sich die Preise stündlich ändern können. Der jeweils geltende Preis wird als Spotmarktpreis bezeichnet. Als zuverlässiger Versorger beschafft die TEAG den größten Teil ihres Strombedarfs langfristig am sogenannten Terminmarkt, mitunter schon mehrere Jahre im Voraus. So können wir Schwankungen im Börsenpreis ausgleichen und müssen Preissteigerungen nicht sofort an unsere Kunden weitergeben. War diese Antwort hilfreich? Ja Nein",
+    "Was versteht man unter Spotmarktpreisen?",
+    "Sie haben Fragen? ty/stock.adobe.com E-Mail:kundenservice@teag.de Serviceline:03641-817 1111 Mo-Do: 7:00 – 19:00 Uhr, Fr: 7:00 – 13:00 Uhrkostenfrei aus dem dt. Festnetz",
+    "E-Mail:kundenservice@teag.de",
+    "Serviceline:03641-817 1111 Mo-Do: 7:00 – 19:00 Uhr, Fr: 7:00 – 13:00 Uhrkostenfrei aus dem dt. Festnetz",
+    "Rückruf vereinbaren Sie haben eine Frage oder wünschen eine Beratung? Ihre Daten werden nur zum einmaligen Rückruf bzw. zur Bearbeitung Ihres Anliegens verwendet. Vorname Name Rückrufdatum Telefon Thema Ihrer Anfrage Thema Ihrer Anfrage Abschlag Bankverbindung TEAG-Kundenportal Energieberatung Netzanschluss Produkte Rechnung Verträge Zählerstand Sonstiges Ich habe die Datenschutzerklärung gelesen und verstanden.* Anfrage senden",
+    "Sie haben eine Frage oder wünschen eine Beratung?",
+    "Ihre Daten werden nur zum einmaligen Rückruf bzw. zur Bearbeitung Ihres Anliegens verwendet.",
+    "Auf einen Blick Hier finden Sie alle Service-Themen auf einen Blick. TEAG-KundenportalZählerstandsmeldungFAQUmzugHaus- und BaustromanschlussErdgashausanschluss",
+    "Hier finden Sie alle Service-Themen auf einen Blick.",
+    "TEAG-Kundenportal",
+    "Zählerstandsmeldung",
+    "FAQ",
+    "Umzug",
+    "Haus- und Baustromanschluss",
+    "Erdgashausanschluss",
+    "Tel03641-8171111",
+    "Fax03641-8171118",
+    "E-Mailkundenservice@teag.de",
+    "Bleiben Sie auf dem Laufenden:Spannende Themen aus der Welt Ihrer Thüringer Energieexperten.",
+    "Impressum",
+    "Datenschutz",
+    "AGB",
+    "Vertrag kündigen",
+    "Vertrag widerrufen",
+    "Cookies",
+    "Barrierefreiheit"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Weiter zum Inhalt",
+      "href": "#Content"
+    },
+    {
+      "label": "Kundenportal",
+      "href": "https://kundenportal.teag.de/portal/"
+    },
+    {
+      "label": "Karriere",
+      "href": "/ueber_uns/karriere/stellenangebote"
+    },
+    {
+      "label": "Privatkunden",
+      "href": "/privatkunden"
+    },
+    {
+      "label": "Geschäftskunden",
+      "href": "/geschaeftskunden"
+    },
+    {
+      "label": "Kommunen",
+      "href": "/kommunen"
+    },
+    {
+      "label": "Stadtwerke",
+      "href": "/stadtwerke"
+    },
+    {
+      "label": "Akademie",
+      "href": "/akademie"
+    },
+    {
+      "label": "Einblicke",
+      "href": "/einblicke"
+    },
+    {
+      "label": "Über uns",
+      "href": "/ueber_uns"
+    },
+    {
+      "label": "Service",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "Login",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "Erweiterte Filter",
+      "href": "javascript:__doPostBack('ctl00$MainContent$Verfuegbarkeitscheck16076$FilterSettingsOpen','')"
+    },
+    {
+      "label": "1",
+      "href": "javascript: void(0)"
+    },
+    {
+      "label": "2",
+      "href": "javascript: void(0)"
+    },
+    {
+      "label": "3",
+      "href": "javascript: void(0)"
+    },
+    {
+      "label": "4",
+      "href": "javascript: void(0)"
+    },
+    {
+      "label": "5",
+      "href": "javascript: void(0)"
+    },
+    {
+      "label": "Strompreis berechnen",
+      "href": "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Verfuegbarkeitscheck16076$Calculate\", \"\", true, \"MainContent_Verfuegbarkeitscheck16076\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);"
+    },
+    {
+      "label": "TEAG-Kundenportal",
+      "href": "https://kundenportal.teag.de/"
+    },
+    {
+      "label": "Jetzt sparen",
+      "href": "/privatkunden/strom/stromtarife/teag-strom-easie"
+    },
+    {
+      "label": "SolStock/iStockphoto.com TEAG.Strom easyFür energiegeladene Preisoptimierer. Unser zwei-Jahres-Tarif mit Strom aus erneuerbaren Energien und 6-monatiger Grundpreisfreiheit: Eine sorgenfreie Stromversorgung zum fairen Preis. Ihre VorteileBis zu 100 Euro Preisvorteil dank 6-monatiger Grundpreisfreiheit1 24 Monate Erstlaufzeit inklusive Nettopreisgarantie2 Tarifdetails",
+      "href": "/privatkunden/strom/stromtarife/teag-strom-easie"
+    },
+    {
+      "label": "Halfpoint/stock.adobe.com TEAG.Strom extraFür langfristige Planer. Mit unserem Zwei-Jahres-Tarif genießen Sie eine zuverlässige Stromversorgung. Ihre Vorteile24 Monate Energiepreisgarantie3 ab Lieferbeginn 24 Monate Erstlaufzeit Strom aus erneuerbaren Energien Tarifdetails",
+      "href": "/privatkunden/strom/stromtarife/teag-strom-extra"
+    },
+    {
+      "label": "Monkey Business/stock.adobe.com TEAG.HeizstromFür Wärme-Liebhaber. Mit unserem Spezial-Stromtarif heizen Sie Ihr Zuhause kostengünstig ein. Ihre VorteileNur für Heiz- und Ladezwecke Strom aus erneuerbaren Energien 12 Monate Erstlaufzeit und eingeschränkte Preisgarantie4 ab Lieferbeginn Tarifdetails",
+      "href": "/privatkunden/strom/stromtarife/teag-heizstrom"
+    },
+    {
+      "label": "gstockstudio/stock.adobe.com TEAG.Strom dynamicFür Energie-Pioniere und Strom-Strategen. Mit unseren TEAG.Strom dynamic -Tarifen wird Ihr Stromverbrauch dynamisch abgerechnet. Preisänderungen an der Börse werden 1:1 an Sie weitergegeben. Ihre VorteileNur für Verbrauchsstellen mit intelligentem Messsystem (iMSys) 6 Monate Erstlaufzeit Übergangspreis für die ersten 30 Liefertage Jetzt entdecken",
+      "href": "/privatkunden/strom/stromtarife/dynamisch"
+    },
+    {
+      "label": "Jetzt Preis berechnen",
+      "href": "?scrollTo=MainContent_PCS16073"
+    },
+    {
+      "label": "TEAG.StromFür Online-Selbermacher. Mit unserem Klassiker haben Sie alles selbst im Griff. Tarifdetails",
+      "href": "/privatkunden/strom/stromtarife/teag-strom"
+    },
+    {
+      "label": "ThüringenStrom.vorkasseFür Selbstentscheider. Mit unserem Vorkasse-Tarif haben Sie Ihre Kosten immer im Blick. Tarifdetails",
+      "href": "/privatkunden/strom/stromtarife/thueringenstrom-vorkasse"
+    },
+    {
+      "label": "ThüringenStrom.sozialFür Sparsame. Mit diesem Strom-Tarif profitieren Sie von unserer gesellschaftlichen Verantwortung. Tarifdetails",
+      "href": "/privatkunden/strom/stromtarife/thueringenstrom-sozial"
+    },
+    {
+      "label": "Grundversorgung StromFür Einfach-Liebhaber. Mit unserem Basis-Strom-Tarif sind Sie flexibel und sicher versorgt. Tarifdetails",
+      "href": "/privatkunden/strom/stromtarife/grundversorgung"
+    },
+    {
+      "label": "Jetzt abschließen und sparen",
+      "href": "/privatkunden/strom_und_internet"
+    },
+    {
+      "label": "Jetzt entdecken",
+      "href": "/privatkunden/strom/stromtarife/dynamisch"
+    },
+    {
+      "label": "Mehr zu unserem Strom",
+      "href": "/privatkunden/strom"
+    },
+    {
+      "label": "Jetzt Preis berechnen",
+      "href": "?scrollTo=MainContent_PCS16073"
+    },
+    {
+      "label": "Zum Login",
+      "href": "https://kundenportal.teag.de/"
+    },
+    {
+      "label": "ThemaStrom",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "RubrikPreis",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "Gibt es die EEG-Umlage noch?",
+      "href": null
+    },
+    {
+      "label": "Was bedeutet die Umlage aus dem KWK-Gesetz?",
+      "href": null
+    },
+    {
+      "label": "Wie viel Prozent des Strompreises entfallen auf Steuern und Abgaben?",
+      "href": null
+    },
+    {
+      "label": "Was ist die Stromsteuer und wer muss wie viel bezahlen?",
+      "href": null
+    },
+    {
+      "label": "Wie viel Cent Stromsteuer sind im Preis für eine Kilowattstunde enthalten?",
+      "href": null
+    },
+    {
+      "label": "Der Verbrauch in meiner Stromrechnung erscheint zu hoch. Welche Möglichkeiten der Prüfung habe ich? Ist mein Zähler defekt?",
+      "href": null
+    },
+    {
+      "label": "Wie setzt sich der Strompreis zusammen?",
+      "href": null
+    },
+    {
+      "label": "Welche Stromtarife gibt es bei der TEAG?",
+      "href": null
+    },
+    {
+      "label": "Welche Kosten beinhaltet der Grundpreis?",
+      "href": null
+    },
+    {
+      "label": "Warum sind die Strompreise bei der TEAG regional unterschiedlich?",
+      "href": null
+    },
+    {
+      "label": "Was versteht man unter Spotmarktpreisen?",
+      "href": null
+    },
+    {
+      "label": "kundenservice@teag.de",
+      "href": "mailto:kundenservice@teag.de"
+    },
+    {
+      "label": "03641-817 1111",
+      "href": "tel:+4936418171111"
+    },
+    {
+      "label": "Datenschutzerklärung",
+      "href": "/datenschutz"
+    },
+    {
+      "label": "Anfrage senden",
+      "href": "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$CallBack2$c_send\", \"\", true, \"CallBack\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);"
+    },
+    {
+      "label": "TEAG-Kundenportal",
+      "href": "/geschaeftskunden/service/kundenportale/teag-kundenportal"
+    },
+    {
+      "label": "Zählerstandsmeldung",
+      "href": "/privatkunden/service/zaehlerstandsmeldung"
+    },
+    {
+      "label": "FAQ",
+      "href": "/privatkunden/service/faq"
+    },
+    {
+      "label": "Umzug",
+      "href": "/privatkunden/service/umzug_kuendigung/umzug"
+    },
+    {
+      "label": "Haus- und Baustromanschluss",
+      "href": "/privatkunden/strom/haus-_-_baustromanschluss"
+    },
+    {
+      "label": "Erdgashausanschluss",
+      "href": "/privatkunden/erdgas/hausanschluss"
+    },
+    {
+      "label": "03641-8171111",
+      "href": "tel:+4936418171111"
+    },
+    {
+      "label": "03641-8171118",
+      "href": "fax:+4936418171118"
+    },
+    {
+      "label": "kundenservice@teag.de",
+      "href": "mailto:kundenservice@teag.de"
+    },
+    {
+      "label": "Jetzt anmelden",
+      "href": "javascript:var options=new WebForm_PostBackOptions(\"ctl00$lbNewsletter\", \"\", true, \"NewsletterMaster\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);"
+    },
+    {
+      "label": "Impressum",
+      "href": "/impressum"
+    },
+    {
+      "label": "Datenschutz",
+      "href": "/datenschutz"
+    },
+    {
+      "label": "AGB",
+      "href": "/agbs"
+    },
+    {
+      "label": "Vertrag kündigen",
+      "href": "/privatkunden/service/umzug_kuendigung/kuendigung"
+    },
+    {
+      "label": "Vertrag widerrufen",
+      "href": "/privatkunden/service/umzug_kuendigung/widerruf"
+    },
+    {
+      "label": "Cookies",
+      "href": "javascript:UC_UI.showFirstLayer();"
+    },
+    {
+      "label": "Barrierefreiheit",
+      "href": "/barrierefreiheit"
+    }
+  ],
+  "links": [
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife#Content",
+    "https://www.thueringerenergie.de/default",
+    "https://kundenportal.teag.de/portal/",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote",
+    "https://www.thueringerenergie.de/suche",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$lbSearch\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "javascript:void(0)",
+    "https://www.thueringerenergie.de/privatkunden",
+    "https://www.thueringerenergie.de/privatkunden/strom",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-strom-extra",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-strom-easie",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-strom",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-heizstrom",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/thueringenstrom-vorkasse",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/thueringenstrom-sozial",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/grundversorgung",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/azubibonus",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/dynamisch",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/dynamisch/teag-strom-dynamic-plus",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/dynamisch/teag-strom-dynamic-base",
+    "https://www.thueringerenergie.de/privatkunden/strom/ersatzversorgung",
+    "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+    "https://www.thueringerenergie.de/privatkunden/strom_und_internet",
+    "https://www.thueringerenergie.de/privatkunden/strom_und_smartwatch",
+    "https://www.thueringerenergie.de/privatkunden/erdgas",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/teag-gas-easie",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/teag-gas-extra",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/teag-gas",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/thueringengas-vorkasse",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/gastarife/grundversorgung",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/ersatzversorgung",
+    "https://www.thueringerenergie.de/privatkunden/erdgas/hausanschluss",
+    "https://www.thueringerenergie.de/privatkunden/elektromobilitaet",
+    "https://www.thueringerenergie.de/privatkunden/thueringendsl",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/mein_zuhause",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/sanierungsfahrplan",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/thermografie",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/blower_door",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/energieausweis",
+    "https://www.thueringerenergie.de/privatkunden/energieloesungen/energiecockpit",
+    "https://www.thueringerenergie.de/privatkunden/service",
+    "https://www.thueringerenergie.de/privatkunden/service/teag-kundenportal",
+    "https://www.thueringerenergie.de/privatkunden/service/zaehlerstandsmeldung",
+    "https://www.thueringerenergie.de/privatkunden/service/24h-lieferantenwechsel",
+    "https://www.thueringerenergie.de/privatkunden/service/energiesparen",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung/widerruf",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung/umzug",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung/kuendigung",
+    "https://www.thueringerenergie.de/privatkunden/service/umzug_kuendigung/todesfall",
+    "https://www.thueringerenergie.de/privatkunden/service/sepa-lastschriftmandat",
+    "https://www.thueringerenergie.de/privatkunden/service/faq",
+    "https://www.thueringerenergie.de/privatkunden/service/kontakt",
+    "https://www.thueringerenergie.de/systemumstellung",
+    "javascript:void(0);",
+    "https://www.thueringerenergie.de/geschaeftskunden",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-strom-extra",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-strom",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-heizstrom",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/thueringenstrom-vorkasse",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/grundversorgung_strom",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-gas",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/teag-gas-natur",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/thueringengas-vorkasse",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/gewerbekunden/grundversorgung_erdgas",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-profi",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-vario",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-spot-business",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-trend",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-quattro",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-pool",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-spot-expert",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/verbaende",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/vermittler",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/landwirtschaft",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/wohnungswirtschaft",
+    "https://www.thueringerenergie.de/geschaeftskunden/energielieferung/filialkunden",
+    "https://www.thueringerenergie.de/geschaeftskunden/waerme",
+    "https://www.thueringerenergie.de/geschaeftskunden/photovoltaik",
+    "https://www.thueringerenergie.de/geschaeftskunden/thueringendsl",
+    "https://www.thueringerenergie.de/geschaeftskunden/elektromobilitaet",
+    "https://www.thueringerenergie.de/geschaeftskunden/erneuerbare_energieloesungen",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/energieaudit",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/energieeffizienzanalyse",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/energieeffizienzfoerderung",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/energie_und_lastmanagement",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/direktvermarktung",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/direktvermarktung/gefoerderte_dv",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/direktvermarktung/sonstige_dv",
+    "https://www.thueringerenergie.de/geschaeftskunden/gruene_energieloesungen/direktvermarktung/ppa",
+    "https://www.thueringerenergie.de/geschaeftskunden/service",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/ansprechpartnersuche",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/teag-kundenportal",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/webcheck",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/energieklick",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/energieklick/strom",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/kundenportale/energieklick/erdgas",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/preisrechner",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/zielpreisverfahren",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/ersatzversorgung",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/haus-_und_baustromanschluss",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/energiesparen",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/rechnung",
+    "https://www.thueringerenergie.de/geschaeftskunden/service/faq",
+    "https://www.thueringerenergie.de/kommunen",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/strom-und-erdgas",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/netzausbau",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/glasfaserausbau",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/wasser",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/elektromobilitaet",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/erneuerbare-energien",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/strassenbeleuchtung",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/kommunale-waermeplanung",
+    "https://www.thueringerenergie.de/kommunen/kommunale-loesungen/akademie",
+    "https://www.thueringerenergie.de/kommunen/teag-gruppe",
+    "https://www.thueringerenergie.de/kommunen/aktuelles-veranstaltungen",
+    "https://www.thueringerenergie.de/kommunen/teag-kommunal",
+    "https://www.thueringerenergie.de/kommunen/ansprechpartner",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra/foerderprogramme",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra/faqs",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra/teag-kommunal-plus",
+    "https://www.thueringerenergie.de/kommunen/kommunalpartnerextra/digitale-angebote",
+    "https://www.thueringerenergie.de/stadtwerke",
+    "https://www.thueringerenergie.de/stadtwerke/energielieferung",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/service",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/service/stromkennzeichnung",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/service/marktpreise_und_-berichte",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/service/remit",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/gruppenrahmenvertraege",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/dokumente",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/mengenkontrakte_strom",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/mengenkontrakte_erdgas",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/materialangebot_ten",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/materialwirtschaft/lead_buyer",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/aktuelles",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/aktuelles/veranstaltungen",
+    "https://www.thueringerenergie.de/stadtwerke/vertriebspartnerextra/aktuelles/wissenswertes",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen/risikomanagement",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen/gruene_produkte",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen/emissionshandel",
+    "https://www.thueringerenergie.de/stadtwerke/dienstleistungen/netzbetreiber",
+    "https://www.thueringerenergie.de/stadtwerke/ansprechpartner",
+    "https://www.thueringerenergie.de/stadtwerke/energieklick",
+    "https://www.thueringerenergie.de/stadtwerke/energieklick/strom",
+    "https://www.thueringerenergie.de/stadtwerke/energieklick/gas",
+    "https://www.thueringerenergie.de/akademie",
+    "https://www.thueringerenergie.de/akademie/seminare",
+    "https://www.thueringerenergie.de/akademie/seminare/allgemeine_technische_seminare",
+    "https://www.thueringerenergie.de/akademie/seminare/beauftragtenschulung",
+    "https://www.thueringerenergie.de/akademie/seminare/elektrotechnik_und_erneuerbare_energien",
+    "https://www.thueringerenergie.de/akademie/seminare/energiewirtschaft",
+    "https://www.thueringerenergie.de/akademie/seminare/fernwaerme",
+    "https://www.thueringerenergie.de/akademie/seminare/freileitungsbau",
+    "https://www.thueringerenergie.de/akademie/seminare/gastechnik",
+    "https://www.thueringerenergie.de/akademie/seminare/hoehentraining",
+    "https://www.thueringerenergie.de/akademie/seminare/kommunikationstechnik",
+    "https://www.thueringerenergie.de/akademie/seminare/ortungstechnik",
+    "https://www.thueringerenergie.de/akademie/seminare/wasser",
+    "https://www.thueringerenergie.de/akademie/organisation",
+    "https://www.thueringerenergie.de/akademie/organisation/anmeldeprozess",
+    "https://www.thueringerenergie.de/akademie/organisation/ansprechpartner",
+    "https://www.thueringerenergie.de/akademie/organisation/anreise",
+    "https://www.thueringerenergie.de/akademie/organisation/uebernachtungsmoeglichkeiten",
+    "https://www.thueringerenergie.de/akademie/akademie",
+    "https://www.thueringerenergie.de/akademie/akademie/das_zeichnet_uns_aus",
+    "https://www.thueringerenergie.de/akademie/akademie/ausbildung_und_ausbildungsgemeinschaft",
+    "https://www.thueringerenergie.de/akademie/akademie/trainingszentrum_erfurt",
+    "https://www.thueringerenergie.de/akademie/akademie/zertifikate_und_mitgliedschaften",
+    "https://www.thueringerenergie.de/einblicke",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/arbeitskreis-stromgeschichte-umspannwerk-jena",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/energieberatung-teag-stromfresser-erkennen",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/datensicherung-resilienz-plattform",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/wissenschaftsshow-thueringen-ausstellung",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/wasserstoff-hyson-sonneberg",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/zement-kalk",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/windkraft-tierschutz",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/waermeplanungskonferenz_badsalzungen",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/sonnenstrom",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/wasserstoffkonferenz",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/hochwassereinsatz-windehausen",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/100jahre",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/pelto_bad_sohnstedt",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/grosstransformatoren_jena",
+    "https://www.thueringerenergie.de/einblicke/strom_und_gas/dynamische-stromtarife",
+    "https://www.thueringerenergie.de/einblicke/waerme",
+    "https://www.thueringerenergie.de/einblicke/waerme/thueringer_waermetagung",
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg",
+    "https://www.thueringerenergie.de/einblicke/waerme/energieeffiziente-waermeloesungen",
+    "https://www.thueringerenergie.de/einblicke/waerme/zukunftsfaehiges-fernwaerme-projekt-triptis",
+    "https://www.thueringerenergie.de/einblicke/waerme/power-to-heat-anlage-bad-salzungen",
+    "https://www.thueringerenergie.de/einblicke/waerme/minimalinvasiv_werther",
+    "https://www.thueringerenergie.de/einblicke/waerme/ein_echt_dickes_ding",
+    "https://www.thueringerenergie.de/einblicke/waerme/alles_im_fluss",
+    "https://www.thueringerenergie.de/einblicke/waerme/heisswasserspeicher-heizkraftwerk-jena",
+    "https://www.thueringerenergie.de/einblicke/waerme/waerme_weida",
+    "https://www.thueringerenergie.de/einblicke/waerme/waermetagung",
+    "https://www.thueringerenergie.de/einblicke/internet",
+    "https://www.thueringerenergie.de/einblicke/internet/glasfaseranschluss-wandersleben",
+    "https://www.thueringerenergie.de/einblicke/internet/bahnquerung_schmoelln",
+    "https://www.thueringerenergie.de/einblicke/internet/noc",
+    "https://www.thueringerenergie.de/einblicke/internet/lichtfestzeulenroda",
+    "https://www.thueringerenergie.de/einblicke/internet/netkom-beseitigt-weisse-flecken",
+    "https://www.thueringerenergie.de/einblicke/internet/blackdragons",
+    "https://www.thueringerenergie.de/einblicke/internet/glasfaser_eichfeld",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/energieerzeugung-sedlmayer-industriekunde",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/deponie-grosspoesna",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/batteriespeicher-pilotanlage-bad-salzungen",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/windenergieanlage-instandhaltung",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/aktiv-schule-erfurt",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/pilotprojekt_batteriespeicher",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/solarparks-naturschutz",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/solarpark-ohrdruf",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/kita_spatzennest_solaranlage_komsolar_stiftung",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/solarpark_kreis_hildburghausen_deponie",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/pv-anlage-birkigt-biodiversitaet-sonnenstrom-ostthueringen",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/bombensicher",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/lebenshilfewerk-ilmenau",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/carpenter",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/freibad_triptis",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/gruenerstahl",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/breitenworbis",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/interview_freiflaeche",
+    "https://www.thueringerenergie.de/einblicke/pv_und_speicher/wartung-bleicherode",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/ausbau-oeffentliche-ladeinfrastruktur",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/automobilmesse",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/laden-schleiz",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/fachtagung-fahrsicherheitszentrum-thueringen",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/elektromobilitaetstag",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/ladenamladen",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/zukunftstechnologie_automesse",
+    "https://www.thueringerenergie.de/einblicke/elektromobilitaet/interview2023",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/groesste-mythen-energiewende-faktencheck",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/digitale-wasserzaehler",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/wasserspartipps",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/energiewende-umsetzung-eu-nachhaltigkeitsrichtlinie",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/waermelecks_im_visier",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/modernes_wohnen",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/sanierungsfahrplan",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/thermografie-check",
+    "https://www.thueringerenergie.de/einblicke/energieeffizienz/blowerdoor_erfurt",
+    "https://www.thueringerenergie.de/einblicke/karriere",
+    "https://www.thueringerenergie.de/einblicke/karriere/quereinstieg-ausbildung",
+    "https://www.thueringerenergie.de/einblicke/karriere/weiterbildung_berufliches_wachstum",
+    "https://www.thueringerenergie.de/einblicke/karriere/kabelmesswagen",
+    "https://www.thueringerenergie.de/einblicke/karriere/zukunftsmacher-duenkel",
+    "https://www.thueringerenergie.de/einblicke/karriere/zukunftsmacher-meiselbach",
+    "https://www.thueringerenergie.de/einblicke/karriere/unternehmenslauf",
+    "https://www.thueringerenergie.de/einblicke/karriere/netzleitstelle-ten",
+    "https://www.thueringerenergie.de/einblicke/karriere/gasnetz-monteur",
+    "https://www.thueringerenergie.de/einblicke/karriere/homeoffice-eichsfeld",
+    "https://www.thueringerenergie.de/einblicke/karriere/pruefstelle-wasser",
+    "https://www.thueringerenergie.de/einblicke/karriere/windkraft-thueringen",
+    "https://www.thueringerenergie.de/einblicke/karriere/gesundheitsmanagement",
+    "https://www.thueringerenergie.de/einblicke/karriere/systemadministrator",
+    "https://www.thueringerenergie.de/einblicke/karriere/dualesstudium_goleshi",
+    "https://www.thueringerenergie.de/einblicke/karriere/zukunftsmacher_siegel",
+    "https://www.thueringerenergie.de/einblicke/karriere/elektroanlagenmonteur-hildburghausen",
+    "https://www.thueringerenergie.de/einblicke/karriere/waermewende-gestalten-energieeffizienz-",
+    "https://www.thueringerenergie.de/einblicke/karriere/fahrradfreundlichkeit",
+    "https://www.thueringerenergie.de/einblicke/karriere/tag-der-offenen-tuer-moderne-technik-begeistert",
+    "https://www.thueringerenergie.de/einblicke/karriere/hse-tag-teag-gruppe",
+    "https://www.thueringerenergie.de/einblicke/karriere/fussballturnier",
+    "https://www.thueringerenergie.de/einblicke/karriere/drews",
+    "https://www.thueringerenergie.de/einblicke/karriere/reifhardt",
+    "https://www.thueringerenergie.de/einblicke/karriere/zukunftsmacher",
+    "https://www.thueringerenergie.de/einblicke/karriere/elektrotechnik",
+    "https://www.thueringerenergie.de/einblicke/karriere/elektroniker_kahla",
+    "https://www.thueringerenergie.de/einblicke/karriere/trainee-finance",
+    "https://www.thueringerenergie.de/einblicke/karriere/austausch_norwegen",
+    "https://www.thueringerenergie.de/einblicke/karriere/schwarzeloecher",
+    "https://www.thueringerenergie.de/einblicke/karriere/mentalhealth",
+    "https://www.thueringerenergie.de/einblicke/karriere/quereinstieg-industrieelektriker",
+    "https://www.thueringerenergie.de/einblicke/karriere/industriekauffrau",
+    "https://www.thueringerenergie.de/einblicke/karriere/puls_der_energieerzeugung",
+    "https://www.thueringerenergie.de/einblicke/karriere/studium_fernwaerme",
+    "https://www.thueringerenergie.de/einblicke/karriere/kurs_energieverteilung",
+    "https://www.thueringerenergie.de/einblicke/karriere/datensicherheit",
+    "https://www.thueringerenergie.de/einblicke/karriere/einsatzplankraftwerk",
+    "https://www.thueringerenergie.de/einblicke/karriere/programmierkonsole",
+    "https://www.thueringerenergie.de/einblicke/karriere/auszubildendenvertretung",
+    "https://www.thueringerenergie.de/einblicke/karriere/aufempfehlung",
+    "https://www.thueringerenergie.de/einblicke/karriere/ausbildung_tmz",
+    "https://www.thueringerenergie.de/einblicke/karriere/industriemeisterelektrotechnik",
+    "https://www.thueringerenergie.de/einblicke/karriere/energieverschrieben",
+    "https://www.thueringerenergie.de/einblicke/karriere/erste_auszubildende_tmz",
+    "https://www.thueringerenergie.de/einblicke/karriere/azubi-sommerfest2023",
+    "https://www.thueringerenergie.de/einblicke/karriere/wasserstoff-akademie",
+    "https://www.thueringerenergie.de/einblicke/engagement",
+    "https://www.thueringerenergie.de/einblicke/engagement/barrierefreiheit-teag-digitale-teilhabe",
+    "https://www.thueringerenergie.de/einblicke/engagement/malwettbewerb-sommerferien",
+    "https://www.thueringerenergie.de/einblicke/engagement/insektenhotels-fuchsfarm",
+    "https://www.thueringerenergie.de/einblicke/engagement/stromausfall-berlin",
+    "https://www.thueringerenergie.de/einblicke/engagement/ideenmachenschule",
+    "https://www.thueringerenergie.de/einblicke/engagement/insektenhotel-mitteagsummts",
+    "https://www.thueringerenergie.de/einblicke/engagement/reitturnier-immenrode",
+    "https://www.thueringerenergie.de/einblicke/engagement/spende-kinderhospiz",
+    "https://www.thueringerenergie.de/einblicke/engagement/legend-of-cross",
+    "https://www.thueringerenergie.de/einblicke/engagement/wsc-saale",
+    "https://www.thueringerenergie.de/einblicke/engagement/braveheart",
+    "https://www.thueringerenergie.de/einblicke/engagement/special-olympics",
+    "https://www.thueringerenergie.de/einblicke/engagement/wsv-lauscha",
+    "https://www.thueringerenergie.de/einblicke/engagement/kyffhaeuserberglauf",
+    "https://www.thueringerenergie.de/einblicke/engagement/teag-laufcamp",
+    "https://www.thueringerenergie.de/einblicke/engagement/thsv-eisenach",
+    "https://www.thueringerenergie.de/einblicke/engagement/10jahreteag",
+    "https://www.thueringerenergie.de/einblicke/engagement/herosspendenmarsch",
+    "https://www.thueringerenergie.de/einblicke/engagement/energiebattgendorf",
+    "https://www.thueringerenergie.de/einblicke/engagement/spendenmarsch",
+    "https://www.thueringerenergie.de/ueber_uns",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/portraet_und_geschaeftszahlen",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/management_und_beiraete",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/struktur_und_beteiligungen",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veranstaltungen",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veranstaltungen/tag_der_offenen_tuer",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/zertifikate",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/lksg",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/waerme",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/stromkennzeichnung",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/grundversorgung",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/gleichbehandlung",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/remit",
+    "https://www.thueringerenergie.de/ueber_uns/unternehmen/veroeffentlichungspflichten/umwelt-und-arbeitsschutz",
+    "https://www.thueringerenergie.de/ueber_uns/news",
+    "https://www.thueringerenergie.de/ueber_uns/news/teag-magazin",
+    "https://www.thueringerenergie.de/ueber_uns/presse",
+    "https://www.thueringerenergie.de/ueber_uns/karriere",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/schueler",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/auszubildende",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/auszubildende/ausbildungsberufe",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/auszubildende/ausbildung-mit-dem-plus",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/auszubildende/bewerbungstipps",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/studierende",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/studierende/praktikum",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/studierende/werkstudierende",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/berufserfahrene-und-berufseinsteiger",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/teag",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tso",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tnk",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/ten",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tws",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tmz",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tes",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/tmo",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/stellenangebote/twa",
+    "https://www.thueringerenergie.de/ueber_uns/karriere/arbeiten-bei-unseren-toechtern",
+    "https://www.thueringerenergie.de/ueber_uns/engagement",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/sponsoring",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen/ideenmachenschule",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen/insektenhotels",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen/laufuniversum",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/initiativen/arbeitskreis-stromgeschichte",
+    "https://www.thueringerenergie.de/ueber_uns/engagement/spenden",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/energieerzeugung",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/netzausbau",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/speicherloesungen",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/elektromobilitaet",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/waermewende",
+    "https://www.thueringerenergie.de/ueber_uns/energieversorgung/produkte-kundenservice",
+    "https://www.thueringerenergie.de/",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$lbSearch2\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "https://www.thueringerenergie.de/privatkunden/service/energiebanking",
+    "https://www.thueringerenergie.de/Content/Documents/teag_vp128_sepalastschriftmandat.pdf",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$WidgetKontakt1$lbDeleteFile1\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "https://www.thueringerenergie.de/datenschutz",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife#",
+    "https://www.thueringerenergie.de/botdetectcaptcha.ashx?get=sound&c=c_privatkunden_strom_stromtarife_widgetkontakt1_captchakontaktw&t=66682043910d49c68cc5e1e850f825ca&s=CVR9BDZc7Dok38sTr1YMsoUbp2LZ3D22crTGiO%2ftE1MzYcLKwXQCSNSOcTVSav7h%2f0FKgP4UMv7GVG7W0quBcg%3d%3d",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$WidgetKontakt1$send\", \"\", true, \"sc_contact\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "javascript:__doPostBack('ctl00$lbAkkordeon2_1','')",
+    "javascript:__doPostBack('ctl00$lbAkkordeon2_2','')",
+    "javascript:__doPostBack('ctl00$lbAkkordeon2_3','')",
+    "javascript:__doPostBack('ctl00$MainContent$Verfuegbarkeitscheck16076$FilterSettingsOpen','')",
+    "javascript: void(0)",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Verfuegbarkeitscheck16076$VerbrauchChangeEventReceiver\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "javascript:__doPostBack('ctl00$MainContent$Verfuegbarkeitscheck16076$FilterSettingsOpen2','')",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Verfuegbarkeitscheck16076$Calculate\", \"\", true, \"MainContent_Verfuegbarkeitscheck16076\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Verfuegbarkeitscheck16076$ResultView$lbResetSelection\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "javascript: void(0);",
+    "javascript:__doPostBack('ctl00$MainContent$Verfuegbarkeitscheck16076$CampaignModul22986$LinkJa22986','')",
+    "javascript:__doPostBack('ctl00$MainContent$Verfuegbarkeitscheck16076$CampaignModul22986$LinkNein22986','')",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Verfuegbarkeitscheck16076$CampaignModul22986$DialogCloser22986\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "https://kundenportal.teag.de/",
+    "https://www.thueringerenergie.de/privatkunden/strom/stromtarife?scrollTo=MainContent_PCS16073",
+    "https://play.google.com/store/apps/details?id=de.teag.energiebanking&hl=de",
+    "https://apps.apple.com/de/app/teag-energiebanking/id1514429665",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Faqs1$YouTubeVideoActivator1$ActivatorLinkProxy\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$Faqs1$YouTubeVideoActivator1$DeactivatorLinkProxy\", \"\", true, \"\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "https://www.thueringerenergie.de/cookieerklaerung",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilter$ctl00$lbCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilter$ctl01$lbCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilter$ctl02$lbCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilter$ctl03$lbCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilter$ctl04$lbCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilter$ctl05$lbCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilter$ctl06$lbCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilter$ctl07$lbCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilterSub$ctl00$lbSubCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilterSub$ctl01$lbSubCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilterSub$ctl02$lbSubCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilterSub$ctl03$lbSubCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilterSub$ctl04$lbSubCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilterSub$ctl05$lbSubCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilterSub$ctl06$lbSubCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFilterSub$ctl07$lbSubCategory','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$lbSearch','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl00$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl00$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl01$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl01$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl02$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl02$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl03$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl03$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl04$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl04$lbVoteDown','')",
+    "mailto:kundenservice@teag.de",
+    "https://www.thueringer-energienetze.com/energiepartner/messwesen/veroeffentlichungen/befundpruefung",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl05$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl05$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl06$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl06$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl07$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl07$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl08$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl08$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl09$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl09$lbVoteDown','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl10$lbVoteUp','')",
+    "javascript:__doPostBack('ctl00$MainContent$Faqs1$rFaqs$ctl10$lbVoteDown','')",
+    "tel:+4936418171111",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$MainContent$CallBack2$c_send\", \"\", true, \"CallBack\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "fax:+4936418171118",
+    "https://de.linkedin.com/organization-guest/company/teag/",
+    "https://www.facebook.com/ThueringerEnergie/",
+    "https://www.instagram.com/teag_gruppe/",
+    "https://www.xing.com/pages/thueringerenergie",
+    "https://www.youtube.com/channel/UCkOfcXpnEp9PWsRvx_c3uFw",
+    "https://twitter.com/TEAG_info",
+    "javascript:var options=new WebForm_PostBackOptions(\"ctl00$lbNewsletter\", \"\", true, \"NewsletterMaster\", \"\", false, true); if(options.validation&&options.validationGroup=='')options.validation=false;WebForm_DoPostBackWithOptions(options);",
+    "https://www.thueringerenergie.de/impressum",
+    "https://www.thueringerenergie.de/agbs",
+    "javascript:UC_UI.showFirstLayer();",
+    "https://www.thueringerenergie.de/barrierefreiheit"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Site/teag_logo_bigger@1.png",
+        "alt": "Zur Startseite",
+        "w": 147,
+        "h": 53
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/4DE0AD8E3F3E47278A493CB2E5EA84F6_PMT_W_rdax_1440x958_100s@1.jpg",
+        "alt": "Hinweis für TEAG Kunden zur Systemumstellung",
+        "w": 480,
+        "h": 319
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/72F8B07E76B446749F02D3EE0651E1BF_PMT_W_rdax_1440x816_100s@1.jpg",
+        "alt": "Einsparpotenziale in Ihrem Unternehmen identifizieren, clever investieren, CO2-Kosten senken - mit der TEAG EnergieEffizienzFoerderung",
+        "w": 480,
+        "h": 272
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/520F5924B2DE487596172A1AC80223AD_PMT_W_rdax_1440x678_100s@1.jpg",
+        "alt": "Kommune Gebäudeplanung",
+        "w": 479,
+        "h": 226
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/9B1B5C4DAB004C2D8154D4A363320BA4_PMT_W_rdax_1440x858_100s@1.jpg",
+        "alt": "Logo der TEAG-Akademie",
+        "w": 480,
+        "h": 286
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/044CBA91BE684BDFADCA5F13D3249E22_TMT_W_rdax_100s@1.jpg",
+        "alt": "Wissenschaftsshow zum Tag der offenen Tür",
+        "w": 325,
+        "h": 185
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/ADD787684EB0494A82BDF4D54912DAE3_TMT_W_rdax_100s@1.jpg",
+        "alt": "Blick in die Ausstellung im ehemaligen Umspannwerk Jena-Nord",
+        "w": 325,
+        "h": 185
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/B328519785FC4214929BBFA9644DAB67_TMT_W_rdax_100s@1.jpg",
+        "alt": "Portrait Ulrike Wilhelm",
+        "w": 325,
+        "h": 185
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/91D0A0B92F05435F827790C265E6EB54_TMT_W_rdax_100s@1.jpg",
+        "alt": "Schülerinnen und Schüler  schauen sich Blatt an",
+        "w": 325,
+        "h": 185
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/FA50C8BC05A440E2BF3FBC729D9FA58A_PMT_W_rdax_1440x960_100s@1.jpg",
+        "alt": "Die Hauptverwaltung der TEAG-Gruppe in Erfurt, Außenansicht",
+        "w": 480,
+        "h": 320
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Site/teag_logo_neg_outline@1.png",
+        "alt": "Zur Startseite",
+        "w": 130,
+        "h": 49
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/7018A86BB4F4474E9DC356DDA0B06BB3_PG_D_rdax_100s@1.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 724
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/638DFF960C2A41FD8B9F1C045208C15B_PT2_D@1.jpg",
+        "alt": "",
+        "w": 915,
+        "h": 554
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/4746B93B73FD4202A556D975780C6D15_PLT_D@1.jpg",
+        "alt": "",
+        "w": 454,
+        "h": 169
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/4848615144764EAE91D228F114F9F45E_PLT_D@1.jpg",
+        "alt": "",
+        "w": 454,
+        "h": 169
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/84E631B0FBE74E62A8129B9C695F1402_PLT_D@1.jpg",
+        "alt": "",
+        "w": 454,
+        "h": 169
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/CA4D3E0462014DC2B3E769AAAE46542D_PLT_D@1.jpg",
+        "alt": "",
+        "w": 454,
+        "h": 169
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/FAAC8B492F334C54B2DAE95831857518_PT2_D@1.jpg",
+        "alt": "",
+        "w": 915,
+        "h": 555
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/8B0B6D6A5659464A8A0D09CD6AE126D4_PT2_D@1.jpg",
+        "alt": "",
+        "w": 915,
+        "h": 554
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/4F2296B9E4C54B4F84560AEC6FB4B341_PT2_D@1.jpg",
+        "alt": "",
+        "w": 915,
+        "h": 554
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Altes_Format/210713_teag_hubaert_kreis_grafik_2500px_animiert_v2_lila.gif",
+        "alt": "",
+        "w": 2465,
+        "h": 2510
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/0B938B47787E4BA9A61825923158AFD5_PT2_D@1.png",
+        "alt": "",
+        "w": 915,
+        "h": 554
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/0760988ADCD443CBBDEBBAFF1339114A_M_A_rdax_100@1.png",
+        "alt": "Button: Lade die App im Google Play Store herunter.",
+        "w": 180,
+        "h": 60
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/A550253408E34E64B1062CB2DB490EE1_M_A_rdax_100@1.png",
+        "alt": "Button: Lade die App im Apple App Store herunter.",
+        "w": 180,
+        "h": 60
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/736141C8C51D467281F43A85EEBD9C31_M_A_rdax_100s@1.jpg",
+        "alt": "",
+        "w": 501,
+        "h": 281
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/4C214D83D18C49BDBE530F959311252E_M_A_rdax_100s@1.jpg",
+        "alt": "Grafik: Ein Donut-Diagramm zeigt die Zusammensetzung der Strompreise im Jahr 2025: 29 % Steuern/Gebühren, 24 % Netzkosten und 47 % Absatz/Beschaffung. Der deutsche Text erklärt die Kategorien.",
+        "w": 665,
+        "h": 422
+      },
+      {
+        "src": "https://www.thueringerenergie.de/Content/Images/Zuschnitte/EC2B411706834871A1151BFDED2AEBA1_PLT_W_rdax_1479x750_100s@1.jpg",
+        "alt": "Bild: Unsere Mitarbeiter helfen Ihnen gerne",
+        "w": 493,
+        "h": 250
+      }
+    ],
+    "allImgCount": 33,
+    "cssBackgrounds": [
+      "https://www.thueringerenergie.de/Content/Images/Site/Svg/checkmark-pos.svg"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": null,
+        "title": "Öffnen Chat Rahmen"
+      }
+    ]
+  },
+  "customProps": {
+    "--box-padding-large": "30px",
+    "--box-padding-medium": "25px",
+    "--box-padding-small": "25px",
+    "--box-padding-extra-small": "20px",
+    "--box-padding": "30px",
+    "--flex-gap-desktop": "80px",
+    "--flex-gap-tablet": "70px",
+    "--flex-gap-smartphone": "65px",
+    "--flex-gap-smartphone-xs": "60px",
+    "--flex-gap": "80px",
+    "--bs-primary-rgb": "135,13,135",
+    "--bs-primary-hover-rgb": "92,5,92",
+    "--bs-secondary-rgb": "198,0,134",
+    "--bs-secondary-hover-rgb": "153,0,88",
+    "--bs-info-rgb": "11,162,227",
+    "--bs-info-hover-rgb": "10,102,194",
+    "--bs-success-rgb": "13,166,66",
+    "--bs-success-hover-rgb": "14,118,46",
+    "--bs-warning-rgb": "245,157,15",
+    "--bs-warning-hover-rgb": "220,135,0",
+    "--bs-danger-rgb": "235,0,0",
+    "--bs-danger-hover-rgb": "190,25,30",
+    "--bs-light-rgb": "242,242,242",
+    "--bs-light-hover-rgb": "237,237,237",
+    "--bs-dark-rgb": "20,20,20",
+    "--bs-dark-hover-rgb": "0,0,0",
+    "--bs-primary": "rgb(135,13,135)",
+    "--bs-primary-hover": "rgb(92,5,92)",
+    "--bs-secondary": "rgb(198,0,134)",
+    "--bs-secondary-hover": "rgb(153,0,88)",
+    "--bs-info": "rgb(11,162,227)",
+    "--bs-info-hover": "rgb(10,102,194)",
+    "--bs-success": "rgb(13,166,66)",
+    "--bs-success-hover": "rgb(14,118,46)",
+    "--bs-warning": "rgb(245,157,15)",
+    "--bs-warning-hover": "rgb(220,135,0)",
+    "--bs-danger": "rgb(235,0,0)",
+    "--bs-danger-hover": "rgb(190,25,30)",
+    "--bs-light": "rgb(242,242,242)",
+    "--bs-light-hover": "rgb(237,237,237)",
+    "--bs-dark": "rgb(20,20,20)",
+    "--bs-dark-hover": "rgb(0,0,0)",
+    "--bs-border-color": "rgba(20,20,20,.175)",
+    "--bs-border-radius": "1rem",
+    "--bs-primary-text-rgb": "255,255,255",
+    "--bs-secondary-text-rgb": "255,255,255",
+    "--bs-info-text-rgb": "0,0,0",
+    "--bs-success-text-rgb": "0,0,0",
+    "--bs-warning-text-rgb": "0,0,0",
+    "--bs-danger-text-rgb": "255,255,255",
+    "--bs-light-text-rgb": "0,0,0",
+    "--bs-dark-text-rgb": "255,255,255",
+    "--bs-primary-text": "rgb(255,255,255)",
+    "--bs-secondary-text": "rgb(255,255,255)",
+    "--bs-info-text": "rgb(0,0,0)",
+    "--bs-success-text": "rgb(0,0,0)",
+    "--bs-warning-text": "rgb(0,0,0)",
+    "--bs-danger-text": "rgb(255,255,255)",
+    "--bs-light-text": "rgb(0,0,0)",
+    "--bs-dark-text": "rgb(255,255,255)",
+    "--bs-body-color-rgb": "20,20,20",
+    "--bs-body-color": "rgb(20,20,20)",
+    "--bs-body-bg-rgb": "255,255,255",
+    "--bs-body-bg": "rgb(255,255,255)",
+    "--bs-secondary-color-rgb": "118,118,118",
+    "--bs-secondary-color": "rgb(118,118,118)",
+    "--bs-secondary-bg-rgb": "242,242,242",
+    "--bs-secondary-bg": "rgb(242,242,242)",
+    "--bs-tertiary-color-rgb": "107,107,107",
+    "--bs-tertiary-color": "rgb(107,107,107)",
+    "--bs-tertiary-bg-rgb": "237,237,237",
+    "--bs-tertiary-bg": "rgb(237,237,237)",
+    "--teag-accent": "#f533a0",
+    "--teag-info": "rgb(11,162,227)",
+    "--teag-divider": "#f533a0"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 39,
+    "mainTextLen": 101813,
+    "realImageCount": 27,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/core/qE6MEj9eWPQ8Dz",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 774,
+        "hits": 1,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/autoblocker/qE6MEj9eWPQ8Dz",
+        "query": [
+          "domain",
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 715,
+        "hits": 2,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+        "query": [
+          "isBot",
+          "isOutsideEu"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 8912,
+        "hits": 1,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "consent-api.service.consent.usercentrics.eu",
+        "path": "/consent/uw/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 201,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/17880186799/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sgtm.thueringerenergie.de",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fplc",
+          "_fv",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "ecid",
+          "en",
+          "frm",
+          "gap.gtb",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gtb",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.adr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sgtm.thueringerenergie.de/g/collect",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.thueringerenergie.de",
+        "path": "/Scripts/Template.Menu.Desktop.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 2311,
+        "hits": 1,
+        "example": "https://www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cfg.moin.ai",
+        "path": "/widget/config/Ho8evAJs/Ho8evAJs",
+        "query": [
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cfg.moin.ai/widget/config/Ho8evAJs/Ho8evAJs",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cfg.moin.ai",
+        "path": "/widget/teaser/Ho8evAJs/Ho8evAJs",
+        "query": [
+          "isMobile",
+          "language",
+          "originUrl"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://cfg.moin.ai/widget/teaser/Ho8evAJs/Ho8evAJs",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "web.cmp.usercentrics.eu",
+        "count": 4
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 3
+      },
+      {
+        "host": "widget.moin.ai",
+        "count": 3
+      },
+      {
+        "host": "code.etracker.com",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "www.etracker.de",
+        "count": 2
+      },
+      {
+        "host": "remote.captcha.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+        "hasAction": true,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 31,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 2,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 9,
+      "thirdPartyScriptHosts": 8,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/privatkunden-strom-stromtarife.png",
+  "renderedHtml": "pages/privatkunden-strom-stromtarife.html",
+  "slots": {
+    "type": "program",
+    "plan": [
+      "photo-hero-titlebox",
+      "tariff-calculator?",
+      "intro-2col",
+      "tariff-details",
+      "legal-downloads",
+      "cta-band?",
+      "three-steps?",
+      "faq-accordion?",
+      "photo-teasers?"
+    ],
+    "headline": "Strompreise und Tarife",
+    "metaDescription": "Unsere Stromtarife: Kurze Vertragsbindung oder besser ein günstiges Paket - wählen Sie aus unseren zahlreichen Angeboten den für Sie geeigneten Stromtarif.",
+    "_note": "typed slots inferred from page type; ? = optional on this page"
+  }
+}

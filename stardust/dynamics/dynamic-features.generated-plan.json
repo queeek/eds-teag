@@ -1,0 +1,354 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-08T11:56:40.512Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--dc15da58--aemcoder.aem.page",
+  "migrated": null
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 5,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 5,
+   "probed": 5,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-cfg-moin-ai",
+   "class": "A",
+   "feature": "unknown third-party host cfg.moin.ai",
+   "pages": 3,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "cfg.moin.ai"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-www-etracker-de",
+   "class": "A",
+   "feature": "unknown third-party host www.etracker.de",
+   "pages": 1,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "www.etracker.de"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "pages": 2,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "remote.captcha.com"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production backend (vendor form id + field mapping)"
+  },
+  {
+   "id": "i18n-locale-variants-de",
+   "class": "I18N",
+   "feature": "locale variants de",
+   "pages": 1,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "https://apps.apple.com/de/app/teag-energiebanking/id1514429665"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "s-site-search-form-default",
+   "class": "S",
+   "feature": "site search form → /default",
+   "pages": 1,
+   "probed": 5,
+   "reach": {
+    "pages": 0,
+    "of": 8
+   },
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "s-site-search-form-privatkunden-strom-stromtarife",
+   "class": "S",
+   "feature": "site search form → /privatkunden/strom/stromtarife",
+   "pages": 1,
+   "probed": 5,
+   "reach": {
+    "pages": 0,
+    "of": 8
+   },
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "s-site-search-form-privatkunden-strom-haus-baustromanschluss",
+   "class": "S",
+   "feature": "site search form → /privatkunden/strom/haus-_-_baustromanschluss",
+   "pages": 1,
+   "probed": 5,
+   "reach": {
+    "pages": 0,
+    "of": 8
+   },
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "s-site-search-form-ueber-uns-unternehmen",
+   "class": "S",
+   "feature": "site search form → /ueber_uns/unternehmen",
+   "pages": 1,
+   "probed": 5,
+   "reach": {
+    "pages": 0,
+    "of": 8
+   },
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "s-site-search-form-impressum",
+   "class": "S",
+   "feature": "site search form → /impressum",
+   "pages": 1,
+   "probed": 5,
+   "reach": {
+    "pages": 0,
+    "of": 8
+   },
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "t-consent-usercentrics",
+   "class": "T",
+   "feature": "consent: Usercentrics",
+   "pages": 5,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "web.cmp.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 5,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 5,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-code-etracker-com",
+   "class": "T",
+   "feature": "unknown third-party host code.etracker.com",
+   "pages": 5,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "code.etracker.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-etracker-de",
+   "class": "T",
+   "feature": "unknown third-party host www.etracker.de",
+   "pages": 4,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "www.etracker.de"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-widget-moin-ai",
+   "class": "T",
+   "feature": "unknown third-party host widget.moin.ai",
+   "pages": 3,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "widget.moin.ai"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 5,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "0×0",
+    "Chat-Einleitung Rahmen",
+    "Öffnen Chat Rahmen",
+    "Chat input field"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 5,
+   "probed": 5,
+   "reach": null,
+   "evidence": [
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  }
+ ]
+}

@@ -1,0 +1,2961 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-10-08T10:24:46.981Z",
+    "urls": [
+      "http://localhost:8791/privatkunden-strom-stromtarife-proposed.html"
+    ],
+    "widths": [
+      360
+    ],
+    "selectors": [
+      "#PageHeader",
+      "#Content",
+      "#PageFooter",
+      "#MainContent_contentheadertop",
+      "#MainContent_contentheader",
+      "#MainContent_contentheader figure",
+      "#MainContent_contentheader img",
+      "#MainContent_contentheader .bar",
+      "#MainContent_contentheader .bar .container",
+      "#MainContent_contentheader h1",
+      "#MainContent_contentheader h2",
+      "#MainContent_headerPictureCredits",
+      "#MainContent_PCS16073",
+      "#MainContent_PCS16073 .tab-control",
+      "#MainContent_PCS16073 .tab-control .container",
+      "#MainContent_PCS16073 .siegel-row",
+      "#MainContent_PCS26438",
+      "#List26438",
+      "#PCS26439",
+      "#PCS26439 figure",
+      "#PCS26439 picture",
+      "#PCS26439 img",
+      "#PCS26439 .container",
+      "#PCS26439 h2",
+      "#PCS26439 .divider",
+      "#PCS26439 .description",
+      "#PCS26439 .description p",
+      "#PCS26439 .benefit",
+      "#PCS26439 .benefit li",
+      "#PCS26439 .link",
+      "#PCS26439 .link-button",
+      "#PCS26439 .picture-credits",
+      "#PCS15395",
+      "#List15395",
+      "#PCS15997",
+      "#PCS15997 .modul-content",
+      "#PCS15997 header",
+      "#PCS15997 h2",
+      "#PCS15997 .list-container",
+      "#PCS15997 .overflow-container",
+      "#MainContent_CPMList15997",
+      "#MainContent_CPMList15997 > li",
+      "#MainContent_CPMList15997 > li section",
+      "#MainContent_CPMList15997 > li figure",
+      "#MainContent_CPMList15997 > li picture",
+      "#MainContent_CPMList15997 > li img",
+      "#MainContent_CPMList15997 > li .picture-credits",
+      "#MainContent_CPMList15997 > li .content",
+      "#MainContent_CPMList15997 > li header",
+      "#MainContent_CPMList15997 > li header span",
+      "#MainContent_CPMList15997 > li h3",
+      "#MainContent_CPMList15997 > li .description",
+      "#MainContent_CPMList15997 > li .description p",
+      "#MainContent_CPMList15997 > li h4",
+      "#MainContent_CPMList15997 > li .benefit",
+      "#MainContent_CPMList15997 > li .benefit li",
+      "#MainContent_CPMList15997 > li .footer",
+      "#MainContent_CPMList15997 > li .footer .link",
+      "#MainContent_CPMList15997 > li .footer .icon",
+      "#PCS15997 .controls",
+      "#PCS15997 .controls a",
+      "#MainContent_FootnoteContainer15997",
+      "#MainContent_FootnoteContainer15997 p",
+      "#MainContent_PCS16420",
+      "#MainContent_PCS16420 .link-button",
+      "#PCS15996",
+      "#MainContent_CPMList15996",
+      "#MainContent_CPMList15996 > li",
+      "#MainContent_PCS21931",
+      "#PCS21932",
+      "#PCS21932 .container",
+      "#MainContent_PCS23137",
+      "#PCS23138",
+      "#MainContent_PCS16169",
+      "#PCS16170",
+      "#PCS16170 img",
+      ".step-by-step-123-modul",
+      "#MainContent_PCS15963",
+      "#MainContent_PCS15963 .eye-catcher-container",
+      "#MainContent_PCS15963 .eye-catcher-container img",
+      "#MainContent_PCS15749",
+      "#PCS19344",
+      "#PCS19344 figure",
+      "#PCS19344 picture",
+      "#PCS19344 img",
+      "#PCS19344 .container",
+      "#PCS19344 h2",
+      "#PCS19344 .description",
+      "#PCS19344 .link",
+      "#PCS19344 .link img",
+      "#PCS16174",
+      "#PCS16174 .text-modul",
+      "#PCS16174 .text-modul header",
+      "#PCS16174 h2",
+      "#PCS16174 .modul-image",
+      "#PCS16174 .modul-image img",
+      "#PCS16174 .modul-image .picture-credits",
+      "#PCS16174 .text-modul > p",
+      "#PCS16174 .scrollable-table_mode-horizontal",
+      "#PCS16174 table",
+      "#PCS16174 th.head",
+      "#PCS16174 th.cellBorderBottom",
+      "#PCS16174 td",
+      "#PCS16174 td p",
+      "#PCS16174 p.footnote",
+      "#PCS16173",
+      "#PCS16173 .text-modul",
+      "#PCS16173 h2",
+      "#PCS16173 .text-modul > section",
+      "#PCS16173 .text-modul > section h3",
+      "#PCS16173 .image-remove-margin",
+      "#PCS16173 .image-remove-margin figure",
+      "#PCS16173 .image-remove-margin img",
+      "#PCS16173 .overflow",
+      "#MainContent_Faqs1_FaqModul",
+      "#MainContent_Faqs1_ServiceRow",
+      "#MainContent_Faqs1_ServiceRow .filter-1",
+      "#MainContent_Faqs1_pnlFilter",
+      "#MainContent_Faqs1_pnlFilter .category-label",
+      "#MainContent_Faqs1_pnlFilter .category-label a",
+      "#MainContent_Faqs1_pnlFilter .category-label .label",
+      "#MainContent_Faqs1_pnlFilter .category-label .title",
+      "#MainContent_Faqs1_pnlFilter .category-label .fa",
+      "#MainContent_Faqs1_pnlFilter ul",
+      "#MainContent_Faqs1_ServiceRow .filter-2",
+      "#MainContent_Faqs1_pnlFilterSub",
+      "#MainContent_Faqs1_ServiceRow .filter-3",
+      "#MainContent_Faqs1_pnlSearch",
+      "#MainContent_Faqs1_pnlSearch label",
+      "#MainContent_Faqs1_tbSearch",
+      "#MainContent_Faqs1_lbSearch",
+      "#MainContent_Faqs1_ListContainer",
+      "#MainContent_Faqs1_ListContainer ul.akkordeon-list",
+      "#MainContent_Faqs1_ListContainer li.entry",
+      "#MainContent_Faqs1_ListContainer li.entry p.topic",
+      "#MainContent_Faqs1_ListContainer li.entry .topic .title",
+      "#MainContent_Faqs1_ListContainer li.entry .topic .icon",
+      "#MainContent_Faqs1_ListContainer li.entry .container",
+      "#PCS15424",
+      "#PCS15425 header",
+      "#MainContent_Boxes15425",
+      "#MainContent_Boxes15425 > li",
+      "#Content .widget-header h2",
+      "#Content .widget-header .divider"
+    ],
+    "props": [
+      "width",
+      "height"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    360
+  ],
+  "selectors": [
+    "#PageHeader",
+    "#Content",
+    "#PageFooter",
+    "#MainContent_contentheadertop",
+    "#MainContent_contentheader",
+    "#MainContent_contentheader figure",
+    "#MainContent_contentheader img",
+    "#MainContent_contentheader .bar",
+    "#MainContent_contentheader .bar .container",
+    "#MainContent_contentheader h1",
+    "#MainContent_contentheader h2",
+    "#MainContent_headerPictureCredits",
+    "#MainContent_PCS16073",
+    "#MainContent_PCS16073 .tab-control",
+    "#MainContent_PCS16073 .tab-control .container",
+    "#MainContent_PCS16073 .siegel-row",
+    "#MainContent_PCS26438",
+    "#List26438",
+    "#PCS26439",
+    "#PCS26439 figure",
+    "#PCS26439 picture",
+    "#PCS26439 img",
+    "#PCS26439 .container",
+    "#PCS26439 h2",
+    "#PCS26439 .divider",
+    "#PCS26439 .description",
+    "#PCS26439 .description p",
+    "#PCS26439 .benefit",
+    "#PCS26439 .benefit li",
+    "#PCS26439 .link",
+    "#PCS26439 .link-button",
+    "#PCS26439 .picture-credits",
+    "#PCS15395",
+    "#List15395",
+    "#PCS15997",
+    "#PCS15997 .modul-content",
+    "#PCS15997 header",
+    "#PCS15997 h2",
+    "#PCS15997 .list-container",
+    "#PCS15997 .overflow-container",
+    "#MainContent_CPMList15997",
+    "#MainContent_CPMList15997 > li",
+    "#MainContent_CPMList15997 > li section",
+    "#MainContent_CPMList15997 > li figure",
+    "#MainContent_CPMList15997 > li picture",
+    "#MainContent_CPMList15997 > li img",
+    "#MainContent_CPMList15997 > li .picture-credits",
+    "#MainContent_CPMList15997 > li .content",
+    "#MainContent_CPMList15997 > li header",
+    "#MainContent_CPMList15997 > li header span",
+    "#MainContent_CPMList15997 > li h3",
+    "#MainContent_CPMList15997 > li .description",
+    "#MainContent_CPMList15997 > li .description p",
+    "#MainContent_CPMList15997 > li h4",
+    "#MainContent_CPMList15997 > li .benefit",
+    "#MainContent_CPMList15997 > li .benefit li",
+    "#MainContent_CPMList15997 > li .footer",
+    "#MainContent_CPMList15997 > li .footer .link",
+    "#MainContent_CPMList15997 > li .footer .icon",
+    "#PCS15997 .controls",
+    "#PCS15997 .controls a",
+    "#MainContent_FootnoteContainer15997",
+    "#MainContent_FootnoteContainer15997 p",
+    "#MainContent_PCS16420",
+    "#MainContent_PCS16420 .link-button",
+    "#PCS15996",
+    "#MainContent_CPMList15996",
+    "#MainContent_CPMList15996 > li",
+    "#MainContent_PCS21931",
+    "#PCS21932",
+    "#PCS21932 .container",
+    "#MainContent_PCS23137",
+    "#PCS23138",
+    "#MainContent_PCS16169",
+    "#PCS16170",
+    "#PCS16170 img",
+    ".step-by-step-123-modul",
+    "#MainContent_PCS15963",
+    "#MainContent_PCS15963 .eye-catcher-container",
+    "#MainContent_PCS15963 .eye-catcher-container img",
+    "#MainContent_PCS15749",
+    "#PCS19344",
+    "#PCS19344 figure",
+    "#PCS19344 picture",
+    "#PCS19344 img",
+    "#PCS19344 .container",
+    "#PCS19344 h2",
+    "#PCS19344 .description",
+    "#PCS19344 .link",
+    "#PCS19344 .link img",
+    "#PCS16174",
+    "#PCS16174 .text-modul",
+    "#PCS16174 .text-modul header",
+    "#PCS16174 h2",
+    "#PCS16174 .modul-image",
+    "#PCS16174 .modul-image img",
+    "#PCS16174 .modul-image .picture-credits",
+    "#PCS16174 .text-modul > p",
+    "#PCS16174 .scrollable-table_mode-horizontal",
+    "#PCS16174 table",
+    "#PCS16174 th.head",
+    "#PCS16174 th.cellBorderBottom",
+    "#PCS16174 td",
+    "#PCS16174 td p",
+    "#PCS16174 p.footnote",
+    "#PCS16173",
+    "#PCS16173 .text-modul",
+    "#PCS16173 h2",
+    "#PCS16173 .text-modul > section",
+    "#PCS16173 .text-modul > section h3",
+    "#PCS16173 .image-remove-margin",
+    "#PCS16173 .image-remove-margin figure",
+    "#PCS16173 .image-remove-margin img",
+    "#PCS16173 .overflow",
+    "#MainContent_Faqs1_FaqModul",
+    "#MainContent_Faqs1_ServiceRow",
+    "#MainContent_Faqs1_ServiceRow .filter-1",
+    "#MainContent_Faqs1_pnlFilter",
+    "#MainContent_Faqs1_pnlFilter .category-label",
+    "#MainContent_Faqs1_pnlFilter .category-label a",
+    "#MainContent_Faqs1_pnlFilter .category-label .label",
+    "#MainContent_Faqs1_pnlFilter .category-label .title",
+    "#MainContent_Faqs1_pnlFilter .category-label .fa",
+    "#MainContent_Faqs1_pnlFilter ul",
+    "#MainContent_Faqs1_ServiceRow .filter-2",
+    "#MainContent_Faqs1_pnlFilterSub",
+    "#MainContent_Faqs1_ServiceRow .filter-3",
+    "#MainContent_Faqs1_pnlSearch",
+    "#MainContent_Faqs1_pnlSearch label",
+    "#MainContent_Faqs1_tbSearch",
+    "#MainContent_Faqs1_lbSearch",
+    "#MainContent_Faqs1_ListContainer",
+    "#MainContent_Faqs1_ListContainer ul.akkordeon-list",
+    "#MainContent_Faqs1_ListContainer li.entry",
+    "#MainContent_Faqs1_ListContainer li.entry p.topic",
+    "#MainContent_Faqs1_ListContainer li.entry .topic .title",
+    "#MainContent_Faqs1_ListContainer li.entry .topic .icon",
+    "#MainContent_Faqs1_ListContainer li.entry .container",
+    "#PCS15424",
+    "#PCS15425 header",
+    "#MainContent_Boxes15425",
+    "#MainContent_Boxes15425 > li",
+    "#Content .widget-header h2",
+    "#Content .widget-header .divider"
+  ],
+  "root": {
+    "http://localhost:8791/privatkunden-strom-stromtarife-proposed.html": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 18222,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "http://localhost:8791/privatkunden-strom-stromtarife-proposed.html": {
+      "360": {
+        "#PageHeader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 140
+            },
+            "visible": true,
+            "text": "Weiter zum Inhalt EINBLICKE",
+            "props": {
+              "width": "360px",
+              "height": "140px"
+            }
+          }
+        ],
+        "#Content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 140,
+              "w": 360,
+              "h": 17114
+            },
+            "visible": true,
+            "text": "DuxX/iStockphoto.com Strompreise und Ta…",
+            "props": {
+              "width": "360px",
+              "height": "17114.3px"
+            }
+          }
+        ],
+        "#PageFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 17254,
+              "w": 360,
+              "h": 968
+            },
+            "visible": true,
+            "text": "KONTAKT Tel03641-8171111 Fax03641-81711…",
+            "props": {
+              "width": "360px",
+              "height": "967.5px"
+            }
+          }
+        ],
+        "#MainContent_contentheadertop": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 140,
+              "w": 360,
+              "h": 374
+            },
+            "visible": true,
+            "text": "DuxX/iStockphoto.com Strompreise und Ta…",
+            "props": {
+              "width": "360px",
+              "height": "373.781px"
+            }
+          }
+        ],
+        "#MainContent_contentheader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 140,
+              "w": 360,
+              "h": 374
+            },
+            "visible": true,
+            "text": "DuxX/iStockphoto.com Strompreise und Ta…",
+            "props": {
+              "width": "360px",
+              "height": "373.781px"
+            }
+          }
+        ],
+        "#MainContent_contentheader figure": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 140,
+              "w": 360,
+              "h": 217
+            },
+            "visible": true,
+            "text": "DuxX/iStockphoto.com",
+            "props": {
+              "width": "360px",
+              "height": "216.953px"
+            }
+          }
+        ],
+        "#MainContent_contentheader img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 140,
+              "w": 360,
+              "h": 217
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "360px",
+              "height": "216.953px"
+            },
+            "img": {
+              "naturalWidth": 375,
+              "naturalHeight": 226,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/7018A86BB4F4474E9DC356DDA0B06BB3_PG_S_rdax_100s@1.jpg"
+            }
+          }
+        ],
+        "#MainContent_contentheader .bar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 357,
+              "w": 360,
+              "h": 157
+            },
+            "visible": true,
+            "text": "Strompreise und Tarife Spannung pur! Mi…",
+            "props": {
+              "width": "360px",
+              "height": "156.828px"
+            }
+          }
+        ],
+        "#MainContent_contentheader .bar .container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 357,
+              "w": 360,
+              "h": 157
+            },
+            "visible": true,
+            "text": "Strompreise und Tarife Spannung pur! Mi…",
+            "props": {
+              "width": "331.219px",
+              "height": "76.8281px"
+            }
+          }
+        ],
+        "#MainContent_contentheader h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 387,
+              "w": 331,
+              "h": 23
+            },
+            "visible": true,
+            "text": "Strompreise und Tarife",
+            "props": {
+              "width": "301.219px",
+              "height": "23.0781px"
+            }
+          }
+        ],
+        "#MainContent_contentheader h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 410,
+              "w": 331,
+              "h": 54
+            },
+            "visible": true,
+            "text": "Spannung pur! Mit Energie der TEAG – si…",
+            "props": {
+              "width": "331.219px",
+              "height": "53.75px"
+            }
+          }
+        ],
+        "#MainContent_headerPictureCredits": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 194,
+              "y": 339,
+              "w": 166,
+              "h": 17
+            },
+            "visible": true,
+            "text": "DuxX/iStockphoto.com",
+            "props": {
+              "width": "156.438px",
+              "height": "17px"
+            }
+          }
+        ],
+        "#MainContent_PCS16073": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 494,
+              "w": 360,
+              "h": 611
+            },
+            "visible": true,
+            "text": "Für eine leichtere Orientierung empfehl…",
+            "props": {
+              "width": "331.219px",
+              "height": "591.172px"
+            }
+          }
+        ],
+        "#MainContent_PCS16073 .tab-control": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 494,
+              "w": 331,
+              "h": 511
+            },
+            "visible": true,
+            "text": "Für eine leichtere Orientierung empfehl…",
+            "props": {
+              "width": "331.219px",
+              "height": "511.172px"
+            }
+          }
+        ],
+        "#MainContent_PCS16073 .tab-control .container": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 14,
+              "y": 494,
+              "w": 331,
+              "h": 511
+            },
+            "visible": true,
+            "text": "Für eine leichtere Orientierung empfehl…",
+            "props": {
+              "width": "291.219px",
+              "height": "471.172px"
+            }
+          }
+        ],
+        "#MainContent_PCS16073 .siegel-row": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1045,
+              "w": 331,
+              "h": 20
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "331.219px",
+              "height": "20px"
+            }
+          }
+        ],
+        "#MainContent_PCS26438": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1105,
+              "w": 360,
+              "h": 716
+            },
+            "visible": true,
+            "text": "contrastwerkstatt/iStockphoto.com Unser…",
+            "props": {
+              "width": "360px",
+              "height": "676.422px"
+            }
+          }
+        ],
+        "#List26438": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1145,
+              "w": 360,
+              "h": 636
+            },
+            "visible": true,
+            "text": "contrastwerkstatt/iStockphoto.com Unser…",
+            "props": {
+              "width": "331.219px",
+              "height": "616.422px"
+            }
+          }
+        ],
+        "#PCS26439": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1165,
+              "w": 331,
+              "h": 616
+            },
+            "visible": true,
+            "text": "contrastwerkstatt/iStockphoto.com Unser…",
+            "props": {
+              "width": "331.219px",
+              "height": "596.422px"
+            }
+          }
+        ],
+        "#PCS26439 figure": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1185,
+              "w": 331,
+              "h": 596
+            },
+            "visible": true,
+            "text": "contrastwerkstatt/iStockphoto.com Unser…",
+            "props": {
+              "width": "331.219px",
+              "height": "596.422px"
+            }
+          }
+        ],
+        "#PCS26439 picture": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1145,
+              "w": 331,
+              "h": 189
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "331.219px",
+              "height": "189.391px"
+            },
+            "img": {
+              "naturalWidth": 731,
+              "naturalHeight": 418,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/638DFF960C2A41FD8B9F1C045208C15B_PT2_S@1.jpg"
+            }
+          }
+        ],
+        "#PCS26439 img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1145,
+              "w": 331,
+              "h": 189
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "331.219px",
+              "height": "189.391px"
+            },
+            "img": {
+              "naturalWidth": 731,
+              "naturalHeight": 418,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/638DFF960C2A41FD8B9F1C045208C15B_PT2_S@1.jpg"
+            }
+          }
+        ],
+        "#PCS26439 .container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1334,
+              "w": 331,
+              "h": 447
+            },
+            "visible": true,
+            "text": "Unser neues Top-Angebot für Preisoptimi…",
+            "props": {
+              "width": "331.219px",
+              "height": "427.031px"
+            }
+          }
+        ],
+        "#PCS26439 h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1354,
+              "w": 331,
+              "h": 117
+            },
+            "visible": true,
+            "text": "Unser neues Top-Angebot für Preisoptimi…",
+            "props": {
+              "width": "331.219px",
+              "height": "117.25px"
+            }
+          }
+        ],
+        "#PCS26439 .divider": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1488,
+              "w": 83,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "82.7969px",
+              "height": "1px"
+            }
+          }
+        ],
+        "#PCS26439 .description": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1503,
+              "w": 331,
+              "h": 229
+            },
+            "visible": true,
+            "text": "Günstiger Strompreis und 6-monatige Gru…",
+            "props": {
+              "width": "331.219px",
+              "height": "229.375px"
+            }
+          }
+        ],
+        "#PCS26439 .description p": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1503,
+              "w": 331,
+              "h": 52
+            },
+            "visible": true,
+            "text": "Günstiger Strompreis und 6-monatige Gru…",
+            "props": {
+              "width": "331.219px",
+              "height": "52.0938px"
+            }
+          }
+        ],
+        "#PCS26439 .benefit": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1571,
+              "w": 331,
+              "h": 161
+            },
+            "visible": true,
+            "text": "Bis zu 100€ Vorteil - kein Grundpreis f…",
+            "props": {
+              "width": "331.219px",
+              "height": "161.281px"
+            }
+          }
+        ],
+        "#PCS26439 .benefit li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 14,
+              "y": 1571,
+              "w": 331,
+              "h": 53
+            },
+            "visible": true,
+            "text": "Bis zu 100€ Vorteil - kein Grundpreis f…",
+            "props": {
+              "width": "303.219px",
+              "height": "53.0938px"
+            }
+          }
+        ],
+        "#PCS26439 .link": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1732,
+              "w": 331,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Jetzt sparen",
+            "props": {
+              "width": "331.219px",
+              "height": "49.3594px"
+            }
+          }
+        ],
+        "#PCS26439 .link-button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1741,
+              "w": 144,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Jetzt sparen",
+            "props": {
+              "width": "124px",
+              "height": "40px"
+            }
+          }
+        ],
+        "#PCS26439 .picture-credits": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1303,
+              "w": 250,
+              "h": 21
+            },
+            "visible": true,
+            "text": "contrastwerkstatt/iStockphoto.com",
+            "props": {
+              "width": "234.672px",
+              "height": "20.8438px"
+            }
+          }
+        ],
+        "#PCS15395": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1821,
+              "w": 360,
+              "h": 757
+            },
+            "visible": true,
+            "text": "Darum zur TEAG wechseln Bundesweit Find…",
+            "props": {
+              "width": "331.219px",
+              "height": "717.281px"
+            }
+          }
+        ],
+        "#List15395": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 1932,
+              "w": 331,
+              "h": 606
+            },
+            "visible": true,
+            "text": "Bundesweit Finden Sie mit unserem Tarif…",
+            "props": {
+              "width": "331.219px",
+              "height": "606.203px"
+            }
+          }
+        ],
+        "#PCS15997": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2579,
+              "w": 360,
+              "h": 1738
+            },
+            "visible": true,
+            "text": "Unsere Bestseller SolStock/iStockphoto.…",
+            "props": {
+              "width": "345.609px",
+              "height": "1697.94px"
+            }
+          }
+        ],
+        "#PCS15997 .modul-content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 2619,
+              "w": 346,
+              "h": 1658
+            },
+            "visible": true,
+            "text": "Unsere Bestseller SolStock/iStockphoto.…",
+            "props": {
+              "width": "345.609px",
+              "height": "1657.94px"
+            }
+          }
+        ],
+        "#PCS15997 header": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 14,
+              "y": 2619,
+              "w": 346,
+              "h": 23
+            },
+            "visible": true,
+            "text": "Unsere Bestseller",
+            "props": {
+              "width": "345.609px",
+              "height": "23.0781px"
+            }
+          }
+        ],
+        "#PCS15997 h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 2619,
+              "w": 346,
+              "h": 23
+            },
+            "visible": true,
+            "text": "Unsere Bestseller",
+            "props": {
+              "width": "345.609px",
+              "height": "23.0781px"
+            }
+          }
+        ],
+        "#PCS15997 .list-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 2674,
+              "w": 346,
+              "h": 764
+            },
+            "visible": true,
+            "text": "SolStock/iStockphoto.com TEAG.Strom eas…",
+            "props": {
+              "width": "345.609px",
+              "height": "764.328px"
+            }
+          }
+        ],
+        "#PCS15997 .overflow-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 2674,
+              "w": 346,
+              "h": 764
+            },
+            "visible": true,
+            "text": "SolStock/iStockphoto.com TEAG.Strom eas…",
+            "props": {
+              "width": "315.609px",
+              "height": "734.328px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 29,
+              "y": 2689,
+              "w": 1201,
+              "h": 734
+            },
+            "visible": true,
+            "text": "SolStock/iStockphoto.com TEAG.Strom eas…",
+            "props": {
+              "width": "1200.94px",
+              "height": "734.328px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 29,
+              "y": 2689,
+              "w": 278,
+              "h": 734
+            },
+            "visible": true,
+            "text": "SolStock/iStockphoto.com TEAG.Strom eas…",
+            "props": {
+              "width": "277.734px",
+              "height": "734.328px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li section": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 29,
+              "y": 2689,
+              "w": 278,
+              "h": 734
+            },
+            "visible": true,
+            "text": "SolStock/iStockphoto.com TEAG.Strom eas…",
+            "props": {
+              "width": "277.734px",
+              "height": "734.328px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li figure": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 29,
+              "y": 2689,
+              "w": 278,
+              "h": 734
+            },
+            "visible": true,
+            "text": "SolStock/iStockphoto.com TEAG.Strom eas…",
+            "props": {
+              "width": "277.734px",
+              "height": "734.328px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li picture": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 29,
+              "y": 2689,
+              "w": 278,
+              "h": 129
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "277.734px",
+              "height": "129.469px"
+            },
+            "img": {
+              "naturalWidth": 414,
+              "naturalHeight": 193,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/4746B93B73FD4202A556D975780C6D15_PLT_S@1.jpg"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li img": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 29,
+              "y": 2689,
+              "w": 278,
+              "h": 129
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "277.734px",
+              "height": "129.469px"
+            },
+            "img": {
+              "naturalWidth": 414,
+              "naturalHeight": 193,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/4746B93B73FD4202A556D975780C6D15_PLT_S@1.jpg"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .picture-credits": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 114,
+              "y": 2796,
+              "w": 193,
+              "h": 21
+            },
+            "visible": true,
+            "text": "SolStock/iStockphoto.com",
+            "props": {
+              "width": "178.078px",
+              "height": "20.8438px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .content": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 2838,
+              "w": 238,
+              "h": 502
+            },
+            "visible": true,
+            "text": "TEAG.Strom easy Für energiegeladene Pre…",
+            "props": {
+              "width": "237.734px",
+              "height": "502.078px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li header": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 2838,
+              "w": 238,
+              "h": 77
+            },
+            "visible": true,
+            "text": "TEAG.Strom easy Für energiegeladene Pre…",
+            "props": {
+              "width": "237.734px",
+              "height": "76.8594px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li header span": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 2840,
+              "w": 130,
+              "h": 22
+            },
+            "visible": true,
+            "text": "TEAG.Strom easy",
+            "props": {
+              "width": "auto",
+              "height": "auto"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li h3": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 2864,
+              "w": 238,
+              "h": 51
+            },
+            "visible": true,
+            "text": "Für energiegeladene Preisoptimierer.",
+            "props": {
+              "width": "237.734px",
+              "height": "50.8125px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .description": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 2948,
+              "w": 238,
+              "h": 363
+            },
+            "visible": true,
+            "text": "Unser zwei-Jahres-Tarif mit Strom aus e…",
+            "props": {
+              "width": "237.734px",
+              "height": "362.609px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .description p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 2948,
+              "w": 238,
+              "h": 156
+            },
+            "visible": true,
+            "text": "Unser zwei-Jahres-Tarif mit Strom aus e…",
+            "props": {
+              "width": "237.734px",
+              "height": "156.281px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li h4": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 3120,
+              "w": 238,
+              "h": 26
+            },
+            "visible": true,
+            "text": "Ihre Vorteile",
+            "props": {
+              "width": "237.734px",
+              "height": "26.0469px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .benefit": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 3154,
+              "w": 238,
+              "h": 156
+            },
+            "visible": true,
+            "text": "Bis zu 100 Euro Preisvorteil dank 6-mon…",
+            "props": {
+              "width": "237.734px",
+              "height": "156.281px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .benefit li": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 49,
+              "y": 3154,
+              "w": 238,
+              "h": 78
+            },
+            "visible": true,
+            "text": "Bis zu 100 Euro Preisvorteil dank 6-mon…",
+            "props": {
+              "width": "209.734px",
+              "height": "78.1406px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .footer": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 29,
+              "y": 3370,
+              "w": 278,
+              "h": 53
+            },
+            "visible": true,
+            "text": "Tarifdetails",
+            "props": {
+              "width": "237.734px",
+              "height": "22.7812px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .footer .link": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 3385,
+              "w": 114,
+              "h": 23
+            },
+            "visible": true,
+            "text": "Tarifdetails",
+            "props": {
+              "width": "114.328px",
+              "height": "22.7812px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li .footer .icon": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 49,
+              "y": 3387,
+              "w": 16,
+              "h": 23
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "16.2656px",
+              "height": "22.7812px"
+            }
+          }
+        ],
+        "#PCS15997 .controls": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 3453,
+              "w": 346,
+              "h": 42
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "345.609px",
+              "height": "42px"
+            }
+          }
+        ],
+        "#PCS15997 .controls a": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 21,
+              "y": 3453,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "40px",
+              "height": "40px"
+            }
+          }
+        ],
+        "#MainContent_FootnoteContainer15997": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 3497,
+              "w": 346,
+              "h": 780
+            },
+            "visible": true,
+            "text": "1 Bis zu 100 Euro Preisvorteil (brutto)…",
+            "props": {
+              "width": "345.609px",
+              "height": "779.531px"
+            }
+          }
+        ],
+        "#MainContent_FootnoteContainer15997 p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 14,
+              "y": 3497,
+              "w": 346,
+              "h": 54
+            },
+            "visible": true,
+            "text": "1 Bis zu 100 Euro Preisvorteil (brutto)…",
+            "props": {
+              "width": "345.609px",
+              "height": "53.7188px"
+            }
+          }
+        ],
+        "#MainContent_PCS16420": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4317,
+              "w": 360,
+              "h": 378
+            },
+            "visible": true,
+            "text": "Überzeugt? Dann gleich wechseln. Rund 5…",
+            "props": {
+              "width": "331.219px",
+              "height": "337.828px"
+            }
+          }
+        ],
+        "#MainContent_PCS16420 .link-button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 77,
+              "y": 4614,
+              "w": 207,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Jetzt Preis berechnen",
+            "props": {
+              "width": "187px",
+              "height": "40px"
+            }
+          }
+        ],
+        "#PCS15996": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4694,
+              "w": 360,
+              "h": 489
+            },
+            "visible": true,
+            "text": "Weitere Angebote TEAG.Strom Für Online-…",
+            "props": {
+              "width": "345.609px",
+              "height": "449.062px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15996": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 29,
+              "y": 4805,
+              "w": 1201,
+              "h": 267
+            },
+            "visible": true,
+            "text": "TEAG.Strom Für Online-Selbermacher. Mit…",
+            "props": {
+              "width": "1200.94px",
+              "height": "266.984px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15996 > li": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 29,
+              "y": 4805,
+              "w": 278,
+              "h": 267
+            },
+            "visible": true,
+            "text": "TEAG.Strom Für Online-Selbermacher. Mit…",
+            "props": {
+              "width": "277.734px",
+              "height": "266.984px"
+            }
+          }
+        ],
+        "#MainContent_PCS21931": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5183,
+              "w": 360,
+              "h": 705
+            },
+            "visible": true,
+            "text": "gorodenkoff/iStockphoto.com Mit Strom &…",
+            "props": {
+              "width": "360px",
+              "height": "664.891px"
+            }
+          }
+        ],
+        "#PCS21932": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 5243,
+              "w": 331,
+              "h": 605
+            },
+            "visible": true,
+            "text": "gorodenkoff/iStockphoto.com Mit Strom &…",
+            "props": {
+              "width": "331.219px",
+              "height": "584.891px"
+            }
+          }
+        ],
+        "#PCS21932 .container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 5413,
+              "w": 331,
+              "h": 436
+            },
+            "visible": true,
+            "text": "Mit Strom & Internet dauerhaft sparen Z…",
+            "props": {
+              "width": "331.219px",
+              "height": "415.5px"
+            }
+          }
+        ],
+        "#MainContent_PCS23137": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5888,
+              "w": 360,
+              "h": 760
+            },
+            "visible": true,
+            "text": "gstockstudio/stock.adobe.com Energie de…",
+            "props": {
+              "width": "360px",
+              "height": "720.25px"
+            }
+          }
+        ],
+        "#PCS23138": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 5948,
+              "w": 331,
+              "h": 660
+            },
+            "visible": true,
+            "text": "gstockstudio/stock.adobe.com Energie de…",
+            "props": {
+              "width": "331.219px",
+              "height": "640.25px"
+            }
+          }
+        ],
+        "#MainContent_PCS16169": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 6649,
+              "w": 360,
+              "h": 894
+            },
+            "visible": true,
+            "text": "AleksandarNakic/iStockphoto.com Ihre pe…",
+            "props": {
+              "width": "360px",
+              "height": "854.484px"
+            }
+          }
+        ],
+        "#PCS16170": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 6709,
+              "w": 331,
+              "h": 794
+            },
+            "visible": true,
+            "text": "AleksandarNakic/iStockphoto.com Ihre pe…",
+            "props": {
+              "width": "331.219px",
+              "height": "774.484px"
+            }
+          }
+        ],
+        "#PCS16170 img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 29,
+              "y": 6689,
+              "w": 331,
+              "h": 189
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "331.219px",
+              "height": "189.391px"
+            },
+            "img": {
+              "naturalWidth": 731,
+              "naturalHeight": 418,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/4F2296B9E4C54B4F84560AEC6FB4B341_PT2_S@1.jpg"
+            }
+          }
+        ],
+        ".step-by-step-123-modul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 7583,
+              "w": 331,
+              "h": 773
+            },
+            "visible": true,
+            "text": "Ihr Wechsel zur TEAG - einfach und schn…",
+            "props": {
+              "width": "331.219px",
+              "height": "773.094px"
+            }
+          }
+        ],
+        "#MainContent_PCS15963": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 8396,
+              "w": 360,
+              "h": 498
+            },
+            "visible": true,
+            "text": "Jetzt deutschlandweit unser Angebot ver…",
+            "props": {
+              "width": "331.219px",
+              "height": "457.938px"
+            }
+          }
+        ],
+        "#MainContent_PCS15963 .eye-catcher-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 230,
+              "y": 8798,
+              "w": 130,
+              "h": 132
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "129.594px",
+              "height": "131.953px"
+            }
+          }
+        ],
+        "#MainContent_PCS15963 .eye-catcher-container img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 230,
+              "y": 8798,
+              "w": 130,
+              "h": 132
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "129.578px",
+              "height": "131.953px"
+            },
+            "img": {
+              "naturalWidth": 2465,
+              "naturalHeight": 2510,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/210713_teag_hubaert_kreis_grafik_2500px_animiert_v2_lila.gif"
+            }
+          }
+        ],
+        "#MainContent_PCS15749": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 8894,
+              "w": 360,
+              "h": 852
+            },
+            "visible": true,
+            "text": "TEAG Sind Sie bereits im TEAG-Kundenpor…",
+            "props": {
+              "width": "360px",
+              "height": "780.047px"
+            }
+          }
+        ],
+        "#PCS19344": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 8986,
+              "w": 331,
+              "h": 720
+            },
+            "visible": true,
+            "text": "TEAG Sind Sie bereits im TEAG-Kundenpor…",
+            "props": {
+              "width": "331.219px",
+              "height": "720.047px"
+            }
+          }
+        ],
+        "#PCS19344 figure": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 14,
+              "y": 8986,
+              "w": 331,
+              "h": 720
+            },
+            "visible": true,
+            "text": "TEAG Sind Sie bereits im TEAG-Kundenpor…",
+            "props": {
+              "width": "331.219px",
+              "height": "720.047px"
+            }
+          }
+        ],
+        "#PCS19344 picture": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 29,
+              "y": 8946,
+              "w": 331,
+              "h": 190
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "331.219px",
+              "height": "189.844px"
+            },
+            "img": {
+              "naturalWidth": 731,
+              "naturalHeight": 419,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/0B938B47787E4BA9A61825923158AFD5_PT2_S@1.png"
+            }
+          }
+        ],
+        "#PCS19344 img": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 29,
+              "y": 8946,
+              "w": 331,
+              "h": 190
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "331.219px",
+              "height": "189.844px"
+            },
+            "img": {
+              "naturalWidth": 731,
+              "naturalHeight": 419,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/0B938B47787E4BA9A61825923158AFD5_PT2_S@1.png"
+            }
+          }
+        ],
+        "#PCS19344 .container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9136,
+              "w": 331,
+              "h": 570
+            },
+            "visible": true,
+            "text": "Sind Sie bereits im TEAG-Kundenportal r…",
+            "props": {
+              "width": "331.219px",
+              "height": "550.203px"
+            }
+          }
+        ],
+        "#PCS19344 h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9156,
+              "w": 331,
+              "h": 59
+            },
+            "visible": true,
+            "text": "Sind Sie bereits im TEAG-Kundenportal r…",
+            "props": {
+              "width": "331.219px",
+              "height": "58.625px"
+            }
+          }
+        ],
+        "#PCS19344 .description": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9246,
+              "w": 331,
+              "h": 300
+            },
+            "visible": true,
+            "text": "Das TEAG-Kundenportal und die App biete…",
+            "props": {
+              "width": "331.219px",
+              "height": "299.734px"
+            }
+          }
+        ],
+        "#PCS19344 .link": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9545,
+              "w": 331,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Zum Login",
+            "props": {
+              "width": "331.219px",
+              "height": "49.3594px"
+            }
+          }
+        ],
+        "#PCS19344 .link img": [],
+        "#PCS16174": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 9746,
+              "w": 360,
+              "h": 1718
+            },
+            "visible": true,
+            "text": "Durchschnittlicher Stromverbrauch: Wie …",
+            "props": {
+              "width": "331.219px",
+              "height": "1677.83px"
+            }
+          }
+        ],
+        "#PCS16174 .text-modul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9786,
+              "w": 331,
+              "h": 1623
+            },
+            "visible": true,
+            "text": "Durchschnittlicher Stromverbrauch: Wie …",
+            "props": {
+              "width": "331.219px",
+              "height": "1622.83px"
+            }
+          }
+        ],
+        "#PCS16174 .text-modul header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9786,
+              "w": 331,
+              "h": 69
+            },
+            "visible": true,
+            "text": "Durchschnittlicher Stromverbrauch: Wie …",
+            "props": {
+              "width": "331.219px",
+              "height": "69.2344px"
+            }
+          }
+        ],
+        "#PCS16174 h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9786,
+              "w": 331,
+              "h": 69
+            },
+            "visible": true,
+            "text": "Durchschnittlicher Stromverbrauch: Wie …",
+            "props": {
+              "width": "331.219px",
+              "height": "69.2344px"
+            }
+          }
+        ],
+        "#PCS16174 .modul-image": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9903,
+              "w": 331,
+              "h": 186
+            },
+            "visible": true,
+            "text": "pixelfit/iStockphoto.com",
+            "props": {
+              "width": "331.219px",
+              "height": "185.766px"
+            }
+          }
+        ],
+        "#PCS16174 .modul-image img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 9903,
+              "w": 331,
+              "h": 186
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "331.203px",
+              "height": "185.766px"
+            },
+            "img": {
+              "naturalWidth": 501,
+              "naturalHeight": 281,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/736141C8C51D467281F43A85EEBD9C31_M_A_rdax_100s@1.jpg"
+            }
+          }
+        ],
+        "#PCS16174 .modul-image .picture-credits": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 178,
+              "y": 10090,
+              "w": 167,
+              "h": 17
+            },
+            "visible": true,
+            "text": "pixelfit/iStockphoto.com",
+            "props": {
+              "width": "162.25px",
+              "height": "17px"
+            }
+          }
+        ],
+        "#PCS16174 .text-modul > p": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 14,
+              "y": 10124,
+              "w": 331,
+              "h": 182
+            },
+            "visible": true,
+            "text": "Wie viel ist eigentlich „viel“? Häufig …",
+            "props": {
+              "width": "331.219px",
+              "height": "182.328px"
+            }
+          }
+        ],
+        "#PCS16174 .scrollable-table_mode-horizontal": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 11152,
+              "w": 331,
+              "h": 237
+            },
+            "visible": true,
+            "text": "Größe des Haushalts Durchschnittlicher …",
+            "props": {
+              "width": "331.219px",
+              "height": "237.188px"
+            }
+          }
+        ],
+        "#PCS16174 table": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 11152,
+              "w": 642,
+              "h": 237
+            },
+            "visible": true,
+            "text": "Größe des Haushalts Durchschnittlicher …",
+            "props": {
+              "width": "642.078px",
+              "height": "237.188px"
+            }
+          }
+        ],
+        "#PCS16174 th.head": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 14,
+              "y": 11152,
+              "w": 247,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Größe des Haushalts",
+            "props": {
+              "width": "207.016px",
+              "height": "29px"
+            }
+          }
+        ],
+        "#PCS16174 th.cellBorderBottom": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 14,
+              "y": 11201,
+              "w": 247,
+              "h": 47
+            },
+            "visible": true,
+            "text": "1 Person",
+            "props": {
+              "width": "207.016px",
+              "height": "26.0469px"
+            }
+          }
+        ],
+        "#PCS16174 td": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 261,
+              "y": 11201,
+              "w": 395,
+              "h": 47
+            },
+            "visible": true,
+            "text": "1500 kWh",
+            "props": {
+              "width": "355.062px",
+              "height": "26.0469px"
+            }
+          }
+        ],
+        "#PCS16174 td p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 281,
+              "y": 11211,
+              "w": 355,
+              "h": 26
+            },
+            "visible": true,
+            "text": "1500 kWh",
+            "props": {
+              "width": "355.062px",
+              "height": "26.0469px"
+            }
+          }
+        ],
+        "#PCS16174 p.footnote": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 11391,
+              "w": 331,
+              "h": 18
+            },
+            "visible": true,
+            "text": "Quelle: https://strom-report.de/stromve…",
+            "props": {
+              "width": "331.219px",
+              "height": "17.9062px"
+            }
+          }
+        ],
+        "#PCS16173": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 11464,
+              "w": 360,
+              "h": 2516
+            },
+            "visible": true,
+            "text": "Wie setzt sich der Strompreis zusammen?…",
+            "props": {
+              "width": "331.219px",
+              "height": "2475.7px"
+            }
+          }
+        ],
+        "#PCS16173 .text-modul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 11504,
+              "w": 331,
+              "h": 2406
+            },
+            "visible": true,
+            "text": "Wie setzt sich der Strompreis zusammen?…",
+            "props": {
+              "width": "331.219px",
+              "height": "2405.7px"
+            }
+          }
+        ],
+        "#PCS16173 h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 11504,
+              "w": 331,
+              "h": 46
+            },
+            "visible": true,
+            "text": "Wie setzt sich der Strompreis zusammen?",
+            "props": {
+              "width": "331.219px",
+              "height": "46.1562px"
+            }
+          }
+        ],
+        "#PCS16173 .text-modul > section": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 14,
+              "y": 12584,
+              "w": 331,
+              "h": 373
+            },
+            "visible": true,
+            "text": "Zusammensetzung Strompreis bei der TEAG…",
+            "props": {
+              "width": "331.219px",
+              "height": "373.469px"
+            }
+          }
+        ],
+        "#PCS16173 .text-modul > section h3": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 12584,
+              "w": 331,
+              "h": 45
+            },
+            "visible": true,
+            "text": "Zusammensetzung Strompreis bei der TEAG",
+            "props": {
+              "width": "331.219px",
+              "height": "44.9062px"
+            }
+          }
+        ],
+        "#PCS16173 .image-remove-margin": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 12987,
+              "w": 331,
+              "h": 922
+            },
+            "visible": true,
+            "text": "TEAG Für Sie als Privatnutzer kommt es …",
+            "props": {
+              "width": "331.219px",
+              "height": "922.391px"
+            }
+          }
+        ],
+        "#PCS16173 .image-remove-margin figure": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 12987,
+              "w": 331,
+              "h": 210
+            },
+            "visible": true,
+            "text": "TEAG",
+            "props": {
+              "width": "331.219px",
+              "height": "210.172px"
+            }
+          }
+        ],
+        "#PCS16173 .image-remove-margin img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 12987,
+              "w": 331,
+              "h": 210
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "331.188px",
+              "height": "210.172px"
+            },
+            "img": {
+              "naturalWidth": 665,
+              "naturalHeight": 422,
+              "currentSrc": "http://localhost:8791/assets/privatkunden-strom-stromtarife/4C214D83D18C49BDBE530F959311252E_M_A_rdax_100s@1.jpg"
+            }
+          }
+        ],
+        "#PCS16173 .overflow": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 13233,
+              "w": 331,
+              "h": 677
+            },
+            "visible": true,
+            "text": "Für Sie als Privatnutzer kommt es bei d…",
+            "props": {
+              "width": "331.219px",
+              "height": "677.219px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_FaqModul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14078,
+              "w": 331,
+              "h": 1375
+            },
+            "visible": true,
+            "text": "Thema Strom Rubrik Preis In FAQs suchen…",
+            "props": {
+              "width": "331.219px",
+              "height": "1375px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ServiceRow": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14113,
+              "w": 331,
+              "h": 257
+            },
+            "visible": true,
+            "text": "Thema Strom Rubrik Preis In FAQs suchen…",
+            "props": {
+              "width": "331.219px",
+              "height": "257px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ServiceRow .filter-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14113,
+              "w": 331,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Thema Strom",
+            "props": {
+              "width": "331.219px",
+              "height": "67px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlFilter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14113,
+              "w": 331,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Thema Strom",
+            "props": {
+              "width": "331.219px",
+              "height": "67px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlFilter .category-label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 24,
+              "y": 14126,
+              "w": 311,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Thema Strom",
+            "props": {
+              "width": "311.344px",
+              "height": "42px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlFilter .category-label a": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 24,
+              "y": 14126,
+              "w": 311,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Thema Strom",
+            "props": {
+              "width": "311.344px",
+              "height": "42px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlFilter .category-label .label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 24,
+              "y": 14126,
+              "w": 311,
+              "h": 17
+            },
+            "visible": true,
+            "text": "Thema",
+            "props": {
+              "width": "301.344px",
+              "height": "17px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlFilter .category-label .title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 24,
+              "y": 14143,
+              "w": 301,
+              "h": 25
+            },
+            "visible": true,
+            "text": "Strom",
+            "props": {
+              "width": "301.344px",
+              "height": "25px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlFilter .category-label .fa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 308,
+              "y": 14138,
+              "w": 18,
+              "h": 18
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "18px",
+              "height": "18px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlFilter ul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "10 TOP-Fragen Strom Erdgas Grund- und E…",
+            "props": {
+              "width": "auto",
+              "height": "auto"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ServiceRow .filter-2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14196,
+              "w": 331,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Rubrik Preis",
+            "props": {
+              "width": "331.219px",
+              "height": "67px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlFilterSub": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14196,
+              "w": 331,
+              "h": 67
+            },
+            "visible": true,
+            "text": "Rubrik Preis",
+            "props": {
+              "width": "331.219px",
+              "height": "67px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ServiceRow .filter-3": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14279,
+              "w": 331,
+              "h": 75
+            },
+            "visible": true,
+            "text": "In FAQs suchen nach:",
+            "props": {
+              "width": "331.219px",
+              "height": "75px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlSearch": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14279,
+              "w": 331,
+              "h": 75
+            },
+            "visible": true,
+            "text": "In FAQs suchen nach:",
+            "props": {
+              "width": "291.219px",
+              "height": "50px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_pnlSearch label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 33,
+              "y": 14291,
+              "w": 1,
+              "h": 1
+            },
+            "visible": true,
+            "text": "In FAQs suchen nach:",
+            "props": {
+              "width": "1px",
+              "height": "1px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_tbSearch": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 34,
+              "y": 14298,
+              "w": 191,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "185px",
+              "height": "40px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_lbSearch": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 307,
+              "y": 14292,
+              "w": 24,
+              "h": 50
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "24px",
+              "height": "50px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ListContainer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14389,
+              "w": 331,
+              "h": 1034
+            },
+            "visible": true,
+            "text": "Gibt es die EEG-Umlage noch? Was bedeut…",
+            "props": {
+              "width": "331.219px",
+              "height": "1034px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ListContainer ul.akkordeon-list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 14389,
+              "w": 331,
+              "h": 1034
+            },
+            "visible": true,
+            "text": "Gibt es die EEG-Umlage noch? Was bedeut…",
+            "props": {
+              "width": "331.219px",
+              "height": "1034px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ListContainer li.entry": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 14,
+              "y": 14389,
+              "w": 331,
+              "h": 47
+            },
+            "visible": true,
+            "text": "Gibt es die EEG-Umlage noch?",
+            "props": {
+              "width": "331.219px",
+              "height": "30px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ListContainer li.entry p.topic": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 14,
+              "y": 14389,
+              "w": 331,
+              "h": 30
+            },
+            "visible": true,
+            "text": "Gibt es die EEG-Umlage noch?",
+            "props": {
+              "width": "331.219px",
+              "height": "30px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ListContainer li.entry .topic .title": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 14,
+              "y": 14389,
+              "w": 301,
+              "h": 30
+            },
+            "visible": true,
+            "text": "Gibt es die EEG-Umlage noch?",
+            "props": {
+              "width": "301.219px",
+              "height": "30px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ListContainer li.entry .topic .icon": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 316,
+              "y": 14389,
+              "w": 30,
+              "h": 30
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "30px",
+              "height": "30px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_ListContainer li.entry .container": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Vom 1. Juli bis 31. Dezember 2022 wird …",
+            "props": {
+              "width": "auto",
+              "height": "auto"
+            }
+          }
+        ],
+        "#PCS15424": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 15493,
+              "w": 360,
+              "h": 1761
+            },
+            "visible": true,
+            "text": "Immer für Sie da Sie haben Fragen? ty/s…",
+            "props": {
+              "width": "331.219px",
+              "height": "1721.17px"
+            }
+          }
+        ],
+        "#PCS15425 header": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 14,
+              "y": 15533,
+              "w": 331,
+              "h": 45
+            },
+            "visible": true,
+            "text": "Immer für Sie da",
+            "props": {
+              "width": "331.219px",
+              "height": "45.4375px"
+            }
+          }
+        ],
+        "#MainContent_Boxes15425": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 14,
+              "y": 15627,
+              "w": 331,
+              "h": 1588
+            },
+            "visible": true,
+            "text": "Sie haben Fragen? ty/stock.adobe.com E-…",
+            "props": {
+              "width": "331.219px",
+              "height": "1587.73px"
+            }
+          }
+        ],
+        "#MainContent_Boxes15425 > li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 14,
+              "y": 15627,
+              "w": 331,
+              "h": 442
+            },
+            "visible": true,
+            "text": "Sie haben Fragen? ty/stock.adobe.com E-…",
+            "props": {
+              "width": "331.219px",
+              "height": "441.797px"
+            }
+          }
+        ],
+        "#Content .widget-header h2": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Hinweis",
+            "props": {
+              "width": "auto",
+              "height": "auto"
+            }
+          }
+        ],
+        "#Content .widget-header .divider": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "width": "211.744px",
+              "height": "1px"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

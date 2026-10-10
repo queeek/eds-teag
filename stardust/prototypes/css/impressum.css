@@ -1,0 +1,47 @@
+/* impressum.css — "static" page type (impressum, datenschutz; imports canon.css first). Lifted values: stardust/replica/lift/impressum.md
+   New modules: text-modul.default + sibling section.addition.show-separation (h2 header, h3, p, ul.linklist, inline link-buttons), .with-section-seperator section, empty marginal column.
+   Breadcrumb / column / text-modul base rules are the same source rules as the article layer (css/privatkunden-strom-haus-baustromanschluss.css) — repeated here, candidates for canon promotion.
+   Box model: content-box everywhere (source `*` reset); fonts policy as canon (Noto Sans self-hosted, stack order kept). */
+.hidden { display: none !important; }
+.nowrap { white-space: nowrap; }
+#Content { overflow: hidden; } /* live: #Content overflow hidden (BFC: the breadcrumb .center margin stops here at <=1024) */
+.icon-icons-link-external { display: inline-block; color: var(--c-primary); vertical-align: middle; margin: -3px 0 0 6px; }
+.link-button .icon-icons-link-external { color: #fff; }
+
+/* ---------- page meta: breadcrumb (source rules shared with the article layer) ---------- */
+.page-meta-section { padding: 20px 4% 0; }
+.page-meta-section > .center { margin: 20px 0 0; }
+.bread-crumb ul li { display: inline; }
+.bread-crumb ul li a { color: var(--c-grey-700); font-size: .9em; font-weight: 400; }
+.bread-crumb ul li a::after { content: ">"; color: var(--c-grey-700); padding: 0 6px; display: inline-block; }
+.bread-crumb ul li:last-child a::after { content: ""; }
+.bread-crumb ul li .icon { display: inline-block; margin-right: 6px; }
+.bread-crumb ul li.active a { color: var(--c-primary); }
+
+/* ---------- 2/3 text column + empty 1/3 marginal column ---------- */
+.columns-2-3 { float: left; width: 66%; margin-right: 2%; }
+.columns-1-3 { float: left; width: 32%; }
+.float-right { float: right; }
+
+/* ---------- text modules: .text-modul.default and its sibling .addition sections ---------- */
+.text-modul > header, .text-modul ~ .addition > header { margin-bottom: 3em; text-align: left; } /* 48px at the 16px section font */
+.text-modul p, .text-modul ~ .addition p { margin-bottom: 16px; }
+.text-modul p a:not(.link-button), .text-modul ~ .addition p a:not(.link-button) { color: #0ba2e3; font-weight: 700; text-decoration: underline; } /* live computed: rgb(11,162,227), 700 */
+.text-modul > h3, .text-modul ~ .addition > h3 { font-size: calc(1.3 * 16px + .08vw); line-height: 1.2; margin: 30px 0 16px; } /* 21.95 / 20.8+.288 */
+.text-modul a.link-button { position: relative; }
+ul.linklist { margin-bottom: 20px; }
+section ul.linklist li a { padding-left: 25px; color: #000; background: url(../assets/index/site/arrow-right.svg) left 5px / 17px no-repeat; display: inline-block; }
+/* separators */
+.page-content-section section.addition.show-separation { border-top: 1px solid #d9d9d9; margin-top: 30px; padding-top: 25px; }
+.page-content-section.with-section-seperator { padding-top: 0; }
+.page-content-section.with-section-seperator > .center:first-child { margin-top: 0; }
+.page-content-section.with-section-seperator > .center:first-child > .columns-2-3 { border-top: 1px solid #d9d9d9; padding-top: 20px; }
+.page-content-section.with-section-seperator > .center:first-child > .marginal-column { padding-top: 20px; }
+
+@media screen and (max-width: 1024px) {
+  .page-meta-section { padding-top: 0; }
+}
+@media screen and (max-width: 768px) {
+  .columns-2-3, .columns-1-3 { width: 100%; }
+  .marginal-column { margin-top: 30px; } /* live: even the empty marginal column adds 30px inside the clear-fixed .center at <=768 */
+}

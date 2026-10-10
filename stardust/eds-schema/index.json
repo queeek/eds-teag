@@ -1,0 +1,1645 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "slider-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "TEAG"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "TEAG-Strom plus Smartwatch Jetzt Ihre Smartwatch zum Stromvertrag wählen",
+     "href": "/privatkunden/strom_und_smartwatch"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Strom",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Für eine leichtere Orientierung empfehlen wir unsere barrierefreie telefonische Beratung unter +49 3641 8171111. Wir unterstützen Sie gern."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ihre Postleitzahl"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Erweiterte Filter",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Personen im Haushalt"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "1",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "2",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "3",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "4",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "5",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Jahresverbrauch in kWh"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "ConsumptionChangeEventReceiver",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "kWh"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Erweiterte Filter",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Strompreis berechnen",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Ihr individuelles Angebot"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Einfach Tarif auswählen und Ihre persönlichen Angaben machen. Wir erledigen den Rest."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Angaben ändern",
+     "href": "javascript: void(0);"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Hinweis"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Sie haben eine (z.B. Wärmepumpe) mit ?"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "unterbrechbare/steuerbare Verbrauchseinrichtung"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "separaten Stromzähler"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Dann können Sie unseren Tarif TEAG.Heizstrom abschließen."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Ja, separater Stromzähler vorhanden",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Nein, kein separater Stromzähler vorhanden",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "×",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Bereits ? Jetzt im anmelden und Vorteile nutzen."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "TEAG-Kunde"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "TEAG-Kundenportal",
+     "href": "https://kundenportal.teag.de/"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Erdgas",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Für eine leichtere Orientierung empfehlen wir unsere barrierefreie telefonische Beratung unter +49 3641 8171111. Wir unterstützen Sie gern."
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Ihre Postleitzahl"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Personen im Haushalt"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "1",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "2",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "3",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "4",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "5",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Jahresverbrauch in kWh"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "ConsumptionChangeEventReceiver",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "kWh"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Gaspreis berechnen",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 44,
+     "text": "Ihr individuelles Angebot"
+    },
+    {
+     "role": "heading",
+     "order": 45,
+     "text": "Einfach Tarif auswählen und Ihre persönlichen Angaben machen. Wir erledigen den Rest."
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Angaben ändern",
+     "href": "javascript: void(0);"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Bereits ? Jetzt im anmelden und Vorteile nutzen."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "TEAG-Kunde"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "TEAG-Kundenportal",
+     "href": "https://kundenportal.teag.de/"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Energielösungen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "heading",
+     "order": 51,
+     "text": "Individueller Sanierungsfahrplan"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Wir bieten Ihnen Unterstützung bei energetischen Modernisierungen und Energieeffzienz-Analysen rund um Ihr Haus."
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "Jetzt beraten lassen",
+     "href": "/privatkunden/energieloesungen/sanierungsfahrplan"
+    },
+    {
+     "role": "heading",
+     "order": 54,
+     "text": "Rund ums Zuhause"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Wir bieten Ihnen die passenden Produkte, Dienstleistungen und Services für Ihr Zuhause einfach und übersichtlich auf einen Blick."
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "Jetzt entdecken",
+     "href": "https://mein-zuhause.teag.de/"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Alle Energielösungen auf einen Blick",
+     "href": "/privatkunden/energieloesungen"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.center",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Darum Energie von der TEAG"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Überall"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Profitieren Sie von unseren umfangreichen Leistungen bundesweit und rund um die Uhr."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Einfach"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Nutzen Sie unsere vielfältigen Service-Angebote – vom Chat über die App bis zum Vor-Ort-Besuch."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Sicher"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Vertrauen Sie auf unsere zuverlässige Energieversorgung zu fairen Preisen und flexiblen Konditionen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Guido Werner/TEAG"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Stromtarife im Überblick"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Für ein leuchtendes Zuhause oder gemütliche Abende in Ihren vier Wänden - mit den Stromtarifen von der TEAG sind Sie immer bestens versorgt."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zu den Stromtarifen",
+     "href": "/privatkunden/strom/stromtarife"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Guido Werner/TEAG"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Erdgastarife im Überblick"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Für wohlige Wärme in Ihrem Haus oder Ihr Kochvergnügen am Herd – mit dem passenden Erdgastarif von der TEAG sind Sie immer bestens versorgt."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Zu den Erdgastarifen",
+     "href": "/privatkunden/erdgas/gastarife"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.box",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Ihr Wechsel zur TEAG - einfach und schnell"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "1"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Preisvorteil berechnen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Geben Sie einfach Ihre PLZ und Ihren geschätzten Jahresverbrauch ein."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "2"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Einfach online bestellen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Für den Vertragsabschluss benötigen Sie nur 5 Minuten."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "3"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Wir übernehmen den Rest"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Sie erhalten in Kürze Ihre Vertragsunterlagen. Wir klären alles mit Ihrem bisherigen Anbieter."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "SECTION.step",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Sie haben Fragen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "FAQ:"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Ihre häufigsten Fragen",
+     "href": "/privatkunden/service/faq"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "E-Mail:"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "kundenservice@teag.de",
+     "href": "mailto:kundenservice@teag.de"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Serviceline:"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "03641-817 1111",
+     "href": "tel:+4936418171111"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Mo-Do: 7:00 – 19:00 Uhr, kostenfrei aus dem dt. Festnetz"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Fr: 7:00 – 13:00 Uhr"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Netzstörung?"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Bei Netzstörungen wenden Sie sich bitte an die Störungsnummern Ihres Netzbetreibers. Im Netzgebiet der TEN Thüringer Energienetze gelten folgende :"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Störungsnummern"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Netzstörung Strom:"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "0800 686-1166",
+     "href": "tel:+498006861166"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "(24h)"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Netzstörung Gas:"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "0800 686-1177",
+     "href": "tel:+498006861177"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "(24h)"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Störungsauskunft",
+     "href": "https://störungsauskunft.de/map/"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Rückruf vereinbaren"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Sie haben eine Frage oder wünschen eine Beratung?"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Ihre Daten werden nur zum einmaligen Rückruf bzw. zur Bearbeitung Ihres Anliegens verwendet."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Vorname"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Name"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Rückrufdatum"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Telefon"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Thema Ihrer Anfrage"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Thema Ihrer Anfrage"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Abschlag"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Bankverbindung"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "TEAG-Kundenportal"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Energieberatung"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Netzanschluss"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Produkte"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Rechnung"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Verträge"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Zählerstand"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Sonstiges"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Ich habe die gelesen und verstanden."
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Datenschutzerklärung",
+     "href": "/datenschutz"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "*"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Anfrage senden",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 42,
+     "text": "Auf einen Blick"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "ty/stock.adobe.com"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Hier finden Sie alle Service-Themen auf einen Blick."
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "TEAG-Kundenportal",
+     "href": "/geschaeftskunden/service/kundenportale/teag-kundenportal"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Zählerstandsmeldung",
+     "href": "/privatkunden/service/zaehlerstandsmeldung"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Kontaktformular",
+     "href": "/privatkunden/service/kontakt"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Haus- und Baustromanschluss",
+     "href": "/privatkunden/strom/haus-_-_baustromanschluss"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "Erdgashausanschluss",
+     "href": "/privatkunden/erdgas/hausanschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.box",
+     "count": 3,
+     "unit": {
+      "headings": 2,
+      "ctas": 6,
+      "imgs": 0,
+      "textRuns": 19
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Überzeugt? Dann gleich wechseln."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rund 500.000 Kunden aus ganz Deutschland vertrauen auf die TEAG und sind von unserer Leistung überzeugt. Mit uns haben Sie einen sicheren Partner an Ihrer Seite. Umfassender Service und ein vielfältiges Angebot zeichnen uns aus. Werden Sie Teil unserer TEAG-Familie."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Jetzt Preis berechnen",
+     "href": "?scrollTo=MainContent_PCS16185"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "themen-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Thüringer Energie. Für Sie."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Mehr anzeigen",
+     "href": "#"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.list-entry",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-foot-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "News & Presse."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Beiträge aus den sozialen Medien öffnen sich in einem neuen Fenster."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Externe Links"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "06.10.2026 Pressemitteilung E-Truck laden mit einer Million Watt - TEAG Mobil erreicht am LOMO-Autohof Zella-Mehlis neuen Rekordwert bei Ladeleistung Die TEAG Mobil GmbH hat einen technischen Meilenstein beim Ausbau der öffentlichen Ladeinfrastruktur für Elektro-LKW erreicht – am... Weiterlesen",
+     "href": "/ueber_uns/presse/pressemitteilungen/presse_32349?scrollTo=MainContent_SubPageTitle"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "07.08.2026 Pressemitteilung Glasfasernetz in Lipprechterode fertiggestellt - erfolgreiche Zusammenarbeit kommunaler Partner Thüringer Netkom (Netkom) und Gemeine Lipprechterode feiern den erfolgreichen Abschluss des Glasfaserausbaus. Weiterlesen",
+     "href": "/ueber_uns/presse/pressemitteilungen/presse_31262?scrollTo=MainContent_SubPageTitle"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "02.10.2026 Pressemitteilung Doppelte Ernte mit Heidelbeeren und Sonnenstrom - TEAG Solar nimmt Thüringens größte Agri-PV-Anlage in Betrieb TEAG Solar GmbH hat bei Bad Klosterlausnitz Thüringens größte Agri-Photovoltaikanlage zugeschaltet - Bauweise nach neuem Agri-Prinzip... Weiterlesen",
+     "href": "/ueber_uns/presse/pressemitteilungen/presse_32321?scrollTo=MainContent_SubPageTitle"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "30.07.2026 Neues aus dem Thüringer Museum für Elektrotechnik: ON.LINE Ausgabe 19/2026 erschienen Die Sommerausgabe 2026 von ON.LINE, dem Magazin des Thüringer Elektromuseums, ist nun als Download verfügbar. Weiterlesen",
+     "href": "/ueber_uns/news/news_30991?scrollTo=MainContent_SubPageTitle"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "15.09.2026 Pressemitteilung Größere Anbietervielfalt im Glasfasernetz - 1&1 und Thüringer Netkom schließen Kooperationsvertrag Der bundesweite Kommunikationsanbieter 1&1 wird sein Glasfasernetz mit dem Kommunikationsnetz der Thüringer Netkom verbinden. Damit... Weiterlesen",
+     "href": "/ueber_uns/presse/pressemitteilungen/presse_32123?scrollTo=MainContent_SubPageTitle"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "02.07.2026 Pressemitteilung TEAG Solar nimmt PV-Park Döblitz/Triptis in Betrieb Die TEAG Solar GmbH hat nach nur neun Monaten Bauzeit den neuen Solarpark Döblitz bei Triptis zugeschaltet. Auf einer Fläche von rund... Weiterlesen",
+     "href": "/ueber_uns/presse/pressemitteilungen/presse_30387?scrollTo=MainContent_SubPageTitle"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "20.08.2026 Ausbildungseröffnung an der TEAG Akademie Für 37 Azubis startete am 18. August, ein aufregendes neues Kapitel bei der TEAG-Gruppe. Weiterlesen",
+     "href": "/ueber_uns/news/news_31744?scrollTo=MainContent_SubPageTitle"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "23.06.2026 Pressemitteilung Neue Glasfaserdirektanschlüsse für Seebach Der Glasfaserausbau im Wartburgkreis kommt weiter voran. In Seebach / Ruhla sind jetzt erste Glasfaserdirektanschlüsse freigeschaltet... Weiterlesen",
+     "href": "/ueber_uns/presse/pressemitteilungen/presse_30186?scrollTo=MainContent_SubPageTitle"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Mehr anzeigen",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.column",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-foot-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Social Media Wall."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Aktuelle Beiträge aus den sozialen Medien der TEAG-Unternehmensgruppe"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Beiträge aus den sozialen Medien öffnen sich in einem neuen Fenster."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Externe Links"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "×",
+     "href": "javascript:void(0);"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "06.10.2026"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "teag"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "🚗 Die hat einen technischen Meilenstein beim Ausbau der öffentlichen Ladeinfrastruktur für Elektro-LKW erreicht – am LOMO-Autohof steht jetzt eine Spitzenladeleistung von einem Megawatt zur Verfügung."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "TEAG Mobil GmbH",
+     "href": "https://www.LinkedIn.com/company/90509993"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "⚡️ Der Megawatt-Ladepark auf dem LOMO-Autohof direkt an der A71 bei Zella-Mehlis ist damit der derzeit leistungsstärkste Ladepunkt für E-Trucker in Thüringen. Auch bundesweit stellt die Megawattleistung noch eine Ausnahme dar – nur sehr wenige Ladeparks können Elektrolastkraftwagen eine solch hohe Ladeleistung anbieten."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "💪 Die Ladetechnik muss für die sehr hohe Ladeleistung besonders konstruiert und ausgelegt sein. So sind die Ladekabel der Ein-Megawatt-Ladesäulen bspw. mit einer Kühlung versehen. Der Spezialhersteller hat das Ladesystem HYC1000 speziell für diese hohen Ladeleistungen für den Einsatz im Schwerlastverkehr entwickelt, das System ist erst seit 2026 auf dem Markt verfügbar. Der neue MCS-Ladestecker, speziell für E-LKW, wurde erstmals durch die TEAG Mobil GmbH verbaut."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Alpitronic",
+     "href": "https://www.LinkedIn.com/company/12602212"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "#Megawatt",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=megawatt&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "#Ladeinfrastruktur",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=ladeinfrastruktur&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "#LOMO",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=lomo&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "#TEAGMobil",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=teagmobil&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "#LKW",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=lkw&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "#Autohof",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=autohof&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "#ZellaMehlis",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=zellamehlis&highlightedUpdateUrns=urn%3ali%3augcPost%3a7513253691315920897"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "mehr anzeigen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "02.10.2026"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "teag"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "💪 Die hat bei Bad Klosterlausnitz Thüringens größte Agri-Photovoltaikanlage zugeschaltet."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "TEAG Solar GmbH",
+     "href": "https://www.LinkedIn.com/company/36401942"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "🍅 Zur Erklärung: Bei Agri-PV-Anlagen sind die Photovoltaik-Module nicht in direkter Bodennähe installiert, sondern befinden sich auf Gestellen in rund drei bis vier Metern Höhe. Dadurch bleibt unter den PV-Modulen genug Platz für eine landwirtschaftliche Bearbeitung. Die Agrarwirtschaft kann dadurch Ackerflächen sowohl für die Landwirtschaft als auch für die Stromgewinnung nutzen."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "🌞 Auf dem größten Teil der Ackerflächen unter den hohen Agri-PV-Modulen werden bis zu zehn Sorten Beerenfrüchte angebaut – vorrangig Heidelbeeren, aber auch Himbeeren, Johannisbeeren oder Brombeeren stehen auf dem Pflanzplan, ebenso kleine Apfelbäumchen. Insgesamt werden ca. 4.000 Pflanzen eingesetzt."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "⚡️ Die Agri-PV-Anlage Bad Klosterlausnitz speist knapp sieben Gigawattstunden pro Jahr in das öffentliche Stromnetz ein. Damit können rund 2.300 Haushalte ihren Stromverbrauch abdecken."
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "#TEAGSolar",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=teagsolar&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "#AgriPV",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=agripv&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "#AgrarPhotovoltaik",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=agrarphotovoltaik&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "#Photovoltaik",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=photovoltaik&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "#TEAGGruppe",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=teaggruppe&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511727185536393216"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "mehr anzeigen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "04.10.2026"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "teag_gruppe"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "‼️Heute Nacht endet die Bewerbungsfrist bei IdeenMachenSchule."
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "🎓️ Also wenn Ihr das Video seht und noch eine Idee Eurer Schule einreichen wollt, dann nutzt Eure Chance:"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "www.ideenmachenschule.de",
+     "href": "http://www.ideenmachenschule.de"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "#IdeenMachenSchule",
+     "href": "https://www.instagram.com/explore/tags/IdeenMachenSchule/"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "#Schule",
+     "href": "https://www.instagram.com/explore/tags/Schule/"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "#Thüringen",
+     "href": "https://www.instagram.com/explore/tags/Thüringen/"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "#Grundschule",
+     "href": "https://www.instagram.com/explore/tags/Grundschule/"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "#Kreativität",
+     "href": "https://www.instagram.com/explore/tags/Kreativität/"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "#Schulprojekt",
+     "href": "https://www.instagram.com/explore/tags/Schulprojekt/"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "mehr anzeigen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "01.10.2026"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "teag_gruppe"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "🎉 Diesen Monat durften wir wieder viele neue Gesichter beim Welcome Day der TEAG-Gruppe begrüßen!"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "🙌 Mit 35 Teilnehmenden, inklusive unserer dualen Studierenden, haben wir unsere Höchstteilnehmerzahl erreicht."
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "✨ Wir wünschen allen neuen Kolleginnen und Kollegen einen tollen Start in der TEAG-Gruppe und freuen uns auf alles, was wir gemeinsam bewegen werden!"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "#WelcomeDay",
+     "href": "https://www.instagram.com/explore/tags/WelcomeDay/"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "#Onboarding",
+     "href": "https://www.instagram.com/explore/tags/Onboarding/"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "#Karriere",
+     "href": "https://www.instagram.com/explore/tags/Karriere/"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "#TEAGGruppe",
+     "href": "https://www.instagram.com/explore/tags/TEAGGruppe/"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "#Energietalent",
+     "href": "https://www.instagram.com/explore/tags/Energietalent/"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "mehr anzeigen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "03.10.2026"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "teag_gruppe"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Noch nichts für Euren Wochenendspaziergang geplant? Wie wäre es mit einer kleinen Fotochallenge in TEAG-Farben? 📸💖💜💙 Und wenn Ihr schon dabei seid Eure Welt bunter zu machen: Mit TEAG.Strom easy geht auch euer Tarifwechsel ganz einfach. Und 100 Euro Bonus gibt's on top.⚡"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "#Colorchallenge",
+     "href": "https://www.instagram.com/explore/tags/Colorchallenge/"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "#Strom",
+     "href": "https://www.instagram.com/explore/tags/Strom/"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "#Fotochallenge",
+     "href": "https://www.instagram.com/explore/tags/Fotochallenge/"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "mehr anzeigen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "01.10.2026"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "teag"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "🎉 Diesen Monat durften wir wieder viele neue Gesichter beim Welcome Day der TEAG-Gruppe begrüßen!"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "🙌 Mit 35 Teilnehmenden, inklusive unserer dualen Studierenden, haben wir unsere Höchstteilnehmerzahl erreicht."
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "✨ Wir wünschen allen neuen Kolleginnen und Kollegen einen tollen Start in der TEAG-Gruppe und freuen uns auf alles, was wir gemeinsam bewegen werden!"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "#WelcomeDay",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=welcomeday&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "#Onboarding",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=onboarding&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "#Karriere",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=karriere&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "#TEAGGruppe",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=teaggruppe&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "#Energietalent",
+     "href": "https://www.linkedin.com/feed/hashtag/?keywords=energietalent&highlightedUpdateUrns=urn%3ali%3augcPost%3a7511436568520437761"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "mehr anzeigen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "02.10.2026"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "teag_gruppe"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "💪 Die TEAG Solar hat bei Bad Klosterlausnitz Thüringens größte Agri-Photovoltaikanlage zugeschaltet."
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "🍅 Zur Erklärung: Bei Agri-PV-Anlagen sind die Photovoltaik-Module nicht in direkter Bodennähe installiert, sondern befinden sich auf Gestellen in rund drei bis vier Metern Höhe. Dadurch bleibt unter den PV-Modulen genug Platz für eine landwirtschaftliche Bearbeitung. Die Agrarwirtschaft kann dadurch Ackerflächen sowohl für die Landwirtschaft als auch für die Stromgewinnung nutzen."
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "🌞 Auf dem größten Teil der Ackerflächen unter den hohen Agri-PV-Modulen werden bis zu zehn Sorten Beerenfrüchte angebaut – vorrangig Heidelbeeren, aber auch Himbeeren, Johannisbeeren oder Brombeeren stehen auf dem Pflanzplan, ebenso kleine Apfelbäumchen. Insgesamt werden ca. 4.000 Pflanzen eingesetzt."
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "⚡️ Die Agri-PV-Anlage Bad Klosterlausnitz speist knapp sieben Gigawattstunden pro Jahr in das öffentliche Stromnetz ein. Damit können rund 2.300 Haushalte ihren Stromverbrauch abdecken."
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "#TEAGSolar",
+     "href": "https://www.instagram.com/explore/tags/TEAGSolar/"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "#AgriPV",
+     "href": "https://www.instagram.com/explore/tags/AgriPV/"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "#AgrarPhotovoltaik",
+     "href": "https://www.instagram.com/explore/tags/AgrarPhotovoltaik/"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "#Photovoltaik",
+     "href": "https://www.instagram.com/explore/tags/Photovoltaik/"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "#TEAGGruppe",
+     "href": "https://www.instagram.com/explore/tags/TEAGGruppe/"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "mehr anzeigen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "30.09.2026"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "teag_gruppe"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "💪 Werdet zur Legende!"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "🥇 Rund um die drei Gleichen findet am 31. Oktober und 01. November wieder der statt."
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "@legendofcross",
+     "href": "https://www.instagram.com/legendofcross/"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "👇 Mehr dazu findet Ihr hier:"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "www.legendofcross.de",
+     "href": "http://www.legendofcross.de"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "mehr anzeigen",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "Mehr anzeigen",
+     "href": "#"
+    }
+   ],
+   "imgCount": 42,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "LI.column",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 17,
+      "imgs": 12,
+      "textRuns": 28
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "veranstaltungen",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Veranstaltungen."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Oktober"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "17.10.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "27.10.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "31.10.",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "November"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "3.11.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "6.11.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "7.11.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Special Olympics Landeswettbewerb Tischtennis",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Schmalkalder Berufs- und Bildungsmesse",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "14.11.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "19.11.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "27.11.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "28.11.",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Weihnachtszauber am Trusetaler Wasserfall",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Pyramidenanschieben & Weihnachtsmarkt",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Januar"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Zum Kalender",
+     "href": "#"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.month",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-08T11:55:40.650Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-09T15:33:08.521Z",
+  "templates": [
+    {
+      "id": "impressum",
+      "representativeSlug": "impressum",
+      "pages": [
+        "impressum"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumb",
+        "text-additions"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta-band",
+        "events",
+        "hero-slider",
+        "info-boxes",
+        "news-posts",
+        "photo-teasers",
+        "service-cards",
+        "social-wall",
+        "tariff-calculator",
+        "three-steps"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "privatkunden-strom-haus-baustromanschluss",
+      "representativeSlug": "privatkunden-strom-haus-baustromanschluss",
+      "pages": [
+        "privatkunden-strom-haus-baustromanschluss"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumb",
+        "cta-box",
+        "page-header-hero"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "privatkunden-strom-stromtarife",
+      "representativeSlug": "privatkunden-strom-stromtarife",
+      "pages": [
+        "privatkunden-strom-stromtarife"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "channel-products",
+        "cta-band",
+        "page-header-hero",
+        "product-teasers",
+        "service-cards",
+        "tariff-calculator",
+        "three-steps"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "privatkunden-strom-ersatzversorgung",
+      "pages": [
+        "privatkunden-strom-ersatzversorgung",
+        "privatkunden-strom-stromtarife-teag-strom-easie"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "search",
+      "representativeSlug": "search",
+      "pages": [
+        "search"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "static",
+      "representativeSlug": "datenschutz",
+      "pages": [
+        "datenschutz"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "ueber-uns-unternehmen",
+      "representativeSlug": "ueber-uns-unternehmen",
+      "pages": [
+        "ueber-uns-unternehmen"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumb",
+        "channel-cards",
+        "photo-teasers"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

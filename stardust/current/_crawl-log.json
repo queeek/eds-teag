@@ -1,0 +1,674 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 8,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.thueringerenergie.de/Content/FavIcons/android-icon-192x192.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 8,
+    "pagesWithSameSiteData": 8,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/core/qE6MEj9eWPQ8Dz",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/autoblocker/qE6MEj9eWPQ8Dz",
+        "query": [
+          "domain",
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+        "query": [
+          "isBot",
+          "isOutsideEu"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/17880186799/",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sgtm.thueringerenergie.de",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fplc",
+          "_fv",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "ecid",
+          "en",
+          "frm",
+          "gap.gtb",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gtb",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.adr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://sgtm.thueringerenergie.de/g/collect",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.thueringerenergie.de",
+        "path": "/Scripts/Template.Menu.Desktop.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cfg.moin.ai",
+        "path": "/widget/config/Ho8evAJs/Ho8evAJs",
+        "query": [
+          "language"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cfg.moin.ai/widget/config/Ho8evAJs/Ho8evAJs",
+        "pages": 5,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cfg.moin.ai",
+        "path": "/widget/teaser/Ho8evAJs/Ho8evAJs",
+        "query": [
+          "isMobile",
+          "language",
+          "originUrl"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cfg.moin.ai/widget/teaser/Ho8evAJs/Ho8evAJs",
+        "pages": 5,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "consent-api.service.consent.usercentrics.eu",
+        "path": "/consent/uw/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "pages": 3,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 3,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.etracker.de",
+        "path": "/api/v6/tracking/webEvents",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.etracker.de/api/v6/tracking/webEvents",
+        "pages": 2,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "datenschutz"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.thueringerenergie.de",
+        "path": "/privatkunden/strom/haus-_-_baustromanschluss",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+        "pages": 1,
+        "examples": [
+          "privatkunden-strom-haus-baustromanschluss"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.thueringerenergie.de",
+        "path": "/datenschutz",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.thueringerenergie.de/datenschutz",
+        "pages": 1,
+        "examples": [
+          "datenschutz"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.thueringerenergie.de",
+        "path": "/privatkunden/strom/ersatzversorgung",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.thueringerenergie.de/privatkunden/strom/ersatzversorgung",
+        "pages": 1,
+        "examples": [
+          "privatkunden-strom-ersatzversorgung"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "web.cmp.usercentrics.eu",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "host": "code.etracker.com",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "host": "www.etracker.de",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "host": "widget.moin.ai",
+        "pages": 5,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      },
+      {
+        "host": "remote.captcha.com",
+        "pages": 3,
+        "examples": [
+          "privatkunden-strom-stromtarife",
+          "index",
+          "impressum"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 8,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie",
+          "privatkunden-strom-stromtarife",
+          "index"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-strom-easie",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "pages": 1,
+        "examples": [
+          "privatkunden-strom-stromtarife-teag-strom-easie"
+        ]
+      },
+      {
+        "action": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "pages": 1,
+        "examples": [
+          "privatkunden-strom-stromtarife"
+        ]
+      },
+      {
+        "action": "https://www.thueringerenergie.de/default",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "action": "https://www.thueringerenergie.de/impressum",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "pages": 1,
+        "examples": [
+          "impressum"
+        ]
+      },
+      {
+        "action": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "pages": 1,
+        "examples": [
+          "privatkunden-strom-haus-baustromanschluss"
+        ]
+      },
+      {
+        "action": "https://www.thueringerenergie.de/datenschutz",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "pages": 1,
+        "examples": [
+          "datenschutz"
+        ]
+      },
+      {
+        "action": "https://www.thueringerenergie.de/privatkunden/strom/ersatzversorgung",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "pages": 1,
+        "examples": [
+          "privatkunden-strom-ersatzversorgung"
+        ]
+      },
+      {
+        "action": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ctl00$tbSearch",
+          "ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+          "ctl00$tbSearch2",
+          "ctl00$WidgetKontakt1$rblIsCustomer",
+          "ctl00$WidgetKontakt1$KundenNr",
+          "ctl00$WidgetKontakt1$ddlThema",
+          "ctl00$WidgetKontakt1$ddlAnfrageArt",
+          "ctl00$WidgetKontakt1$Vorname",
+          "ctl00$WidgetKontakt1$Nachname",
+          "ctl00$WidgetKontakt1$phone",
+          "ctl00$WidgetKontakt1$email",
+          "ctl00$WidgetKontakt1$message"
+        ],
+        "pages": 1,
+        "examples": [
+          "ueber-uns-unternehmen"
+        ]
+      }
+    ]
+  }
+}

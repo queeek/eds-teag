@@ -1,0 +1,306 @@
+.channel-products-modul .modul-content>.list-container |  display: flex; flex-direction: column;
+.channel-products-modul .modul-content>.controls |  opacity: 0; display: block; text-align: center; margin-top: 15px;
+.channel-products-modul .modul-content .controls ul |  display: inline-block; vertical-align: middle; float: left; margin: 0 20px;
+.channel-products-modul .modul-content .controls ul li |  float: left; display: inline-block; height: 35px; line-height: 35px;
+.channel-products-modul .modul-content .controls ul li .bullet |  height: 12px; width: 12px; display: inline-block; margin: 11.5px 8px; float: left; transition: background-color .23s ease; background-size: cont
+.channel-products-modul .modul-content .controls ul li.active .bullet |  background-image: url(../Images/Site/Svg/slider-bullet-active.svg);
+.channel-products-modul .list .box |  display: flex;
+.channel-products-modul .list .box section |  display: flex;
+.channel-products-modul .list .box section a:not(.toolTip-opener):not(.product-info-link):not(.close-button) |  display: flex;
+.channel-products-modul .list .box section>a figure |  display: flex; width: 100%; flex-direction: column;
+.channel-products-modul .list .box section>a figure picture |  min-height: 10px;
+.channel-products-modul .list .box section>figure |  display: flex; width: 100%; flex-direction: column;
+.channel-products-modul .list .box section>figure picture |  min-height: 10px;
+.channel-products-modul .list .box:not(.image-teaser) section |  padding: 20px 20px 0; width: calc(100% - 40px);
+.channel-products-modul .list .box:not(.image-teaser) section>div |  width: 100%;
+.channel-products-modul .list .box:not(.image-teaser) section>div .footer .link a |  flex-direction: row;
+.channel-products-modul .list .box:not(.image-teaser) section a:not(.close-button) |  flex-direction: column; color: #000; width: 100%;
+.channel-products-modul .list .box:not(.image-teaser) section .content |  flex-grow: 1; display: flex; flex-direction: column;
+.channel-products-modul .list .box:not(.image-teaser) section .content .description |  flex-grow: 1;
+.channel-products-modul .list .box:not(.image-teaser) section .content .footer |  margin: 10px -20px -20px;
+.channel-products-modul .list .box:not(.image-teaser) header h3 |  font-size: 1.3em;
+.channel-products-modul .list .box figcaption |  flex-grow: 1; display: flex; flex-direction: column;
+.channel-products-modul .list .box figcaption .description .benefit li |  list-style: none;
+.channel-products-modul .list .box header h4,.channel-products-modul .list .box header>span |  color: #767676; margin-bottom: 0; font-weight: normal;
+.channel-products-modul .list .box header h3 |  margin-bottom: 16px;
+.channel-products-modul .list .box .content |  flex-grow: 1;
+.channel-products-modul .list .box .content .description |  padding: 0; margin: 0;
+.channel-products-modul .list .box .content .description .benefit |  padding: 0; margin: 0;
+.channel-products-modul .list .box .footer |  min-height: calc(3em - 30px); background-color: #ededed; width: 100%; padding: 15px 20px; display: flex; margin: 30px -20px -20px;
+.channel-products-modul .list .box .footer .link |  line-height: 1.4; display: flex; align-items: baseline;
+.channel-products-modul .list .box .footer .link .icon |  position: relative; top: 2px;
+.channel-products-modul .list .box.image-teaser section |  width: 100%;
+.channel-products-modul .list .box.image-teaser section>a |  width: 100%;
+.channel-products-modul.need-modul .list .box figcaption |  padding-bottom: 20px;
+.channel-products-modul.need-modul .list .box figcaption .footer |  background-color: transparent; height: 20px;
+.channel-products-modul.need-modul .list .box figcaption .footer .link-button |  position: relative;
+.channel-products-modul.need-modul.mobile-slider .modul-content>.list-container .overflow-container   @media screen and (max-width:1024px) |  padding-bottom: 20px;
+.channel-products-modul.need-modul .list .box   @media screen and (max-width:1024px) |  margin-bottom: calc(2% + 30px);
+.channel-products-modul:not(.mobile-slider) .modul-content.items-1>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:1024px) |  width: calc(100%/2 - 20px/2);
+.channel-products-modul:not(.mobile-slider) .modul-content.items-2>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:1024px) |  width: calc(100%/2 - 20px/2);
+.channel-products-modul.need-modul .list   @media screen and (max-width:768px) |  padding-top: 35%;
+.channel-products-modul.need-modul .list .box   @media screen and (max-width:768px) |  margin-bottom: calc(37% + 40px);
+.channel-products-modul.need-modul .list .box:last-child   @media screen and (max-width:768px) |  margin-bottom: 20px;
+.channel-products-modul.need-modul .list .box figure picture   @media screen and (max-width:768px) |  width: calc(100% - 40px); margin: -35% 20px 0; box-shadow: 0 0 10px 0 rgba(0,0,0,.2); transition: box-shadow
+.channel-products-modul.need-modul .list .box figure figcaption .picture-credits   @media screen and (max-width:768px) |  right: 20px;
+.channel-products-modul.need-modul .list.columns-4>li.box:nth-child(4n+4)   @media screen and (max-width:768px) |  width: 100%;
+.channel-products-modul.need-modul.possibly-docked-teaser-should-take-active-teaser-button-in-smartphone-view .list .box   @media screen and (max-width:768px) |  margin-bottom: calc(37% + 20px);
+.channel-products-modul.possibly-docked-teaser-should-take-active-teaser-button-in-smartphone-view .list.columns-2 .box figure figcaption .footer   @media screen and (max-width:768px) |  display: none;
+.channel-products-modul.possibly-docked-teaser-should-take-active-teaser-button-in-smartphone-view .list.columns-3 .box figure figcaption .footer   @media screen and (max-width:768px) |  display: none;
+.channel-products-modul:not(.mobile-slider) .modul-content.items-1>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:768px) |  width: calc(100%*2/3);
+.channel-products-modul:not(.mobile-slider) .modul-content.items-2>.list-container .overflow-container>ul.columns-3>li:first-child   @media screen and (max-width:768px) |  margin-right: 20px;
+.channel-products-modul.possibly-docked-teaser-should-take-active-teaser-button-in-smartphone-view .list.columns-4 .box figure figcaption .footer   @media screen and (max-width:640px) |  display: none;
+.channel-products-modul:not(.mobile-slider) .modul-content.items-1>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:640px) |  width: 100%; margin-right: 0!important;
+.channel-products-modul:not(.mobile-slider) .modul-content.items-2>.list-container .overflow-container>ul.columns-3>li   @media screen and (max-width:640px) |  width: 100%; margin-right: 0!important; ######## ^
+.filter.drop-down-list |  border-radius: 22.25px; background-color: #ededed; padding: 12.5px 15px; display: inline-block; min-height: 25px; position: absolute; z-index: 1;
+.filter.drop-down-list.categories,.filter.drop-down-list.containers |  z-index: 2;
+.filter.drop-down-list .category-label |  font-weight: 700; font-size: 1.1em; white-space: nowrap;
+.filter.drop-down-list .category-label.not-selected |  font-weight: 400;
+.filter.drop-down-list .category-label a |  display: flex; align-items: center; text-decoration: none!important;
+.filter.drop-down-list .category-label a .content |  display: flex; flex-direction: column; flex-grow: 1;
+.filter.drop-down-list .category-label a .content .label |  font-size: calc(.666667em); font-weight: bold; color: #6a6a6a; padding: 0 10px 0 0; margin-bottom: 0; display: block;
+.filter.drop-down-list .category-label a .content .title |  color: #000; display: inline-block; margin-right: 10px;
+.filter.drop-down-list .category-label a .fa |  transform-origin: 9.5px 10px 0; text-align: center; width: 18px; height: 18px; font-size: .7em;
+.filter.drop-down-list ul |  margin-top: 5px; display: none;
+.filter.drop-down-list ul li |  display: block;
+.filter.drop-down-list ul li a |  color: #000; display: block; padding: 2px 5px; margin-bottom: 2px; text-decoration: none!important;
+.filter.drop-down-list ul li a .icon |  color: #870d87; vertical-align: middle; margin-right: 6px; display: inline-block;
+.filter.drop-down-list ul li.active a |  font-weight: bold;
+.filter_drop-down-list_modul .service-row |  margin-bottom: calc(35px - 1em);
+.filter_drop-down-list_modul .service-row:not(.without-filter-1) .filter-2 |  margin-left: 30px;
+.filter_drop-down-list_modul .service-row:not(.without-filter-1) .filter.sub-categories |  display: none;
+.filter_drop-down-list_modul .service-row .filter-1,.filter_drop-down-list_modul .service-row .filter-2,.filter_drop-down-list_modul .service-row .filter-3 |  margin-bottom: 1em;
+.filter_drop-down-list_modul .service-row .search-field |  float: right; height: 50px; line-height: 50px; border-radius: 22.25px; white-space: nowrap; width: auto; padding: 0 15px; background-color: #ededed; di
+.filter_drop-down-list_modul .service-row .search-field>label |  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+.filter_drop-down-list_modul .service-row .search-field input[type=text] |  background-color: #ededed; border: 0 none; padding: 0 3px; width: 185px; margin-bottom: 0; font-size: 1em; height: 40px; line-height: 
+.filter_drop-down-list_modul .service-row .search-field input[type=text].active |  font-weight: bold;
+.filter_drop-down-list_modul .service-row .search-field a |  font-size: 1.5em; position: absolute; right: 15px; display: inline-block; vertical-align: middle;
+.module-faq ul.list>li.entry h3 |  margin: 40px 0 20px; background-color: #870d87; color: #fff; padding: 5px 10px;
+.module-faq ul.list>li.entry div.container .content p a |  text-decoration: underline;
+.module-faq ul.list>li.entry div.container .voting .hint-message a |  color: #0ba2e3; font-weight: bold;
+.module-faq ul.list>li.entry div.container .voting a.button-vote |  color: #8c8c8c; font-weight: bold; display: inline-block; margin-left: 10px; position: relative;
+.module-faq ul.list>li.entry div.container .voting a.button-vote .voting-message |  top: -30px; left: -82.5px;
+.module-faq ul.list>li.entry div.container .voting a span |  color: #0ba2e3; display: inline-block; margin-right: 5px; vertical-align: middle;
+.module-faq ul.list>li.entry div.container .voting .voting-message |  display: inline-block; color: #fff; background-color: #870d87; padding: 5px 10px; border-radius: 14px; position: absolute; font-weight: 400;
+.module-faq ul.list>li.entry div.container .voting .voted-down-message .voting-message |  left: 0; right: 0; top: 0; bottom: 0; margin: auto; text-align: center; width: 165px; height: 20.5px;
+.module-faq ul.list>li.entry.voted div.container .voting>p a |  cursor: default;
+.module-faq ul.list>li.entry.voted div.container .voting textarea |  border-radius: 22.25px;
+.module-faq ul.list>li.entry.voted div.container .voting .voted-down-message |  border-radius: 22.25px; background-color: #ededed; margin-bottom: 15px; width: 96%; padding: 2%; position: relative;
+.module-faq ul.list>li.entry.voted div.container .voting .voting-down-message-form .flex-box>div:first-child |  flex-grow: 5; padding-right: 30px;
+.module-faq ul.list>li.entry.voted div.container .voting .voting-down-message-form .flex-box>div:last-child |  flex-grow: 1; min-width: 85px;
+.module-faq ul.list>li.entry.voted div.container .voting .voting-down-message-form .flex-box>div:last-child>a |  right: 0; bottom: 16px;
+.module-faq .filter-2 |  margin-left: 30px;
+.module-faq .filter.sub-categories |  display: none;
+.module-faq .service-row |  margin-bottom: calc(35px - 1em);
+.module-faq .service-row .filter-1 |  margin-bottom: 1em;
+.module-faq .service-row .filter-2 |  margin-bottom: 1em;
+.module-faq .service-row .filter-3 |  margin-bottom: 1em;
+.module-faq .service-row.filters-3 .filter-2.float-left   @media screen and (max-width:1450px) |  float: right; margin-left: 0;
+.module-faq .service-row.filters-3 .filter-3   @media screen and (max-width:1450px) |  clear: both; width: 100%;
+.module-faq .service-row.filters-3 .filter-3 .search   @media screen and (max-width:1450px) |  width: calc(100% - 30px);
+.module-faq .service-row.filters-3 .search input[type=text]   @media screen and (max-width:1240px) |  width: 120px;
+.module-faq .service-row.filters-3 .filter   @media screen and (max-width:1024px) |  padding: 12.5px 20px;
+.module-faq .service-row.filters-3 .filter .category-label a .fa   @media screen and (max-width:1024px) |  float: right;
+.module-faq .service-row.filters-3>.filter-1   @media screen and (max-width:1024px) |  width: 100%;
+.module-faq .service-row.filters-3>.filter-2   @media screen and (max-width:1024px) |  width: 100%;
+.module-faq .service-row.filters-3>.filter-3   @media screen and (max-width:1024px) |  width: 100%;
+.module-faq .service-row.filters-3 .filter.categories   @media screen and (max-width:1024px) |  padding: 12.5px 3%; width: 94%;
+.module-faq .service-row.filters-3 .float-left.filter-2 .filter.sub-categories   @media screen and (max-width:1024px) |  padding: 12.5px 3%; width: 94%;
+.module-faq .service-row.filters-3 .search   @media screen and (max-width:1024px) |  width: calc(100% - 30px);
+.module-faq .search input[type=text]   @media screen and (max-width:640px) |  width: 120px;
+.module-faq .service-row .filter-1.float-left   @media screen and (max-width:540px) |  float: none;
+.module-faq .service-row .filter-2.float-left   @media screen and (max-width:540px) |  float: none;
+.module-faq .service-row .filter-3.float-right   @media screen and (max-width:540px) |  float: none;
+.module-faq .service-row .filter.categories   @media screen and (max-width:540px) |  padding: 12.5px 3%; width: 94%; margin-left: 0;
+.module-faq .service-row .float-left.filter-2 .filter.sub-categories   @media screen and (max-width:540px) |  padding: 12.5px 3%; width: 94%; margin-left: 0;
+.module-faq .filter   @media screen and (max-width:540px) |  padding: 12.5px 3%; width: 94%; margin-left: 0;
+.module-faq .filter .category-label   @media screen and (max-width:540px) |  position: relative;
+.module-faq .filter .category-label a .fa   @media screen and (max-width:540px) |  position: absolute; right: 3%;
+.module-faq .service-row.filters-3 .filter-3 .filter.search-field   @media screen and (max-width:540px) |  width: calc(100% - 40px);
+.module-faq .search   @media screen and (max-width:540px) |  width: 94%; padding: 0 3%;
+.module-faq .search input[type=text]   @media screen and (max-width:540px) |  padding: 0 1%; margin-right: 1%; width: 87%;
+.service-row |  margin: 35px 0; position: relative; min-height: 50px;
+.akkordeon-list li.remit.entry .content .inner |  height: auto; padding: 15px 20px 20px 20px;
+.akkordeon-list li.remit.entry .content .inner .float-left |  width: 49%;
+.akkordeon-list li.remit.entry .content .inner .float-right |  width: 49%;
+.akkordeon-list li.remit.entry .content .inner span.lang-en |  color: #7a7a7a; white-space: nowrap;
+.akkordeon-list li.remit.entry .content .inner span.lang-en:before |  content: "."; clear: both; display: block; height: 0; visibility: hidden;
+.akkordeon-list li.remit.entry .content .inner table |  width: 100%; line-height: 1.4;
+.akkordeon-list li.remit.entry .content .inner table tbody tr:first-child |  border-top: 1px solid #fff;
+.akkordeon-list li.remit.entry .content .inner tr |  border-bottom: 1px solid #fff;
+.akkordeon-list li.remit.entry .content .inner tr td |  vertical-align: top; padding: 2px 0 6px 0;
+.akkordeon-list li.remit.entry .content .inner tr td:first-child |  padding-right: 10px; font-weight: 500;
+.akkordeon-list li.remit.entry .content .inner .float-left   @media screen and (max-width:1320px) |  width: 100%; … 11 more — narrow the selector regex, add --media/--decl, or raise --max ######## ^\.text-m
+.text-modul .picture-credits li |  margin-bottom: 20px; display: block;
+.text-modul .picture-credits li>a |  width: 100%;
+.text-modul .picture-credits li .fa::before |  margin-right: 5px; display: inline-block;
+.text-modul .picture-credits li figure |  display: table;
+.text-modul .picture-credits li figure img |  margin: 3px 20px 0 0!important; width: 100px; display: table-cell; float: none; min-width: 100px;
+.text-modul .picture-credits li figure figcaption |  display: table-cell; line-height: 1.4; vertical-align: top;
+.text-modul .picture-credits li figure figcaption span |  color: #000; font-weight: 400; font-size: .9em;
+.text-modul .picture-credits li figure figcaption span.required |  color: #eb0000;
+.text-modul .picture-credits li figure figcaption>span:has(.content) |  display: table;
+.text-modul .picture-credits li figure figcaption>span:has(.content)>span |  display: table-cell;
+.text-modul .picture-credits li figure figcaption>span:has(.content)>span.content |  word-wrap: break-word; word-break: break-all;
+.text-modul .picture-credits li.page-state-0 |  opacity: .4;
+.text-modul .picture-credits li.page-state-2 |  opacity: .5; background-color: #e0ffff;
+table:not(.customValidatorCalloutStyle) |  width: 100%;
+table.autoWidth |  width: auto;
+table thead tr th.cellAlignRight,table tr td.cellAlignRight |  text-align: right;
+table tbody tr th.cellBorderBottom,table tr td.cellBorderBottom |  border-bottom: 1px solid #000;
+table tr th |  text-align: left; font-weight: normal;
+table tr td.cellBorderBottomAlignRight |  border-bottom: 1px solid #000; text-align: right;
+table tr td.headAlignRight |  text-align: right;
+table thead tr th,table thead tr td,table tr td.head,table tbody tr th.head,table tbody tr td.headAlignRight |  background: #870d87; min-height: 50px; line-height: 1.4; font-size: 20px; color: #fff; font-weight
+table thead tr th>p,table thead tr td>p,table tr td.head>p,table tbody tr th.head>p,table tbody tr td.headAlignRight>p |  margin-bottom: 0;
+.text-modul.box,.text-modul~.addition.box,.text-editor-container.box,.textentry.box |  padding: 30px;
+.text-modul>header,.text-modul~.addition>header,.text-editor-container>header,.textentry>header |  margin-bottom: 3em;
+.text-modul>header h2,.text-modul~.addition>header h2,.text-editor-container>header h2,.textentry>header h2 |  margin-bottom: 0;
+.text-modul>header h2+h3,.text-modul~.addition>header h2+h3,.text-editor-container>header h2+h3,.textentry>header h2+h3 |  color: #000; font-weight: 400;
+.text-modul>h3,.text-modul~.addition>h3,.text-editor-container>h3,.textentry>h3 |  font-size: calc(1.3*16px + .08vw);
+.text-modul>h4,.text-modul~.addition>h4,.text-editor-container>h4,.textentry>h4 |  font-size: calc(1.2*16px + .08vw); line-height: 1.2; margin-bottom: 16px;
+.text-modul p a,.text-modul~.addition p a,.text-editor-container p a,.textentry p a,.text-modul h3 a,.text-modul~.addition h3 a,.text-editor-container h3 a,.te… |  text-decoration: underline;
+.text-modul .video-block,.text-modul~.addition .video-block,.text-editor-container .video-block,.textentry .video-block |  border-radius: 12px;
+.text-modul .video-block figure,.text-modul~.addition .video-block figure,.text-editor-container .video-block figure,.textentry .video-block figure |  position: relative; margin: 1.5em 0!important;
+.text-modul .video-block figure picture,.text-modul~.addition .video-block figure picture,.text-editor-container .video-block figure picture,.textentry .video-… |  display: flex;
+.text-modul .video-block figure picture img,.text-modul~.addition .video-block figure picture img,.text-editor-container .video-block figure picture img,.texte… |  margin: 0; border-radius: 12px;
+.text-modul .video-block figure video,.text-modul~.addition .video-block figure video,.text-editor-container .video-block figure video,.textentry .video-block … |  position: absolute; left: 0; top: 0; width: 
+.text-modul>.columns-2 iframe.youtube-video-player,.text-modul~.addition>.columns-2 iframe.youtube-video-player,.text-editor-container>.columns-2 iframe.youtub… |  width: 100%;
+.text-modul.images-with-shadow figure img,.text-modul~.addition.images-with-shadow figure img,.text-editor-container.images-with-shadow figure img,.textentry.i… |  object-fit: contain; object-position: center
+.text-modul.images-with-shadow figure figcaption,.text-modul~.addition.images-with-shadow figure figcaption,.text-editor-container.images-with-shadow figure fi… |  display: flex; justify-content: center; posi
+.text-modul.images-with-shadow figure figcaption .picture-credits,.text-modul~.addition.images-with-shadow figure figcaption .picture-credits,.text-editor-cont… |  margin-top: calc(1.6*-.8em); display: inline
+.text-modul section.has-overflow-content,.text-modul~.addition section.has-overflow-content,.text-editor-container section.has-overflow-content,.textentry sect… |  margin-top: 2em;
+.text-modul figure:not(.modul-image),.text-modul~.addition figure:not(.modul-image),.text-editor-container figure:not(.modul-image),.textentry figure:not(.modu… |  float: left; margin: 9px 40px 20px 0; positi
+.text-modul figure:not(.modul-image) img,.text-modul~.addition figure:not(.modul-image) img,.text-editor-container figure:not(.modul-image) img,.textentry figu… |  float: none; margin: 0!important;
+.text-modul figure+h3,.text-modul~.addition figure+h3,.text-editor-container figure+h3,.textentry figure+h3 |  padding-top: 4px;
+.text-modul.set-image-column-1-4 figure,.text-modul~.addition.set-image-column-1-4 figure,.text-editor-container.set-image-column-1-4 figure,.textentry.set-ima… |  align-items: center; display: flex; flex-dir
+.text-modul.set-image-column-1-4 section.has-overflow-content>div.overflow:has(>h3:first-child),.text-modul~.addition.set-image-column-1-4 section.has-overflow… |  margin-top: 4px;
+.text-modul.set-image-column-1-4 figure,.text-modul~.addition.set-image-column-1-4 figure,.text-editor-container.set-image-column-1-4 figure,.textentry.set-ima… |  width: 25%!important;
+.text-modul.set-image-column-1-3 figure,.text-modul~.addition.set-image-column-1-3 figure,.text-editor-container.set-image-column-1-3 figure,.textentry.set-ima… |  width: calc(100%/3)!important;
+.text-modul.set-image-column-1-2 figure,.text-modul~.addition.set-image-column-1-2 figure,.text-editor-container.set-image-column-1-2 figure,.textentry.set-ima… |  width: 50%!important;
+.text-modul.image-remove-margin figure,.text-modul~.addition.image-remove-margin figure,.text-editor-container.image-remove-margin figure,.textentry.image-remo… |  margin-top: 0; margin-right: 0;
+.text-modul.coloring-background,.text-modul~.addition.coloring-background,.text-editor-container.coloring-background,.textentry.coloring-background |  border-radius: 12px; padding: var(--box-padding); width: ca
+.text-modul.coloring-background header,.text-modul~.addition.coloring-background header,.text-editor-container.coloring-background header,.textentry.coloring-b… |  margin-bottom: 1em;
+.text-modul.coloring-background h3,.text-modul~.addition.coloring-background h3,.text-editor-container.coloring-background h3,.textentry.coloring-background h3 |  color: #fff;
+.text-modul.coloring-background p:last-of-type,.text-modul~.addition.coloring-background p:last-of-type,.text-editor-container.coloring-background p:last-of-ty… |  margin-bottom: 0;
+.text-modul.coloring-background a:not(.link-button):not(.cta-button):not(.icon):not(.tnk-icon),.text-modul~.addition.coloring-background a:not(.link-button):no… |  color: #fff; text-decoration: underline;
+.text-modul section.coloring-background,.text-modul~.addition section.coloring-background,.text-editor-container section.coloring-background,.textentry section… |  padding: 1em;
+.text-modul section.coloring-background p:last-of-type,.text-modul~.addition section.coloring-background p:last-of-type,.text-editor-container section.coloring… |  margin-bottom: 0;
+.text-modul section.alternative-background-color,.text-modul~.addition section.alternative-background-color,.text-editor-container section.alternative-backgrou… |  background-color: #f2f2f2;
+.text-modul section.coloring-background,.text-modul~.addition section.coloring-background,.text-editor-container section.coloring-background,.textentry section… |  background-color: #870d87; color: #fff;
+.text-modul.set-image-column-1-4 .overflow.overflow-hidden:not(.smartphone-mode-roam-around):not(.clear),.text-modul~.addition.set-image-column-1-4 .overflow.o…   @media screen and (max-width:1280px) |  overf
+.text-modul .video-block[data-aspect-ratio-tablet],.text-modul~.addition .video-block[data-aspect-ratio-tablet],.text-editor-container .video-block[data-aspect…   @media screen and (max-width:1024px) |  --x: 
+.text-modul .video-block[data-aspect-ratio-tablet] img,.text-modul~.addition .video-block[data-aspect-ratio-tablet] img,.text-editor-container .video-block[dat…   @media screen and (max-width:1024px) |  aspec
+.text-modul.set-image-column-1-4 .overflow.overflow-hidden:not(.smartphone-mode-roam-around):not(.clear),.text-modul~.addition.set-image-column-1-4 .overflow.o…   @media screen and (max-width:768px) |  clear:
+.text-modul.set-image-column-1-4 figure,.text-modul~.addition.set-image-column-1-4 figure,.text-editor-container.set-image-column-1-4 figure,.textentry.set-ima…   @media screen and (max-width:540px) |  width:
+.text-modul figure:not(.modul-image),.text-modul~.addition figure:not(.modul-image),.text-editor-container figure:not(.modul-image),.textentry figure:not(.modu…   @media screen and (max-width:540px) |  margin
+.text-modul section.has-overflow-content figure:not(.modul-image),.text-modul~.addition section.has-overflow-content figure:not(.modul-image),.text-editor-cont…   @media screen and (max-width:540px) |  margin
+.text-modul section.has-overflow-content figure:not(.modul-image) img,.text-modul~.addition section.has-overflow-content figure:not(.modul-image) img,.text-edi…   @media screen and (max-width:540px) |  margin
+.text-modul .video-block[data-aspect-ratio-smartphone],.text-modul~.addition .video-block[data-aspect-ratio-smartphone],.text-editor-container .video-block[dat…   @media screen and (max-width:430px) |  --x: a
+.text-modul .video-block[data-aspect-ratio-smartphone] img,.text-modul~.addition .video-block[data-aspect-ratio-smartphone] img,.text-editor-container .video-b…   @media screen and (max-width:430px) |  aspect
+table.checkbox-list label |  display: inline-block; margin-bottom: 0;
+table tr td.contentTableTBody |  margin-bottom: 20px; border-bottom: 1px solid #000;
+table tr td.contentTableTBodyPaddingTop |  margin-bottom: 20px; border-bottom: 1px solid #000;
+table tr td.contentTableTBodyPaddingTopPaddingLeft |  margin-bottom: 20px; border-bottom: 1px solid #000; padding-bottom: 20px;
+table tr td.contentTableTBodyPaddingTopAlignRight |  margin-bottom: 20px; border-bottom: 1px solid #000; text-align: right;
+table tr td.contentTableTBodyPaddingTopAlignRightPaddingRight |  margin-bottom: 20px; border-bottom: 1px solid #000; text-align: right;
+table tr td.contentTableTBodyAlignRight |  margin-bottom: 20px; border-bottom: 1px solid #000; text-align: right;
+table tr td.contentTableTBodyPaddingLeft |  border-bottom: 1px solid #000;
+table tr td.contentTableTBodyPaddingRight |  border-bottom: 1px solid #000; text-align: right;
+table tr td.contentTablePaddingRightAlignRight |  text-align: right;
+table tr td.contentTableAlignRight |  text-align: right;
+table tr td.contentTableTHead |  background: #870d87; height: 50px; font-size: 20px; color: #fff; font-weight: 500; min-height: 50px; line-height: 1.4;
+table tr td.contentTableTHead>p |  margin-bottom: 0; … 41 more — narrow the selector regex, add --media/--decl, or raise --max ######## ^\.eye-catcher|^\.energieBanking|^\.with-eye-catcher ######## ^\.wide-
+.columns-2.boxes-1.contact-list-modus-2>li.box.contact.columns-2-3 .service-container figure figcaption .picture-credits.oversized,.columns-3.boxes-1.contact-l…   @media screen and (max-width:499px) |  margin
+.page-content-section figure.modul-image .picture-credits.oversized   @media screen and (max-width:414px) |  white-space: normal; bottom: calc(-1em - 7px); text-align: right;
+section .center figure figcaption .picture-credits.oversized span |  white-space: normal; word-wrap: anywhere;
+.product-teaser .description p:last-child |  margin-bottom: 0;
+.product-teaser figure figcaption .container h2,.product-teaser figure figcaption .container h3 |  margin-bottom: 5px;
+.product-teaser figure figcaption .container span.divider |  display: inline-block; height: 1px; width: 25%; background-color: #870d87; margin-bottom: 7px; transition: width .3s cubic-bezier(.65,.05,.36,1);
+.product-teaser figure figcaption .container .link .link-button |  margin-top: .5em; font-size: 1.15em;
+.product-teaser figure figcaption .container .link.additional |  padding-top: 1em;
+.product-teaser figure figcaption .container .link.additional a:not(.link-button) |  font-weight: normal; text-decoration: underline; color: #870d87; transition: all .25s ease;
+.product-teaser figure figcaption .container .link.additional a.cta-link |  color: #0ba2e3;
+.product-teaser.energieBanking-modul figure figcaption .container .description ul.icon-list |  margin-bottom: 3em;
+.product-teaser.energieBanking-modul figure figcaption .container .description ul.icon-list+p |  margin-bottom: 0;
+.product-teaser.energieBanking-modul figure picture,.product-teaser.energieBanking-modul figure figcaption .picture-credits   @media screen and (min-width:1121px) |  right: 10%!important; ######## ^\.teaser-mod
+.coloring-background |  background-color: #870d87;
+.coloring-background .module-faq ul.list>li.entry div.container .voting a.button-vote |  color: #f2f2f2;
+.teaser-modul.dock-to-previous-section |  margin-top: -8.5em; padding-top: 6.5em;
+.teaser-modul.dock-to-previous-section.page-content-section |  margin-top: -8.5em;
+.teaser-modul.dock-to-previous-section.previous-section-has-pager |  margin-top: -12em;
+.teaser-modul.dock-to-previous-section.take-active-slide-button-in-smartphone-view>.center>.container .commands |  display: none;
+.teaser-modul.with-eye-catcher-container>.center |  margin: calc(20px + 3em) auto;
+.teaser-modul.with-eye-catcher-container>.center>section |  width: calc(100% - 2*300px); margin: 0 auto;
+.teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container |  width: 300px; position: absolute; right: 0; bottom: calc(-20px - 8em);
+.teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container img |  max-width: 100%; float: none; margin: 0;
+.teaser-modul.with-eye-catcher-container+.page-content-section |  padding-top: calc(20px + 1em);
+.teaser-modul.with-background-grafik>.center>figure .container |  z-index: 2;
+.teaser-modul.slider-section>.center>figure .container.eye-catcher-included .spacer |  display: block; flex-grow: 1;
+.teaser-modul.slider-section>.center>section .container.eye-catcher-included .spacer |  display: block; flex-grow: 1;
+.teaser-modul>.center>figure |  position: relative;
+.teaser-modul>.center>figure .container |  color: #fff; text-align: center; position: absolute; margin: auto; width: 50%; left: 0; right: 0; top: 0; bottom: 0; height: auto; display: flex; flex-direction: colum
+.teaser-modul>.center>figure .container .image-content |  display: flex; justify-content: center;
+.teaser-modul>.center>figure .container:not(.eye-catcher-included) .spacer |  display: none;
+.teaser-modul>.center>figure .container .title |  font-weight: bold; font-size: 3.7em; position: relative;
+.teaser-modul>.center>figure .container .title .eye-catcher |  position: absolute; display: inline-table; bottom: 0; margin: 0;
+.teaser-modul>.center>figure .container .divider |  width: 50%; height: 1px; background-color: #fff; margin: 1em auto;
+.teaser-modul>.center>figure .container .description |  font-size: 2.8em; margin-bottom: .5em;
+.teaser-modul>.center>section |  position: relative;
+.teaser-modul>.center>section>header |  color: #fff; text-align: center;
+.teaser-modul>.center>section>header h3 |  margin-bottom: .5em;
+.teaser-modul>.center>section .container |  color: #fff; text-align: center; position: absolute; margin: auto; width: 50%; left: 0; right: 0; top: 0; bottom: 0; height: auto; display: flex; flex-direction: colu
+.teaser-modul>.center>section .container:not(.eye-catcher-included) .spacer |  display: none;
+.teaser-modul>.center>section .container .description |  margin-bottom: 1.5em;
+.teaser-modul>.center>figure.coloring-image |  background-color: #870d87;
+.teaser-modul>.center>figure.coloring-image picture img |  opacity: .6;
+.teaser-modul>.center>figure.fading-image>picture img |  -webkit-mask-image: -webkit-gradient(linear,left 50%,left bottom,from(#fff),to(…; mask-image: linear-gradient(to bottom,#fff 50%,#fff);
+.teaser-modul video |  position: absolute; left: 0; top: 0; width: 100%; opacity: .8;
+.teaser-modul .background |  background-image: url("../Images/Site/Svg/background-filler.svg"); background-repeat: no-repeat; background-size: contain; background-position: left bottom; position: absolute; widt
+.teaser-modul .background   @media screen and (max-width:1420px) |  width: calc(424/1420*100vw); height: calc(686/1420*100vw);
+.teaser-modul.with-eye-catcher-container>.center>section   @media screen and (max-width:1420px) |  width: calc(100% - 2*20vw);
+.teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container   @media screen and (max-width:1420px) |  width: 20vw;
+.teaser-modul>.center>figure .container   @media screen and (max-width:1420px) |  width: 70%;
+.teaser-modul.slider-section>.center>figure .container.eye-catcher-included .title   @media screen and (max-width:1420px) |  font-size: 3em;
+.teaser-modul.slider-section>.center>figure .container.eye-catcher-included .description   @media screen and (max-width:1420px) |  font-size: 2em;
+.teaser-modul.dock-to-previous-section.previous-section-has-pager   @media screen and (max-width:1024px) |  padding-top: 10em;
+.teaser-modul.with-eye-catcher-container>.center   @media screen and (max-width:1024px) |  margin: calc(20px + 2.5em) auto;
+.teaser-modul.with-eye-catcher-container>.center>section   @media screen and (max-width:1024px) |  width: auto;
+.teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container   @media screen and (max-width:1024px) |  width: 20vw; bottom: calc(-20px - 7em);
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-right   @media screen and (max-width:1024px) |  transform: scale(.7) rotate(10deg);
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-left   @media screen and (max-width:1024px) |  transform: scale(.7) rotate(-10deg);
+.teaser-modul.slider-section>.center>figure .container.eye-catcher-included .title   @media screen and (max-width:1024px) |  font-size: 2.5em;
+.teaser-modul.slider-section>.center>figure .container.eye-catcher-included .description   @media screen and (max-width:1024px) |  font-size: 1.5em;
+.teaser-modul>.center>figure .container   @media screen and (max-width:1024px) |  width: 90%;
+.teaser-modul>.center>figure .container .title   @media screen and (max-width:1024px) |  font-size: 3em;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-125   @media screen and (max-width:1024px) |  max-height: 125px;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-150   @media screen and (max-width:1024px) |  max-height: 150px;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-175   @media screen and (max-width:1024px) |  max-height: 175px;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-200   @media screen and (max-width:1024px) |  max-height: 200px;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-225   @media screen and (max-width:1024px) |  max-height: 225px;
+.teaser-modul>.center>figure .container .description   @media screen and (max-width:1024px) |  font-size: 2em;
+.teaser-modul.with-eye-catcher-container>.center   @media screen and (max-width:768px) |  margin: calc(20px + 1.5em) auto;
+.teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container   @media screen and (max-width:768px) |  width: 150px; bottom: calc(-20px - 5.5em);
+.teaser-modul.with-eye-catcher-container+.page-content-section   @media screen and (max-width:768px) |  padding-top: calc(20px + 1.5em);
+.teaser-modul .background   @media screen and (max-width:768px) |  display: none;
+.teaser-modul:not(.slider-section)>.center>figure .container .title .eye-catcher   @media screen and (max-width:768px) |  right: 0;
+.teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-included .spacer   @media screen and (max-width:768px) |  display: block;
+.teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-125 .spacer   @media screen and (max-width:768px) |  height: 125px;
+.teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-150 .spacer   @media screen and (max-width:768px) |  height: 150px;
+.teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-175 .spacer   @media screen and (max-width:768px) |  height: 175px;
+.teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-200 .spacer   @media screen and (max-width:768px) |  height: 200px;
+.teaser-modul:not(.slider-section)>.center>figure .container.eye-catcher-size-225 .spacer   @media screen and (max-width:768px) |  height: 225px;
+.teaser-modul>.center>figure .container .title   @media screen and (max-width:768px) |  font-size: 2.5em;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-125   @media screen and (max-width:768px) |  top: -125px;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-150   @media screen and (max-width:768px) |  top: -150px;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-175   @media screen and (max-width:768px) |  top: -175px;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-200   @media screen and (max-width:768px) |  top: -200px;
+.teaser-modul>.center>figure .container .title .eye-catcher.size-225   @media screen and (max-width:768px) |  top: -225px;
+.teaser-modul>.center>figure .container .description   @media screen and (max-width:768px) |  font-size: 1.5em;
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-right   @media screen and (max-width:768px) |  transform: scale(.8) rotate(10deg);
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-left   @media screen and (max-width:768px) |  transform: scale(.8) rotate(-10deg);
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-125   @media screen and (max-width:768px) |  top: calc(.8*-125px);
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-150   @media screen and (max-width:768px) |  top: calc(.8*-150px);
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-175   @media screen and (max-width:768px) |  top: calc(.8*-175px);
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-200   @media screen and (max-width:768px) |  top: calc(.8*-200px);
+.teaser-modul.slider-section>.center>figure .container .title .eye-catcher.size-225   @media screen and (max-width:768px) |  top: calc(.8*-225px); … 84 more — narrow the selector regex, add --media/--decl, 

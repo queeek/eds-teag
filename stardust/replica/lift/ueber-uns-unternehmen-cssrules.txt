@@ -1,0 +1,438 @@
+--- list-style-3 [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 124 of 7143 rules match /list-style-3/i, showing 40
+@274364 .product-teasers-modul .products.list-style-2,.product-teasers-modul .products.list-style-3
+      position: relative; padding-top: 20px;
+@274869 .list-style-2 .product-teaser,.list-style-3 .product-teaser
+      width: calc(100% - 40px); position: relative; max-width: calc(1420px + 100px - 40px); padding: 0 20px;
+@275024 .list-style-2 .product-teaser:not(:last-child),.list-style-3 .product-teaser:not(:last-child)
+      margin-bottom: 50px;
+@275137 .content-wide .list-style-3 .product-teaser,.content-wide .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+1),.content-wide .list-style…
+      width: 100%; max-width: 1420px; right: auto; padding: 0;
+@275404 .content-wide .list-style-3 .product-teaser>div,.content-wide .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+1)>div,.content-wide .li…
+      margin-left: -20px;
+@275752 .alternative-background-color .list-style-2 .product-teaser,.alternative-background-color .list-style-3 .product-teaser
+      width: 100%; max-width: 1420px; padding: 0;
+@276520 .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+1),.list-style-3.starts-with-image-right .product-teaser:nth-child(2n+2)
+      float: right; right: calc(1920px/2 - 1420px/2 - 100px);
+@276903 .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+2),.list-style-3.starts-with-image-right .product-teaser:nth-child(2n+1)
+      left: calc(1920px/2 - 1420px/2 - 100px);
+@277392 .list-style-3 .product-teaser figure picture
+      max-width: 1220px; top: -20px; margin-top: 20px;
+@278503 .list-style-2 .product-teaser figure figcaption .container,.list-style-3 .product-teaser figure figcaption .container
+      text-align: left;
+@279284 .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+2) figure figcaption .container,.list-style-3.starts-with-image-right .product-teaser:…
+      left: 0; padding: 20px 20px 20px 0; width: calc(100%/3 - 20px);
+@279546 .list-style-3 .product-teaser:nth-child(2n+2) figure figcaption .container,.list-style-3 .product-teaser:nth-child(2n+1) figure figcaption .container
+      width: calc(100%/3 - 2*20px/2 - 40px);
+@279733 .list-style-0:not(.starts-with-image-right) .product-teaser:nth-child(2n+1) figure figcaption .container>*,.list-style-1:not(.starts-with-image-right) .product…
+      padding-left: 20px;
+@280729 .list-style-0:not(.starts-with-image-right) .product-teaser:nth-child(2n+1) figure figcaption .container>.divider,.list-style-1:not(.starts-with-image-right) .…
+      margin-left: 20px;
+@281786 .list-style-0:not(.starts-with-image-right) .product-teaser:nth-child(2n+2) figure figcaption .container,.list-style-1:not(.starts-with-image-right) .product-t…
+      right: 0; padding: 20px 0 20px 20px;
+@282635 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+2) figure figcaption .container,.list-style-2.starts-with-image-right .product-teaser:…
+      padding-right: 40px;
+@283062 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+1) figure figcaption .container,.list-style-2.starts-with-image-right .product-teaser:…
+      padding-left: 40px;
+@283488 .list-style-0:not(.starts-with-image-right) .product-teaser:nth-child(2n+2) figure figcaption .container>*,.list-style-1:not(.starts-with-image-right) .product…
+      padding-right: 20px;
+@284339 .list-style-0:not(.starts-with-image-right) .product-teaser:nth-child(2n+2) figure figcaption .container>.divider,.list-style-1:not(.starts-with-image-right) .…
+      margin-right: 20px;
+@287341 .list-style-3:not(.starts-with-image-right) .product-teaser:not(.animated):nth-child(2n+1) figure figcaption .container,.list-style-3:not(.starts-with-image-ri…
+      margin-right: 320px;
+@290140 .list-style-3:not(.starts-with-image-right) .product-teaser:not(.animated):nth-child(2n+2) figure figcaption .container,.list-style-3:not(.starts-with-image-ri…
+      margin-left: 320px;
+@294592 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+1) figure figcaption .picture-credits,.list-style-2:not(.starts-with-image-right) .pro…
+      bottom: 21px;
+@296426 .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+1),.list-style-3.starts-with-image-right .product-teaser:nth-child(2n+2)   @media screen and (max-width:1919px)
+      float: right; right: calc(50% - 1420px/2 - 100px);
+@296911 .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+2),.list-style-3.starts-with-image-right .product-teaser:nth-child(2n+1)   @media screen and (max-width:1919px)
+      left: calc(50% - 1420px/2 - 100px);
+@297091 .list-style-2.starts-with-image-right .product-teaser.content-sized:nth-child(2n+1),.list-style-3.starts-with-image-right .product-teaser.content-sized:nth-chi…   @media screen and (max-width:1919px)
+      left: calc(50% - 1420px/2);
+@297323 .product-teasers-modul .products.list-style-2,.product-teasers-modul .products.list-style-3   @media screen and (max-width:1660px)
+      padding: 20px 15px 0;
+@297435 .list-style-2 .product-teaser,.list-style-3 .product-teaser   @media screen and (max-width:1660px)
+      width: calc(100% - 40px); max-width: calc(1420px - 40px);
+@297549 .alternative-background-color .list-style-2 .product-teaser,.alternative-background-color .list-style-3 .product-teaser   @media screen and (max-width:1660px)
+      width: 92%; max-width: 1420px;
+@297696 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+1),.list-style-2.starts-with-image-right .product-teaser:nth-child(2n+2),.list-style-3…   @media screen and (max-width:1660px)
+      float: right; right: 0;
+@298008 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+2),.list-style-2.starts-with-image-right .product-teaser:nth-child(2n+1),.list-style-3…   @media screen and (max-width:1660px)
+      left: 0;
+@298307 .alternative-background-color .list-style-2.starts-with-image-right .product-teaser:nth-child(2n+1),.alternative-background-color .list-style-3.starts-with-ima…   @media screen and (max-width:1660px)
+      right: 4%;
+@298516 .alternative-background-color .list-style-2.starts-with-image-right .product-teaser:nth-child(2n+2),.alternative-background-color .list-style-3.starts-with-ima…   @media screen and (max-width:1660px)
+      left: 4%;
+@298762 .product-teasers-modul .products.list-style-2,.product-teasers-modul .products.list-style-3   @media screen and (max-width:1520px)
+      padding: 20px 4% 0; margin: 0 15px;
+@298886 .list-style-2 .product-teaser,.list-style-3 .product-teaser   @media screen and (max-width:1520px)
+      max-width: calc(100% - 40px);
+@298974 .alternative-background-color .list-style-2 .product-teaser,.alternative-background-color .list-style-3 .product-teaser   @media screen and (max-width:1520px)
+      max-width: 100%; width: 100%;
+@299120 .alternative-background-color .list-style-2.starts-with-image-right .product-teaser:nth-child(2n+2),.alternative-background-color .list-style-2.starts-with-ima…   @media screen and (max-width:1520px)
+      left: 0; right: 0;
+@299535 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+1),.list-style-2.starts-with-image-right .product-teaser:nth-child(2n+2),.list-style-3…   @media screen and (max-width:1520px)
+      right: unset;
+@299839 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+2),.list-style-2.starts-with-image-right .product-teaser:nth-child(2n+1),.list-style-3…   @media screen and (max-width:1520px)
+      left: unset;
+@300142 .list-style-2 .product-teaser figure,.list-style-3 .product-teaser figure   @media screen and (max-width:1520px)
+      position: static; position: unset;
+@300247 .list-style-2:not(.starts-with-image-right) .product-teaser:not(.content-sized):nth-child(2n+1) figure picture,.list-style-2:not(.starts-with-image-right) .pro…   @media screen and (max-width:1520px)
+      left: -40px;
+… 84 more — narrow the selector regex, add --media/--decl, or raise --max
+--- list-style-3 [Bundle]
+--- cover-whole-modul [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 3 of 7143 rules match /cover-whole-modul/i
+@804589 .zukunftsmacher .page-image-section.teaser-modul.with-background-grafik.cover-whole-modul.background-image .background   @media screen and (max-width:768px)
+      display: block; width: calc(41.40625vw); height: calc(66.9921875vw);
+@804808 .zukunftsmacher .page-image-section.teaser-modul.with-background-grafik.cover-whole-modul.background-image .background   @media screen and (max-width:430px)
+      width: calc(55.208333333vw); height: calc(89.322916667vw); left: -25%; top: 12.5%;
+@832829 .karriere .page-content-section.cover-whole-modul.background-image
+      background-image: url(/Content/Images/Site/Svg/Karriere/Background-Header.svg);
+--- cover-whole-modul [Bundle]
+--- alternative-page-header [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 16 of 7143 rules match /alternative-page-header/i
+@618348 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser
+      padding-bottom: 0;
+@618442 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure picture
+      box-shadow: 0 20px 92px -45px rgba(0,0,0,.65),0 0 10px 0 rgba(0,0,0,.1);
+@618605 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption .container>img
+      margin-bottom: .75em;
+@618735 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption .container>img+p
+      margin-bottom: 0;
+@618863 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption .container>img+p+h2,.alternative-page-header.product-teasers-mod…
+      margin-top: 0;
+@619106 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption .container>h2,.alternative-page-header.product-teasers-modul .li…
+      font-size: 3em;
+@619338 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption .container .divider
+      background-color: transparent;
+@619482 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption .link a.link-button
+      font-weight: 700;
+@619650 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser:not(.content-sized):nth-child(2n+1) figure figcaption .picture-credits   @media screen and (max-width:1520px)
+      right: 0;
+@619844 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption .container>h2,.alternative-page-header.product-teasers-modul .li…   @media screen and (max-width:1024px)
+      font-size: calc(2.1em + .9vw);
+@620091 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser   @media screen and (max-width:1024px)
+      margin-bottom: 50px;
+@620224 .alternative-page-header.product-teasers-modul .list-style-3   @media screen and (max-width:768px)
+      padding: 20px 0 0; margin: 0;
+@620311 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser   @media screen and (max-width:768px)
+      padding: 0 4%; max-width: 92%; width: 92%;
+@620425 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure picture,.alternative-page-header.product-teasers-modul .list-style-3 .produ…   @media screen and (max-width:768px)
+      left: 0!important;
+@620635 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption>.container   @media screen and (max-width:768px)
+      padding-left: 0; padding-right: 0;
+@620809 .alternative-page-header.product-teasers-modul .list-style-3 .product-teaser figure figcaption .container>h2,.alternative-page-header.product-teasers-modul .li…   @media screen and (max-width:414px)
+      font-size: 2em;
+--- alternative-page-header [Bundle]
+--- \.channel-modul [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 106 of 7143 rules match /\.channel-modul/i, showing 40
+@71233 .page-content-section.channel-modul.mobile-slider>.center .modul-content
+      display: flex; flex-direction: column;
+@71341 .page-content-section.channel-modul>.center>section>header p
+      margin-bottom: 0; font-size: 1.5em; line-height: 1.4;
+@71450 .page-content-section.channel-modul>.center>section>header h2
+      margin-bottom: 30px;
+@71531 .page-content-section.channel-modul>.center>section>header h2:not(.discolor)
+      color: #000;
+@71619 .page-content-section.channel-modul>.center .list-container
+      display: contents;
+@71696 .page-content-section.channel-modul>.center .list-container.connect-boxes
+      display: flex; justify-content: center;
+@71806 .page-content-section.channel-modul>.center .list-container.connect-boxes .list.center-boxes.boxes-2
+      display: inline-flex; padding: 3em; width: calc(100%*2/3);
+@71960 .page-content-section.channel-modul>.center .list-container.connect-boxes .list.center-boxes.boxes-2 li
+      width: 50%; margin-right: 0; display: flex; flex-grow: 1; flex-direction: column;
+@72136 .page-content-section.channel-modul>.center .list-container.connect-boxes .list.center-boxes.boxes-2 li>section
+      padding: 0 var(--box-padding); display: flex; flex-direction: column; flex-grow: 1;
+@72324 .page-content-section.channel-modul>.center .list-container.connect-boxes .list.center-boxes.boxes-2 li>section figure
+      padding-bottom: var(--box-padding); min-height: 10px;
+@72493 .page-content-section.channel-modul>.center .list-container.connect-boxes .list.center-boxes.boxes-2 li>section .description
+      margin-bottom: 2em;
+@72636 .page-content-section.channel-modul>.center .list-container.connect-boxes .list.center-boxes.boxes-2 li:nth-child(2n+1)>section
+      border-right: 1px solid #8e8e8e; padding-right: 5em; width: calc(100% - 7em);
+@72836 .page-content-section.channel-modul>.center .list-container.connect-boxes .list.center-boxes.boxes-2 li:nth-child(2n+2)
+      margin-right: 0;
+@72971 .page-content-section.channel-modul>.center .list-container.connect-boxes .list.center-boxes.boxes-2 li:nth-child(2n+2)>section
+      padding-left: 5em; width: calc(100% - 7em);
+@73139 .page-content-section.channel-modul>.center .list-container.style-links-as-button .link-text
+      display: none;
+@73245 .page-content-section.channel-modul>.center .list-container.style-links-as-text .list.boxes .link-button
+      display: none;
+@73363 .page-content-section.channel-modul>.center .list-container.style-links-as-text .list.boxes.links-always-at-the-bottom .colorize-footer>li a>.content>.footer d…
+      background-color: #f2f2f2;
+@73731 .page-content-section.channel-modul>.center .list-container.style-links-as-text .list.boxes.links-always-at-the-bottom>li a>.content>.footer,.page-content-sect…
+      padding-bottom: 1em;
+@74041 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser)
+      display: flex; flex-wrap: wrap; grid-gap: var(--flex-gap);
+@74185 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser).columns-2>li
+      width: calc(100%/2 - 1*var(--flex-gap)/2);
+@74330 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser).columns-3>li
+      width: calc(100%/3 - 2*var(--flex-gap)/3);
+@74475 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser).columns-4>li
+      width: calc(100%/4 - 3*var(--flex-gap)/4);
+@74620 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser) li
+      margin: 0!important;
+@74733 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser) li.box
+      box-shadow: unset;
+@74848 .page-content-section.channel-modul>.center .list-container .list.boxes.links-always-at-the-bottom>li
+      display: flex;
+@74963 .page-content-section.channel-modul>.center .list-container .list.boxes.links-always-at-the-bottom>li>section
+      display: flex;
+@75086 .page-content-section.channel-modul>.center .list-container .list.boxes.links-always-at-the-bottom>li a
+      display: flex; flex-direction: column;
+@75225 .page-content-section.channel-modul>.center .list-container .list.boxes.links-always-at-the-bottom>li a>figure
+      display: flex; flex-direction: column; flex-grow: 1;
+@75383 .page-content-section.channel-modul>.center .list-container .list.boxes.links-always-at-the-bottom>li a>.content,.page-content-section.channel-modul>.center .l…
+      flex-grow: 1; display: flex; flex-direction: column;
+@75665 .page-content-section.channel-modul>.center .list-container .list.boxes.links-always-at-the-bottom>li a>.content>.footer,.page-content-section.channel-modul>.c…
+      flex-grow: 1; display: flex; align-items: flex-end; position: relative; padding-bottom: 3em;
+@75999 .page-content-section.channel-modul>.center .list-container .list.boxes.links-always-at-the-bottom>li a>.content>.footer div.link,.page-content-section.channel…
+      width: 100%; position: absolute; bottom: -20px; left: -20px; padding: 20px;
+@76334 .page-content-section.channel-modul>.center .list-container .list.boxes.contains-unscaled-images>li.with-unscaled-image
+      display: flex;
+@76467 .page-content-section.channel-modul>.center .list-container .list.boxes.contains-unscaled-images>li.with-unscaled-image a
+      display: flex; flex-direction: column;
+@76624 .page-content-section.channel-modul>.center .list-container .list.boxes.contains-unscaled-images>li.with-unscaled-image a figure
+      display: flex; flex-direction: column; flex-grow: 1;
+@76800 .page-content-section.channel-modul>.center .list-container .list.boxes.contains-unscaled-images>li.with-unscaled-image a figure picture
+      padding: 20px; display: flex; flex-direction: column; justify-content: center;
+@77008 .page-content-section.channel-modul>.center .list-container .list.boxes.contains-unscaled-images>li.with-unscaled-image a figure picture img
+      object-fit: scale-down; width: auto; display: inline-block; max-height: 100%;
+@77219 .page-content-section.channel-modul>.center .list-container .list.boxes.colorize-teasers-back-color li
+      background-color: #870d87;
+@77347 .page-content-section.channel-modul>.center .list-container .list.boxes.invert-teasers-text-color li
+      color: #fff;
+@77459 .page-content-section.channel-modul>.center .list-container .list.boxes.invert-teasers-text-color li section a header h3,.page-content-section.channel-modul>.c…
+      color: #fff;
+@77712 .page-content-section.channel-modul>.center .list-container .list.boxes.invert-teasers-text-color li section a .footer .link span,.page-content-section.channel…
+      color: #fff;
+… 66 more — narrow the selector regex, add --media/--decl, or raise --max
+--- \.channel-modul [Bundle]
+--- boxes\.columns-3|columns-3 [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 382 of 7143 rules match /boxes\.columns-3|columns-3/i, showing 40
+@25530 .aktuelles .columns-3>li   @media screen and (max-width:1240px)
+      width: calc(50% - 20px/2)!important; margin-right: 20px;
+@25608 .aktuelles .columns-3.posts>li:nth-child(3n+3)   @media screen and (max-width:1240px)
+      width: calc(50% - 20px/2)!important; margin-right: 20px;
+@25708 .aktuelles .columns-3.posts>li:nth-child(2n+2)   @media screen and (max-width:1240px)
+      margin-right: 0;
+@26204 .aktuelles .columns-3.posts>li   @media screen and (max-width:800px)
+      width: 100%!important; margin-right: 0;
+@26271 .aktuelles .columns-3.posts>li:nth-child(3n+3)   @media screen and (max-width:800px)
+      width: 100%!important; margin-right: 0;
+@26391 .aktuelles .columns-3.posts>li   @media screen and (max-width:768px)
+      width: calc(50% - 20px/2)!important; margin-right: 20px;
+@26475 .aktuelles .columns-3.posts>li:nth-child(3n+3)   @media screen and (max-width:768px)
+      width: calc(50% - 20px/2)!important; margin-right: 20px;
+@26575 .aktuelles .columns-3.posts>li:nth-child(6n+6)   @media screen and (max-width:768px)
+      margin-right: 0;
+@26889 .aktuelles .columns-3.posts>li   @media screen and (max-width:600px)
+      width: 100%!important; margin-right: 0;
+@26956 .aktuelles .columns-3.posts>li:nth-child(3n+3)   @media screen and (max-width:600px)
+      width: 100%!important; margin-right: 0;
+@36246 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-4
+      width: calc(4*32% + 3*2% - 10px);
+@36393 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-4>li
+      width: calc(100%/4 - 3*20px/4);
+@36541 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-5
+      width: calc(5*32% + 4*2% - 10px);
+@36688 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-5>li
+      width: calc(100%/5 - 4*20px/5);
+@36836 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-6
+      width: calc(6*32% + 5*2% - 10px);
+@36983 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-6>li
+      width: calc(100%/6 - 5*20px/6);
+@37131 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-7
+      width: calc(7*32% + 6*2% - 10px);
+@37278 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-7>li
+      width: calc(100%/7 - 6*20px/7);
+@37426 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-8
+      width: calc(8*32% + 7*2% - 10px);
+@37573 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-8>li
+      width: calc(100%/8 - 7*20px/8);
+@37721 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-9
+      width: calc(9*32% + 8*2% - 10px);
+@37868 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-9>li
+      width: calc(100%/9 - 8*20px/9);
+@41753 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3 li.box:nth-child(2n+2),.benefits-list.modul-content.it…   @media screen and (max-width:1024px)
+      margin-right: 2%;
+@42179 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-3,.benefits-list.modul-content.items-1>.list-c…   @media screen and (max-width:1024px)
+      width: calc(3*49% + 2*2% - 10px);
+@42569 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-4,.benefits-list.modul-content.items-1>.list-c…   @media screen and (max-width:1024px)
+      width: calc(4*49% + 3*2% - 10px);
+@42959 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-5,.benefits-list.modul-content.items-1>.list-c…   @media screen and (max-width:1024px)
+      width: calc(5*49% + 4*2% - 10px);
+@43349 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-6,.benefits-list.modul-content.items-1>.list-c…   @media screen and (max-width:1024px)
+      width: calc(6*49% + 5*2% - 10px);
+@43739 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-7,.benefits-list.modul-content.items-1>.list-c…   @media screen and (max-width:1024px)
+      width: calc(7*49% + 6*2% - 10px);
+@44129 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-8,.benefits-list.modul-content.items-1>.list-c…   @media screen and (max-width:1024px)
+      width: calc(8*49% + 7*2% - 10px);
+@44519 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-9,.benefits-list.modul-content.items-1>.list-c…   @media screen and (max-width:1024px)
+      width: calc(9*49% + 8*2% - 10px);
+@44909 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3 .do-not-priorizes>li.box:nth-child(2n+2),.benefits-lis…   @media screen and (max-width:1024px)
+      margin-right: 2%;
+@45871 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3) ul.list.do-not-priorizes.columns-3>li.box,.benefits-list.modul-content.items-1 ul.list.d…   @media screen and (max-width:540px)
+      margin-right: 2%;
+@46237 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3) ul.list.do-not-priorizes.columns-3.teasers-3,.benefits-list.modul-content.items-1 ul.lis…   @media screen and (max-width:540px)
+      width: calc(3*101% + 2*2% - 10px);
+@46632 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3) ul.list.do-not-priorizes.columns-3.teasers-4,.benefits-list.modul-content.items-1 ul.lis…   @media screen and (max-width:540px)
+      width: calc(4*101% + 3*2% - 10px);
+@47027 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3) ul.list.do-not-priorizes.columns-3.teasers-5,.benefits-list.modul-content.items-1 ul.lis…   @media screen and (max-width:540px)
+      width: calc(5*101% + 4*2% - 10px);
+@47422 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3) ul.list.do-not-priorizes.columns-3.teasers-6,.benefits-list.modul-content.items-1 ul.lis…   @media screen and (max-width:540px)
+      width: calc(6*101% + 5*2% - 10px);
+@47817 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3) ul.list.do-not-priorizes.columns-3.teasers-7,.benefits-list.modul-content.items-1 ul.lis…   @media screen and (max-width:540px)
+      width: calc(7*101% + 6*2% - 10px);
+@48212 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3) ul.list.do-not-priorizes.columns-3.teasers-8,.benefits-list.modul-content.items-1 ul.lis…   @media screen and (max-width:540px)
+      width: calc(8*101% + 7*2% - 10px);
+@48607 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3) ul.list.do-not-priorizes.columns-3.teasers-9,.benefits-list.modul-content.items-1 ul.lis…   @media screen and (max-width:540px)
+      width: calc(9*101% + 8*2% - 10px);
+@52666 .bilder-modul.mobile-slider .modul-content.items-3>.list-container .overflow-container>ul.columns-3
+      width: calc(3*100%/3 + 0*30px);
+… 342 more — narrow the selector regex, add --media/--decl, or raise --max
+--- boxes\.columns-3|columns-3 [Bundle]
+--- style-links-as-text [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 3 of 7143 rules match /style-links-as-text/i
+@73245 .page-content-section.channel-modul>.center .list-container.style-links-as-text .list.boxes .link-button
+      display: none;
+@73363 .page-content-section.channel-modul>.center .list-container.style-links-as-text .list.boxes.links-always-at-the-bottom .colorize-footer>li a>.content>.footer d…
+      background-color: #f2f2f2;
+@73731 .page-content-section.channel-modul>.center .list-container.style-links-as-text .list.boxes.links-always-at-the-bottom>li a>.content>.footer,.page-content-sect…
+      padding-bottom: 1em;
+--- style-links-as-text [Bundle]
+--- items-6 [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 9 of 7143 rules match /items-6/i
+@53822 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-1
+      width: calc(6*100% + 5*30px);
+@53950 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-2
+      width: calc(6*50% + 3*30px);
+@54077 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-3
+      width: calc(6*100%/3 + 1.5*30px);
+@54209 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-4
+      width: calc(6*25% + 1*30px);
+@58755 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-3,.bilder-modul.mobile-slider .modul-content.items-6>.list-co…   @media screen and (max-width:1024px)
+      width: calc(6*50% + 3*30px);
+@62082 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-2,.bilder-modul.mobile-slider .modul-content.items-6>.list-co…   @media screen and (max-width:768px)
+      width: calc(6*100% + 5*30px);
+@363916 .step-by-step-modul.horizontal-scroll .update-panel .overflow-container.items-6
+      width: calc(6*676px + 5*20px);
+@370244 .step-by-step-modul.horizontal-scroll .update-panel .overflow-container.items-6   @media screen and (max-width:768px)
+      width: 600%!important;
+@823749 .ideen-machen-schule .step-by-step-modul.stepContainer-arrangment-inside.arrange-at-bottom.horizontal-scroll .update-panel .overflow-container.items-6
+      width: calc(6*515px + 5*20px);
+--- items-6 [Bundle]
+--- wide-image [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 9 of 7143 rules match /wide-image/i
+@589259 .box.image-teaser img.wide-image
+      display: none;
+@591221 .columns-3>li.box.image-teaser:first-child img.wide-image   @media screen and (max-width:1024px)
+      display: block;
+@592504 .columns-3>li.box.image-teaser img.wide-image   @media screen and (max-width:768px)
+      display: block;
+@593073 .columns-2>li.box.image-teaser img.wide-image   @media screen and (max-width:768px)
+      display: block;
+@593195 .columns-6>li.box.image-teaser img.wide-image   @media screen and (max-width:768px)
+      display: block;
+@593391 .columns-2>li.box.image-teaser img.wide-image   @media screen and (max-width:540px)
+      display: none;
+@593513 .columns-3>li.box.image-teaser img.wide-image   @media screen and (max-width:540px)
+      display: none;
+@593572 .columns-3>li.box.image-teaser:first-child img.wide-image   @media screen and (max-width:540px)
+      display: none;
+@593781 .columns-6>li.box.image-teaser img.wide-image   @media screen and (max-width:540px)
+      display: none;
+--- wide-image [Bundle]
+--- full-content [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 2 of 7143 rules match /full-content/i
+@612556 .page-content-section:not(.full-content):not(.extra-wide)   @media screen and (max-width:1919px)
+      padding-left: 4%; padding-right: 4%;
+@804050 .zukunftsmacher .page-content-section.slider.full-content .slides-selection a.inactive
+      opacity: 0;
+--- full-content [Bundle]
+--- image-teaser [ScreenLess]
+stardust/current/assets/css/ScreenLess.css: 297 of 7143 rules match /image-teaser/i, showing 40
+@50458 .bilder-modul .box.image-teaser figcaption
+      padding: 0;
+@56629 body.dark-mode .bilder-modul .box.image-teaser figcaption
+      color: #fff; background-color: rgba(216,216,216,.15);
+@57796 .bilder-modul .box.image-teaser   @media screen and (max-width:1024px)
+      margin-bottom: 20px;
+@74041 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser)
+      display: flex; flex-wrap: wrap; grid-gap: var(--flex-gap);
+@74185 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser).columns-2>li
+      width: calc(100%/2 - 1*var(--flex-gap)/2);
+@74330 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser).columns-3>li
+      width: calc(100%/3 - 2*var(--flex-gap)/3);
+@74475 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser).columns-4>li
+      width: calc(100%/4 - 3*var(--flex-gap)/4);
+@74620 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser) li
+      margin: 0!important;
+@74733 .page-content-section.channel-modul>.center .list-container .list.boxes:has(.image-teaser) li.box
+      box-shadow: unset;
+@81808 .page-content-section.channel-modul>.center .list-container .boxes.columns-3>li.box.image-teaser,.page-content-section.channel-modul>.center .list-container .b…   @media screen and (max-width:1024px)
+      width: calc(100%/2 - 1*var(--flex-gap)/2);
+@82217 .page-content-section.channel-modul>.center .list-container .boxes.columns-2>li.box.image-teaser,.page-content-section.channel-modul>.center .list-container .b…   @media screen and (max-width:768px)
+      width: 100%;
+@86550 .channel-products-modul .list .box:not(.image-teaser) section
+      padding: 20px 20px 0; width: calc(100% - 40px);
+@86656 .channel-products-modul .list .box:not(.image-teaser) section>div
+      width: 100%;
+@86733 .channel-products-modul .list .box:not(.image-teaser) section>div .footer .link a
+      flex-direction: row;
+@86834 .channel-products-modul .list .box:not(.image-teaser) section a:not(.close-button)
+      flex-direction: column; color: #000; width: 100%;
+@86961 .channel-products-modul .list .box:not(.image-teaser) section .content
+      flex-grow: 1; display: flex; flex-direction: column;
+@87079 .channel-products-modul .list .box:not(.image-teaser) section .content .description
+      flex-grow: 1;
+@87175 .channel-products-modul .list .box:not(.image-teaser) section .content .footer
+      margin: 10px -20px -20px;
+@87278 .channel-products-modul .list .box:not(.image-teaser) header h3
+      font-size: 1.3em;
+@88302 .channel-products-modul .list .box.image-teaser section
+      width: 100%;
+@88369 .channel-products-modul .list .box.image-teaser section>a
+      width: 100%;
+@199545 .image-navigation-list.modul-content .list-container>ul.columns-6>li.box.image-teaser   @media screen and (max-width:1419px)
+      width: calc(92%/5); margin-right: 2%;
+@199665 .image-navigation-list.modul-content .list-container>ul.columns-6>li.box.image-teaser:nth-child(5n+5)   @media screen and (max-width:1419px)
+      margin-right: 0;
+@200124 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser   @media screen and (max-width:1023px)
+      width: calc(100%/4 - 90px/4); margin-right: 30px; margin-bottom: 20px;
+@200297 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(5n+5)   @media screen and (max-width:1023px)
+      margin-right: 30px;
+@200439 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(4n+4)   @media screen and (max-width:1023px)
+      margin-right: 0;
+@200615 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser   @media screen and (max-width:767px)
+      width: calc(100%/3 - 60px/3); margin-right: 30px;
+@200769 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(5n+5)   @media screen and (max-width:767px)
+      margin-right: 30px;
+@200911 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(4n+4)   @media screen and (max-width:767px)
+      margin-right: 30px;
+@201053 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(3n+3)   @media screen and (max-width:767px)
+      margin-right: 0;
+@201229 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser   @media screen and (max-width:479px)
+      width: calc(50% - 30px/2); margin-right: 30px;
+@201380 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(3n+3)   @media screen and (max-width:479px)
+      margin-right: 30px;
+@201522 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(2n+2)   @media screen and (max-width:479px)
+      margin-right: 0;
+@201698 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser   @media screen and (max-width:374px)
+      width: 100%; margin-right: 0;
+@201832 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(3n+3)   @media screen and (max-width:374px)
+      margin-right: 0;
+@201971 .image-navigation-list.modul-content:not(.paging-disabled) .list-container>ul.columns-6>li.box.image-teaser:nth-child(5n+5)   @media screen and (max-width:374px)
+      margin-right: 0;
+@244862 .personenkacheln.columns-3.boxes.do-not-priorizes>li.box.image-teaser   @media screen and (max-width:768px)
+      width: 49%;
+@244942 .personenkacheln.columns-3.boxes.do-not-priorizes>li.box.image-teaser:not(:nth-child(2n+2))   @media screen and (max-width:768px)
+      margin-right: 2%;
+@245050 .personenkacheln.columns-3.boxes.do-not-priorizes>li.box.image-teaser :nth-child(2n+2)   @media screen and (max-width:768px)
+      margin-right: 0%;
+@245339 .personenkacheln.columns-3.boxes.do-not-priorizes>li.box.image-teaser   @media screen and (max-width:680px)
+      width: 100%; margin-right: 0;
+… 257 more — narrow the selector regex, add --media/--decl, or raise --max
+--- image-teaser [Bundle]

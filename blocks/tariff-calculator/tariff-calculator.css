@@ -1,0 +1,437 @@
+/* tariff-calculator — values from stardust/prototypes/css/canon.css (§ verfuegbarkeitscheck) +
+   privatkunden-strom-stromtarife.css (lift § Tariff section). Source: section.modul-section
+   .dock-to-previous-section.alternative-background-color { margin-top: -179.52px; bg #f2f2f2 }
+   > .tab-control.columns-1 > .container (white, padding 20, shadow .3) + .siegel-row (70px).
+   Mobile first (<= 1024: docked by -20px, section padding-top 0, container flush). */
+
+/* the section docks under the hero bar: -20px (<= 1024), -(8.5em + 20px + 1.47em) >= 1025 */
+main .section.tariff-calculator-container {
+  margin-top: -20px;
+  padding-top: 0;
+}
+
+main .section.tariff-calculator-container > .tariff-calculator-wrapper {
+  margin-top: 0;
+}
+
+.tariff-calculator {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 70px;
+}
+
+/* .tab-control .container.shadow keeps its 20px padding at every width (the inner
+   .verfuegbarkeitscheck-modul > .container loses its own <= 1024) */
+.tariff-calculator-panel {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 30%);
+  text-align: left;
+}
+
+.tariff-calculator-label {
+  margin-bottom: 2px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tariff-calculator-label p,
+.tariff-calculator-unit p,
+.tariff-calculator-submit strong {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+/* input[type=text]: 43px, #ededed, margin-bottom 15, width calc(100% - 18px) + padding 9 */
+.tariff-calculator-field {
+  box-sizing: content-box;
+  width: calc(100% - 18px);
+  height: 43px;
+  margin-bottom: 15px;
+  padding: 0 9px;
+  line-height: 43px;
+  color: #6b6b6b;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: var(--c-grey-200);
+}
+
+.tariff-calculator-field p {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.tariff-calculator-address {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.tariff-calculator-plz {
+  width: calc(100% - 34px);
+  margin-right: 10px;
+  padding-right: 25px;
+}
+
+/* .consumption-selection: line + 5 dots, the active one a 27px purple disc */
+.tariff-calculator-select {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  height: 28px;
+  margin: 0 7.45px;
+}
+
+.tariff-calculator-line {
+  position: absolute;
+  top: 14px;
+  right: 15px;
+  left: 10px;
+  height: 1px;
+  background-color: var(--c-grey-500);
+}
+
+.tariff-calculator-step {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  cursor: default;
+  color: #fff;
+  font-family: FontAwesome, sans-serif;
+  font-size: 1.1em;
+  background-color: var(--c-primary);
+}
+
+.tariff-calculator-minus::before {
+  content: '\f068';
+}
+
+.tariff-calculator-plus {
+  margin-right: 0;
+  margin-left: -8px;
+}
+
+.tariff-calculator-plus::before {
+  content: '\f067';
+}
+
+.tariff-calculator-select ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tariff-calculator-select li {
+  position: relative;
+  width: 35px;
+  margin-right: 20px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.tariff-calculator-dot {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  font: inherit;
+  cursor: default;
+}
+
+.tariff-calculator-inactive .tariff-calculator-dot {
+  width: 13px;
+  height: 13px;
+  margin: 0.5em 0 0 0.6em;
+  color: var(--c-grey-500);
+  background-color: var(--c-grey-500);
+}
+
+.tariff-calculator-active .tariff-calculator-dot {
+  width: 26px;
+  height: 26px;
+  margin-top: 0.1em;
+  color: #fff;
+  font-weight: 700;
+  background-color: var(--c-primary);
+}
+
+.tariff-calculator-inactive .tariff-calculator-num {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  margin-top: -1.3em;
+  padding-top: 1.6em;
+  transform: translateX(-50%);
+  text-align: center;
+  color: var(--c-grey-500);
+  font-weight: 400;
+}
+
+.tariff-calculator-select li:not(:first-child, :last-child) .tariff-calculator-inactive-num,
+.tariff-calculator-select li:not(:first-child, :last-child).tariff-calculator-inactive .tariff-calculator-num {
+  visibility: hidden;
+}
+
+.tariff-calculator-input {
+  margin-top: 32px;
+}
+
+/* .unity-field .flex-box: input calc(100% - 56px) + "kWh" */
+.tariff-calculator-unity {
+  display: flex;
+  align-items: center;
+}
+
+.tariff-calculator-unity .tariff-calculator-field {
+  width: calc(100% - 56px);
+  margin: 0 5px 0 0;
+}
+
+.tariff-calculator-unit {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* .linklist a: bold, arrow-right.svg 20px at 0 50%, padding-left 25; li margin-bottom 20 */
+.tariff-calculator-filter {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.tariff-calculator-filter p {
+  display: inline-block;
+  margin: 0;
+  padding-left: 25px;
+  font-weight: 700;
+  color: #000;
+  background: url('./arrow-right.svg') no-repeat 0 50% / 20px 20px;
+}
+
+.tariff-calculator-filter button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  background: none;
+  cursor: default;
+}
+
+.tariff-calculator-submit {
+  margin: 0;
+}
+
+/* a.link-button.blue.full-size — an inert button (no backend) */
+.tariff-calculator-submit button {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0 10px;
+  border: 0 none;
+  border-radius: 0;
+  color: #fff;
+  font-family: inherit;
+  user-select: none;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  background-color: var(--c-info);
+  cursor: default;
+}
+
+.tariff-calculator-info p {
+  margin-bottom: 16px;
+}
+
+@media (width >= 1025px) {
+  /* fix wave 2: live .tab-control panel reads 323px against 294px (measure.mjs, 1440) */
+  .tariff-calculator-panel {
+    padding-bottom: 49px;
+  }
+
+  main .section.tariff-calculator-container {
+    margin-top: calc(-8.5em - 20px - 1.47em);
+    padding-top: 20px;
+  }
+
+  main .section.tariff-calculator-container > .tariff-calculator-wrapper {
+    margin-top: 20px;
+  }
+
+  /* .form-row: address 32.06% | 2em | consumption 65.34% (persons 42.5 % / input 50.35 %) */
+  .tariff-calculator-form {
+    display: grid;
+    grid-template-columns: 32.06% 27.77% 32.9%;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .tariff-calculator-address {
+    grid-column: 1;
+    grid-row: 1;
+    padding-bottom: 0;
+  }
+
+  .tariff-calculator-persons {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .tariff-calculator-input {
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 0;
+  }
+
+  .tariff-calculator-filter {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0;
+  }
+
+  .tariff-calculator-commands {
+    grid-column: 3;
+    grid-row: 2;
+    margin-top: 15px;
+  }
+
+  .tariff-calculator-select {
+    height: 31px;
+    margin: 0;
+  }
+
+  .tariff-calculator-line {
+    top: 15px;
+    right: 62px;
+    left: 64px;
+  }
+
+  .tariff-calculator-step {
+    display: flex;
+  }
+
+  .tariff-calculator-select li {
+    width: 37px;
+  }
+
+  .tariff-calculator-inactive .tariff-calculator-dot {
+    width: 14px;
+    height: 14px;
+  }
+
+  .tariff-calculator-active .tariff-calculator-dot {
+    width: 27px;
+    height: 27px;
+  }
+}
+
+/* ---------- variant previous-section-has-page-label (program sibling teag-strom-easie) ----------
+   Live measure @1440: .tab-control 349px tall vs its .container.shadow 246px — the static
+   tab-control keeps 103px under the panel before the siegel row (the archetype page has no such
+   gap). Additive: the archetype rendering is untouched. */
+@media (width >= 1025px) {
+  .tariff-calculator.previous-section-has-page-label .tariff-calculator-panel {
+    margin-bottom: 103px;
+  }
+}
+
+/* ---- variant `siegel-gap` (landing page): the live siegel section below the tariff form (the
+   three certification badges, blocks/siegel-row) opens with 60 px above its row (padding 20 +
+   center 20 + row margin-top 40) on top of the 20 px the tariff section keeps under the form;
+   authored as a bottom margin on the block, the row and its tail follow in siegel-row.css.
+   fix-wave-15 (2026-10-09): the row was empty in the capture (whitespace 130 / 120) and is
+   rendered on the live page since 13:59Z — measure.mjs 1440 / 360, live section 1047–1315 / 1150–1424. ---- */
+main .tariff-calculator.siegel-gap {
+  margin-bottom: 80px;
+}
+
+@media (width >= 1025px) {
+  /* measured 2026-10-09 14:15Z (measure.mjs 1440, live vs served): the live form keeps 55 px under
+     the tariff card before its section ends (20 on the served side), so the row sits 115 below the card */
+  main .tariff-calculator.siegel-gap {
+    margin-bottom: 115px;
+  }
+}
+
+/* ---- <= 1024: product page (easie) measured 2026-10-08 @360, live vs build (measure.mjs, fix-wave-5):
+   the live card keeps 85 px below the panel (the li's margin-bottom-for-compare-calculator-link,
+   103 px @1440 above) and the filter-less form has no gap under the PLZ field, a 15 px gap above
+   the button and 12 px more around the info line. Scoped to the page-label variant / the empty
+   filter so the stromtarife numbers stay. ---- */
+@media (width <= 1024px) {
+  .tariff-calculator.previous-section-has-page-label .tariff-calculator-panel {
+    margin-bottom: 85px;
+  }
+
+  /* fix-wave-8 (home page @360, measure.mjs live vs build): the live card sits flush under the
+     88 px tab row (605) and keeps 170 px below it (section 50 + the empty siegel section 120)
+     before the next section; the build had the -20 px dock into the tab row and a 210 px tail
+     (padding 70 + siegel-gap 120 + section 20). Landing page only (hero-slider + siegel-gap). */
+  main .section.hero-slider-container + .section.tariff-calculator-container {
+    margin-top: 0;
+  }
+
+  main .tariff-calculator.siegel-gap {
+    padding-bottom: 30px;
+    /* fix-wave-15 measure.mjs 360: served badge row 1217 vs live 1210 (+7) with the 80 → 73 */
+    margin-bottom: 73px;
+  }
+
+  .tariff-calculator:has(.tariff-calculator-filter:empty) .tariff-calculator-address {
+    padding-bottom: 0;
+  }
+
+  .tariff-calculator:has(.tariff-calculator-filter:empty) .tariff-calculator-filter {
+    margin-bottom: 15px;
+  }
+
+  .tariff-calculator:has(.tariff-calculator-filter:empty) .tariff-calculator-info {
+    padding: 8px 0 4px;
+  }
+}
+
+/* ---- variant `with-siegel` (program pages, fix-wave-15 2026-10-09): the live badge row
+   (blocks/siegel-row) sits inside the grey tariff section below the form — measure.mjs live vs
+   served: stromtarife row 988 @1440 / 1044 @360, easie (page-label variant) 1084 / 1126; the
+   served form's 70 px tail shrinks so the row (wrapper 20 below the block) lands on the live y ---- */
+main .tariff-calculator.with-siegel {
+  padding-bottom: 20px;
+}
+
+main .tariff-calculator.with-siegel.previous-section-has-page-label {
+  padding-bottom: 13px;
+}
+
+@media (width <= 1024px) {
+  main .tariff-calculator.with-siegel {
+    padding-bottom: 28px;
+  }
+
+  main .tariff-calculator.with-siegel.previous-section-has-page-label {
+    padding-bottom: 29px;
+  }
+}

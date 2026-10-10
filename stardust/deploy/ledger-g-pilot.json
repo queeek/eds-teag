@@ -1,0 +1,29 @@
+{
+  "/impressum": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:48:26.460Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privatkunden/strom/ersatzversorgung": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:51:34.165Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privatkunden/strom/stromtarife": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:52:13.922Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

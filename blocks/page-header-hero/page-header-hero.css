@@ -1,0 +1,213 @@
+/* page-header-hero — values from
+   stardust/prototypes/css/privatkunden-strom-haus-baustromanschluss.css + canon.css
+   (lift: stardust/replica/lift/privatkunden-strom-haus-baustromanschluss.md § Page header).
+   Source: section.page-header-section { padding: 0 0 54px } (0 at <= 1024), > .center
+   { margin: 0 0 20px; max-width: none }, div.bar absolute left 0 bottom -70px width 66.6667%
+   (static full width <= 1024). */
+
+/* main > .section:first-of-type / main > .section outrank a bare -container class */
+main .section.page-header-hero-container {
+  padding: 0;
+}
+
+main .section.page-header-hero-container > .page-header-hero-wrapper {
+  max-width: none;
+  margin: 0 0 20px;
+}
+
+.page-header-hero {
+  position: relative;
+  font-size: 16px;
+}
+
+.page-header-hero-figure {
+  position: relative;
+  margin: 0;
+}
+
+.page-header-hero-figure picture {
+  display: none;
+}
+
+.page-header-hero-figure picture.page-header-hero-all,
+.page-header-hero-figure picture.page-header-hero-mobile {
+  display: block;
+}
+
+.page-header-hero-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* .picture-credits: abs right 0 bottom 1px, .8em / 17px, rgba(255,255,255,.45) */
+.page-header-hero-credits {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  padding: 0 5px;
+  font-size: 0.8em;
+  line-height: 17px;
+  white-space: nowrap;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+.page-header-hero-credits p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* source: <span class="fa fa-copyright"></span> before the credits text */
+.page-header-hero-credits p::before {
+  content: '\00a9  ';
+}
+
+/* <= 1024: static full-width band, container padding calc(15px + .5vw) + left 4% */
+.page-header-hero-bar {
+  position: static;
+  width: auto;
+  background-color: var(--c-primary);
+}
+
+.page-header-hero-bar-inner {
+  padding: calc(15px + 0.5vw) calc(15px + 0.5vw) calc(15px + 0.5vw) 4%;
+}
+
+.page-header-hero-bar-inner h1 {
+  margin: 0;
+  padding-right: 30px;
+  color: #fff;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+  text-align: left;
+}
+
+@media (width >= 1025px) {
+  main .section.page-header-hero-container {
+    padding-bottom: 54px;
+  }
+
+  .page-header-hero-bar {
+    position: absolute;
+    left: 0;
+    bottom: -70px;
+    width: 66.6667%;
+  }
+
+  .page-header-hero-bar::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .page-header-hero-bar-inner {
+    float: right;
+    width: 75%;
+    padding: 30px 0;
+  }
+}
+
+/* renditions: PG_D >= 840, PG_T 376-839, PG_S <= 375 (source <picture> media queries) */
+@media (width >= 376px) {
+  .page-header-hero-figure:has(.page-header-hero-tablet) picture.page-header-hero-mobile {
+    display: none;
+  }
+
+  .page-header-hero-figure picture.page-header-hero-tablet {
+    display: block;
+  }
+}
+
+@media (width >= 840px) {
+  .page-header-hero-figure picture.page-header-hero-tablet {
+    display: none;
+  }
+
+  .page-header-hero-figure picture.page-header-hero-mobile {
+    display: none;
+  }
+
+  .page-header-hero-figure picture.page-header-hero-desktop {
+    display: block;
+  }
+}
+
+/* ---------- variant docked + subline (program template, stromtarife) ----------
+   Source: .page-header-section.with-header-subline.has-docked-section — the bar stays in flow
+   (relative, bottom: calc(8.5em + 1.4 * 1.05em) = 159.52px, width 92 %, max 1420), the purple
+   container is an inline-block (padding 30) carrying h1 + h2 subline; the next section docks
+   with margin-top -179.52px (see blocks/tariff-calculator). <= 1024: full-width band,
+   padding 30px 4vw 50px. Additive: the baustromanschluss rendering is untouched. */
+main .section.page-header-hero-container:has(.page-header-hero.docked) {
+  padding-bottom: 0;
+}
+
+main .section.page-header-hero-container:has(.page-header-hero.docked) > .page-header-hero-wrapper {
+  margin-bottom: 0;
+}
+
+.page-header-hero.docked .page-header-hero-bar-inner {
+  padding: 30px var(--gutter) 50px;
+}
+
+.page-header-hero.subline .page-header-hero-bar-inner h2 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  text-transform: none;
+}
+
+@media (width >= 1025px) {
+  .page-header-hero.docked .page-header-hero-bar {
+    position: relative;
+    bottom: calc(8.5em + 1.47em);
+    left: auto;
+    display: flex;
+    width: 92%;
+    max-width: 1420px;
+    margin: 0 auto;
+    background: none;
+  }
+
+  .page-header-hero.docked .page-header-hero-bar-inner {
+    float: none;
+    display: inline-block;
+    width: auto;
+    padding: 30px;
+    background-color: var(--c-primary);
+  }
+}
+
+/* ---------- variant with-page-label (program sibling teag-strom-easie) ----------
+   Source: p.page-label — absolute above the purple container (live measure @1440: 167x38 at
+   bar-30px: padding 10px 10px 0 + 1.1em / 1.6 line, weight 600, purple, margin-bottom 8px lets
+   it overlap the bar seamlessly); display none <= 1024 (live @360). Additive. */
+.page-header-hero.with-page-label .page-header-hero-label {
+  display: none;
+}
+
+@media (width >= 1025px) {
+  .page-header-hero.with-page-label .page-header-hero-bar-inner {
+    position: relative;
+  }
+
+  .page-header-hero.with-page-label .page-header-hero-label {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    display: block;
+    margin: 0;
+    padding: 10px 10px 0;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.6;
+    white-space: nowrap;
+    background-color: var(--c-primary);
+  }
+}

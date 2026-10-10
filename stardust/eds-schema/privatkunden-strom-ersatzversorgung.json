@@ -1,0 +1,818 @@
+{
+ "source": "http://localhost:8791/privatkunden-strom-ersatzversorgung-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "page-header-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "voyata/stock.adobe.com"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Ersatzversorgung Strom"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "page-meta-section",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Startseite",
+     "href": "/default"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Privatkunden",
+     "href": "/privatkunden"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Strom",
+     "href": "/privatkunden/strom"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Ersatzversorgung",
+     "href": "/privatkunden/strom/ersatzversorgung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Tarifdetails"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Allgemeines"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Die Ersatzversorgung durch den Grundversorger in Niederspannung erfolgt nach § 38 Energiewirtschaftsgesetz (EnWG), wenn der Letztverbraucher Energie aus dem Versorgungsnetz bezieht, ohne dass dieser Bezug einer Lieferung oder einem bestimmten Liefervertrag zugeordnet werden kann. Dies ist beispielsweise auch der Fall, wenn Sie Energie beziehen und der von Ihnen gewählte Lieferant nicht in der Lage ist, die Versorgung (rechtzeitig) aufzunehmen bzw. fortzuführen."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Gründe für die Belieferung in der Ersatzversorgung können beispielsweise sein:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Kündigung des Netznutzungs- bzw. Bilanzkreisvertrages des bisherigen Lieferanten durch den Netzbetreiber"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Insolvenz des bisherigen Lieferanten"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Kündigung des bisherigen Lieferanten oder des Kunden selbst und fortgesetzter Bezug von Strom, ohne dass dies auf Basis eines neuen Liefervertrages erfolgt"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Versorgungslücke zwischen zwei Lieferverhältnissen"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Preisinformation"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Die aktuell gültigen Preise für die Ersatzversorgung mit Strom können Sie hier herunterladen:"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Preisblatt Ersatzversorgung Strom für Haushaltskunden ohne Leistungsmessung (gültig ab 01.04.2024)",
+     "href": "/Content/Documents/teag_vp139_allgpreisestrom_ersatzversorgung_240101_240319.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Preisblatt Ersatzversorgung Strom für Kunden mit Leistungsmessung (gültig ab 01.04.2024)",
+     "href": "/Content/Documents/teag_vm14_ersatzvs_mit_240209_240101.pdf"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Archiv"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Preisblatt Ersatzversorgung Strom für Haushaltskunden ohne Leistungsmessung (gültig vom 01.01.2024 bis 31.03.2024)",
+     "href": "/Content/Documents/teag_vp139_allgpreisestrom_ersatzversorgung_240101_231222.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Preisblatt Ersatzversorgung Strom für Haushaltskunden ohne Leistungsmessung (gültig vom 01.03.2023 bis 31.12.2023)",
+     "href": "/Content/Documents/teag_vp139_allgpreisestrom_ersatzversorgung_230301_230223.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Preisblatt Ersatzversorgung Strom für Haushaltskunden (gültig vom 15.01.2023 bis 28.02.2023)",
+     "href": "/Content/Documents/teag_vp139_allg_preise_strom_ersatzversorgung_230115.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Preisblatt Ersatzversorgung Strom für Haushaltskunden (gültig vom 01.12.2022 bis 14.01.2023)",
+     "href": "/Content/Documents/teag_vp139_allg_preise_strom_ersatzversorgung_221201.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Preisblatt Ersatzversorgung Strom für Haushaltskunden (gültig vom 15.09.2022 bis 30.11.2022)",
+     "href": "/Content/Documents/teag_vp139_allg_preise_strom_ersatzversorgung_220915.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Preisblatt Ersatzversorgung Strom für Haushaltskunden (gültig vom 01.09.2022 bis 14.09.2022)",
+     "href": "/Content/Documents/teag_vp139_allg_preise_strom_ersatzversorgung_220901.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Preisblatt Ersatzversorgung Strom für Haushaltskunden (gültig vom 15.08.2022 bis 31.08.2022)",
+     "href": "/Content/Documents/teag_vp139_allg_preise_strom_ersatzversorgung.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Preisblatt Ersatzversorgung Strom für Kunden mit Leistungsmessung (gültig vom 01.04.2023 bis 31.12.2023)",
+     "href": "/Content/Documents/teag_vm14_ersatzvs_mit_230401_230314.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Preisblatt Grund- und Ersatzversorgung Strom (gültig bis 14.08.2022)",
+     "href": "/Content/Documents/teag_vm18c_allg_preise_strom_220801.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Verfügbarkeit"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Die Ersatzversorgung in Niederspannung durch die TEAG erfolgt nur im Grundversorgungsgebiet der TEAG Thüringer Energie."
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "Laufzeit"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Die Ersatzversorgung mit erfolgt nur bei Vorliegen der Voraussetzungen des § 38 EnWG und maximal für 3 Monaten. Nach Ablauf der 3 Monate müssen Nicht-Haushaltskunden mit einer Unterbrechung der Versorgung durch den Netzbetreiber rechnen, wenn bis dahin kein Lieferant die Versorgung auf vertraglicher Basis übernommen hat. Die Beendigung der Ersatzversorgung ist jederzeit möglich. Haushaltskunden, die aufgrund der Kündigung des Netznutzungs- bzw. Bilanzkreisvertrages des bisherigen Lieferanten durch Netzbetreiber in der Ersatzversorgung beliefert werden, können frühestens nach Ablauf von 3 Monaten seit dem Beginn der Ersatzversorgung in die Grundversorgung wechseln; der Abschluss eines Produktvertrages ist jederzeit möglich."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Jetzt passenden Tarif finden",
+     "href": "/privatkunden/strom/stromtarife"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 14,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Rechtliche Grundlagen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "TEAG"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Als Ihr Energielieferant sind uns Transparenz und offene Kommunikation sehr wichtig. Kleingedrucktes wird bei der TEAG Thüringer Energie extra großgeschrieben. Alle vertragsrelevanten Rechtsgrundlagen und weiterführenden Information finden Sie deshalb nachfolgend als Download."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Stromkennzeichnung"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Downloads"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "StromGVV und Ergänzende Bedingungen (PDF, 127 KB)",
+     "href": "/Content/Documents/teag_vp116_stromgvv_grundversorgung.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Muster-Abwendungsvereinbarung (PDF, 158 KB)",
+     "href": "/Content/Documents/teag_vp135_abwendungsvereinbarung.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Allgemeine Informationen (PDF, 1,5 MB)",
+     "href": "/Content/Documents/teag_vm106_allgem_info_produkte.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Datenschutzinformation gemäß Art. 12ff. Datenschutz-Grundverordnung (PDF, 162 KB)",
+     "href": "/Content/Documents/Nice/teag_datenschutzinformation.pdf"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "LI.icon-teag-file-pdf",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Noch Fragen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Hier finden Sie externe Inhalte von YouTube, die aufgrund Ihrer gewählten Cookie-Einstellung nicht angezeigt werden. Um externe Inhalte von YouTube zu sehen, können Sie für diese Session alle YouTube-Cookies zulassen. Nach dem Schließen des Browsers wird Ihre Cookie-Einstellung wieder auf den ursprünglichen Stand zurückgesetzt."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "YouTube-Cookies zulassen."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Indem Sie „YouTube-Cookies zulassen“ auswählen, stimmen Sie diesen (jederzeit widerruflich) zu. Dies umfasst auch Ihre Einwilligung in die Übermittlung personenbezogener Daten in Drittländer wie die USA nach Art. 49 Abs. 1 lit. a) DSGVO."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Die betreffenden Drittländer weisen im Zweifel nicht das Datenschutzniveau auf, das Sie unter der DSGVO genießen. Das kann Nachteile wie eine erschwerte Durchsetzung von Betroffenenrechten, eine fehlende Kontrolle der Weiterverarbeitung und Übermittlung der Daten oder Zugriffe auf Daten durch staatliche Stellen, insbes. Behörden der USA, zu Kontroll- und Überwachungszwecken bedeuten, ohne dass Ihnen Rechtsbehelfe dagegen zustehen."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "×",
+     "href": "javascript:void(0);"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Alle weiteren Informationen finden Sie in unserer , insbesondere was Cookies sind und welche wir einsetzen, finden Sie ausführlich zudem in unserer ."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Datenschutzerklärung",
+     "href": "/datenschutz"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Cookieerklärung",
+     "href": "/cookieerklaerung"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "ThemaGrund- und Ersatzversorgung",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "10 TOP-Fragen",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Strom",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Erdgas",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Grund- und Ersatzversorgung",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "TEAG-Kundenportal",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Energielösungen",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Engagement",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Kundenservice",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "In FAQs suchen nach:"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Mein derzeitiger Energieversorger hat meinen Vertrag gekündigt. Werde ich weiterhin mit Strom und Erdgas beliefert?"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "In dieser Situation lassen wir Sie nicht allein. Sofern wir Ihr zuständiger Grundversorger sind, kümmern wir uns umgehend um Ihre unterbrechungsfreie Energieversorgung, wenn Ihr bisheriger Energieversorger die Belieferung, egal aus welchen Gründen, einstellt. Gelingt es Ihnen nicht, sofort einen neuen Lieferanten zu finden, fallen Sie in der Zwischenzeit für einen Zeitraum von maximal drei Monaten automatisch in die sogenannte Ersatzversorgung."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Was ist die Ersatzversorgung?"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Die Ersatzversorgung ist gesetzlich geregelt und greift dann ein, wenn der Verbrauch des Kunden keinem Lieferverhältnis mehr zugeordnet werden kann, beispielsweise wenn der Kunde von seinem derzeitigen Energieversorger nicht mehr beliefert wird bzw. werden kann, ohne dass ein neuer Lieferant die Belieferung übernommen hat. Der örtliche Grundversorger stellt in diesem Fall sicher, dass Strom und Erdgas nahtlos weiterfließen. In den ländlichen Teilen und den kleineren Städten Thüringens ist meist die TEAG der Grund- und Ersatzversorger, in den größeren Städten ist dies oft der lokale Energieversorger (z.B. Stadtwerke)."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Warum habe ich eine Vertragsbestätigung zur Ersatzversorgung bekommen?"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Es gibt gemäß § 38 Abs. 1 EnWG verschiedene Gründe, warum es zu einer Ersatzversorgung an Ihrer Abnahmestelle gekommen ist und Sie hierfür eine Lieferbestätigung erhalten haben:"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Ihr bisheriger Lieferant ist insolvent und kann Sie daher nicht mehr mit der von Ihnen benötigten Energie versorgen."
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Sie haben Ihren bisherigen Liefervertrag gekündigt und keinen neuen Liefervertrag für die Verbrauchsstelle abgeschlossen."
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Ihr gewünschter Lieferantenwechsel ist fehlgeschlagen oder verzögert sich. Das kann beispielsweise passieren, wenn Ihr bisheriger Energielieferant Ihren Vertrag bereits beendet hat, Ihr neuer Energielieferant Sie aber noch nicht mit Energie beliefert."
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Sie haben nach dem Abschluss eines neuen Energieliefervertrages von Ihrem Widerrufsrecht Gebrauch gemacht und damit keinen gültigen Energieliefervertrag mehr."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Nutzen Sie einfach unseren Preisvergleichsrechner oder wenden Sie sich an unseren Kundenservice, um einen neuen Energieliefervertrag bei der TEAG abzuschließen."
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Zum Preisrechner Strom",
+     "href": "/privatkunden/strom/stromtarife"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Zum Preisrechner Erdgas",
+     "href": "/privatkunden/erdgas/gastarife"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Warum ist die TEAG der Grundversorger in meiner Region?"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Der Energieversorger, der in einer bestimmten Netzgebiet der allgemeinen Versorgung die größte Anzahl an Haushaltskunden beliefert, wird zum Grundversorger bestimmt. Alle drei Jahre überprüft die Bundesnetzagentur dazu die Kundenzahlen und legt den Grundversorger fest."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Als führender, kommunaler Energieversorger in Thüringen übernimmt die TEAG diese Verantwortung gern und sorgt dabei für eine zuverlässige Belieferung der Thüringer mit Strom und Erdgas in den Netzgebieten, in denen sie Grundversorger ist."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Muss ich in der Ersatzversorgung bleiben?"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Nach einem Zeitraum von drei Monaten endet die Ersatzversorgung automatisch und geht für Haushaltskunden ohne weiteres Zutun automatisch in die Grundversorgung über. Bei Nicht-Haushaltskunden endet die Ersatzversorgung ebenfalls automatisch nach drei Monaten, allerdings müssen Sie dann mit einer Unterbrechung der Versorgung durch den Netzbetreiber rechnen, wenn bis dahin kein neuer Energieliefervertrag abgeschlossen wurde. Sie sollten diese Zeitspanne daher frühzeitig für die Regelung der zukünftigen Vertragsbeziehung nutzen. Beispielsweise können Sie ohne Einhaltung einer Kündigungsfrist in einen anderen Tarif der TEAG wechseln. Nutzen Sie dazu einfach unseren Preisvergleichsrechner oder wenden Sie sich an unseren Kundenservice."
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "Zum Preisrechner Strom",
+     "href": "/privatkunden/strom/stromtarife"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Zum Preisrechner Erdgas",
+     "href": "/privatkunden/erdgas/gastarife"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Wie kann ich die Ersatzversorgung beenden?"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Die Ersatzversorgung ist ein gesetzliches Schuldverhältnis. Sie kann jederzeit ohne Einhaltung einer Frist beendet werden. Hierzu bedarf es auch keiner Kündigung. Mit dem Abschluss eines Liefervertrages endet die Ersatzversorgung an der Abnahmestelle automatisch. Nutzen Sie dazu beispielsweise einfach unseren Preisvergleichsrechner oder wenden Sie sich an unseren Kundenservice."
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "Zum Preisrechner Strom",
+     "href": "/privatkunden/strom/stromtarife"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Zum Preisrechner Erdgas",
+     "href": "/privatkunden/erdgas/gastarife"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Welchen Preis hat die Ersatzversorgung?"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Die aktuellen Preisblätter für die Ersatzversorgung sind im Internet veröffentlicht. Nach § 38 Abs. 3 EnWG können die Preise für die Ersatzversorgung zum 1. oder 15. Tag eines Kalendermonats neu ermittelt und ohne zusätzliche Information angepasst werden."
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Zur Ersatzversorgung Strom",
+     "href": "https://www.thueringerenergie.de/privatkunden/strom/ersatzversorgung"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "Zur Ersatzversorgung Erdgas",
+     "href": "https://www.thueringerenergie.de/privatkunden/erdgas/ersatzversorgung"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Nein",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.entry",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Lernen Sie die Tarife der TEAG kennen:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Guido Werner/TEAG"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Stromtarife im Überblick"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Für ein leuchtendes Zuhause oder gemütliche Abende in Ihren vier Wänden - mit den Stromtarifen von der TEAG sind Sie immer bestens versorgt."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Zu den Stromtarifen",
+     "href": "/privatkunden/strom/stromtarife"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Guido Werner/TEAG"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Erdgastarife im Überblick"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Für wohlige Wärme in Ihrem Haus oder Ihr Kochvergnügen am Herd – mit dem passenden Erdgastarif von der TEAG sind Sie immer bestens versorgt."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Zu den Erdgastarifen",
+     "href": "/privatkunden/erdgas/gastarife"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.box",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+{
+  "url": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 510,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 1610,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 1200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "static",
+      "height": "170px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": null,
+      "bodyPadTop": "0px",
+      "headerCount": 4
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".scroll-up",
+      "frames": [
+        {
+          "t": 17297.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17501,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17703.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17907.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#PageHeader li.level-1-1 > a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.3s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.3s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#MainContent_ulStatic30218 li.box:first-child a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(135, 13, 135)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(135, 13, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "rgba(0, 0, 0, 0.65) 0px 20px 70px -35px, rgba(0, 0, 0, 0.1) 0px 0px 10px 0px",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.icon.icon-teag-arrow-right-pos",
+            "transform": "none",
+            "color": "rgb(135, 13, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "color 0.25s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(135, 13, 135)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(135, 13, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "rgba(0, 0, 0, 0.65) 0px 20px 70px -35px, rgba(0, 0, 0, 0.1) 0px 0px 10px 0px",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.icon.icon-teag-arrow-right-pos",
+            "transform": "none",
+            "color": "rgb(135, 13, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "color 0.25s"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [],
+    "classMutations": [
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-30217.nav-is-fixed > form > div.site.platform-other > header > div.section-2.clear-fix.combined-header",
+        "y": 400
+      },
+      {
+        "added": [
+          "nav-is-fixed"
+        ],
+        "el": "html > body.page-30217.nav-is-fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-30217.nav-is-fixed > form > div.site.platform-other > header > div.section-2.clear-fix.seperated-header",
+        "y": 1200
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-30217.nav-is-fixed > form > div.site.platform-other > header > div.section-2.clear-fix.combined-header",
+        "y": 712
+      },
+      {
+        "added": [
+          "nav-is-fixed"
+        ],
+        "el": "html > body.page-30217.nav-is-fixed",
+        "y": 712
+      },
+      {
+        "added": [
+          "fixed"
+        ],
+        "el": "body.page-30217.nav-is-fixed > form > div.site.platform-other > header > div.section-2.clear-fix.seperated-header",
+        "y": 712
+      }
+    ]
+  }
+}

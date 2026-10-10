@@ -1,0 +1,344 @@
+/* faq — values from stardust/prototypes/css/privatkunden-strom-stromtarife.css + canon.css
+   (lift: stardust/replica/lift/privatkunden-strom-stromtarife.md § FAQ). Source: header.widget-header
+   (h2 calc(1em + .98vw) / 1.2 + 13em grey divider, margin-bottom 26), .service-row { margin: 35px 0
+   calc(35px - 1em) } with pills .filter.drop-down-list (radius 22.25, #ededed, padding 12.5 15) and
+   .search-field (50px pill, 185px input, teag-2017 "r"), ul.akkordeon-list { margin-bottom: 30 }
+   > li.entry { border-bottom 1px #a0a0a0; padding-bottom 16; margin-bottom 16 }. Mobile first
+   (<= 1024: pills full width, chevron abs right 3 %, search calc(100% - 40px)). */
+.faq {
+  display: block;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.faq-header {
+  margin-bottom: 26px;
+}
+
+.faq-header h2 {
+  margin: 0;
+  font-size: calc(1em + 0.98vw);
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* span.divider in a widget header: block 13em x 1px grey, margin .5em 0 0 */
+.faq-header h2::after {
+  content: '';
+  display: block;
+  width: 13em;
+  height: 1px;
+  margin: 0.5em 0 0;
+  font-size: var(--fs-body);
+  background-color: var(--c-grey-600);
+}
+
+.faq-service-row {
+  position: relative;
+  margin: 35px 0 calc(35px - 1em);
+  min-height: 50px;
+}
+
+.faq-service-row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* .filter.drop-down-list */
+.faq-filter {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 94%;
+  min-height: 25px;
+  margin-bottom: 1em;
+  padding: 12.5px 3%;
+  border-radius: 22.25px;
+  background-color: var(--c-grey-200);
+}
+
+.faq-filter-toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: var(--c-primary);
+  font-family: inherit;
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: left;
+  white-space: nowrap;
+  background: none;
+  cursor: pointer;
+}
+
+.faq-filter-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.faq-filter-label {
+  display: block;
+  margin: 0;
+  padding: 0 10px 0 0;
+  color: #6a6a6a;
+  font-size: 0.6667em;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.faq-filter-title {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  color: #000;
+  line-height: normal;
+}
+
+/* .fa.fa-chevron-down: 18px box, .7em, rotates when opened */
+.faq-filter-chevron {
+  position: absolute;
+  top: 12px;
+  right: 3%;
+  width: 18px;
+  height: 18px;
+  font-family: FontAwesome, sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.faq-filter-chevron::before {
+  content: '\f078';
+}
+
+.faq-filter-chevron.rotate180 {
+  transform: rotate(180deg);
+}
+
+.faq-filter-options {
+  display: none;
+  margin: 5px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-filter.opened .faq-filter-options {
+  display: block;
+}
+
+.faq-filter-options li {
+  padding-left: 24px;
+  font-weight: 700;
+}
+
+.faq-filter-options li::before {
+  content: 'c';
+  display: inline-block;
+  margin-left: -24px;
+  width: 24px;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-weight: 400;
+}
+
+.faq-filter-options li.active {
+  color: var(--c-primary);
+}
+
+/* .search-field: 50px pill, sr-only label, 185 x 40 input box, teag-2017 "r" at right 15 */
+.faq-search {
+  position: relative;
+  float: right;
+  box-sizing: content-box;
+  width: calc(100% - 40px);
+  height: 50px;
+  padding: 12.5px 20px;
+  border-radius: 22.25px;
+  line-height: 50px;
+  white-space: nowrap;
+  background-color: var(--c-grey-200);
+}
+
+.faq-search-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.faq-search-field {
+  display: inline-block;
+  box-sizing: content-box;
+  width: 185px;
+  height: 40px;
+  margin: 0 30px 0 0;
+  padding: 0 3px;
+  vertical-align: middle;
+  background-color: var(--c-grey-200);
+}
+
+.faq-search-icon {
+  position: absolute;
+  top: 12.5px;
+  right: 15px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: default;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-size: 1.5em;
+  line-height: 50px;
+}
+
+.faq-search-icon::before {
+  content: 'r';
+}
+
+/* ul.akkordeon-list */
+.faq-list {
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-entry {
+  margin-bottom: 16px;
+  padding: 0 0 16px;
+  border-bottom: 1px solid var(--c-grey-500);
+  font-size: var(--fs-body);
+}
+
+.faq-topic {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: var(--lh-body);
+  cursor: pointer;
+}
+
+/* .title width calc(100% - 30px) = the text's anonymous flex item; the icon is the 30px box:
+   teag-2017 "a" (icon-teag-arrow-down-pos) / "d" (up) */
+.faq-topic::after {
+  content: 'a';
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.faq-entry.opened .faq-topic::after {
+  content: 'd';
+}
+
+.faq-answer {
+  display: none;
+  padding-right: 30px;
+}
+
+.faq-entry.opened .faq-answer {
+  display: block;
+}
+
+.faq-answer p {
+  margin: 0 0 16px;
+}
+
+.faq-answer img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (width >= 1025px) {
+  .faq {
+    display: flow-root;
+  }
+
+  .faq-filter {
+    width: auto;
+    padding: 12.5px 15px;
+  }
+
+  .faq-filter-1 {
+    float: left;
+  }
+
+  .faq-filter-2 {
+    float: right;
+    margin-left: 0;
+  }
+
+  .faq-filter-chevron {
+    position: static;
+  }
+
+  .faq-search {
+    clear: both;
+    width: auto;
+    padding: 0 15px;
+  }
+
+  .faq-search-icon {
+    top: 0;
+  }
+}
+
+/* ---------- variants plain-header + columns-2-3 (program sibling ersatzversorgung) ----------
+   Source: section.default > header h2 (28.96 / 1.2 = var(--fs-h2), no widget divider,
+   margin-bottom 48); the module sits in .columns-2-3.float-left (live measure: 874 of 1325 =
+   66 % @1440, full width <= 1024) beside an empty marginal column. Additive. */
+.faq.plain-header .faq-header {
+  margin-bottom: 48px;
+}
+
+.faq.plain-header .faq-header h2 {
+  font-size: var(--fs-h2);
+}
+
+.faq.plain-header .faq-header h2::after {
+  display: none;
+}
+
+@media (width >= 1025px) {
+  .faq.columns-2-3 {
+    width: 66%;
+  }
+}
+
+/* ---- fix-wave-6 (2026-10-09, measure.mjs @360 ersatzversorgung live vs build) ---- */
+/* plain-header @360: the live FAQ module ends 100 px above its section's bottom (entries end 4604,
+   section 4704); the build ended 50 above (list margin 30 collapsed with the wrapper's 20) */
+@media (width <= 1024px) {
+  .faq.plain-header > :last-child {
+    margin-bottom: 80px;
+  }
+}
+
+/* ---- fix-wave-7 (2026-10-09, measure.mjs @360 ersatzversorgung): the live .search-field pill is 50 px at 360
+   (padding 0 15, line-height 50, measured); the block's 12.5 20 made it 75 -> topic block 155 vs live 133 (+22). */
+@media (width <= 1024px) {
+  .faq.plain-header .faq-search {
+    padding: 0 15px;
+  }
+}

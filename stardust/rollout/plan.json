@@ -1,0 +1,212 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-08T11:56:10.246Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-08T11:56:10.246Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "privatkunden-strom-ersatzversorgung",
+    "privatkunden-strom-stromtarife-teag-strom-easie",
+    "impressum",
+    "index",
+    "privatkunden-strom-haus-baustromanschluss",
+    "privatkunden-strom-stromtarife",
+    "datenschutz",
+    "ueber-uns-unternehmen"
+  ],
+  "steps": [
+    {
+      "slug": "privatkunden-strom-ersatzversorgung",
+      "path": "/privatkunden/strom/ersatzversorgung",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "privatkunden-strom-stromtarife-teag-strom-easie",
+      "path": "/privatkunden/strom/stromtarife/teag-strom-easie",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "impressum",
+      "path": "/impressum",
+      "templateId": "impressum",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb"
+        },
+        {
+          "id": "text-additions",
+          "edsBlockName": "text-additions"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-slider",
+          "edsBlockName": "hero-slider"
+        },
+        {
+          "id": "tariff-calculator",
+          "edsBlockName": "tariff-calculator"
+        },
+        {
+          "id": "three-steps",
+          "edsBlockName": "three-steps"
+        },
+        {
+          "id": "service-cards",
+          "edsBlockName": "service-cards"
+        },
+        {
+          "id": "photo-teasers",
+          "edsBlockName": "photo-teasers"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band"
+        },
+        {
+          "id": "events",
+          "edsBlockName": "events"
+        },
+        {
+          "id": "news-posts",
+          "edsBlockName": "news-posts"
+        },
+        {
+          "id": "info-boxes",
+          "edsBlockName": "info-boxes"
+        },
+        {
+          "id": "social-wall",
+          "edsBlockName": "social-wall"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "privatkunden-strom-haus-baustromanschluss",
+      "path": "/privatkunden/strom/haus-_-_baustromanschluss",
+      "templateId": "privatkunden-strom-haus-baustromanschluss",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "page-header-hero",
+          "edsBlockName": "page-header-hero"
+        },
+        {
+          "id": "cta-box",
+          "edsBlockName": "cta-box"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "impressum"
+        }
+      ]
+    },
+    {
+      "slug": "privatkunden-strom-stromtarife",
+      "path": "/privatkunden/strom/stromtarife",
+      "templateId": "privatkunden-strom-stromtarife",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "product-teasers",
+          "edsBlockName": "product-teasers"
+        },
+        {
+          "id": "channel-products",
+          "edsBlockName": "channel-products"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "page-header-hero",
+          "edsBlockName": "page-header-hero",
+          "convertedBy": "privatkunden-strom-haus-baustromanschluss"
+        },
+        {
+          "id": "tariff-calculator",
+          "edsBlockName": "tariff-calculator",
+          "convertedBy": "index"
+        },
+        {
+          "id": "three-steps",
+          "edsBlockName": "three-steps",
+          "convertedBy": "index"
+        },
+        {
+          "id": "service-cards",
+          "edsBlockName": "service-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "datenschutz",
+      "path": "/datenschutz",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ueber-uns-unternehmen",
+      "path": "/ueber_uns/unternehmen",
+      "templateId": "ueber-uns-unternehmen",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "channel-cards",
+          "edsBlockName": "channel-cards"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "impressum"
+        },
+        {
+          "id": "photo-teasers",
+          "edsBlockName": "photo-teasers",
+          "convertedBy": "index"
+        }
+      ]
+    }
+  ]
+}

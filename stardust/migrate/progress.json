@@ -1,0 +1,58 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "phase": "handoff/migrate",
+    "note": "migrate unit ledger; render units per template run inside C-deliver after that template's archetype unit (#126)"
+  },
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "index",
+        "privatkunden-strom-stromtarife",
+        "privatkunden-strom-haus-baustromanschluss",
+        "ueber-uns-unternehmen",
+        "impressum"
+      ],
+      "pages": 5,
+      "startedAt": "2026-10-08T11:55:11Z",
+      "endedAt": "2026-10-08T11:55:11Z",
+      "verdict": "page map 8 entries, 0 collisions; Path A archetypes rendered 5, unchanged 0, refused 0, passthrough 0 → stardust/migrated/; modules[] declared on all 5; siblings (teag-strom-easie, ersatzversorgung, datenschutz) render in their template's render unit after its C-archetype unit"
+    },
+    "privatkunden-strom-stromtarife": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "privatkunden-strom-stromtarife"
+      ],
+      "pages": 2,
+      "slugs": [
+        "privatkunden-strom-stromtarife-teag-strom-easie",
+        "privatkunden-strom-ersatzversorgung"
+      ],
+      "startedAt": "2026-10-08T16:57:09.447Z",
+      "note": "see stardust/rollout/units/render-privatkunden-strom-stromtarife.report.md; next = cluster:privatkunden-strom-stromtarife (deploy + gate both siblings on the preview origin)",
+      "endedAt": "2026-10-08T17:08:01.760Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0 → stardust/migrated/ (teag-strom-easie + ersatzversorgung A' of privatkunden-strom-stromtarife via lift/build-program.cjs; variance-probe recorded as variants: easie page-header-hero with-page-label, tariff-calculator previous-section-has-page-label, product-teasers list-style-2 with-header, cta-band eye-catcher; ersatz page-header-hero plain, page-meta-section breadcrumb, product-teasers list-style-1 columns-2, text-module center-content, faq columns-2-3 plain-header; content-count: 0 text/role 🔴 on #Content both pages (ICON DIFF rows = font-less capture artefact), words 699→700 / 1314→1315, img 4/4, headings 20/20 and 12/12; deviations 4 + 3 logged)"
+    },
+    "impressum": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "impressum"
+      ],
+      "pages": 1,
+      "slugs": [
+        "datenschutz"
+      ],
+      "startedAt": "2026-10-08T12:59:09.961Z",
+      "endedAt": "2026-10-08T13:01:25.288Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 → stardust/migrated/ (datenschutz A' of impressum via lift/build-static.cjs; variance-probe exit 2 → variant flush-top; content-count 37/37 headings, 46/46 CTAs, 181/180 body with 1 logged drop; modules breadcrumb, text-additions)"
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report"
+    }
+  }
+}

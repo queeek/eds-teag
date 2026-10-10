@@ -1,0 +1,587 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "phase": "recreate",
+    "breakpoints": [
+      1440,
+      360
+    ],
+    "contentRoot": "#Content",
+    "headerRoot": "#PageHeader",
+    "footerRoot": "#PageFooter"
+  },
+  "archetypes": {
+    "index": {
+      "type": "landing",
+      "pages": [
+        "index"
+      ],
+      "liveUrl": "https://www.thueringerenergie.de/default",
+      "status": "gated-with-residuals",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "canon": "stardust/prototypes/css/canon.css",
+      "contentRoot": "#Content",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 30.99,
+          "heightDelta": -17,
+          "structuralRed": 7,
+          "visualFlags": "1 justified (same sr-only h1)",
+          "overflow": 0,
+          "clipped": 0,
+          "chromeParity": "header: live nav ticker shows a different item (Ueber uns vs Einblicke, nondeterministic); footer uniform dy; header crop 2.57%, footer crop 18.5% (chat-teaser overlay)",
+          "capProbe": "n/a (1440 row)",
+          "label": "iter3 (final pixel round held)"
+        },
+        "1440": {
+          "pixelPct": 21.65,
+          "heightDelta": 70,
+          "structuralRed": 7,
+          "visualFlags": "1 justified (1x1 sr-only h1 at x -1, mirrors live #MainContent_h1Alternative)",
+          "overflow": 0,
+          "clipped": 0,
+          "chromeParity": "header 8 deltas <=11px (nav item widths; live DOM probed pre-webfont), footer uniform dy only (page height); header crop 1.81% PASS, footer crop 13.2% (chat-teaser overlay + crop anchor)",
+          "capProbe": "PASS at 2560 (0 of 14 rows failed)",
+          "label": "iter3 (confirm, final pixel round held)"
+        }
+      },
+      "residuals": [
+        {
+          "width": 1440,
+          "band": "y 3736-5073 (themes) + header mega-menu teaser",
+          "pct": 38.7,
+          "cause": "live content drift: a new Einblicke article (Heizkraftwerk Schwarza) replaced the first theme teaser and the mega-menu teaser after capture; prototype carries the captured set",
+          "why-not-fixed": "authored-volatile content, not conversion fidelity; same cause behind the 1 header MISSING CTA",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 1440,
+          "band": "y 6152-7640 (social media wall)",
+          "pct": 53.8,
+          "cause": "nondeterministic live embed: LinkedIn/Instagram posts, order and hashtag links change per load (6 MISSING CTA are hashtags of a post that did not exist at capture); live DOM height drifts 8390-8820 between probes",
+          "why-not-fixed": "moving target (capture-state policy); prototype freezes the captured posts",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 1440,
+          "band": "y 8485-8820 (footer region)",
+          "pct": 13.2,
+          "cause": "moin.ai chat teaser + scroll-up overlay repositioning on live (shifts 65px when the scroll-up shows) and Rubik webfont inside the teaser (not rehosted); footer DOM parity is a uniform dy only",
+          "why-not-fixed": "third-party iframe widget replicated as static fixed chrome",
+          "flaggedFor": "user"
+        },
+        {
+          "width": 360,
+          "band": "y 5500-8000 (themes) and y 11000-16000 (social wall)",
+          "pct": 60,
+          "cause": "same live content drift as 1440 (themes article, social posts/order)",
+          "why-not-fixed": "as above",
+          "flaggedFor": "delivery"
+        },
+        {
+          "width": 360,
+          "band": "chrome header crop",
+          "pct": 2.57,
+          "cause": "mobile nav bar shows a JS-rotated nav item (EINBLICKE frozen in the prototype; live cycles items)",
+          "why-not-fixed": "nondeterministic live ticker",
+          "flaggedFor": "user"
+        },
+        {
+          "width": "both",
+          "band": "unit-geometry",
+          "pct": 0,
+          "cause": "keyfact dh +27 and product dy -10 on the DOM probe come from the live probe measuring before the Noto Sans webfont applied (2-line fallback wraps); the stitched pixel captures wrap identically (gates/index-1440/strip5-keyfacts.png); at 360 the unit instrument measured the live origin at 1440 geometry (origin 58,1299 428x309), so every 360 unit row is off by the breakpoint",
+          "why-not-fixed": "instrument state, not a build defect",
+          "flaggedFor": "user"
+        }
+      ],
+      "motion": {
+        "observed": 5,
+        "implemented": 4,
+        "dead": [
+          "mega-menu hover (no style change on live hover; opens on click, panel layout not lifted)",
+          "init-only live classes: watermarked, is-animating, no-more-months, video-container-cutted, i179... ids"
+        ],
+        "parity": "motion-compare: 6 parity (expanded, fixed, icon-arrow-up-pos, previous-is-active, user-prefers-more-contrast, active), 24 missing = live init-time classes, 1 advisory (scroll-up .visible)"
+      },
+      "captureState": [
+        {
+          "what": "Usercentrics v3 consent dialog (aside#usercentrics-cmp-ui, shadow DOM) is not dismissed by the shared candidates (German label, no data-testid); live captures taken with --consent \"#usercentrics-cmp-ui #accept\"",
+          "replicatedAs": "dismissed on the live side only",
+          "restoreAtDelivery": false
+        },
+        {
+          "what": "moin.ai chat teaser + button iframes (fixed bottom-right in every viewport) and .scroll-up; teaser shifts 65px left (1440) / 70px up (360) once the scroll-up shows",
+          "replicatedAs": "static fixed chrome (.chat-teaser, .scroll-up) with the harvested avatar; scroll-up threshold 900px (live threshold not lifted)",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "hero slider: single slide, auto-switch paused, controls hidden until hover (live .controls opacity 0)",
+          "replicatedAs": "same markup, controls opacity 0 / hover 1",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "product-teaser heights set by live JS (377.625px at 1440; natural height + 160px margin on card 1 at 360)",
+          "replicatedAs": "fixed CSS values",
+          "restoreAtDelivery": false
+        },
+        {
+          "what": "lazy images (data-gif src + srcset) replicated with the real 1x renditions; picture/source media queries lifted",
+          "replicatedAs": "assets/index/**",
+          "restoreAtDelivery": false
+        },
+        {
+          "what": "mobile nav bar rotates nav items by JS (EINBLICKE frozen); ul.mobile-nav is built client-side from the mega-menu lists (226 links) - mirrored in js/index.js at <=1024",
+          "replicatedAs": "js/index.js",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "watermark placeholders (PLZ, Jahresverbrauch, Ihr Vorname, ..., E-Mail-Adresse) rendered by live JS",
+          "replicatedAs": "placeholder attributes (EXTRA PLACEHOLDER x9, justified)",
+          "restoreAtDelivery": false
+        },
+        {
+          "what": "social wall / themes list / mega-menu teaser content drift between capture and gate",
+          "replicatedAs": "captured state frozen",
+          "restoreAtDelivery": true
+        }
+      ],
+      "boxModel": "content-box for every container family (source * reset = margin/padding/font only); border-box only on select and input[type=checkbox]; no universal reset - see canon.css header",
+      "fonts": "same public source: Noto Sans 400/700(+italic) woff self-hosted from the capture, stack order kept (Segoe UI first); teag-2017 + FontAwesome 4.7 self-hosted; icon ::before content uses the source alt-text syntax (\"x\" / \"\") so content-diff icon signatures pair",
+      "canonChanges": [],
+      "units": [
+        "keyfact-cards",
+        "product-teasers",
+        "service-boxes",
+        "theme-teasers",
+        "news-posts"
+      ],
+      "notes": "prototype generated by stardust/replica/lift/build-index.cjs from the capture (templates + whitelist serializer for hidden mega-menu/tooltip DOM); the prototype http server on 8791 was dead at start (python http.server IDNA error) and was replaced by stardust/replica/lift/serve.cjs (PID in stardust/.work/proto-server.pid)",
+      "finishedAt": "2026-10-08T09:40:35.649Z"
+    },
+    "privatkunden-strom-stromtarife": {
+      "type": "program",
+      "pages": [
+        "privatkunden-strom-stromtarife",
+        "privatkunden-strom-stromtarife-teag-strom-easie",
+        "privatkunden-strom-ersatzversorgung"
+      ],
+      "liveUrl": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+      "status": "gated-with-residuals",
+      "prototype": "stardust/prototypes/privatkunden-strom-stromtarife-proposed.html",
+      "canon": "stardust/prototypes/css/canon.css",
+      "contentRoot": "#Content",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 18.41,
+          "heightDelta": -191,
+          "structuralRed": 8,
+          "visualFlags": "none",
+          "overflow": 0,
+          "clipped": 0,
+          "chromeParity": "header: live mobile ticker shows a different nav item (\"Über uns\" missing, nondeterministic); footer uniform dy; header crop 2.57% (as index), footer crop 17.49% (chat-teaser overlay)",
+          "capProbe": "n/a (1440 row)",
+          "label": "iter2 --full (overflow fixed afterwards: iter3/iter4 plain 18.41%, scrollWidth 360 = viewport)"
+        },
+        "1440": {
+          "pixelPct": 6.98,
+          "heightDelta": -20,
+          "structuralRed": 4,
+          "visualFlags": "none",
+          "overflow": 0,
+          "clipped": 0,
+          "chromeParity": "header nav Δx ≤11px (live DOM probed pre-webfont, as index); footer uniform dy = page height; header crop 1.81% PASS, footer crop 14.48% (chat-teaser overlay + crop anchor, as index)",
+          "capProbe": "PASS at 2560 (0 of 19 rows failed)",
+          "label": "iter2 --full (iter3 plain confirm 6.99%, Δh -20 held after motion JS)"
+        }
+      },
+      "residuals": [
+        {
+          "width": 1440,
+          "band": "whole page",
+          "pct": 6.98,
+          "cause": "height delta -20: live stitch (11665) vs live DOM probe (11703) differ by 38px between runs (webfont/consent timing); build 11685 sits between",
+          "why-not-fixed": "live drift larger than the delta; 2-iteration budget"
+        },
+        {
+          "width": 1440,
+          "band": "content-diff",
+          "pct": 0,
+          "cause": "4 structural 🔴: \"×\"/aria \"Tooltip\"/\"Dialog schließen\" are live-JS-injected hidden tooltip controls absent from the capture; header \"Heizkraftwerk Schwarza\" = mega-menu teaser drift (nondeterministic)",
+          "why-not-fixed": "not in captured DOM; hidden; drift class (permanent)"
+        },
+        {
+          "width": 1440,
+          "band": "units",
+          "pct": 0,
+          "cause": "picture-credits widths -5px (padding model of credits span), service-box icon-list link x -5 (canon index rule)",
+          "why-not-fixed": "sub-5px, canon-owned"
+        },
+        {
+          "width": 360,
+          "band": "y 3500-9000, 15500-17995",
+          "pct": 18.41,
+          "cause": "build +191px: list-style-2 cards are re-laid by live JS at mobile (DOM probe pre-relayout, stitch is truth) — stacked replica ~30px/card taller; FAQ list +27 (one question wraps differently), service boxes +70 (canon index module at mobile), eye-catcher 13px; offsets contaminate all bands below",
+          "why-not-fixed": "2-iteration cap; live 360 geometry only available as stitch (no DOM truth for JS-relaid cards)"
+        },
+        {
+          "width": 360,
+          "band": "content-diff",
+          "pct": 0,
+          "cause": "8 structural 🔴 at iter2: 4 slider-arrow aria-labels (fixed after iter2: \"Vorherige/Nächste Folie\" now in markup), \"×\"/Tooltip/Dialog schließen (live-JS hidden controls), bullet aria \"Zu dieser Folie\" ×8 added (hidden ul, as live)",
+          "why-not-fixed": "arrows fixed post-gate; the rest not in capture"
+        },
+        {
+          "width": 360,
+          "band": "unit-geometry",
+          "pct": 0,
+          "cause": "instrument compared the 1440 live cache (origin 73,2198 …) against the 360 build → all 90 elements \"off\"",
+          "why-not-fixed": "cache artifact, not a build defect"
+        }
+      ],
+      "motion": {
+        "observed": 15,
+        "implemented": 7,
+        "dead": [
+          "entrance rotate180 / animated / is-animating / initialized (init-only entrance animations, product teasers)",
+          "transition margin-left/right/width (mobile slider + mega-menu, live JS)",
+          "transition background-color 500ms (nav/button hover, 4 events)",
+          "hover on channel card / product teaser: no measured diff on live"
+        ],
+        "parity": "motion-compare: 7 parity (opened, read, icon-teag-arrow-up-pos, fa-chevron-up, rotate180, fixed, nav-is-fixed), 8 missing (dead/init-only/live-JS slider), 0 extra, 2 advisory (build-only transform transition on the chevron, \"visible\" scroll-up)"
+      },
+      "captureState": [
+        {
+          "what": "eye-catcher animated GIF (210713_teag_hubaert_kreis_grafik…lila.gif) — frame differs per capture",
+          "replicatedAs": "self-hosted gif (animates)",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "FAQ answers collapsed, filter lists closed, slider on first card",
+          "replicatedAs": "collapsed state + JS toggles for the fired behaviours",
+          "restoreAtDelivery": false
+        },
+        {
+          "what": "tariff calculator form (ASP.NET postbacks) static; hidden working-visualization kept",
+          "replicatedAs": "index availability-check markup (canon)",
+          "restoreAtDelivery": true
+        }
+      ],
+      "boxModel": "content-box for every container family (source * reset); table computes border-box; inputs width calc(100% - 18px) as index",
+      "fonts": "Noto Sans 400/700 (+italic) self-hosted from capture, stack order kept (\"Segoe UI\" first); teag-2017 + FontAwesome 4.7 self-hosted; new glyphs: icon-teag-suche \"r\", icon-teag-arrow-down-pos \"a\", icon-teag-arrow-up-pos \"d\", icon-checkmark-pos \"J\", fa-chevron-down \\f078",
+      "canonChanges": [
+        "appended (not rewritten): index.css blocks \"tab control / availability check / energy tab / seals / key facts\" (lines 41-144) and \"steps / service boxes / callback / teaser modul\" (168-236) promoted verbatim to canon.css for shared use; index.css keeps identical originals"
+      ],
+      "units": [
+        "channel-product-cards",
+        "fullwidth-product-teasers",
+        "faq-entries",
+        "keyfact-cards-program",
+        "service-boxes-program"
+      ],
+      "finishedAt": "2026-10-08T10:31:19.784Z"
+    },
+    "privatkunden-strom-haus-baustromanschluss": {
+      "type": "article",
+      "pages": [
+        "privatkunden-strom-haus-baustromanschluss"
+      ],
+      "liveUrl": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+      "status": "gated-with-residuals",
+      "prototype": "stardust/prototypes/privatkunden-strom-haus-baustromanschluss-proposed.html",
+      "canon": "stardust/prototypes/css/canon.css",
+      "contentRoot": "#Content",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 3.49,
+          "heightDelta": 22,
+          "structuralRed": 1,
+          "visualFlags": 0,
+          "overflow": "scrollWidth 360 = viewport ok",
+          "clipped": 0,
+          "chromeParity": "3 deltas (mobile fixed-bar nav items Einblicke / Ueber uns + footer 'Folgen Sie uns auf' w -4; inherited chrome)",
+          "capProbe": "n/a (1440 row)",
+          "units": "6 compared, within 6 -> PASS (units-iter2b: --force re-probe at 360; the gate round had reused the 1440 origin cache)",
+          "label": "iter2"
+        },
+        "1440": {
+          "pixelPct": 3.93,
+          "heightDelta": 22,
+          "structuralRed": 1,
+          "visualFlags": 0,
+          "overflow": "scrollWidth 1440 = viewport ok",
+          "clipped": 0,
+          "chromeParity": "9 deltas (nav text x/w <= 11px from the pre-webfont live DOM probe; header band 0-170 pixel diff 1.81%)",
+          "capProbe": "PASS at 2560 (0 of 4 rows failed, after moving .scroll-up outside #Content)",
+          "units": "6 compared, within 6 -> PASS",
+          "label": "iter2"
+        }
+      },
+      "residuals": [
+        {
+          "width": 1440,
+          "band": "whole page",
+          "pct": "dHeight 22px",
+          "cause": "live root scrollHeight 1710 vs header+#Content+footer 1688: 22 blank rows below the footer; every body child beyond the footer probes 0x0",
+          "why-not-fixed": "source element not identifiable from the DOM probe; build equals the live DOM sum (1688); pixel 3.93% with no hot band"
+        },
+        {
+          "width": 360,
+          "band": "whole page",
+          "pct": "dHeight 22px",
+          "cause": "same 22px trailing blank rows (live stitch 2505 vs DOM sum 2483)",
+          "why-not-fixed": "as above; build 2483"
+        },
+        {
+          "width": 1440,
+          "band": "content-diff header",
+          "pct": "1 structural red",
+          "cause": "mega-menu teaser drift: live teaser 'Heizkraftwerk Schwarza' replaced the captured one (same residual as index / stromtarife)",
+          "why-not-fixed": "runtime-fetched live content; chrome reused verbatim from the gated index"
+        },
+        {
+          "width": 360,
+          "band": "content-diff header",
+          "pct": "1 structural red",
+          "cause": "same mega-menu teaser drift",
+          "why-not-fixed": "as above"
+        },
+        {
+          "width": 1440,
+          "band": "chrome-parity",
+          "pct": "9 deltas",
+          "cause": "nav item x/w differ <= 11px in the live DOM probe (fallback font before Noto Sans applies); footer 'Folgen Sie uns auf' w -4",
+          "why-not-fixed": "pixel header band 0-170 = 1.81% diff (PASS); chrome is the gated index chrome"
+        },
+        {
+          "width": 360,
+          "band": "chrome-parity",
+          "pct": "3 deltas",
+          "cause": "mobile fixed bar: live lists 'Einblicke' at y64 and 'Ueber uns'; build fixed bar shows one item (index chrome behaviour)",
+          "why-not-fixed": "inherited gated chrome; header band not hot"
+        }
+      ],
+      "motion": {
+        "observed": 9,
+        "implemented": 2,
+        "dead": [
+          "header scroll-morph, #Widgets tab click, nav hover: no measured diff on live",
+          "nav hover classes hover/active + 250ms background-color/box-shadow transitions: live mega-menu hover JS in the shared chrome (index policy: dead, no style change lifted)"
+        ],
+        "parity": "motion-compare: 2 parity (fixed, nav-is-fixed), 4 missing = chrome nav-hover classes/transitions (not implemented, inherited chrome), 0 extra, 3 dead on live"
+      },
+      "captureState": [],
+      "boxModel": "content-box for every container family (source * reset); no border-box exceptions on this page",
+      "fonts": "canon: Noto Sans 400/700 (+italic) self-hosted, stack Segoe UI, Noto Sans, ... kept; teag-2017 + FontAwesome icon fonts self-hosted",
+      "canonChanges": [],
+      "units": [
+        "linklist-row",
+        "bread-crumb-item"
+      ],
+      "notes": [
+        "section.page-header-section padding needs the element prefix (canon section.extra-wide{padding:0})",
+        "keep .scroll-up outside #Content for cap-probe",
+        "unit-geometry origin cache is per slug, not per width: --force at 360",
+        "live content drifted after capture (yellow MISSING BODY 'Sie benoetigen einen Haus- oder Baustromanschluss...')"
+      ],
+      "finishedAt": "2026-10-08T10:53:18.802Z"
+    },
+    "ueber-uns-unternehmen": {
+      "type": "listing",
+      "pages": [
+        "ueber-uns-unternehmen"
+      ],
+      "liveUrl": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+      "status": "gated-with-residuals",
+      "prototype": "stardust/prototypes/ueber-uns-unternehmen-proposed.html",
+      "canon": "stardust/prototypes/css/canon.css",
+      "contentRoot": "#Content",
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 9.21,
+          "heightDelta": 26,
+          "structuralRed": "0 main, 1 header (same CTA)",
+          "visualFlags": "same advisory set",
+          "overflow": "360 = viewport ok",
+          "clipped": 0,
+          "chromeParity": "header 1 Δ, footer Δy −3 (card column 3px short)",
+          "capProbe": "n/a (1440 row)",
+          "label": "iter2 (units PASS via --force rerun units-iter2b)"
+        },
+        "1440": {
+          "pixelPct": 4.82,
+          "heightDelta": 23,
+          "structuralRed": "0 main, 1 header (live mega-menu teaser drift)",
+          "visualFlags": "7 advisory: 6× STRETCHED IMAGE = cover-fitted 1.64 card images (identical on live), h1 flush-left = screen-reader h1",
+          "overflow": "1440 = viewport ok",
+          "clipped": 0,
+          "chromeParity": "header 8 Δx/Δw ≤11px (live DOM probe pre-webfont), footer quiet",
+          "capProbe": "PASS at 2560 (5 rows)",
+          "label": "iter3"
+        }
+      },
+      "residuals": [
+        {
+          "width": "1440+360",
+          "band": "whole page",
+          "pct": "Δh 22 of 23/26",
+          "cause": "live scrollHeight exceeds the three roots by 22 blank rows",
+          "why-not-fixed": "source element not identifiable; same on baustrom"
+        },
+        {
+          "width": 1440,
+          "band": "1500–2000 (10.9%) and every 900px chunk boundary",
+          "pct": "~1 pt each",
+          "cause": "canon .combined-header.fixed bar lacks the search magnifier and spreads items (same in gated index build)",
+          "why-not-fixed": "gated canon chrome rule; outside the per-archetype layer"
+        },
+        {
+          "width": "1440 500–1000 / 360 1500–2000",
+          "band": "chat teaser panel",
+          "pct": "4.3% / 32.4% of band",
+          "cause": "canon .chat-teaser + index.js show timing vs live moin.ai panel timing differ per stitch chunk",
+          "why-not-fixed": "inherited fixed-chrome behaviour; nondeterministic on live"
+        },
+        {
+          "width": "1440+360",
+          "band": "header",
+          "pct": "content-diff 1 🔴",
+          "cause": "live mega-menu teaser CTA (Heizkraftwerk Schwarza) added after capture",
+          "why-not-fixed": "content drift; capture is the spec"
+        },
+        {
+          "width": 360,
+          "band": "channel column",
+          "pct": "3px",
+          "cause": "card column 3102 vs 3105 (sub-pixel wraps across 6 cards)",
+          "why-not-fixed": "within tolerance"
+        }
+      ],
+      "motion": {
+        "observed": 2,
+        "implemented": 2,
+        "dead": [
+          "header scroll-morph",
+          "widget .scroll-up",
+          "hover nav level-1-1",
+          "hover card link"
+        ],
+        "parity": "motion-compare: 2 parity (fixed, nav-is-fixed), 0 missing, 0 extra, 1 advisory (class visible on build only — index.js chrome), 4 dead on live; no new JS, js/index.js reused"
+      },
+      "captureState": [
+        {
+          "what": "hero li height (live JS equaliser, font-applied state 514.27 @1440) and .container width 451.607 (JS inline)",
+          "replicatedAs": "fixed CSS values in css/ueber-uns-unternehmen.css",
+          "restoreAtDelivery": false
+        }
+      ],
+      "boxModel": "content-box for every container family (source * reset); img aspect-ratio 1.64 + object-fit cover on the listing cards",
+      "fonts": "Noto Sans 400/700 self-hosted (canon), stack order kept",
+      "canonChanges": [],
+      "units": [
+        "listing-image-teaser-card"
+      ],
+      "finishedAt": "2026-10-08T11:18:07.723Z"
+    },
+    "impressum": {
+      "type": "static",
+      "pages": [
+        "impressum",
+        "datenschutz"
+      ],
+      "liveUrl": "https://www.thueringerenergie.de/impressum",
+      "status": "gated-with-residuals",
+      "prototype": "stardust/prototypes/impressum-proposed.html",
+      "canon": "stardust/prototypes/css/canon.css",
+      "contentRoot": "#Content",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixelPct": 8.02,
+          "heightDelta": 19,
+          "structuralRed": "0 main, 1 header (same CTA)",
+          "visualFlags": "same advisory (screen-reader h1)",
+          "overflow": "360 = viewport ok",
+          "clipped": 0,
+          "chromeParity": "header 1 MISSING \"Über uns\" (live mobile fixed bar item, canon js), footer 19× Δy +3 (build 3px taller than the live DOM sum)",
+          "capProbe": "n/a (1440 row)",
+          "label": "iter2"
+        },
+        "1440": {
+          "pixelPct": 2.16,
+          "heightDelta": 22,
+          "structuralRed": "0 main, 1 header (live mega-menu teaser CTA \"Heizkraftwerk Schwarza\", index capture)",
+          "visualFlags": "1 advisory: FLUSH-LEFT on the 1×1 screen-reader h1 (live-identical)",
+          "overflow": "1440 = viewport ok",
+          "clipped": 0,
+          "chromeParity": "header 8 Δx/Δw ≤11px + footer 1 (byte-identical to the gated article round; live DOM probe pre-webfont)",
+          "capProbe": "PASS at 2560 (5 rows, gates/impressum-2560)",
+          "label": "iter2"
+        }
+      },
+      "residuals": [
+        {
+          "width": "1440+360",
+          "band": "whole page",
+          "pct": "Δh 22 / 19",
+          "cause": "live scrollHeight exceeds header+#Content+footer by 22 blank rows (same on index/article/listing); at 360 the build is 3px taller than the live DOM sum (bold-link line boxes)",
+          "why-not-fixed": "source element not identifiable from the DOM probes; same class as the other archetypes"
+        },
+        {
+          "width": "360",
+          "band": "y 500–1000",
+          "pct": "14.8%",
+          "cause": "canon .chat-teaser panel (js/index.js timing) painted in the build chunk but not in live's moin.ai iframe chunk (strip-500-iter2.png: text pixel-aligned, panel + mobile-bar magenta strip are the whole diff) — inherited teaser-timing residual (see ueber-uns notes)",
+          "why-not-fixed": "canon owner's item (fixed chrome timing); content boxes equal per measure --against"
+        },
+        {
+          "width": "1440",
+          "band": "chunk boundaries y 900, 1800, …",
+          "pct": "~1 pt each",
+          "cause": "canon fixed desktop header bar lacks the live search magnifier / wider item spread (inherited, see ueber-uns notes)",
+          "why-not-fixed": "canon owner's item"
+        },
+        {
+          "width": "1440+360",
+          "band": "header",
+          "pct": "content-diff 🔴 1",
+          "cause": "live mega-menu teaser drift (\"Heizkraftwerk Schwarza\") vs the index-time capture",
+          "why-not-fixed": "permanent chrome residual class (header capture is the spec)"
+        }
+      ],
+      "motion": {
+        "observed": 2,
+        "implemented": 2,
+        "dead": [
+          "header scroll-morph (static across traversal on both sides)"
+        ],
+        "parity": "motion-compare: 2 parity (fixed, nav-is-fixed), 0 missing, 0 extra, 1 advisory (class \"visible\" extra on build = canon .chat-teaser timing); no page-specific interactions on a static text page (no accordions/tabs/carousels); no widget pokes"
+      },
+      "captureState": [],
+      "boxModel": "content-box for every container family (source * reset: margin/padding/font-family only); section/header/div 16px, p/li calc(16px + .08vw)",
+      "fonts": "Noto Sans 400/700 self-hosted (canon), stack \"Segoe UI\",\"Noto Sans\",… kept; teag-2017 + FontAwesome icon fonts from canon",
+      "canonChanges": [],
+      "units": [],
+      "finishedAt": "2026-10-08T11:35:05.617Z"
+    }
+  }
+}

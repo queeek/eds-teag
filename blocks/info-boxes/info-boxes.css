@@ -1,0 +1,393 @@
+/* stylelint-disable no-descending-specificity */
+
+/* info-boxes — landing service boxes (Fragen / Netzstörung / Rückruf / Auf einen Blick).
+   Values from stardust/prototypes/css/index.css (.service-boxes, .call-back) + canon.css. */
+main .section.info-boxes-container {
+  position: relative;
+  z-index: 1;
+}
+
+.info-boxes {
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+.info-boxes ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.info-boxes-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-boxes-box {
+  flex: 1 1 0;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: var(--shadow-box);
+}
+
+.info-boxes-widget {
+  padding: 20px;
+}
+
+.info-boxes-box.multiple-sections > .info-boxes-widget:first-child {
+  padding-bottom: 0;
+}
+
+.info-boxes-header {
+  /* styles.css `header { height: var(--nav-height) }` reaches these widget headers (measured
+     170 px @1440 / 140 px @360 against the live widget-header 36 / 29): the box is its content */
+  height: auto;
+  margin-bottom: 1.5em; /* fix wave 12 (measure.mjs 1440 / 360): live .campaign .widget-header 1.5em = 25.73 / 24.43 */
+}
+
+.info-boxes-box.multiple-sections > .info-boxes-widget + .info-boxes-widget .info-boxes-header {
+  margin-bottom: 0;
+}
+
+.info-boxes-title {
+  margin: 0;
+  font-size: 1.3056em;
+  line-height: 1.2;
+}
+
+/* fix wave 12 (gate units 1440 r1: span.divider dw 165): live .campaign .widget-header .divider is 57.5 % wide
+   (223 of 388 @1440, 167 of 291 @360) */
+.info-boxes-divider {
+  display: block;
+  width: 57.5%;
+  height: 1px;
+  margin-top: .5em;
+  background-color: var(--c-grey-600);
+}
+
+.info-boxes-figure {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.info-boxes-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.info-boxes-credits p {
+  margin: 0;
+}
+
+.info-boxes-credits p::before {
+  content: "© ";
+}
+
+.info-boxes-credits {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 5px;
+  background-color: rgb(255 255 255 / 45%);
+  font-size: .8em;
+  line-height: 1.6;
+}
+
+.info-boxes-content p {
+  margin: 0 0 16px;
+}
+
+/* fix wave 12 (measure.mjs 1440 / 360 + gate units 1440 r1): the live .icon-list .entry is a flex row — icon
+   (1.1em, margin-right .5em) + label + link as stretched items — so the one-line rows measure 30 / 29 px (the icon's
+   line box), not the 27 / 26 px text line (served rows were 23 tall, dh -7, two rows +2 / -5 px); entries with more
+   content (br, annotation, suffix) sit in one inline wrapper (.info-boxes-entries, live span.entries) */
+.info-boxes-icon-list li {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  padding-left: 0;
+  margin-bottom: 1em;
+}
+
+/* shrink-to-fit like the live span.entries (a flex item that is not grown): at <= 414 the block labels then span
+   the entry's longest line (live "Netzstörung Strom:" / "Gas:" both 164 wide = the number row), not the box */
+.info-boxes-entries {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.info-boxes-entries > strong {
+  padding-right: .25em; /* gate units 1440 r2: the wrapped labels had lost it (Serviceline a dx -5, Gas label dw -5) */
+}
+
+/* live .service-column .icon-list .entry .suffix "(24h)" */
+.info-boxes-suffix {
+  padding-left: .5em;
+  color: #767676;
+  font-weight: 600;
+}
+
+.info-boxes-icon-list li > strong {
+  flex: none;
+  padding-right: .25em;
+}
+
+.info-boxes-icon-list li > a {
+  color: var(--c-info);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.info-boxes-icon {
+  display: inline-block;
+  margin-right: .55em;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-size: 1.1em;
+}
+
+.info-boxes-icon::before {
+  content: "c";
+}
+
+.info-boxes-icon-list li > .info-boxes-icon {
+  position: static;
+  flex: none;
+  margin-right: .5em;
+}
+
+.info-boxes-icon-list li > .info-boxes-icon::before {
+  content: "p";
+}
+
+.info-boxes-icon-list li:first-child > .info-boxes-icon::before {
+  content: "Q";
+}
+
+.info-boxes-link-list li {
+  margin-bottom: .75em;
+}
+
+/* fix wave 12 (measure.mjs 360): the live link-list's last li carries no margin (the served clearfix kept the
+   12 px inside the box: Netzstörung +12, Auf einen Blick +12 at 360) */
+.info-boxes-link-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* external links carry the teag-2017 "I" glyph (live a.has-external-link-icon > span.icon-icons-link-external:
+   inline-block, vertical-align middle, margin -3px 0 0 6px; gate units 1440 r1: Störungsauskunft dw -29) */
+.info-boxes-link-list a[href^='http']:not([href*='thueringerenergie.de'])::after {
+  content: 'I';
+  display: inline-block;
+  width: 23px; /* the live icon-font glyph box (link 207 vs 178 without it @1440; the teag-2017 "I" alone is 17) */
+  margin: -3px 0 0 6px;
+  text-align: center;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.info-boxes-link-list a {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.info-boxes-link-list .info-boxes-icon {
+  margin-right: 6px;
+  font-size: 1em;
+}
+
+.info-boxes-field {
+  position: relative;
+  display: block;
+  height: 43px;
+  margin: 0 0 15px;
+  padding: 0 9px;
+  background-color: var(--c-grey-200);
+  color: var(--c-grey-700);
+  font-size: 14px;
+  line-height: 43px;
+  box-sizing: border-box;
+}
+
+.info-boxes-field em {
+  font-style: normal;
+}
+
+/* fix wave 12 (measure.mjs 1440 / 360): live .call-back .name-wrapper inputs are 49 % each (190 / 190 @1440,
+   143 / 143 @360, 2 % gap), every input margin-bottom 15 (the served 16 came from .info-boxes-content p) */
+.info-boxes-content p.info-boxes-field {
+  margin: 0 0 15px;
+}
+
+.info-boxes-content p.info-boxes-field:nth-of-type(3),
+.info-boxes-content p.info-boxes-field:nth-of-type(4) {
+  display: block;
+  float: left;
+  width: 49%;
+}
+
+.info-boxes-content p.info-boxes-field:nth-of-type(4) {
+  float: right;
+}
+
+.info-boxes-content p.info-boxes-field:nth-of-type(4) + p {
+  clear: both;
+}
+
+/* live div.checkBox.block.opt-in: flex — input[type=checkbox] (scale 1.15, margin 3px 0 0 3px) + label (padding-left
+   6px, .85em / 1.4, 372 of 388 wide @1440 → text at +16); the static tier draws the box as ::before */
+.info-boxes-content p.info-boxes-field + p:not(.info-boxes-field) {
+  display: flex;
+  align-items: flex-start;
+
+  /* live: select margin-bottom 15 + div.clear-fix margin-top 20 do not collapse (the select is inline-block);
+     served block p margins would (measure.mjs 1440 / 360 after the wave-12 push: checkbox row -15) */
+  margin: 35px 0 20px;
+  padding-left: 0;
+  font-size: .85em;
+  line-height: 1.4;
+}
+
+.info-boxes-content p.info-boxes-field + p:not(.info-boxes-field)::before {
+  content: "";
+  flex: none;
+  width: 13px;
+  height: 13px;
+  margin: 3px 0 0 3px;
+  border: 1px solid #767676;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* live label: block flex item, padding-left 6px (the text node's box the gate compares: 372 of 388 @1440) */
+.info-boxes-consent-label {
+  display: block;
+  flex: 1 1 auto;
+  padding-left: 6px;
+}
+
+.info-boxes-content p a {
+  color: var(--c-primary);
+}
+
+/* live label a "Datenschutzerklärung": 400 (styles' main a:any-link { font-weight: 700 } (0,1,1) needs the specificity) */
+.info-boxes-content p.info-boxes-field + p:not(.info-boxes-field) a {
+  font-weight: 400;
+}
+
+.info-boxes-send {
+  float: right;
+}
+
+/* live: the floated a.link-button ends the box (section padding 20 follows); .info-boxes-content p's 16 px
+   margin stayed inside the clearfix (measure.mjs 360: box 1 end +16) */
+.info-boxes-content p.info-boxes-send {
+  margin-bottom: 0;
+}
+
+/* live a#MainContent_CallBack2_c_send.link-button.blue: 161 x 40 (141 + 2 x 10), 17px / 40px, 700, white on the
+   source's cut-corner blue face (its computed background-image), 3px ::before / ::after spacers */
+.info-boxes-send strong {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.info-boxes-send a:any-link,
+.info-boxes-send strong {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info-boxes-send a:any-link {
+  display: inline-block;
+  height: 40px;
+  margin: 0;
+  padding: 0 10px;
+  background-color: transparent;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKEAAAAoCAYAAACW7pqmAAABxUlEQVR4AeycMU7DMBSGX7tyhvRm5AAwMTIhMTGysTFwNc5A2DDPJq0qKxJy5bjvOV9UJ43k2n7f/ylqO3h/8/EZaDC4pgN70SPQBAZyFQaqniQJ45udnmgiMGjHQObjJOF8zwUCzQkgYXPkTJgTQMKcCPfNCfQvYXOkTFhKAAlLidG/OgEkrI6UAUsJIGEpMfpXJ4CE1ZEyYCkBJCwlRv/qBJCwOtLmA7qfEAndR+i/ACT0n6H7CpDQfYT+C0BC/xm6rwAJ3UfovwAk9J+h+wr+ldB9hRRgngASmo+o/wUiYf8Zm68QCc1H1P8CkbD/jM1XiITmI+p/gUgo/YdsvUIktJ7QBtaHhBsI2XqJSGg9oQ2sDwk3ELL1EpHQekKdri8ESfv+iB5IqBB6f1mrLwkYd56aF4aEMwgubQjkAuoD8RkJ27BnFiWQC/gj8jKNwxMSKhxe6xPIBRQJr9/j8BhnRsJIgbYqgSUBv8bDw3FSJDyS4LoKgVzAIOHtXMA4KRJGCrRVCCwJOI2Hu3yyk4T6K+WyjbN1RD6r33DgkPkTZHf2N0x8Ai4JqNj+Nk6PfWkiMKjJINKUdOgT8X26He7TzcLpFwAA//+Fzr6nAAAABklEQVQDAEIy/xAuAycwAAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 0;
+  border-radius: 0;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.info-boxes-send a::before,
+.info-boxes-send a::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+}
+
+/* live a.calendar-extender-button beside the date input (flex-box, baseline): teag-2017 icon-calendar,
+   #870d87, 17 x 27 at 1440 */
+.info-boxes-calendar {
+  position: absolute;
+  top: 8px;
+  right: -22px; /* live a 17 x 27, right edge on the box's content edge (gate units 1440 / 360 r1), input 22 px narrower */
+  display: block;
+  width: 18px;
+  height: 27px;
+  color: #870d87;
+  font-family: "teag-2017", sans-serif;
+  font-size: 1.07em;
+  line-height: 27px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.info-boxes-calendar::before {
+  content: "\e931";
+}
+
+.info-boxes-content p.info-boxes-field:has(> .info-boxes-calendar) {
+  width: calc(100% - 22px);
+}
+
+.info-boxes-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (width >= 1025px) {
+  .info-boxes-list {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+/* fix wave 11 (measure.mjs @360, live vs served): the icon-list links ("Störungsauskunft", "TEAG-Kundenportal",
+   "Zählerstandsmeldung", "Kontaktformular") are black bold on live at 360 (rgb(0,0,0) 700); the served ones were
+   --c-info (the phone links stay cyan on both sides) */
+@media (width <= 1024px) {
+  .info-boxes-icon-list li > a {
+    color: #000;
+  }
+}
+
+/* fix wave 12 (measure.mjs 360): live .campaign .widget-header h3 is 1em at <= 768 (16.288 / 19.5 line; served
+   1.3056em = 21.27 / 25.5 → header 35 vs 29, +6 per widget, four widgets) */
+@media (width <= 768px) {
+  .info-boxes-title {
+    font-size: 1em;
+  }
+}
+
+/* live .service-column .box .netzstoerung .icon-list .entry .label { display: block } at <= 414: the phone rows
+   read label / number — the served inline label pushed "0800" onto the label line and the number onto the next */
+@media (width <= 414px) {
+  .info-boxes-box.multiple-sections > .info-boxes-widget + .info-boxes-widget .info-boxes-entries > strong {
+    display: block; /* own line; the entries wrapper keeps it at the entry's width (gate units 360 r1 / r3) */
+  }
+}

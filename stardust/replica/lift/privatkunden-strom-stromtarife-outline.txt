@@ -1,0 +1,208 @@
+section#MainContent_contentheadertop.page-header-section.extra-wide.with-header-subline.has-docked-section
+  div.center
+    header#MainContent_contentheader
+      figure
+        picture
+          source
+          source
+          source
+          img [AAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 x]
+        figcaption
+          div#MainContent_headerPictureCredits.picture-credits (2 children)
+      div.bar.clear-fix
+        div.container
+          h1#MainContent_h1HeaderImagePage.title "Strompreise und Tarife"
+          h2#MainContent_h3HeaderImagePage "Spannung pur! Mit Energie der TEAG – sicher, günstig, einfach gut."
+section#MainContent_PCS16073.page-content-section.modul-section.dock-to-previous-section.alternative-background-color
+  div.center.clear-fix
+    div.tab-control.icon-text-align-horizontal.columns-1.static-integration {height: 253.047px;}
+      ul#MainContent_liste16073.clear-fix.contains-cards.tabs-1
+        li.complex-content.type-card.active "Strom Für eine leichtere Orientierung empfehlen wir unsere barrierefre"
+          a.shadow.hidden →javascript:void(0) (3 children) "Strom"
+          div.container.shadow {display: block;} (2 children)
+    div.columns-1.siegel-row
+      div.column-1
+        ul.clear-fix
+          li#MainContent_GSM16450
+          li#MainContent_GSM11210
+          li#MainContent_GSM9661
+section#MainContent_PCS26438.page-content-section.product-teasers-modul.extra-wide.full-content
+  div.center
+    ul#List26438.clear-fix.list.list-style-2.products
+      li#PCS26439.box.product-teaser.uses-startUp-animations.initialized {height: 414.719px; margin-left: 0px; margin-right: 0px; marg} "contrastwerkstatt/iStockphoto.com Unser neues Top-Angebot für Preisopt"
+        div
+          figure {height: 414.719px;} (2 children)
+section#PCS15395.page-content-section
+  div.center.clear-fix
+    div.columns-1
+      section.default.text-modul
+        header.center-content
+          h2 "Darum zur TEAG wechseln"
+        div.keyFacts-modul
+          ul#List15395.teaser.columns-3.do-not-priorizes.clear-fix (3 children)
+section#PCS15997.page-content-section.channel-products-modul.mobile-slider.slides-at-right-available
+  div.center
+    section.modul-content.items-4
+      header.extra-margin-bottom.center-content
+        h2 "Unsere Bestseller"
+      div.list-container
+        div.overflow-container
+          ul#MainContent_CPMList15997.boxes.manually-initialization.columns-4.do-not-priorizes (4 children)
+      div.controls.slider-pager.clear-fix
+        a.arrow-left.inactive →javascript:void(0)
+          span.icon
+        ul.hidden {display: none;}
+        a.arrow-right →javascript:void(0)
+          span.icon
+      div#MainContent_FootnoteContainer15997.footnote-container
+        p.footnote "1Bis zu 100 Euro Preisvorteil (brutto) dank 6-monatiger Grundpreisfrei"
+          sup
+          span#Footnote29ecd9e4-2b62-4de1-9b34-704e0b1279cf "Bis zu 100 Euro Preisvorteil (brutto) dank 6-monatiger Grundpreisfreih"
+        p.footnote "2Es besteht eine Nettopreisgarantie für 24 Monate ab Lieferbeginn. Die"
+          sup
+          span#Footnote0eff1a8a-4c6b-4cd0-88f7-08e5846808f2 "Es besteht eine Nettopreisgarantie für 24 Monate ab Lieferbeginn. Dies"
+        p.footnote "3Die Energiepreisgarantie ist auf die Kosten der Beschaffung und des V"
+          sup
+          span#Footnote6c919baa-daa7-4a5c-bf45-7862da0d683f "Die Energiepreisgarantie ist auf die Kosten der Beschaffung und des Ve"
+        p.footnote "4Die eingeschränkte Preisgarantie ist auf die Kosten der Beschaffung u"
+          sup
+          span#Footnote46cfd58b-e90d-4881-9b56-e9565c493c9e "Die eingeschränkte Preisgarantie ist auf die Kosten der Beschaffung un"
+section#MainContent_PCS16420.page-content-section.teaser-modul.coloring-background
+  div.center
+    section
+      header
+        h3 "Überzeugt? Dann gleich wechseln."
+      div#TeaserModulContainer16420.container
+        div.spacer
+        p.description "Rund 500.000 Kunden aus ganz Deutschland vertrauen auf die TEAG und si"
+        div.commands
+          a.link-button.blue.dynamic-size →?scrollTo=MainContent_PCS16073 {width: 187px; height: 40px; line-height: 40px; background: u} "Jetzt Preis berechnen"
+section#PCS15996.page-content-section.channel-products-modul.mobile-slider.slides-at-right-available
+  div.center
+    section.modul-content.items-4
+      header.extra-margin-bottom.center-content
+        h2 "Weitere Angebote"
+      div.list-container
+        div.overflow-container
+          ul#MainContent_CPMList15996.boxes.manually-initialization.columns-4.do-not-priorizes (4 children)
+      div.controls.slider-pager.clear-fix
+        a.arrow-left.inactive →javascript:void(0)
+          span.icon
+        ul.hidden {display: none;}
+        a.arrow-right →javascript:void(0)
+          span.icon
+section#MainContent_PCS21931.page-content-section.product-teasers-modul.extra-wide.full-content
+  div.center
+    ul#List21931.clear-fix.list.list-style-2.products
+      li#PCS21932.box.product-teaser.uses-startUp-animations.initialized {height: 415.469px; margin-left: 0px; margin-right: 0px; marg} "gorodenkoff/iStockphoto.com Mit Strom & Internet dauerhaft sparen Zusa"
+        div
+          figure {height: 415.469px;} (2 children)
+section#MainContent_PCS23137.page-content-section.product-teasers-modul.extra-wide.full-content
+  div.center
+    ul#List23137.clear-fix.list.list-style-2.products
+      li#PCS23138.box.product-teaser.uses-startUp-animations.initialized {height: 414.719px; margin-left: 0px; margin-right: 0px; marg} "gstockstudio/stock.adobe.com Energie des Moments: Entdecken Sie unsere"
+        div
+          figure {height: 414.719px;} (2 children)
+section#MainContent_PCS16169.page-content-section.product-teasers-modul.extra-wide.full-content
+  div.center
+    ul#List16169.clear-fix.list.list-style-2.products
+      li#PCS16170.box.product-teaser.uses-startUp-animations.initialized {height: 390.5px; margin-left: 0px; margin-right: 0px; margin} "AleksandarNakic/iStockphoto.com Ihre persönliche Bestwahl! Unsere Stro"
+        div
+          figure {height: 390.5px;} (2 children)
+section.page-content-section
+  div.center
+    section.step-by-step-123-modul.clear-fix.center-content
+      header.extra-margin-bottom
+        h3 "Ihr Wechsel zur TEAG - einfach und schnell"
+      div.container
+        section.step
+          div.symbol (1 children)
+          div.content (2 children)
+          div.connector-vertical
+        div.connector-horizontal
+          div.bow (1 children)
+        section.step
+          div.symbol (1 children)
+          div.content (2 children)
+          div.connector-vertical
+        div.connector-horizontal
+          div.bow (1 children)
+        section.step
+          div.symbol (1 children)
+          div.content (2 children)
+section#MainContent_PCS15963.page-content-section.teaser-modul.coloring-background.with-eye-catcher-container
+  div.center
+    section
+      header
+        h3 "Jetzt deutschlandweit unser Angebot vergleichen mit dem Tarifrechner S"
+      div#TeaserModulContainer15963.container
+        div.spacer
+        p.description "Schon entdeckt? Bei der Auswahl des für dich besten Tarifs hilft dir u"
+        div.commands
+          a.link-button.blue.dynamic-size →?scrollTo=MainContent_PCS16073 {width: 187px; height: 40px; line-height: 40px; background: u} "Jetzt Preis berechnen"
+    div.eye-catcher-container
+      figure
+        img [kreis_grafik_2500px_animiert_v2_lila.gif x]
+section#MainContent_PCS15749.page-content-section.product-teasers-modul.extra-wide.full-content
+  div.center
+    ul#List15749.clear-fix.list.list-style-2.products
+      li#PCS19344.product-teaser.uses-startUp-animations.energieBanking-modul.content-sized {height: 599.812px; margin-left: 0px; margin-right: 0px; marg} "TEAG Sind Sie bereits im TEAG-Kundenportal registriert? Das TEAG-Kunde"
+        div
+          figure {height: 599.797px;} (2 children)
+section#PCS16174.page-content-section
+  div.center.clear-fix
+    div.columns-1
+      section.text-modul.default
+        header
+          h2 "Durchschnittlicher Stromverbrauch: Wie viel kWh verbraucht ein Haushal"
+        figure.modul-image
+          img [AAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 x] {width:501px; height:auto;}
+          figcaption (1 children)
+        p "Wie viel ist eigentlich „viel“? Häufig ist Verbrauchern nicht klar, ob"
+        p "Ihr Stromverbrauch basiert auf mehreren Aspekten. Grundlegend ist die "
+        p "Ebenso relevant für Ihren Stromverbrauch sind die Leistung und die täg"
+        p "Liegen Sie selbst über oder unter dem durchschnittlichen Stromverbrauc"
+        div.scrollable-table_mode-horizontal
+          table {width:500px} (2 children)
+        p.footnote "Quelle: https://strom-report.de/stromverbrauch/"
+section#PCS16173.page-content-section
+  div.center.clear-fix
+    div.columns-1
+      section.text-modul.default
+        header
+          h2 "Wie setzt sich der Strompreis zusammen?"
+        p "Die Höhe des Strompreises ist für viele Nutzer auf den ersten Blick un"
+        p "Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Grundpr"
+        p "Ihre Energierechnung begleichen Sie mittels der monatlichen Abschlagsz"
+        section
+          h3 "Zusammensetzung Strompreis bei der TEAG"
+          p "Die nachfolgende Grafik zeigt Ihnen die Zusammensetzung des Strompreis"
+        section.image-remove-margin
+          figure.modul-image (2 children)
+          div.overflow.clear (1 children)
+section.page-content-section
+  div.center.clear-fix
+    div.columns-1.float-left
+      section.default
+        header.widget-header
+          h2 "Noch Fragen?"
+          span.divider
+        div#MainContent_Faqs1_FaqModul.module-faq.filter_drop-down-list_modul
+          div#MainContent_Faqs1_upFaqMarkAsRead (1 children)
+          div#MainContent_Faqs1_YouTubeVideoActivator1_upYouTubeVideoActivator.hidden (4 children)
+          div#MainContent_Faqs1_upFaqFilter.update-panel (1 children)
+          div#MainContent_Faqs1_ScreenReaderLiveAnnouncer.screen-reader.visible-only.update-announcment
+          div#MainContent_Faqs1_upFaqResult.update-panel (1 children)
+section#PCS15424.page-content-section.alternative-background-color
+  div.center.clear-fix
+    section#PCS15425.service-boxes.campaign
+      header.center-content.widget-header
+        h2 "Immer für Sie da"
+        span.divider
+      ul#MainContent_Boxes15425.boxes.columns-3.list.clear-fix
+        li.box "Sie haben Fragen? ty/stock.adobe.com E-Mail:kundenservice@teag.de Serv"
+          section.has-image (3 children)
+        li.box "Rückruf vereinbaren Sie haben eine Frage oder wünschen eine Beratung? "
+          section (2 children)
+        li.box "Auf einen Blick Hier finden Sie alle Service-Themen auf einen Blick. T"
+          section (2 children)

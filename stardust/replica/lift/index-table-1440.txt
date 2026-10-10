@@ -1,0 +1,340 @@
+## 1440  root scrollW 1440 scrollH 8759
+html | 0 0 1440 8737 of1 | fontFamily:STACK; fontSize:16px; fontWeight:400
+body | 0 0 1440 8737 of1 | backgroundColor:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader | 0 0 1440 170 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader .section-1 | 0 0 1440 90 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader .section-1 .center | 58 0 1321 90 of1 | display:flex; position:relative; margin:0px 57.5938px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader .logo | 58 0 163 90 of2 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageHeader .logo img | 58 19 147 53 of2 img 147x53 teag_logo_bigger@1.png | color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400
+#divMenuContainer | 221 0 1158 90 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#divMenuContainer .menu ul | 684 36 292 18 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#divMenuContainer .menu li | 684 36 169 18 of3 | display:list-item; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:17.152px
+#divMenuContainer .menu li a | 684 36 134 18 of3 | display:inline-block; margin:0px 34.304px 0px 0px; color:#767676; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:17.152px
+#divMenuContainer .menu .title | 707 34 111 23 of2 | display:inline; color:#767676; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:17.152px
+#divMenuContainer .menu .icon | 684 36 18 18 of3 | display:inline-block; margin:0px 6px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:17.152px
+#pnlSearch | 980 21 250 45 of1 | position:absolute; padding:0px 15px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:45px; borderRadius:22.25px
+#tbSearch | 995 23 191 40 of1 | display:inline-block; margin:0px 4px 0px 0px; padding:0px 3px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:40px; textAlign:right
+#lbSearch | 1194 21 21 45 of1 | display:inline-block; margin:-3px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:20.8px; fontWeight:400; lineHeight:45px
+#HeaderButtonsContainer | 1230 0 144 90 of1 | display:flex; padding:0px 0px 0px 32px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.contrast-modus-switch | 1262 33 112 25 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.contrast-modus-switch label | 1305 36 69 17 of1 | color:#767676; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:17.152px; textAlign:left
+.contrast-modus-switch .visualization | 1262 33 37 25 of1 | display:flex; margin:0px 6px 0px 0px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; borderRadius:18px; border:1px solid #8c8c8c
+.contrast-modus-switch a.icon | 1263 34 23 23 of1 | margin:0px 12.864px 0px 0px; padding:1px; backgroundColor:#767676; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center; borderRadius:50%
+.seperated-header | 0 90 1440 80 of1 | position:relative; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 15px 0px
+.seperated-header nav | 10 90 1420 0 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#DesktopMenu | 10 90 1420 0 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#DesktopMenu > ul.level-1 | 10 90 1420 0 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#DesktopMenu > ul.level-1 > li.level-1-1 | 10 90 234 80 of1 | display:list-item; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:80px
+#DesktopMenu > ul.level-1 > li.level-1-1 > a | 10 90 234 80 of1 | position:relative; padding:0px 15px; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:80px; textTransform:uppercase; textAlign:center
+#DesktopMenu > ul.level-1 > li.level-1-7 > a | 1274 90 156 80 of1 | position:relative; padding:0px 15px; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:80px; textTransform:uppercase; textAlign:center
+#DesktopMenu li.nav-button | 0 0 0 0 HIDDEN of1 | display:none; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:80px
+#DesktopMenu li.nav-button > a | 0 0 0 0 HIDDEN of1 | position:relative; padding:0px 15px; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:80px; textTransform:uppercase; textAlign:center
+#DesktopMenu li.nav-button .mobile-nav-container | 0 0 0 0 HIDDEN of1 | display:none; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:80px
+#DesktopMenu li.level-1-1 > div | 0 0 0 0 HIDDEN of1 | display:none; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:80px
+.combined-header | 0 0 0 0 HIDDEN of1 | display:none; position:relative; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 15px 0px
+.combined-header nav ul | 0 0 0 0 HIDDEN of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.combined-header li.logo | 0 0 0 0 HIDDEN of1 | display:list-item; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:17.152px
+.combined-header li.nav-link a | 0 0 0 0 HIDDEN of7 | position:relative; padding:0px 15px; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:80px; textTransform:uppercase; textAlign:center
+.combined-header li.search-container | 0 0 0 0 HIDDEN of1 | display:list-item; position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:80px
+#Content | 0 170 1440 8232 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_h1Alternative | -1 169 1 1 of1 | position:absolute; margin:-1px; color:#000000; fontFamily:STACK; fontSize:32px; fontWeight:700; lineHeight:38.4px
+section.slider-section | 0 170 1440 877 of1 | backgroundColor:#f2f2f2; fontFamily:STACK; fontSize:16px; fontWeight:400
+.slider-section .center.full-size | 0 170 1440 540 of1 | position:relative; maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.slider-section .slider | 0 170 1440 540 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.slider-section .slider > ul | 0 170 1440 540 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left
+.slider-section .slider > ul > li | 0 170 1440 540 of1 | display:list-item; position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+.slider-section figure | 0 170 1440 540 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+.slider-section figure picture | 0 170 1440 540 of1 img 1919x720 A759FACAF7194001B4A43C6B01B005DE_S_D_rdax_5757x2160_100s@1.j | display:inline; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+.slider-section figure img | 0 170 1440 540 of1 img 1919x720 A759FACAF7194001B4A43C6B01B005DE_S_D_rdax_5757x2160_100s@1.j | maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+.slider-section .bar | 965 504 475 106 of1 | position:absolute; maxWidth:30%; padding:25px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+.slider-section .bar a | 990 529 425 56 of1 | color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#slideHeadline26857 | 990 529 425 31 of1 | color:#ffffff; fontFamily:STACK; fontSize:25.728px; fontWeight:700; lineHeight:30.8736px; textAlign:left
+.slider-section .bar .description | 990 560 425 25 of1 | color:#ffffff; fontFamily:STACK; fontSize:18.0096px; fontWeight:400; lineHeight:25.2134px; textAlign:left
+.slider-section .bar .description .icon | 1401 564 14 19 of1 | display:inline; margin:0px 0px 0px 4px; color:#ffffff; fontFamily:STACK; fontSize:14.4077px; fontWeight:400; lineHeight:20.1708px; textAlign:left
+.slider-section .controls | 633 641 174 44 of1 | display:flex; position:absolute; margin:0px 633px; gap:10px; color:#000000; fontFamily:STACK; fontSize:40px; fontWeight:400; lineHeight:0px
+.slider-section .controls .group | 633 641 128 44 of2 | display:flex; padding:2px; gap:16px; backgroundColor:rgba(255, 255, 255, 0.5); color:#000000; fontFamily:STACK; fontSize:40px; fontWeight:400; lineHeight:0px; borderRadius:9999px
+.slider-section .controls a.arrow-left | 635 643 40 40 of1 | color:#870d87; fontFamily:STACK; fontSize:40px; fontWeight:400; lineHeight:0px
+.slider-section .controls ul li | 691 646 12 35 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:35px
+.slider-section .controls a.icon-pause | 0 0 0 0 HIDDEN of1 | display:none; color:#870d87; fontFamily:STACK; fontSize:40px; fontWeight:400; lineHeight:0px
+.slider-section figcaption | 0 710 1440 0 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+.slider-section .picture-credits | 1376 687 64 22 of1 | position:absolute; backgroundColor:rgba(255, 255, 255, 0.45); color:#000000; fontFamily:STACK; fontSize:13.7216px; fontWeight:400; lineHeight:21.9546px; textAlign:left
+.slider-section > .center:not(.full-size) | 0 678 1440 368 of1 | position:relative; maxWidth:100%; margin:-32px 0px 0px; padding:0px 25px 50px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_PCS16185 | 25 678 1390 318 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_liste16185 | 25 678 1390 81 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left
+#MainContent_liste16185 > li | 25 678 463 81 of3 | display:list-item; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_liste16185 > li.active | 25 678 463 81 of1 | display:list-item; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_liste16185 > li > a.shadow | 25 678 463 81 of3 | position:relative; color:#000000; fontFamily:STACK; fontSize:20.5824px; fontWeight:700; lineHeight:80px; textTransform:uppercase; textAlign:center; boxShadow:rgba(0, 0, 0, 0.3) 0px 0px 15px 0px
+#MainContent_liste16185 > li > a.shadow .label | 40 680 433 80 of3 | display:inline-flex; color:#000000; fontFamily:STACK; fontSize:20.5824px; fontWeight:700; lineHeight:80px; textTransform:uppercase; textAlign:center
+#MainContent_liste16185 > li > a.shadow .icon | 208 680 21 80 of3 | margin:0px 4px 0px 0px; color:#0ba2e3; fontFamily:STACK; fontSize:20.5824px; fontWeight:700; lineHeight:79px; textTransform:uppercase; textAlign:center
+#MainContent_liste16185 > li.active > .container | 25 760 1390 237 of1 | position:absolute; padding:20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center; boxShadow:rgba(0, 0, 0, 0.3) 0px 0px 15px 0px
+#MainContent_Verfuegbarkeitscheck16076_VerfuegbarkeitscheckModul | 45 780 1350 173 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#MainContent_Verfuegbarkeitscheck16076_Form | 65 800 1310 133 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_AddressFieldsContainer | 65 800 420 133 of1 | position:relative; margin:0px 34.304px 0px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_AddressFieldsContainer label | 65 800 420 26 of2 | margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_PlzUndOrt | 65 827 421 43 of1 | display:inline-block; margin:0px 10px 15px 0px; padding:0px 25px 0px 9px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_Verfuegbarkeitscheck16076_FilterSettingsOpen | 65 885 165 27 of1 | display:inline-block; padding:0px 0px 0px 25px; backgroundImage:url(…/arrow-right.svg); color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:27.4432px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsuptionFieldsContainer | 519 800 856 126 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_lblConsumptionSelection | 519 800 364 26 of1 | margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection | 519 827 364 31 of1 | display:flex; position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection .line | 583 842 238 1 of1 | position:absolute; backgroundColor:#a0a0a0; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_aConsumptionMinus | 519 827 30 30 of1 | display:flex; margin:0px 20px 0px 0px; backgroundColor:#870d87; color:#ffffff; fontFamily:FontAwesome; fontSize:18.8672px; fontWeight:400; lineHeight:18.8672px; textAlign:left; borderRadius:5px
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection ul | 569 827 284 31 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection li | 569 827 37 31 of5 | display:list-item; margin:0px 20px 0px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection a.active | 683 829 27 27 of1 | display:inline-flex; margin:1.7152px 0px 0px; backgroundColor:#870d87; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:27.4432px; textAlign:left; borderRadius:50%
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection a.inactive | 579 836 14 14 of4 | display:inline-flex; position:relative; margin:8.576px 0px 0px 10.2912px; backgroundColor:#a0a0a0; color:#a0a0a0; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left; borderRadius:50%
+#MainContent_Verfuegbarkeitscheck16076_ConsumptionSelection a span | 574 826 24 51 of5 | position:absolute; padding:27.4432px 0px 0px; color:#a0a0a0; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#MainContent_Verfuegbarkeitscheck16076_lbl_Verbrauch | 917 800 411 26 of1 | margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_VerbrauchHT | 917 827 373 43 of1 | margin:0px 5px 0px 0px; padding:0px 9px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+.unity-field .flex-box label | 1295 835 33 26 of2 | margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px; textAlign:left
+#MainContent_Verfuegbarkeitscheck16076_Calculate | 917 885 411 40 of1 | display:inline-block; position:relative; padding:0px 10px; backgroundImage:url(…/02Vm3AAAAAGSURBVAMAL6RzAeNXOxkAAAAASUVORK5CYII=); color:#ffffff; fontFamily:STACK; fontSize:17px; fontWeight:700; lineHeight:40px; textAlign:center
+.form-commands-container | 917 885 411 40 of2 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:left
+.info-message-for-availability-check | 45 953 1200 24 of2 | padding:0px 20px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:24.0128px; textAlign:left
+.info-message-for-availability-check a | 306 953 182 23 of2 | display:inline; color:#870d87; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:24.0128px; textAlign:left
+#PCS16444 | 0 1047 1440 130 of1 | padding:20px 57.5938px; backgroundColor:#f2f2f2; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS16444 .siegel-row | 58 1107 1325 30 of1 | margin:40px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS16444 ul | 58 1107 1325 30 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_GSM16450 | 658 1107 0 0 of1 | margin:0px 30px 30px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#MainContent_GSM11210 | 718 1107 0 0 of1 | margin:0px 30px 30px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#MainContent_GSM9661 | 778 1107 0 0 of1 | margin:0px 30px 30px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#PCS15732 | 0 1177 1440 471 of1 | padding:20px 57.5938px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS15732 .columns-1 | 58 1217 1325 391 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS15732 header | 58 1217 1325 35 of4 | margin:0px 0px 48px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#PCS15732 h2 | 58 1217 1325 35 of1 | color:#000000; fontFamily:STACK; fontSize:28.96px; fontWeight:700; lineHeight:34.752px; textAlign:center
+.keyFacts-modul | 58 1299 1325 309 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#List15732 | 58 1299 1325 309 of1 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#List15732 > li | 58 1299 428 309 of3 | display:list-item; margin:0px 20px 0px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#List15732 .icon-rounded-border | 58 1299 428 281 of3 | padding:20px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#List15732 .icon-rounded-border > .icon | 238 1319 68 68 of3 | display:inline-block; margin:0px 0px 21.44px; padding:10.72px; backgroundColor:#870d87; color:#ffffff; fontFamily:STACK; fontSize:42.88px; fontWeight:400; lineHeight:42.88px; textAlign:center; borderRadius:50%; border:2px solid #870d87
+#List15732 .icon-rounded-border .container | 78 1409 388 136 of3 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#List15732 h3 | 78 1409 388 29 of3 | color:#870d87; fontFamily:STACK; fontSize:24.352px; fontWeight:700; lineHeight:29.2224px; textAlign:center
+#List15732 p | 78 1490 388 55 of3 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#MainContent_PCS15736 | 0 1648 1440 648 of1 | padding:20px 57.5938px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#List15736 | 58 1688 1325 568 of1 | position:relative; padding:150px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS15737 | 58 1838 642 418 of1 | margin:0px 20px 0px 0px; padding:20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#PCS15737 > div | 78 1858 602 528 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#PCS15737 figure | 78 1858 572 528 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#PCS15737 picture | 78 1708 572 292 of1 img 666x340 AFE8B35C39C2497BA8D85047D05AC66D_PT_D_rdax_2001x1022s@1.jpg | position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#PCS15737 img | 78 1708 572 292 of1 img 666x340 AFE8B35C39C2497BA8D85047D05AC66D_PT_D_rdax_2001x1022s@1.jpg | maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#PCS15737 figcaption | 78 2010 572 235 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#PCS15737 .picture-credits | 490 1980 160 22 of1 | position:absolute; backgroundColor:rgba(255, 255, 255, 0.45); color:#000000; fontFamily:STACK; fontSize:13.7216px; fontWeight:400; lineHeight:21.9546px
+#PCS15737 figcaption .container | 78 2010 572 235 of1 | position:relative; padding:20px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#Heading15737 | 98 2030 532 31 of1 | margin:0px 0px 5px; color:#000000; fontFamily:STACK; fontSize:25.728px; fontWeight:700; lineHeight:30.8736px; textAlign:center
+#PCS15737 .divider | 307 2077 133 1 of1 | display:inline-block; margin:0px 0px 7px 20px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#PCS15737 .description | 98 2094 532 82 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#PCS15737 .description p | 98 2094 532 82 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#PCS15737 .link | 98 2176 532 50 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:27.4432px; textAlign:center
+#PCS15737 .link-button | 248 2186 231 40 of1 | display:inline-block; position:relative; margin:9.8624px 0px 0px; padding:0px 10px; backgroundImage:url(…/Hj4hdAAAAAZJREFUAwCkqeHb9KZKIgAAAABJRU5ErkJggg==); color:#ffffff; fontFamily:STACK; fontSize:19.7248px; fontWeight:700; lineHeight:40px; textAlign:center
+.step-by-step-123-modul | 58 2336 1325 402 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step-by-step-123-modul > header | 58 2336 1325 35 of1 | margin:0px 0px 64px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step-by-step-123-modul h3 | 58 2336 1325 35 of1 | color:#000000; fontFamily:STACK; fontSize:28.96px; fontWeight:700; lineHeight:34.752px; textAlign:center
+.step-by-step-123-modul > .container | 190 2435 1060 304 of1 | display:flex; margin:0px 132.469px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step-by-step-123-modul .step | 190 2435 223 304 of3 | display:flex; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step .symbol | 261 2435 80 80 of3 | position:relative; margin:0px 0px 32px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center; borderRadius:50%
+.step .symbol span | 261 2448 80 53 of3 | position:absolute; margin:13.5938px 0px 13.6094px; color:#ffffff; fontFamily:STACK; fontSize:48px; fontWeight:700; lineHeight:48px; textAlign:center
+.step .content | 190 2547 223 164 of3 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step .content header | 201 2547 200 50 of3 | margin:0px 11.125px 16px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.step .content h4 | 201 2547 200 50 of3 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:20.8px; fontWeight:700; lineHeight:24.96px; textAlign:center
+.step .content p | 190 2612 223 82 of3 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+.connector-horizontal | 413 2435 180 304 of2 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.connector-horizontal .bow | 368 2435 270 146 of2 | position:absolute; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center; borderRadius:50%; border:
+.connector-horizontal .cover | 366 2477 274 56 of2 | position:absolute; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.connector-vertical | 301 2711 0 0 of2 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#PCS16424 | 0 2778 1440 726 of1 | padding:20px 57.5938px; backgroundColor:#f2f2f2; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PCS16441 | 58 2818 1325 646 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Boxes16441 | 58 2818 1325 646 of1 | display:flex; gap:20px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Boxes16441 > li | 58 2818 428 626 of3 | backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#MainContent_Boxes16441 > li.multiple-sections > section | 58 2818 428 276 of2 | padding:20px 20px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#MainContent_Boxes16441 .netzstoerung | 58 3094 428 302 of1 | padding:20px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.widget-header | 0 0 0 0 HIDDEN of5 | margin:0px 0px 51.456px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+.widget-header h3 | 78 2838 388 27 of4 | color:#000000; fontFamily:STACK; fontSize:22.3936px; fontWeight:700; lineHeight:26.8723px; textAlign:left
+.widget-header .divider | 0 0 0 0 HIDDEN of5 | display:inline-block; margin:8.576px 0px 0px; backgroundColor:#8c8c8c; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#MainContent_Boxes16441 .container | 78 2900 388 194 of4 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.icon-list | 78 2900 388 194 of2 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.icon-list ul | 78 2900 388 194 of2 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.icon-list li.entry | 78 2900 388 30 of4 | display:flex; margin:0px 0px 17.152px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.icon-list li.entry > span | 78 2900 72 30 of4 | display:flex; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.icon-list li.entry .icon | 78 2900 19 30 of4 | margin:0px 9.4336px 0px 0px; color:#000000; fontFamily:STACK; fontSize:18.8672px; fontWeight:400; lineHeight:30.1875px
+.icon-list b.label | 106 2900 44 30 of5 | padding:0px 4.288px 0px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:27.4432px
+.icon-list a.hilite | 150 2900 197 30 of5 | color:#0ba2e3; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:27.4432px
+.icon-list .annotation | 106 3024 357 50 of1 | display:inline; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.icon-list .suffix | 397 3279 51 23 of2 | display:inline; padding:0px 0px 0px 8.576px; color:#767676; fontFamily:STACK; fontSize:17.152px; fontWeight:600; lineHeight:27.4432px
+.service-text | 78 3151 388 110 of2 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.service-text b | 209 3235 163 23 of1 | display:inline; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:27.4432px
+.link-list | 0 0 0 0 HIDDEN of3 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.link-list li | 0 0 0 0 HIDDEN of12 | display:list-item; margin:0px 0px 12.864px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.link-list li a | 0 0 0 0 HIDDEN of11 | display:inline; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:27.4432px
+.link-list li a .icon | 0 0 0 0 HIDDEN of12 | display:inline-block; margin:0px 6px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:27.4432px
+.call-back | 526 2900 388 524 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.call-back p.no-margin | 526 2900 388 55 of1 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.call-back p.spc | 526 2971 388 82 of1 | margin:0px 0px 16px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.call-back section | 526 3070 388 355 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.call-back .name-wrapper | 526 3070 388 58 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.call-back label | 0 0 0 0 HIDDEN of6 | display:none; margin:0px 0px 2px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:25.6px
+#MainContent_CallBack2_c_firstname | 526 3070 190 43 of1 | margin:0px 0px 15px; padding:0px 9px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_CallBack2_c_lastname | 724 3070 190 43 of1 | margin:0px 0px 15px; padding:0px 9px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_CallBack2_c_date | 526 3128 366 43 of1 | margin:0px 5px 0px 0px; padding:0px 9px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_CallBack2_ceo_c_date | 897 3136 17 27 of1 | color:#870d87; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.with-extender | 526 3128 388 43 of1 | display:flex; position:relative; margin:0px 0px 15px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#MainContent_CallBack2_c_phone | 526 3186 388 43 of1 | display:inline-block; margin:0px 0px 15px; padding:0px 9px; backgroundColor:#ededed; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:41px
+#MainContent_CallBack2_c_ddlThema | 526 3244 388 43 of1 | display:inline-block; boxSizing:border-box; margin:0px 0px 15px; padding:0px 0px 0px 8px; backgroundColor:#ededed; color:#6b6b6b; fontFamily:STACK; fontSize:14px; fontWeight:400
+.check-box-agb | 0 0 0 0 HIDDEN of2 | display:flex; margin:0px 0px 20px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.check-box-agb input | 0 0 0 0 HIDDEN of4 | boxSizing:border-box; margin:3px 0px 0px 3px; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400
+.check-box-agb label | 0 0 0 0 HIDDEN of2 | padding:0px 0px 0px 6px; color:#000000; fontFamily:STACK; fontSize:14.5792px; fontWeight:400; lineHeight:20.4109px
+#MainContent_CallBack2_c_send | 753 3384 161 40 of1 | position:relative; padding:0px 10px; backgroundImage:url(…/xAuAycwAAAAAElFTkSuQmCC); color:#ffffff; fontFamily:STACK; fontSize:17px; fontWeight:700; lineHeight:40px; textAlign:center
+#MainContent_Boxes16441 figure | 974 2900 388 197 of1 | display:inline-block; position:relative; margin:0px 0px 20px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#MainContent_Boxes16441 figure img | 974 2900 388 197 of1 img 493x250 EC2B411706834871A1151BFDED2AEBA1_PLT_W_rdax_1479x750_100s@1. | maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#MainContent_PCS15318 | 0 3368 1440 367 of1 | margin:-136px 0px 0px; padding:104px 57.5938px 20px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_PCS15318 > .center | 58 3492 1325 203 of1 | position:relative; maxWidth:1420px; margin:20px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_PCS15318 section | 58 3492 1325 203 of1 | position:relative; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_PCS15318 header | 58 3492 1325 35 of1 | margin:0px 0px 48px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_PCS15318 h3 | 58 3492 1325 35 of1 | color:#ffffff; fontFamily:STACK; fontSize:28.96px; fontWeight:700; lineHeight:34.752px; textAlign:center
+#TeaserModulContainer15318 | 58 3575 1325 121 of1 | display:flex; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_PCS15318 .spacer | 0 0 0 0 HIDDEN of1 | display:none; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_PCS15318 .description | 58 3575 1325 55 of1 | margin:0px 0px 25.728px; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#MainContent_PCS15318 .commands | 58 3656 1325 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_PCS15318 .link-button | 617 3656 207 40 of1 | display:inline-block; position:relative; padding:0px 10px; backgroundImage:url(…/npTzngAAAAZJREFUAwAUl9DR4akijgAAAABJRU5ErkJggg==); color:#ffffff; fontFamily:STACK; fontSize:17px; fontWeight:700; lineHeight:40px; textAlign:center
+section.themen-section | 0 3736 1440 1337 of1 | backgroundColor:#f2f2f2; fontFamily:STACK; fontSize:16px; fontWeight:400
+.themen-section > .center | 0 3736 1440 1337 of1 | position:relative; maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.themen-section header | 0 3736 1440 135 of1 | margin:0px 0px 48px; padding:100px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.themen-section h2 | 0 3836 1440 35 of1 | color:#000000; fontFamily:STACK; fontSize:28.96px; fontWeight:700; lineHeight:34.752px; textAlign:center
+.themen-section .dynamic-list | 0 3918 1440 1154 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.themen-section ul.teaser-list | 0 3918 1440 1010 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.themen-section li.list-entry | 0 3918 1440 337 of3 | display:list-item; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.themen-section li.list-entry a | 0 3918 1440 337 of3 | position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; boxShadow:rgba(0, 0, 0, 0.5) 0px 0px 10px 0px
+.themen-section li.list-entry figure | 0 3918 1440 337 of3 | position:relative; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+.themen-section li.list-entry img | 0 3918 720 337 of3 img 960x449 044CBA91BE684BDFADCA5F13D3249E22_TLT_D_rdax_100s@1.jpg | maxWidth:100%; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; opacity:0.9
+.themen-section .picture-credits | 0 4232 720 22 of3 | position:absolute; backgroundColor:rgba(255, 255, 255, 0.45); color:#000000; fontFamily:STACK; fontSize:13.7216px; fontWeight:400; lineHeight:21.9546px; textAlign:right
+.themen-section figcaption .container | 864 3975 432 224 of3 | position:absolute; margin:56.2656px 144px; color:#000000; fontFamily:STACK; fontSize:16.6016px; fontWeight:400; lineHeight:26.5626px; textAlign:center
+.themen-section h3.title | 864 3975 432 71 of3 | color:#000000; fontFamily:STACK; fontSize:29.5616px; fontWeight:700; lineHeight:35.4739px; textAlign:center
+.themen-section .title + .divider | 1026 4057 108 1 of3 | display:inline-block; margin:0px 0px 7px; backgroundColor:#870d87; color:#000000; fontFamily:STACK; fontSize:16.6016px; fontWeight:400; lineHeight:26.5626px; textAlign:center
+.themen-section .description | 864 4072 432 127 of3 | position:relative; padding:0px 0px 55px; color:#000000; fontFamily:STACK; fontSize:19.9219px; fontWeight:400; lineHeight:23.9063px; textAlign:center
+.themen-section .description .icon | 874 4157 422 42 of3 | position:absolute; margin:0px 0px 0px 10px; color:#870d87; fontFamily:STACK; fontSize:34.8634px; fontWeight:400; lineHeight:41.836px; textAlign:center
+.themen-section .commands | 0 4929 1440 144 of1 | padding:45px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_Themen1_lbThemenTeaserLoadMore | 610 4974 220 54 of1 | display:inline-block; position:relative; padding:0px 30px; backgroundImage:url(…/+6qrRaAAAABklEQVQDAKU0tNmQE87ZAAAAAElFTkSuQmCC); color:#ffffff; fontFamily:STACK; fontSize:19px; fontWeight:700; lineHeight:54px; textAlign:center
+section.aktuelles | 0 5073 1440 1080 of2 | padding:20px 57.5938px; fontFamily:STACK; fontSize:16px; fontWeight:400
+.aktuelles > .center | 58 5113 1325 1000 of2 | position:relative; maxWidth:1420px; margin:20px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.aktuelles .text-modul | 58 5113 1325 36 of2 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.aktuelles header | 58 5113 1325 36 of2 | margin:0px 0px 48px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.aktuelles h2 | 58 5113 1325 36 of2 | color:#000000; fontFamily:STACK; fontSize:30.4px; fontWeight:700; lineHeight:36.48px; textAlign:center
+.aktuelles .toolTip | 0 0 0 0 HIDDEN of2 | display:none; position:fixed; maxWidth:300px; padding:10px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:left; border:2px solid #0ba2e3
+#MainContent_Aktuelles9383_Modul | 58 5197 1325 915 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Aktuelles9383_ulPosts | 58 5197 1325 776 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Aktuelles9383_ulPosts > li.column | 58 5197 316 756 of4 | margin:0px 20px 20px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#MainContent_Aktuelles9383_ulPosts > li.column > ul | 58 5197 316 756 of4 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#TEAG_32349 | 58 5197 316 370 of1 | display:inline-block; margin:0px 0px 20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#TEAG_32349 a | 58 5197 316 362 of1 | padding:15px 20px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#TEAG_32349 .container | 78 5212 276 347 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#TEAG_32349 .date | 78 5212 276 27 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#TEAG_32349 .post-label | 78 5240 276 27 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#TEAG_32349 p.text | 78 5267 276 132 of1 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:18.8672px; fontWeight:700; lineHeight:26.4141px
+#TEAG_32349 p.description | 78 5407 276 120 of1 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:24.0128px
+#TEAG_32349 p.link | 78 5535 276 24 of1 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:700; lineHeight:24.0128px
+#TEAG_32349 p.link .icon | 78 5538 14 19 of1 | display:inline-block; margin:0px 4px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:13.7216px; fontWeight:700; lineHeight:19.2102px
+#TEAG_31262 | 58 5587 316 346 of1 | display:inline-block; margin:0px 0px 20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#MainContent_Aktuelles9383_upAktuelles .commands | 58 5993 1325 119 of1 | padding:0px 0px 45px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+#MainContent_Aktuelles9383_lbLoadNextPosts | 610 5993 220 54 of1 | display:inline-block; position:relative; padding:0px 30px; backgroundImage:url(…/+6qrRaAAAABklEQVQDAKU0tNmQE87ZAAAAAElFTkSuQmCC); color:#ffffff; fontFamily:STACK; fontSize:19px; fontWeight:700; lineHeight:54px; textAlign:center
+.aktuelles .text-editor-container | 58 6277 1325 27 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.aktuelles .text-editor-container p | 58 6277 1325 27 of1 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+.toolTip-opener | 0 0 0 0 HIDDEN of4 | display:inline-block; position:relative; margin:0px 0px 0px 3px; backgroundColor:#ffffff; color:#6c757d; fontFamily:STACK; fontSize:12px; fontWeight:400; lineHeight:19.2px; textAlign:center; borderRadius:12px; border:2px solid #6c757d
+.toolTip-opener .fa | 0 0 0 0 HIDDEN of4 | position:absolute; margin:auto; color:#6c757d; fontFamily:FontAwesome; fontSize:12px; fontWeight:400; lineHeight:12px; textAlign:center
+#MainContent_Aktuelles23058_ulPosts | 58 6352 1325 1107 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Aktuelles23058_ulPosts > li.column | 58 6352 316 990 of4 | margin:0px 20px 20px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 | 58 6352 316 396 of1 | display:inline-block; margin:0px 0px 20px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#IG7513253691315920897 .container | 58 6352 316 396 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .date | 58 6352 316 42 of1 | padding:15px 20px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .date .fa | 78 6371 19 17 of1 | display:inline-block; padding:0px 4px 0px 0px; color:#0a66c2; fontFamily:FontAwesome; fontSize:17.152px; fontWeight:400; lineHeight:17.152px
+#IG7513253691315920897 p.text | 58 6395 316 26 of1 | margin:0px 0px 8px; padding:0px 20px; color:#000000; fontFamily:STACK; fontSize:18.8672px; fontWeight:700; lineHeight:26.4141px
+#IG7513253691315920897 .post-content | 58 6429 316 262 of1 | padding:0px 20px 12px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .post-content > a | 135 6431 148 23 of1 | display:inline; color:#870d87; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .post-content p | 78 6649 276 264 of3 | margin:0px 0px 8px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:24.0128px
+#IG7513253691315920897 .wrapper | 78 7421 276 219 of1 | margin:12px 0px 8px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .carousel | 58 7421 316 219 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .slider | 58 7421 316 219 of1 | color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .slider > ul | 58 7421 1897 219 of1 | display:flex; position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .slider > ul > li | 58 7421 315 219 of6 | display:list-item; position:relative; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .slider li img | 58 7421 315 210 of6 img 1200x800 5386ce6f-3ff8-4eaf-b7da-5bed0e4099c0 | display:inline; backgroundColor:#666666; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .controls | 58 7421 316 219 of1 | position:absolute; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .controls a.btn-left | 0 0 0 0 HIDDEN of1 | display:none; position:absolute; color:#870d87; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px
+#IG7513253691315920897 .controls ul | 58 7602 316 27 of1 | position:absolute; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:center
+#IG7513253691315920897 .controls ul li a | 151 7606 15 17 of6 | display:inline-block; color:#0ba2e3; fontFamily:FontAwesome; fontSize:17.152px; fontWeight:400; lineHeight:17.152px; textAlign:center
+#IG7513253691315920897 .commands | 58 6691 316 57 of1 | padding:15px 20px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:27.4432px; textAlign:right
+#IG7513253691315920897 .commands a | 230 6709 124 21 of1 | display:inline; color:#0a66c2; fontFamily:STACK; fontSize:15.4368px; fontWeight:400; lineHeight:24.6989px; textAlign:right
+#IG17942006100094046 | MISSING
+#IG17942006100094046 .video | MISSING
+#IG17942006100094046 .video img | MISSING
+#IG17942006100094046 .video .fa-instagram | MISSING
+#IG17942006100094046 .video .fa-play-circle | MISSING
+#IG17942006100094046 .post-content | MISSING
+#IG18635647471010099 | MISSING
+#IG18635647471010099 .carousel | MISSING
+#IG18635647471010099 .slider li img | MISSING
+section.veranstaltungen | 0 7639 1440 763 of1 | padding:20px 0px; fontFamily:STACK; fontSize:16px; fontWeight:400
+.veranstaltungen > .center | 0 7679 1440 683 of1 | position:relative; maxWidth:100%; margin:20px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.veranstaltungen header | 0 7679 1440 36 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.veranstaltungen h2 | 0 7679 1440 36 of1 | margin:0px 0px 40px; color:#000000; fontFamily:STACK; fontSize:30.4px; fontWeight:700; lineHeight:36.48px; textAlign:center
+.veranstaltungen .panel | 0 7755 1440 462 of1 | padding:0px 0px 15px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; boxShadow:rgba(0, 0, 0, 0.2) 0px 0px 10px 0px
+#MainContent_Veranstaltungen1_pnlAppointment | 0 7755 1440 365 of1 | position:relative; margin:10px 0px 20px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Veranstaltungen1_upDetailView | 0 7755 1440 365 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#22021 | MISSING
+#22021 a.teaser | MISSING
+#22021 figure | MISSING
+#22021 picture | MISSING
+#22021 img | MISSING
+#22021 figcaption | MISSING
+#22021 .picture-credits | MISSING
+#22021 .bar | MISSING
+#22021 .bar .title | MISSING
+#22021 .meta-data | MISSING
+#22021 .meta-data .icon | MISSING
+#MainContent_Veranstaltungen1_lbAppointmentBack | 0 0 0 0 HIDDEN of1 | display:none; position:absolute; margin:auto; color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Veranstaltungen1_lbAppointmentBack .arrow | 0 0 0 0 HIDDEN of1 | display:inline-block; backgroundColor:#870d87; backgroundImage:url(…/arrow-only-left.svg); color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400; borderRadius:17.5px
+#MainContent_Veranstaltungen1_lbAppointmentNext | 0 0 0 0 HIDDEN of1 | display:none; position:absolute; margin:auto; color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Veranstaltungen1_lbAppointmentNext .arrow | 0 0 0 0 HIDDEN of1 | display:inline-block; backgroundColor:#870d87; backgroundImage:url(…/arrow-only-right.svg); color:#870d87; fontFamily:STACK; fontSize:16px; fontWeight:400; borderRadius:17.5px
+#MainContent_Veranstaltungen1_upPager | 0 8140 1440 32 of1 | position:relative; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#MainContent_Veranstaltungen1_ulQuartals | 10 8140 1420 32 of1 | position:relative; maxWidth:1420px; margin:10px 0px 30px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+.list-quartals > li.navigation-button | -30 8140 32 51 of2 | position:absolute; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals > li.navigation-button a | -30 8159 32 23 of2 | display:inline; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals > li.navigation-button .icon | -30 8140 32 51 of2 | display:inline-block; color:#808080; fontFamily:STACK; fontSize:31.68px; fontWeight:400; lineHeight:50.688px
+.list-quartals li.month-index-1 | 10 8144 426 28 of1 | position:relative; margin:4px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals li.month-index-2 | 436 8144 994 28 of1 | position:relative; margin:4px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals li.month-index-3 | 1430 8144 0 0 of1 | position:relative; margin:4px 0px 0px; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals .month-name | 0 0 0 0 HIDDEN of3 | display:none; color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:600; lineHeight:30.976px
+.list-quartals li.month-index-1 > ul | 10 8146 426 12 of1 | display:inline-block; position:relative; color:#870d87; fontFamily:STACK; fontSize:17.6px; fontWeight:400; lineHeight:28.16px
+.list-quartals li.month-index-1 > ul > li | 81 8146 18 33 of3 | position:absolute; color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:400; lineHeight:30.976px
+.list-quartals li.month-index-1 > ul > li.active | 81 8146 18 33 of1 | position:absolute; color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:400; lineHeight:30.976px
+.list-quartals a.day-link | 75 8146 24 24 of10 | display:inline-block; position:relative; margin:0px 0px 0px -6px; backgroundImage:url(…/4AO8970nyfRHkAAAAASUVORK5CYII=); color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:400; lineHeight:30.976px
+.list-quartals li.active a.day-link | 75 8146 24 24 of1 | display:inline-block; position:relative; margin:0px 0px 0px -6px; backgroundImage:url(…/4AO8970nyfRHkAAAAASUVORK5CYII=); color:#870d87; fontFamily:STACK; fontSize:19.36px; fontWeight:400; lineHeight:30.976px
+.list-quartals a.day-link span | 75 8169 24 20 of10 | position:absolute; color:#000000; fontFamily:STACK; fontSize:12.584px; fontWeight:600; lineHeight:20.1344px; textAlign:center
+.list-quartals .timeline | MISSING
+.veranstaltungen .commands | 0 8218 1440 144 of1 | padding:45px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; textAlign:center
+.veranstaltungen .commands a.link-button | 615 8263 211 54 of1 | display:inline-block; position:relative; padding:0px 30px; backgroundImage:url(…/vgbFEngAAAABJRU5ErkJggg==); color:#ffffff; fontFamily:STACK; fontSize:19px; fontWeight:700; lineHeight:54px; textAlign:center
+#PageFooter | 0 8402 1440 335 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-1 | 0 8402 1440 260 of1 | padding:30px 15px 15px; backgroundColor:#870d87; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-1 .center | 15 8452 1410 175 of1 | display:flex; position:relative; margin:20px 0px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .contact | 15 8452 299 175 of1 | margin:0px 25px 0px 0px; padding:0px 0px 15px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .contact h3 | 15 8452 299 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:18.72px; fontWeight:700; lineHeight:40px; textTransform:uppercase
+#PageFooter .contact ul | 15 8492 299 120 of1 | color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .contact li | 15 8492 299 40 of3 | display:list-item; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:600; lineHeight:40px
+#PageFooter .contact .label | 32 8492 76 40 of3 | display:inline-block; padding:0px 0px 0px 16px; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:40px
+#PageFooter .contact a | 108 8500 123 23 of3 | display:inline; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:600; lineHeight:40px
+#PageFooter .social | 450 8452 274 175 of1 | margin:0px 25px 0px 0px; padding:0px 0px 15px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .social h3 | 450 8452 274 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:18.72px; fontWeight:700; lineHeight:40px; textTransform:uppercase
+#PageFooter .social h3 a | 650 8460 22 22 of1 | display:inline-block; position:relative; margin:-5px 0px 0px 5px; backgroundColor:#870d87; color:#ffffff; fontFamily:STACK; fontSize:12px; fontWeight:700; lineHeight:40px; textTransform:uppercase; textAlign:center; borderRadius:12px; border:2px solid #ffffff
+#PageFooter .social ul | 450 8492 274 46 of1 | display:flex; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .social li | 450 8492 45 46 of6 | color:#ffffff; fontFamily:STACK; fontSize:28.96px; fontWeight:400; lineHeight:46.336px
+#PageFooter .social li a | 450 8501 25 29 of6 | display:inline-block; color:#ffffff; fontFamily:FontAwesome; fontSize:28.96px; fontWeight:400; lineHeight:28.96px
+#PageFooter .social li a.icon-X | 675 8500 24 33 of1 | display:inline; color:#ffffff; fontFamily:STACK; fontSize:24.616px; fontWeight:400; lineHeight:39.3856px
+#PageFooter .newsletter | 861 8452 564 175 of1 | padding:0px 0px 15px; color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .newsletter h3 | 861 8452 564 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:18.72px; fontWeight:700; lineHeight:40px; textTransform:uppercase
+#PageFooter .newsletter p | 861 8492 564 55 of1 | margin:0px 0px 15px; color:#ffffff; fontFamily:STACK; fontSize:17.152px; fontWeight:500; lineHeight:27.4432px
+#PageFooter .newsletter .clear-fix | 861 8561 564 40 of1 | color:#ffffff; fontFamily:STACK; fontSize:16px; fontWeight:400
+#nl_email | 861 8561 333 40 of1 | display:inline-block; margin:0px 4px 0px 0px; padding:0px 3px 0px 10px; backgroundColor:#ffffff; color:#000000; fontFamily:STACK; fontSize:14px; fontWeight:400; lineHeight:40px
+#lbNewsletter | 1202 8561 155 40 of1 | display:inline-block; position:relative; padding:0px 10px; backgroundImage:url(…/5y1dPIAAAAGSURBVAMAZQrjtuBcXx8AAAAASUVORK5CYII=); color:#ffffff; fontFamily:STACK; fontSize:17px; fontWeight:700; lineHeight:40px; textAlign:center
+#PageFooter .section-2 | 0 8662 1440 75 of1 | padding:0px 15px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-2 .center | 15 8662 1410 75 of1 | display:flex; position:relative; padding:25px 0px 0px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-2 nav | 15 8687 977 50 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-2 nav ul | 15 8687 977 50 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400
+#PageFooter .section-2 nav li | 15 8687 92 50 of8 | display:inline-block; margin:0px 30px 0px 0px; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:50px
+#PageFooter .section-2 nav li a | 15 8700 92 23 of7 | display:inline; color:#000000; fontFamily:STACK; fontSize:17.152px; fontWeight:400; lineHeight:50px
+#PageFooter .copyright | 992 8687 433 50 of1 | color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:50px
+#PageFooter .copyright span | 992 8701 295 22 of1 | display:inline; padding:0px 0px 0px 30px; color:#000000; fontFamily:STACK; fontSize:16px; fontWeight:400; lineHeight:50px; border:

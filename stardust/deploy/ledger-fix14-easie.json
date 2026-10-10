@@ -1,0 +1,11 @@
+{
+  "/privatkunden/strom/stromtarife/teag-strom-easie": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-09T13:08:26.799Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

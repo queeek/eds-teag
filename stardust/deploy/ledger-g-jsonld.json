@@ -1,0 +1,65 @@
+{
+  "/datenschutz": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:49:24.138Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privatkunden/strom/ersatzversorgung": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:49:24.138Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privatkunden/strom/haus-baustromanschluss": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:49:29.217Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privatkunden/strom/stromtarife/teag-strom-easie": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:49:29.369Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privatkunden/strom/stromtarife": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:49:33.522Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ueber-uns/unternehmen": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:49:39.831Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:50:14.706Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

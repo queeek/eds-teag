@@ -1,0 +1,183 @@
+/* stylelint-disable no-descending-specificity */
+
+/* news-posts — the "News & Presse." post columns (live .aktuelles .posts.columns-4).
+   Values from stardust/prototypes/css/index.css (.aktuelles) + canon.css. */
+main .section.news-posts-container > .default-content-wrapper h2 {
+  font-size: 1.9em;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+main .section.news-posts-container > .default-content-wrapper:last-child {
+  text-align: center;
+  padding-bottom: 65px; /* fix wave 10 (measure.mjs r1): live .commands 119 = 54 button + 65 */
+}
+
+/* fix wave 10: the trailing "Mehr anzeigen" link is the live a.link-button.enlarge (54 px); same face as social-wall */
+main .section.news-posts-container > .default-content-wrapper:last-child a {
+  display: inline-block;
+  height: 54px;
+  margin: 0;
+  padding: 0 30px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #fff;
+  background-color: transparent;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAA2CAYAAABdjqzoAAACZUlEQVR4AezZsW7bMBCA4VP2vmg7dbSXAl3SsVu3PqW7lqXYuojtIIhkBicxn2BKEOAj7v67H4qVh8cPj8XCwAzcPwMPUY9SSkT9WDMMyxwsm4HmTw1pMk0xxfyxIjCIwCBiCYOpfTmiyRQOBBC4mwCZ7kZog40QSE+DTOktkMAoBMg0SifVkU6ATOktkMAoBMg0SifVkU6ATOktGCUBdZDJDCDQiQCZOoG0DQJkMgMIdCJApk4gbYMAmUaZAXWkEyBTegskMAoBMo3SSXWkEyBTegskMAoBMo3SSXWkEyBTpxbYBgEymQEEOhEgUyeQtkGATGYAgU4EyNQJpG0QGEUmnUQgnQCZ0lsggVEIkGmUTqojnQCZ0lsggVEIkGmUTqojnUAnmdLrkAAC6QTIlN4CCYxCgEyjdFId6QTIlN4CCYxCgEyjdFIdnQis34ZM69mJROCCAJkucLhBYD0BMq1nJxKBCwJkusDhBoH1BMi0np3ItyCw4z3JtOPmSX1bBMi0rX7IZscEyLTj5kl9WwTItK1+yGbHBMi04+a9Rer2XE6gRGlBZGoYnBBYSaB6NE1TCyZTw+CEwAoCVaT461ELJlPD4ITAQgJXIpVSvpJpIUNfR6D9RHryRCq/y7fj6fiFTNuaDdlsncDtE+n78dfxMKdNppmChcBrCDwn0un4+RxKpjMJVwReInAr0o/6p91/keZQMs0ULAReIvC8SB+vQ5pM7Z9Oc4AV7cclDjj8m4H6li6evv6u9/MT6UakqEeTaZrqq4n6aUHv+lqJqD/MQcSZwTTNAxHn4+fhdPh0vrm+/gEAAP//BBQ3DwAAAAZJREFUAwBY8I/vgbFEngAAAABJRU5ErkJggg==");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 0;
+  border-radius: 0;
+  white-space: nowrap;
+}
+
+main .section.news-posts-container > .default-content-wrapper:last-child a::before,
+main .section.news-posts-container > .default-content-wrapper:last-child a::after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+}
+
+.news-posts {
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+.news-posts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-posts-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-posts-column,
+.news-posts-column > ul {
+  display: contents;
+}
+
+.news-posts-post {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: var(--shadow-box);
+}
+
+.news-posts-column:nth-child(1) > ul > li:nth-child(1) { order: 1; }
+.news-posts-column:nth-child(2) > ul > li:nth-child(1) { order: 2; }
+.news-posts-column:nth-child(3) > ul > li:nth-child(1) { order: 3; }
+.news-posts-column:nth-child(4) > ul > li:nth-child(1) { order: 4; }
+.news-posts-column:nth-child(1) > ul > li:nth-child(2) { order: 5; }
+.news-posts-column:nth-child(2) > ul > li:nth-child(2) { order: 6; }
+.news-posts-column:nth-child(3) > ul > li:nth-child(2) { order: 7; }
+.news-posts-column:nth-child(4) > ul > li:nth-child(2) { order: 8; }
+.news-posts-column:nth-child(1) > ul > li:nth-child(3) { order: 9; }
+.news-posts-column:nth-child(2) > ul > li:nth-child(3) { order: 10; }
+.news-posts-column:nth-child(3) > ul > li:nth-child(3) { order: 11; }
+.news-posts-column:nth-child(4) > ul > li:nth-child(3) { order: 12; }
+
+main .news-posts a.news-posts-link {
+  display: block;
+  padding: 15px 20px 0;
+  color: #000;
+  font-weight: 400; /* fix wave 11 — styles' `main a:any-link { font-weight: 700 }` (0,1,1) needs this specificity; (gate units 1440 r3): the served card link inherited 700 (live 17/27/400) → wider text, extra wrapped lines (description 120 vs live 96) */
+  text-decoration: none;
+}
+
+.news-posts p {
+  margin: 0;
+}
+
+.news-posts-date,
+.news-posts-label {
+  display: block;
+  color: #000;
+}
+
+.news-posts-text {
+  margin: 0 0 8px;
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.news-posts p.news-posts-description,
+.news-posts p.news-posts-more {
+  /* fix wave 11 (gate units 1440 r3): `.news-posts p { margin: 0 }` (0,1,1) beat these 8 px margins → live li 370 / a 362 vs served 354 / 354 */
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.news-posts-more {
+  font-weight: 700;
+}
+
+.news-posts-icon {
+  display: inline-block;
+  margin-right: 4px;
+  color: var(--c-primary);
+  font-family: "teag-2017", sans-serif;
+  font-size: .8em;
+}
+
+.news-posts-icon::before {
+  content: "c";
+}
+
+@media (width >= 1025px) {
+  .news-posts-columns {
+    display: block;
+  }
+
+  .news-posts-columns::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .news-posts-column {
+    display: block;
+    float: left;
+    width: calc(25% - 15px);
+    margin: 0 20px 20px 0;
+  }
+
+  .news-posts-column:last-child {
+    margin-right: 0;
+  }
+
+  .news-posts-column > ul {
+    display: block;
+  }
+
+  .news-posts-post {
+    display: inline-block;
+  }
+}
+
+/* fix wave 12 (measure.mjs 360, live .dynamic-list li.list-entry vs .news-posts-post): the two news-post cards
+   (no "Pressemitteilung" label) end with p.link margin-bottom 20 (press cards 8) — live 218 / 291 vs served
+   206 / 279 (gate units 1440 r1: li#TEAG_30991 dh -12) */
+.news-posts li:not(:has(.news-posts-label)) p.news-posts-more {
+  margin-bottom: 20px;
+}
+
+/* fix wave 13 (measure.mjs 360, 12:26Z): the h2 → list gap is the h2 margin alone (the wrapper 20 collapses into it): live 85 = h2 36 + 49, served with 29 = 65 → the 48 above stays (84). */
+
+/* fix wave 12 (measure.mjs 360): live last card end → .commands = 60 (card margin 20 + 20 + 20); served 40.
+   Measured at 360 only — the 1440 gap is not a unit row yet, so <= 1024 for now */
+@media (width <= 1024px) {
+  main .section.news-posts-container > .default-content-wrapper:last-child {
+    padding-top: 20px;
+  }
+}
+
+/* fix wave 12 (gate units 1440 r2): live p.link is the block that carries icon + "Weiterlesen" (276 x 24) */
+.news-posts p.news-posts-more a {
+  display: block;
+}

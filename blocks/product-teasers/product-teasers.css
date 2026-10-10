@@ -1,0 +1,667 @@
+/* product-teasers — values from stardust/prototypes/css/privatkunden-strom-stromtarife.css
+   (lift: stardust/replica/lift/privatkunden-strom-stromtarife.md § Product teasers, list-style-2).
+   Source: section.product-teasers-modul.extra-wide { padding: 20px 0 } > .center { margin: 20px auto;
+   max-width 1920 } > ul.list-style-2 { margin: 0 15px; padding: 20px 4vw 0 } > li.box.product-teaser
+   (float, width calc(100% - 40px), padding 0 20, shadow .2); picture absolute on one half, the
+   white .container absolute, vertically centred, on the other. Height = picture height (the live
+   JS equaliser) = figure { height: 0; padding-top: calc((50% + 4vw) * .6055) }.
+   Mobile first (<= 1024: stacked card, picture pulled up 40px, no card face). */
+
+/* ul.products.list-style-2 */
+.product-teasers {
+  position: relative;
+  margin: 0;
+  padding: 20px var(--gutter) 0;
+  font-size: 16px;
+}
+
+.product-teasers::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* li.box.product-teaser */
+.product-teasers-card {
+  position: relative;
+  width: 100%;
+  padding: 20px 0 0;
+  box-sizing: content-box;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+}
+
+.product-teasers-figure {
+  position: static;
+  height: auto;
+  margin: 0;
+  padding-top: 0;
+}
+
+.product-teasers-figure > picture {
+  position: relative;
+  top: -40px;
+  left: calc(-1 * var(--gutter));
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 -40px;
+  overflow: hidden;
+}
+
+.product-teasers-figure > picture.product-teasers-all,
+.product-teasers-figure > picture.product-teasers-mobile {
+  display: block;
+}
+
+.product-teasers-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.product-teasers-figure figcaption {
+  position: relative;
+  display: block;
+}
+
+/* .container: static on mobile, padding 20 0 0 */
+.product-teasers-text {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 20px 0 0;
+  text-align: left;
+  color: #000;
+}
+
+.product-teasers-text > * {
+  padding-right: 0;
+}
+
+.product-teasers-text h2 {
+  margin: 0 0 5px;
+  font-size: 1.5em;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* span.divider: inline-block 25% x 1px purple, margin 0 20px 7px 0 (its own line box) */
+.product-teasers-divider {
+  display: inline-block;
+  width: 25%;
+  height: 1px;
+  margin: 0 20px 7px 0;
+  background-color: var(--c-primary);
+}
+
+.product-teasers-text p {
+  margin: 0 0 16px;
+}
+
+.product-teasers-text ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ul.benefit li: checkmark-pos.svg 18px at 0 .45em, padding-left 28 */
+.product-teasers-text li {
+  padding-left: 28px;
+  background: url('./checkmark-pos.svg') no-repeat 0 0.45em / 18px auto;
+}
+
+.product-teasers-text sup {
+  font-size: 0.83em;
+  line-height: normal;
+  vertical-align: super;
+}
+
+/* .link: bold, .link-button margin-top .5em, font-size 1.15em */
+.product-teasers-link {
+  font-weight: 700;
+}
+
+
+/* .link-button 1.15em (19.72px); the live bold face renders ~4 % wider than the self-hosted one */
+.product-teasers-link a.button:any-link {
+  margin-top: 0.5em;
+  min-width: 0;
+  font-size: 1.18em;
+}
+
+/* .picture-credits: abs, on mobile stretched -4vw..0 right under the picture (top -21) */
+.product-teasers-credits {
+  position: absolute;
+  inset: -21px 0 auto calc(-1 * var(--gutter));
+  padding: 0;
+  font-size: calc(0.825 * var(--fs-body));
+  line-height: 1.6;
+  white-space: nowrap;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+.product-teasers-credits::before {
+  content: '\00a9';
+  display: inline-block;
+  padding: 0 6px 0 5px;
+  font-family: FontAwesome, sans-serif;
+  text-align: center;
+}
+
+.product-teasers-credits p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+.product-teasers-extra p {
+  margin-bottom: 16px;
+}
+
+.product-teasers-extra::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.product-teasers-extra p:has(picture) {
+  float: left;
+  width: calc((100% - 40px) / 3);
+  margin: 0 20px 0 0;
+}
+
+.product-teasers-extra p:has(picture) a {
+  display: block;
+}
+
+.product-teasers-extra picture img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+main .product-teasers-link p,
+main .product-teasers-link p.button-container,
+main .product-teasers-link p.button-wrapper {
+  margin: 0;
+  text-align: left;
+}
+
+/* banking variant: icon list (flex li, line-height 2em), additional content with 2 badges */
+.product-teasers.banking .product-teasers-text ul {
+  margin-bottom: 3em;
+}
+
+.product-teasers.banking .product-teasers-text ul + p {
+  margin-bottom: 0;
+}
+
+.product-teasers.banking .product-teasers-text li {
+  display: flex;
+  margin-bottom: 0.5em;
+  line-height: 2em;
+}
+
+.product-teasers.banking .product-teasers-link {
+  margin-bottom: 16px;
+}
+
+/* energieBanking keeps its 40px right padding on the stacked card (h2 wraps at 291px @360) */
+.product-teasers.banking .product-teasers-text {
+  padding-right: 40px;
+}
+
+
+@media (width >= 769px) {
+  .product-teasers-figure:has(.product-teasers-tablet) picture.product-teasers-mobile {
+    display: none;
+  }
+
+  .product-teasers-figure > picture.product-teasers-tablet {
+    display: block;
+  }
+}
+
+@media (width >= 1025px) {
+  .product-teasers {
+    margin: 0 15px;
+  }
+
+  .product-teasers-figure > picture.product-teasers-tablet,
+  .product-teasers-figure > picture.product-teasers-mobile {
+    display: none;
+  }
+
+  .product-teasers-figure > picture.product-teasers-desktop {
+    display: block;
+  }
+
+  /* li.box.product-teaser: float right (image left) / left (image right), card face */
+  .product-teasers-card {
+    float: right;
+    width: calc(100% - 40px);
+    max-width: calc(1420px + 100px - 40px);
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+  }
+
+  .product-teasers.image-right .product-teasers-card {
+    float: left;
+  }
+
+  .product-teasers-figure {
+    height: 0;
+    padding-top: calc((50% + 4vw) * 0.6055);
+  }
+
+  .product-teasers.image-right .product-teasers-figure {
+    padding-top: calc((50% + 4vw - 40px) * 0.6055);
+  }
+
+  .product-teasers-figure > picture {
+    position: absolute;
+    top: -20px;
+    left: calc(-1 * var(--gutter));
+    width: calc(50% + 4vw - 20px);
+    max-width: 915px;
+    margin: 0;
+  }
+
+  .product-teasers.image-right .product-teasers-figure > picture {
+    right: calc(-1 * var(--gutter));
+    left: auto;
+    width: calc(50% + 4vw - 60px);
+  }
+
+  .product-teasers-figure figcaption {
+    position: static;
+  }
+
+  .product-teasers-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(50% - 20px);
+    width: calc(50% - 20px);
+    height: fit-content;
+    margin: auto;
+    padding: 20px 0 20px 40px;
+    background-color: #fff;
+  }
+
+  .product-teasers.image-right .product-teasers-text {
+    left: 0;
+    width: calc(50% + 20px);
+    padding: 20px 40px 20px 0;
+  }
+
+  .product-teasers-text > * {
+    padding-right: 20px;
+  }
+
+  .product-teasers-credits {
+    inset: auto auto 21px calc(-1 * var(--gutter));
+    width: max-content;
+  }
+
+  .product-teasers.image-right .product-teasers-credits {
+    right: calc(-1 * var(--gutter));
+    left: auto;
+  }
+
+  /* energieBanking: no card, content-sized text column at 10 %, picture right at 10 % */
+  .product-teasers.banking .product-teasers-card {
+    float: left;
+    width: 100%;
+    max-width: 1420px;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  .product-teasers.banking .product-teasers-figure {
+    height: auto;
+    padding-top: 0;
+  }
+
+  .product-teasers.banking .product-teasers-figure > picture {
+    top: -20px;
+    right: 10%;
+    left: auto;
+    width: calc(50% - 20px);
+  }
+
+  .product-teasers.banking .product-teasers-text {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: 10%;
+    width: calc(50% - 20px);
+    height: auto;
+    margin: 0;
+    padding: 20px 40px 20px 0;
+    background: none;
+  }
+
+  .product-teasers.banking .product-teasers-text > * {
+    padding-right: 0;
+  }
+
+  .product-teasers.banking .product-teasers-credits {
+    inset: 338px 10% auto auto;
+  }
+}
+
+/* fix wave 2 — stacked cards ≤ 1024, authored to the live 360 boxes (measure.mjs, w2-*-teasers-360.json):
+   card 4 ("Bestwahl", h2 + p + button): live p→button gap is the button's .5em only (EDS +16 px);
+   banking card: live li.product-teaser has no top padding (image −40 px, h2 at +177), ul→button 85 px
+   (EDS 111), button→badges 58 px, badges 180×60 stacked with 30 px gaps, card height 895 with the
+   second badge overflowing the JS-set card height by 31 px (replicated through the negative margin). */
+@media (width <= 1024px) {
+  .product-teasers-text > p:last-child {
+    margin-bottom: 0;
+  }
+
+  .product-teasers.banking .product-teasers-card {
+    padding-top: 0;
+  }
+
+  .product-teasers.banking .product-teasers-text {
+    padding-top: 28px;
+  }
+
+  .product-teasers.banking .product-teasers-text ul {
+    margin-bottom: calc(3em - 26px);
+  }
+
+  .product-teasers.banking .product-teasers-link {
+    margin-bottom: 17px;
+  }
+
+  .product-teasers.banking .product-teasers-extra {
+    margin-right: -20px; /* fix wave 3: the live app-badge row is 311 wide — its caption stays on one line */
+    margin-bottom: 29px;
+  }
+
+  .product-teasers.banking .product-teasers-extra p:has(picture) {
+    float: none;
+    width: 180px;
+    margin: 0 0 37px;
+  }
+
+  .product-teasers.banking .product-teasers-extra p:has(picture):last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* ---------- program siblings (additive) ----------
+   teag-strom-easie: the single list-style-2 card carries an h3 (live measure: 30.112px / 36.13
+   @1440 = 1.7556em of 17.152; 24.432 / 29.32 @360 = 1.5em of 16.288; margin 0 0 5px) and the
+   section's header.center-content.extra-margin-bottom h2 (28.96 / 1.2 centred, margin-bottom
+   48) precedes the list as default content — variant `with-header`. */
+.product-teasers .product-teasers-text h3 {
+  margin: 0 0 5px;
+  font-size: 1.5em;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* ul.benefit followed by a paragraph: 28px gap (live measure easie card, both widths) */
+.product-teasers.with-header .product-teasers-text ul {
+  margin-bottom: 28px;
+}
+
+/* ersatzversorgung: ul.products.list-style-1.columns-2 — variant `columns-2` (live measure):
+   ul padding-top 150; li 642 wide incl. 20 padding, white, shadow .2 10px, 2 per row with a
+   41px gap @1440 (stacked @360), the live JS equalises the card height to 418px; the figure is
+   calc(100% - 30px) wide (100% - 4vw @360), its picture pulled up 150px (120 @360) with the
+   caption 10px under the picture's visual bottom; .container centred text, padding 20; h2 1.5em;
+   divider 25 % with margin-left 20; credits 30px above the caption at the figure's right. */
+.product-teasers.columns-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 150px 0 0;
+}
+
+.product-teasers.columns-2::after {
+  display: none;
+}
+
+.product-teasers.columns-2 .product-teasers-card {
+  float: none;
+  width: auto;
+  max-width: none;
+  min-height: 418px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+
+.product-teasers.columns-2 .product-teasers-figure {
+  position: relative;
+  float: none;
+  width: calc(100% - 4vw);
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.product-teasers.columns-2 .product-teasers-figure > picture {
+  position: relative;
+  inset: -120px auto auto 0;
+  width: 100%;
+  height: auto;
+  margin: 0 0 -110px;
+}
+
+.product-teasers.columns-2 .product-teasers-figure figcaption {
+  position: relative;
+}
+
+.product-teasers.columns-2 .product-teasers-text {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  transform: none;
+}
+
+.product-teasers.columns-2 .product-teasers-text > * {
+  padding-right: 0;
+}
+
+.product-teasers.columns-2 .product-teasers-text h2,
+.product-teasers.columns-2 .product-teasers-text .product-teasers-description p {
+  text-align: center;
+}
+
+main .product-teasers.columns-2 .product-teasers-text .product-teasers-link p {
+  text-align: center;
+}
+
+.product-teasers.columns-2 .product-teasers-credits {
+  inset: -30px 0 auto auto;
+}
+
+/* .description's last paragraph sits flush on the link row (live: .link directly under it) */
+.product-teasers.columns-2 .product-teasers-text .product-teasers-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* with-header (easie): the live JS equaliser sets the card to the taller text column — 476px
+   @1440 (live measure li.product-teaser h 476 vs picture 415) */
+@media (width >= 1025px) {
+  .product-teasers.with-header .product-teasers-card {
+    min-height: 476px;
+  }
+
+  .product-teasers .product-teasers-text h3 {
+    font-size: 1.7556em;
+  }
+
+  .product-teasers.columns-2 {
+    flex-flow: row wrap;
+    gap: 0 41px;
+    margin: 0;
+  }
+
+  .product-teasers.columns-2 .product-teasers-card {
+    flex: 0 0 calc(50% - 20.5px);
+  }
+
+  .product-teasers.columns-2 .product-teasers-figure {
+    width: calc(100% - 30px);
+  }
+
+  .product-teasers.columns-2 .product-teasers-figure > picture {
+    inset: -150px auto auto 0;
+    margin: 0 0 -140px;
+  }
+}
+
+main .section.product-teasers-container:has(.product-teasers.with-header)
+  > .default-content-wrapper {
+  margin-bottom: 0;
+}
+
+main .section.product-teasers-container:has(.product-teasers.with-header)
+  > .default-content-wrapper h2 {
+  margin: 0 0 48px;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* program-360 fix wave (measure.mjs @360 live vs preview, one run per page): the stacked card
+   picture is the live 331x189 crop (the EDS mobile rendition renders 331x149, -40 px on every
+   program card incl. banking); columns-2 stacked cards keep the live li margin-bottom 160 and the
+   ul reads 198 above the first card (150 + 48); fix-wave-6: 148 once the FAQ above regained its live
+   50 px (the 198 had absorbed a -57 shortfall of the sections above; live ul padding-top is 150). */
+@media (width <= 1024px) {
+  .product-teasers:not(.columns-2) .product-teasers-figure > picture img {
+    aspect-ratio: 331 / 189;
+    object-fit: cover;
+  }
+
+  .product-teasers.columns-2 {
+    padding-top: 147px; /* fix-wave-7 round 2: 141 (was 148); fix-wave-15 crop-compare 360 y 2600: cards 6 px above the live → 147, bottom 8 → 2 keeps the section height */
+  }
+
+  .product-teasers.columns-2 .product-teasers-card + .product-teasers-card {
+    margin-top: 160px;
+  }
+}
+
+/* program-360 fix wave @1440 (teag-strom-easie, the only with-header card): live .picture-credits
+   sits 22 px above the picture's bottom (card 476, picture 415 -> 81 px above the card bottom);
+   the block anchored it 21 px above the card bottom (59 px low). */
+@media (width >= 1025px) {
+  .product-teasers.with-header .product-teasers-credits {
+    inset: auto auto 81px calc(-1 * var(--gutter));
+  }
+}
+
+/* program-360 fix wave round 2 (measure.mjs @360): the live stacked .container pads 10 px above
+   its heading (block: 20) on every program card. */
+@media (width <= 1024px) {
+  .product-teasers:not(.columns-2, .banking) .product-teasers-text {
+    padding-top: 10px;
+  }
+}
+
+/* program-360 fix wave round 3 (measure.mjs @360, stromtarife card 4 "Bestwahl"): live
+   .description -> .link gap is 1 px when the description ends with a paragraph (block: 17). */
+@media (width <= 1024px) {
+  .product-teasers:not(.columns-2) .product-teasers-description > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* fix wave 3 (measure.mjs @360, banking card): the two app-store badges were display:none — the
+   caption sits inside the figure, so `.product-teasers-figure picture` (hero slots) matched them;
+   every hero rule now targets `.product-teasers-figure > picture`. Live @360: text column 311 wide
+   (container padding 10 0), badges 180x60 at link-end +59 and +156, li closes 29 under the second. */
+
+/* fix wave 3 round 2 (measure.mjs @360, PCS26438 vs the first card): the live `.container` reads
+   padding 10px 0 — 10 px under the link — where the block's text column had 10px 0 0; every
+   standard card read 10 px short (716 / 705 / 760 / 634 vs 709 / 695 / 750 / 624). */
+@media (width <= 1024px) {
+  .product-teasers:not(.banking, .columns-2) .product-teasers-text {
+    padding-top: 20px; /* unit-geometry @360: every text row read dy -10 against the live card */
+  }
+}
+
+/* fix wave 4 (measure.mjs @360 + settled stitch crop 9550-10000, stromtarife): the live banking
+   li keeps its JS-set height of 895 — it closes 29 px under the second badge's TOP (badge2 y 9600,
+   li end 9629) and the next card's h2 follows 21 px later (9650); the build card closed under the
+   badge's bottom (9672), then block +29, section padding 40 + 40 → h2 at 9781, +131 px against the
+   origin for everything below. The extra block's bottom margin takes the live overlap (119 px). */
+@media (width <= 1024px) {
+  .product-teasers.banking .product-teasers-extra {
+    margin-bottom: -90px;
+  }
+}
+
+/* ---- fix-wave-5 (2026-10-08, measure.mjs @360 ersatzversorgung, units.json @1440 easie) ---- */
+/* columns-2 @360: the live li is 416 / 391 — no 418 floor (that is the desktop equaliser value)
+   and the live .container ends 10 px past the li content box (li 416 = pad 20 + 376 + 10 + 10) */
+@media (width <= 1024px) {
+  .product-teasers.columns-2 .product-teasers-card {
+    min-height: 0;
+    padding-bottom: 10px;
+  }
+}
+
+/* columns-2: the live first card's span.divider carries margin-left 20 (x 153 vs the second
+   card's 133 at 360, 250 vs 229 at 1440); the second keeps margin-right 20 */
+.product-teasers.columns-2 > .product-teasers-card:first-of-type .product-teasers-divider {
+  margin: 0 0 7px 20px;
+}
+
+/* with-header (easie): the live description's last paragraph sits flush on the link row
+   (gap 9 @1440 = the link's own margin-top; the build had 16 + 9.6 = 26, text column −9/+9) */
+.product-teasers.with-header .product-teasers-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---- fix-wave-6 (2026-10-09, measure.mjs @360 ersatzversorgung live vs build) ---- */
+/* columns-2 @360: the live ul#List15736 ends 8 px below the second li (ul bottom 6035, li bottom
+   6027) and the footer starts at 6075; the build's block ended flush at 6027, footer 6067 */
+@media (width <= 1024px) {
+  .product-teasers.columns-2 {
+    padding-bottom: 2px;
+  }
+}
+
+/* ---- fix-wave-7 (2026-10-09, font-probe + measure.mjs @360 ersatzversorgung, unit `link:zu den stromtarifen`):
+   both sides render the same Noto Sans 700 webfont (md5-identical woff, document.fonts loaded); the live
+   `.link-button` is 1.15em with `::before`/`::after` 3 px inline-blocks and a preserved trailing space before
+   the ::after (canvas 189.1 + 3 + 3 + 4.9 + padding 20 = 220 @360). The 1.18em bump compensated the wrong thing.
+   Keyed on .columns-2 (ersatz only) so the stromtarife/easie cards keep their numbers. */
+.product-teasers.columns-2 .product-teasers-link a.button:any-link {
+  font-size: 1.15em;
+}
+
+.product-teasers.columns-2 .product-teasers-link a.button:any-link::before,
+.product-teasers.columns-2 .product-teasers-link a.button:any-link::after {
+  content: '';
+  display: inline-block;
+  width: 3px;
+}
+
+.product-teasers.columns-2 .product-teasers-link a.button:any-link::after {
+  margin-left: 0.26em;
+}

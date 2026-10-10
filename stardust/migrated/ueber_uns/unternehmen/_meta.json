@@ -1,0 +1,1657 @@
+{
+  "slug": "ueber-uns-unternehmen",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "breadcrumb",
+    "photo-teasers",
+    "channel-cards"
+  ],
+  "slotsFilled": [
+    "screen-reader",
+    "page-content-section",
+    "page-meta-section",
+    "page-content-section"
+  ],
+  "canonShas": {
+    "header": "fa083cd24cc6",
+    "footer": "402ffd0d5972",
+    "css": "cdfa2551e3bb"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Unternehmen | TEAG Thüringer Energie",
+    "description": "Im Unternehmensbereich erhalten Sie einen kompakten Einblick in die TEAG-Gruppe.",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Unternehmen | TEAG Thüringer Energie",
+    "description": "Im Unternehmensbereich erhalten Sie einen kompakten Einblick in die TEAG-Gruppe.",
+    "url": "https://www.thueringerenergie.de/ueber_uns/unternehmen"
+  },
+  "migratedAt": "2026-10-08T11:54:39Z",
+  "designMdSha": "054fd4d81465",
+  "designJsonSha": "2d0e1b9f13ee",
+  "sourceCurrentSha": "dba5a7c13f64",
+  "sourceProposedSha": "0a6cadad1610",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 32,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/default",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/suche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/teag-strom-extra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/teag-strom-easie",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/teag-strom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/teag-heizstrom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/thueringenstrom-vorkasse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/thueringenstrom-sozial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/grundversorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/azubibonus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/dynamisch",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/dynamisch/teag-strom-dynamic-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/stromtarife/dynamisch/teag-strom-dynamic-base",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom/ersatzversorgung",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/privatkunden/strom_und_internet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/strom_und_smartwatch",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas/gastarife",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas/gastarife/teag-gas-easie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas/gastarife/teag-gas-extra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas/gastarife/teag-gas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas/gastarife/thueringengas-vorkasse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas/gastarife/grundversorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas/ersatzversorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/erdgas/hausanschluss",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/elektromobilitaet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/thueringendsl",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/energieloesungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/energieloesungen/mein_zuhause",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/energieloesungen/sanierungsfahrplan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/energieloesungen/thermografie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/energieloesungen/blower_door",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/energieloesungen/energieausweis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/energieloesungen/energiecockpit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/teag-kundenportal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/zaehlerstandsmeldung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/24h-lieferantenwechsel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/energiesparen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/umzug_kuendigung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/umzug_kuendigung/widerruf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/umzug_kuendigung/umzug",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/umzug_kuendigung/kuendigung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/umzug_kuendigung/todesfall",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/sepa-lastschriftmandat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/systemumstellung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/teag-strom-extra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/teag-strom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/teag-heizstrom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/thueringenstrom-vorkasse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/grundversorgung_strom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/teag-gas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/teag-gas-natur",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/thueringengas-vorkasse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/gewerbekunden/grundversorgung_erdgas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/grosskunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-profi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-vario",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-spot-business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-trend",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-quattro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/grosskunden/teag-strom-pool",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/grosskunden/teag-strom-gas-spot-expert",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/verbaende",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/vermittler",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/landwirtschaft",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/wohnungswirtschaft",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/energielieferung/filialkunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/waerme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/photovoltaik",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/thueringendsl",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/elektromobilitaet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/erneuerbare_energieloesungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/energieaudit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/energieeffizienzanalyse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/energieeffizienzfoerderung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/energie_und_lastmanagement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/direktvermarktung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/direktvermarktung/gefoerderte_dv",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/direktvermarktung/sonstige_dv",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/direktvermarktung/ppa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/ansprechpartnersuche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/kundenportale",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/kundenportale/teag-kundenportal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/kundenportale/webcheck",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/kundenportale/energieklick",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/kundenportale/energieklick/strom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/kundenportale/energieklick/erdgas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/preisrechner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/zielpreisverfahren",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/ersatzversorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/haus-_und_baustromanschluss",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/energiesparen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/rechnung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/service/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden/gruene_energieloesungen/energieeffizienzfoerderung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/strom-und-erdgas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/netzausbau",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/glasfaserausbau",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/wasser",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/elektromobilitaet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/erneuerbare-energien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/strassenbeleuchtung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/kommunale-waermeplanung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/akademie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/teag-gruppe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/aktuelles-veranstaltungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/teag-kommunal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/ansprechpartner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunalpartnerextra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunalpartnerextra/foerderprogramme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunalpartnerextra/faqs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunalpartnerextra/teag-kommunal-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunalpartnerextra/digitale-angebote",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen/kommunale-loesungen/kommunale-waermeplanung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/energielieferung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/service",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/service/stromkennzeichnung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/service/marktpreise_und_-berichte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/service/remit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/materialwirtschaft",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/materialwirtschaft/gruppenrahmenvertraege",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/materialwirtschaft/dokumente",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/materialwirtschaft/mengenkontrakte_strom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/materialwirtschaft/mengenkontrakte_erdgas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/materialwirtschaft/materialangebot_ten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/materialwirtschaft/lead_buyer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/aktuelles",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/aktuelles/veranstaltungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/vertriebspartnerextra/aktuelles/wissenswertes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/dienstleistungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/dienstleistungen/risikomanagement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/dienstleistungen/gruene_produkte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/dienstleistungen/emissionshandel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/dienstleistungen/netzbetreiber",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/ansprechpartner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/energieklick",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/energieklick/strom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke/energieklick/gas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/allgemeine_technische_seminare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/beauftragtenschulung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/elektrotechnik_und_erneuerbare_energien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/energiewirtschaft",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/fernwaerme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/freileitungsbau",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/gastechnik",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/hoehentraining",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/kommunikationstechnik",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/ortungstechnik",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/seminare/wasser",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/organisation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/organisation/anmeldeprozess",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/organisation/ansprechpartner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/organisation/anreise",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/organisation/uebernachtungsmoeglichkeiten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/akademie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/akademie/das_zeichnet_uns_aus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/akademie/ausbildung_und_ausbildungsgemeinschaft",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/akademie/trainingszentrum_erfurt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/akademie/zertifikate_und_mitgliedschaften",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie/akademie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/arbeitskreis-stromgeschichte-umspannwerk-jena",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/energieberatung-teag-stromfresser-erkennen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/datensicherung-resilienz-plattform",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/wissenschaftsshow-thueringen-ausstellung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/wasserstoff-hyson-sonneberg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/zement-kalk",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/windkraft-tierschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/waermeplanungskonferenz_badsalzungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/sonnenstrom",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/wasserstoffkonferenz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/hochwassereinsatz-windehausen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/100jahre",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/pelto_bad_sohnstedt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/grosstransformatoren_jena",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/dynamische-stromtarife",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/thueringer_waermetagung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/energieeffiziente-waermeloesungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/zukunftsfaehiges-fernwaerme-projekt-triptis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/power-to-heat-anlage-bad-salzungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/minimalinvasiv_werther",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/ein_echt_dickes_ding",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/alles_im_fluss",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/heisswasserspeicher-heizkraftwerk-jena",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/waerme_weida",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/waerme/waermetagung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/internet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/internet/glasfaseranschluss-wandersleben",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/internet/bahnquerung_schmoelln",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/internet/noc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/internet/lichtfestzeulenroda",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/internet/netkom-beseitigt-weisse-flecken",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/internet/blackdragons",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/internet/glasfaser_eichfeld",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/energieerzeugung-sedlmayer-industriekunde",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/deponie-grosspoesna",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/batteriespeicher-pilotanlage-bad-salzungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/windenergieanlage-instandhaltung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/aktiv-schule-erfurt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/pilotprojekt_batteriespeicher",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/solarparks-naturschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/solarpark-ohrdruf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/kita_spatzennest_solaranlage_komsolar_stiftung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/solarpark_kreis_hildburghausen_deponie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/pv-anlage-birkigt-biodiversitaet-sonnenstrom-ostthueringen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/bombensicher",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/lebenshilfewerk-ilmenau",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/carpenter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/freibad_triptis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/gruenerstahl",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/breitenworbis",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/interview_freiflaeche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/pv_und_speicher/wartung-bleicherode",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet/ausbau-oeffentliche-ladeinfrastruktur",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet/automobilmesse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet/laden-schleiz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet/fachtagung-fahrsicherheitszentrum-thueringen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet/elektromobilitaetstag",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet/ladenamladen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet/zukunftstechnologie_automesse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/elektromobilitaet/interview2023",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/groesste-mythen-energiewende-faktencheck",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/digitale-wasserzaehler",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/wasserspartipps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/energiewende-umsetzung-eu-nachhaltigkeitsrichtlinie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/waermelecks_im_visier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/modernes_wohnen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/sanierungsfahrplan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/thermografie-check",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/energieeffizienz/blowerdoor_erfurt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/quereinstieg-ausbildung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/weiterbildung_berufliches_wachstum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/kabelmesswagen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/zukunftsmacher-duenkel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/zukunftsmacher-meiselbach",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/unternehmenslauf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/netzleitstelle-ten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/gasnetz-monteur",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/homeoffice-eichsfeld",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/pruefstelle-wasser",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/windkraft-thueringen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/gesundheitsmanagement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/systemadministrator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/dualesstudium_goleshi",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/zukunftsmacher_siegel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/elektroanlagenmonteur-hildburghausen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/waermewende-gestalten-energieeffizienz-",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/fahrradfreundlichkeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/tag-der-offenen-tuer-moderne-technik-begeistert",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/hse-tag-teag-gruppe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/fussballturnier",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/drews",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/reifhardt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/zukunftsmacher",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/elektrotechnik",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/elektroniker_kahla",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/trainee-finance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/austausch_norwegen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/schwarzeloecher",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/mentalhealth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/quereinstieg-industrieelektriker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/industriekauffrau",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/puls_der_energieerzeugung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/studium_fernwaerme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/kurs_energieverteilung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/datensicherheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/einsatzplankraftwerk",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/programmierkonsole",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/auszubildendenvertretung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/aufempfehlung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/ausbildung_tmz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/industriemeisterelektrotechnik",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/energieverschrieben",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/erste_auszubildende_tmz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/azubi-sommerfest2023",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/wasserstoff-akademie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/barrierefreiheit-teag-digitale-teilhabe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/malwettbewerb-sommerferien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/insektenhotels-fuchsfarm",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/stromausfall-berlin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/ideenmachenschule",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/insektenhotel-mitteagsummts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/reitturnier-immenrode",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/spende-kinderhospiz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/legend-of-cross",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/wsc-saale",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/braveheart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/special-olympics",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/wsv-lauscha",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/kyffhaeuserberglauf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/teag-laufcamp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/thsv-eisenach",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/10jahreteag",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/herosspendenmarsch",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/energiebattgendorf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/spendenmarsch",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/karriere/tag-der-offenen-tuer-moderne-technik-begeistert",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/strom_und_gas/arbeitskreis-stromgeschichte-umspannwerk-jena",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/barrierefreiheit-teag-digitale-teilhabe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke/engagement/ideenmachenschule",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/portraet_und_geschaeftszahlen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/management_und_beiraete",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/struktur_und_beteiligungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veranstaltungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veranstaltungen/tag_der_offenen_tuer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/zertifikate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten/lksg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten/waerme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten/stromkennzeichnung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten/grundversorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten/gleichbehandlung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten/remit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten/umwelt-und-arbeitsschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/news/teag-magazin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/presse",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/schueler",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/auszubildende",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/auszubildende/ausbildungsberufe",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/auszubildende/ausbildung-mit-dem-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/auszubildende/bewerbungstipps",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/studierende",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/studierende/praktikum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/studierende/werkstudierende",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/berufserfahrene-und-berufseinsteiger",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/teag",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/tso",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/tnk",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/ten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/tws",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/tmz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/tes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/tmo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/stellenangebote/twa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/karriere/arbeiten-bei-unseren-toechtern",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/engagement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/engagement/sponsoring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/engagement/initiativen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/engagement/initiativen/ideenmachenschule",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/engagement/initiativen/insektenhotels",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/engagement/initiativen/laufuniversum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/engagement/initiativen/arbeitskreis-stromgeschichte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/engagement/spenden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/energieversorgung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/energieversorgung/energieerzeugung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/energieversorgung/netzausbau",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/energieversorgung/speicherloesungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/energieversorgung/elektromobilitaet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/energieversorgung/waermewende",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/energieversorgung/produkte-kundenservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/geschaeftskunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kommunen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/stadtwerke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/akademie",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/einblicke",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/default",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/portraet_und_geschaeftszahlen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/management_und_beiraete",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/struktur_und_beteiligungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veranstaltungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/zertifikate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ueber_uns/unternehmen/veroeffentlichungspflichten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/datenschutz",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/agbs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/umzug_kuendigung/kuendigung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privatkunden/service/umzug_kuendigung/widerruf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/barrierefreiheit",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ueber_uns/unternehmen/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "ueber_uns/unternehmen/_meta.json",
+  "driverVersion": "1"
+}

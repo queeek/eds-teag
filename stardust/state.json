@@ -1,0 +1,562 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-10-08T12:59:10Z",
+    "stardustVersion": "0.29.1"
+  },
+  "site": {
+    "originUrl": "https://www.thueringerenergie.de/",
+    "deployUrl": null,
+    "extractedAt": "2026-10-08T07:57:20.048Z",
+    "pageCap": null,
+    "totalDiscovered": 8,
+    "crawled": 8,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-08T07:57:20.048Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.thueringerenergie.de/",
+      "title": "Startseite | TEAG Thüringer Energie",
+      "type": "landing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-08T07:49:03.937Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-08T09:41:39Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-08T19:19:33.431Z",
+          "skill": "replica"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--dc15da58--aemcoder.aem.page/",
+      "deployedPath": "/"
+    },
+    {
+      "slug": "privatkunden-strom-stromtarife",
+      "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+      "title": "Strompreise und Tarife | TEAG Thüringer Energie",
+      "type": "program",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-08T07:49:02.647Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-08T10:32:12Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-08T15:20:46.771Z",
+          "skill": "replica"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/privatkunden-strom-stromtarife.json",
+      "prototypePath": "stardust/prototypes/privatkunden-strom-stromtarife-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--dc15da58--aemcoder.aem.page/privatkunden/strom/stromtarife",
+      "deployedPath": "/privatkunden/strom/stromtarife"
+    },
+    {
+      "slug": "privatkunden-strom-stromtarife-teag-strom-easie",
+      "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife/teag-strom-easie",
+      "title": "Mehr Thüringen, weniger Kosten. | TEAG Thüringer Energie",
+      "type": "program",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-08T07:49:00.979Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-08T17:35:21.805Z",
+          "skill": "replica"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/privatkunden-strom-stromtarife-teag-strom-easie.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "liveUrl": "https://main--dc15da58--aemcoder.aem.page/privatkunden/strom/stromtarife/teag-strom-easie",
+      "deployedPath": "/privatkunden/strom/stromtarife/teag-strom-easie"
+    },
+    {
+      "slug": "privatkunden-strom-ersatzversorgung",
+      "url": "https://www.thueringerenergie.de/privatkunden/strom/ersatzversorgung",
+      "title": "Ersatzversorgung Strom | TEAG Thüringer Energie",
+      "type": "program",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-08T07:49:17.937Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-08T17:35:21.879Z",
+          "skill": "replica"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/privatkunden-strom-ersatzversorgung.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "liveUrl": "https://main--dc15da58--aemcoder.aem.page/privatkunden/strom/ersatzversorgung",
+      "deployedPath": "/privatkunden/strom/ersatzversorgung"
+    },
+    {
+      "slug": "privatkunden-strom-haus-baustromanschluss",
+      "url": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+      "title": "Haus- & Baustromanschluss | TEAG Thüringer Energie",
+      "type": "article",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-08T07:49:12.119Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-08T10:53:50Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-08T13:47:31.165Z",
+          "skill": "replica"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/privatkunden-strom-haus-baustromanschluss.json",
+      "prototypePath": "stardust/prototypes/privatkunden-strom-haus-baustromanschluss-proposed.html",
+      "migratedPath": "stardust/migrated/privatkunden/strom/haus-_-_baustromanschluss/index.html",
+      "liveUrl": "https://main--dc15da58--aemcoder.aem.page/privatkunden/strom/haus-baustromanschluss",
+      "deployedPath": "/privatkunden/strom/haus-baustromanschluss"
+    },
+    {
+      "slug": "ueber-uns-unternehmen",
+      "url": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+      "title": "Unternehmen | TEAG Thüringer Energie",
+      "type": "listing",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-08T07:49:18.525Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-08T11:18:38Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-08T14:22:05.269Z",
+          "by": "archetype:ueber-uns-unternehmen (direct write: state.mjs advance has no deployed state)"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ueber-uns-unternehmen.json",
+      "prototypePath": "stardust/prototypes/ueber-uns-unternehmen-proposed.html",
+      "migratedPath": null,
+      "liveUrl": "https://main--dc15da58--aemcoder.aem.page/ueber-uns/unternehmen",
+      "deployedPath": "/ueber-uns/unternehmen"
+    },
+    {
+      "slug": "impressum",
+      "url": "https://www.thueringerenergie.de/impressum",
+      "title": "Impressum | TEAG Thüringer Energie",
+      "type": "static",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-08T07:49:09.474Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-08T11:36:07Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-08T12:37:45.757Z",
+          "skill": "replica"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/impressum.json",
+      "prototypePath": "stardust/prototypes/impressum-proposed.html",
+      "migratedPath": "stardust/migrated/impressum/index.html",
+      "liveUrl": "https://main--dc15da58--aemcoder.aem.page/impressum",
+      "deployedPath": "/impressum"
+    },
+    {
+      "slug": "datenschutz",
+      "url": "https://www.thueringerenergie.de/datenschutz",
+      "title": "Datenschutz | TEAG Thüringer Energie",
+      "type": "static",
+      "status": "deployed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-08T07:49:12.143Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-08T12:59:10Z"
+        },
+        {
+          "status": "deployed",
+          "at": "2026-10-08T13:11:37.158Z",
+          "skill": "replica"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/datenschutz.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/datenschutz/index.html",
+      "liveUrl": "https://main--dc15da58--aemcoder.aem.page/datenschutz",
+      "deployedPath": "/datenschutz"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-08T17:04:24Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/privatkunden/strom/stromtarife",
+        "outputPath": "privatkunden/strom/stromtarife/index.html",
+        "slug": "privatkunden-strom-stromtarife",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/privatkunden/strom/stromtarife/teag-strom-easie",
+        "outputPath": "privatkunden/strom/stromtarife/teag-strom-easie/index.html",
+        "slug": "privatkunden-strom-stromtarife-teag-strom-easie",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/privatkunden/strom/ersatzversorgung",
+        "outputPath": "privatkunden/strom/ersatzversorgung/index.html",
+        "slug": "privatkunden-strom-ersatzversorgung",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/privatkunden/strom/haus-_-_baustromanschluss",
+        "outputPath": "privatkunden/strom/haus-_-_baustromanschluss/index.html",
+        "slug": "privatkunden-strom-haus-baustromanschluss",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/ueber_uns/unternehmen",
+        "outputPath": "ueber_uns/unternehmen/index.html",
+        "slug": "ueber-uns-unternehmen",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/impressum",
+        "outputPath": "impressum/index.html",
+        "slug": "impressum",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/datenschutz",
+        "outputPath": "datenschutz/index.html",
+        "slug": "datenschutz",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 198,
+    "bundledAssets": [
+      "css/canon.css",
+      "css/impressum.css",
+      "css/index.css",
+      "css/privatkunden-strom-haus-baustromanschluss.css",
+      "css/privatkunden-strom-stromtarife.css",
+      "css/ueber-uns-unternehmen.css",
+      "fonts/NotoSans-Bold-webfont.woff",
+      "fonts/NotoSans-BoldItalic-webfont.woff",
+      "fonts/NotoSans-Italic-webfont.woff",
+      "fonts/NotoSans-Regular-webfont.woff",
+      "fonts/fontawesome-webfont.woff2",
+      "fonts/teag-2017.ttf",
+      "fonts/teag-2017.woff",
+      "impressum/btn/d32d4c0f5.png",
+      "impressum/btn/d5b0d7607.png",
+      "index/btn/d012bc25c.png",
+      "index/btn/d01e6704e.png",
+      "index/btn/d13071511.png",
+      "index/btn/d449d5bd8.png",
+      "index/btn/d84402f4e.png",
+      "index/btn/d8949994c.png",
+      "index/btn/d97ba4eef.png",
+      "index/btn/da1c71232.png",
+      "index/btn/db609c2c7.png",
+      "index/btn/dd27a93ed.png",
+      "index/btn/dedb17710.png",
+      "index/favicon.png",
+      "index/ig/06a96d55-18e4-46aa-b3d0-1cd42519af09.jpg",
+      "index/ig/0999eedd-ad63-424f-9072-e8e74645c1a8.jpg",
+      "index/ig/0f4b0e88-fe7a-441c-984e-2fc4f0084683.jpg",
+      "index/ig/133657a1-8231-482e-8599-7e583f89e0b0.jpg",
+      "index/ig/1b09f52b-4f44-42ec-a936-631e875af108.jpg",
+      "index/ig/2a4727a7-5409-46a6-9dd7-da7b0418f455.jpg",
+      "index/ig/395242ea-3931-4322-a572-22a3d1d09519.jpg",
+      "index/ig/3cb6ebb3-a217-4c82-af8d-2baea394b313.jpg",
+      "index/ig/45615652-5658-41c0-aafc-a3918329d78a.jpg",
+      "index/ig/46aadd9f-e460-49bd-87f3-7f346f08563b.jpg",
+      "index/ig/771872ca-a190-498d-8640-db5948202a23.jpg",
+      "index/ig/80dc9828-ad3d-46c1-93e4-716eafb9e7c1.jpg",
+      "index/ig/88228b4d-a70a-404f-b22f-a328cfc01d6d.jpg",
+      "index/ig/93062968-5b20-4ee0-a001-979cfd2c2163.jpg",
+      "index/ig/aae90bfa-0bc2-42a2-9b47-011233cff2dd.jpg",
+      "index/ig/ae4b5711-1e77-40d6-868a-921a542113d7.jpg",
+      "index/ig/b3adadc1-ae1c-4fb3-93a5-0533ab596c14.jpg",
+      "index/ig/b40454d5-85df-404d-82fa-b64cc02ad4e2.jpg",
+      "index/ig/b563ab56-891b-46ad-8ad1-7a86e6ddd1e2.jpg",
+      "index/ig/dec21670-cd0b-49b1-8d7f-b4cf031c0dfa.jpg",
+      "index/ig/e4a42b55-c8f5-4a00-aa1b-70c6edc8f251.jpg",
+      "index/ig/fadb2ddd-9f5a-40f4-b73a-53f2e534b5f0.jpg",
+      "index/ig/fc69c1ec-441e-4136-8e84-410f1068c171.jpg",
+      "index/img/044CBA91BE684BDFADCA5F13D3249E22_TLT_D_rdax_100s@1.jpg",
+      "index/img/044CBA91BE684BDFADCA5F13D3249E22_TLT_S_rdax_100s@1.jpg",
+      "index/img/044CBA91BE684BDFADCA5F13D3249E22_TLT_T_rdax_100s@1.jpg",
+      "index/img/044CBA91BE684BDFADCA5F13D3249E22_TMT_W_rdax_100s@1.jpg",
+      "index/img/4DE0AD8E3F3E47278A493CB2E5EA84F6_PMT_W_rdax_1440x958_100s@1.jpg",
+      "index/img/520F5924B2DE487596172A1AC80223AD_PMT_W_rdax_1440x678_100s@1.jpg",
+      "index/img/67147291BBD6496D995F7A67180A2F61_ALT_D_rdax_100s@1.jpg",
+      "index/img/67147291BBD6496D995F7A67180A2F61_ALT_S_rdax_100s@1.jpg",
+      "index/img/67147291BBD6496D995F7A67180A2F61_ALT_T_rdax_100s@1.jpg",
+      "index/img/72F8B07E76B446749F02D3EE0651E1BF_PMT_W_rdax_1440x816_100s@1.jpg",
+      "index/img/8760533D85944A1996691A9473964C2B_PT_D_rdax_2001x1022s@1.jpg",
+      "index/img/8760533D85944A1996691A9473964C2B_PT_S@1.jpg",
+      "index/img/91D0A0B92F05435F827790C265E6EB54_TMT_W_rdax_100s@1.jpg",
+      "index/img/9B1B5C4DAB004C2D8154D4A363320BA4_PMT_W_rdax_1440x858_100s@1.jpg",
+      "index/img/A759FACAF7194001B4A43C6B01B005DE_S_D_rdax_5757x2160_100s@1.jpg",
+      "index/img/A759FACAF7194001B4A43C6B01B005DE_S_S_rdax_1080x660_100s@1.jpg",
+      "index/img/A759FACAF7194001B4A43C6B01B005DE_S_T_rdax_100s@1.jpg",
+      "index/img/ADD787684EB0494A82BDF4D54912DAE3_TLT_D_rdax_100s@1.jpg",
+      "index/img/ADD787684EB0494A82BDF4D54912DAE3_TLT_S_rdax_100s@1.jpg",
+      "index/img/ADD787684EB0494A82BDF4D54912DAE3_TLT_T_rdax_100s@1.jpg",
+      "index/img/ADD787684EB0494A82BDF4D54912DAE3_TMT_W_rdax_100s@1.jpg",
+      "index/img/AFE8B35C39C2497BA8D85047D05AC66D_PT_D_rdax_2001x1022s@1.jpg",
+      "index/img/AFE8B35C39C2497BA8D85047D05AC66D_PT_S@1.jpg",
+      "index/img/B328519785FC4214929BBFA9644DAB67_TLT_D_rdax_100s@1.jpg",
+      "index/img/B328519785FC4214929BBFA9644DAB67_TLT_S_rdax_100s@1.jpg",
+      "index/img/B328519785FC4214929BBFA9644DAB67_TLT_T_rdax_100s@1.jpg",
+      "index/img/B328519785FC4214929BBFA9644DAB67_TMT_W_rdax_100s@1.jpg",
+      "index/img/EC2B411706834871A1151BFDED2AEBA1_PLT_W_rdax_100s@1.jpg",
+      "index/img/EC2B411706834871A1151BFDED2AEBA1_PLT_W_rdax_1479x750_100s@1.jpg",
+      "index/img/FA50C8BC05A440E2BF3FBC729D9FA58A_PMT_W_rdax_1440x960_100s@1.jpg",
+      "index/li/08cc89ae-f955-475d-b03c-3a0022842549.jpg",
+      "index/li/141a07fd-180b-4ceb-8dec-ba5ba40fea95.jpg",
+      "index/li/1de1136f-09ef-4c58-bb57-7dc36c4006d3.jpg",
+      "index/li/39914f74-96a2-4040-b5f5-146e3199ddf8.jpg",
+      "index/li/40f4d499-522d-46f9-beec-7e545324249d.jpg",
+      "index/li/4ac44491-c754-4aa1-bcef-d11490f9d528.jpg",
+      "index/li/509ee96b-fdbc-4485-814e-d2e1116dbef4.jpg",
+      "index/li/52889981-930b-4ef5-b166-3a0b37ab4716.jpg",
+      "index/li/5386ce6f-3ff8-4eaf-b7da-5bed0e4099c0.jpg",
+      "index/li/921c2ff5-6f43-4a46-add1-290dff9448ad.jpg",
+      "index/li/98f07660-a1fc-45a7-b929-04c124bcf4fd.jpg",
+      "index/li/a81dcfb6-696b-4e5d-ac73-878fb0c4ac0a.jpg",
+      "index/li/a9cf1b3b-89b0-493f-93c5-2c69a6ac8442.jpg",
+      "index/li/ac0a0810-0de0-419f-a876-1400d0bd5db4.jpg",
+      "index/li/c086d3b1-c430-46ac-a47a-3628e1927b75.jpg",
+      "index/li/db6a9de3-8c55-4887-83d8-e5231fa4a91f.jpg",
+      "index/li/e91a3a3d-6620-4e38-bbfe-83cefd922da2.jpg",
+      "index/li/ee6b1b72-cce9-478f-be39-97a89b0d380e.jpg",
+      "index/li/f569ab19-bbcf-4d80-a66e-9151576fc2d2.jpg",
+      "index/site/arrow-only-left.svg",
+      "index/site/arrow-only-right.svg",
+      "index/site/arrow-right.svg",
+      "index/site/arrow-up-hover.svg",
+      "index/site/moin-avatar.png",
+      "index/site/teag_logo_bigger@1.png",
+      "index/site/teag_logo_neg_outline@1.png",
+      "js/index.js",
+      "js/privatkunden-strom-stromtarife.js",
+      "privatkunden-strom-ersatzversorgung/54896B43F152409DBF08A9FA11CE3ECB_PG_D_rdax_100s@1.jpg",
+      "privatkunden-strom-ersatzversorgung/54896B43F152409DBF08A9FA11CE3ECB_PG_S_rdax_100s@1.jpg",
+      "privatkunden-strom-ersatzversorgung/54896B43F152409DBF08A9FA11CE3ECB_PG_T_rdax_100s@1.jpg",
+      "privatkunden-strom-ersatzversorgung/8760533D85944A1996691A9473964C2B_PT_D_rdax_2001x1022s@1.jpg",
+      "privatkunden-strom-ersatzversorgung/8760533D85944A1996691A9473964C2B_PT_S@1.jpg",
+      "privatkunden-strom-ersatzversorgung/AFE8B35C39C2497BA8D85047D05AC66D_PT_D_rdax_2001x1022s@1.jpg",
+      "privatkunden-strom-ersatzversorgung/AFE8B35C39C2497BA8D85047D05AC66D_PT_S@1.jpg",
+      "privatkunden-strom-ersatzversorgung/FDCAD598B07747CBADE74FC3D33BC944_M_A_rdax_100s@1.jpg",
+      "privatkunden-strom-ersatzversorgung/btn/d3f7e1561.png",
+      "privatkunden-strom-ersatzversorgung/btn/d84402f4e.png",
+      "privatkunden-strom-ersatzversorgung/btn/db609c2c7.png",
+      "privatkunden-strom-haus-baustromanschluss/3C636E36F02F4CDA864889CEEA2E81FF_PG_D_rdax_100s@1.jpg",
+      "privatkunden-strom-haus-baustromanschluss/3C636E36F02F4CDA864889CEEA2E81FF_PG_S_rdax_100s@1.jpg",
+      "privatkunden-strom-haus-baustromanschluss/3C636E36F02F4CDA864889CEEA2E81FF_PG_T_rdax_100s@1.jpg",
+      "privatkunden-strom-haus-baustromanschluss/btn/d0df89d5a.png",
+      "privatkunden-strom-stromtarife-teag-strom-easie/210713_teag_hubaert_kreis_grafik_2500px_animiert_v2_lila.gif",
+      "privatkunden-strom-stromtarife-teag-strom-easie/4746B93B73FD4202A556D975780C6D15_PG_D_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife-teag-strom-easie/4746B93B73FD4202A556D975780C6D15_PG_S_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife-teag-strom-easie/4746B93B73FD4202A556D975780C6D15_PG_T_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife-teag-strom-easie/D3CEFBFC3A5D4A9BBFE3BDA0D2159850_PT2_D@1.jpg",
+      "privatkunden-strom-stromtarife-teag-strom-easie/D3CEFBFC3A5D4A9BBFE3BDA0D2159850_PT2_D_rdax_1740x1055s@1.jpg",
+      "privatkunden-strom-stromtarife-teag-strom-easie/D3CEFBFC3A5D4A9BBFE3BDA0D2159850_PT2_S@1.jpg",
+      "privatkunden-strom-stromtarife-teag-strom-easie/EB19A1A21E3645B8A0E92E6A030D62C5_M_A_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife-teag-strom-easie/btn/d0e1917f6.png",
+      "privatkunden-strom-stromtarife-teag-strom-easie/btn/d13071511.png",
+      "privatkunden-strom-stromtarife-teag-strom-easie/btn/dc556d325.png",
+      "privatkunden-strom-stromtarife/0760988ADCD443CBBDEBBAFF1339114A_M_A_rdax_100@1.png",
+      "privatkunden-strom-stromtarife/0B938B47787E4BA9A61825923158AFD5_PT2_D@1.png",
+      "privatkunden-strom-stromtarife/0B938B47787E4BA9A61825923158AFD5_PT2_D_rdax_1740x1055@1.png",
+      "privatkunden-strom-stromtarife/0B938B47787E4BA9A61825923158AFD5_PT2_S@1.png",
+      "privatkunden-strom-stromtarife/210713_teag_hubaert_kreis_grafik_2500px_animiert_v2_lila.gif",
+      "privatkunden-strom-stromtarife/4746B93B73FD4202A556D975780C6D15_PLT_D@1.jpg",
+      "privatkunden-strom-stromtarife/4746B93B73FD4202A556D975780C6D15_PLT_S@1.jpg",
+      "privatkunden-strom-stromtarife/4746B93B73FD4202A556D975780C6D15_PLT_T@1.jpg",
+      "privatkunden-strom-stromtarife/4848615144764EAE91D228F114F9F45E_PLT_D@1.jpg",
+      "privatkunden-strom-stromtarife/4848615144764EAE91D228F114F9F45E_PLT_S@1.jpg",
+      "privatkunden-strom-stromtarife/4848615144764EAE91D228F114F9F45E_PLT_T@1.jpg",
+      "privatkunden-strom-stromtarife/4C214D83D18C49BDBE530F959311252E_M_A_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife/4F2296B9E4C54B4F84560AEC6FB4B341_PT2_D@1.jpg",
+      "privatkunden-strom-stromtarife/4F2296B9E4C54B4F84560AEC6FB4B341_PT2_D_rdax_1740x1055s@1.jpg",
+      "privatkunden-strom-stromtarife/4F2296B9E4C54B4F84560AEC6FB4B341_PT2_S@1.jpg",
+      "privatkunden-strom-stromtarife/638DFF960C2A41FD8B9F1C045208C15B_PT2_D@1.jpg",
+      "privatkunden-strom-stromtarife/638DFF960C2A41FD8B9F1C045208C15B_PT2_D_rdax_1740x1054s@1.jpg",
+      "privatkunden-strom-stromtarife/638DFF960C2A41FD8B9F1C045208C15B_PT2_S@1.jpg",
+      "privatkunden-strom-stromtarife/7018A86BB4F4474E9DC356DDA0B06BB3_PG_D_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife/7018A86BB4F4474E9DC356DDA0B06BB3_PG_S_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife/7018A86BB4F4474E9DC356DDA0B06BB3_PG_T_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife/736141C8C51D467281F43A85EEBD9C31_M_A_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife/82BC05C390984246B04C735BE4685974_M_A_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife/84E631B0FBE74E62A8129B9C695F1402_PLT_D@1.jpg",
+      "privatkunden-strom-stromtarife/84E631B0FBE74E62A8129B9C695F1402_PLT_S@1.jpg",
+      "privatkunden-strom-stromtarife/84E631B0FBE74E62A8129B9C695F1402_PLT_T@1.jpg",
+      "privatkunden-strom-stromtarife/8B0B6D6A5659464A8A0D09CD6AE126D4_PT2_D@1.jpg",
+      "privatkunden-strom-stromtarife/8B0B6D6A5659464A8A0D09CD6AE126D4_PT2_D_rdax_1740x1055s@1.jpg",
+      "privatkunden-strom-stromtarife/8B0B6D6A5659464A8A0D09CD6AE126D4_PT2_S@1.jpg",
+      "privatkunden-strom-stromtarife/A550253408E34E64B1062CB2DB490EE1_M_A_rdax_100@1.png",
+      "privatkunden-strom-stromtarife/CA4D3E0462014DC2B3E769AAAE46542D_PLT_D@1.jpg",
+      "privatkunden-strom-stromtarife/CA4D3E0462014DC2B3E769AAAE46542D_PLT_S@1.jpg",
+      "privatkunden-strom-stromtarife/CA4D3E0462014DC2B3E769AAAE46542D_PLT_T@1.jpg",
+      "privatkunden-strom-stromtarife/EC2B411706834871A1151BFDED2AEBA1_PLT_W_rdax_100s@1.jpg",
+      "privatkunden-strom-stromtarife/EC2B411706834871A1151BFDED2AEBA1_PLT_W_rdax_1479x750_100s@1.jpg",
+      "privatkunden-strom-stromtarife/FAAC8B492F334C54B2DAE95831857518_PT2_D@1.jpg",
+      "privatkunden-strom-stromtarife/FAAC8B492F334C54B2DAE95831857518_PT2_D_rdax_1740x1056s@1.jpg",
+      "privatkunden-strom-stromtarife/FAAC8B492F334C54B2DAE95831857518_PT2_S@1.jpg",
+      "privatkunden-strom-stromtarife/btn/d01e79090.png",
+      "privatkunden-strom-stromtarife/btn/d13071511.png",
+      "privatkunden-strom-stromtarife/btn/d3812cec2.png",
+      "privatkunden-strom-stromtarife/btn/d64a7d040.png",
+      "privatkunden-strom-stromtarife/btn/dad88c7a8.png",
+      "privatkunden-strom-stromtarife/btn/dc556d325.png",
+      "privatkunden-strom-stromtarife/btn/dea7e9ef9.png",
+      "privatkunden-strom-stromtarife/btn/dedb17710.png",
+      "privatkunden-strom-stromtarife/svg/checkmark-pos.svg",
+      "privatkunden-strom-stromtarife/svg/slider-bullet-active.svg",
+      "privatkunden-strom-stromtarife/svg/slider-bullet.svg",
+      "ueber-uns-unternehmen/3F301FBBD12D493392622ECFD79B8F9F_PLT_W_rdax_100s@1.jpg",
+      "ueber-uns-unternehmen/3F301FBBD12D493392622ECFD79B8F9F_PLT_W_rdax_1479x749_100s@1.jpg",
+      "ueber-uns-unternehmen/48EB682E371F4E9480D0B8A1A1232097_PLT_W_rdax_1095x750_100s@1.jpg",
+      "ueber-uns-unternehmen/48EB682E371F4E9480D0B8A1A1232097_PLT_W_rdax_2190x1500_100s@1.jpg",
+      "ueber-uns-unternehmen/5BA51AC1AA2F4EEC88EA02314471A9C3_PT2_S@1.jpg",
+      "ueber-uns-unternehmen/5BA51AC1AA2F4EEC88EA02314471A9C3_PT2_T@1.jpg",
+      "ueber-uns-unternehmen/5BA51AC1AA2F4EEC88EA02314471A9C3_PT3_D@1.jpg",
+      "ueber-uns-unternehmen/A01F50769D28474F95D47E5E20B06B17_PLT_W_rdax_2190x1500_100s@1.jpg",
+      "ueber-uns-unternehmen/A0E57704CAF34C20AA8A9B8BC59DAB5B_PLT_W_rdax_1095x750_100s@1.jpg",
+      "ueber-uns-unternehmen/A0E57704CAF34C20AA8A9B8BC59DAB5B_PLT_W_rdax_2190x1500_100s@1.jpg",
+      "ueber-uns-unternehmen/A80274FA012F4F57AF5C8A58934DD607_PLT_W_rdax_1094x750_100s@1.jpg",
+      "ueber-uns-unternehmen/B540EBF8C2AF43A8B3C9E91A7F8D74E2_PLT_W_rdax_1094x750_100s@1.jpg",
+      "ueber-uns-unternehmen/B540EBF8C2AF43A8B3C9E91A7F8D74E2_PLT_W_rdax_2188x1500_100s@1.jpg",
+      "ueber-uns-unternehmen/E80045C4FD2343F6A609421C45F5CF2C_PLT_W_rdax_100s@1.jpg",
+      "ueber-uns-unternehmen/E80045C4FD2343F6A609421C45F5CF2C_PLT_W_rdax_1479x750_100s@1.jpg"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 101
+      },
+      {
+        "slug": "privatkunden-strom-stromtarife",
+        "file": "stardust/migrated/privatkunden/strom/stromtarife/index.html",
+        "assetsBundled": 67
+      },
+      {
+        "slug": "privatkunden-strom-haus-baustromanschluss",
+        "file": "stardust/migrated/privatkunden/strom/haus-_-_baustromanschluss/index.html",
+        "assetsBundled": 22
+      },
+      {
+        "slug": "ueber-uns-unternehmen",
+        "file": "stardust/migrated/ueber_uns/unternehmen/index.html",
+        "assetsBundled": 32
+      },
+      {
+        "slug": "impressum",
+        "file": "stardust/migrated/impressum/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "datenschutz",
+        "file": "stardust/migrated/datenschutz/index.html",
+        "assetsBundled": 26
+      },
+      {
+        "slug": "privatkunden-strom-stromtarife-teag-strom-easie",
+        "file": "stardust/migrated/privatkunden/strom/stromtarife/teag-strom-easie/index.html",
+        "assetsBundled": 41
+      },
+      {
+        "slug": "privatkunden-strom-ersatzversorgung",
+        "file": "stardust/migrated/privatkunden/strom/ersatzversorgung/index.html",
+        "assetsBundled": 29
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-08T17:04:24Z",
+      "rendered": [
+        "privatkunden-strom-stromtarife-teag-strom-easie",
+        "privatkunden-strom-ersatzversorgung"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

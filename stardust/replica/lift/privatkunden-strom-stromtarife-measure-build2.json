@@ -1,0 +1,563 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-10-08T10:16:06.043Z",
+    "urls": [
+      "http://localhost:8791/privatkunden-strom-stromtarife-proposed.html"
+    ],
+    "widths": [
+      1440
+    ],
+    "selectors": [
+      "#PageHeader",
+      "#Content",
+      "#PageFooter",
+      "#MainContent_contentheadertop",
+      "#MainContent_PCS16073",
+      "#MainContent_PCS26438",
+      "#PCS15395",
+      "#PCS15997",
+      "#MainContent_PCS16420",
+      "#PCS15996",
+      "#MainContent_PCS21931",
+      "#MainContent_PCS23137",
+      "#MainContent_PCS16169",
+      ".step-by-step-123-modul",
+      "#MainContent_PCS15963",
+      "#MainContent_PCS15749",
+      "#PCS19344",
+      "#PCS16174",
+      "#PCS16173",
+      "#MainContent_Faqs1_FaqModul",
+      "#PCS15424",
+      "#PCS15425 header",
+      "#MainContent_Boxes15425",
+      "#MainContent_Boxes15425 > li",
+      "#MainContent_CPMList15996 > li",
+      "#MainContent_CPMList15997 > li"
+    ],
+    "props": [
+      "width",
+      "height"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440
+  ],
+  "selectors": [
+    "#PageHeader",
+    "#Content",
+    "#PageFooter",
+    "#MainContent_contentheadertop",
+    "#MainContent_PCS16073",
+    "#MainContent_PCS26438",
+    "#PCS15395",
+    "#PCS15997",
+    "#MainContent_PCS16420",
+    "#PCS15996",
+    "#MainContent_PCS21931",
+    "#MainContent_PCS23137",
+    "#MainContent_PCS16169",
+    ".step-by-step-123-modul",
+    "#MainContent_PCS15963",
+    "#MainContent_PCS15749",
+    "#PCS19344",
+    "#PCS16174",
+    "#PCS16173",
+    "#MainContent_Faqs1_FaqModul",
+    "#PCS15424",
+    "#PCS15425 header",
+    "#MainContent_Boxes15425",
+    "#MainContent_Boxes15425 > li",
+    "#MainContent_CPMList15996 > li",
+    "#MainContent_CPMList15997 > li"
+  ],
+  "root": {
+    "http://localhost:8791/privatkunden-strom-stromtarife-proposed.html": {
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 11601,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "http://localhost:8791/privatkunden-strom-stromtarife-proposed.html": {
+      "1440": {
+        "#PageHeader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 170
+            },
+            "visible": true,
+            "text": "Weiter zum Inhalt Kundenportal Karriere…",
+            "props": {
+              "width": "1440px",
+              "height": "170px"
+            }
+          }
+        ],
+        "#Content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 170,
+              "w": 1440,
+              "h": 11096
+            },
+            "visible": true,
+            "text": "DuxX/iStockphoto.com Strompreise und Ta…",
+            "props": {
+              "width": "1440px",
+              "height": "11096.3px"
+            }
+          }
+        ],
+        "#PageFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 11266,
+              "w": 1440,
+              "h": 335
+            },
+            "visible": true,
+            "text": "KONTAKT Tel03641-8171111 Fax03641-81711…",
+            "props": {
+              "width": "1440px",
+              "height": "335px"
+            }
+          }
+        ],
+        "#MainContent_contentheadertop": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 170,
+              "w": 1440,
+              "h": 665
+            },
+            "visible": true,
+            "text": "DuxX/iStockphoto.com Strompreise und Ta…",
+            "props": {
+              "width": "1440px",
+              "height": "664.609px"
+            }
+          }
+        ],
+        "#MainContent_PCS16073": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 655,
+              "w": 1440,
+              "h": 403
+            },
+            "visible": true,
+            "text": "Für eine leichtere Orientierung empfehl…",
+            "props": {
+              "width": "1324.81px",
+              "height": "363.047px"
+            }
+          }
+        ],
+        "#MainContent_PCS26438": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1058,
+              "w": 1440,
+              "h": 515
+            },
+            "visible": true,
+            "text": "contrastwerkstatt/iStockphoto.com Unser…",
+            "props": {
+              "width": "1440px",
+              "height": "474.734px"
+            }
+          }
+        ],
+        "#PCS15395": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1573,
+              "w": 1440,
+              "h": 436
+            },
+            "visible": true,
+            "text": "Darum zur TEAG wechseln Bundesweit Find…",
+            "props": {
+              "width": "1324.81px",
+              "height": "396.016px"
+            }
+          }
+        ],
+        "#PCS15997": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2009,
+              "w": 1440,
+              "h": 1209
+            },
+            "visible": true,
+            "text": "Unsere Bestseller SolStock/iStockphoto.…",
+            "props": {
+              "width": "1324.81px",
+              "height": "1169.11px"
+            }
+          }
+        ],
+        "#MainContent_PCS16420": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3218,
+              "w": 1440,
+              "h": 283
+            },
+            "visible": true,
+            "text": "Überzeugt? Dann gleich wechseln. Rund 5…",
+            "props": {
+              "width": "1324.81px",
+              "height": "243.328px"
+            }
+          }
+        ],
+        "#PCS15996": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3501,
+              "w": 1440,
+              "h": 564
+            },
+            "visible": true,
+            "text": "Weitere Angebote TEAG.Strom Für Online-…",
+            "props": {
+              "width": "1324.81px",
+              "height": "523.984px"
+            }
+          }
+        ],
+        "#MainContent_PCS21931": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4065,
+              "w": 1440,
+              "h": 515
+            },
+            "visible": true,
+            "text": "gorodenkoff/iStockphoto.com Mit Strom &…",
+            "props": {
+              "width": "1440px",
+              "height": "475.484px"
+            }
+          }
+        ],
+        "#MainContent_PCS23137": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4581,
+              "w": 1440,
+              "h": 515
+            },
+            "visible": true,
+            "text": "gstockstudio/stock.adobe.com Energie de…",
+            "props": {
+              "width": "1440px",
+              "height": "474.734px"
+            }
+          }
+        ],
+        "#MainContent_PCS16169": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5096,
+              "w": 1440,
+              "h": 491
+            },
+            "visible": true,
+            "text": "AleksandarNakic/iStockphoto.com Ihre pe…",
+            "props": {
+              "width": "1440px",
+              "height": "450.516px"
+            }
+          }
+        ],
+        ".step-by-step-123-modul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 58,
+              "y": 5626,
+              "w": 1325,
+              "h": 393
+            },
+            "visible": true,
+            "text": "Ihr Wechsel zur TEAG - einfach und schn…",
+            "props": {
+              "width": "1324.81px",
+              "height": "392.609px"
+            }
+          }
+        ],
+        "#MainContent_PCS15963": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 6059,
+              "w": 1440,
+              "h": 442
+            },
+            "visible": true,
+            "text": "Jetzt deutschlandweit unser Angebot ver…",
+            "props": {
+              "width": "1324.81px",
+              "height": "401.5px"
+            }
+          }
+        ],
+        "#MainContent_PCS15749": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 6500,
+              "w": 1440,
+              "h": 707
+            },
+            "visible": true,
+            "text": "TEAG Sind Sie bereits im TEAG-Kundenpor…",
+            "props": {
+              "width": "1440px",
+              "height": "650.609px"
+            }
+          }
+        ],
+        "#PCS19344": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 73,
+              "y": 6576,
+              "w": 1295,
+              "h": 591
+            },
+            "visible": true,
+            "text": "TEAG Sind Sie bereits im TEAG-Kundenpor…",
+            "props": {
+              "width": "1294.81px",
+              "height": "590.609px"
+            }
+          }
+        ],
+        "#PCS16174": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7207,
+              "w": 1440,
+              "h": 889
+            },
+            "visible": true,
+            "text": "Durchschnittlicher Stromverbrauch: Wie …",
+            "props": {
+              "width": "1324.81px",
+              "height": "848.516px"
+            }
+          }
+        ],
+        "#PCS16173": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 8095,
+              "w": 1440,
+              "h": 1327
+            },
+            "visible": true,
+            "text": "Wie setzt sich der Strompreis zusammen?…",
+            "props": {
+              "width": "1324.81px",
+              "height": "1287.38px"
+            }
+          }
+        ],
+        "#MainContent_Faqs1_FaqModul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 58,
+              "y": 9543,
+              "w": 1325,
+              "h": 845
+            },
+            "visible": true,
+            "text": "Thema Strom Rubrik Preis In FAQs suchen…",
+            "props": {
+              "width": "1324.81px",
+              "height": "845px"
+            }
+          }
+        ],
+        "#PCS15424": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 10458,
+              "w": 1440,
+              "h": 809
+            },
+            "visible": true,
+            "text": "Immer für Sie da Sie haben Fragen? ty/s…",
+            "props": {
+              "width": "1324.81px",
+              "height": "768.547px"
+            }
+          }
+        ],
+        "#PCS15425 header": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 58,
+              "y": 10498,
+              "w": 1325,
+              "h": 58
+            },
+            "visible": true,
+            "text": "Immer für Sie da",
+            "props": {
+              "width": "1324.81px",
+              "height": "58.125px"
+            }
+          }
+        ],
+        "#MainContent_Boxes15425": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 58,
+              "y": 10582,
+              "w": 1325,
+              "h": 644
+            },
+            "visible": true,
+            "text": "Sie haben Fragen? ty/stock.adobe.com E-…",
+            "props": {
+              "width": "1324.81px",
+              "height": "644.422px"
+            }
+          }
+        ],
+        "#MainContent_Boxes15425 > li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 58,
+              "y": 10582,
+              "w": 428,
+              "h": 624
+            },
+            "visible": true,
+            "text": "Sie haben Fragen? ty/stock.adobe.com E-…",
+            "props": {
+              "width": "428.266px",
+              "height": "624.422px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15996 > li": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 73,
+              "y": 3655,
+              "w": 309,
+              "h": 278
+            },
+            "visible": true,
+            "text": "TEAG.Strom Für Online-Selbermacher. Mit…",
+            "props": {
+              "width": "308.703px",
+              "height": "278.25px"
+            }
+          }
+        ],
+        "#MainContent_CPMList15997 > li": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 73,
+              "y": 2163,
+              "w": 309,
+              "h": 715
+            },
+            "visible": true,
+            "text": "SolStock/iStockphoto.com TEAG.Strom eas…",
+            "props": {
+              "width": "308.703px",
+              "height": "714.844px"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

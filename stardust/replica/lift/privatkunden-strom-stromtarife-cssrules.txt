@@ -1,0 +1,948 @@
+######## page-header-section|header-subline|has-docked|dock-to-previous|#MainContent_contentheader|contentheader
+css-rules: no rule of 617 matches /page-header-section|header-subline|has-docked|dock-to-previous|#MainContent_contentheader|contentheader/i in stardust/current/assets/css/Bundle.css
+css-rules: no rule of 945 matches /page-header-section|header-subline|has-docked|dock-to-previous|#MainContent_contentheader|contentheader/i in stardust/current/assets/css/HhFrameworks.css
+css-rules: no rule of 1056 matches /page-header-section|header-subline|has-docked|dock-to-previous|#MainContent_contentheader|contentheader/i in stardust/current/assets/css/ScreenCssAlt.css
+stardust/current/assets/css/ScreenLess.css: 46 of 7143 rules match /page-header-section|header-subline|has-docked|dock-to-previous|#MainContent_contentheader|contentheader/i, showing 40
+@371331 .tab-control.dock-to-previous-section
+      margin-top: -40px; margin-bottom: 0;
+@411780 .teaser-modul.dock-to-previous-section
+      margin-top: -8.5em; padding-top: 6.5em;
+@411855 .teaser-modul.dock-to-previous-section.page-content-section
+      margin-top: -8.5em;
+@411933 .teaser-modul.dock-to-previous-section.previous-section-has-pager
+      margin-top: -12em;
+@412016 .teaser-modul.dock-to-previous-section.take-active-slide-button-in-smartphone-view>.center>.container .commands
+      display: none;
+@415887 .teaser-modul.dock-to-previous-section.previous-section-has-pager   @media screen and (max-width:1024px)
+      padding-top: 10em;
+@421070 .teaser-modul.dock-to-previous-section.take-active-slide-button-in-smartphone-view>.center>figure .container .commands   @media screen and (max-width:768px)
+      display: block;
+@421203 .teaser-modul.dock-to-previous-section.take-active-slide-button-in-smartphone-view>.center>section .container .commands   @media screen and (max-width:768px)
+      display: block;
+@611045 .page-content-section.dock-to-previous-section
+      margin-top: calc(-8.5em - 20px);
+@611123 .page-content-section.dock-to-previous-section.previous-section-has-header-subline
+      margin-top: calc(-8.5em - 20px - 1.4*1.05em);
+@612829 .page-content-section.dock-to-previous-section   @media screen and (max-width:1024px)
+      margin-top: -20px; padding-top: 0;
+@612907 .page-content-section.dock-to-previous-section>.center   @media screen and (max-width:1024px)
+      margin-top: 0;
+@612975 .page-content-section.dock-to-previous-section.previous-section-has-header-subline   @media screen and (max-width:1024px)
+      margin-top: -20px; padding-top: 0;
+@613089 .page-content-section.dock-to-previous-section.previous-section-has-header-subline>.center   @media screen and (max-width:1024px)
+      margin-top: 0;
+@614267 .page-header-section
+      padding-top: 0; padding-bottom: 54px;
+@614322 .page-header-section>.center
+      margin-top: 0;
+@614364 .page-header-section>.center+.center
+      margin-top: -20px;
+@614418 .page-header-section .center figure
+      position: relative;
+@614472 .page-header-section .center figure img
+      width: 100%;
+@614523 .page-header-section .center header
+      position: relative;
+@614577 .page-header-section .center header .bar .container
+      float: right; width: 75%; padding: 30px 0;
+@614666 .page-header-section .center header .bar p.heading
+      font-weight: bold; margin-bottom: 0; line-height: 1.2;
+@614766 .page-header-section .center header .bar h1,.page-header-section .center header .bar p.heading.level-1
+      color: #fff; padding-right: 30px; font-size: calc(1em + .9vw);
+@614926 .page-header-section .center header .bar h1+h2,.page-header-section .center header .bar p.heading.level-1+h2,.page-header-section .center header .bar h1+p.head…
+      font-weight: 400; line-height: 1.4; font-size: 1.2em; text-transform: none; padding-right: 0;
+@615258 .page-header-section .center header .bar h2,.page-header-section .center header .bar p.heading.level-2
+      color: #fff; padding-right: 30px; margin-bottom: 0; font-size: calc(1em + .9vw);
+@615434 .page-header-section .center header .bar h3
+      color: #fff; padding-right: 30px; font-weight: 400; line-height: 1.4; font-size: 1.2em; text-transform: none;
+@615576 .page-header-section:not(.has-docked-section) .center header div.bar
+      width: 60%; position: absolute; left: 0; bottom: -70px; background-color: #870d87;
+@615718 .page-header-section.has-docked-section
+      padding-bottom: 0;
+@615775 .page-header-section.has-docked-section>.center
+      margin-bottom: 0;
+@615839 .page-header-section.has-docked-section>.center header div.bar
+      position: relative; max-width: 1420px; margin: auto; bottom: 8.5em;
+@615962 .page-header-section.has-docked-section>.center header div.bar .container
+      background-color: #870d87; padding: 30px; width: auto; display: inline-block; float: none;
+@616117 .page-header-section.has-docked-section.with-header-subline>.center header div.bar
+      bottom: calc(8.5em + 1.4*1.05em);
+@616232 .page-header-section.without-bar
+      padding-bottom: 0;
+@616282 .page-header-section.with-page-label .center header .bar .container
+      position: relative;
+@616368 .page-header-section.with-page-label .center header .bar p.page-label
+      position: absolute; font-size: 1.1em; top: -30px; left: 0; display: inline-block; background-color: #870d87; padding: 10px 10px 0; font-weight: 600; color: #fff;
+@616582 .user-prefers-more-contrast .page-header-section:not(.has-docked-section) .center header div.bar
+      background-color: #870d87;
+@616704 .user-prefers-more-contrast .page-header-section.has-docked-section>.center header div.bar .container
+      background-color: #870d87;
+@616831 .user-prefers-more-contrast .page-header-section.with-page-label .center header .bar p.page-label
+      background-color: #870d87;
+@616991 .page-header-section.has-docked-section>.center header div.bar   @media screen and (max-width:1919px)
+      width: 92%;
+@617102 .page-header-section   @media screen and (max-width:1024px)
+      padding-bottom: 0;
+… 6 more — narrow the selector regex, add --media/--decl, or raise --max
+######## list-style-2|full-content|product-teasers-modul|\.product-teaser
+css-rules: no rule of 617 matches /list-style-2|full-content|product-teasers-modul|\.product-teaser/i in stardust/current/assets/css/Bundle.css
+css-rules: no rule of 945 matches /list-style-2|full-content|product-teasers-modul|\.product-teaser/i in stardust/current/assets/css/HhFrameworks.css
+css-rules: no rule of 1056 matches /list-style-2|full-content|product-teasers-modul|\.product-teaser/i in stardust/current/assets/css/ScreenCssAlt.css
+stardust/current/assets/css/ScreenLess.css: 217 of 7143 rules match /list-style-2|full-content|product-teasers-modul|\.product-teaser/i, showing 40
+@274226 .slider-section+.product-teasers-modul
+      padding-top: 80px;
+@274282 .product-teasers-modul .products.list-style-1
+      position: relative; padding-top: 150px;
+@274364 .product-teasers-modul .products.list-style-2,.product-teasers-modul .products.list-style-3
+      position: relative; padding-top: 20px;
+@274491 .product-teaser
+      clear: both; width: calc(2/3*100% - 40px); float: left; padding: 20px;
+@274570 .product-teaser:not(:last-child)
+      margin-bottom: 30px;
+@274622 .product-teaser .description p:last-child
+      margin-bottom: 0;
+@274680 .product-teaser.has-background-video video
+      position: absolute; left: 0; top: -20px; width: 100%; opacity: 0;
+@274779 .product-teaser.has-background-video .commands
+      top: 0; right: unset; justify-content: flex-end;
+@274869 .list-style-2 .product-teaser,.list-style-3 .product-teaser
+      width: calc(100% - 40px); position: relative; max-width: calc(1420px + 100px - 40px); padding: 0 20px;
+@275024 .list-style-2 .product-teaser:not(:last-child),.list-style-3 .product-teaser:not(:last-child)
+      margin-bottom: 50px;
+@275137 .content-wide .list-style-3 .product-teaser,.content-wide .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+1),.content-wide .list-style…
+      width: 100%; max-width: 1420px; right: auto; padding: 0;
+@275404 .content-wide .list-style-3 .product-teaser>div,.content-wide .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+1)>div,.content-wide .li…
+      margin-left: -20px;
+@275652 .list-style-2 .product-teaser.content-sized
+      width: calc(1420px - 40px); max-width: calc(1420px - 40px);
+@275752 .alternative-background-color .list-style-2 .product-teaser,.alternative-background-color .list-style-3 .product-teaser
+      width: 100%; max-width: 1420px; padding: 0;
+@275910 .product-teasers-modul.alternative-background-color .list-style-2 .product-teaser:not(.box)
+      margin-bottom: 0;
+@276018 .list-style-0:not(.starts-with-image-right) .product-teaser:nth-child(2n+2),.list-style-1:not(.starts-with-image-right) .product-teaser:nth-child(2n+2),.list-s…
+      float: right;
+@276322 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+1),.list-style-2.starts-with-image-right .product-teaser:nth-child(2n+2)
+      float: right; right: calc(1920px/2 - 1420px/2 - 100px);
+@276520 .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+1),.list-style-3.starts-with-image-right .product-teaser:nth-child(2n+2)
+      float: right; right: calc(1920px/2 - 1420px/2 - 100px);
+@276718 .list-style-2:not(.starts-with-image-right) .product-teaser:nth-child(2n+2),.list-style-2.starts-with-image-right .product-teaser:nth-child(2n+1)
+      left: calc(1920px/2 - 1420px/2 - 100px);
+@276903 .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+2),.list-style-3.starts-with-image-right .product-teaser:nth-child(2n+1)
+      left: calc(1920px/2 - 1420px/2 - 100px);
+@277088 .list-style-2.starts-with-image-right .product-teaser.content-sized:nth-child(2n+1)
+      left: calc(1920px/2 - 1420px/2);
+@277203 .product-teaser figure
+      position: relative;
+@277244 .product-teaser figure picture
+      display: block; overflow: hidden;
+@277305 .list-style-2 .product-teaser figure picture
+      max-width: 915px; top: -20px; margin-top: 20px;
+@277392 .list-style-3 .product-teaser figure picture
+      max-width: 1220px; top: -20px; margin-top: 20px;
+@277480 .product-teaser:hover>div>figure>picture img,.product-teaser:hover>a>figure>picture img
+      transform: scale(1.05);
+@277590 .product-teaser.box figure figcaption .container
+      background-color: #fff;
+@277661 .product-teaser figure img
+      margin: 0!important; float: none!important; transition: all .5s ease;
+@277752 .product-teaser>div>figure figcaption .container,.product-teaser>a>figure figcaption .container
+      color: #000; text-align: center; position: absolute; top: 0; bottom: 0; margin: auto; width: 50%; transition: all .5s ease;
+@277956 .product-teaser>a:focus-visible
+      outline: 0!important;
+@278008 .product-teaser>a:focus-visible .link-button
+      outline-width: 3px!important; outline-style: solid!important; outline-color: #0c669e!important; outline-offset: 2px!important;
+@278172 .product-teasers-modul.alternative-background-color .product-teaser:not(.box) figure figcaption .container
+      background-color: #f2f2f2;
+@278304 .product-teaser.animated figure figcaption .container,.product-teasers-modul.alternative-background-color .product-teaser.animated:not(.box) figure figcaption …
+      background-color: transparent;
+@278503 .list-style-2 .product-teaser figure figcaption .container,.list-style-3 .product-teaser figure figcaption .container
+      text-align: left;
+@278637 .list-style-0:not(.starts-with-image-right) .product-teaser:nth-child(2n+1) figure figcaption .container,.list-style-0.starts-with-image-right .product-teaser:…
+      left: 0; padding: 20px 20px 20px 0; width: calc(50% - 20px);
+@279100 .list-style-2 .product-teaser:nth-child(2n+2) figure figcaption .container,.list-style-2 .product-teaser:nth-child(2n+1) figure figcaption .container
+      width: calc(50% - 2*20px/2 - 40px);
+@279284 .list-style-3:not(.starts-with-image-right) .product-teaser:nth-child(2n+2) figure figcaption .container,.list-style-3.starts-with-image-right .product-teaser:…
+      left: 0; padding: 20px 20px 20px 0; width: calc(100%/3 - 20px);
+@279546 .list-style-3 .product-teaser:nth-child(2n+2) figure figcaption .container,.list-style-3 .product-teaser:nth-child(2n+1) figure figcaption .container
+      width: calc(100%/3 - 2*20px/2 - 40px);
+@279733 .list-style-0:not(.starts-with-image-right) .product-teaser:nth-child(2n+1) figure figcaption .container>*,.list-style-1:not(.starts-with-image-right) .product…
+      padding-left: 20px;
+@280583 .alternative-background-color .list-style-2.starts-with-image-right .product-teaser:nth-child(2n+1) figure figcaption .container>*
+      padding-left: 0;
+… 177 more — narrow the selector regex, add --media/--decl, or raise --max
+######## channel-products|image-teaser|\.benefit|annotations-info|footnote|slider-pager|overflow-container|list-container
+css-rules: no rule of 617 matches /channel-products|image-teaser|\.benefit|annotations-info|footnote|slider-pager|overflow-container|list-container/i in stardust/current/assets/css/Bundle.css
+css-rules: no rule of 945 matches /channel-products|image-teaser|\.benefit|annotations-info|footnote|slider-pager|overflow-container|list-container/i in stardust/current/assets/css/HhFrameworks.css
+stardust/current/assets/css/ScreenCssAlt.css: 60 of 1056 rules match /channel-products|image-teaser|\.benefit|annotations-info|footnote|slider-pager|overflow-container|list-container/i, showing 40
+@193334 .footnote
+      font-size: .8em; line-height: 1.4; margin-bottom: 15px; margin-top: 2px;
+@218793 .mediathek .mediendowload .image-teaser.box
+      padding: 0 0 20px 0; margin-bottom: 30px;
+@218875 .mediathek .mediendowload .image-teaser.box figcaption
+      padding: 20px 20px 0 20px;
+@219192 .mediathek .publikationen .image-teaser.box
+      padding: 0 0 10px 0;
+@219255 .mediathek .publikationen .image-teaser.box figcaption
+      padding: 10px 10px 0 10px;
+@219475 .mediathek .publikationen .image-teaser.box   @media screen and (max-width:1419px)
+      padding-bottom: 20px;
+@219539 .mediathek .publikationen .image-teaser.box figcaption   @media screen and (max-width:1419px)
+      padding: 20px 20px 0 20px;
+@219761 .mobile-slider .modul-content>.list-container .overflow-container
+      overflow-x: hidden; touch-action: pan-y; padding: 15px;
+@219877 .mobile-slider .modul-content>.list-container .overflow-container>ul
+      display: flex; position: relative; flex-wrap: nowrap;
+@219994 .mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-3
+      width: calc(4*30% + 3*30px);
+@220108 .mobile-slider .modul-content.items-5>.list-container .overflow-container>ul.columns-3
+      width: calc(5*30% + 4*30px);
+@220222 .mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-3
+      width: calc(6*30% + 5*30px);
+@220336 .mobile-slider .modul-content.items-7>.list-container .overflow-container>ul.columns-3
+      width: calc(7*30% + 6*30px);
+@220450 .mobile-slider .modul-content.items-8>.list-container .overflow-container>ul.columns-3
+      width: calc(8*30% + 7*30px);
+@220564 .mobile-slider .modul-content.items-9>.list-container .overflow-container>ul.columns-3
+      width: calc(9*30% + 8*30px);
+@220678 .mobile-slider .modul-content.items-10>.list-container .overflow-container>ul.columns-3
+      width: calc(10*30% + 9*30px);
+@220794 .mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-3>li:nth-child(3n+3),.mobile-slider .modul-content.items-4>.list-container…
+      margin-right: 20px;
+@222326 .mobile-slider .modul-content.items-1>.list-container .overflow-container>ul.columns-3>li:last-child,.mobile-slider .modul-content.items-1>.list-container .ove…
+      margin-right: 0;
+@226232 .mobile-slider .modul-content:not(.items-1)>.list-container .overflow-container   @media screen and (max-width:1024px)
+      overflow-x: hidden; touch-action: pan-y; padding: 15px;
+@226362 .mobile-slider .modul-content>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      display: flex; position: relative; justify-content: flex-start;
+@226489 .mobile-slider .modul-content.items-3>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(3*44% + 2*30px);
+@226593 .mobile-slider .modul-content.items-4>.list-container .overflow-container>ul,.mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.colum…   @media screen and (max-width:1024px)
+      width: calc(4*44% + 3*30px);
+@226784 .mobile-slider .modul-content.items-5>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(5*44% + 4*30px);
+@226888 .mobile-slider .modul-content.items-6>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(6*44% + 5*30px);
+@226992 .mobile-slider .modul-content.items-7>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(7*44% + 6*30px);
+@227096 .mobile-slider .modul-content.items-8>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(8*44% + 7*30px);
+@227200 .mobile-slider .modul-content.items-9>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(9*44% + 8*30px);
+@227304 .mobile-slider .modul-content.items-10>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(10*44% + 9*30px);
+@227410 .mobile-slider .modul-content>.list-container .overflow-container>ul>li.box   @media screen and (max-width:1024px)
+      margin-right: 30px!important; margin-bottom: 0;
+@227530 .mobile-slider .modul-content>.list-container .overflow-container>ul>li.box:last-child   @media screen and (max-width:1024px)
+      margin-right: 0!important;
+@229045 .mobile-slider .modul-content.items-2>.list-container .overflow-container>ul.columns-3,.mobile-slider .modul-content.items-2>.list-container .overflow-containe…   @media screen and (max-width:768px)
+      width: calc(2*88% + 1*30px);
+@229246 .mobile-slider .modul-content.items-3>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(3*88% + 2*30px);
+@229360 .mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(4*88% + 3*30px);
+@229474 .mobile-slider .modul-content.items-5>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(5*88% + 4*30px);
+@229588 .mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(6*88% + 5*30px);
+@229702 .mobile-slider .modul-content.items-7>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(7*88% + 6*30px);
+@229816 .mobile-slider .modul-content.items-8>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(8*88% + 7*30px);
+@229930 .mobile-slider .modul-content.items-9>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(9*88% + 8*30px);
+@230044 .mobile-slider .modul-content.items-10>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(10*88% + 9*30px);
+@230160 .mobile-slider .modul-content.items-2>.list-container .overflow-container>ul.columns-3>li.box,.mobile-slider .modul-content.items-2>.list-container .overflow-c…   @media screen and (max-width:768px)
+      width: calc(100%/3 - 40px/3);
+… 20 more — narrow the selector regex, add --media/--decl, or raise --max
+stardust/current/assets/css/ScreenLess.css: 1012 of 7143 rules match /channel-products|image-teaser|\.benefit|annotations-info|footnote|slider-pager|overflow-container|list-container/i, showing 40
+@35674 .benefits-list.modul-content
+      display: flex; flex-direction: column;
+@35738 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container
+      overflow-x: hidden; touch-action: pan-y;
+@35862 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list
+      padding-left: 10px;
+@35975 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list li.box
+      margin-right: 2%; margin-bottom: 20px;
+@36112 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list li.box:nth-child(3n+3)
+      margin-right: 2%;
+@36246 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-4
+      width: calc(4*32% + 3*2% - 10px);
+@36393 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-4>li
+      width: calc(100%/4 - 3*20px/4);
+@36541 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-5
+      width: calc(5*32% + 4*2% - 10px);
+@36688 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-5>li
+      width: calc(100%/5 - 4*20px/5);
+@36836 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-6
+      width: calc(6*32% + 5*2% - 10px);
+@36983 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-6>li
+      width: calc(100%/6 - 5*20px/6);
+@37131 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-7
+      width: calc(7*32% + 6*2% - 10px);
+@37278 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-7>li
+      width: calc(100%/7 - 6*20px/7);
+@37426 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-8
+      width: calc(8*32% + 7*2% - 10px);
+@37573 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-8>li
+      width: calc(100%/8 - 7*20px/8);
+@37721 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-9
+      width: calc(9*32% + 8*2% - 10px);
+@37868 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.list-container ul.list.columns-3.teasers-9>li
+      width: calc(100%/9 - 8*20px/9);
+@38016 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3)>.controls
+      display: inline-flex;
+@38117 .benefits-list.modul-content ul.list
+      margin-top: 3em; position: relative; display: flex; width: 100%;
+@38211 .benefits-list.modul-content ul.list li.box>div
+      padding: 0 20px; height: 100%; display: flex; flex-direction: column; position: relative;
+@38339 .benefits-list.modul-content ul.list li.box>div>div:not(.widget-footer)
+      margin: 30px 0;
+@38425 .benefits-list.modul-content ul.list li.box>div .widget-footer
+      display: flex; flex-direction: column; justify-content: flex-end; flex-grow: 1;
+@38560 .benefits-list.modul-content ul.list li.box>div .widget-footer p
+      position: relative; min-height: 70px;
+@38659 .benefits-list.modul-content ul.list li.box>div .widget-footer p .link-button
+      position: absolute; bottom: 0; height: 50px; line-height: 50px; width: calc(-20px + 100%); left: 0;
+@38825 .benefits-list.modul-content ul.list li.box .widget-header
+      margin-bottom: 0;
+@38900 .benefits-list.modul-content ul.list li.box .widget-header .widget-icon
+      position: absolute; left: 0; top: -1.6em; border-radius: 50%; padding: 7px; color: #870d87; box-shadow: 0 0 10px 0 rgba(0,0,0,.2); transition: box-shadow .25s ease; width: 3.7em; height: 3.7em; line-height: 1; right: 0; margin: auto; margin-bottom: auto; border: 5px solid #fff;
+@39221 .benefits-list.modul-content ul.list li.box .widget-header .widget-icon .icon-cover
+      background-color: #fff; position: absolute; width: calc(30px + 100%); height: calc(3.7em + 8px); top: calc(1.6em + -5px); left: -15px;
+@39428 .benefits-list.modul-content ul.list li.box .widget-header .widget-icon .icon
+      position: absolute; left: 0; right: 0; color: #870d87; background-color: #fff; height: calc(-5px + 100%); width: 100%; border-radius: 50%; top: 0; padding-top: 5px; line-height: 1.2;
+@39667 .benefits-list.modul-content ul.list li.box .widget-header .widget-header-body
+      padding-top: 4em; hyphens: auto;
+@39775 .benefits-list.modul-content ul.list li.box .widget-header .widget-header-body h3
+      overflow-wrap: break-word;
+@39882 .benefits-list.modul-content ul.list li.box:hover .widget-header .widget-icon
+      color: #0c669e;
+@39974 .benefits-list.modul-content ul.list li.box:hover .widget-header .widget-icon .icon
+      color: #0c669e;
+@40072 .benefits-list.modul-content ul.list li.box.current-page .widget-header .widget-icon .icon
+      background-color: #0c669e; color: #fff;
+@40199 .benefits-list.modul-content .controls
+      bottom: 0; display: none;
+@40260 .user-prefers-more-contrast .benefits-list.modul-content ul.list li.box .widget-header .widget-icon
+      color: #870d87; border-color: #fff;
+@40392 .user-prefers-more-contrast .benefits-list.modul-content ul.list li.box .widget-header .widget-icon .icon
+      color: #870d87; background-color: #fff;
+@40534 .user-prefers-more-contrast .benefits-list.modul-content ul.list li.box:hover .widget-header .widget-icon
+      color: #5f175f;
+@40654 .user-prefers-more-contrast .benefits-list.modul-content ul.list li.box:hover .widget-header .widget-icon .icon
+      color: #5f175f;
+@40780 .user-prefers-more-contrast .benefits-list.modul-content ul.list li.box.current-page .widget-header .widget-icon .icon
+      background-color: #5f175f; color: #fff;
+@40972 .benefits-list.modul-content:not(.items-1):not(.items-2):not(.items-3),.benefits-list.modul-content.items-1,.benefits-list.modul-content.items-2,.benefits-list…   @media screen and (max-width:1024px)
+      padding-bottom: 70px;
+… 972 more — narrow the selector regex, add --media/--decl, or raise --max
+######## text-modul|modul-image|scrollable-table|image-remove-margin|\.overflow
+css-rules: no rule of 617 matches /text-modul|modul-image|scrollable-table|image-remove-margin|\.overflow/i in stardust/current/assets/css/Bundle.css
+css-rules: no rule of 945 matches /text-modul|modul-image|scrollable-table|image-remove-margin|\.overflow/i in stardust/current/assets/css/HhFrameworks.css
+stardust/current/assets/css/ScreenCssAlt.css: 58 of 1056 rules match /text-modul|modul-image|scrollable-table|image-remove-margin|\.overflow/i, showing 40
+@191884 .overflow-hidden
+      overflow: hidden;
+@192039 .overflow-hidden .float-left,.overflow-hidden .float-right
+      width: 50%;
+@194014 .columns-2-3 .overflow-hidden,.columns-3-4 .overflow-hidden   @media screen and (max-width:1280px)
+      overflow: visible;
+@194277 .columns-2-3 .overflow-hidden:not(.smartphone-mode-roam-around),.columns-3-4 .overflow-hidden:not(.smartphone-mode-roam-around),.columns-1 .overflow-hidden:not…   @media screen and (max-width:768px)
+      clear: both;
+@194478 .columns-2-3 .overflow-hidden.smartphone-mode-roam-around:not(.reset-mode),.columns-3-4 .overflow-hidden.smartphone-mode-roam-around:not(.reset-mode),.columns-…   @media screen and (max-width:768px)
+      display: inline;
+@194716 .columns-2-3 .overflow-hidden.smartphone-mode-roam-around.reset-mode,.columns-3-4 .overflow-hidden.smartphone-mode-roam-around.reset-mode,.columns-1 .overflow-…   @media screen and (max-width:768px)
+      float: left;
+@219761 .mobile-slider .modul-content>.list-container .overflow-container
+      overflow-x: hidden; touch-action: pan-y; padding: 15px;
+@219877 .mobile-slider .modul-content>.list-container .overflow-container>ul
+      display: flex; position: relative; flex-wrap: nowrap;
+@219994 .mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-3
+      width: calc(4*30% + 3*30px);
+@220108 .mobile-slider .modul-content.items-5>.list-container .overflow-container>ul.columns-3
+      width: calc(5*30% + 4*30px);
+@220222 .mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-3
+      width: calc(6*30% + 5*30px);
+@220336 .mobile-slider .modul-content.items-7>.list-container .overflow-container>ul.columns-3
+      width: calc(7*30% + 6*30px);
+@220450 .mobile-slider .modul-content.items-8>.list-container .overflow-container>ul.columns-3
+      width: calc(8*30% + 7*30px);
+@220564 .mobile-slider .modul-content.items-9>.list-container .overflow-container>ul.columns-3
+      width: calc(9*30% + 8*30px);
+@220678 .mobile-slider .modul-content.items-10>.list-container .overflow-container>ul.columns-3
+      width: calc(10*30% + 9*30px);
+@220794 .mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-3>li:nth-child(3n+3),.mobile-slider .modul-content.items-4>.list-container…
+      margin-right: 20px;
+@222326 .mobile-slider .modul-content.items-1>.list-container .overflow-container>ul.columns-3>li:last-child,.mobile-slider .modul-content.items-1>.list-container .ove…
+      margin-right: 0;
+@226232 .mobile-slider .modul-content:not(.items-1)>.list-container .overflow-container   @media screen and (max-width:1024px)
+      overflow-x: hidden; touch-action: pan-y; padding: 15px;
+@226362 .mobile-slider .modul-content>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      display: flex; position: relative; justify-content: flex-start;
+@226489 .mobile-slider .modul-content.items-3>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(3*44% + 2*30px);
+@226593 .mobile-slider .modul-content.items-4>.list-container .overflow-container>ul,.mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.colum…   @media screen and (max-width:1024px)
+      width: calc(4*44% + 3*30px);
+@226784 .mobile-slider .modul-content.items-5>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(5*44% + 4*30px);
+@226888 .mobile-slider .modul-content.items-6>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(6*44% + 5*30px);
+@226992 .mobile-slider .modul-content.items-7>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(7*44% + 6*30px);
+@227096 .mobile-slider .modul-content.items-8>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(8*44% + 7*30px);
+@227200 .mobile-slider .modul-content.items-9>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(9*44% + 8*30px);
+@227304 .mobile-slider .modul-content.items-10>.list-container .overflow-container>ul   @media screen and (max-width:1024px)
+      width: calc(10*44% + 9*30px);
+@227410 .mobile-slider .modul-content>.list-container .overflow-container>ul>li.box   @media screen and (max-width:1024px)
+      margin-right: 30px!important; margin-bottom: 0;
+@227530 .mobile-slider .modul-content>.list-container .overflow-container>ul>li.box:last-child   @media screen and (max-width:1024px)
+      margin-right: 0!important;
+@229045 .mobile-slider .modul-content.items-2>.list-container .overflow-container>ul.columns-3,.mobile-slider .modul-content.items-2>.list-container .overflow-containe…   @media screen and (max-width:768px)
+      width: calc(2*88% + 1*30px);
+@229246 .mobile-slider .modul-content.items-3>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(3*88% + 2*30px);
+@229360 .mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(4*88% + 3*30px);
+@229474 .mobile-slider .modul-content.items-5>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(5*88% + 4*30px);
+@229588 .mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(6*88% + 5*30px);
+@229702 .mobile-slider .modul-content.items-7>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(7*88% + 6*30px);
+@229816 .mobile-slider .modul-content.items-8>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(8*88% + 7*30px);
+@229930 .mobile-slider .modul-content.items-9>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(9*88% + 8*30px);
+@230044 .mobile-slider .modul-content.items-10>.list-container .overflow-container>ul.columns-3   @media screen and (max-width:768px)
+      width: calc(10*88% + 9*30px);
+@230160 .mobile-slider .modul-content.items-2>.list-container .overflow-container>ul.columns-3>li.box,.mobile-slider .modul-content.items-2>.list-container .overflow-c…   @media screen and (max-width:768px)
+      width: calc(100%/3 - 40px/3);
+@230392 .mobile-slider .modul-content.items-3>.list-container .overflow-container>ul.columns-1>li.box,.mobile-slider .modul-content.items-3>.list-container .overflow-c…   @media screen and (max-width:768px)
+      width: calc(100%/3 - 2*20px/2);
+… 18 more — narrow the selector regex, add --media/--decl, or raise --max
+stardust/current/assets/css/ScreenLess.css: 393 of 7143 rules match /text-modul|modul-image|scrollable-table|image-remove-margin|\.overflow/i, showing 40
+@2849 section ul.akkordeon-list>li.entry>div.container figure.modul-image .picture-credits,section ul.akkordeon-list>li.entry>section>div.container figure.modul-imag…
+      bottom: -21px;
+@52028 .bilder-modul.mobile-slider .modul-content.items-1>.list-container .overflow-container>ul.columns-1
+      width: calc(1*100% + 0*30px);
+@52156 .bilder-modul.mobile-slider .modul-content.items-2>.list-container .overflow-container>ul.columns-1
+      width: calc(2*100% + 1*30px);
+@52284 .bilder-modul.mobile-slider .modul-content.items-2>.list-container .overflow-container>ul.columns-2
+      width: calc(2*50% + 0*30px);
+@52411 .bilder-modul.mobile-slider .modul-content.items-3>.list-container .overflow-container>ul.columns-1
+      width: calc(3*100% + 2*30px);
+@52539 .bilder-modul.mobile-slider .modul-content.items-3>.list-container .overflow-container>ul.columns-2
+      width: calc(3*50% + 1*30px);
+@52666 .bilder-modul.mobile-slider .modul-content.items-3>.list-container .overflow-container>ul.columns-3
+      width: calc(3*100%/3 + 0*30px);
+@52796 .bilder-modul.mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-1
+      width: calc(4*100% + 3*30px);
+@52924 .bilder-modul.mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-2
+      width: calc(4*50% + 2*30px);
+@53051 .bilder-modul.mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-3
+      width: calc(4*100%/3 + 1*30px);
+@53181 .bilder-modul.mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-4
+      width: calc(4*25% + 0*30px);
+@53308 .bilder-modul.mobile-slider .modul-content.items-5>.list-container .overflow-container>ul.columns-1
+      width: calc(5*100% + 4*30px);
+@53436 .bilder-modul.mobile-slider .modul-content.items-5>.list-container .overflow-container>ul.columns-2
+      width: calc(5*50% + 2*30px);
+@53563 .bilder-modul.mobile-slider .modul-content.items-5>.list-container .overflow-container>ul.columns-3
+      width: calc(5*100%/3 + 1*30px);
+@53693 .bilder-modul.mobile-slider .modul-content.items-5>.list-container .overflow-container>ul.columns-4
+      width: calc(5*25% + .75*30px);
+@53822 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-1
+      width: calc(6*100% + 5*30px);
+@53950 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-2
+      width: calc(6*50% + 3*30px);
+@54077 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-3
+      width: calc(6*100%/3 + 1.5*30px);
+@54209 .bilder-modul.mobile-slider .modul-content.items-6>.list-container .overflow-container>ul.columns-4
+      width: calc(6*25% + 1*30px);
+@54336 .bilder-modul.mobile-slider .modul-content.items-7>.list-container .overflow-container>ul.columns-1
+      width: calc(7*100% + 6*30px);
+@54464 .bilder-modul.mobile-slider .modul-content.items-7>.list-container .overflow-container>ul.columns-2
+      width: calc(7*50% + 3*30px);
+@54591 .bilder-modul.mobile-slider .modul-content.items-7>.list-container .overflow-container>ul.columns-3
+      width: calc(7*100%/3 + 2*30px);
+@54721 .bilder-modul.mobile-slider .modul-content.items-7>.list-container .overflow-container>ul.columns-4
+      width: calc(7*25% + 1*30px);
+@54848 .bilder-modul.mobile-slider .modul-content.items-8>.list-container .overflow-container>ul.columns-1
+      width: calc(8*100% + 7*30px);
+@54976 .bilder-modul.mobile-slider .modul-content.items-8>.list-container .overflow-container>ul.columns-2
+      width: calc(8*50% + 4*30px);
+@55103 .bilder-modul.mobile-slider .modul-content.items-8>.list-container .overflow-container>ul.columns-3
+      width: calc(8*100%/3 + 2.5*30px);
+@55235 .bilder-modul.mobile-slider .modul-content.items-8>.list-container .overflow-container>ul.columns-4
+      width: calc(8*25% + 1.5*30px);
+@55364 .bilder-modul.mobile-slider .modul-content.items-9>.list-container .overflow-container>ul.columns-1
+      width: calc(9*100% + 8*30px);
+@55492 .bilder-modul.mobile-slider .modul-content.items-9>.list-container .overflow-container>ul.columns-2
+      width: calc(9*50% + 4*30px);
+@55619 .bilder-modul.mobile-slider .modul-content.items-9>.list-container .overflow-container>ul.columns-3
+      width: calc(9*100%/3 + 3*30px);
+@55749 .bilder-modul.mobile-slider .modul-content.items-9>.list-container .overflow-container>ul.columns-4
+      width: calc(9*25% + 2*30px);
+@55876 .bilder-modul.mobile-slider .modul-content.items-10>.list-container .overflow-container>ul.columns-1
+      width: calc(10*100% + 9*30px);
+@56006 .bilder-modul.mobile-slider .modul-content.items-10>.list-container .overflow-container>ul.columns-2
+      width: calc(10*50% + 5*30px);
+@56135 .bilder-modul.mobile-slider .modul-content.items-10>.list-container .overflow-container>ul.columns-3
+      width: calc(10*100%/3 + 3.5*30px);
+@56269 .bilder-modul.mobile-slider .modul-content.items-10>.list-container .overflow-container>ul.columns-4
+      width: calc(10*25% + 2*30px);
+@56398 .bilder-modul.mobile-slider .modul-content>.list-container .overflow-container>ul>li:not(:last-child)
+      margin-right: 20px;
+@56518 .bilder-modul.mobile-slider .modul-content>.list-container .overflow-container>ul>li:last-child
+      margin-right: 0;
+@57847 .bilder-modul.mobile-slider .modul-content.items-2>.list-container .overflow-container>ul.columns-3,.bilder-modul.mobile-slider .modul-content.items-2>.list-co…   @media screen and (max-width:1024px)
+      width: calc(2*50% + 0*30px);
+@58074 .bilder-modul.mobile-slider .modul-content.items-3>.list-container .overflow-container>ul.columns-3,.bilder-modul.mobile-slider .modul-content.items-3>.list-co…   @media screen and (max-width:1024px)
+      width: calc(3*50% + 1*30px);
+@58301 .bilder-modul.mobile-slider .modul-content.items-4>.list-container .overflow-container>ul.columns-3,.bilder-modul.mobile-slider .modul-content.items-4>.list-co…   @media screen and (max-width:1024px)
+      width: calc(4*50% + 2*30px);
+… 353 more — narrow the selector regex, add --media/--decl, or raise --max
+######## module-faq|service-row|drop-down-list|category-label|akkordeon-list|\.topic|\.voting|button-vote|search-field|form-field|filter-[0-9]|filters-3
+css-rules: no rule of 617 matches /module-faq|service-row|drop-down-list|category-label|akkordeon-list|\.topic|\.voting|button-vote|search-field|form-field|filter-[0-9]|filters-3/i in stardust/current/assets/css/Bundle.css
+css-rules: no rule of 945 matches /module-faq|service-row|drop-down-list|category-label|akkordeon-list|\.topic|\.voting|button-vote|search-field|form-field|filter-[0-9]|filters-3/i in stardust/current/assets/css/HhFrameworks.css
+stardust/current/assets/css/ScreenCssAlt.css: 11 of 1056 rules match /module-faq|service-row|drop-down-list|category-label|akkordeon-list|\.topic|\.voting|button-vote|search-field|form-field|filter-[0-9]|filters-3/i
+@195168 .contact-search-form .form-fields
+      width: 48%; margin-top: 10px; margin-bottom: 20px;
+@195247 .contact-search-form div>.form-fields:first-child
+      margin-right: 10px;
+@195315 .contact-search-form .form-fields.float-left input
+      width: 165px;
+@195378 .contact-search-form .form-fields.float-right
+      float: left;
+@195435 .contact-search-form .form-fields.float-right .float-left
+      width: 127px;
+@195505 .contact-search-form .form-fields.float-right .float-left input
+      width: 122px; float: right;
+@195593 .contact-search-form .form-fields.float-right .float-right
+      width: 44px; float: left; background-color: #d6d6d6; color: #fff; text-align: center; height: 43px; line-height: 43px;
+@197313 .contact-search-form div>.form-fields   @media screen and (max-width:450px)
+      width: 70%;
+@197361 .contact-search-form div>.form-fields:first-child   @media screen and (max-width:450px)
+      margin-bottom: 0;
+@197427 .contact-search-form div>.form-fields:nth-child(2n+2)   @media screen and (max-width:450px)
+      clear: both; margin-top: 0;
+@216596 .service-row
+      margin: 35px 0; position: relative; min-height: 50px;
+stardust/current/assets/css/ScreenLess.css: 184 of 7143 rules match /module-faq|service-row|drop-down-list|category-label|akkordeon-list|\.topic|\.voting|button-vote|search-field|form-field|filter-[0-9]|filters-3/i, showing 40
+@1638 section ul.akkordeon-list
+      margin-bottom: 30px;
+@1683 section ul.akkordeon-list>li.entry
+      display: block; padding-bottom: 16px; margin-bottom: 16px;
+@1771 section ul.akkordeon-list>li.entry:not(.no-border-bottom)
+      border-bottom: 1px solid #a0a0a0;
+@1861 section ul.akkordeon-list>li.entry>.topic,section ul.akkordeon-list>li.entry>section>header>.topic
+      position: relative; font-weight: bold; font-size: 1.05em; display: flex; padding: 0; margin: 0; cursor: pointer;
+@2059 section ul.akkordeon-list>li.entry>.topic .title,section ul.akkordeon-list>li.entry>section>header>.topic .title
+      color: #000; flex-grow: 1;
+@2195 section ul.akkordeon-list>li.entry>.topic>.icon,section ul.akkordeon-list>li.entry>section>header>.topic>.icon
+      height: 30px; width: 30px; text-align: center; display: inline-block; transform-origin: center; color: #870d87; transition: color .25s ease;
+@2433 section ul.akkordeon-list>li.entry>.topic:hover .icon,section ul.akkordeon-list>li.entry>section>header>.topic:hover .icon
+      color: #0ba2e3;
+@2570 section ul.akkordeon-list>li.entry>div.container,section ul.akkordeon-list>li.entry>section>div.container
+      display: none; padding-right: 30px;
+@2708 section ul.akkordeon-list>li.entry>div.container .content,section ul.akkordeon-list>li.entry>section>div.container .content
+      padding-top: 12px;
+@2849 section ul.akkordeon-list>li.entry>div.container figure.modul-image .picture-credits,section ul.akkordeon-list>li.entry>section>div.container figure.modul-imag…
+      bottom: -21px;
+@3040 section ul.akkordeon-list>li.entry.opened>div.container,section ul.akkordeon-list>li.entry.opened>section>div.container
+      display: block;
+@3174 section ul.akkordeon-list>li.entry.opened>div.container ol>li,section ul.akkordeon-list>li.entry.opened>section>div.container ol>li
+      list-style-type: decimal;
+@3330 section ul.akkordeon-list>li.entry.opened>div.container a,section ul.akkordeon-list>li.entry.opened>section>div.container a
+      text-decoration: underline;
+@3480 section.margin-bottom>ul.akkordeon-list:last-child
+      margin-bottom: 0;
+@3547 section.margin-bottom>ul.akkordeon-list:last-child>li.entry:last-child
+      margin-bottom: 0; padding-bottom: 0;
+@3692 .user-prefers-more-contrast section ul.akkordeon-list>li.entry>.topic>.icon,.user-prefers-more-contrast section ul.akkordeon-list>li.entry>section>header>.topi…
+      color: #870d87;
+@3873 .user-prefers-more-contrast section ul.akkordeon-list>li.entry>.topic:hover .icon,.user-prefers-more-contrast section ul.akkordeon-list>li.entry>section>header…
+      color: #5f175f;
+@161483 .filter.drop-down-list
+      border-radius: 22.25px; background-color: #ededed; padding: 12.5px 15px; display: inline-block; min-height: 25px; position: absolute; z-index: 1;
+@161638 .filter.drop-down-list.categories,.filter.drop-down-list.containers
+      z-index: 2;
+@161716 .filter.drop-down-list .category-label
+      font-weight: 700; font-size: 1.1em; white-space: nowrap;
+@161806 .filter.drop-down-list .category-label.not-selected
+      font-weight: 400;
+@161874 .filter.drop-down-list .category-label a
+      display: flex; align-items: center; text-decoration: none!important;
+@161978 .filter.drop-down-list .category-label a .content
+      display: flex; flex-direction: column; flex-grow: 1;
+@162075 .filter.drop-down-list .category-label a .content .label
+      font-size: calc(.666667em); font-weight: bold; color: #6a6a6a; padding: 0 10px 0 0; margin-bottom: 0; display: block;
+@162238 .filter.drop-down-list .category-label a .content .title
+      color: #000; display: inline-block; margin-right: 10px;
+@162345 .filter.drop-down-list .category-label a .fa
+      transform-origin: 9.5px 10px 0; text-align: center; width: 18px; height: 18px; font-size: .7em;
+@162476 .filter.drop-down-list ul
+      margin-top: 5px; display: none;
+@162530 .filter.drop-down-list ul li
+      display: block;
+@162573 .filter.drop-down-list ul li a
+      color: #000; display: block; padding: 2px 5px; margin-bottom: 2px; text-decoration: none!important;
+@162694 .filter.drop-down-list ul li a .icon
+      color: #870d87; vertical-align: middle; margin-right: 6px; display: inline-block;
+@162805 .filter.drop-down-list ul li.active a
+      font-weight: bold;
+@162860 .filter.drop-down-list ul li:hover a
+      background-color: #dae9f0;
+@162922 #Widgets .filter.drop-down-list .category-label a .fa
+      color: #870d87;
+@162990 #Widgets .filter.drop-down-list .category-label a:hover .fa
+      color: #0ba2e3;
+@163064 .user-prefers-more-contrast .filter.drop-down-list
+      border: 1px solid #8c8c8c;
+@163140 .user-prefers-more-contrast .filter.drop-down-list ul li a .icon
+      color: #870d87;
+@163219 .user-prefers-more-contrast #Widgets .filter.drop-down-list .category-label a .fa
+      color: #870d87;
+@163315 .user-prefers-more-contrast #Widgets .filter.drop-down-list .category-label a:hover .fa
+      color: #5f175f;
+@163417 .filter_drop-down-list_modul .service-row
+      margin-bottom: calc(35px - 1em);
+@163490 .filter_drop-down-list_modul .service-row:not(.without-filter-1) .filter-2
+      margin-left: 30px;
+… 144 more — narrow the selector regex, add --media/--decl, or raise --max
+######## eye-catcher|energieBanking|content-sized
+css-rules: no rule of 617 matches /eye-catcher|energieBanking|content-sized/i in stardust/current/assets/css/Bundle.css
+css-rules: no rule of 945 matches /eye-catcher|energieBanking|content-sized/i in stardust/current/assets/css/HhFrameworks.css
+stardust/current/assets/css/ScreenCssAlt.css: 87 of 1056 rules match /eye-catcher|energieBanking|content-sized/i, showing 40
+@205490 div.eye-catcher.float-left
+      margin: 0 30px 30px 0;
+@205538 div.eye-catcher.float-right
+      margin: 0 0 30px 30px;
+@205587 div.eye-catcher.circle
+      border-radius: 50%; background: linear-gradient(to right,#0c669e,#0ba2e3); background-repeat: no-repeat; display: table;
+@205723 div.eye-catcher.circle.size-125
+      height: 125px; width: 125px!important;
+@205790 div.eye-catcher.circle.size-150
+      height: 150px; width: 150px!important;
+@205857 div.eye-catcher.circle.size-175
+      height: 175px; width: 175px!important;
+@205924 div.eye-catcher.circle.size-200
+      height: 200px; width: 200px!important;
+@205991 div.eye-catcher.circle.size-225
+      height: 225px; width: 225px!important;
+@206058 div.eye-catcher.circle.rotate-right
+      transform: rotate(9.5deg);
+@206119 div.eye-catcher.circle.rotate-left
+      transform: rotate(-9.5deg);
+@206180 div.eye-catcher.circle p
+      color: #fff; margin: 0; padding: 0; height: 100%; width: 100%; display: table-cell; vertical-align: middle; text-align: center;
+@206317 div.eye-catcher.circle p span
+      display: block;
+@206361 div.eye-catcher.circle p span.fw-400
+      font-weight: 400; line-height: 1.3;
+@206430 div.eye-catcher.circle p span.fw-700
+      font-weight: 700; line-height: 1.1;
+@206499 div.eye-catcher.circle p span.fs-13
+      font-size: 13px;
+@206550 div.eye-catcher.circle p span.fs-14
+      font-size: 14px;
+@206601 div.eye-catcher.circle p span.fs-15
+      font-size: 15px;
+@206652 div.eye-catcher.circle p span.fs-16
+      font-size: 16px;
+@206703 div.eye-catcher.circle p span.fs-17
+      font-size: 17px;
+@206754 div.eye-catcher.circle p span.fs-18
+      font-size: 18px;
+@206805 div.eye-catcher.circle p span.fs-19
+      font-size: 19px;
+@206856 div.eye-catcher.circle p span.fs-20
+      font-size: 20px;
+@206907 div.eye-catcher.circle p span.fs-21
+      font-size: 21px;
+@206958 div.eye-catcher.circle p span.fs-22
+      font-size: 22px;
+@207009 div.eye-catcher.circle p span.fs-23
+      font-size: 23px;
+@207060 div.eye-catcher.circle p span.fs-24
+      font-size: 24px;
+@207111 div.eye-catcher.circle p span.fs-25
+      font-size: 25px;
+@207162 div.eye-catcher.circle p span.fs-26
+      font-size: 26px;
+@207213 div.eye-catcher.circle p span.fs-27
+      font-size: 27px;
+@207264 div.eye-catcher.circle p span.fs-28
+      font-size: 28px;
+@207315 div.eye-catcher.circle p span.fs-29
+      font-size: 29px;
+@207366 div.eye-catcher.circle p span.fs-30
+      font-size: 30px;
+@207453 div.eye-catcher.circle.size-125.smartphone-scaling-90   @media screen and (max-width:540px)
+      margin: 3.75px -6.25px 3.75px 3.75px;
+@207543 div.eye-catcher.circle.size-125.smartphone-scaling-85   @media screen and (max-width:540px)
+      margin: .625px -9.375px .625px .625px;
+@207634 div.eye-catcher.circle.size-125.smartphone-scaling-80   @media screen and (max-width:540px)
+      margin: -2.5px -12.5px -2.5px -2.5px;
+@207724 div.eye-catcher.circle.size-125.smartphone-scaling-75   @media screen and (max-width:540px)
+      margin: -5.625px -15.625px -5.625px -5.625px;
+@207822 div.eye-catcher.circle.size-125.smartphone-scaling-70   @media screen and (max-width:540px)
+      margin: -8.75px -18.75px -8.75px -8.75px;
+@207916 div.eye-catcher.circle.size-125.smartphone-scaling-65   @media screen and (max-width:540px)
+      margin: -11.875px -21.875px -11.875px -11.875px;
+@208017 div.eye-catcher.circle.size-125.smartphone-scaling-60   @media screen and (max-width:540px)
+      margin: -15px -25px -15px -15px;
+@208102 div.eye-catcher.circle.size-125.smartphone-scaling-55   @media screen and (max-width:540px)
+      margin: -18.125px -28.125px -18.125px -18.125px;
+… 47 more — narrow the selector regex, add --media/--decl, or raise --max
+stardust/current/assets/css/ScreenLess.css: 199 of 7143 rules match /eye-catcher|energieBanking|content-sized/i, showing 40
+@275652 .list-style-2 .product-teaser.content-sized
+      width: calc(1420px - 40px); max-width: calc(1420px - 40px);
+@277088 .list-style-2.starts-with-image-right .product-teaser.content-sized:nth-child(2n+1)
+      left: calc(1920px/2 - 1420px/2);
+@296619 .list-style-2.starts-with-image-right .product-teaser.content-sized:nth-child(2n+2)   @media screen and (max-width:1919px)
+      right: calc(50% - 1420px/20);
+@297091 .list-style-2.starts-with-image-right .product-teaser.content-sized:nth-child(2n+1),.list-style-3.starts-with-image-right .product-teaser.content-sized:nth-chi…   @media screen and (max-width:1919px)
+      left: calc(50% - 1420px/2);
+@300247 .list-style-2:not(.starts-with-image-right) .product-teaser:not(.content-sized):nth-child(2n+1) figure picture,.list-style-2:not(.starts-with-image-right) .pro…   @media screen and (max-width:1520px)
+      left: -40px;
+@301202 .list-style-2:not(.starts-with-image-right) .product-teaser:not(.content-sized):nth-child(2n+2) figure picture,.list-style-2:not(.starts-with-image-right) .pro…   @media screen and (max-width:1520px)
+      right: -40px;
+@314804 .list-style-2:not(.starts-with-image-right) .product-teaser:not(.content-sized):nth-child(2n+1) figure picture,.list-style-2:not(.starts-with-image-right) .pro…   @media screen and (max-width:414px)
+      left: -4%;
+@315757 .list-style-2:not(.starts-with-image-right) .product-teaser:not(.content-sized):nth-child(2n+2) figure picture,.list-style-2:not(.starts-with-image-right) .pro…   @media screen and (max-width:414px)
+      right: -4%;
+@336139 .service-column .box.with-eye-catcher-container
+      position: relative; margin-bottom: 3em;
+@336223 .service-column .box.with-eye-catcher-container .eye-catcher-container
+      position: absolute; width: 250px; right: -4vw; bottom: -4em;
+@336347 .service-column .box.with-eye-catcher-container .eye-catcher-container picture img
+      max-width: 100%;
+@336912 .service-column .box.with-eye-catcher-container   @media screen and (max-width:1420px)
+      margin-bottom: 2em;
+@336978 .service-column .box.with-eye-catcher-container .eye-catcher-container   @media screen and (max-width:1420px)
+      width: 17vw; right: -3vw; bottom: -3em;
+@338144 .service-column .box.with-eye-catcher-container .eye-catcher-container   @media screen and (max-width:768px)
+      width: 130px;
+@338327 .service-column .box.with-eye-catcher-container   @media screen and (max-width:414px)
+      margin-bottom: 3em;
+@338393 .service-column .box.with-eye-catcher-container .eye-catcher-container   @media screen and (max-width:414px)
+      bottom: -4em;
+@338744 .service-column .box.with-eye-catcher-container   @media screen and (max-width:365px)
+      margin-bottom: 4em;
+@338810 .service-column .box.with-eye-catcher-container .eye-catcher-container   @media screen and (max-width:365px)
+      bottom: -5em;
+@412141 .teaser-modul.with-eye-catcher-container>.center
+      margin: calc(20px + 3em) auto;
+@412219 .teaser-modul.with-eye-catcher-container>.center>section
+      width: calc(100% - 2*300px); margin: 0 auto;
+@412317 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container
+      width: 300px; position: absolute; right: 0; bottom: calc(-20px - 8em);
+@412452 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container img
+      max-width: 100%; float: none; margin: 0;
+@412563 .teaser-modul.with-eye-catcher-container+.page-content-section
+      padding-top: calc(20px + 1em);
+@412728 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .spacer
+      display: block; flex-grow: 1;
+@412838 .teaser-modul.slider-section>.center>section .container.eye-catcher-included .spacer
+      display: block; flex-grow: 1;
+@413283 .teaser-modul>.center>figure .container:not(.eye-catcher-included) .spacer
+      display: none;
+@413469 .teaser-modul>.center>figure .container .title .eye-catcher
+      position: absolute; display: inline-table; bottom: 0; margin: 0;
+@414179 .teaser-modul>.center>section .container:not(.eye-catcher-included) .spacer
+      display: none;
+@415433 .teaser-modul.with-eye-catcher-container>.center>section   @media screen and (max-width:1420px)
+      width: calc(100% - 2*20vw);
+@415516 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container   @media screen and (max-width:1420px)
+      width: 20vw;
+@415649 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .title   @media screen and (max-width:1420px)
+      font-size: 3em;
+@415746 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .description   @media screen and (max-width:1420px)
+      font-size: 2em;
+@415970 .teaser-modul.with-eye-catcher-container>.center   @media screen and (max-width:1024px)
+      margin: calc(20px + 2.5em) auto;
+@416050 .teaser-modul.with-eye-catcher-container>.center>section   @media screen and (max-width:1024px)
+      width: auto;
+@416118 .teaser-modul.with-eye-catcher-container>.center>.eye-catcher-container   @media screen and (max-width:1024px)
+      width: 20vw; bottom: calc(-20px - 7em);
+@416226 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-right   @media screen and (max-width:1024px)
+      transform: scale(.7) rotate(10deg);
+@416348 .teaser-modul.slider-section>.center>figure .container .title .eye-catcher.rotate-left   @media screen and (max-width:1024px)
+      transform: scale(.7) rotate(-10deg);
+@416470 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .title   @media screen and (max-width:1024px)
+      font-size: 2.5em;
+@416569 .teaser-modul.slider-section>.center>figure .container.eye-catcher-included .description   @media screen and (max-width:1024px)
+      font-size: 1.5em;
+@416785 .teaser-modul>.center>figure .container .title .eye-catcher.size-125   @media screen and (max-width:1024px)
+      max-height: 125px;
+… 159 more — narrow the selector regex, add --media/--decl, or raise --max
+######## wide-image|teaser-modul|coloring-background|\.spacer|\.commands
+css-rules: no rule of 617 matches /wide-image|teaser-modul|coloring-background|\.spacer|\.commands/i in stardust/current/assets/css/Bundle.css
+css-rules: no rule of 945 matches /wide-image|teaser-modul|coloring-background|\.spacer|\.commands/i in stardust/current/assets/css/HhFrameworks.css
+stardust/current/assets/css/ScreenCssAlt.css: 47 of 1056 rules match /wide-image|teaser-modul|coloring-background|\.spacer|\.commands/i, showing 40
+@197791 .cookies-notice .commands
+      padding-top: 10px;
+@197834 .cookies-notice .commands a:first-child
+      margin-right: 20px;
+@256865 .sky-bonus .teaser-modul.has-animations .center:first-child figure .container
+      width: 80%; bottom: 60px;
+@257037 .sky-bonus .teaser-modul.has-animations .center:first-child figure .container .title
+      font-size: calc(4.4em + .9vw); opacity: 0; animation-duration: 1s; animation-delay: 0s; animation-fill-mode: forwards; line-height: 1.2;
+@257247 .sky-bonus .teaser-modul.has-animations.start-animations .center:first-child figure .container .title
+      animation-name: skyBonusFigureContainerContents;
+@257396 .sky-bonus .teaser-modul.has-animations .center:first-child figure .container .divider
+      opacity: 0; animation-duration: 1s; animation-delay: 1s; animation-fill-mode: forwards;
+@257563 .sky-bonus .teaser-modul.has-animations.start-animations .center:first-child figure .container .divider
+      animation-name: skyBonusFigureContainerContents;
+@257714 .sky-bonus .teaser-modul.has-animations .center:first-child figure .container .description
+      font-size: calc(18.5px + .08vw); width: 75%; margin: 0 auto; opacity: 0; animation-duration: 1s; animation-delay: .75s; animation-fill-mode: forwards;
+@257942 .sky-bonus .teaser-modul.has-animations.start-animations .center:first-child figure .container .description
+      animation-name: skyBonusFigureContainerContents;
+@258134 .sky-bonus .teaser-modul.has-animations .center:first-child figure .container .title   @media screen and (max-width:1024px)
+      font-size: calc(3.4em + .9vw);
+@258285 .sky-bonus .teaser-modul.has-animations .center:first-child figure .container .title   @media screen and (max-width:768px)
+      font-size: calc(2.4em + .9vw);
+@258399 .sky-bonus .teaser-modul.has-animations .center:first-child figure .container .description   @media screen and (max-width:768px)
+      font-size: calc(16.5px + .08vw); width: 100%;
+@258601 .teag-gas-natur .teaser-modul.has-animations .center:first-child figure .container
+      width: 80%; bottom: 60px;
+@258782 .teag-gas-natur .teaser-modul.has-animations .center:first-child figure .container .title
+      font-size: calc(4.4em + .9vw); opacity: 0; animation-duration: 1s; animation-delay: 0s; animation-fill-mode: forwards; line-height: 1.2;
+@258997 .teag-gas-natur .teaser-modul.has-animations.start-animations .center:first-child figure .container .title
+      animation-name: teagGasNaturFigureContainerContents;
+@259155 .teag-gas-natur .teaser-modul.has-animations .center:first-child figure .container .divider
+      opacity: 0; animation-duration: 1s; animation-delay: 1s; animation-fill-mode: forwards;
+@259327 .teag-gas-natur .teaser-modul.has-animations.start-animations .center:first-child figure .container .divider
+      animation-name: teagGasNaturFigureContainerContents;
+@259487 .teag-gas-natur .teaser-modul.has-animations .center:first-child figure .container .description
+      font-size: calc(18.5px + .08vw); width: 75%; margin: 0 auto; opacity: 0; animation-duration: 1s; animation-delay: .75s; animation-fill-mode: forwards;
+@259720 .teag-gas-natur .teaser-modul.has-animations.start-animations .center:first-child figure .container .description
+      animation-name: teagGasNaturFigureContainerContents;
+@259947 .teaser-modul.darum-teag
+      padding-bottom: 30px;
+@259992 .teaser-modul.darum-teag.with-background-grafik
+      padding-bottom: 0;
+@260057 .teaser-modul.darum-teag .center
+      margin-bottom: 30px;
+@260109 .teaser-modul.darum-teag.with-background-grafik .center
+      padding-bottom: calc(243px*.75); margin-bottom: 0;
+@260292 .teaser-modul.darum-teag figure
+      background-color: #fff; animation-duration: 1s; animation-delay: 0s; animation-fill-mode: forwards;
+@260416 .teaser-modul.darum-teag.start-animations figure
+      animation-name: darumTeagFigure;
+@260496 .teaser-modul figure.coloring-image picture img
+      opacity: .6;
+@260615 .teaser-modul.darum-teag figure picture img
+      opacity: 1; animation-duration: 1s; animation-delay: 0s; animation-fill-mode: forwards;
+@260739 .teaser-modul.darum-teag.start-animations figure picture img
+      animation-name: darumTeagFigureImg;
+@260834 .teaser-modul.darum-teag figure .container
+      width: 80%; bottom: 30px;
+@260972 .teaser-modul.darum-teag figure .container .title
+      font-size: calc(4.4em + .9vw); opacity: 0; animation-duration: 1s; animation-delay: 0s; animation-fill-mode: forwards; line-height: 1.2;
+@261147 .teaser-modul.darum-teag.start-animations figure .container .title
+      animation-name: darumTeagFigureContainerContents;
+@261262 .teaser-modul.darum-teag figure .container .divider
+      opacity: 0; animation-duration: 1s; animation-delay: 1s; animation-fill-mode: forwards;
+@261394 .teaser-modul.darum-teag.start-animations figure .container .divider
+      animation-name: darumTeagFigureContainerContents;
+@261511 .teaser-modul.darum-teag figure .container .description
+      font-size: calc(18.5px + .08vw); width: 75%; margin: 0 auto; opacity: 0; animation-duration: 1s; animation-delay: .75s; animation-fill-mode: forwards;
+@261704 .teaser-modul.darum-teag.start-animations figure .container .description
+      animation-name: darumTeagFigureContainerContents;
+@262021 .teaser-modul.darum-teag.with-background-grafik .center   @media screen and (max-width:1420px)
+      padding-bottom: calc(243/1420*100vw*.75);
+@262155 .teaser-modul.darum-teag figure .container   @media screen and (max-width:1310px)
+      width: 80%;
+@262208 .teaser-modul.darum-teag figure .container .description   @media screen and (max-width:1310px)
+      width: 85%;
+@262312 .teaser-modul.darum-teag figure .container   @media screen and (max-width:1120px)
+      width: 90%;
+@262365 .teaser-modul.darum-teag figure .container .description   @media screen and (max-width:1120px)
+      width: 95%;
+… 7 more — narrow the selector regex, add --media/--decl, or raise --max
+stardust/current/assets/css/ScreenLess.css: 368 of 7143 rules match /wide-image|teaser-modul|coloring-background|\.spacer|\.commands/i, showing 40
+@10466 .aktuelles .posts li .commands
+      padding: 15px 20px 15px 20px; margin: 0;
+@10534 .aktuelles .posts li .commands li
+      float: left;
+@10579 .aktuelles .posts li .commands li a
+      padding: 0 25px 0 0;
+@11274 .aktuelles .posts li.LinkedIn-post-teaser .commands a
+      font-size: .9em; color: #0a66c2;
+@11357 .aktuelles .posts li.LinkedIn-post-teaser .commands a.icon:before
+      display: inline-block; vertical-align: middle;
+@12728 .aktuelles .posts li.fbpost-post .commands a
+      font-size: .9em; color: #3b5998;
+@12802 .aktuelles .posts li.fbpost-post .commands a.icon:before
+      display: inline-block; vertical-align: middle;
+@13832 .aktuelles .posts li.tweet-post .commands li a
+      color: #55acee;
+@14020 .aktuelles .dynamic-list>div .commands
+      padding: 0 0 45px; text-align: center;
+@14094 .aktuelles .dynamic-list .posts li.fbpost-post .commands,.aktuelles .dynamic-list .posts li.LinkedIn-post-teaser .commands
+      text-align: right; display: none;
+@27040 .has-background-video .commands,.page-meta-section.contains-background-animation-controls .commands
+      font-size: 2.5em; line-height: 0; display: flex; top: 10px; position: absolute; right: 10px; z-index: 3;
+@27231 .has-background-video .commands>.group,.page-meta-section.contains-background-animation-controls .commands>.group
+      display: flex; grid-gap: 16px; justify-content: space-between; background-color: rgba(255,255,255,.5); border-radius: 9999px; padding: 2px;
+@27473 .has-background-video .commands>.group>.icon:before,.page-meta-section.contains-background-animation-controls .commands>.group>.icon:before
+      background-color: #fff; border-radius: 50%;
+@27653 .has-background-video .commands.paused>.group .icon-pause,.page-meta-section.contains-background-animation-controls .commands.paused>.group .icon-pause
+      display: none;
+@27818 .has-background-video .commands:not(.paused)>.group .icon-play,.page-meta-section.contains-background-animation-controls .commands:not(.paused)>.group .icon-pl…
+      display: none;
+@27993 .pause-background-animations .page-meta-section.contains-background-animation-controls .commands
+      opacity: 0;
+@28131 .has-background-video .commands   @media(prefers-reduced-motion)
+      display: none;
+@28176 .page-meta-section.contains-background-animation-controls .commands   @media(prefers-reduced-motion)
+      opacity: 0;
+@28254 .page-meta-section.contains-background-animation-controls .commands:not(.paused):not(.playing)>.group .icon-pause   @media(prefers-reduced-motion)
+      display: none;
+@28381 .page-meta-section.contains-background-animation-controls .commands:not(.paused):not(.playing)>.group .icon-play   @media(prefers-reduced-motion)
+      display: block;
+@28508 .user-prefers-reduced-motion:not(.pause-background-animations) .page-meta-section.contains-background-animation-controls .commands:not(.paused):not(.playing)>.…   @media(prefers-reduced-motion)
+      display: block;
+@28699 .user-prefers-reduced-motion:not(.pause-background-animations) .page-meta-section.contains-background-animation-controls .commands:not(.paused):not(.playing)>.…   @media(prefers-reduced-motion)
+      display: none;
+@51912 .bilder-modul.coloring-background
+      color: #fff;
+@51957 .bilder-modul.coloring-background .boxes .box
+      background-color: #870d87;
+@57467 .user-prefers-more-contrast .bilder-modul.coloring-background .boxes .box
+      background-color: #870d87;
+@66577 .boxed-columns-table .list-container ul.list>li>section>.footer .commands
+      margin-top: 1em; text-align: center;
+@77984 .page-content-section.channel-modul>.center .list-container .list.boxes.invert-teasers-text-color li .commands .link a,.page-content-section.channel-modul>.cen…
+      color: #fff;
+@79499 .page-content-section.channel-modul>.center .list-container .list.boxes li .commands .link
+      padding-top: 1em;
+@94641 .coloring-background
+      background-color: #870d87;
+@94825 .user-prefers-more-contrast .coloring-background
+      background-color: #870d87;
+@167166 .coloring-background .module-faq ul.list>li.entry div.container .voting a.button-vote
+      color: #f2f2f2;
+@167680 .user-prefers-more-contrast .coloring-background .module-faq ul.list>li.entry div.container .voting a.button-vote
+      color: #f2f2f2;
+@167808 .user-prefers-more-contrast .coloring-background .module-faq ul.list>li.entry div.container .voting a span
+      color: #fff;
+@182070 .google-maps-click-tool .gmct-results .map-header .gmct-filter-container .gmct-search .commands
+      display: flex; flex-direction: column; flex-grow: 1;
+@182213 .google-maps-click-tool .gmct-results .map-header .gmct-filter-container .gmct-search .commands>a.link-button
+      flex-grow: 1; padding: 0 30px;
+@202546 .page-content-section.coloring-background .keyFacts-modul
+      color: #fff;
+@202615 .page-content-section.coloring-background .keyFacts-modul>ul li.box
+      background-color: #870d87;
+@202708 .page-content-section.coloring-background .keyFacts-modul>ul li.box section
+      padding: 30px;
+@202797 .page-content-section.coloring-background .keyFacts-modul>ul li.box section>p:last-child
+      margin-bottom: 0;
+@202902 .page-content-section.coloring-background .keyFacts-modul>ul li section header h3,.page-content-section.coloring-background .keyFacts-modul>ul li section a
+      color: #fff;
+… 328 more — narrow the selector regex, add --media/--decl, or raise --max

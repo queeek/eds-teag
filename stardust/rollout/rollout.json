@@ -1,0 +1,37 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-08T11:55:40.650Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.thueringerenergie.de/",
+    "da": {
+      "org": "aemcoder",
+      "site": "dc15da58",
+      "ref": "main"
+    },
+    "liveHost": "main--dc15da58--aemcoder.aem.live",
+    "site": "dc15da58",
+    "previewHost": "main--dc15da58--aemcoder.aem.page"
+  },
+  "lastRun": {
+    "at": "2026-10-09T15:33:08.521Z",
+    "pages": {
+      "total": 9,
+      "verified": 9,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 17,
+      "converted": 17,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

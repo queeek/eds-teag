@@ -1,0 +1,483 @@
+{
+ "source": "http://localhost:8791/privatkunden-strom-stromtarife-teag-strom-easie-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "page-header-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "KI-generierter Inhalt"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "TEAG.Strom easy"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Mehr Thüringen, weniger Kosten."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Grundpreisfreiheit für die ersten 6 Monate*: Sichern Sie sich bis zu 100€"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Strom",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Für eine leichtere Orientierung empfehlen wir unsere barrierefreie telefonische Beratung unter +49 3641 8171111. Wir unterstützen Sie gern."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ihre Postleitzahl"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Personen im Haushalt"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "1",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "2",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "3",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "4",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "5",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Jahresverbrauch in kWh"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "ConsumptionChangeEventReceiver",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "kWh"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Strompreis berechnen",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Ihr individuelles Angebot"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Einfach Tarif auswählen und Ihre persönlichen Angaben machen. Wir erledigen den Rest."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Angaben ändern",
+     "href": "javascript: void(0);"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Bereits ? Jetzt im anmelden und Vorteile nutzen."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "TEAG-Kunde"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "TEAG-Kundenportal",
+     "href": "https://kundenportal.teag.de/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.hidden",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Die Wohlfühlenergie für Ihr Zuhause: Jetzt Stromvertrag online wechseln und Bonus sichern!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "KI-generiertes Motiv"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Jetzt Vorteile sichern!"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Unser zwei-Jahres-Tarif mit Strom aus erneuerbaren Energien und 6-monatiger Grundpreisfreiheit: Genießen Sie eine sorgenfreie Stromversorgung zum fairen Preis."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Kein Grundpreis für die ersten 6 Monate*"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Preiswert, sicher, gut - und Strom aus erneuerbaren Energien"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "24 Monate Erstlaufzeit inklusive Nettopreisgarantie**"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Erledigen Sie alle Aktivitäten rund um Ihre Stromversorgung bequem von zuhause und bleiben Sie flexibel. Profitieren Sie von unseren fairen Konditionen, einem Rundum-Online-Service und Strom aus erneuerbaren Energien."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt meinen Preis berechnen",
+     "href": "?scrollTo=MainContent_PCS26423"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Hat's gefunkt? Weitere Tarifdetails:"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "6 Monate keinen"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Grundpreis!*"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "*6-monatige Grundpreisbefreiung"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Sie zahlen für die ersten 6 Monate der Belieferung keinen Grundpreis. Die Grundpreisreduzierung wird in Ihrer nächsten Jahresverbrauchsabrechnung berücksichtigt."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "**Preisgarantie:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Es besteht eine Nettopreisgarantie für 24 Monate ab Lieferbeginn. Diese umfasst alle bei Vertragsschluss berücksichtigten Preisbestandteile, mit Ausnahme der Umsatzsteuer; Änderungen bei der Umsatzsteuer sowie veränderte Kosten der TEAG infolge nach Vertragsschluss neu eingeführter Steuern, Abgaben oder sonstiger staatlich oder hoheitlich veranlasster, die Beschaffung, Erzeugung, Netznutzung (Übertragung und Verteilung) oder den Verbrauch von elektrischer Energie betreffender Kostenbelastungen oder Kostenentlastungen können durch Anpassung der Preise weitergegeben werden. Näheres ist in den Ziffern I 9.1.1 und I 9.1.2 der Allgemeinen Lieferbedingungen geregelt. Nach Ende der Laufzeit einer vereinbarten Preisgarantie erfolgen Preisanpassungen nach den vertraglichen Regelungen."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Kundenservice"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Als TEAG-Kunde haben Sie mit unserem Online-Kundenportal bequemen Zugriff auf Ihre TEAG-Verträge. So können Sie beispielsweise den Bearbeitungsstand Ihres Vertrages einsehen, Rechnungen abrufen, Zählerstände melden, persönliche Daten ändern oder Umzüge melden. Mit der dazugehörigen App haben Sie Ihre Daten immer und überall schnell und einfach griffbereit. Supportanfragen können Sie jederzeit über unsere Kontaktformulare an uns richten oder über den Chat mit uns ins Gespräch kommen. Unsere umfangreichen FAQ bieten zusätzliche Hilfestellung."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Sie möchten Ihre Schreiben lieber auf dem Postweg erhalten? Kein Problem. Hierfür berechnen wir lediglich eine Pauschale von 2 EUR (brutto)."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Laufzeit"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Die Belieferung erfolgt außerhalb der Grundversorgung. Der Tarif hat eine Erstlaufzeit von 24 Monaten. Wird er nicht unter Einhaltung einer Frist von 1 Monat zum Ende der Erstlaufzeit gekündigt, verlängert er sich auf unbestimmte Zeit. Das verlängerte Vertragsverhältnis kann mit einer Frist von 1 Monat gekündigt werden."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Strom aus erneuerbaren Energien"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Mit TEAG.Strom easy erhalten Sie Strom aus erneuerbaren Energien. Für unsere Stromprodukte werden durch die TEAG Herkunftsnachweise für Strom aus erneuerbaren Energien (Wasserkraft aus Bestandsanlagen in Europa) verwendet, die durch die zuständige Behörde entwertet werden. Weitere Informationen zur Stromkennzeichnung finden Sie hier: Strommix der TEAG Thüringer Energie."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Abrechnung/Bezahlung"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Sie können die Bezahlung Ihre monatlichen Abschläge bequem und einfach per SEPA-Lastschrift vornehmen oder auch per Überweisung. Es wird keine Vorkasse gefordert. Einmal jährlich erhalten Sie eine Jahresabrechnung anhand derer Ihr Verbrauch über das Jahr gegen die geleisteten Abschläge gerechnet wird. Eine Musterrechnung mit zusätzlichen Erläuterungen finden Sie hier: Musterrechnung Strom/ Erdgas"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 15,
+   "repeats": [
+    {
+     "unitSelector": "H3.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Rechtliche Grundlagen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "KI-generierter Inhalt"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Als Ihr Energielieferant sind uns Transparenz und offene Kommunikation sehr wichtig. Kleingedrucktes wird bei der TEAG Thüringer Energie extra großgeschrieben. Alle vertragsrelevanten Rechtsgrundlagen und weiterführenden Information zu dem Tarif TEAG.Strom easy finden Sie deshalb nachfolgend als Download."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Downloads"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Allgemeine Stromlieferbedingungen, Ergänzende Bedingungen (PDF, 175 KB)",
+     "href": "/Content/Documents/Nice/teag_ts_agb.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Allgemeine Informationen (PDF, 126 KB)",
+     "href": "/Content/Documents/teag_vm106_allgem_info_produkte.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Muster-Abwendungsvereinbarung (PDF, 158 KB)",
+     "href": "/Content/Documents/teag_vp135_abwendungsvereinbarung.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Datenschutzinformation gemäß Art. 12ff. Datenschutz-Grundverordnung (PDF, 162 KB)",
+     "href": "/Content/Documents/Nice/teag_datenschutzinformation.pdf"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "LI.icon-teag-file-pdf",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Überzeugt? Dann gleich wechseln."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rund 500.000 Kunden aus ganz Deutschland vertrauen auf die TEAG und sind von unserer Leistung überzeugt. Mit uns haben Sie einen sicheren Partner an Ihrer Seite. Umfassender Service und ein vielfältiges Angebot zeichnen uns aus. Werden Sie Teil unserer TEAG-Familie."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Jetzt Preis berechnen",
+     "href": "?scrollTo=MainContent_PCS26423"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Ihr Wechsel zur TEAG - einfach und schnell"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "1"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Preisvorteil berechnen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Geben Sie einfach Ihre PLZ und Ihren geschätzten Jahresverbrauch ein."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "2"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Einfach online bestellen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Für den Vertragsabschluss benötigen Sie nur 5 Minuten."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "3"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Wir übernehmen den Rest"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Sie erhalten in Kürze Ihre Vertragsunterlagen. Wir klären alles mit Ihrem bisherigen Anbieter."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "SECTION.step",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

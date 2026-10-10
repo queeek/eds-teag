@@ -1,0 +1,1802 @@
+{
+ "source": "http://localhost:8791/privatkunden-strom-stromtarife-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "page-header-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "DuxX/iStockphoto.com"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Strompreise und Tarife"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Spannung pur! Mit Energie der TEAG – sicher, günstig, einfach gut."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section.tariff-calculator",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Strom",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Für eine leichtere Orientierung empfehlen wir unsere barrierefreie telefonische Beratung unter +49 3641 8171111. Wir unterstützen Sie gern."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ihre Postleitzahl"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Erweiterte Filter",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Personen im Haushalt"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "1",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "2",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "3",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "4",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "5",
+     "href": "javascript: void(0)"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Jahresverbrauch in kWh"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "ConsumptionChangeEventReceiver",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "kWh"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Erweiterte Filter",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Strompreis berechnen",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Ihr individuelles Angebot"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Einfach Tarif auswählen und Ihre persönlichen Angaben machen. Wir erledigen den Rest."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Angaben ändern",
+     "href": "javascript: void(0);"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Hinweis"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Sie haben eine (z.B. Wärmepumpe) mit ?"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "unterbrechbare/steuerbare Verbrauchseinrichtung"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "separaten Stromzähler"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Dann können Sie unseren Tarif TEAG.Heizstrom abschließen."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Ja, separater Stromzähler vorhanden",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Nein, kein separater Stromzähler vorhanden",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "×",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Bereits ? Jetzt im anmelden und Vorteile nutzen."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "TEAG-Kunde"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "TEAG-Kundenportal",
+     "href": "https://kundenportal.teag.de/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.hidden",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.product-teasers-1",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "contrastwerkstatt/iStockphoto.com"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Unser neues Top-Angebot für Preisoptimierer: Jetzt vergleichen und Ersparnis sichern"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Günstiger Strompreis und 6-monatige Grundpreisfreiheit mit TEAG.Strom easy:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "- kein Grundpreis für die ersten 6 Monate"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Bis zu 100€ Vorteil"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Preiswert, sicher, gut - und"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Strom aus erneuerbaren Energien"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "24 Monate Erstlaufzeit"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "inklusive Nettopreisgarantie"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "2"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Jetzt sparen",
+     "href": "/privatkunden/strom/stromtarife/teag-strom-easie"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.keyfacts",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Darum zur TEAG wechseln"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Bundesweit"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Finden Sie mit unserem Tarifrechner deutschlandweit Ihren passenden TEAG-Stromtarif."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Einfach"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Nutzen Sie unsere vielfältigen Service-Angebote – vom Chat über die App bis zum Vor-Ort-Besuch."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Sicher"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Vertrauen Sie auf unsere zuverlässige Energieversorgung zu fairen Preisen."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.channel-products-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Unsere Bestseller"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bis zu 100 Euro Preisvorteil (brutto) dank 6-monatiger Grundpreisfreiheit. Diese wird in Ihrer nächsten Jahresverbrauchsabrechnung berücksichtigt."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Es besteht eine Nettopreisgarantie für 24 Monate ab Lieferbeginn. Diese umfasst alle bei Vertragsschluss berücksichtigten Preisbestandteile, mit Ausnahme der Umsatzsteuer; Änderungen bei der Umsatzsteuer sowie veränderte Kosten der TEAG infolge nach Vertragsschluss neu eingeführter Steuern, Abgaben oder sonstiger staatlich oder hoheitlich veranlasster, die Beschaffung, Erzeugung, Netznutzung (Übertragung und Verteilung) oder den Verbrauch von elektrischer Energie betreffender Kostenbelastungen oder Kostenentlastungen können durch Anpassung der Preise weitergegeben werden. Näheres ist in den Ziffern I 9.1.1 und I 9.1.2 der Allgemeinen Lieferbedingungen geregelt. Nach Ende der Laufzeit einer vereinbarten Preisgarantie erfolgen Preisanpassungen nach den vertraglichen Regelungen."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "3"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Die Energiepreisgarantie ist auf die Kosten der Beschaffung und des Vertriebes beschränkt; Änderungen bei Kosten für Messung und den Messstellenbetrieb sowie bei Netzentgelten, Steuern, Abgaben, Umlagen und sonstige staatlich oder hoheitlich veranlassten, die Beschaffung, Erzeugung, Netznutzung (Übertragung und Verteilung) oder den Verbrauch von elektrischer Energie betreffenden Kosten können durch Anpassung der Preise weitergegeben werden. Näheres ist in den Ziffern I 9.1.1 und I 9.1.2 der Allgemeinen Lieferbedingungen geregelt."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Die eingeschränkte Preisgarantie ist auf die Kosten der Beschaffung und des Vertriebes, auf die Netzentgelte und auf die Kosten für Messung und des Messstellenbetrieb beschränkt; Änderungen bei Steuern, Abgaben, Umlagen und sonstige staatlich oder hoheitlich veranlassten, die Beschaffung, Erzeugung, Netznutzung (Übertragung und Verteilung) oder den Verbrauch von elektrischer Energie betreffenden Kosten können durch Anpassung der Preise weitergegeben werden. Näheres ist in den Ziffern I 9.1.1 und I 9.1.2 der Allgemeinen Lieferbedingungen geregelt."
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "LI.box",
+     "count": 4,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 10
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.footnote",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.cta-band-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Überzeugt? Dann gleich wechseln."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rund 500.000 Kunden aus ganz Deutschland vertrauen auf die TEAG und sind von unserer Leistung überzeugt. Mit uns haben Sie einen sicheren Partner an Ihrer Seite. Umfassender Service und ein vielfältiges Angebot zeichnen uns aus. Werden Sie Teil unserer TEAG-Familie."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Jetzt Preis berechnen",
+     "href": "?scrollTo=MainContent_PCS16073"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section.channel-products-2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Weitere Angebote"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "TEAG.StromFür Online-Selbermacher. Mit unserem Klassiker haben Sie alles selbst im Griff. Tarifdetails",
+     "href": "/privatkunden/strom/stromtarife/teag-strom"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "ThüringenStrom.vorkasseFür Selbstentscheider. Mit unserem Vorkasse-Tarif haben Sie Ihre Kosten immer im Blick. Tarifdetails",
+     "href": "/privatkunden/strom/stromtarife/thueringenstrom-vorkasse"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "ThüringenStrom.sozialFür Sparsame. Mit diesem Strom-Tarif profitieren Sie von unserer gesellschaftlichen Verantwortung. Tarifdetails",
+     "href": "/privatkunden/strom/stromtarife/thueringenstrom-sozial"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Grundversorgung StromFür Einfach-Liebhaber. Mit unserem Basis-Strom-Tarif sind Sie flexibel und sicher versorgt. Tarifdetails",
+     "href": "/privatkunden/strom/stromtarife/grundversorgung"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.box",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.product-teasers-2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "gorodenkoff/iStockphoto.com"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Mit Strom & Internet dauerhaft sparen"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Zusammen mit der Thüringer Netkom (TNK) bieten wir das Kombi-Angebot ThüringenHOCHzwei an. Mit zwei Thüringer Produkten: Internet der TNK zum Strom von TEAG sparen Sie bei Ihrem Stromtarif."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Strom aus erneuerbaren Energien"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Schnelles Internet ab 100 Mbit/s"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Jährlich 50 Euro Kombi-Bonus auf die Stromrechnung"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jetzt abschließen und sparen",
+     "href": "/privatkunden/strom_und_internet"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section.product-teasers-3",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "gstockstudio/stock.adobe.com"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Energie des Moments: Entdecken Sie unsere dynamischen Stromtarife"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Sind Sie Energie-Pionier oder Strom-Stratege? Mit unseren TEAG.Strom dynamic -Tarifen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "wird Ihr Stromverbrauch dynamisch abgerechnet"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": ". Preisänderungen an der Börse werden 1:1 an Sie weitergegeben."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Nur für Verbrauchsstellen mit intelligentem Messsystem (iMSys)"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "6 Monate Erstlaufzeit"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Übergangspreis für die ersten 30 Liefertage"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt entdecken",
+     "href": "/privatkunden/strom/stromtarife/dynamisch"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.product-teasers-4",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "AleksandarNakic/iStockphoto.com"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Ihre persönliche Bestwahl!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Unsere Stromprodukte aus erneuerbaren Energien sind ganz auf Ihre Bedürfnisse abgestimmt. Ob Sie viel oder wenig Strom verbrauchen, eine kurze Vertragsbindung wünschen oder Ihren Vertrag online verwalten möchten – vergleichen Sie jetzt und wählen Sie aus den zahlreichen Angeboten der TEAG den für Sie geeigneten Stromtarif!"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mehr zu unserem Strom",
+     "href": "/privatkunden/strom"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section.three-steps",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Ihr Wechsel zur TEAG - einfach und schnell"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "1"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Preisvorteil berechnen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Geben Sie einfach Ihre PLZ und Ihren geschätzten Jahresverbrauch ein."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "2"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Einfach online bestellen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Für den Vertragsabschluss benötigen Sie nur 5 Minuten."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "3"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Wir übernehmen den Rest"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Sie erhalten in Kürze Ihre Vertragsunterlagen. Wir klären alles mit Ihrem bisherigen Anbieter."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "SECTION.step",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.cta-band-2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Jetzt deutschlandweit unser Angebot vergleichen mit dem Tarifrechner Strom!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Schon entdeckt? Bei der Auswahl des für dich besten Tarifs hilft dir unser Strompreisvergleich. Durch wenige Klicks erfährst du, welcher Tarif für dich am lukrativsten ist. Erhalte jetzt schnell und einfach alle Vorteile auf einen Blick!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Jetzt Preis berechnen",
+     "href": "?scrollTo=MainContent_PCS16073"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section.product-teasers-banking",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "TEAG"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Sind Sie bereits im TEAG-Kundenportal registriert?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Das TEAG-Kundenportal und die App bieten Ihnen:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Verträge und Daten online verwalten"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Alles auf einen Blick"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Schnelle Registrierung in 3 Minuten"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Verschlüsselter Datenschutz"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Jetzt im TEAG-Kundenportal anmelden:"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Zum Login",
+     "href": "https://kundenportal.teag.de/"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "TEAG-Kundenportal-App herunterladen:"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.text-module-1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Durchschnittlicher Stromverbrauch: Wie viel kWh verbraucht ein Haushalt?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "pixelfit/iStockphoto.com"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Wie viel ist eigentlich „viel“? Häufig ist Verbrauchern nicht klar, ob sie mit ihrer eigenen Nutzung dem durchschnittlichen Stromverbrauch entsprechen. Folglich fällt es ihnen schwer einzuschätzen, ob Einsparpotenziale bestehen. Wir helfen Ihnen gern dabei, sich zu orientieren:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ihr Stromverbrauch basiert auf mehreren Aspekten. Grundlegend ist die Personenanzahl: Je mehr Menschen in einem Haushalt leben, desto mehr Strom wird verbraucht. Allerdings sinkt gleichzeitig der Pro-Kopf-Verbrauch, da größere Gerätschaften wie ein Kühlschrank gemeinsam benutzt werden. Ähnliches gilt es bei der Wohn-Art zu berücksichtigen: Während Bewohner eines Einfamilienhauses beispielsweise die Außenbeleuchtung oder das Garagentor vollumfänglich zahlen, teilen sich Mehrparteienhäuser die entsprechenden Kosten."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ebenso relevant für Ihren Stromverbrauch sind die Leistung und die tägliche Betriebsdauer Ihrer Haushaltsgeräte. Nicht zuletzt stellt sich die Frage nach der Warmwasserbereitung: Wird das Wasser mit Strom erhitzt, erhöht sich auch hier der Bedarf pro Kopf."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Liegen Sie selbst über oder unter dem durchschnittlichen Stromverbrauch? Anhand der nachfolgenden Tabelle können Sie Ihren eigenen Bedarf einordnen. Sollte Ihre Haushaltsgröße nicht abgebildet sein, können Sie sich an den Vergleichswerten des sogenannten Stromspiegels orientieren:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Größe des Haushalts"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Durchschnittlicher Stromverbrauch"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "1 Person"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "1500 kWh"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "2 Personen"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "2500 kWh"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "3 Personen"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "3500 kWh"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "4 Personen"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "4250 kWh"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Quelle: https://strom-report.de/stromverbrauch/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 14,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section.table",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Durchschnittlicher Stromverbrauch: Wie viel kWh verbraucht ein Haushalt?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ihr Stromverbrauch basiert auf mehreren Aspekten. Grundlegend ist die Personenanzahl: Je mehr Menschen in einem Haushalt leben, desto mehr Strom wird verbraucht. Allerdings sinkt gleichzeitig der Pro-Kopf-Verbrauch, da größere Gerätschaften wie ein Kühlschrank gemeinsam benutzt werden. Ähnliches gilt es bei der Wohn-Art zu berücksichtigen: Während Bewohner eines Einfamilienhauses beispielsweise die Außenbeleuchtung oder das Garagentor vollumfänglich zahlen, teilen sich Mehrparteienhäuser die entsprechenden Kosten."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Größe des Haushalts"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Durchschnittlicher Stromverbrauch"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "1 Person"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "1500 kWh"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "2 Personen"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "2500 kWh"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "3 Personen"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "3500 kWh"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "4 Personen"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "4250 kWh"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section.text-module-2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Wie setzt sich der Strompreis zusammen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Die Höhe des Strompreises ist für viele Nutzer auf den ersten Blick undurchsichtig, denn dieser errechnet sich nicht nur aus dem Endpreis für den tatsächlich angefallenen Verbrauch. Oftmals ist nicht bekannt, dass mehrere Bestandteile eine Rolle spielen. Dabei können wir als Stromanbieter nur auf einen kleinen Teil Einfluss nehmen. Sobald sich ein Bestandteil ändert, kann es zu Schwankungen kommen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Grundpreis des Anbieters sowie die Kosten pro Kilowattstunde an. Der Grundpreis wird monatlich berechnet und enthält feststehende Beträge wie beispielsweise die Netznutzung, den Stromzähler und dessen Wartung. Ihr tatsächlicher Verbrauch wird mittels des Verbrauchspreises abgerechnet, der auch als Arbeitspreis bezeichnet wird. Hierin enthalten sind neben den Kosten pro Kilowattstunde Aspekte wie Beschaffungskosten, staatliche Steuern und Abgaben."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Ihre Energierechnung begleichen Sie mittels der monatlichen Abschlagszahlung. Bei Neukunden wird der fällige Betrag anhand des voraussichtlichen Jahresverbrauchs errechnet. Für Bestandskunden wird der Vorjahresverbrauch herangezogen. Insgesamt wird der Jahresverbrauch auf elf Abschlagszahlungen sowie eine Jahresendrechnung aufgeteilt."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Zusammensetzung Strompreis bei der TEAG"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Die nachfolgende Grafik zeigt Ihnen die Zusammensetzung des Strompreises in unserem Tarif TEAG.Strom extra am Beispiel eines Durchschnittshaushaltes mit einem Jahresverbrauch von 3.000 kWh in 99326 Stadtilm (Stand: 01. Januar 2025). Steuern und Abgaben sind staatlich festgelegt. Entgelte für Netzbetreiber und Messstellenbetreiber sind regulatorische Kosten. Wir als Ihr Energielieferant können lediglich auf den Bereich Vertrieb und Energiebeschaffung Einfluss nehmen."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "TEAG"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Für Sie als Privatnutzer kommt es bei der Tarifauswahl auf den Grundpreis des Anbieters sowie die Kosten pro Kilowattstunde an. Der Grundpreis wird monatlich berechnet und enthält feststehende Beträge wie beispielsweise die Netznutzung, den Stromzähler und dessen Wartung. Ihr tatsächlicher Verbrauch wird mittels des Verbrauchspreises abgerechnet, der auch als Arbeitspreis bezeichnet wird. Hierin enthalten sind neben den Kosten pro Kilowattstunde Aspekte wie Beschaffungskosten, staatliche Steuern und Abgaben. Ihre Energierechnung begleichen Sie mittels der monatlichen Abschlagszahlung. Bei Neukunden wird der fällige Betrag anhand des voraussichtlichen Jahresverbrauchs errechnet. Für Bestandskunden wird der Vorjahresverbrauch herangezogen. Insgesamt wird der Jahresverbrauch auf elf Abschlagszahlungen sowie eine Jahresendrechnung aufgeteilt."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 7,
+   "repeats": []
+  },
+  {
+   "section": "page-content-section.faq",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Noch Fragen?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Hier finden Sie externe Inhalte von YouTube, die aufgrund Ihrer gewählten Cookie-Einstellung nicht angezeigt werden. Um externe Inhalte von YouTube zu sehen, können Sie für diese Session alle YouTube-Cookies zulassen. Nach dem Schließen des Browsers wird Ihre Cookie-Einstellung wieder auf den ursprünglichen Stand zurückgesetzt."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "YouTube-Cookies zulassen."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Indem Sie „YouTube-Cookies zulassen“ auswählen, stimmen Sie diesen (jederzeit widerruflich) zu. Dies umfasst auch Ihre Einwilligung in die Übermittlung personenbezogener Daten in Drittländer wie die USA nach Art. 49 Abs. 1 lit. a) DSGVO."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Die betreffenden Drittländer weisen im Zweifel nicht das Datenschutzniveau auf, das Sie unter der DSGVO genießen. Das kann Nachteile wie eine erschwerte Durchsetzung von Betroffenenrechten, eine fehlende Kontrolle der Weiterverarbeitung und Übermittlung der Daten oder Zugriffe auf Daten durch staatliche Stellen, insbes. Behörden der USA, zu Kontroll- und Überwachungszwecken bedeuten, ohne dass Ihnen Rechtsbehelfe dagegen zustehen."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Alle weiteren Informationen finden Sie in unserer , insbesondere was Cookies sind und welche wir einsetzen, finden Sie ausführlich zudem in unserer ."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Datenschutzerklärung",
+     "href": "/datenschutz"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Cookieerklärung",
+     "href": "/cookieerklaerung"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "ThemaStrom",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "10 TOP-Fragen",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Strom",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Erdgas",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Grund- und Ersatzversorgung",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "TEAG-Kundenportal",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Energielösungen",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Engagement",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Kundenservice",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "RubrikPreis",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Preis",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Abschlag",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Zähler",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Vertrag",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Grund & Ersatzversorgung",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Insolvenz",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Steuerbare Verbrauchseinrichtungen",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Dynamische Tarife",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "In FAQs suchen nach:"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Gibt es die EEG-Umlage noch?"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Vom 1. Juli bis 31. Dezember 2022 wird die EEG-Umlage auf null herabgesetzt und Ihnen als Gutschrift auf Ihrer TEAG-Rechnung dargestellt. Zum 1. Januar 2023 wird die EEG-Umlage aufgehoben und ist damit nicht mehr Bestandteil des Strompreises."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Was bedeutet die Umlage aus dem KWK-Gesetz?"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Das KWK-Gesetz regelt die gesetzlich zwingende Vergütung für Strom, welcher aus Kraft-Wärme-Kopplungs (KWK)-Anlagen in das Netz des Netzbetreibers eingespeist wird. Die Betreiber solcher Anlagen erhalten für den in das Netz eingespeisten Strom vom Netzbetreiber, an dessen Netz die Anlagen angeschlossen sind, grundsätzlich eine Vergütung in einer gesetzlich festgelegten Höhe. Diese Förderung der Stromerzeugung in (KWK)-Anlagen nach dem KWK-Gesetz führt zu Aufwendungen, welche unter anderem den Energieversorgungsunternehmen in Rechnung gestellt werden und sich damit strompreiserhöhend auswirken. Über den Strompreis tragen daher alle Verbraucher einen Anteil der Aufwendungen, welche durch die Förderung der Erzeugung von Strom mithilfe von (KWK)-Anlagen entstehen. Der sich hierbei je Kilowattstunde ergebende Betrag wird jedes Jahr als sogenannte KWK-Umlage neu ermittelt."
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Wie viel Prozent des Strompreises entfallen auf Steuern und Abgaben?"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Bei TEAG Thüringer Energie setzt sich der Strompreis in Thüringen im Durchschnitt aus 29 Prozent Steuern, Abgaben und Umlagen, 24 Prozent Netzentgelte inkl. Messstellenbetrieb und 47 Prozent für Vertriebs- und Beschaffungskosten zusammen."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Was ist die Stromsteuer und wer muss wie viel bezahlen?"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Am 1. April 1999 trat das sogenannte \"Gesetz zum Einstieg in die ökologische Steuerreform\" in Kraft, welches die Grundlage für die so genannte \"Stromsteuer\" bildet. Das Gesetz regelt die Erhebung der Stromsteuer (Stromsteuergesetz) und Änderungen des Energiesteuergesetzes sowie die entsprechenden Erhöhungen der jeweiligen Steuersätze. Die Stromsteuer ist eine neue Verbrauchssteuer, die durch den Endabnehmer zu entrichten ist. Die Stromsteuer wird daher in der Regel durch den Stromversorger erhoben und zuzüglich Mehrwertsteuer auf der Stromabrechnung separat ausgewiesen. Durch die Einführung der Stromsteuer sollen zum einen der Energieverbrauch gesenkt und zum anderen energiesparende sowie Ressourcen schonende und regenerative Energiequellen gefördert werden. Darüber hinaus sollen die Einnahmen zur Kompensation der steigenden Sozialversicherungskosten, insbesondere der Rentenversicherung, im Bundeshaushalt dienen. Seit 2003 beträgt die Stromsteuer 2,05 Ct/kWh. Diese wird durch alle Anbieter erhoben. Für bestimmte energieintensive Prozesse oder Verfahren kann die Stromsteuer auf Antrag reduziert oder ganz erlassen werden."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Wie viel Cent Stromsteuer sind im Preis für eine Kilowattstunde enthalten?"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Seit 01.01.2003 sind 2,05 Cent Stromsteuer im Preis einer kWh enthalten."
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Der Verbrauch in meiner Stromrechnung erscheint zu hoch. Welche Möglichkeiten der Prüfung habe ich? Ist mein Zähler defekt?"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Als Erstes empfehlen wir Ihnen die Prüfung des Zählerstandes. Vergleichen Sie den Zählerstand auf Ihrer Energierechnung mit dem Zählerstand auf Ihrem Zähler. Ist dieser nicht korrekt angegeben, senden Sie uns bitte ein Foto des Zählers (gern auch per E-Mail an ), auf dem Zählernummer, Zählerstand und Aufnahmedatum zu erkennen sind."
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "kundenservice@teag.de",
+     "href": "mailto:kundenservice@teag.de"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Können Sie ausschließen, dass ein falscher Zählerstand zur Abrechnung gelangte, besteht die Möglichkeit, den FI-Schalter im Sicherungskasten umzulegen. Schon nach einer kurzen „Nachlaufzeit“ sollte keine Verbrauchsmessung mehr stattfinden (Zähler steht still). Auch ein Elektroinstallationsunternehmen kann Ihnen beim Aufspüren von möglichen Ursachen helfen. Sind diese Prüfmittel erschöpft, kann eventuell nur eine Befundprüfung Klarheit bringen. Wird dabei festgestellt, dass der Zähler keine Mängel aufweist, entstehen Ihnen jedoch ."
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "Kosten für die Befundprüfung",
+     "href": "https://www.thueringer-energienetze.com/energiepartner/messwesen/veroeffentlichungen/befundpruefung"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Wurde ein Defekt ermittelt, werden selbstverständlich keine Kosten in Rechnung gestellt. Sobald uns das Prüfergebnis vorliegt und eine Korrektur der Energierechnung notwendig ist, werden wir diese vornehmen und Sie darüber informieren."
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Wie setzt sich der Strompreis zusammen?"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Ihr Strompreis besteht aus drei Teilen. Der Erste umfasst alle Steuern, Abgaben und Umlagen, die wir an den Staat abführen. Der zweite Teil beinhaltet die Kosten für die Nutzung der Energienetze, die wir an die Netz- bzw. Messstellenbetreiber weiterreichen. Die ersten beiden Teile zusammen machen ca. zwei Drittel Ihres Endpreises aus. Den dritten Teil nutzen wir für die Energiebeschaffung, den Vertrieb und zur Deckung unserer Kosten."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "TEAG"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Welche Stromtarife gibt es bei der TEAG?"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Wir freuen uns, dass Sie sich für die Tarif-Vielfalt der TEAG interessieren. Schauen Sie gern auf unserem vorbei. Übrigens, wir versorgen Sie auch gern mit ."
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Tarif-Vergleichsrechner Strom",
+     "href": "/privatkunden/strom/stromtarife"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Erdgas",
+     "href": "/privatkunden/erdgas/gastarife"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Welche Kosten beinhaltet der Grundpreis?"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Der Grundpreis stellt den festen Teil der Rechnungskomponenten dar. Er lässt sich in die beiden Kostenblöcke Netznutzungsentgelte und Vertriebskosten unterteilen. Auf die Netznutzungsentgelte, welche uns vom Netzbetreiber in Rechnung gestellt werden, entfallen Kosten für den Ausbau, die Bereithaltung und Instandhaltung des Netzes, die Messeinrichtung, das Ablesen des Zählers und die Abrechnung gegenüber TEAG Thüringer Energie. Der Teil Vertriebskosten enthält Kosten für die Erstellung der Abrechnung gegenüber dem Verbraucher und dem Kundenservice."
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Warum sind die Strompreise bei der TEAG regional unterschiedlich?"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Das deutschlandweit sehr heterogene Strompreisniveau ergibt sich durch regional unterschiedlich berechnete Netzentgelte, diese werden von dem örtlichen Netzbetreiber auf Basis notwendiger Ausbau- und Stabilisierungsmaßnahmen kalkuliert. Neben den Kosten für die Erzeugung, Beschaffung und Vermarktung von Strom sind der Stromtransport und der damit verbundene Betrieb der Netze sowie staatlich festgelegte Steuern, Umlagen und Abgaben die entscheidenden Bausteine für den Haushaltsstrompreis."
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "Nein",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Was versteht man unter Spotmarktpreisen?"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Stromversorger kaufen den Strom für ihre Kunden an der Börse. Die Strombörse EPEX Spot bedient dabei die Nachfrage für den kurzfristigen Bedarf. Versorger kaufen hier Strom mit nur einem Tag Vorlauf ein, wobei sich die Preise stündlich ändern können. Der jeweils geltende Preis wird als Spotmarktpreis bezeichnet. Als zuverlässiger Versorger beschafft die TEAG den größten Teil ihres Strombedarfs langfristig am sogenannten Terminmarkt, mitunter schon mehrere Jahre im Voraus. So können wir Schwankungen im Börsenpreis ausgleichen und müssen Preissteigerungen nicht sofort an unsere Kunden weitergeben."
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "War diese Antwort hilfreich?"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Ja",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "Nein",
+     "href": "#"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.float-left",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 9,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.entry",
+     "count": 11,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page-content-section.service-cards",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Immer für Sie da"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Sie haben Fragen?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ty/stock.adobe.com"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "E-Mail:"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "kundenservice@teag.de",
+     "href": "mailto:kundenservice@teag.de"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Serviceline:"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "03641-817 1111",
+     "href": "tel:+4936418171111"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Mo-Do: 7:00 – 19:00 Uhr, kostenfrei aus dem dt. Festnetz"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Fr: 7:00 – 13:00 Uhr"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Rückruf vereinbaren"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Sie haben eine Frage oder wünschen eine Beratung?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Ihre Daten werden nur zum einmaligen Rückruf bzw. zur Bearbeitung Ihres Anliegens verwendet."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Vorname"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Name"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Rückrufdatum"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Telefon"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Thema Ihrer Anfrage"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Thema Ihrer Anfrage"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Abschlag"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Bankverbindung"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "TEAG-Kundenportal"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Energieberatung"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Netzanschluss"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Produkte"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Rechnung"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Verträge"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Zählerstand"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Sonstiges"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Ich habe die gelesen und verstanden."
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Datenschutzerklärung",
+     "href": "/datenschutz"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "*"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Anfrage senden",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 32,
+     "text": "Auf einen Blick"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Hier finden Sie alle Service-Themen auf einen Blick."
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "TEAG-Kundenportal",
+     "href": "/geschaeftskunden/service/kundenportale/teag-kundenportal"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Zählerstandsmeldung",
+     "href": "/privatkunden/service/zaehlerstandsmeldung"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "FAQ",
+     "href": "/privatkunden/service/faq"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Umzug",
+     "href": "/privatkunden/service/umzug_kuendigung/umzug"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Haus- und Baustromanschluss",
+     "href": "/privatkunden/strom/haus-_-_baustromanschluss"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Erdgashausanschluss",
+     "href": "/privatkunden/erdgas/hausanschluss"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.box",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 8
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "all 16 content sections of the prototype are `page-content-section`; renamed with the owning block (archetype:privatkunden-strom-stromtarife) because qa-gate matches schema sections to page blocks by the FIRST section of the same name",
+  "the hidden markup of the tariff section (result panel, Hinweis overlay, 4x DIV.hidden) and of the FAQ (YouTube cookie notice, voting rows, drop-down option lists) is live-JS state never shown on the captured page; the EDS page carries only the visible texts (static interim tier)"
+ ],
+ "pruned": {
+  "page-content-section.text-module-1": "TH.head x2 + TR. x4 moved to the new `page-content-section.table` section (the data table is its own block); the prose paragraphs are not authoring units",
+  "page-content-section.text-module-2": "prose only",
+  "page-content-section.table": "TR. x4 data rows: the qa-gate unit proxy has no tr counter (li / figure / article / details only); the rows are verified by block-roundtrip (table round-trip closed, EW 10/10)"
+ }
+}

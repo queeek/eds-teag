@@ -1,0 +1,27 @@
+# Dynamic features — detected (2026-10-08T08:07:09.546Z)
+
+Pages probed: /, /privatkunden/strom/stromtarife, /privatkunden/strom/haus-_-_baustromanschluss, /ueber_uns/unternehmen, /impressum · settle 5000 ms · width 1440 · reach from 8/8 crawled pages
+
+Evidence only. Every row must receive a disposition in `stardust/dynamic-features.md` (`dynamics-plan.mjs` drafts it).
+
+| id | class | feature | pages | reach | evidence | hint |
+|---|---|---|---|---|---|---|
+| a-unknown-third-party-host-www-google-com | A API / personalisation / settings | unknown third-party host www.google.com | 5/5 |  | www.google.com | inspect |
+| a-cms-app-settings-object-datalayer | A API / personalisation / settings | CMS / app settings object dataLayer | 5/5 |  |  | settings |
+| a-unknown-third-party-host-cfg-moin-ai | A API / personalisation / settings | unknown third-party host cfg.moin.ai | 3/5 |  | cfg.moin.ai | inspect |
+| a-unknown-third-party-host-www-etracker-de | A API / personalisation / settings | unknown third-party host www.etracker.de | 1/5 |  | www.etracker.de | inspect |
+| f-form-protection-captcha-antibot | F form | form protection: captcha / antibot | 2/5 |  | remote.captcha.com | forms |
+| i18n-locale-variants-de | I18N locale | locale variants de | 1/5 |  | https://apps.apple.com/de/app/teag-energiebanking/id1514429665 | locale |
+| s-site-search-form-default | S search | site search form → /default | 1/5 | 0/8 | text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email | search |
+| s-site-search-form-privatkunden-strom-stromtarife | S search | site search form → /privatkunden/strom/stromtarife | 1/5 | 0/8 | text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email | search |
+| s-site-search-form-privatkunden-strom-haus-baustromanschluss | S search | site search form → /privatkunden/strom/haus-_-_baustromanschluss | 1/5 | 0/8 | text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email | search |
+| s-site-search-form-ueber-uns-unternehmen | S search | site search form → /ueber_uns/unternehmen | 1/5 | 0/8 | text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email | search |
+| s-site-search-form-impressum | S search | site search form → /impressum | 1/5 | 0/8 | text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email | search |
+| t-consent-usercentrics | T tag / consent | consent: Usercentrics | 5/5 |  | web.cmp.usercentrics.eu<br>v1.api.service.cmp.usercentrics.eu<br>consent-api.service.consent.usercentrics.eu | tags |
+| t-marketing-ad-retargeting-pixel | T tag / consent | marketing: ad / retargeting pixel | 5/5 |  | connect.facebook.net<br>ad.doubleclick.net<br>googleads.g.doubleclick.net | tags |
+| t-tag-manager-google-tag-manager | T tag / consent | tag manager: Google Tag Manager | 5/5 |  | www.googletagmanager.com | tags |
+| t-unknown-third-party-host-code-etracker-com | T tag / consent | unknown third-party host code.etracker.com | 5/5 |  | code.etracker.com | inspect |
+| t-unknown-third-party-host-www-etracker-de | T tag / consent | unknown third-party host www.etracker.de | 4/5 |  | www.etracker.de | inspect |
+| t-unknown-third-party-host-widget-moin-ai | T tag / consent | unknown third-party host widget.moin.ai | 3/5 |  | widget.moin.ai | inspect |
+| v-iframe-without-src-runtime-injected-embed | V media | iframe without src (runtime-injected embed) | 5/5 |  | 0×0<br>Chat-Einleitung Rahmen<br>Öffnen Chat Rahmen | embed-runtime |
+| x-sign-in-account-links | X auth / commerce | sign-in / account links | 5/5 |  | https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg | decided-out |

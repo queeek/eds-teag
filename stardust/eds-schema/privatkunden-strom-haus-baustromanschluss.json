@@ -1,0 +1,139 @@
+{
+  "source": "http://localhost:8791/privatkunden-strom-haus-baustromanschluss-proposed.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "page-header-section",
+      "items": [
+        {
+          "role": "body",
+          "order": 0,
+          "text": "RioPatuca Images/stock.adobe.com"
+        },
+        {
+          "role": "heading",
+          "order": 1,
+          "text": "Haus- & Baustromanschluss"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 1,
+      "repeats": []
+    },
+    {
+      "section": "page-meta-section",
+      "items": [
+        {
+          "role": "cta",
+          "order": 0,
+          "text": "Startseite",
+          "href": "/default"
+        },
+        {
+          "role": "cta",
+          "order": 1,
+          "text": "Privatkunden",
+          "href": "/privatkunden"
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Strom",
+          "href": "/privatkunden/strom"
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "Haus- & Baustromanschluss",
+          "href": "/privatkunden/strom/haus-_-_baustromanschluss"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 1,
+      "repeats": [
+        {
+          "unitSelector": "LI.",
+          "count": 3,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 1
+          },
+          "uniform": true
+        }
+      ]
+    },
+    {
+      "section": "page-content-section",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Ihr Weg zum Haus- und Baustromanschluss"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Sie möchten Ihr Haus an das Stromnetz anschließen lassen? Sie oder Ihre Handwerker benötigen bereits in der Bauphase Energie? Für alle Fragen rund um Haus- und Baustromanschluss ist unser Tochterunternehmen, die TEN Thüringer Energienetze GmbH & Co. KG Ihr Partner. Alle Infos dazu finden Sie ."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "hier",
+          "href": "https://www.thueringer-energienetze.com/Anschluss/Stromnetz"
+        },
+        {
+          "role": "heading",
+          "order": 3,
+          "text": "Weitere Informationen"
+        },
+        {
+          "role": "cta",
+          "order": 4,
+          "text": "Installateurverzeichnis Strom der TEN Thüringer Energienetze GmbH & Co. KG",
+          "href": "https://www.thueringer-energienetze.com/Energiepartner/Installateure_Strom/Installateursverzeichnis"
+        },
+        {
+          "role": "cta",
+          "order": 5,
+          "text": "Kontakt Regionaler Netzbetrieb der TEN Thüringer Energienetze GmbH & Co. KG",
+          "href": "https://www.thueringer-energienetze.com/Ueber_uns/Profil/Ansprechpartner/Regionale_Netzbetriebe"
+        },
+        {
+          "role": "heading",
+          "order": 6,
+          "text": "Interesse?"
+        },
+        {
+          "role": "cta",
+          "order": 7,
+          "text": "Zur Website der TEN",
+          "href": "https://www.thueringer-energienetze.com/Anschluss/Stromnetz"
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 5,
+      "repeats": [
+        {
+          "unitSelector": "LI.",
+          "count": 2,
+          "unit": {
+            "headings": 0,
+            "ctas": 1,
+            "imgs": 0,
+            "textRuns": 1
+          },
+          "uniform": true
+        }
+      ]
+    }
+  ],
+  "pruned": {
+    "note": "P. repeats are paragraph runs inside the text module: prose, not authoring units (impressum precedent); the units of this page are the LI. link list (2) and the breadcrumb crumbs (4)",
+    "items": [
+      "page-content-section: P. x3"
+    ]
+  }
+}

@@ -1,0 +1,1977 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-10-08T08:07:09.546Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.thueringerenergie.de/",
+   "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+   "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+   "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+   "https://www.thueringerenergie.de/impressum"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.thueringerenergie.de/",
+   "status": 200,
+   "host": "www.thueringerenergie.de",
+   "title": "Startseite | TEAG Thüringer Energie",
+   "forms": [
+    {
+     "name": "form1",
+     "action": "https://www.thueringerenergie.de/default#&&kJBItMnBNhmthF3XeJKzJoN1DwTo3WBGaBYwM/OPfSGnFMWBu6LUjRKrjV/oePZSLOUPvlpu2cEaqdvuBqFwdrpXgFVlor063wCgtR5xOMkgmTw3HtHmHl4SUkAA9oX5B/tB5q9KaLRfVyl0CQ/6V3g2ow1BJizkV0h3MZ4WkSZHdM4dDeUXjY2Lt9tYqmE357yW8GBlebjwaqrb/XQ4W9UoMfCaTkxaa7BURnxagU+U31+VRI3Ufj2GVhELWvz8TCv8znPoGg5Kx0XJSyzGklZPgRwIagZTxRbJkJ5GqY87hH9uOKWWhSRjwxUsCJvMpAYHkQ4B1cHuSXwGc/iINJ5wqDHGs/V4IrTkWMuWKnE9JKrCs/J3DWCbBybAxB05e/1KbSxMgpjJE/YM4lfCdPc54fzAstSc5lBZKREnSyCMXa0LaGpufOragW7/bbdOIv9B+wRVKFyAkU95U18y1o0TN/lhF0GVdbs8WbfK7Cg00vIum9yoCa8fmYqevSigXTadASnb5Ss4uYtMhz26mFd4ofnbDjM8TjdPgJ6eLIUHPuykMdjtD6tOWcQSCsFyIDaIzlsdqeDEEr7AtrJM83+kw1ivrKk3MBffnl9N/+JGtsjaF5IfiQjLikgWKzrKOa7RZoDCWxvRIQvdp/d2DRpElMQGpgTCdIi06sOQAuRIvO8PAQkSrB0YwXKp+K1lcGt619R0jmPnj4vzxPmfzGjC7bVkAK7MWVg6CvOTNK8=",
+     "method": "post",
+     "role": "none",
+     "inChrome": false,
+     "fields": 37,
+     "signature": [
+      "text:ctl00$tbSearch",
+      "checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+      "text:ctl00$tbSearch2",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "text:ctl00$WidgetKontakt1$KundenNr",
+      "select:ctl00$WidgetKontakt1$ddlThema",
+      "select:ctl00$WidgetKontakt1$ddlAnfrageArt",
+      "text:ctl00$WidgetKontakt1$Vorname",
+      "text:ctl00$WidgetKontakt1$Nachname",
+      "text:ctl00$WidgetKontakt1$phone",
+      "text:ctl00$WidgetKontakt1$email"
+     ],
+     "hidden": [
+      "WidgetKontakt1_AsyncFileUpload1_ClientState",
+      "ctl00$ScriptManager1",
+      "ctl00$tbwe_tbSearch_ClientState",
+      "ctl00$tbwe_tbSearch2_ClientState",
+      "ctl00$WidgetKontakt1$vce_rblIsCustomer_ClientState",
+      "ctl00$WidgetKontakt1$vce_rfv_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$tbwe_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlThema_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlAnfrageArt_ClientState",
+      "ctl00$WidgetKontakt1$vce_Vorname_ClientState",
+      "ctl00$WidgetKontakt1$tbwe_Vorname_ClientState",
+      "ctl00$WidgetKontakt1$vce_rfv_Nachname_ClientState"
+     ],
+     "tokens": [
+      "BDC_VCID_c_default_widgetkontakt1_captchakontaktw",
+      "BDC_BackWorkaround_c_default_widgetkontakt1_captchakontaktw",
+      "ctl00$WidgetKontakt1$vce_CaptchaValidator1_ClientState",
+      "ctl00$WidgetKontakt1$CaptchaKontaktWCodeTextBox",
+      "ctl00$WidgetKontakt1$tbwe_CaptchaKontaktWCodeTextBox_ClientState"
+     ],
+     "search": true,
+     "inlineHandler": true
+    },
+    {
+     "name": "itcProduktrechner",
+     "action": null,
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 0,
+     "signature": [],
+     "hidden": [
+      "itcReturn",
+      "itcFilterProduct",
+      "itcRole",
+      "itcType",
+      "itcMedia",
+      "itcPlz",
+      "itcOrt",
+      "itcGkz",
+      "itcConsum",
+      "itcConsumNT",
+      "itcProduct",
+      "itcRequest"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Chat-Einleitung Rahmen",
+     "w": 1,
+     "h": 1
+    },
+    {
+     "src": null,
+     "title": "Öffnen Chat Rahmen",
+     "w": 85,
+     "h": 85
+    },
+    {
+     "src": null,
+     "title": "Chat input field",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Chatfenster",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 19,
+   "inlineFetch": false,
+   "mainText": 12252,
+   "domAddedAfterLoad": 156,
+   "hosts": {
+    "www.thueringerenergie.de": 95,
+    "web.cmp.usercentrics.eu": 4,
+    "v1.api.service.cmp.usercentrics.eu": 4,
+    "consent-api.service.consent.usercentrics.eu": 1,
+    "sgtm.thueringerenergie.de": 4,
+    "connect.facebook.net": 2,
+    "www.googletagmanager.com": 3,
+    "code.etracker.com": 2,
+    "www.google.com": 6,
+    "ad.doubleclick.net": 1,
+    "googleads.g.doubleclick.net": 2,
+    "widget.moin.ai": 7,
+    "www.etracker.de": 2,
+    "cfg.moin.ai": 2
+   },
+   "thirdPartyHosts": [
+    "web.cmp.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "code.etracker.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "widget.moin.ai",
+    "www.etracker.de",
+    "cfg.moin.ai"
+   ],
+   "scripts": [
+    "https://web.cmp.usercentrics.eu/modules/autoblocker.js",
+    "https://www.thueringerenergie.de/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1",
+    "https://www.thueringerenergie.de/bundles/HhFrameworksJs?v=eGiqdX9Po-dOCgV8zFxymsXPul8zn8W8LrMxjdcKv5U1",
+    "https://www.thueringerenergie.de/bundles/jQuery?v=N2YlHnRI7it2_JoqUZTYWxPtx-s61zIGkk78Q0eabPM1",
+    "https://www.thueringerenergie.de/bundles/MsAjaxJs?v=dVMKpbMOmBA2tSXG9nSQdPPxbj1Tp7YK9VSPvxETL701",
+    "https://www.thueringerenergie.de/BotDetectCaptcha.ashx?get=script-include&c=c_default_widgetkontakt1_captchakontaktw&t=40c932ebf0724f919ce7b118f546ca5e",
+    "https://www.thueringerenergie.de/bundles/jQueryUi?v=hw6jcrpF2LibSX_LeceAnPEcB9rROmvBBgAybQbkxRw1",
+    "https://www.thueringerenergie.de/bundles/SiteJsRelaunch?v=MnikEok66oGkRI_Vbydpmq31985X7K4p_5RHgxJ8XRk1",
+    "https://web.cmp.usercentrics.eu/ui/loader.js",
+    "https://www.thueringerenergie.de/Scripts/AjaxControlToolkit/Bundle?v=3IqKsLZ9DpiaFxt2zHGn2vjBl3GHzKpH_IIa5Db17fk1",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/WebSdk.lib.3d5d6b20.js",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/GdprCmpController.2c2c85e5.js",
+    "https://sgtm.thueringerenergie.de/gtm.js?id=GTM-T2V7DDC",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-T2V7DDC&gtg_health=1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-17880186799&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://connect.facebook.net/signals/config/1028180480917663?v=2.9.415&r=stable&domain=www.thueringerenergie.de&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C17",
+    "https://code.etracker.com/code/e.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17880186799/?random=1791446833678&cv=11&fst=1791446833678&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9240883634z879667745za2",
+    "https://code.etracker.com/t.js?v=2026.1007.39974&et=JoEOKb",
+    "https://sgtm.thueringerenergie.de/gtag/js?id=G-2DQEY8B5R2&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1013516367&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1013516367/?random=1791446834219&cv=11&fst=1791446834219&bg=ffffff&guid=ON&async=1&gtm=45be6a61v9181792801z879667745za20gzb79667745zd79",
+    "https://widget.moin.ai/moin-loader.js?id=Ho8evAJs&channelid=Ho8evAJs",
+    "https://www.etracker.de/cntcc?&&et=dCmWhx&v=2026.1007.39974&tc=17914468339827&pagename=Startseite%20(1)&ilevel=1&et_source_url=https%3A%2F%2Fwww.thueringerenergie.de%2Fdefault&block_cookies=true&respe",
+    "https://www.etracker.de/cntcc?&&et=JoEOKb&v=2026.1007.39974&tc=17914468339807&pagename=Startseite%20(1)&ilevel=1&et_source_url=https%3A%2F%2Fwww.thueringerenergie.de%2Fdefault&block_cookies=true&respe",
+    "https://widget.moin.ai/primus.js",
+    "https://widget.moin.ai/main.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sgtm.thueringerenergie.de",
+     "path": "/g/collect",
+     "query": [
+      "_eu",
+      "_fplc",
+      "_fv",
+      "_geo",
+      "_nsi",
+      "_p",
+      "_rdi",
+      "_s",
+      "_ss",
+      "_tu",
+      "cid",
+      "dl",
+      "dma",
+      "dma_cps",
+      "dt",
+      "ecid",
+      "en",
+      "frm",
+      "gap.gtb",
+      "gap.sstd",
+      "gcd",
+      "gcs",
+      "gtb",
+      "gtm",
+      "ibt",
+      "ngs",
+      "npa",
+      "pscdl",
+      "rcb",
+      "richsstsse",
+      "sct",
+      "seg",
+      "sid",
+      "sr",
+      "sst.adr",
+      "sst.gch",
+      "sst.lpc",
+      "sst.navt",
+      "sst.rnd",
+      "sst.sw_exp",
+      "sst.tft",
+      "sst.ude",
+      "tag_exp",
+      "tfd",
+      "tid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "ur",
+      "v"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://sgtm.thueringerenergie.de/g/collect"
+    },
+    {
+     "method": "GET",
+     "host": "www.thueringerenergie.de",
+     "path": "/Scripts/Template.Menu.Desktop.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html"
+    },
+    {
+     "method": "POST",
+     "host": "www.thueringerenergie.de",
+     "path": "/default",
+     "query": [],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://www.thueringerenergie.de/default"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "POST www.google.com/ccm/collect",
+    "POST www.google.com/rmkt/collect/17880186799/",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/rmkt/collect/1013516367/",
+    "GET cfg.moin.ai/widget/config/Ho8evAJs/Ho8evAJs",
+    "GET cfg.moin.ai/widget/teaser/Ho8evAJs/Ho8evAJs"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":false,\"controllerId\":\"84bc17d5052f1dde2ac158c03b550705d059e8bfb269225ed1e6edea9a7a82a8\",\"appVersion\":\"sdk-1.0.0-alpha.0\",\"language\":\"de\",\"settingsId\":\"qE6MEj9eWPQ8Dz\",\"settingsVersion\":\"104.94.309\",\"ucString\":\"N4IgbgpgTgzglgewHYgFwEYA0ICucBq08yaIALAHQBM6FADCNgMbIAuUCANp9AJIAmpABxkARk3QB2fgFY6MqgDN0/fhCoBDCTKFM6AZlEy5k+f3kBOCENGLRVAGwWqVGRH7oID9xA0WNkhpCmkK"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/17880186799/?random=1791446833678&cv=11&fst=1791446833678&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9240883634z879667745za20gzb79667745zd79667745x",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&auid=1208075193.1791446834&dt=Startseite%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-17880186799&en=page_view&dl=https%3A%2F%2Fwww.thueringeren",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1208075193.1791446834&gtm=45be6a61v9240883634z879667745za20gzb79667745zd79667745xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1013516367/?random=1791446834219&cv=11&fst=1791446834219&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6a61v9181792801z879667745za20gzb79667745zd79667745xeaxf1&gcd=13r3r3",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&auid=1208075193.1791446834&dt=Startseite%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-1013516367&dl=https%3A%2F%2Fwww.thueringerenergie.de",
+     "body": ""
+    },
+    {
+     "url": "https://www.thueringerenergie.de/default",
+     "body": "ctl00%24ScriptManager1=ctl00%24MainContent%24Veranstaltungen1%24upCachedAppointments%7Cctl00%24MainContent%24Veranstaltungen1%24tbLoadCurrentAppointments&__EVENTTARGET=ctl00%24MainContent%24Veranstaltungen1%24tbLoadCurrentAppointments&__EVENTARGUMENT=&__LASTFOCUS=&WidgetKontakt1_AsyncFileUpload1_ClientState=&__VIEWSTATE=pQmjwticw8cdLUpnXmKuOkZNE8GXo%2FVP1BZ8Gruty0GJ6AbCCJXhVbU2hPVJ2YyCXxAqZc8jMQ3k"
+    }
+   ],
+   "textAtLoad": 12010,
+   "mainEmptyAtLoad": false
+  },
+  "/privatkunden/strom/stromtarife": {
+   "url": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+   "status": 200,
+   "host": "www.thueringerenergie.de",
+   "title": "Strompreise und Tarife | TEAG Thüringer Energie",
+   "forms": [
+    {
+     "name": "form1",
+     "action": "https://www.thueringerenergie.de/privatkunden/strom/stromtarife",
+     "method": "post",
+     "role": "none",
+     "inChrome": false,
+     "fields": 33,
+     "signature": [
+      "text:ctl00$tbSearch",
+      "checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+      "text:ctl00$tbSearch2",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "text:ctl00$WidgetKontakt1$KundenNr",
+      "select:ctl00$WidgetKontakt1$ddlThema",
+      "select:ctl00$WidgetKontakt1$ddlAnfrageArt",
+      "text:ctl00$WidgetKontakt1$Vorname",
+      "text:ctl00$WidgetKontakt1$Nachname",
+      "text:ctl00$WidgetKontakt1$phone",
+      "text:ctl00$WidgetKontakt1$email"
+     ],
+     "hidden": [
+      "__EVENTTARGET",
+      "__EVENTARGUMENT",
+      "__LASTFOCUS",
+      "WidgetKontakt1_AsyncFileUpload1_ClientState",
+      "__VIEWSTATE",
+      "ctl00$tbwe_tbSearch_ClientState",
+      "ctl00$tbwe_tbSearch2_ClientState",
+      "ctl00$WidgetKontakt1$vce_rblIsCustomer_ClientState",
+      "ctl00$WidgetKontakt1$vce_rfv_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$tbwe_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlThema_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlAnfrageArt_ClientState"
+     ],
+     "tokens": [
+      "BDC_VCID_c_privatkunden_strom_stromtarife_widgetkontakt1_captchakontaktw",
+      "BDC_BackWorkaround_c_privatkunden_strom_stromtarife_widgetkontakt1_captchakontaktw",
+      "ctl00$WidgetKontakt1$vce_CaptchaValidator1_ClientState",
+      "ctl00$WidgetKontakt1$CaptchaKontaktWCodeTextBox",
+      "ctl00$WidgetKontakt1$tbwe_CaptchaKontaktWCodeTextBox_ClientState"
+     ],
+     "search": true,
+     "inlineHandler": true
+    },
+    {
+     "name": "itcProduktrechner",
+     "action": null,
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 0,
+     "signature": [],
+     "hidden": [
+      "itcReturn",
+      "itcFilterProduct",
+      "itcRole",
+      "itcType",
+      "itcMedia",
+      "itcPlz",
+      "itcOrt",
+      "itcGkz",
+      "itcConsum",
+      "itcConsumNT",
+      "itcProduct",
+      "itcRequest"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Chat-Einleitung Rahmen",
+     "w": 1,
+     "h": 1
+    },
+    {
+     "src": null,
+     "title": "Öffnen Chat Rahmen",
+     "w": 85,
+     "h": 85
+    },
+    {
+     "src": null,
+     "title": "Chat input field",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Chatfenster",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://apps.apple.com/de/app/teag-energiebanking/id1514429665"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 18,
+   "inlineFetch": false,
+   "mainText": 13739,
+   "domAddedAfterLoad": 26,
+   "hosts": {
+    "www.thueringerenergie.de": 56,
+    "web.cmp.usercentrics.eu": 4,
+    "v1.api.service.cmp.usercentrics.eu": 4,
+    "remote.captcha.com": 1,
+    "consent-api.service.consent.usercentrics.eu": 1,
+    "sgtm.thueringerenergie.de": 4,
+    "code.etracker.com": 2,
+    "connect.facebook.net": 2,
+    "www.googletagmanager.com": 3,
+    "www.google.com": 6,
+    "ad.doubleclick.net": 1,
+    "googleads.g.doubleclick.net": 2,
+    "widget.moin.ai": 7,
+    "www.etracker.de": 2,
+    "cfg.moin.ai": 2
+   },
+   "thirdPartyHosts": [
+    "web.cmp.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "remote.captcha.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "code.etracker.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "widget.moin.ai",
+    "www.etracker.de",
+    "cfg.moin.ai"
+   ],
+   "scripts": [
+    "https://web.cmp.usercentrics.eu/modules/autoblocker.js",
+    "https://www.thueringerenergie.de/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1",
+    "https://www.thueringerenergie.de/bundles/jQuery?v=N2YlHnRI7it2_JoqUZTYWxPtx-s61zIGkk78Q0eabPM1",
+    "https://www.thueringerenergie.de/bundles/MsAjaxJs?v=dVMKpbMOmBA2tSXG9nSQdPPxbj1Tp7YK9VSPvxETL701",
+    "https://www.thueringerenergie.de/bundles/HhFrameworksJs?v=eGiqdX9Po-dOCgV8zFxymsXPul8zn8W8LrMxjdcKv5U1",
+    "https://www.thueringerenergie.de/bundles/jQueryUi?v=hw6jcrpF2LibSX_LeceAnPEcB9rROmvBBgAybQbkxRw1",
+    "https://www.thueringerenergie.de/BotDetectCaptcha.ashx?get=script-include&c=c_privatkunden_strom_stromtarife_widgetkontakt1_captchakontaktw&t=c4ffb5d0fe204bf280b59c4680fa456b",
+    "https://www.thueringerenergie.de/bundles/SiteJsRelaunch?v=MnikEok66oGkRI_Vbydpmq31985X7K4p_5RHgxJ8XRk1",
+    "https://web.cmp.usercentrics.eu/ui/loader.js",
+    "https://www.thueringerenergie.de/Scripts/AjaxControlToolkit/Bundle?v=3IqKsLZ9DpiaFxt2zHGn2vjBl3GHzKpH_IIa5Db17fk1",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/WebSdk.lib.3d5d6b20.js",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/GdprCmpController.2c2c85e5.js",
+    "https://remote.captcha.com/include.js?i=ANcnC89lsezel2FsPwgh5NLA_FxbEX0A059eM5AU1teT_gt_p-rkhtqnPEwILFFVEs8XW0dTbDnQHtPWn0DcPd0LqzQdi5Uz6v5MgeHuybIBTqXnvES6olzqiwWJyVflnLZ2GmVwJN59NVghhDCCfBiK2x6GQzE4",
+    "https://sgtm.thueringerenergie.de/gtm.js?id=GTM-T2V7DDC",
+    "https://code.etracker.com/code/e.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-T2V7DDC&gtg_health=1",
+    "https://connect.facebook.net/signals/config/1028180480917663?v=2.9.415&r=stable&domain=www.thueringerenergie.de&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C17",
+    "https://www.googletagmanager.com/gtag/js?id=AW-17880186799&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://code.etracker.com/t.js?v=2026.1007.39974&et=JoEOKb",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17880186799/?random=1791446846063&cv=11&fst=1791446846063&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9240883634z879667745za2",
+    "https://sgtm.thueringerenergie.de/gtag/js?id=G-2DQEY8B5R2&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://widget.moin.ai/moin-loader.js?id=Ho8evAJs&channelid=Ho8evAJs",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1013516367&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1013516367/?random=1791446846467&cv=11&fst=1791446846467&bg=ffffff&guid=ON&async=1&gtm=45be6a61v9181792801z879667745za20gzb79667745zd79",
+    "https://www.etracker.de/cntcc?&&et=JoEOKb&v=2026.1007.39974&tc=17914468462467&pagename=Strompreise%20und%20Tarife%20(15993)&ilevel=1&areas=Privatkunden&et_source_url=https%3A%2F%2Fwww.thueringerenergi",
+    "https://www.etracker.de/cntcc?&&et=dCmWhx&v=2026.1007.39974&tc=17914468462477&pagename=Strompreise%20und%20Tarife%20(15993)&ilevel=1&areas=Privatkunden&et_source_url=https%3A%2F%2Fwww.thueringerenergi",
+    "https://widget.moin.ai/primus.js",
+    "https://widget.moin.ai/main.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sgtm.thueringerenergie.de",
+     "path": "/g/collect",
+     "query": [
+      "_eu",
+      "_fplc",
+      "_fv",
+      "_geo",
+      "_nsi",
+      "_p",
+      "_rdi",
+      "_s",
+      "_ss",
+      "_tu",
+      "cid",
+      "dl",
+      "dma",
+      "dma_cps",
+      "dt",
+      "ecid",
+      "en",
+      "frm",
+      "gap.gtb",
+      "gap.sstd",
+      "gcd",
+      "gcs",
+      "gtb",
+      "gtm",
+      "ibt",
+      "ngs",
+      "npa",
+      "pscdl",
+      "rcb",
+      "richsstsse",
+      "sct",
+      "seg",
+      "sid",
+      "sr",
+      "sst.adr",
+      "sst.gch",
+      "sst.lpc",
+      "sst.navt",
+      "sst.rnd",
+      "sst.sw_exp",
+      "sst.tft",
+      "sst.ude",
+      "tag_exp",
+      "tfd",
+      "tid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "ur",
+      "v"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://sgtm.thueringerenergie.de/g/collect"
+    },
+    {
+     "method": "GET",
+     "host": "www.thueringerenergie.de",
+     "path": "/Scripts/Template.Menu.Desktop.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/rmkt/collect/17880186799/",
+    "POST www.google.com/rmkt/collect/1013516367/",
+    "GET cfg.moin.ai/widget/config/Ho8evAJs/Ho8evAJs",
+    "GET cfg.moin.ai/widget/teaser/Ho8evAJs/Ho8evAJs"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":false,\"controllerId\":\"b90a94e3fc5da844bf621798f82feec3429a7504135ed52b66a119308eae7cb5\",\"appVersion\":\"sdk-1.0.0-alpha.0\",\"language\":\"de\",\"settingsId\":\"qE6MEj9eWPQ8Dz\",\"settingsVersion\":\"104.94.309\",\"ucString\":\"N4IgbgpgTgzglgewHYgFwEYA0ICucBq08yaIALAHQBM6FADCNgMbIAuUCANp9AJIAmpAEYBOOgEMRZCAGYAZkwCs/cQA4yZIXIBsNAOwjVc1VTkQITGWSojxexXTLoZiiP0VUh27ePToRMnSqEOI"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/17880186799/?random=1791446846063&cv=11&fst=1791446846063&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9240883634z879667745za20gzb79667745zd79667745x",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&auid=1947321330.1791446846&dt=Strompreise%20und%20Tarife%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-17880186799&en=page_view&dl=https%3A%2F%2",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1947321330.1791446846&gtm=45be6a61v9240883634z879667745za20gzb79667745zd79667745xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1013516367/?random=1791446846467&cv=11&fst=1791446846467&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6a61v9181792801z879667745za20gzb79667745zd79667745xeaxf1&gcd=13r3r3",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=0&ae=g&auid=1947321330.1791446846&dt=Strompreise%20und%20Tarife%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-1013516367&dl=https%3A%2F%2Fwww.thuer",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 13741,
+   "mainEmptyAtLoad": false
+  },
+  "/privatkunden/strom/haus-_-_baustromanschluss": {
+   "url": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+   "status": 200,
+   "host": "www.thueringerenergie.de",
+   "title": "Haus- & Baustromanschluss | TEAG Thüringer Energie",
+   "forms": [
+    {
+     "name": "form1",
+     "action": "https://www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss",
+     "method": "post",
+     "role": "none",
+     "inChrome": false,
+     "fields": 21,
+     "signature": [
+      "text:ctl00$tbSearch",
+      "checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+      "text:ctl00$tbSearch2",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "text:ctl00$WidgetKontakt1$KundenNr",
+      "select:ctl00$WidgetKontakt1$ddlThema",
+      "select:ctl00$WidgetKontakt1$ddlAnfrageArt",
+      "text:ctl00$WidgetKontakt1$Vorname",
+      "text:ctl00$WidgetKontakt1$Nachname",
+      "text:ctl00$WidgetKontakt1$phone",
+      "text:ctl00$WidgetKontakt1$email"
+     ],
+     "hidden": [
+      "__EVENTTARGET",
+      "__EVENTARGUMENT",
+      "__LASTFOCUS",
+      "WidgetKontakt1_AsyncFileUpload1_ClientState",
+      "__VIEWSTATE",
+      "ctl00$tbwe_tbSearch_ClientState",
+      "ctl00$tbwe_tbSearch2_ClientState",
+      "ctl00$WidgetKontakt1$vce_rblIsCustomer_ClientState",
+      "ctl00$WidgetKontakt1$vce_rfv_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$tbwe_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlThema_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlAnfrageArt_ClientState"
+     ],
+     "tokens": [
+      "BDC_VCID_c_privatkunden_strom_haus__baustromanschluss_widgetkontakt1_captchakontaktw",
+      "BDC_BackWorkaround_c_privatkunden_strom_haus__baustromanschluss_widgetkontakt1_captchakontaktw",
+      "ctl00$WidgetKontakt1$vce_CaptchaValidator1_ClientState",
+      "ctl00$WidgetKontakt1$CaptchaKontaktWCodeTextBox",
+      "ctl00$WidgetKontakt1$tbwe_CaptchaKontaktWCodeTextBox_ClientState"
+     ],
+     "search": true,
+     "inlineHandler": true
+    },
+    {
+     "name": "itcProduktrechner",
+     "action": null,
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 0,
+     "signature": [],
+     "hidden": [
+      "itcReturn",
+      "itcFilterProduct",
+      "itcRole",
+      "itcType",
+      "itcMedia",
+      "itcPlz",
+      "itcOrt",
+      "itcGkz",
+      "itcConsum",
+      "itcConsumNT",
+      "itcProduct",
+      "itcRequest"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Chat-Einleitung Rahmen",
+     "w": 1,
+     "h": 1
+    },
+    {
+     "src": null,
+     "title": "Öffnen Chat Rahmen",
+     "w": 85,
+     "h": 85
+    },
+    {
+     "src": null,
+     "title": "Chat input field",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "Chatfenster",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 18,
+   "inlineFetch": false,
+   "mainText": 1215,
+   "domAddedAfterLoad": 25,
+   "hosts": {
+    "www.thueringerenergie.de": 38,
+    "web.cmp.usercentrics.eu": 4,
+    "v1.api.service.cmp.usercentrics.eu": 4,
+    "consent-api.service.consent.usercentrics.eu": 1,
+    "sgtm.thueringerenergie.de": 4,
+    "www.googletagmanager.com": 3,
+    "connect.facebook.net": 2,
+    "code.etracker.com": 2,
+    "www.google.com": 6,
+    "ad.doubleclick.net": 1,
+    "googleads.g.doubleclick.net": 2,
+    "widget.moin.ai": 7,
+    "www.etracker.de": 2,
+    "cfg.moin.ai": 2
+   },
+   "thirdPartyHosts": [
+    "web.cmp.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "code.etracker.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "widget.moin.ai",
+    "www.etracker.de",
+    "cfg.moin.ai"
+   ],
+   "scripts": [
+    "https://web.cmp.usercentrics.eu/modules/autoblocker.js",
+    "https://www.thueringerenergie.de/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1",
+    "https://www.thueringerenergie.de/bundles/MsAjaxJs?v=dVMKpbMOmBA2tSXG9nSQdPPxbj1Tp7YK9VSPvxETL701",
+    "https://www.thueringerenergie.de/bundles/jQuery?v=N2YlHnRI7it2_JoqUZTYWxPtx-s61zIGkk78Q0eabPM1",
+    "https://www.thueringerenergie.de/bundles/HhFrameworksJs?v=eGiqdX9Po-dOCgV8zFxymsXPul8zn8W8LrMxjdcKv5U1",
+    "https://www.thueringerenergie.de/bundles/jQueryUi?v=hw6jcrpF2LibSX_LeceAnPEcB9rROmvBBgAybQbkxRw1",
+    "https://www.thueringerenergie.de/BotDetectCaptcha.ashx?get=script-include&c=c_privatkunden_strom_haus__baustromanschluss_widgetkontakt1_captchakontaktw&t=22147534ffc143d29d1d0b5169b39ae7",
+    "https://www.thueringerenergie.de/bundles/SiteJsRelaunch?v=MnikEok66oGkRI_Vbydpmq31985X7K4p_5RHgxJ8XRk1",
+    "https://www.thueringerenergie.de/Scripts/AjaxControlToolkit/Bundle?v=3IqKsLZ9DpiaFxt2zHGn2vjBl3GHzKpH_IIa5Db17fk1",
+    "https://web.cmp.usercentrics.eu/ui/loader.js",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/WebSdk.lib.3d5d6b20.js",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/GdprCmpController.2c2c85e5.js",
+    "https://sgtm.thueringerenergie.de/gtm.js?id=GTM-T2V7DDC",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-T2V7DDC&gtg_health=1",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://code.etracker.com/code/e.js",
+    "https://connect.facebook.net/signals/config/1028180480917663?v=2.9.415&r=stable&domain=www.thueringerenergie.de&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C17",
+    "https://code.etracker.com/t.js?v=2026.1007.39974&et=JoEOKb",
+    "https://www.googletagmanager.com/gtag/js?id=AW-17880186799&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://sgtm.thueringerenergie.de/gtag/js?id=G-2DQEY8B5R2&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17880186799/?random=1791446858647&cv=11&fst=1791446858647&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9240883634za20ozb796677",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1013516367&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://widget.moin.ai/moin-loader.js?id=Ho8evAJs&channelid=Ho8evAJs",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1013516367/?random=1791446858960&cv=11&fst=1791446858960&bg=ffffff&guid=ON&async=1&gtm=45be6a61v9181792801z879667745za20gzb79667745zd79",
+    "https://www.etracker.de/cntcc?&&et=JoEOKb&v=2026.1007.39974&tc=17914468586511&pagename=Haus-%20%26%20Baustromanschluss%20(8654)&ilevel=1&areas=Privatkunden&et_source_url=https%3A%2F%2Fwww.thueringeren",
+    "https://www.etracker.de/cntcc?&&et=dCmWhx&v=2026.1007.39974&tc=17914468586541&pagename=Haus-%20%26%20Baustromanschluss%20(8654)&ilevel=1&areas=Privatkunden&et_source_url=https%3A%2F%2Fwww.thueringeren",
+    "https://widget.moin.ai/primus.js",
+    "https://widget.moin.ai/main.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sgtm.thueringerenergie.de",
+     "path": "/g/collect",
+     "query": [
+      "_eu",
+      "_fplc",
+      "_fv",
+      "_geo",
+      "_nsi",
+      "_p",
+      "_rdi",
+      "_s",
+      "_ss",
+      "_tu",
+      "cid",
+      "dl",
+      "dma",
+      "dma_cps",
+      "dt",
+      "ecid",
+      "en",
+      "frm",
+      "gap.gtb",
+      "gap.sstd",
+      "gcd",
+      "gcs",
+      "gtb",
+      "gtm",
+      "ibt",
+      "ngs",
+      "npa",
+      "pscdl",
+      "rcb",
+      "richsstsse",
+      "sct",
+      "seg",
+      "sid",
+      "sr",
+      "sst.adr",
+      "sst.gch",
+      "sst.lpc",
+      "sst.navt",
+      "sst.rnd",
+      "sst.sw_exp",
+      "sst.tft",
+      "sst.ude",
+      "tag_exp",
+      "tfd",
+      "tid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "ur",
+      "v"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://sgtm.thueringerenergie.de/g/collect"
+    },
+    {
+     "method": "GET",
+     "host": "www.thueringerenergie.de",
+     "path": "/Scripts/Template.Menu.Desktop.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "POST www.google.com/ccm/collect",
+    "POST www.google.com/rmkt/collect/17880186799/",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/rmkt/collect/1013516367/",
+    "GET cfg.moin.ai/widget/config/Ho8evAJs/Ho8evAJs",
+    "GET cfg.moin.ai/widget/teaser/Ho8evAJs/Ho8evAJs"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":false,\"controllerId\":\"1c3453e90cd44b65f5adccfea7fddb3bd973018f4e8c4470f0caf7c18246327d\",\"appVersion\":\"sdk-1.0.0-alpha.0\",\"language\":\"de\",\"settingsId\":\"qE6MEj9eWPQ8Dz\",\"settingsVersion\":\"104.94.309\",\"ucString\":\"N4IgbgpgTgzglgewHYgFwEYA0ICucBq08yaIALAHQBM6FADCNgMbIAuUCANp9AJIAmpdEwDMZAKwiIATjpN+ZMgCMAbOIBm4gIb8mTdRC0B2df35KRS/tKMi66ABzqyEB00VG66uVvVGmjlRkKiJ"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/17880186799/?random=1791446858647&cv=11&fst=1791446858647&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9240883634za20ozb79667745zd79667745xecxf1&gcd=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=1&auid=763340615.1791446859&dt=Haus-%20%26%20Baustromanschluss%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-17880186799&en=page_view&dl=https%3A%2",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=763340615.1791446859&gtm=45be6a61v9240883634za20ozb79667745zd79667745xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1013516367/?random=1791446858960&cv=11&fst=1791446858960&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6a61v9181792801z879667745za20gzb79667745zd79667745xeaxf1&gcd=13r3r3",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&auid=763340615.1791446859&dt=Haus-%20%26%20Baustromanschluss%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-1013516367&dl=https%3A%2F%2Fwww.t",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1230,
+   "mainEmptyAtLoad": false
+  },
+  "/ueber_uns/unternehmen": {
+   "url": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+   "status": 200,
+   "host": "www.thueringerenergie.de",
+   "title": "Unternehmen | TEAG Thüringer Energie",
+   "forms": [
+    {
+     "name": "form1",
+     "action": "https://www.thueringerenergie.de/ueber_uns/unternehmen",
+     "method": "post",
+     "role": "none",
+     "inChrome": false,
+     "fields": 21,
+     "signature": [
+      "text:ctl00$tbSearch",
+      "checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+      "text:ctl00$tbSearch2",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "text:ctl00$WidgetKontakt1$KundenNr",
+      "select:ctl00$WidgetKontakt1$ddlThema",
+      "select:ctl00$WidgetKontakt1$ddlAnfrageArt",
+      "text:ctl00$WidgetKontakt1$Vorname",
+      "text:ctl00$WidgetKontakt1$Nachname",
+      "text:ctl00$WidgetKontakt1$phone",
+      "text:ctl00$WidgetKontakt1$email"
+     ],
+     "hidden": [
+      "__EVENTTARGET",
+      "__EVENTARGUMENT",
+      "__LASTFOCUS",
+      "WidgetKontakt1_AsyncFileUpload1_ClientState",
+      "__VIEWSTATE",
+      "ctl00$tbwe_tbSearch_ClientState",
+      "ctl00$tbwe_tbSearch2_ClientState",
+      "ctl00$WidgetKontakt1$vce_rblIsCustomer_ClientState",
+      "ctl00$WidgetKontakt1$vce_rfv_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$tbwe_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlThema_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlAnfrageArt_ClientState"
+     ],
+     "tokens": [
+      "BDC_VCID_c_ueber_uns_unternehmen_widgetkontakt1_captchakontaktw",
+      "BDC_BackWorkaround_c_ueber_uns_unternehmen_widgetkontakt1_captchakontaktw",
+      "ctl00$WidgetKontakt1$vce_CaptchaValidator1_ClientState",
+      "ctl00$WidgetKontakt1$CaptchaKontaktWCodeTextBox",
+      "ctl00$WidgetKontakt1$tbwe_CaptchaKontaktWCodeTextBox_ClientState"
+     ],
+     "search": true,
+     "inlineHandler": true
+    },
+    {
+     "name": "itcProduktrechner",
+     "action": null,
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 0,
+     "signature": [],
+     "hidden": [
+      "itcReturn",
+      "itcFilterProduct",
+      "itcRole",
+      "itcType",
+      "itcMedia",
+      "itcPlz",
+      "itcOrt",
+      "itcGkz",
+      "itcConsum",
+      "itcConsumNT",
+      "itcProduct",
+      "itcRequest"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 18,
+   "inlineFetch": false,
+   "mainText": 1960,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.thueringerenergie.de": 43,
+    "web.cmp.usercentrics.eu": 4,
+    "v1.api.service.cmp.usercentrics.eu": 4,
+    "remote.captcha.com": 1,
+    "consent-api.service.consent.usercentrics.eu": 1,
+    "sgtm.thueringerenergie.de": 4,
+    "www.googletagmanager.com": 4,
+    "connect.facebook.net": 2,
+    "code.etracker.com": 2,
+    "www.google.com": 6,
+    "ad.doubleclick.net": 1,
+    "googleads.g.doubleclick.net": 2,
+    "www.etracker.de": 2
+   },
+   "thirdPartyHosts": [
+    "web.cmp.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "remote.captcha.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "code.etracker.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "www.etracker.de"
+   ],
+   "scripts": [
+    "https://web.cmp.usercentrics.eu/modules/autoblocker.js",
+    "https://www.thueringerenergie.de/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1",
+    "https://www.thueringerenergie.de/bundles/jQuery?v=N2YlHnRI7it2_JoqUZTYWxPtx-s61zIGkk78Q0eabPM1",
+    "https://www.thueringerenergie.de/bundles/HhFrameworksJs?v=eGiqdX9Po-dOCgV8zFxymsXPul8zn8W8LrMxjdcKv5U1",
+    "https://www.thueringerenergie.de/bundles/MsAjaxJs?v=dVMKpbMOmBA2tSXG9nSQdPPxbj1Tp7YK9VSPvxETL701",
+    "https://www.thueringerenergie.de/bundles/jQueryUi?v=hw6jcrpF2LibSX_LeceAnPEcB9rROmvBBgAybQbkxRw1",
+    "https://www.thueringerenergie.de/BotDetectCaptcha.ashx?get=script-include&c=c_ueber_uns_unternehmen_widgetkontakt1_captchakontaktw&t=a5cbe03e4e944959950180ee70674b9b",
+    "https://www.thueringerenergie.de/bundles/SiteJsRelaunch?v=MnikEok66oGkRI_Vbydpmq31985X7K4p_5RHgxJ8XRk1",
+    "https://web.cmp.usercentrics.eu/ui/loader.js",
+    "https://www.thueringerenergie.de/Scripts/AjaxControlToolkit/Bundle?v=3IqKsLZ9DpiaFxt2zHGn2vjBl3GHzKpH_IIa5Db17fk1",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/WebSdk.lib.3d5d6b20.js",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/GdprCmpController.2c2c85e5.js",
+    "https://remote.captcha.com/include.js?i=Cdq2LTMuV0Jp1jeSPhKHQJ2_bwzxvYl0AA-Y5i0l1mPsZqoQdPdgaaDQt8mRjKH5fnt1VVnjhiSZbZLeBIjYjQBzxoF5M3v1A5APo2IaMq9RjuXmsDT14y_c6VrHKa-wUS-ypyz-FD85-aT9H_6RGf2Ib3CWW6ce",
+    "https://sgtm.thueringerenergie.de/gtm.js?id=GTM-T2V7DDC",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-T2V7DDC&gtg_health=1",
+    "https://code.etracker.com/code/e.js",
+    "https://connect.facebook.net/signals/config/1028180480917663?v=2.9.415&r=stable&domain=www.thueringerenergie.de&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C17",
+    "https://www.googletagmanager.com/gtag/js?id=AW-17880186799&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://code.etracker.com/t.js?v=2026.1007.39974&et=JoEOKb",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17880186799/?random=1791446870716&cv=11&fst=1791446870716&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9240883634za20ozb796677",
+    "https://sgtm.thueringerenergie.de/gtag/js?id=G-2DQEY8B5R2&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1013516367&cx=c&gtm=4e6a61&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1013516367/?random=1791446871116&cv=11&fst=1791446871116&bg=ffffff&guid=ON&async=1&gtm=45be6a61v9181792801z879667745za20gzb79667745zd79",
+    "https://www.etracker.de/cntcc?&&et=JoEOKb&v=2026.1007.39974&tc=17914468707647&pagename=Unternehmen%20(30217)&ilevel=1&areas=%C3%9Cber%20uns&et_source_url=https%3A%2F%2Fwww.thueringerenergie.de%2Fueber",
+    "https://www.etracker.de/cntcc?&&et=dCmWhx&v=2026.1007.39974&tc=17914468707667&pagename=Unternehmen%20(30217)&ilevel=1&areas=%C3%9Cber%20uns&et_source_url=https%3A%2F%2Fwww.thueringerenergie.de%2Fueber"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sgtm.thueringerenergie.de",
+     "path": "/g/collect",
+     "query": [
+      "_eu",
+      "_fplc",
+      "_fv",
+      "_geo",
+      "_nsi",
+      "_p",
+      "_rdi",
+      "_s",
+      "_ss",
+      "_tu",
+      "cid",
+      "dl",
+      "dma",
+      "dma_cps",
+      "dt",
+      "ecid",
+      "en",
+      "frm",
+      "gap.gtb",
+      "gap.sstd",
+      "gcd",
+      "gcs",
+      "gtb",
+      "gtm",
+      "ibt",
+      "ngs",
+      "npa",
+      "pscdl",
+      "rcb",
+      "richsstsse",
+      "sct",
+      "seg",
+      "sid",
+      "sr",
+      "sst.adr",
+      "sst.gch",
+      "sst.lpc",
+      "sst.navt",
+      "sst.rnd",
+      "sst.sw_exp",
+      "sst.tft",
+      "sst.ude",
+      "tag_exp",
+      "tfd",
+      "tid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "ur",
+      "v"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://sgtm.thueringerenergie.de/g/collect"
+    },
+    {
+     "method": "GET",
+     "host": "www.thueringerenergie.de",
+     "path": "/Scripts/Template.Menu.Desktop.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "POST www.google.com/ccm/collect",
+    "POST www.google.com/rmkt/collect/17880186799/",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/rmkt/collect/1013516367/"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":false,\"controllerId\":\"c9ac145be3db52c711933353506b4d8e379ff70a59744694b299089079c7d875\",\"appVersion\":\"sdk-1.0.0-alpha.0\",\"language\":\"de\",\"settingsId\":\"qE6MEj9eWPQ8Dz\",\"settingsVersion\":\"104.94.309\",\"ucString\":\"N4IgbgpgTgzglgewHYgFwEYA0ICucBq08yaIALAHQBM6FADCNgMbIAuUCANp9AJIAmpJgE4Ahk3RkArACMIAZn4ypVJgHZ06YfJ1T5UugDYZZfgA4Fa4QDNrauqKnC1ZMoeFkZVYcLpnfVurmalK"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/17880186799/?random=1791446870716&cv=11&fst=1791446870716&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9240883634za20ozb79667745zd79667745xecxf1&gcd=",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&auid=510803695.1791446871&dt=Unternehmen%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-17880186799&en=page_view&dl=https%3A%2F%2Fwww.thueringere",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=510803695.1791446871&gtm=45be6a61v9240883634za20ozb79667745zd79667745xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1013516367/?random=1791446871116&cv=11&fst=1791446871116&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6a61v9181792801z879667745za20gzb79667745zd79667745xeaxf1&gcd=13r3r3",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&ae=g&auid=510803695.1791446871&dt=Unternehmen%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-1013516367&dl=https%3A%2F%2Fwww.thueringerenergie.de%",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1975,
+   "mainEmptyAtLoad": false
+  },
+  "/impressum": {
+   "url": "https://www.thueringerenergie.de/impressum",
+   "status": 200,
+   "host": "www.thueringerenergie.de",
+   "title": "Impressum | TEAG Thüringer Energie",
+   "forms": [
+    {
+     "name": "form1",
+     "action": "https://www.thueringerenergie.de/impressum",
+     "method": "post",
+     "role": "none",
+     "inChrome": false,
+     "fields": 21,
+     "signature": [
+      "text:ctl00$tbSearch",
+      "checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1",
+      "text:ctl00$tbSearch2",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "radio:ctl00$WidgetKontakt1$rblIsCustomer",
+      "text:ctl00$WidgetKontakt1$KundenNr",
+      "select:ctl00$WidgetKontakt1$ddlThema",
+      "select:ctl00$WidgetKontakt1$ddlAnfrageArt",
+      "text:ctl00$WidgetKontakt1$Vorname",
+      "text:ctl00$WidgetKontakt1$Nachname",
+      "text:ctl00$WidgetKontakt1$phone",
+      "text:ctl00$WidgetKontakt1$email"
+     ],
+     "hidden": [
+      "__EVENTTARGET",
+      "__EVENTARGUMENT",
+      "__LASTFOCUS",
+      "WidgetKontakt1_AsyncFileUpload1_ClientState",
+      "__VIEWSTATE",
+      "ctl00$tbwe_tbSearch_ClientState",
+      "ctl00$tbwe_tbSearch2_ClientState",
+      "ctl00$WidgetKontakt1$vce_rblIsCustomer_ClientState",
+      "ctl00$WidgetKontakt1$vce_rfv_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$tbwe_KundenNr_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlThema_ClientState",
+      "ctl00$WidgetKontakt1$vce_ddlAnfrageArt_ClientState"
+     ],
+     "tokens": [
+      "BDC_VCID_c_impressum_widgetkontakt1_captchakontaktw",
+      "BDC_BackWorkaround_c_impressum_widgetkontakt1_captchakontaktw",
+      "ctl00$WidgetKontakt1$vce_CaptchaValidator1_ClientState",
+      "ctl00$WidgetKontakt1$CaptchaKontaktWCodeTextBox",
+      "ctl00$WidgetKontakt1$tbwe_CaptchaKontaktWCodeTextBox_ClientState"
+     ],
+     "search": true,
+     "inlineHandler": true
+    },
+    {
+     "name": "itcProduktrechner",
+     "action": null,
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 0,
+     "signature": [],
+     "hidden": [
+      "itcReturn",
+      "itcFilterProduct",
+      "itcRole",
+      "itcType",
+      "itcMedia",
+      "itcPlz",
+      "itcOrt",
+      "itcGkz",
+      "itcConsum",
+      "itcConsumNT",
+      "itcProduct",
+      "itcRequest"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 18,
+   "inlineFetch": false,
+   "mainText": 4694,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.thueringerenergie.de": 37,
+    "web.cmp.usercentrics.eu": 4,
+    "v1.api.service.cmp.usercentrics.eu": 4,
+    "consent-api.service.consent.usercentrics.eu": 1,
+    "sgtm.thueringerenergie.de": 4,
+    "code.etracker.com": 2,
+    "www.googletagmanager.com": 4,
+    "connect.facebook.net": 2,
+    "www.google.com": 6,
+    "ad.doubleclick.net": 1,
+    "googleads.g.doubleclick.net": 2,
+    "www.etracker.de": 3
+   },
+   "thirdPartyHosts": [
+    "web.cmp.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "code.etracker.com",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "www.etracker.de"
+   ],
+   "scripts": [
+    "https://web.cmp.usercentrics.eu/modules/autoblocker.js",
+    "https://www.thueringerenergie.de/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1",
+    "https://www.thueringerenergie.de/bundles/MsAjaxJs?v=dVMKpbMOmBA2tSXG9nSQdPPxbj1Tp7YK9VSPvxETL701",
+    "https://www.thueringerenergie.de/bundles/jQuery?v=N2YlHnRI7it2_JoqUZTYWxPtx-s61zIGkk78Q0eabPM1",
+    "https://www.thueringerenergie.de/bundles/HhFrameworksJs?v=eGiqdX9Po-dOCgV8zFxymsXPul8zn8W8LrMxjdcKv5U1",
+    "https://www.thueringerenergie.de/bundles/jQueryUi?v=hw6jcrpF2LibSX_LeceAnPEcB9rROmvBBgAybQbkxRw1",
+    "https://www.thueringerenergie.de/BotDetectCaptcha.ashx?get=script-include&c=c_impressum_widgetkontakt1_captchakontaktw&t=c84ae98b6aef4d9596588a7cfd254b92",
+    "https://www.thueringerenergie.de/bundles/SiteJsRelaunch?v=MnikEok66oGkRI_Vbydpmq31985X7K4p_5RHgxJ8XRk1",
+    "https://www.thueringerenergie.de/Scripts/AjaxControlToolkit/Bundle?v=3IqKsLZ9DpiaFxt2zHGn2vjBl3GHzKpH_IIa5Db17fk1",
+    "https://web.cmp.usercentrics.eu/ui/loader.js",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/WebSdk.lib.3d5d6b20.js",
+    "https://web.cmp.usercentrics.eu/ui/v/4.21.0/GdprCmpController.2c2c85e5.js",
+    "https://sgtm.thueringerenergie.de/gtm.js?id=GTM-T2V7DDC",
+    "https://code.etracker.com/code/e.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-T2V7DDC&gtg_health=1",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://connect.facebook.net/signals/config/1028180480917663?v=2.9.415&r=stable&domain=www.thueringerenergie.de&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C17",
+    "https://code.etracker.com/t.js?v=2026.1007.39974&et=JoEOKb",
+    "https://www.googletagmanager.com/gtag/js?id=AW-17880186799&cx=c&gtm=4e6a70h2&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17880186799/?random=1791446883002&cv=11&fst=1791446883002&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a70h2v9240883634z879667745z",
+    "https://sgtm.thueringerenergie.de/gtag/js?id=G-2DQEY8B5R2&cx=c&gtm=4e6a70h2&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1013516367&cx=c&gtm=4e6a70h2&sign=fc5b93e6f2c49b82162d2c222ec4e88f7bdbb506468d8940cc0388ed26562b9a_20261008",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1013516367/?random=1791446883401&cv=11&fst=1791446883401&bg=ffffff&guid=ON&async=1&gtm=45be6a70h2v9181792801z879667745za20gzb79667745zd",
+    "https://www.etracker.de/cntcc?&&et=dCmWhx&v=2026.1007.39974&tc=17914468829855&pagename=Impressum%20(10080)&ilevel=1&et_source_url=https%3A%2F%2Fwww.thueringerenergie.de%2Fimpressum&block_cookies=true&",
+    "https://www.etracker.de/cntcc?&&et=JoEOKb&v=2026.1007.39974&tc=17914468829835&pagename=Impressum%20(10080)&ilevel=1&et_source_url=https%3A%2F%2Fwww.thueringerenergie.de%2Fimpressum&block_cookies=true&"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sgtm.thueringerenergie.de",
+     "path": "/g/collect",
+     "query": [
+      "_eu",
+      "_fplc",
+      "_fv",
+      "_geo",
+      "_nsi",
+      "_p",
+      "_rdi",
+      "_s",
+      "_ss",
+      "_tu",
+      "cid",
+      "dl",
+      "dma",
+      "dma_cps",
+      "dt",
+      "ecid",
+      "en",
+      "frm",
+      "gap.gtb",
+      "gap.sstd",
+      "gcd",
+      "gcs",
+      "gtb",
+      "gtm",
+      "ibt",
+      "ngs",
+      "npa",
+      "pscdl",
+      "rcb",
+      "richsstsse",
+      "sct",
+      "seg",
+      "sid",
+      "sr",
+      "sst.adr",
+      "sst.gch",
+      "sst.lpc",
+      "sst.navt",
+      "sst.rnd",
+      "sst.sw_exp",
+      "sst.tft",
+      "sst.ude",
+      "tag_exp",
+      "tfd",
+      "tid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "ur",
+      "v"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://sgtm.thueringerenergie.de/g/collect"
+    },
+    {
+     "method": "GET",
+     "host": "www.thueringerenergie.de",
+     "path": "/Scripts/Template.Menu.Desktop.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309",
+    "GET v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "POST www.google.com/ccm/collect",
+    "POST www.google.com/rmkt/collect/17880186799/",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/rmkt/collect/1013516367/",
+    "POST www.etracker.de/api/v6/tracking/webEvents"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":false,\"controllerId\":\"6aed775a71b057a68d79c5ba3b614f74dcf15716a8c01f498db0fb703bb04945\",\"appVersion\":\"sdk-1.0.0-alpha.0\",\"language\":\"de\",\"settingsId\":\"qE6MEj9eWPQ8Dz\",\"settingsVersion\":\"104.94.309\",\"ucString\":\"N4IgbgpgTgzglgewHYgFwEYA0ICucBq08yaIALAHQBM6FADCNgMbIAuUCANp9AJIAmpAGwBDCPwDsEgKwiJ6AEZ1pEkUIAckgJxNpCkQGYFQ9GQBmEsvyZn0K9KPVM66M2S2alZhRLpGl7mTSjCC"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/17880186799/?random=1791446883002&cv=11&fst=1791446883002&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a70h2v9240883634z879667745za20gzb79667745zd7966774",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&auid=947965487.1791446883&dt=Impressum%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-17880186799&en=page_view&dl=https%3A%2F%2Fwww.thueringerene",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=947965487.1791446883&gtm=45be6a70h2v9240883634z879667745za20gzb79667745zd79667745xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1013516367/?random=1791446883401&cv=11&fst=1791446883401&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6a70h2v9181792801z879667745za20gzb79667745zd79667745xeaxf1&gcd=13r3",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&ae=g&auid=947965487.1791446883&dt=Impressum%20%7C%20TEAG%20Th%C3%BCringer%20Energie&tid=AW-1013516367&dl=https%3A%2F%2Fwww.thueringerenergie.de%2",
+     "body": ""
+    },
+    {
+     "url": "https://www.etracker.de/api/v6/tracking/webEvents",
+     "body": "--#####etrackerBoundary#####\r\nContent-Disposition: form-data; name=\"et\"\r\n\r\nJoEOKb\r\n--#####etrackerBoundary#####\r\nContent-Disposition: form-data; name=\"user_id\"\r\n\r\n9e9a45b3ebf5fae4e94b4386e62491d5\r\n--#####etrackerBoundary#####\r\nContent-Disposition: form-data; name=\"userData\"\r\n\r\n{\"productIdentifier\":null,\"pluginVersion\":null,\"tc\":17914468899096,\"trcl\":\"o\",\"cookie\":{\"blocked\":true,\"firstParty\":\"\",\"do"
+    }
+   ],
+   "textAtLoad": 4709,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen",
+    "/impressum"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen",
+    "/impressum"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-cfg-moin-ai",
+   "class": "A",
+   "feature": "unknown third-party host cfg.moin.ai",
+   "hint": "inspect",
+   "evidence": [
+    "cfg.moin.ai"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-etracker-de",
+   "class": "A",
+   "feature": "unknown third-party host www.etracker.de",
+   "hint": "inspect",
+   "evidence": [
+    "www.etracker.de"
+   ],
+   "pages": [
+    "/impressum"
+   ]
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "role": "form protection: captcha / antibot",
+   "hint": "forms",
+   "evidence": [
+    "remote.captcha.com"
+   ],
+   "pages": [
+    "/privatkunden/strom/stromtarife",
+    "/ueber_uns/unternehmen"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de",
+   "class": "I18N",
+   "feature": "locale variants de",
+   "hint": "locale",
+   "evidence": [
+    "https://apps.apple.com/de/app/teag-energiebanking/id1514429665"
+   ],
+   "pages": [
+    "/privatkunden/strom/stromtarife"
+   ]
+  },
+  {
+   "id": "s-site-search-form-default",
+   "class": "S",
+   "feature": "site search form → /default",
+   "hint": "search",
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 8
+   }
+  },
+  {
+   "id": "s-site-search-form-privatkunden-strom-stromtarife",
+   "class": "S",
+   "feature": "site search form → /privatkunden/strom/stromtarife",
+   "hint": "search",
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pages": [
+    "/privatkunden/strom/stromtarife"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 8
+   }
+  },
+  {
+   "id": "s-site-search-form-privatkunden-strom-haus-baustromanschluss",
+   "class": "S",
+   "feature": "site search form → /privatkunden/strom/haus-_-_baustromanschluss",
+   "hint": "search",
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pages": [
+    "/privatkunden/strom/haus-_-_baustromanschluss"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 8
+   }
+  },
+  {
+   "id": "s-site-search-form-ueber-uns-unternehmen",
+   "class": "S",
+   "feature": "site search form → /ueber_uns/unternehmen",
+   "hint": "search",
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pages": [
+    "/ueber_uns/unternehmen"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 8
+   }
+  },
+  {
+   "id": "s-site-search-form-impressum",
+   "class": "S",
+   "feature": "site search form → /impressum",
+   "hint": "search",
+   "evidence": [
+    "text:ctl00$tbSearch,checkbox:ctl00$ContrastModusSwitch26876$Activator$CheckBox1,text:ctl00$tbSearch2,radio:ctl00$WidgetKontakt1$rblIsCustomer,radio:ctl00$WidgetKontakt1$rblIsCustomer,text:ctl00$WidgetKontakt1$KundenNr,select:ctl00$WidgetKontakt1$ddlThema,select:ctl00$WidgetKontakt1$ddlAnfrageArt,text:ctl00$WidgetKontakt1$Vorname,text:ctl00$WidgetKontakt1$Nachname,text:ctl00$WidgetKontakt1$phone,text:ctl00$WidgetKontakt1$email"
+   ],
+   "pages": [
+    "/impressum"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 8
+   }
+  },
+  {
+   "id": "t-consent-usercentrics",
+   "class": "T",
+   "feature": "consent: Usercentrics",
+   "role": "consent: Usercentrics",
+   "hint": "tags",
+   "evidence": [
+    "web.cmp.usercentrics.eu",
+    "v1.api.service.cmp.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen",
+    "/impressum"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen",
+    "/impressum"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen",
+    "/impressum"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-code-etracker-com",
+   "class": "T",
+   "feature": "unknown third-party host code.etracker.com",
+   "hint": "inspect",
+   "evidence": [
+    "code.etracker.com"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen",
+    "/impressum"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-etracker-de",
+   "class": "T",
+   "feature": "unknown third-party host www.etracker.de",
+   "hint": "inspect",
+   "evidence": [
+    "www.etracker.de"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-widget-moin-ai",
+   "class": "T",
+   "feature": "unknown third-party host widget.moin.ai",
+   "hint": "inspect",
+   "evidence": [
+    "widget.moin.ai"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0",
+    "Chat-Einleitung Rahmen",
+    "Öffnen Chat Rahmen",
+    "Chat input field",
+    "Chatfenster"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen",
+    "/impressum"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.thueringerenergie.de/einblicke/waerme/ressourcenschonende-energieerzeugung-heizkraftwerk-gera-langenberg"
+   ],
+   "pages": [
+    "/",
+    "/privatkunden/strom/stromtarife",
+    "/privatkunden/strom/haus-_-_baustromanschluss",
+    "/ueber_uns/unternehmen",
+    "/impressum"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 8,
+  "of": 8,
+  "endpoints": {
+   "GET v1.api.service.cmp.usercentrics.eu/latest/core/qE6MEj9eWPQ8Dz": 8,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/{n}/cmp/de/GDPR/qE6MEj9eWPQ8Dz/104.94.309/104.94.309": 8,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/autoblocker/qE6MEj9eWPQ8Dz": 8,
+   "GET sgtm.thueringerenergie.de/g/collect": 8,
+   "POST www.google.com/ccm/collect": 8,
+   "POST www.google.com/rmkt/collect/{n}/": 8,
+   "POST www.thueringerenergie.de/datenschutz": 1,
+   "GET www.thueringerenergie.de/Scripts/Template.Menu.Desktop.html": 8,
+   "POST www.etracker.de/api/v6/tracking/webEvents": 2,
+   "POST consent-api.service.consent.usercentrics.eu/consent/uw/{n}": 3,
+   "POST ad.doubleclick.net/ccm/s/collect": 3,
+   "GET cfg.moin.ai/widget/config/Ho8evAJs/Ho8evAJs": 5,
+   "GET cfg.moin.ai/widget/teaser/Ho8evAJs/Ho8evAJs": 5,
+   "POST www.thueringerenergie.de/privatkunden/strom/ersatzversorgung": 1,
+   "POST www.thueringerenergie.de/privatkunden/strom/haus-_-_baustromanschluss": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 8,
+  "triggerPages": {}
+ }
+}

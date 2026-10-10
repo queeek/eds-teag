@@ -1,0 +1,190 @@
+{
+  "keyfact-cards": {
+    "origin": "#List15732 > li",
+    "build": ".three-steps.keyfacts .three-steps-step",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "protoBuild": "#List15732 > li"
+  },
+  "product-teasers": {
+    "origin": "#List15736 > li.product-teaser",
+    "build": ".product-teasers .product-teasers-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "protoBuild": "#List15736 > li.product-teaser"
+  },
+  "service-boxes": {
+    "origin": "#MainContent_Boxes16441 > li.box",
+    "build": ".info-boxes .info-boxes-box",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "protoBuild": "#MainContent_Boxes16441 > li.box"
+  },
+  "theme-teasers": {
+    "origin": "#Content .themen-section ul.teaser-list > li",
+    "build": ".photo-teasers.themes .photo-teasers-item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "protoBuild": "#Content .themen-section ul.teaser-list > li"
+  },
+  "news-posts": {
+    "origin": "#MainContent_Aktuelles9383_ulPosts > li.column",
+    "build": ".news-posts .news-posts-column",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "protoBuild": "#MainContent_Aktuelles9383_ulPosts > li.column"
+  },
+  "channel-product-cards": {
+    "origin": "#MainContent_CPMList15997 > li.box",
+    "build": ".channel-products .channel-products-list > .channel-products-card.has-image",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "privatkunden-strom-stromtarife"
+    ],
+    "templates": [
+      "program"
+    ],
+    "protoBuild": "#MainContent_CPMList15997 > li.box"
+  },
+  "fullwidth-product-teasers": {
+    "origin": "#Content .list-style-2 > li.product-teaser",
+    "build": ".product-teasers > .product-teasers-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "privatkunden-strom-stromtarife",
+      "privatkunden-strom-stromtarife-teag-strom-easie"
+    ],
+    "templates": [
+      "program"
+    ],
+    "protoBuild": "#Content .list-style-2 > li.product-teaser"
+  },
+  "faq-entries": {
+    "origin": "#MainContent_Faqs1_ListContainer li.entry",
+    "build": ".faq .faq-list > .faq-entry",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "privatkunden-strom-stromtarife",
+      "privatkunden-strom-ersatzversorgung"
+    ],
+    "templates": [
+      "program"
+    ],
+    "protoBuild": "#MainContent_Faqs1_ListContainer li.entry"
+  },
+  "keyfact-cards-program": {
+    "origin": "#List15395 > li",
+    "build": ".three-steps.keyfacts .three-steps-list > .three-steps-step",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "privatkunden-strom-stromtarife"
+    ],
+    "templates": [
+      "program"
+    ],
+    "protoBuild": "#List15395 > li"
+  },
+  "service-boxes-program": {
+    "origin": "#MainContent_Boxes15425 > li.box",
+    "build": ".service-cards .service-cards-list > .service-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "privatkunden-strom-stromtarife"
+    ],
+    "templates": [
+      "program"
+    ],
+    "protoBuild": "#MainContent_Boxes15425 > li.box"
+  },
+  "linklist-row": {
+    "origin": "section.text-modul ul.linklist > li",
+    "build": ".cta-box-text ul > li",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "privatkunden-strom-haus-baustromanschluss"
+    ],
+    "templates": [
+      "article"
+    ],
+    "protoBuild": "section.text-modul ul.linklist > li",
+    "note": "build = served EDS selector since C-deliver (archetype:privatkunden-strom-haus-baustromanschluss); protoBuild = the prototype selector"
+  },
+  "bread-crumb-item": {
+    "origin": ".bread-crumb > ul > li",
+    "build": ".breadcrumb-trail ul > li",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "privatkunden-strom-haus-baustromanschluss",
+      "privatkunden-strom-ersatzversorgung"
+    ],
+    "templates": [
+      "article"
+    ],
+    "protoBuild": ".bread-crumb > ul > li",
+    "note": "build = served EDS selector since C-deliver (archetype:privatkunden-strom-haus-baustromanschluss); protoBuild = the prototype selector"
+  },
+  "listing-image-teaser-card": {
+    "origin": "#MainContent_ulStatic30218 > li.box.image-teaser",
+    "build": ".channel-cards > .channel-cards-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "ueber-uns-unternehmen"
+    ],
+    "templates": [
+      "listing"
+    ],
+    "protoBuild": "#MainContent_ulStatic30218 > li.box.image-teaser"
+  },
+  "columns-product-teasers": {
+    "origin": "#List15736 > li.product-teaser",
+    "build": ".product-teasers.columns-2 > .product-teasers-card",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "privatkunden-strom-ersatzversorgung"
+    ],
+    "templates": [
+      "program"
+    ],
+    "protoBuild": "#List15736 > li.product-teaser",
+    "note": "ul.products.list-style-1.columns-2 (two cards) — cluster:privatkunden-strom-stromtarife; the index page keeps its own product-teasers family"
+  }
+}

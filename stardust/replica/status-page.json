@@ -1,0 +1,93 @@
+{
+  "steps": [
+    "done",
+    "done",
+    "done",
+    "progress",
+    "progress"
+  ],
+  "templates": [
+    {
+      "name": "Home page",
+      "pages": 1,
+      "desktop": "Differences remain",
+      "mobile": "Differences remain",
+      "status": "in-progress"
+    },
+    {
+      "name": "Tariff & product pages",
+      "pages": 3,
+      "desktop": "Close match",
+      "mobile": "Close match",
+      "status": "done"
+    },
+    {
+      "name": "Information pages",
+      "pages": 1,
+      "desktop": "Close match",
+      "mobile": "Close match",
+      "status": "done"
+    },
+    {
+      "name": "Overview pages",
+      "pages": 1,
+      "desktop": "Close match",
+      "mobile": "Close match",
+      "status": "done"
+    },
+    {
+      "name": "Legal pages",
+      "pages": 2,
+      "desktop": "Close match",
+      "mobile": "Close match",
+      "status": "done"
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Startseite",
+      "ready": true
+    },
+    {
+      "path": "/privatkunden/strom/stromtarife",
+      "title": "Stromtarife",
+      "ready": true
+    },
+    {
+      "path": "/privatkunden/strom/stromtarife/teag-strom-easie",
+      "title": "TEAG Strom EasiE",
+      "ready": true
+    },
+    {
+      "path": "/impressum",
+      "title": "Impressum",
+      "ready": true
+    },
+    {
+      "path": "/datenschutz",
+      "title": "Datenschutz",
+      "ready": true
+    },
+    {
+      "path": "/privatkunden/strom/haus-baustromanschluss",
+      "title": "Haus- & Baustromanschluss",
+      "ready": true
+    },
+    {
+      "path": "/privatkunden/strom/ersatzversorgung",
+      "title": "Ersatzversorgung",
+      "ready": true
+    },
+    {
+      "path": "/ueber-uns/unternehmen",
+      "title": "Unternehmen",
+      "ready": true
+    }
+  ],
+  "now": "All eight pages and the site search are live on the preview site, with every navigation and footer link checked and the structured data for search engines served exactly as on your site. Seven of the eight pages now match your current site within tolerance on both desktop and mobile, including all three tariff pages. The home page carries a social-media wall, news posts and an events calendar whose content changes on your site every day, so its comparison needs a decision from your team on how those live feeds should be handled.",
+  "next": "A short review with your team on the home page’s live feeds (keep the captured snapshot, or connect the live sources), after which the home page comparison can be closed.",
+  "attention": true,
+  "extraDone": 0,
+  "overall": "attention"
+}

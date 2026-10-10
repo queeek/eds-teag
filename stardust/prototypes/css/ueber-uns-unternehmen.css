@@ -1,0 +1,87 @@
+/* ueber-uns-unternehmen (listing page type) — per-archetype layer. Shared tokens/chrome/type/buttons/container model: canon.css (unchanged).
+   Box model: content-box everywhere (source * reset). Lifted from ScreenLess.css + live computed values (lift/ueber-uns-unternehmen.md). */
+#Content { overflow: hidden; } /* live: #Content overflow hidden */
+@media screen and (min-width: 1025px) { #PageHeader li[class*="level-1-"].active > a { background-color: #c60086; } } /* live marks the current channel (desktop only) */
+
+/* ---------- page header = list-style-3 product teaser, image right (.alternative-page-header) ---------- */
+section.page-content-section.product-teasers-modul.extra-wide { padding: 20px 0; }
+.product-teasers-modul.extra-wide > .center { margin: 20px auto; }
+.product-teasers-modul .products.list-style-3 { position: relative; padding: 20px 4% 0; margin: 0 15px; list-style: none; }
+.list-style-3 .product-teaser { position: relative; float: right; width: calc(100% - 40px); max-width: calc(100% - 40px); padding: 0 20px; font-size: var(--fs-body); line-height: 1.6; }
+.alternative-page-header .list-style-3 .product-teaser { padding-bottom: 0; height: 514.27px; /* live JS equaliser height in the font-applied state (stitch + anchor: section 614); text container stays at the top */ }
+.list-style-3 .product-teaser > div, .list-style-3 .product-teaser figure { display: block; position: static; }
+.list-style-3 .product-teaser figure picture { display: block; position: absolute; top: -20px; right: -4vw; max-width: 1220px;
+  width: calc(100% + 4vw - 491.607px); /* % = li padding box (abs child); live JS: picture spans from the text container right edge to the ul gutter = 860.8 @1440 */
+  box-shadow: 0 20px 92px -45px rgba(0, 0, 0, .65), 0 0 10px 0 rgba(0, 0, 0, .1); }
+.list-style-3 .product-teaser figure picture img { display: block; width: 100%; height: auto; }
+.list-style-3 .product-teaser figure figcaption { display: block; }
+.list-style-3 .product-teaser figure figcaption .picture-credits { bottom: 52.4px; /* pinned 1.4px above the picture bottom (li 514.27 − (483.3 − 20) − 1.4) */ right: -4vw; font-size: .8em; }
+.list-style-3 .picture-credits, .image-teaser .picture-credits { padding-right: 0; }
+.list-style-3 .picture-credits .fa + span, .image-teaser .picture-credits .fa + span { padding-right: 5px; } /* live: the box's right 5px belong to the text span (unit-geometry) */
+.list-style-3 .product-teaser figure figcaption .container { position: relative; left: 0; width: 451.607px; /* live JS-set width (1440) */ padding: 20px 40px 20px 0; text-align: left; background: #fff; }
+.list-style-3 .product-teaser figure figcaption .container > * { padding-left: 20px; }
+.list-style-3 .product-teaser figure figcaption .container > p { margin-bottom: 16px; }
+.list-style-3 .product-teaser figure figcaption .container > h2 { font-size: 3em; line-height: 1.2; font-weight: 700; margin: 0 0 5px; }
+.list-style-3 .product-teaser figure figcaption .container > .divider { margin-left: 20px; margin-bottom: 7px; background-color: transparent; }
+.list-style-3 .product-teaser figure figcaption .container .description p { margin-bottom: 16px; }
+.list-style-3 .product-teaser figure figcaption .container .description p:last-child { margin-bottom: 0; }
+
+/* ---------- breadcrumb (as baustrom) ---------- */
+.page-meta-section { padding: 20px 4% 0; }
+.page-meta-section > .center { margin: 20px 0 0; }
+.bread-crumb ul { list-style: none; }
+.bread-crumb ul li { display: inline; font-size: var(--fs-body); line-height: 1.6; }
+.bread-crumb ul li a { color: var(--c-grey-700); font-size: .9em; font-weight: 400; text-decoration: none; }
+.bread-crumb ul li a::after { content: ">"; color: var(--c-grey-700); padding: 0 6px; display: inline-block; }
+.bread-crumb ul li:last-child a::after { content: ""; }
+.bread-crumb ul li .icon { display: inline-block; margin-right: 6px; }
+.bread-crumb ul li.active a { color: var(--c-primary); }
+
+/* ---------- channel-modul: 6 image teasers, 3 columns, links as text ---------- */
+.channel-modul .modul-content > header.extra-margin-bottom { margin-bottom: 64px; }
+.channel-modul .list-container { display: contents; }
+.channel-modul .list-container .list.boxes { display: flex; flex-wrap: wrap; gap: 80px; list-style: none; }
+.channel-modul .list-container .list.boxes.columns-3 > li { width: calc(100% / 3 - 2 * 80px / 3); margin: 0; }
+.channel-modul .list-container .list.boxes > li.box { box-shadow: none; background: #fff; font-size: var(--fs-body); line-height: 1.6; }
+.channel-modul .list-container.style-links-as-text .list.boxes .link-button { display: none; }
+.box.image-teaser > a { display: block; color: #000; text-decoration: none; }
+.box.image-teaser figure { display: block; position: relative; margin: 0; }
+.box.image-teaser figure picture { display: inline; }
+.box.image-teaser img { display: block; width: 100%; height: auto; aspect-ratio: 1.64; object-fit: cover; margin: 0; float: none;
+  box-shadow: 0 20px 70px -35px rgba(0, 0, 0, .65), 0 0 10px 0 rgba(0, 0, 0, .1); }
+.box.image-teaser figcaption { display: block; padding: 30px 30px 0; color: #000; position: relative; }
+.box.image-teaser figcaption .picture-credits { bottom: auto; top: -22px; right: 0; font-size: .8em; }
+.box.image-teaser figcaption h3 { font-size: 1.3em; font-weight: 700; line-height: 1.2; margin: 0 0 30px; }
+.box.image-teaser figcaption .description { margin-bottom: 20px; }
+.box.image-teaser figcaption .description p { margin-bottom: 16px; }
+.box.image-teaser figcaption .footer .link { font-weight: 700; }
+.box.image-teaser figcaption .footer .link .link-text { display: inline; }
+.box.image-teaser figcaption .footer .link .link-text .icon { display: inline-block; margin-right: 6px; color: var(--c-primary); }
+
+/* ---------- ≤1024 ---------- */
+@media screen and (max-width: 1024px) {
+  .alternative-page-header .list-style-3 .product-teaser { margin-bottom: 50px; }
+  .list-style-3 .product-teaser figure figcaption .container > h2 { font-size: calc(2.1em + .9vw); }
+  .page-meta-section { padding-top: 0; }
+  .channel-modul .list-container .list.boxes { gap: 70px; }
+  .channel-modul .list-container .list.boxes.columns-3 > li { width: calc(100% / 2 - 70px / 2); }
+}
+/* ---------- ≤768: stacked hero card, single-column teasers ---------- */
+@media screen and (max-width: 768px) {
+  .alternative-page-header.product-teasers-modul .products.list-style-3 { padding: 20px 0 0; margin: 0; }
+  .alternative-page-header .list-style-3 .product-teaser { float: none; padding: 0 4%; width: 92%; max-width: 92%; margin: 0 0 50px; height: auto; }
+  .list-style-3 .product-teaser figure { text-align: right; }
+  .list-style-3 .product-teaser figure picture { display: inline-block; position: relative; top: -40px; right: auto; left: 0 !important; width: 100%; max-width: 731px; margin-bottom: -40px; vertical-align: bottom; }
+  .list-style-3 .product-teaser figure figcaption { text-align: left; position: relative; }
+  .list-style-3 .product-teaser figure figcaption .picture-credits { top: auto; bottom: 100%; right: 0; margin-bottom: -1.4px; } /* bottom-right corner of the image (figcaption top = image bottom) */
+  .list-style-3 .product-teaser figure figcaption .container { width: auto; padding: 10px 0; top: 1em; /* live: relative offset, no flow impact (container y = image bottom + 16.6 @360, li = 149.4 + 483.8) */ }
+  .list-style-3 .product-teaser figure figcaption .container > * { padding-left: 0; }
+  .list-style-3 .product-teaser figure figcaption .container > .divider { margin-left: 0; }
+  .channel-modul .list-container .list.boxes { gap: 65px; padding: 15px 10px 15px 5px; }
+  .channel-modul .list-container .list.boxes.columns-3 > li { width: 100%; }
+  .box.image-teaser figcaption { padding: 20px 20px 0; }
+}
+@media screen and (max-width: 414px) {
+  .list-style-3 .product-teaser figure figcaption .container > h2 { font-size: 2em; }
+  .channel-modul .list-container .list.boxes { gap: 60px; }
+}

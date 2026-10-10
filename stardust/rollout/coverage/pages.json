@@ -1,0 +1,385 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-08T11:55:40.650Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-09T15:33:08.521Z",
+  "pages": [
+    {
+      "slug": "datenschutz",
+      "path": "/datenschutz",
+      "title": "Datenschutz | TEAG Thüringer Energie",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0523012c0e4fad769187919f9bf0805eea6a31bf465b4cedf3ddfb040770ba7f",
+        "currentStatePath": "stardust/current/pages/datenschutz.json"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--dc15da58--aemcoder.aem.page/datenschutz",
+        "deployedAt": "2026-10-08T13:11:37.195Z",
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.1,
+          "heightDelta": 31,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T15:32:22.408Z"
+        }
+      }
+    },
+    {
+      "slug": "impressum",
+      "path": "/impressum",
+      "title": "Impressum | TEAG Thüringer Energie",
+      "templateId": "impressum",
+      "source": {
+        "migratedHtml": "stardust/migrated/impressum/index.html",
+        "metaJson": "stardust/migrated/impressum/_meta.json",
+        "sourceHash": "sha256:7871d538a741e9ee150967fdcdad129a9c6ae9af1ae097b6661f586989f90a6d"
+      },
+      "blocks": [
+        "breadcrumb",
+        "text-additions"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--dc15da58--aemcoder.aem.page/impressum",
+        "deployedAt": "2026-10-08T12:34:52.619Z",
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.51,
+          "heightDelta": 64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 25,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T15:32:22.408Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Startseite | TEAG Thüringer Energie",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:559f0124b491ec704c596d06048ee8136c10190d84cdd81322d8298770b7cfc3"
+      },
+      "blocks": [
+        "hero-slider",
+        "tariff-calculator",
+        "three-steps",
+        "service-cards",
+        "photo-teasers",
+        "cta-band",
+        "events",
+        "news-posts",
+        "info-boxes",
+        "social-wall"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--dc15da58--aemcoder.aem.page/",
+        "deployedAt": "2026-10-08T19:19:33.382Z",
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.51,
+          "heightDelta": 65,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": [
+              "#MainContent_Aktuelles23058_Modul=.social-wall .social-wall-columns",
+              "section.veranstaltungen=.events-container"
+            ]
+          },
+          "reasons": [
+            "units off 1 hidden 0 missing 7"
+          ],
+          "override": "PASS with a documented units-row asymmetry (units only)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T15:32:22.408Z"
+        }
+      }
+    },
+    {
+      "slug": "privatkunden-strom-ersatzversorgung",
+      "path": "/privatkunden/strom/ersatzversorgung",
+      "title": "Ersatzversorgung Strom | TEAG Thüringer Energie",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cf99c5c582f2c5f07e6986d3798aa068e61f6bfff508bb3a7dd4951e42297048",
+        "currentStatePath": "stardust/current/pages/privatkunden-strom-ersatzversorgung.json"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--dc15da58--aemcoder.aem.page/privatkunden/strom/ersatzversorgung",
+        "deployedAt": "2026-10-08T17:35:21.758Z",
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.42,
+          "heightDelta": 64,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": "PASS with a documented units-row asymmetry (units only)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T15:32:22.408Z"
+        }
+      }
+    },
+    {
+      "slug": "privatkunden-strom-haus-baustromanschluss",
+      "path": "/privatkunden/strom/haus-baustromanschluss",
+      "title": "Haus- &amp; Baustromanschluss | TEAG Thüringer Energie",
+      "templateId": "privatkunden-strom-haus-baustromanschluss",
+      "source": {
+        "migratedHtml": "stardust/migrated/privatkunden/strom/haus-_-_baustromanschluss/index.html",
+        "metaJson": "stardust/migrated/privatkunden/strom/haus-_-_baustromanschluss/_meta.json",
+        "sourceHash": "sha256:5b85ffdb2d82d8d72a2660db4b317ab1f9f2268e8eb24807f7c836ebcf2017b8"
+      },
+      "blocks": [
+        "breadcrumb",
+        "page-header-hero",
+        "cta-box"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--dc15da58--aemcoder.aem.page/privatkunden/strom/haus-baustromanschluss",
+        "deployedAt": "2026-10-08T13:47:31.123Z",
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.86,
+          "heightDelta": 60,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T15:32:22.408Z"
+        }
+      },
+      "sourcePath": "/privatkunden/strom/haus-_-_baustromanschluss"
+    },
+    {
+      "slug": "privatkunden-strom-stromtarife",
+      "path": "/privatkunden/strom/stromtarife",
+      "title": "Strompreise und Tarife | TEAG Thüringer Energie",
+      "templateId": "privatkunden-strom-stromtarife",
+      "source": {
+        "migratedHtml": "stardust/migrated/privatkunden/strom/stromtarife/index.html",
+        "metaJson": "stardust/migrated/privatkunden/strom/stromtarife/_meta.json",
+        "sourceHash": "sha256:39e6eaa216453a0d989ab88e2b24860baae61626de8e57fb88f07b683c90de9e"
+      },
+      "blocks": [
+        "page-header-hero",
+        "tariff-calculator",
+        "three-steps",
+        "service-cards",
+        "product-teasers",
+        "channel-products",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--dc15da58--aemcoder.aem.page/privatkunden/strom/stromtarife",
+        "deployedAt": "2026-10-08T15:19:35.986Z",
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.98,
+          "heightDelta": 54,
+          "clipped": 0,
+          "content": {
+            "missing": 1,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 1 / HIDDEN 0",
+            "units off 3 hidden 0 missing 8"
+          ],
+          "override": "PASS with documented probe asymmetries (content + units only)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T15:32:22.408Z"
+        }
+      }
+    },
+    {
+      "slug": "privatkunden-strom-stromtarife-teag-strom-easie",
+      "path": "/privatkunden/strom/stromtarife/teag-strom-easie",
+      "title": "Mehr Thüringen, weniger Kosten. | TEAG Thüringer Energie",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8bab387dda6d8aedf8b5341c4201cc858cdd4f5dfc7db1e3f3cd6d7f171b96d5",
+        "currentStatePath": "stardust/current/pages/privatkunden-strom-stromtarife-teag-strom-easie.json"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--dc15da58--aemcoder.aem.page/privatkunden/strom/stromtarife/teag-strom-easie",
+        "deployedAt": "2026-10-08T17:35:21.709Z",
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.79,
+          "heightDelta": 40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 4 hidden 0 missing 3"
+          ],
+          "override": "PASS with a documented units-row asymmetry (units only)",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T15:32:22.408Z"
+        }
+      }
+    },
+    {
+      "slug": "search",
+      "path": "/search",
+      "title": "Suche | TEAG Thüringer Energie",
+      "templateId": "search",
+      "source": {
+        "migratedHtml": "dynamics:search",
+        "metaJson": null,
+        "sourceHash": "sha256:43240b3767121a9aee969cf0e070b648bbec2b2faa42583d930319481c7b86eb"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "ueber-uns-unternehmen",
+      "path": "/ueber-uns/unternehmen",
+      "title": "Unternehmen | TEAG Thüringer Energie",
+      "templateId": "ueber-uns-unternehmen",
+      "source": {
+        "migratedHtml": "stardust/migrated/ueber_uns/unternehmen/index.html",
+        "metaJson": "stardust/migrated/ueber_uns/unternehmen/_meta.json",
+        "sourceHash": "sha256:322e821f6d293d6f0c7af66f0868202eec95a4e01a2ae589683323f766df6a84"
+      },
+      "blocks": [
+        "breadcrumb",
+        "photo-teasers",
+        "channel-cards"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--dc15da58--aemcoder.aem.page/ueber-uns/unternehmen",
+        "deployedAt": "2026-10-08T14:22:05.215Z",
+        "verifiedAt": "2026-10-09T15:33:08.521Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.25,
+          "heightDelta": 63,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-09T15:32:22.408Z"
+        }
+      },
+      "sourcePath": "/ueber_uns/unternehmen"
+    }
+  ]
+}

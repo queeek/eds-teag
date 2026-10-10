@@ -1,0 +1,165 @@
+/* cta-band — values from stardust/prototypes/css/canon.css (§ teaser-modul) +
+   privatkunden-strom-stromtarife.css (lift § Teaser modul). Source:
+   section.teaser-modul.coloring-background:not(.dock-to-previous-section) { padding: 20px 4vw;
+   bg purple } > .center { margin: 20px auto } > section (header h3 centred, margin-bottom .5em +
+   1em; p.description; .commands centred blue button). Eye-catcher: .center margin calc(20px + 3em)
+   auto (2.5em <= 1024), section width calc(100% - 600px), graphic 300px abs right 0
+   bottom calc(-20px - 8em). Mobile first. */
+main .section.cta-band-container {
+  padding: 20px var(--gutter);
+  color: #fff;
+  background-color: var(--c-primary);
+}
+
+main .section.cta-band-container:has(.cta-band.eye-catcher) > .cta-band-wrapper {
+  margin: calc(20px + 2.5em) auto 20px;
+}
+
+/* the next section pulls its padding-top up: calc(20px + 2em) <= 1024, calc(20px + 1em) above */
+main .section.cta-band-container:has(.cta-band.eye-catcher) + .section {
+  padding-top: calc(20px + 2em);
+}
+
+.cta-band {
+  position: relative;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.cta-band-text {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+}
+
+.cta-band-heading {
+  margin: 0 0 calc(0.5em + 16px);
+  color: #fff;
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.cta-band-text p {
+  margin: 0 0 1.5em;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+}
+
+.cta-band-text p.button-container {
+  margin: 0;
+  text-align: center;
+}
+
+/* .eye-catcher-container: 36vw at right -4vw, bottom calc(-20px - 6em) <= 1024 */
+.cta-band-eye-catcher {
+  position: absolute;
+  right: calc(-1 * var(--gutter));
+  bottom: calc(-40px - 6em);
+  z-index: 1;
+  width: 36vw;
+}
+
+.cta-band-eye-catcher picture,
+.cta-band-eye-catcher img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+@media (width >= 1025px) {
+  main .section.cta-band-container:has(.cta-band.eye-catcher) > .cta-band-wrapper {
+    margin: calc(20px + 3em) auto;
+  }
+
+  main .section.cta-band-container:has(.cta-band.eye-catcher) + .section {
+    padding-top: calc(20px + 1em);
+  }
+
+  .cta-band.eye-catcher .cta-band-text {
+    width: calc(100% - 600px);
+  }
+
+  .cta-band-eye-catcher {
+    right: 0;
+    bottom: calc(-40px - 8em);
+    width: 300px;
+  }
+}
+
+/* fix wave 2: the live band reads 22px (360) / 18px (1440) taller than the block in both
+   variants (measure.mjs section children: 318/296, 338/316, 203/186, 266/248) */
+main .cta-band {
+  padding-bottom: calc(0px + 22px);
+}
+
+@media (width >= 1025px) {
+  main .cta-band {
+    padding-bottom: calc(0px + 18px);
+  }
+}
+
+/* program-360 fix wave (measure.mjs @360): the live band's text starts 111 px under the band top
+   (135 px in the eye-catcher variant: section header + .center margin) and ends 41 px (64 px)
+   above its bottom; the block read 89 / 62 at both. The section is frozen -> pad the block. */
+@media (width <= 1024px) {
+  main .cta-band {
+    padding-top: 22px;
+    padding-bottom: 1px;
+  }
+
+  /* fix-wave-8 (home page @360, measure.mjs live vs build + crop 5750–6450): the live
+     `section.teaser-modul` is `dock-to-previous-section` — it starts 136 px before the grey
+     info-boxes section ends (5912 vs 6048), its `.center` (318) sits at the band top and the band
+     ends 40 px under it (358 tall, 222 visible); the build started the 398 px band (40 / 40
+     padding) at the grey end. The info-boxes card keeps painting over the band (z-index 1).
+     Landing page only (info-boxes + cta-band); >= 1025 untouched (fix-wave-6 measured a −52 flow
+     shift there and reverted). */
+  main .section.info-boxes-container + .section.cta-band-container {
+    position: relative;
+    margin-top: -136px;
+    padding-top: 0;
+  }
+
+  /* with padding-top 0 the wrapper's 20 px margin collapsed through the section and ate 20 px of
+     the dock (anchor.mjs: band at grey end − 117 instead of − 136); live `.center` sits at the band top */
+  main .section.info-boxes-container + .section.cta-band-container > .cta-band-wrapper {
+    margin-top: 0;
+  }
+
+  main .cta-band.eye-catcher {
+    padding-top: 0;
+    padding-bottom: 22px;
+  }
+
+  /* fix wave 3 (measure.mjs @360): live `.center` margin 44 0 puts the h3 64 px under the band top
+     (the block read 126 = wrapper 60 + padding 46); header margin-bottom 48 (block 25.6); the
+     eye-catcher reads 117 x 119 (36 % of the 331 column) with its bottom 110 px under `.center`
+     = 88 px under the padded block. */
+  main .section.cta-band-container:has(.cta-band.eye-catcher) > .cta-band-wrapper {
+    margin-top: 44px;
+  }
+
+  .cta-band.eye-catcher .cta-band-heading {
+    margin-bottom: 48px;
+  }
+
+  .cta-band.eye-catcher .cta-band-eye-catcher {
+    bottom: -88px;
+    width: 35.4%;
+  }
+}
+
+/* fix wave 11 (measure.mjs @1440, live vs served): the live home-page band is dock-to-previous-section at desktop
+   too — section.teaser-modul margin-top -136, padding-top 104 (band 3368–3735 under the info-boxes cards, .center
+   margin 20 = the wrapper's 20); the served band started at the grey end (3518–3802, 284 tall vs live 367).
+   Landing page only (info-boxes + cta-band); the info-boxes section keeps z-index 1 so the cards paint over the band. */
+@media (width >= 1025px) {
+  main .section.info-boxes-container + .section.cta-band-container {
+    position: relative;
+    margin-top: -136px;
+    padding-top: 104px;
+  }
+}

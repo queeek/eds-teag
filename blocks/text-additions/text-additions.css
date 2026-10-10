@@ -1,0 +1,238 @@
+/* text-additions — values from stardust/prototypes/css/impressum.css + canon.css
+   (lift: stardust/replica/lift/impressum.md § text modules / container model).
+   Section tier (padding 20px 4vw + wrapper margin 20px) is the foundation's; this block only
+   renders the source's 2/3 column + empty 1/3 marginal float and the module typography. */
+
+.text-additions {
+  font-size: 16px;
+}
+
+/* source .center.clear-fix */
+.text-additions::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.text-additions-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* flex items do not collapse margins: the source collapses a module's trailing p/ul margin
+   (16/20) into the next addition's margin-top 30, so drop it at every module boundary */
+.text-additions-module:not(:last-child) > :last-child {
+  margin-bottom: 0;
+}
+
+/* live <= 768: even the empty marginal float adds 30px inside the clear-fixed .center */
+.text-additions-marginal {
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* .text-modul ~ .addition.show-separation */
+.text-additions-addition {
+  border-top: 1px solid var(--c-grey-300);
+  margin-top: 30px;
+  padding-top: 25px;
+}
+
+/* .text-modul > header, ~ .addition > header { margin-bottom: 3em } at the 16px section font */
+.text-additions-module h2 {
+  font-size: calc(1em + 0.9vw);
+  line-height: 1.2;
+  margin-bottom: 48px;
+  text-align: left;
+}
+
+.text-additions-module h3 {
+  font-size: calc(1.3 * 16px + 0.08vw);
+  line-height: 1.2;
+  margin: 30px 0 16px;
+}
+
+.text-additions-module p {
+  margin-bottom: 16px;
+}
+
+/* body-text links (live datenschutz probe): rgb(135,13,135) / 400 / underline; only
+   `.page-content-section section a[href^="mailto:"]` is rgb(11,162,227) / 700 */
+.text-additions-module p a:any-link {
+  color: var(--c-primary);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.text-additions-module p a:hover {
+  color: var(--c-info);
+}
+
+.text-additions-module p a[href^='mailto:']:any-link {
+  color: var(--c-info);
+  font-weight: 700;
+}
+
+.text-additions-module p a[href^='mailto:']:hover {
+  color: var(--c-primary);
+}
+
+/* inline link-buttons sit left in their own paragraph with the paragraph margin */
+.text-additions-module p.button-wrapper {
+  margin: 0 0 16px;
+  text-align: left;
+}
+
+.text-additions-module p a.button:any-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-additions-module p a.button:hover {
+  color: #fff;
+}
+
+/* marginal column content = the source's `.marginal-column > section` (downloads module):
+   h4 topic with the purple divider, p, `ul.downloads li.icon-teag-file-pdf` rows */
+.text-additions-marginal:not(:empty) {
+  padding-bottom: 30px;
+}
+
+.text-additions-marginal h4 {
+  font-size: calc(1em + 0.9vw);
+  line-height: 1.6;
+  font-weight: 700;
+  margin: 0 0 10px;
+  padding: 0 0 5px;
+  border-bottom: 1px solid var(--c-primary);
+  text-align: left;
+}
+
+.text-additions-marginal p {
+  margin-bottom: 16px;
+}
+
+.text-additions-marginal ul {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.text-additions-marginal ul li {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+}
+
+/* teag-2017 "z" = icon-teag-file-pdf */
+.text-additions-marginal ul li::before {
+  content: 'z';
+  font-family: "teag-2017", sans-serif;
+  display: inline-block;
+  flex-shrink: 0;
+  width: 28px;
+  font-size: 20px;
+  color: var(--c-primary);
+}
+
+.text-additions-marginal ul li a:any-link {
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  max-width: calc(100% - 28px);
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.text-additions-marginal ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ul.linklist (items are single links) and ul.benefit (plain items, source
+   `section ul.benefit li`: checkmark-pos.svg left 6px / 20px, padding-left 28) */
+.text-additions-module ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.text-additions-module ul:not(:has(a), :last-child) {
+  margin-bottom: 1.6em;
+}
+
+.text-additions-module ul li:not(:has(a)) {
+  padding: 0 0 0 28px;
+  color: #000;
+  background: url('./checkmark-pos.svg') left 6px / 20px no-repeat;
+}
+
+.text-additions-module ul li a:any-link {
+  display: inline-block;
+  padding-left: 25px;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+  background: url('./arrow-right.svg') left 5px / 17px no-repeat;
+}
+
+/* external links carry the teag-2017 "I" glyph (source .icon-icons-link-external) */
+.text-additions-module a[href^='http']:not([href*='thueringerenergie.de'])::after {
+  content: 'I';
+  font-family: "teag-2017", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -3px 0 0 6px;
+  color: var(--c-primary);
+}
+
+.text-additions-module a.button::after {
+  color: #fff;
+}
+
+/* source #Content { overflow: hidden }: the 388px link-button overflows the 331px column at 360
+   on the source too and is clipped at the viewport edge, never a horizontal scrollbar */
+main .section.text-additions-container {
+  overflow: hidden;
+}
+
+/* block variant "flush-top" (datenschutz): the first module sits flush under the breadcrumb
+   section; the archetype's 25px module top padding (variance-probe) does not apply */
+.text-additions.flush-top .text-additions-default {
+  padding-top: 0;
+}
+
+/* section style "separator" = source .page-content-section.with-section-seperator */
+.text-additions-container.separator {
+  padding-top: 0;
+}
+
+.text-additions-container.separator .text-additions-wrapper {
+  margin-top: 0;
+}
+
+.text-additions-container.separator .text-additions-column {
+  border-top: 1px solid var(--c-grey-300);
+  padding-top: 20px;
+}
+
+.text-additions-container.separator .text-additions-marginal {
+  padding-top: 20px;
+}
+
+@media (width >= 1025px) {
+  .text-additions-column {
+    float: left;
+    width: 66%;
+    margin-right: 2%;
+  }
+
+  .text-additions-marginal {
+    float: right;
+    width: 32%;
+    margin-top: 0;
+  }
+}

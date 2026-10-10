@@ -1,0 +1,86 @@
+{
+  "media/privatkunden-strom-stromtarife-teag-strom-easie/4746b93b-pg-d-100.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/fix-wave-14-easie/media-live/4746B93B73FD4202A556D975780C6D15_PG_D_rdax_100s@1.jpg",
+    "size": 249908,
+    "sha256": "52a82555e029a44c273c9aec1631df2b331553374f9d1cd64b619c9a3fec56ac",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/dc15da58/media/privatkunden-strom-stromtarife-teag-strom-easie/4746b93b-pg-d-100.jpg",
+    "httpStatus": 200,
+    "attempts": 1,
+    "ts": "2026-10-09T12:56:24.610Z"
+  },
+  "media/privatkunden-strom-stromtarife-teag-strom-easie/4746b93b-pg-s-100.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/fix-wave-14-easie/media-live/4746B93B73FD4202A556D975780C6D15_PG_S_rdax_100s@1.jpg",
+    "size": 30716,
+    "sha256": "5e2315eb752efb5b1ea93b58c67e6c8f87760b6792e3c66f730ed1f436878c26",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/dc15da58/media/privatkunden-strom-stromtarife-teag-strom-easie/4746b93b-pg-s-100.jpg",
+    "httpStatus": 200,
+    "attempts": 1,
+    "ts": "2026-10-09T12:56:24.982Z"
+  },
+  "media/privatkunden-strom-stromtarife-teag-strom-easie/d3cefbfc-pt2-d-1740x1055.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/fix-wave-14-easie/media-live/D3CEFBFC3A5D4A9BBFE3BDA0D2159850_PT2_D_rdax_1740x1056s@1.jpg",
+    "size": 84455,
+    "sha256": "4690cab70328c54f0a8d48439d20ca1793ebcb6e182d5a70a5ed4768086cd6ad",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/dc15da58/media/privatkunden-strom-stromtarife-teag-strom-easie/d3cefbfc-pt2-d-1740x1055.jpg",
+    "httpStatus": 200,
+    "attempts": 1,
+    "ts": "2026-10-09T12:56:25.089Z"
+  },
+  "media/privatkunden-strom-stromtarife-teag-strom-easie/4746b93b-pg-t-100.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/fix-wave-14-easie/media-live/4746B93B73FD4202A556D975780C6D15_PG_T_rdax_100s@1.jpg",
+    "size": 91709,
+    "sha256": "eca3171e56af540f172270a0b1aa2db4687a6a0d3adddfa30e3a084e566d9438",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/dc15da58/media/privatkunden-strom-stromtarife-teag-strom-easie/4746b93b-pg-t-100.jpg",
+    "httpStatus": 200,
+    "attempts": 1,
+    "ts": "2026-10-09T12:56:25.136Z"
+  },
+  "media/privatkunden-strom-stromtarife-teag-strom-easie/d3cefbfc-pt2-s.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/fix-wave-14-easie/media-live/D3CEFBFC3A5D4A9BBFE3BDA0D2159850_PT2_S@1.jpg",
+    "size": 119725,
+    "sha256": "1367ccac31a8e455c972d1253dd7f5a7e03c083591b36417219ed3dba66f7dcc",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/dc15da58/media/privatkunden-strom-stromtarife-teag-strom-easie/d3cefbfc-pt2-s.jpg",
+    "httpStatus": 200,
+    "attempts": 1,
+    "ts": "2026-10-09T12:56:25.369Z"
+  },
+  "media/privatkunden-strom-stromtarife-teag-strom-easie/d3cefbfc-pt2-d.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/fix-wave-14-easie/media-live/D3CEFBFC3A5D4A9BBFE3BDA0D2159850_PT2_D@1.jpg",
+    "size": 178346,
+    "sha256": "9a9f8e04168114072e6424ebccf20279748f65e3ba5c9402b595acc774abdf2b",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/dc15da58/media/privatkunden-strom-stromtarife-teag-strom-easie/d3cefbfc-pt2-d.jpg",
+    "httpStatus": 200,
+    "attempts": 1,
+    "ts": "2026-10-09T12:56:25.406Z"
+  },
+  "media/privatkunden-strom-stromtarife-teag-strom-easie/eb19a1a2-m-a-100.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/fix-wave-14-easie/media-live/EB19A1A21E3645B8A0E92E6A030D62C5_M_A_rdax_100s@1.jpg",
+    "size": 47512,
+    "sha256": "299b87e032a1f3bf973b19f204987767b94fddebcc184b4cacb03d7ab8c9eaa8",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/dc15da58/media/privatkunden-strom-stromtarife-teag-strom-easie/eb19a1a2-m-a-100.jpg",
+    "httpStatus": 200,
+    "attempts": 1,
+    "ts": "2026-10-09T12:56:25.643Z"
+  }
+}

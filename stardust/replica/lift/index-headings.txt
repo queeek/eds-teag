@@ -1,0 +1,26 @@
+0	{"tag":"h2","text":"TEAG-Strom plus Smartwatch"}
+1	{"tag":"h2","text":"Darum Energie von der TEAG"}
+2	{"tag":"h3","text":"Überall"}
+3	{"tag":"h3","text":"Einfach"}
+4	{"tag":"h3","text":"Sicher"}
+5	{"tag":"h2","text":"Stromtarife im Überblick"}
+6	{"tag":"h2","text":"Erdgastarife im Überblick"}
+7	{"tag":"h3","text":"Ihr Wechsel zur TEAG - einfach und schnell"}
+8	{"tag":"h4","text":"Preisvorteil berechnen"}
+9	{"tag":"h4","text":"Einfach online bestellen"}
+10	{"tag":"h4","text":"Wir übernehmen den Rest"}
+11	{"tag":"h3","text":"Sie haben Fragen?"}
+12	{"tag":"h3","text":"Netzstörung?"}
+13	{"tag":"h3","text":"Rückruf vereinbaren"}
+14	{"tag":"h3","text":"Auf einen Blick"}
+15	{"tag":"h3","text":"Überzeugt? Dann gleich wechseln."}
+16	{"tag":"h2","text":"Thüringer Energie. Für Sie."}
+17	{"tag":"h3","text":"Tag der offenen Tür 2026 bei der TEAG-Gruppe"}
+18	{"tag":"h3","text":"Sonderausstellung: Vom Umspannwerk Jena-Nord zur Imaginata"}
+19	{"tag":"h3","text":"Barrierefreiheit bei der TEAG"}
+20	{"tag":"h2","text":"News & Presse."}
+21	{"tag":"h2","text":"Social Media Wall."}
+22	{"tag":"h2","text":"Veranstaltungen."}
+23	{"tag":"h3","text":"Kontakt"}
+24	{"tag":"h3","text":"Folgen Sie uns auf"}
+25	{"tag":"h3","text":"TEAG-Newsletter"}

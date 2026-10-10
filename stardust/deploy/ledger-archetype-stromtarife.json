@@ -1,0 +1,11 @@
+{
+  "/privatkunden/strom/stromtarife": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T17:34:53.768Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

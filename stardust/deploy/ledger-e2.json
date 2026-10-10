@@ -1,0 +1,38 @@
+{
+  "/datenschutz": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:40:54.436Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:40:54.436Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:40:58.936Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privatkunden/strom/ersatzversorgung": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-08T20:40:59.403Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

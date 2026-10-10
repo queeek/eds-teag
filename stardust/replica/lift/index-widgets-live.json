@@ -1,0 +1,986 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-10-08T08:53:19.998Z",
+    "urls": [
+      "https://www.thueringerenergie.de/default"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      "#Widgets",
+      "#Widgets > ul",
+      "#Widgets li.widget-1",
+      "#Widgets li.widget-1 > a.shadow",
+      "#Widgets li.widget-1 > a.shadow .icon",
+      "#Widgets li.widget-1 > a.shadow .title",
+      "#Widgets li.widget-2 > a.shadow",
+      "#Widgets li.widget-2 > a.shadow .icon",
+      "#Widgets li.widget-1 > .container",
+      "#usercentrics-root",
+      "#uc-center-container",
+      ".moin-ai-button",
+      "[class*=moin]"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    "#Widgets",
+    "#Widgets > ul",
+    "#Widgets li.widget-1",
+    "#Widgets li.widget-1 > a.shadow",
+    "#Widgets li.widget-1 > a.shadow .icon",
+    "#Widgets li.widget-1 > a.shadow .title",
+    "#Widgets li.widget-2 > a.shadow",
+    "#Widgets li.widget-2 > a.shadow .icon",
+    "#Widgets li.widget-1 > .container",
+    "#usercentrics-root",
+    "#uc-center-container",
+    ".moin-ai-button",
+    "[class*=moin]"
+  ],
+  "root": {
+    "https://www.thueringerenergie.de/default": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 16840,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 8820,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.thueringerenergie.de/default": {
+      "360": {
+        "#Widgets": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Service Unser Online-Service Zählerstan…",
+            "props": {
+              "display": "none",
+              "position": "fixed",
+              "boxSizing": "content-box",
+              "width": "100%",
+              "height": "0px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets > ul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Service Unser Online-Service Zählerstan…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Service Unser Online-Service Zählerstan…",
+            "props": {
+              "display": "list-item",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "100%",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16.288px",
+              "fontWeight": "400",
+              "lineHeight": "26.0608px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1 > a.shadow": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Service",
+            "props": {
+              "display": "none",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "25px",
+              "height": "80px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(11, 162, 227)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1 > a.shadow .icon": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "17px",
+              "fontWeight": "700",
+              "lineHeight": "80px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1 > a.shadow .title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Service",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-2 > a.shadow": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Login",
+            "props": {
+              "display": "none",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "25px",
+              "height": "80px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(11, 162, 227)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-2 > a.shadow .icon": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "17px",
+              "fontWeight": "700",
+              "lineHeight": "80px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1 > .container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Unser Online-Service Zählerstand melden…",
+            "props": {
+              "display": "none",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "100%",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16.288px",
+              "fontWeight": "400",
+              "lineHeight": "26.0608px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#usercentrics-root": [],
+        "#uc-center-container": [],
+        ".moin-ai-button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 270,
+              "y": 810,
+              "w": 85,
+              "h": 85
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "85px",
+              "height": "85px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[class*=moin]": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 668,
+              "w": 360,
+              "h": 227
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "360px",
+              "height": "227px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "#Widgets": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": -560,
+              "y": 197,
+              "w": 0,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "fixed",
+              "boxSizing": "content-box",
+              "width": "0px",
+              "height": "0px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets > ul": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": -560,
+              "y": 197,
+              "w": 0,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "content-box",
+              "width": "0px",
+              "height": "0px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": -560,
+              "y": 197,
+              "w": 560,
+              "h": 625
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "list-item",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "560px",
+              "height": "625px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "17.152px",
+              "fontWeight": "400",
+              "lineHeight": "27.4432px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1 > a.shadow": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 357,
+              "w": 25,
+              "h": 80
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "25px",
+              "height": "80px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(11, 162, 227)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1 > a.shadow .icon": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 357,
+              "w": 25,
+              "h": 80
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "25px",
+              "height": "80px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "17px",
+              "fontWeight": "700",
+              "lineHeight": "80px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1 > a.shadow .title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Service",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-2 > a.shadow": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 447,
+              "w": 25,
+              "h": 80
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "25px",
+              "height": "80px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(11, 162, 227)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "700",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-2 > a.shadow .icon": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 447,
+              "w": 25,
+              "h": 80
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "25px",
+              "height": "80px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "17px",
+              "fontWeight": "700",
+              "lineHeight": "80px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#Widgets li.widget-1 > .container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Unser Online-Service Zählerstand melden…",
+            "props": {
+              "display": "none",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "560px",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "17.152px",
+              "fontWeight": "400",
+              "lineHeight": "27.4432px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "rgba(0, 0, 0, 0.2) 0px 0px 10px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#usercentrics-root": [],
+        "#uc-center-container": [],
+        ".moin-ai-button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1350,
+              "y": 810,
+              "w": 85,
+              "h": 85
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "85px",
+              "height": "85px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "[class*=moin]": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 975,
+              "y": 699,
+              "w": 460,
+              "h": 196
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "content-box",
+              "width": "460px",
+              "height": "196px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Segoe UI\", \"Noto Sans\", \"San Francisco\", Roboto, Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
