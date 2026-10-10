@@ -1,5 +1,5 @@
 # Your Project's Title...
-Your project's description...
+EDS TEAG POC
 
 ## Environments
 - Preview: https://main--eds-teag--queeek.aem.page/
